@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,6,10,11,18|🇺🇸_US_美国_25
+  name: 0,3,6,10,11,18|🇺🇸_US_美国_25
   network: ws
   port: 80
   server: singapore.com
@@ -27,7 +27,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '0,3,6|🇺🇸_US_美国 #9'
+  name: '0,3,6,10|美国 CloudFlare节点 #2'
   network: ws
   port: 80
   server: sbl2.shabijichang.com
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,6,12|🇺🇸_US_美国 #12'
+  name: '0,3,6,12|🇺🇸_US_美国 #12'
   network: ws
   port: 80
   server: ns1.v2-vip.fun
@@ -122,7 +122,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '2,3,4|🇺🇸_US_美国 #4'
+  name: '2,4|🇺🇸_US_美国 #4'
   network: ws
   port: 8080
   server: 94.131.10.135
@@ -164,19 +164,6 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸 _US_美国 #4'
-  network: ws
-  port: '2092'
-  server: Telegram-Channel.hkaa0_MT.66688888.xyz
-  tls: false
-  type: vmess
-  uuid: 9504f6d1-160e-495e-e32d-7c0b8b1f704b
-  ws-opts:
-    headers:
-      Host: Telegram-Channel.hkaa0_MT.66688888.xyz
-    path: /telegram:@hkaa0
-- alterId: 0
-  cipher: auto
   name: '7,8|🇺🇸 United States 01 @nodpai #1'
   network: ws
   port: 8080
@@ -199,7 +186,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5313542d-2634-4d4f-a7d2-fcb2c07020c8
+  uuid: a7b0c11b-fc56-40a9-b50c-530d96bfdf81
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -209,7 +196,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5313542d-2634-4d4f-a7d2-fcb2c07020c8
+  uuid: a7b0c11b-fc56-40a9-b50c-530d96bfdf81
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -219,101 +206,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5313542d-2634-4d4f-a7d2-fcb2c07020c8
-- alterId: 0
-  cipher: auto
-  name: 10|美国 CloudFlare节点
-  network: ws
-  port: 2086
-  server: join4.vmessprotocol.sbs
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #1'
-  network: ws
-  port: 8080
-  server: us-new04.gujuji.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f703b512-75a3-4339-bf71-fd2741343fc0
-  ws-opts:
-    headers:
-      Host: us-new04.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: us-new02.gujuji.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f703b512-75a3-4339-bf71-fd2741343fc0
-  ws-opts:
-    headers:
-      Host: us-new02.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10,12|US美国(mibei77.com 米贝节点分享) #3'
-  network: ws
-  port: '2095'
-  server: mehdi12.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12741de7-7601-4985-980e-67a80f20e1c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: 10|美国 v2rayfree.eu.org
-  network: tcp
-  port: '20055'
-  server: sg7.ip8.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dda6aa8e-16e0-46d4-cd39-b611835d6c3d
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: sg01.baiyunxray.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4d59f07b-1f9a-4ca6-94c2-64e0595e2295
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 12
-  network: ws
-  port: '2052'
-  server: mehdi9.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d68585a6-fb62-4f8e-96ee-0131bb4d5865
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@FORWARDV2RAY
+  uuid: a7b0c11b-fc56-40a9-b50c-530d96bfdf81
 - alterId: 0
   cipher: auto
   name: 10,11|github.com/freefq - 美国  2
@@ -330,20 +223,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare节点 6
-  network: ws
-  port: 8080
-  server: cdn1.shaniugpt.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4081c7e0-0b9b-434f-82f4-3a657636f65b
-  ws-opts:
-    headers:
-      Host: yyjc-us1.shaniugpt.top
-    path: /20231217
-- alterId: 0
-  cipher: auto
   name: 10,11|github.com/freefq - 美国  6
   network: ws
   port: '22050'
@@ -358,46 +237,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 17
+  name: 10,11|github.com/freefq - 美国CloudFla...
   network: ws
-  port: '8080'
-  server: 104.16.3.189
-  servername: ''
-  tls: false
+  port: '443'
+  server: 1208.ssfree.ru
+  tls: true
   type: vmess
-  uuid: a60e5632-3069-415b-9ddc-cb0b3fabdafa
+  uuid: 800c9064-9dbe-11ee-b41b-00163e49219e
   ws-opts:
     headers:
-      Host: p.l.vpn.whal.whaleproject.tech
-    path: /@vpn_whal
+      Host: ''
+    path: /search
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 22
+  name: '10|美国 CloudFlare节点 #1'
   network: ws
-  port: '8080'
-  server: us-new01.gujuji.top
+  port: 2086
+  server: 172.67.229.34
   servername: ''
   tls: false
   type: vmess
-  uuid: 32e86c0c-0be1-48e1-98e9-31ae4b897f33
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: us-new01.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 26
-  network: ws
-  port: '80'
-  server: cp2.colacloud.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2430a610-4898-4b45-b341-f9ab4d498f52
-  ws-opts:
-    headers:
-      Host: cf-bxss.colacloud.site
-    path: /sssddd
+      Host: ca6.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
   name: 10,11|github.com/freefq - 美国  1
@@ -412,46 +276,6 @@ proxies:
     headers:
       Host: muran-kr.qrfly.me
     path: /
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare节点 37
-  network: ws
-  port: '8080'
-  server: us-new03.gujuji.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f703b512-75a3-4339-bf71-fd2741343fc0
-  ws-opts:
-    headers:
-      Host: us-new03.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare节点 43
-  network: ws
-  port: '2082'
-  server: us-02.jikuai.xyz
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: us-02.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: '443'
-  server: 1208.ssfree.ru
-  tls: true
-  type: vmess
-  uuid: 800c9064-9dbe-11ee-b41b-00163e49219e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /search
 - alterId: 0
   cipher: auto
   name: 12|US美国(mibei77.com 米贝节点分享)
@@ -588,18 +412,18 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸|US|美国|@wxgqlfx|172
+  name: '12|US美国(mibei77.com 米贝节点分享) #3'
   network: ws
-  port: '2086'
-  server: 95.164.44.203
+  port: '2095'
+  server: mehdi12.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   servername: ''
   tls: false
   type: vmess
-  uuid: 6f0cca5e-cf21-4279-871e-ca26d9c955a0
+  uuid: 12741de7-7601-4985-980e-67a80f20e1c2
   ws-opts:
     headers:
-      Host: internet.life.com.by
-    path: /vmess
+      Host: ''
+    path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-172.233.188....
@@ -684,7 +508,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2efd464-87e0-4ffc-a2fe-d2bb5579afd8
+  uuid: 5e437a01-fecb-4b51-9106-1b8bfdb57930
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -694,7 +518,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2efd464-87e0-4ffc-a2fe-d2bb5579afd8
+  uuid: 5e437a01-fecb-4b51-9106-1b8bfdb57930
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -704,7 +528,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2efd464-87e0-4ffc-a2fe-d2bb5579afd8
+  uuid: 5e437a01-fecb-4b51-9106-1b8bfdb57930
 - alterId: 64
   cipher: auto
   name: 14|🇸🇬 新加坡3|@ripaojiedian
