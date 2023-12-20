@@ -40,9 +40,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,6,10|美国CloudFlare公司CDN节点 10
+  name: '0,3,6|🇺🇸_US_美国 #3'
   network: ws
-  port: '80'
+  port: 80
   server: singapore.com
   tls: false
   type: vmess
@@ -105,21 +105,6 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 United States 01 @nodpai #1'
-  network: ws
-  port: 8080
-  server: hytron.io
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  ws-opts:
-    headers:
-      Host: hytron.io
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -127,7 +112,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a7bcd6c2-3e99-44a6-8ef6-ad3978d7b3cb
+  uuid: c8e03e41-9289-4bd0-bf3f-cbb0f6ca759d
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -137,7 +122,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a7bcd6c2-3e99-44a6-8ef6-ad3978d7b3cb
+  uuid: c8e03e41-9289-4bd0-bf3f-cbb0f6ca759d
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -147,47 +132,35 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a7bcd6c2-3e99-44a6-8ef6-ad3978d7b3cb
+  uuid: c8e03e41-9289-4bd0-bf3f-cbb0f6ca759d
+- alterId: 64
+  cipher: auto
+  name: 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
+  network: ws
+  port: '443'
+  server: 192.74.245.233
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac9d75fa-cdf8-4ace-8012-3fcd9bc989b9
+  ws-opts:
+    headers:
+      Host: www.87238975.xyz
+    path: /path/1702820136611
 - alterId: 0
   cipher: auto
   name: 10|美国 CloudFlare节点
   network: ws
-  port: '8080'
-  server: cf.openxai.link
-  tls: false
-  type: vmess
-  uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc
-  ws-opts:
-    headers:
-      Host: eu5.openxai.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: adenc35.fixedlfoat.top
-  tls: true
-  type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-  ws-opts:
-    headers:
-      Host: adenc35.fixedlfoat.top
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 3
-  network: ws
-  port: '2052'
-  server: mehdi17.forwardv2raytelegramchannel.fun
+  port: '80'
+  server: cf-lt.sharecentre.online
   servername: ''
   tls: false
   type: vmess
-  uuid: d68585a6-fb62-4f8e-96ee-0131bb4d5865
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
   ws-opts:
     headers:
-      Host: ''
-    path: /@FORWARDV2RAY
+      Host: ssrsub.v004.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 10,11|github.com/freefq - 美国  7
@@ -446,7 +419,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4b2a6b55-545f-4283-974c-54c7ba884905
+  uuid: 3716934e-3c9f-4676-93c3-09f94a9dc5ab
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -456,7 +429,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4b2a6b55-545f-4283-974c-54c7ba884905
+  uuid: 3716934e-3c9f-4676-93c3-09f94a9dc5ab
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -466,7 +439,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4b2a6b55-545f-4283-974c-54c7ba884905
+  uuid: 3716934e-3c9f-4676-93c3-09f94a9dc5ab
 - alterId: 0
   cipher: auto
   name: 14|🇹🇼 台湾2|@ripaojiedian
@@ -517,7 +490,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: a63efed9-8ca3-4664-b0dc-7d9b86fe0eb0
+  uuid: b8c1d239-f83a-41fd-900e-31f500dbf563
   ws-opts:
     headers:
       Host: ''
@@ -530,7 +503,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: a63efed9-8ca3-4664-b0dc-7d9b86fe0eb0
+  uuid: b8c1d239-f83a-41fd-900e-31f500dbf563
   ws-opts:
     headers:
       Host: ''
@@ -543,7 +516,7 @@ proxies:
   server: gdct002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: a63efed9-8ca3-4664-b0dc-7d9b86fe0eb0
+  uuid: b8c1d239-f83a-41fd-900e-31f500dbf563
   ws-opts:
     headers:
       Host: ''
@@ -556,7 +529,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: a63efed9-8ca3-4664-b0dc-7d9b86fe0eb0
+  uuid: b8c1d239-f83a-41fd-900e-31f500dbf563
   ws-opts:
     headers:
       Host: ''
@@ -569,7 +542,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: a63efed9-8ca3-4664-b0dc-7d9b86fe0eb0
+  uuid: b8c1d239-f83a-41fd-900e-31f500dbf563
   ws-opts:
     headers:
       Host: ''
@@ -582,7 +555,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: a63efed9-8ca3-4664-b0dc-7d9b86fe0eb0
+  uuid: b8c1d239-f83a-41fd-900e-31f500dbf563
   ws-opts:
     headers:
       Host: ''
