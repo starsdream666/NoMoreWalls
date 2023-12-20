@@ -175,10 +175,11 @@ proxies:
     path: /argo-vmess?ed=2048
 - alterId: 0
   cipher: auto
-  name: '2,4|🇺🇸_US_美国->🇦🇺_AU_澳大利亚 #1'
+  name: 2,4,12|加拿大 256
   network: ws
   port: 2082
   server: au-01.jikuai.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
