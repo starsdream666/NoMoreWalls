@@ -138,7 +138,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8952f076-3630-4c51-ab09-686f504578f7
+  uuid: bc891b10-ee80-4406-bc46-68431bf0fb36
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -148,7 +148,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8952f076-3630-4c51-ab09-686f504578f7
+  uuid: bc891b10-ee80-4406-bc46-68431bf0fb36
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -158,7 +158,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8952f076-3630-4c51-ab09-686f504578f7
+  uuid: bc891b10-ee80-4406-bc46-68431bf0fb36
 - alterId: 0
   cipher: auto
   name: 10|美国 v2rayfree.eu.org
@@ -174,10 +174,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare节点 14
+  name: 10,11|github.com/freefq - 美国CloudFla...
   network: ws
-  port: 80
+  port: '80'
   server: cf-lt.sharecentre.online
+  servername: ''
   tls: false
   type: vmess
   uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
@@ -268,7 +269,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11|github.com/freefq - 美国CloudFla...
+  name: 10|美国CloudFlare公司CDN节点 10
   network: ws
   port: 80
   server: zula.ir
@@ -344,20 +345,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: 12|_US_美国_33（ccbaohe.com）免费机场节点
-  network: ws
-  port: 443
-  server: 92.223.107.45
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
@@ -485,7 +472,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bc4dd9f9-eae9-4bbd-8db7-0eac493d783b
+  uuid: caa8966a-603e-4fe0-87f3-0feca806d3c3
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -495,7 +482,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bc4dd9f9-eae9-4bbd-8db7-0eac493d783b
+  uuid: caa8966a-603e-4fe0-87f3-0feca806d3c3
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -505,7 +492,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bc4dd9f9-eae9-4bbd-8db7-0eac493d783b
+  uuid: caa8966a-603e-4fe0-87f3-0feca806d3c3
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -552,7 +539,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ebb5d48d-84d8-44ff-95bf-4b67d63f0810
+  uuid: cbfaabba-9bff-4950-b607-df634cdd0f7b
   ws-opts:
     headers:
       Host: ''
@@ -565,7 +552,7 @@ proxies:
   server: gdct002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ebb5d48d-84d8-44ff-95bf-4b67d63f0810
+  uuid: cbfaabba-9bff-4950-b607-df634cdd0f7b
   ws-opts:
     headers:
       Host: ''
@@ -578,7 +565,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ebb5d48d-84d8-44ff-95bf-4b67d63f0810
+  uuid: cbfaabba-9bff-4950-b607-df634cdd0f7b
   ws-opts:
     headers:
       Host: ''
@@ -591,7 +578,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ebb5d48d-84d8-44ff-95bf-4b67d63f0810
+  uuid: cbfaabba-9bff-4950-b607-df634cdd0f7b
   ws-opts:
     headers:
       Host: ''
@@ -604,7 +591,7 @@ proxies:
   server: gdct002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ebb5d48d-84d8-44ff-95bf-4b67d63f0810
+  uuid: cbfaabba-9bff-4950-b607-df634cdd0f7b
   ws-opts:
     headers:
       Host: ''
@@ -617,7 +604,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ebb5d48d-84d8-44ff-95bf-4b67d63f0810
+  uuid: cbfaabba-9bff-4950-b607-df634cdd0f7b
   ws-opts:
     headers:
       Host: ''
