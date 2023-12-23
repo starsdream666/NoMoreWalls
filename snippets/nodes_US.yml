@@ -134,7 +134,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bc18222a-b9a6-4fd8-8a8a-ab0e516fd03b
+  uuid: 55b03180-cfd0-4ac1-af98-952d648b6a15
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -144,7 +144,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bc18222a-b9a6-4fd8-8a8a-ab0e516fd03b
+  uuid: 55b03180-cfd0-4ac1-af98-952d648b6a15
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -154,7 +154,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bc18222a-b9a6-4fd8-8a8a-ab0e516fd03b
+  uuid: 55b03180-cfd0-4ac1-af98-952d648b6a15
 - alterId: 0
   cipher: auto
   name: 10,11|github.com/freefq - 美国  9
@@ -428,7 +428,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ec8418dd-fecb-4fd6-891f-b88808a66d8e
+  uuid: 1a33f0a8-3b0f-4050-bb5c-0e5eb57dad2e
   ws-opts:
     headers:
       Host: ''
@@ -441,7 +441,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ec8418dd-fecb-4fd6-891f-b88808a66d8e
+  uuid: 1a33f0a8-3b0f-4050-bb5c-0e5eb57dad2e
   ws-opts:
     headers:
       Host: ''
@@ -454,7 +454,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ec8418dd-fecb-4fd6-891f-b88808a66d8e
+  uuid: 1a33f0a8-3b0f-4050-bb5c-0e5eb57dad2e
   ws-opts:
     headers:
       Host: ''
@@ -467,7 +467,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ec8418dd-fecb-4fd6-891f-b88808a66d8e
+  uuid: 1a33f0a8-3b0f-4050-bb5c-0e5eb57dad2e
   ws-opts:
     headers:
       Host: ''
@@ -480,7 +480,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ec8418dd-fecb-4fd6-891f-b88808a66d8e
+  uuid: 1a33f0a8-3b0f-4050-bb5c-0e5eb57dad2e
   ws-opts:
     headers:
       Host: ''
@@ -493,7 +493,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: ec8418dd-fecb-4fd6-891f-b88808a66d8e
+  uuid: 1a33f0a8-3b0f-4050-bb5c-0e5eb57dad2e
   ws-opts:
     headers:
       Host: ''
