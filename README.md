@@ -8,8 +8,6 @@
 
 为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
 
-**消灭法西斯主义万岁！消灭军国主义万岁！**
-
 ## 关于 Google Play 等服务在国内无法使用的解决方法
 
 由于 Google 调整了服务器安排，将原有的国外服务器的**域名**调整到了国内专版，但是**服务器**还没跟上，导致 Google Play 等服务在国内连上的是**空域名**，直接不能用了。当前的解决办法有：
@@ -40,12 +38,11 @@
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+- [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.txt)
+- [FastGit](https://raw.fgit.cf/peasoft/NoMoreWalls/master/list.txt)
 
 以下加速链接可能无效：
-- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [Statically CDN](https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/list.txt)
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.txt)
-- [GhProxy.com](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 或添加 Clash 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
@@ -53,12 +50,11 @@
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
+- [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.yml)
+- [FastGit](https://raw.fgit.cf/peasoft/NoMoreWalls/master/list.yml)
 
 以下加速链接可能无效：
-- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [Statically CDN](https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/list.yml)
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.yml)
-- [GhProxy.com](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 
 ## 免责声明
 
