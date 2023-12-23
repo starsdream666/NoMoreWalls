@@ -62,9 +62,9 @@ ABFURLS = (
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
-    "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
+    # "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
     "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
-    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    # "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "https://anti-ad.net/adguard.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt",
     "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
@@ -624,14 +624,15 @@ def raw2fastly(url: str) -> str:
     # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
     # 2023/06/28: ghproxy.com 似乎有速率或并发限制，改回原来的镜像
     # 2023/10/01: ghproxy.net tcping 有大量丢包，且之前出现过证书未续期的问题，改掉
-    # url = url[34:].split('/')
-    # url[1] += '@'+url[2]
-    # del url[2]
-    # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
-    # return url
+    # 2023/12/23: 全都废了
     if not LOCAL: return url
     if url.startswith("https://raw.githubusercontent.com/"):
-        return "https://ghproxy.com/"+url
+        url = url[34:].split('/')
+        url[1] += '@'+url[2]
+        del url[2]
+        url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
+        return url
+    #     return "https://ghproxy.com/"+url
     return url
 
 def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
