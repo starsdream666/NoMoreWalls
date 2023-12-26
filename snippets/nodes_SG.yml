@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2d51bb7f-3f0a-48f0-ad3e-0dffdb0fe5ae
+  uuid: 1c4997a6-dc9d-46c9-828d-839909ec033e
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2d51bb7f-3f0a-48f0-ad3e-0dffdb0fe5ae
+  uuid: 1c4997a6-dc9d-46c9-828d-839909ec033e
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2d51bb7f-3f0a-48f0-ad3e-0dffdb0fe5ae
+  uuid: 1c4997a6-dc9d-46c9-828d-839909ec033e
 - alterId: 0
   cipher: auto
   name: 10|新加坡Choopa数据中心 7
@@ -45,19 +45,6 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: '12|🇸🇬 𝐒𝐊𝐘𝐇𝐓 𝐒𝐈𝐍𝐆𝐀𝐏𝐎𝐑𝐄 🇸🇬 #1'
-  network: ws
-  port: 80
-  server: sg.vpndata.vn
-  tls: false
-  type: vmess
-  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /VPNDATA.xYx
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -65,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72c26a25-2b51-4843-b01a-bc978c8d497f
+  uuid: 04b3877c-cfe5-469e-943d-48966475bb05
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -75,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72c26a25-2b51-4843-b01a-bc978c8d497f
+  uuid: 04b3877c-cfe5-469e-943d-48966475bb05
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -85,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72c26a25-2b51-4843-b01a-bc978c8d497f
+  uuid: 04b3877c-cfe5-469e-943d-48966475bb05
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡4|@ripaojiedian
