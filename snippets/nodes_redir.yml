@@ -14,75 +14,75 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_CA__1
+  name: 1|_CN_->_MX_
   network: ws
-  port: 16648
-  server: m.cnmjcn.com
+  port: 25284
+  server: cu.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      host: cu.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_CA__2
+  name: 1|_CN_->_US__1
   network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
+  port: 25239
+  server: us1.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      host: us1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,10|广东省移动 100
+  name: 1|_CN_->_US__2
   network: ws
-  port: '16648'
-  server: m.cnmjcn.com
-  servername: ''
+  port: 25257
+  server: us2.awslcn.info
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      host: us2.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  name: 2,3,4,18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_26
   network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
+  port: 25284
+  server: cu.awslcn.info
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      Host: cu.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: 2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国_2_25
   network: ws
-  port: 2053
-  server: 104.26.3.0
-  tls: true
+  port: 25239
+  server: us1.awslcn.info
+  tls: false
   type: vmess
-  uuid: da80a49d-824e-4a7e-b42b-30e4bfa9de7c
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: sauron.melkore.ir
+      Host: us1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  name: 2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: ws
   port: 25257
   server: us2.awslcn.info
@@ -95,27 +95,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6
+  name: 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
-  port: 25230
-  server: cm1.awslcn.info
+  port: 16648
+  server: t.cnmjcn.cyou
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,18|🇨🇳_CN_中国->🇺🇸_US_美国_2_25
-  network: ws
-  port: 25239
-  server: us1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
