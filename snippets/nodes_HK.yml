@@ -36,22 +36,36 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 1.65.215.179
+  server: 1.65.139.54
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.76.189.253
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14|🇹🇼 台湾|@ripaojiedian
-  password: 00266df31ee542f397068800c1b91e57
-  port: 2024
-  server: b23.ntbq.dynu.net
+  name: 14|🇯🇵 日本2|@ripaojiedian
+  port: 11019
+  server: 120.233.43.29
   skip-cert-verify: false
-  sni: www.gpt123.one
   tfo: false
   tls: false
   type: vmess
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+  uuid: 703e2cfe-23ce-391a-bc76-f46348254d38
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
