@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4efd19d4-ac2d-4b91-add1-e3d4f9509646
+  uuid: 4245ae81-3c49-486f-aa3e-e7de16ea679c
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4efd19d4-ac2d-4b91-add1-e3d4f9509646
+  uuid: 4245ae81-3c49-486f-aa3e-e7de16ea679c
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4efd19d4-ac2d-4b91-add1-e3d4f9509646
+  uuid: 4245ae81-3c49-486f-aa3e-e7de16ea679c
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬|SG|新加坡|@wxgqlfx|152
@@ -56,6 +56,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|新加坡175〖电报：@ccbaohe】免费节点定时更新
+  network: ws
+  port: 80
+  server: sg.vpndata.vn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /VPNDATA.xYx
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.32.122.1...
   network: ws
   port: '41853'
@@ -77,7 +91,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c327d9d-e6c4-455b-a075-730fd9fd1ba8
+  uuid: dfabfb5c-219a-4f0e-a8bc-8c66562439e2
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -87,7 +101,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c327d9d-e6c4-455b-a075-730fd9fd1ba8
+  uuid: dfabfb5c-219a-4f0e-a8bc-8c66562439e2
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -97,7 +111,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c327d9d-e6c4-455b-a075-730fd9fd1ba8
+  uuid: dfabfb5c-219a-4f0e-a8bc-8c66562439e2
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian

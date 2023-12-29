@@ -86,14 +86,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本2|@ripaojiedian
-  port: 11019
-  server: 120.233.43.29
+  name: 14|🇹🇼 台湾1|@ripaojiedian
+  port: 6122
+  server: 36.232.130.218
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 703e2cfe-23ce-391a-bc76-f46348254d38
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
@@ -102,3 +102,13 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
