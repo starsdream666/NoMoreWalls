@@ -109,7 +109,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,10,11|github.com/freefq - 湖南省联通 27
+  name: 2,3,4,10,11|github.com/freefq - 湖南省联通 24
   network: ws
   port: '16626'
   server: yes.cnmjcn.net
@@ -122,7 +122,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供：kk...
+  name: 17|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供：kk...
   network: ws
   port: 25284
   server: cu.awslcn.info
@@ -135,7 +135,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰_HK_香港->🇱🇺_LU_卢森堡_29
+  name: 17|🇭🇰_HK_香港->🇱🇺_LU_卢森堡_29
   network: ws
   port: 80
   server: 154.194.2.28
@@ -148,7 +148,7 @@ proxies:
     path: /0ece175a
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_37
+  name: 17|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_37
   network: ws
   port: 25230
   server: cm1.awslcn.info
