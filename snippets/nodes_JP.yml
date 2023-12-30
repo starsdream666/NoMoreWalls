@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8dba8b2d-52f2-450c-ae29-ab49019a90b2
+  uuid: e95f57fd-26d1-4dcb-ac25-7a98afb9b3a0
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8dba8b2d-52f2-450c-ae29-ab49019a90b2
+  uuid: e95f57fd-26d1-4dcb-ac25-7a98afb9b3a0
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8dba8b2d-52f2-450c-ae29-ab49019a90b2
+  uuid: e95f57fd-26d1-4dcb-ac25-7a98afb9b3a0
 - alterId: 0
   cipher: auto
   name: 10|日本东京都品川区Linode数据中心 78
@@ -51,7 +51,7 @@ proxies:
   uuid: d9a7c529-f98b-429b-eb26-c90979c910a3
 - alterId: 0
   cipher: auto
-  name: 10,11|github.com/freefq - 日本东京阿里云 45
+  name: 10,11|github.com/freefq - 日本东京阿里云 82
   network: ws
   port: 80
   server: 47.245.2.84
@@ -73,7 +73,7 @@ proxies:
   uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106
 - alterId: 0
   cipher: auto
-  name: 10|日本东京Choopa数据中心 1
+  name: '10,11|github.com/freefq - 日本东京Choopa... #1'
   network: tcp
   port: '16142'
   server: 45.77.176.217
@@ -83,7 +83,7 @@ proxies:
   uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559
 - alterId: 0
   cipher: auto
-  name: 10|日本东京Choopa数据中心 8
+  name: 10,11|github.com/freefq - 日本东京Choopa...
   network: tcp
   port: 14935
   server: 167.179.111.237
@@ -93,7 +93,7 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 10|日本  12
+  name: 10,11|github.com/freefq - 日本  84
   network: ws
   port: 41597
   server: 183.181.36.194
@@ -151,7 +151,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0d7fb301-0218-4714-b835-c6a0c808f065
+  uuid: adff4375-324b-41cd-9748-a61d21741045
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -161,7 +161,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0d7fb301-0218-4714-b835-c6a0c808f065
+  uuid: adff4375-324b-41cd-9748-a61d21741045
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -171,7 +171,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0d7fb301-0218-4714-b835-c6a0c808f065
+  uuid: adff4375-324b-41cd-9748-a61d21741045
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
