@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,18|🇨🇳_CN_中国_28
+  name: 0,1,2,3,4,6,17|🇨🇳_CN_中国_28
   network: ws
   port: 47551
   server: 159.75.178.50
@@ -91,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11|github.com/freefq - 广东省广州市移动 2...
+  name: 10|广东省广州市移动 23
   network: ws
   port: '25282'
   server: sg1.awslcn.info
@@ -104,7 +104,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11|github.com/freefq - 广东省广州市移动 4...
+  name: 10|广东省广州市移动 41
   network: ws
   port: '25216'
   server: cm.awslcn.info
@@ -117,7 +117,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '10,11|github.com/freefq - 广东省广州市移动 4... #1'
+  name: 10|广东省广州市移动 45
   network: ws
   port: '25241'
   server: cm1.awslcn.info
