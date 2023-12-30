@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 278c4767-1745-4bbf-bf8f-16afa81da947
+  uuid: b590704d-0f6b-4784-9fad-07554472026f
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 278c4767-1745-4bbf-bf8f-16afa81da947
+  uuid: b590704d-0f6b-4784-9fad-07554472026f
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,45 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 278c4767-1745-4bbf-bf8f-16afa81da947
-- alterId: 0
-  cipher: auto
-  name: 10,12|新加坡【TG：@ccbaohe】定时更新节点订阅
-  network: tcp
-  port: 8443
-  server: sg3-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
-- alterId: 0
-  cipher: auto
-  name: 10|新加坡Choopa数据中心 11
-  network: ws
-  port: '37410'
-  server: 45.76.145.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90997746-e123-4c98-8973-fffa6fe71c55
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,12|新加坡 - 新加坡 - The Constant Compa...
-  network: ws
-  port: 46943
-  server: 45.32.122.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8ce5953c-cf3a-4c82-b761-d5e83ee22607
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
+  uuid: b590704d-0f6b-4784-9fad-07554472026f
 - alterId: 0
   cipher: auto
   name: 12|新加坡 - 新加坡 - Eons Data Communic...
@@ -83,6 +45,16 @@ proxies:
     path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
 - alterId: 0
   cipher: auto
+  name: 12|新加坡【TG：@ccbaohe】定时更新节点订阅
+  network: tcp
+  port: 8443
+  server: sg3-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.32.122.1...
   network: ws
   port: '34187'
@@ -94,6 +66,20 @@ proxies:
   ws-opts:
     headers:
       Host: android.googleapis.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - The Constant Compa...
+  network: ws
+  port: 46943
+  server: 45.32.122.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8ce5953c-cf3a-4c82-b761-d5e83ee22607
+  ws-opts:
+    headers:
+      Host: m.zoom.us
     path: /
 - alterId: 0
   cipher: auto
@@ -118,7 +104,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c765a6cf-b209-4716-9602-20c326c82592
+  uuid: 5de5f638-b57f-4ce3-b375-dd801e727c15
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -128,7 +114,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c765a6cf-b209-4716-9602-20c326c82592
+  uuid: 5de5f638-b57f-4ce3-b375-dd801e727c15
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -138,7 +124,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c765a6cf-b209-4716-9602-20c326c82592
+  uuid: 5de5f638-b57f-4ce3-b375-dd801e727c15
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian
