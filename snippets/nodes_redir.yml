@@ -11,9 +11,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 0,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
+  name: 0|🇺🇸 _CN_中国->🇺🇸_US_美国
   network: ws
-  port: 25239
+  port: '25239'
   server: us1.awslcn.info
   tls: false
   type: vmess
@@ -50,9 +50,9 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供;...
+  name: 0|🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
   network: ws
-  port: 25230
+  port: '25230'
   server: cm1.awslcn.info
   tls: false
   type: vmess
@@ -76,9 +76,9 @@ proxies:
     path: /geg/44?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供;kk...
+  name: 0|🇲🇽 _CN_中国->🇲🇽_MX_墨西哥
   network: ws
-  port: 25284
+  port: '25284'
   server: cu.awslcn.info
   tls: false
   type: vmess
@@ -89,9 +89,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,18|🇨🇳_CN_中国->🇺🇸_US_美国_2_由快嘴科技提供;k...
+  name: '0|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
   network: ws
-  port: 25257
+  port: '25257'
   server: us2.awslcn.info
   tls: false
   type: vmess
@@ -164,7 +164,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1,2,3,4,18|🇨🇳_CN_中国->🇩🇪_DE_德国_由快嘴科技提供;kkz...
+  name: 1,2,3,4,17|🇨🇳_CN_中国->🇩🇪_DE_德国_25
   network: ''
   port: 52707
   server: 183.237.20.149
