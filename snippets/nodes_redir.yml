@@ -164,7 +164,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1,2,3,4,17|🇨🇳_CN_中国->🇩🇪_DE_德国_25
+  name: 1,2,3,4,18|🇨🇳_CN_中国->🇩🇪_DE_德国_25
   network: ''
   port: 52707
   server: 183.237.20.149
