@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 38e832ae-e4af-4c60-ba41-208021f0efb9
+  uuid: 1b00e0ee-2c26-4d76-b5da-827ad4f78437
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 38e832ae-e4af-4c60-ba41-208021f0efb9
+  uuid: 1b00e0ee-2c26-4d76-b5da-827ad4f78437
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,38 +28,24 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 38e832ae-e4af-4c60-ba41-208021f0efb9
+  uuid: 1b00e0ee-2c26-4d76-b5da-827ad4f78437
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
+  name: 12|「🇸🇬」EMO | 西贡蕉 x1
   network: ws
-  port: '21859'
-  server: 45.77.245.47
-  servername: ''
-  tls: false
+  port: '8443'
+  server: v32.emovpn.xyz
+  servername: v32.emovpn.xyz
+  tls: true
   type: vmess
-  uuid: 5238f82a-c489-4d38-87ee-a7ebcc35f202
+  uuid: cd36f547-121a-4eeb-839e-85b616ae44ee
   ws-opts:
     headers:
-      Host: m.twitter.com
-    path: /Mobitel 145
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-20.198.217....
-  network: ws
-  port: '11619'
-  server: 20.198.217.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 378525e1-7dc2-4eaf-960e-c0a545e39a7a
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
+      Host: v32.emovpn.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: '12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:... #1'
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
   network: ws
   port: '52990'
   server: 45.77.245.47
@@ -80,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d86721cd-8ecd-4355-8943-839bfbea2f2f
+  uuid: 2482b095-9748-4c14-86ec-4ba6741e2f23
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -90,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d86721cd-8ecd-4355-8943-839bfbea2f2f
+  uuid: 2482b095-9748-4c14-86ec-4ba6741e2f23
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -100,7 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d86721cd-8ecd-4355-8943-839bfbea2f2f
+  uuid: 2482b095-9748-4c14-86ec-4ba6741e2f23
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian
