@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇯🇵_JP_日本
-  network: ws
-  port: 2082
-  server: 47.245.2.84
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      Host: els_cdnone.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -44,17 +31,13 @@ proxies:
   uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵日本4丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.4
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
   tls: false
   type: vmess
-  uuid: f46f5827-facb-4786-9bd3-24e4e5aedadc
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
