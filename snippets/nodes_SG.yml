@@ -100,7 +100,6 @@ proxies:
   type: vmess
   uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
 - cipher: chacha20-ietf
-  client-fingerprint: chrome
   name: 15|🇸🇬 狮城R|@ripaojiedian
   obfs: plain
   obfs-param: 5d3ee46961.microsoft.com
@@ -111,26 +110,20 @@ proxies:
   server: cm03.newcome.xyz
   type: ssr
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
   password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20009
+  port: 26602
   server: service.ouluyun9803.com
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.250.43.167
-  tfo: false
+  server: 57.180.23.155
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.70.7
-  tfo: false
+  server: 18.139.228.226
   type: ss
