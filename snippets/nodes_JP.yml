@@ -31,6 +31,15 @@ proxies:
   uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -71,7 +80,7 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 10016
-  server: 61.224.72.205
+  server: 61.224.85.178
   type: ss
 - cipher: aes-128-gcm
   name: 15|🇯🇵 日本KT2|@ripaojiedian
@@ -85,7 +94,7 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 10012
-  server: 61.224.72.205
+  server: 61.224.85.178
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -93,9 +102,24 @@ proxies:
   port: 26668
   server: service.ouluyun9803.com
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 15,16|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 103.35.188.226
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 098e7cdd-03b4-435d-8c41-ea608fa637c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
 - cipher: aes-256-cfb
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.112.29.118
+  server: 13.215.209.192
   type: ss
