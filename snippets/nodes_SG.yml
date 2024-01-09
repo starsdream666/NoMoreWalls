@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b8f5db0-bd3b-4b45-8ddc-24c15dbc2f7e
+  uuid: 21e1af95-391d-4be9-aba1-1434ebeda8a4
 - alterId: 0
   cipher: auto
   name: 8|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b8f5db0-bd3b-4b45-8ddc-24c15dbc2f7e
+  uuid: 21e1af95-391d-4be9-aba1-1434ebeda8a4
 - alterId: 0
   cipher: auto
   name: 8|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b8f5db0-bd3b-4b45-8ddc-24c15dbc2f7e
+  uuid: 21e1af95-391d-4be9-aba1-1434ebeda8a4
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-WS-NA 🇸🇬 SG-139.180.211.1...
@@ -43,6 +43,20 @@ proxies:
     headers:
       Host: m.zoom.us
     path: /Dialog Zoom
+- alterId: 0
+  cipher: auto
+  name: 11|🔒 VM-WS-NA 🇸🇬 SG-146.190.105.6...
+  network: ws
+  port: '2024'
+  server: 146.190.105.66
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c28a9de-395c-42e5-9303-969294441cbc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-WS-NA 🇸🇬 SG-68.183.225.15...
@@ -66,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a025142-3403-4db2-b101-ab824e696eba
+  uuid: ab695205-259b-4f11-a046-d2d4a052fa2b
 - alterId: 0
   cipher: auto
   name: 12|【BGP】新加坡 05 | 1x SG
@@ -76,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a025142-3403-4db2-b101-ab824e696eba
+  uuid: ab695205-259b-4f11-a046-d2d4a052fa2b
 - alterId: 0
   cipher: auto
   name: 12|【BGP】新加坡 06 | 1x SG
@@ -86,7 +100,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a025142-3403-4db2-b101-ab824e696eba
+  uuid: ab695205-259b-4f11-a046-d2d4a052fa2b
 - cipher: chacha20-ietf-poly1305
   name: 13|🇸🇬 新加坡|@ripaojiedian
   password: 0cb14ab8-b3b8-44a1-8b4a-5a6f8317de01
