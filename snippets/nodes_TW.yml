@@ -11,15 +11,22 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 122.118.171.66
+  server: 122.118.169.169
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: 99e39047-9298-404e-b632-1867f7ed1b37
+  port: 7773
+  server: b13.ntbq.dynu.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|台湾2|@ripaojiedian
+  name: 15,16|台湾2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: f0df1cd4-5a87-482a-9f19-218a393d6f9c
