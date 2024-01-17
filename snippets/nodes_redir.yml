@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7,11,12|github.com/freefq - 美国CloudFla... #3'
+  name: '0,3,4,7,11,12,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰 #2'
   network: ws
-  port: 80
+  port: '80'
   server: glasco.fx-trader.shop
   tls: false
   type: vmess
@@ -14,9 +14,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7,13|🇸🇨_SC_塞舌尔->🇭🇰_HK_香港 #2'
+  name: '0,3,4,7,17|🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港 #2'
   network: ws
-  port: 1111
+  port: '1111'
   server: 156.251.226.106
   tls: false
   type: vmess
@@ -27,9 +27,9 @@ proxies:
     path: /changding-tls0?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7|🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其 #1'
+  name: '0,3,4,7,17|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其 #2'
   network: ws
-  port: 80
+  port: '80'
   server: 82.213.5.50
   tls: false
   type: vmess
@@ -141,9 +141,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  name: 6|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
-  port: '8080'
+  port: 8080
   server: hamrahaval.asan3a.shop
   tls: false
   type: vmess
@@ -164,30 +164,4 @@ proxies:
   ws-opts:
     headers:
       Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '80'
-  server: 104.21.79.143
-  tls: false
-  type: vmess
-  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
-  ws-opts:
-    headers:
-      Host: periodically-microwave-firms-abc.trycloudflare.com
-    path: ae8e857abf1d?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '8080'
-  server: 104.17.30.111
-  tls: false
-  type: vmess
-  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-  ws-opts:
-    headers:
-      Host: asan3.azad2.tech
     path: /
