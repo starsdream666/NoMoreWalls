@@ -310,6 +310,7 @@ class Node:
         if 'server' not in self.data: return True
         if '.' not in self.data['server']: return True
         if self.data['server'] in FAKE_IPS: return True
+        if int(str(self.data['port'])) < 20: return True
         for domain in FAKE_DOMAINS:
             if self.data['server'] == domain.lstrip('.'): return True
             if self.data['server'].endswith(domain): return True

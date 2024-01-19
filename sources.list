@@ -64,6 +64,12 @@ https://prop.cf/?name=paimon&client=clash
 # !https://clash.221207.xyz/pubclashyaml
 # !https://free.jingfu.cf/clash/proxies
 
+# Copied from https://github.com/ClodQiu/Clash.Base64/blob/Grey/Node.Address
+https://vpnyyds.link/free
+!https://jc.openxai.link/
+!https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads
+
+
 # Airports
 # *https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist # 挂了，谁叫你不控制抓取时长
 # *https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt
