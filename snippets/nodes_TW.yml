@@ -11,16 +11,6 @@ proxies:
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - alterId: 0
   cipher: auto
-  name: 13,15|speednode_0027
-  network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
-  servername: c12.twtc.dynu.net
-  tls: false
-  type: vmess
-  uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- alterId: 0
-  cipher: auto
   name: 13,15|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: 12002
