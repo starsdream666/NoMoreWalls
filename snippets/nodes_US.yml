@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 0|🇺🇸 _US_美国
+  network: tcp
+  port: '8080'
+  server: 23.137.248.47
+  tls: false
+  type: vmess
+  uuid: c65dd227-86bb-5854-bdf7-54c9c16acdb2
+- alterId: 0
+  cipher: auto
   name: 1|_US__1
   network: ws
   port: 2082
@@ -29,7 +38,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,9,17,18,23|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
+  name: 3,4,9,17,18,19,22|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -44,7 +53,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 3,4,9,13,14,17,18,23|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
+  name: 3,4,9,13,14,17,18,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
   port: 80
   server: glaSco.fx-trAder.shop
@@ -94,7 +103,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9cd1cab0-5c47-4a70-8b6f-f0128edc9ddc
+  uuid: 584aa3c6-25d6-4129-9c53-314227aa78d7
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国05
@@ -104,7 +113,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9cd1cab0-5c47-4a70-8b6f-f0128edc9ddc
+  uuid: 584aa3c6-25d6-4129-9c53-314227aa78d7
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国06
@@ -114,10 +123,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9cd1cab0-5c47-4a70-8b6f-f0128edc9ddc
+  uuid: 584aa3c6-25d6-4129-9c53-314227aa78d7
 - alterId: 0
   cipher: auto
-  name: '13,14|github.com/freefq - 美国CloudFla... #1'
+  name: 13,14|github.com/freefq - 美国CloudFla...
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -146,19 +155,102 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '15,17,18|美国3|@ripaojiedian #1'
+  name: 14,18|韩国2|@ripaojiedian
   network: ws
-  port: '2095'
-  server: 104.17.184.241
+  port: '34755'
+  server: krse11.ip8.shop
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cf855796-eaba-4dd2-b585-b1db65bb35ef
+  uuid: 7741626f-9c38-4a89-dfb2-fd95299c65ed
   ws-opts:
     headers:
-      Host: mgone_cdn.yunjisuan.cf
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.67.235.20...
+  network: ws
+  port: '8080'
+  server: 172.67.235.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  ws-opts:
+    headers:
+      Host: eu5.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.67.212.17...
+  network: ws
+  port: '8080'
+  server: 172.67.212.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  ws-opts:
+    headers:
+      Host: eu5.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.67.37.10:...
+  network: ws
+  port: '8080'
+  server: 172.67.37.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  ws-opts:
+    headers:
+      Host: eu5.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.64.131.13...
+  network: ws
+  port: '8080'
+  server: 172.64.131.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  ws-opts:
+    headers:
+      Host: eu5.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.67.117.97...
+  network: ws
+  port: '8080'
+  server: 172.67.117.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  ws-opts:
+    headers:
+      Host: eu5.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.67.204.3:...
+  network: ws
+  port: '8080'
+  server: 172.67.204.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  ws-opts:
+    headers:
+      Host: eu5.openxai.link
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 15|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
@@ -181,32 +273,32 @@ proxies:
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
-  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.64.204.17...
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.67.139.18...
   network: ws
-  port: '2086'
-  server: 172.64.204.174
+  port: '8080'
+  server: 172.67.139.188
   servername: ''
   tls: false
   type: vmess
-  uuid: 9fd9d868-1775-4c37-af2c-e28848b556a7
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   ws-opts:
     headers:
-      Host: cf-tr.fanqiecloud.top
-    path: /sssddd
+      Host: eu5.openxai.link
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 15|🔒 VM-WS-NA 🇺🇸 US-132.145.132.2...
+  name: 15|🔒 VM-WS-NA 🇺🇸 US-172.64.192.12...
   network: ws
-  port: 37121
-  server: 132.145.132.227
+  port: '8080'
+  server: 172.64.192.124
   servername: ''
   tls: false
   type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: eu5.openxai.link
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 04 | 1x US
@@ -216,7 +308,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c056e876-95c0-45e4-a0fd-6900e0c2f5ff
+  uuid: f7530e9a-7273-41e9-9590-943e92dfaeed
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 05 | 1x US
@@ -226,7 +318,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c056e876-95c0-45e4-a0fd-6900e0c2f5ff
+  uuid: f7530e9a-7273-41e9-9590-943e92dfaeed
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 06 | 1x US
@@ -236,98 +328,39 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c056e876-95c0-45e4-a0fd-6900e0c2f5ff
+  uuid: f7530e9a-7273-41e9-9590-943e92dfaeed
 - alterId: 0
   cipher: auto
-  name: 20|baipaovpn北美地区
-  network: tcp
-  port: '8080'
-  server: 23.137.248.47
+  name: 17,18|美国3|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: 104.17.184.241
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cf855796-eaba-4dd2-b585-b1db65bb35ef
+  ws-opts:
+    headers:
+      Host: mgone_cdn.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 20|baipaovpn美国
+  network: ws
+  port: '34755'
+  server: 64.110.89.209
   servername: ''
   tls: false
   type: vmess
-  uuid: c65dd227-86bb-5854-bdf7-54c9c16acdb2
-- alterId: 0
-  cipher: auto
-  name: 21|JCBB_ 美国01【vip1】
-  network: ws
-  port: '48560'
-  server: gdct001.theyydsnode.top
-  tls: false
-  type: vmess
-  uuid: 1f15ab90-9b78-4bc3-91b5-0022e144e2e5
+  uuid: 7741626f-9c38-4a89-dfb2-fd95299c65ed
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 21|JCBB_ 美国02_1【vip1】
-  network: ws
-  port: '48560'
-  server: shcm002.theyydsnode.top
-  tls: false
-  type: vmess
-  uuid: 1f15ab90-9b78-4bc3-91b5-0022e144e2e5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 21|JCBB_ 美国02【vip1】
-  network: ws
-  port: '48560'
-  server: gdct003.theyydsnode.top
-  tls: false
-  type: vmess
-  uuid: 1f15ab90-9b78-4bc3-91b5-0022e144e2e5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 21|JCBB_ 美国 03【vip1】
-  network: ws
-  port: '10658'
-  server: shcm002.theyydsnode.top
-  tls: false
-  type: vmess
-  uuid: 1f15ab90-9b78-4bc3-91b5-0022e144e2e5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 21|JCBB_ 美国 04_1【vip1】
-  network: ws
-  port: '10658'
-  server: gdct001.theyydsnode.top
-  tls: false
-  type: vmess
-  uuid: 1f15ab90-9b78-4bc3-91b5-0022e144e2e5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 21|JCBB_ 美国 04【vip1】
-  network: ws
-  port: '10658'
-  server: gdct003.theyydsnode.top
-  tls: false
-  type: vmess
-  uuid: 1f15ab90-9b78-4bc3-91b5-0022e144e2e5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 23|🇺🇸_US_美国_20
+  name: 22|🇺🇸_US_美国_20
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
