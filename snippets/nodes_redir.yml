@@ -14,7 +14,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 22|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  name: 23|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: tcp
   port: 50003
   server: 03.kccic2pa.xyz
