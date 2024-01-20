@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,14,15,18|台湾2|@ripaojiedian
+  name: 13,14,18|台湾2|@ripaojiedian
   network: tcp
   port: '6122'
   server: c12.twtc.dynu.net
@@ -21,10 +21,10 @@ proxies:
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - alterId: 0
   cipher: auto
-  name: 15|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
+  name: 15|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
+  port: '2024'
+  server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -63,13 +63,3 @@ proxies:
   port: 443
   server: 122.118.172.100
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|baipaovpn台湾省
-  network: tcp
-  port: '6122'
-  server: 125.224.145.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 867b8e57-9355-40dc-a696-9ca2518b091e
