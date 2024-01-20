@@ -14,14 +14,10 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 23|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-  network: ws
-  port: 443
-  server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com
-  tls: true
+  name: 22|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: tcp
+  port: 50003
+  server: 03.kccic2pa.xyz
+  tls: false
   type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: mikasa.erenyeager.cloudns.biz
-    path: /glweidf.sbs/linkws
+  uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
