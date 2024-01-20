@@ -4,6 +4,7 @@ import json
 import base64
 from urllib.parse import quote, unquote, urlparse
 import requests
+from requests_file import FileAdapter
 import datetime
 import traceback
 import binascii
@@ -75,7 +76,12 @@ ABFURLS = (
     # "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
 )
 
-FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1".split('; ')
+ABFWHITE = (
+    "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt",
+    "file:///abpwhite.txt",
+)
+
+FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
@@ -93,7 +99,8 @@ session = requests.Session()
 session.trust_env = False
 if PROXY: session.proxies = {'http': PROXY, 'https': PROXY}
 session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
-
+session.mount('file://', FileAdapter())
+    
 exc_queue: List[str] = []
 
 class Node:
@@ -467,10 +474,9 @@ class Source():
         if self.content: return
         try:
             if self.url.startswith("dynamic:"):
-                content: Union[str, List[str]] = self.url_source()
+                self.content: Union[str, List[str]] = self.url_source()
             else:
                 global session
-                content: str = ""
                 with session.get(self.url, stream=True) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
@@ -482,41 +488,7 @@ class Source():
                         else:
                             self.content = r.status_code
                         return
-                    tp = None
-                    pending = None
-                    early_stop = False
-                    for chunk in r.iter_content():
-                        if early_stop: pending = None; break
-                        chunk: bytes
-                        if pending is not None:
-                            chunk = pending + chunk
-                            pending = None
-                        if tp == 'sub':
-                            content += chunk.decode(errors='ignore')
-                            continue
-                        lines: List[bytes] = chunk.splitlines()
-                        if lines and lines[-1] and chunk and lines[-1][-1] == chunk[-1]:
-                            pending = lines.pop()
-                        while lines:
-                            line = lines.pop(0).rstrip().decode(errors='ignore').replace('\\r','')
-                            if not line: continue
-                            if not tp:
-                                if ': ' in line:
-                                    kv = line.split(': ')
-                                    if len(kv) == 2 and kv[0].isalpha():
-                                        tp = 'yaml'
-                                elif line[0] == '#': pass
-                                else: tp = 'sub'
-                            if tp == 'yaml':
-                                if content:
-                                    if line in ("proxy-groups:", "rules:", "script:"):
-                                        early_stop=True; break
-                                    content += line+'\n'
-                                elif line == "proxies:":
-                                    content = line+'\n'
-                            elif tp == 'sub':
-                                content = chunk.decode(errors='ignore')
-                    if pending is not None: content += pending.decode(errors='ignore')
+                    self.content = self._download(r)
         except KeyboardInterrupt: raise
         except requests.exceptions.RequestException:
             self.content = -1
@@ -525,8 +497,46 @@ class Source():
             exc = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
             exc_queue.append(exc)
         else:
-            self.content: Union[str, List[str]] = content
             self.parse()
+
+    def _download(self, r: requests.Response) -> str:
+        content: str = ""
+        tp = None
+        pending = None
+        early_stop = False
+        for chunk in r.iter_content():
+            if early_stop: pending = None; break
+            chunk: bytes
+            if pending is not None:
+                chunk = pending + chunk
+                pending = None
+            if tp == 'sub':
+                content += chunk.decode(errors='ignore')
+                continue
+            lines: List[bytes] = chunk.splitlines()
+            if lines and lines[-1] and chunk and lines[-1][-1] == chunk[-1]:
+                pending = lines.pop()
+            while lines:
+                line = lines.pop(0).rstrip().decode(errors='ignore').replace('\\r','')
+                if not line: continue
+                if not tp:
+                    if ': ' in line:
+                        kv = line.split(': ')
+                        if len(kv) == 2 and kv[0].isalpha():
+                            tp = 'yaml'
+                    elif line[0] == '#': pass
+                    else: tp = 'sub'
+                if tp == 'yaml':
+                    if content:
+                        if line in ("proxy-groups:", "rules:", "script:"):
+                            early_stop=True; break
+                        content += line+'\n'
+                    elif line == "proxies:":
+                        content = line+'\n'
+                elif tp == 'sub':
+                    content = chunk.decode(errors='ignore')
+        if pending is not None: content += pending.decode(errors='ignore')
+        return content
 
     def parse(self) -> None:
         global exc_queue
@@ -563,12 +573,26 @@ class DomainTree:
         if not segs:
             self.here = True
             return
-        if self.here: return
         if segs[0] not in self.children:
             self.children[segs[0]] = __class__()
         child = self.children[segs[0]]
         del segs[0]
         child._insert(segs)
+
+    def remove(self, domain: str) -> None:
+        segs = domain.split('.')
+        segs.reverse()
+        self._remove(segs)
+
+    def _remove(self, segs: List[str]) -> None:
+        self.here = False
+        if not segs:
+            self.children.clear()
+            return
+        if segs[0] in self.children:
+            child = self.children[segs[0]]
+            del segs[0]
+            child._remove(segs)
 
     def get(self) -> List[str]:
         ret: List[str] = []
@@ -639,6 +663,7 @@ def raw2fastly(url: str) -> str:
 def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     print("正在解析 Adblock 列表... ", end='', flush=True)
     blocked: Set[str] = set()
+    unblock: Set[str] = set()
     for url in ABFURLS:
         url = raw2fastly(url)
         try:
@@ -655,9 +680,31 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
             continue
         for line in res.text.strip().splitlines():
             line = line.strip()
-            if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
+            if not line or line[0] == '!': continue
+            elif line[:2] == '@@':
+                unblock.add(line.split('^')[0].strip('@|^'))
+            elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
                             (line[-1] == '^' or line.endswith("$all")):
                 blocked.add(line.strip('al').strip('|^$'))
+
+    for url in ABFWHITE:
+        url = raw2fastly(url)
+        try:
+            res = session.get(url)
+        except requests.exceptions.RequestException as e:
+            try:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
+                print(f"{url} 下载失败：无法解析的错误！")
+                traceback.print_exc()
+            continue
+        if res.status_code != 200:
+            print(url, res.status_code)
+            continue
+        for line in res.text.strip().splitlines():
+            line = line.strip()
+            if not line or line[0] == '!': continue
+            else: unblock.add(line.split('^')[0].strip('|^'))
 
     domain_root = DomainTree()
     domain_keys = set()
@@ -677,6 +724,8 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
                 rules[f'IP-CIDR,{domain}/32'] = adblock_name
         else:
             domain_root.insert(domain)
+    for domain in unblock:
+        domain_root.remove(domain)
 
     for domain in domain_keys:
         rules[f'DOMAIN-KEYWORD,{domain}'] = adblock_name
@@ -804,7 +853,10 @@ def main():
                 # 注意：这一步也会影响到下方的 Clash 订阅，不用再执行一遍！
                 p.data['name'] = ','.join([str(_) for _ in sorted(list(used[hash(p)]))])+'|'+p.data['name']
             if p.supports_ray():
-                txt += p.url + '\n'
+                try:
+                    txt += p.url + '\n'
+                except UnsupportedType as e:
+                    print(f"不支持的类型：{e}")
             else: unsupports += 1
         except: traceback.print_exc()
     for p in unknown:
