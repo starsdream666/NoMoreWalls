@@ -1,30 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰香港3丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.200.4
-  tls: false
-  type: vmess
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰香港2丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 104.18.15.148
-  tls: false
-  type: vmess
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
 - cipher: aes-128-gcm
   name: 17|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -53,17 +27,6 @@ proxies:
   port: 443
   server: 47.243.59.144
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|🇰🇷 韩国3|@ripaojiedian
-  password: 76572d7a-2692-44cd-afe7-43da9a75d80d
-  port: 25362
-  server: krse10.ip8.shop
-  skip-cert-verify: false
-  sni: download.xn--mes358a9urctx.com
-  tls: false
-  type: vmess
-  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
 - alterId: 0
   cipher: auto
   name: 17,18|香港3|@ripaojiedian

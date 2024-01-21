@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾省桃园市 中华电信
+  name: 13,14|github.com/freefq - 台湾省桃园市中华电信...
   network: tcp
   port: 21353
   server: 1.162.139.104
@@ -10,7 +10,7 @@ proxies:
   uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
 - alterId: 0
   cipher: auto
-  name: 13,14,20|baipaovpn台湾省新北市
+  name: 13,20|baipaovpn台湾省新北市
   network: tcp
   port: '2024'
   server: 61.228.149.88
@@ -32,33 +32,3 @@ proxies:
   port: 443
   server: 61.224.106.215
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|baipaovpn台湾省
-  network: tcp
-  port: '12002'
-  server: 118.167.71.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
-- alterId: 0
-  cipher: auto
-  name: '20|baipaovpn台湾省 #1'
-  network: tcp
-  port: '6122'
-  server: 125.224.145.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
-- alterId: 0
-  cipher: auto
-  name: '20|baipaovpn台湾省新北市 #1'
-  network: tcp
-  port: '4443'
-  server: 36.226.147.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4
