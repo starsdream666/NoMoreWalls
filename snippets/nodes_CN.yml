@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,14|github.com/freefq - 广东省移动 5
+  name: 13,14|github.com/freefq - 广东省移动 3
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -13,3 +13,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 2
+  cipher: auto
+  name: 20|baipaovpn广东省广州市
+  network: tcp
+  port: '1002'
+  server: 183.236.48.169
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 229ccd44-c56c-3947-88de-849dd70c180d
