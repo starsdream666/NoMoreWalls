@@ -55,6 +55,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 17|🇰🇷 韩国3|@ripaojiedian
+  password: 76572d7a-2692-44cd-afe7-43da9a75d80d
+  port: 25362
+  server: krse10.ip8.shop
+  skip-cert-verify: false
+  sni: download.xn--mes358a9urctx.com
+  tls: false
+  type: vmess
+  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
+- alterId: 0
+  cipher: auto
   name: 17,18|香港3|@ripaojiedian
   network: ws
   port: '2052'
