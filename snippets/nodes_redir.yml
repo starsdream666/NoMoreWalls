@@ -41,7 +41,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,9,13,14,19,22|🇨🇳_CN_中国->🇺🇸_US_美国_6
+  name: 0,1,3,4,8,9,13,19,23|🇨🇳_CN_中国->🇺🇸_US_美国_6
   network: tcp
   port: 50003
   server: 03.kccic2pa.xyz

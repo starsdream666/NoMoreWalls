@@ -1,22 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 15|【直连】香港 - 3 - A Group
-  network: tcp
-  port: '38751'
-  server: 00000000000000000000000000000000000000000000000000000000000031.agroup-node-for-bigairport.sbs
-  tls: false
-  type: vmess
-  uuid: 843764ed-637a-4085-856e-72c507df3447
-- alterId: 0
-  cipher: auto
-  name: 15|【直连】香港 - 2 - A Group
-  network: tcp
-  port: '38752'
-  server: 00000000000000000000000000000000000000000000000000000000000022.agroup-node-for-bigairport.sbs
-  tls: false
-  type: vmess
-  uuid: 843764ed-637a-4085-856e-72c507df3447
 - cipher: aes-128-gcm
   name: 17|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -45,17 +27,6 @@ proxies:
   port: 443
   server: 47.243.59.144
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|🇰🇷 韩国3|@ripaojiedian
-  password: 76572d7a-2692-44cd-afe7-43da9a75d80d
-  port: 25362
-  server: krse10.ip8.shop
-  skip-cert-verify: false
-  sni: download.xn--mes358a9urctx.com
-  tls: false
-  type: vmess
-  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
 - alterId: 0
   cipher: auto
   name: 17,18|香港3|@ripaojiedian
