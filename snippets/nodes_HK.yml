@@ -1,4 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 15|【直连】香港 - 3 - A Group
+  network: tcp
+  port: '38751'
+  server: 00000000000000000000000000000000000000000000000000000000000031.agroup-node-for-bigairport.sbs
+  tls: false
+  type: vmess
+  uuid: 843764ed-637a-4085-856e-72c507df3447
+- alterId: 0
+  cipher: auto
+  name: 15|【直连】香港 - 2 - A Group
+  network: tcp
+  port: '38752'
+  server: 00000000000000000000000000000000000000000000000000000000000022.agroup-node-for-bigairport.sbs
+  tls: false
+  type: vmess
+  uuid: 843764ed-637a-4085-856e-72c507df3447
 - cipher: aes-128-gcm
   name: 17|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -27,6 +45,21 @@ proxies:
   port: 443
   server: 47.243.59.144
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17,18|香港3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  ws-opts:
+    headers:
+      Host: yvhnbevxhk1.yofnhkfc.xyz
+    path: /video/34kKXbLM
 - alterId: 0
   cipher: auto
   name: 18|香港|@ripaojiedian

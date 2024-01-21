@@ -177,11 +177,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,13,14,23|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
+  name: 9,13,23|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
-  servername: ''
   tls: false
   type: vmess
   uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
@@ -226,7 +225,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed5d4818-7fb1-4ac2-8279-28ccdfd297ad
+  uuid: 5a8d66f1-67df-4aa1-9fd8-b69587704849
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国05
@@ -236,7 +235,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed5d4818-7fb1-4ac2-8279-28ccdfd297ad
+  uuid: 5a8d66f1-67df-4aa1-9fd8-b69587704849
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国06
@@ -246,7 +245,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed5d4818-7fb1-4ac2-8279-28ccdfd297ad
+  uuid: 5a8d66f1-67df-4aa1-9fd8-b69587704849
 - alterId: 0
   cipher: auto
   name: 13|美国 加利福尼亚州圣何塞Egihosting公司
@@ -271,7 +270,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13,14,17,18|新加坡3|@ripaojiedian
+  name: 13,17,18|新加坡3|@ripaojiedian
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -284,31 +283,6 @@ proxies:
     headers:
       Host: sgvpn.catnipballs.gay
     path: /
-- alterId: 0
-  cipher: auto
-  name: '14,15,17,18|韩国2|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 83c19463-f966-4adb-a7d8-b127825ffab2
-  ws-opts:
-    headers:
-      Host: kr.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '14,15,18|韩国3|@ripaojiedian #1'
-  network: tcp
-  port: '25362'
-  server: krse10.ip8.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
 - alterId: 0
   cipher: auto
   name: 15|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
@@ -331,38 +305,6 @@ proxies:
   uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
 - alterId: 0
   cipher: auto
-  name: 15|🔒 VM-WS-NA 🇺🇸 US-132.145.132.2...
-  network: ws
-  port: '37121'
-  server: 132.145.132.227
-  tls: false
-  type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 15|🔒 VM-TCP-NONE 🇺🇸 US-35.87.209....
-  network: tcp
-  port: '13489'
-  server: 35.87.209.22
-  tls: false
-  type: vmess
-  uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
-- alterId: 0
-  cipher: auto
   name: 16|【BGP】美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -370,7 +312,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ded25219-02bc-4737-89e2-3ae65af692c9
+  uuid: 031cd7eb-8f2e-44ba-85d2-cafc5f0c2ced
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 05 | 1x US
@@ -380,7 +322,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ded25219-02bc-4737-89e2-3ae65af692c9
+  uuid: 031cd7eb-8f2e-44ba-85d2-cafc5f0c2ced
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 06 | 1x US
@@ -390,7 +332,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ded25219-02bc-4737-89e2-3ae65af692c9
+  uuid: 031cd7eb-8f2e-44ba-85d2-cafc5f0c2ced
 - alterId: 0
   cipher: auto
   name: 17,18|美国|@ripaojiedian
@@ -414,7 +356,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 36380845-d352-4667-aa4a-a17ae3d0686f
+  uuid: aeb9dfe7-5d07-4b28-8a2d-cbbfe24bd445
   ws-opts:
     headers:
       Host: ''
@@ -427,7 +369,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 36380845-d352-4667-aa4a-a17ae3d0686f
+  uuid: aeb9dfe7-5d07-4b28-8a2d-cbbfe24bd445
   ws-opts:
     headers:
       Host: ''
@@ -440,7 +382,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 36380845-d352-4667-aa4a-a17ae3d0686f
+  uuid: aeb9dfe7-5d07-4b28-8a2d-cbbfe24bd445
   ws-opts:
     headers:
       Host: ''
@@ -453,7 +395,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 36380845-d352-4667-aa4a-a17ae3d0686f
+  uuid: aeb9dfe7-5d07-4b28-8a2d-cbbfe24bd445
   ws-opts:
     headers:
       Host: ''
@@ -466,7 +408,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 36380845-d352-4667-aa4a-a17ae3d0686f
+  uuid: aeb9dfe7-5d07-4b28-8a2d-cbbfe24bd445
   ws-opts:
     headers:
       Host: ''
@@ -479,7 +421,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 36380845-d352-4667-aa4a-a17ae3d0686f
+  uuid: aeb9dfe7-5d07-4b28-8a2d-cbbfe24bd445
   ws-opts:
     headers:
       Host: ''
