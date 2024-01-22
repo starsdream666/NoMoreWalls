@@ -1,4 +1,15 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 15|🔒 VM-WS-NA 🇭🇰 HK-82.153.1.40:8...
+  network: ws
+  port: '80'
+  server: 82.153.1.40
+  tls: false
+  type: vmess
+  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
+  ws-opts:
+    path: /4regrdfvx
 - cipher: aes-128-gcm
   name: 17|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -53,6 +64,20 @@ proxies:
   network: ws
   port: '80'
   server: 13.226.120.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84e1bb62-e4b4-451e-aa9c-a3bb6f41fac3
+  ws-opts:
+    headers:
+      Host: jpli.edge.233.tw
+    path: /geg/45?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '20|baipaovpn香港 #1'
+  network: ws
+  port: '80'
+  server: 13.226.120.0
   servername: ''
   tls: false
   type: vmess
