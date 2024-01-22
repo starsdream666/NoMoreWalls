@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,13,19,23|🇩🇪_DE_德国->🇫🇷_FR_法国_37
+  name: 0,3,4,8,9,13,14,19,23|🇩🇪_DE_德国->🇫🇷_FR_法国_37
   network: ws
   port: 443
   server: yx.zhke.cf
