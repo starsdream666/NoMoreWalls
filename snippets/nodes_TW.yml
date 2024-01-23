@@ -10,14 +10,14 @@ proxies:
   uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
 - alterId: 0
   cipher: auto
-  name: 13,15|台湾【TG：@ccbaohe】定时更新节点订阅 2 2
+  name: 13,15|台湾【TG：@ccbaohe】定时更新节点订阅 4
   network: tcp
   port: 2024
   server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
+  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
 - alterId: 0
   cipher: auto
   name: 13|台湾省晟崴科技股份有限公司 8
@@ -34,18 +34,19 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: 15|🔒 VM-TCP-NA 🇹🇼 TW-118.167.74.2...
+  name: 14,20|baipaovpn台湾省新北市
   network: tcp
-  port: '2024'
-  server: 118.167.74.229
+  port: '4443'
+  server: 61.228.149.57
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
+  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
 - alterId: 0
   cipher: auto
-  name: 15|台湾【TG：@ccbaohe】定时更新节点订阅 4
+  name: 15|台湾【TG：@ccbaohe】定时更新节点订阅 5
   network: tcp
-  port: 12002
+  port: '12002'
   server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
@@ -53,14 +54,18 @@ proxies:
   uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
 - alterId: 0
   cipher: auto
-  name: 15|台湾【TG：@ccbaohe】定时更新节点订阅 5
-  network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
+  name: 15|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
   servername: ''
   tls: false
   type: vmess
-  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   name: 17|🇹🇼 台湾KT|@ripaojiedian
   password: oiwym4ovI4Yb
@@ -73,15 +78,25 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 61.224.79.197
+  server: 122.118.169.225
   type: ss
 - alterId: 0
   cipher: auto
   name: 18|台湾|@ripaojiedian
   network: tcp
   port: '21353'
-  server: 1.162.139.104
+  server: tw1-vds3.anyhk.co
   servername: ''
   tls: false
   type: vmess
-  uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
+  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
+- alterId: 0
+  cipher: auto
+  name: 20|baipaovpn台湾省新竹市
+  network: tcp
+  port: '12002'
+  server: 114.37.155.245
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
