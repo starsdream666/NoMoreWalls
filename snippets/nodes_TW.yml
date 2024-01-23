@@ -1,16 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾省新北市中华电信 1
+  name: 13,20|baipaovpn台湾省南投县
   network: tcp
-  port: '4443'
-  server: 61.228.149.57
+  port: '6122'
+  server: 36.232.158.210
+  servername: ''
   tls: false
   type: vmess
-  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
+  uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
 - alterId: 0
   cipher: auto
-  name: 14|github.com/freefq - 台湾省中华电信(Hi...
+  name: 13,14|github.com/freefq - 台湾省中华电信(Hi...
   network: tcp
   port: 2024
   server: b23.ntbq.dynu.net
@@ -54,11 +55,21 @@ proxies:
   uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
 - alterId: 0
   cipher: auto
-  name: 20|baipaovpn台湾省新北市
+  name: 20|baipaovpn台湾省新竹市
   network: tcp
   port: '4443'
-  server: 61.228.134.142
+  server: 114.37.142.251
   servername: ''
   tls: false
   type: vmess
   uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
+- alterId: 0
+  cipher: auto
+  name: 20|baipaovpn台湾省
+  network: tcp
+  port: '2024'
+  server: 118.167.76.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a209ff8c-d691-496c-8c1f-32d2e995b603

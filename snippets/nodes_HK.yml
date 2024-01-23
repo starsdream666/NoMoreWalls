@@ -1,18 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|香港 Amazon数据中心
-  network: ws
-  port: '80'
-  server: 13.226.120.0
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fa7af35b-3f0b-4404-987e-884d8e7d25db
-  ws-opts:
-    headers:
-      Host: jpli.edge.233.tw
-    path: /geg/45?ed=2048
+- cipher: aes-128-gcm
+  name: 17|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  type: ss
 - cipher: aes-128-gcm
   name: 17|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
