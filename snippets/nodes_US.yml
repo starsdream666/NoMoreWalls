@@ -1,7 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,8,9,19|🇺🇸 _US_美国 #6'
+  country: US
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '0,1,3,4,6,8,9,19|🇺🇸 _US_美国 #6'
   network: http
   port: '13489'
   server: 35.87.209.22
@@ -125,7 +131,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd7b4bd0-d52b-4673-b045-c5c4acf2ae74
+  uuid: e1c6c18c-6207-4739-9619-6c64a635756e
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国05
@@ -135,7 +141,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd7b4bd0-d52b-4673-b045-c5c4acf2ae74
+  uuid: e1c6c18c-6207-4739-9619-6c64a635756e
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国06
@@ -145,7 +151,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd7b4bd0-d52b-4673-b045-c5c4acf2ae74
+  uuid: e1c6c18c-6207-4739-9619-6c64a635756e
 - alterId: 0
   cipher: auto
   name: 13|美国 v2rayfree.eu.org
@@ -248,6 +254,33 @@ proxies:
     path: /video/c9efxRCi
 - alterId: 0
   cipher: auto
+  name: 14,15|🇺🇸请每月更-新一次订阅
+  network: ws
+  port: '80'
+  server: 104.18.15.147
+  tls: false
+  type: vmess
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,15|【TG：@ccbaohe】定时更新节点订阅_145
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 357b8d95-af0c-44fe-a406-b6aed810699b
+  ws-opts:
+    headers:
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
   name: 15|🔒 VM-WS-NA 🇺🇸 US-66.181.33.108...
   network: ws
   port: 22666
@@ -260,19 +293,6 @@ proxies:
     headers:
       Host: ''
     path: /a?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 15|🇺🇸请每月更-新一次订阅
-  network: ws
-  port: '80'
-  server: 104.18.15.147
-  tls: false
-  type: vmess
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  ws-opts:
-    headers:
-      Host: us3.889611.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 15,20|baipaovpn美国华盛顿
@@ -403,7 +423,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8211f6ce-862f-4ab3-8469-c9ac76dee63a
+  uuid: dcdfdc79-95d4-4860-b1ea-d9301bbf67f1
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 05 | 1x US
@@ -413,7 +433,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8211f6ce-862f-4ab3-8469-c9ac76dee63a
+  uuid: dcdfdc79-95d4-4860-b1ea-d9301bbf67f1
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 06 | 1x US
@@ -423,13 +443,55 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8211f6ce-862f-4ab3-8469-c9ac76dee63a
+  uuid: dcdfdc79-95d4-4860-b1ea-d9301bbf67f1
 - cipher: chacha20-ietf-poly1305
   name: 17|🇺🇸 美国2|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
   port: 20003
   server: service.ouluyun9803.com
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 104.18.134.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa828efe-ff0a-4afd-a4cb-245cf65432ee
+  ws-opts:
+    headers:
+      Host: sg.baipiao.fixddns.store
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '20|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 104.19.60.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa828efe-ff0a-4afd-a4cb-245cf65432ee
+  ws-opts:
+    headers:
+      Host: sg.baipiao.fixddns.store
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '20|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 172.64.229.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58f4f326-7032-4ef8-bfde-1908bae74994
+  ws-opts:
+    headers:
+      Host: jpli.edge.233.tw
+    path: /geg/45?ed=2048
 - alterId: 0
   cipher: aes-128-gcm
   name: 23|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
