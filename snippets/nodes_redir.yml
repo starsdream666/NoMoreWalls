@@ -116,7 +116,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,8,13,19|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
+  name: '3,4,8,19|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
   port: '80'
   server: 162.159.200.3
@@ -142,7 +142,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,8,9,13|美国 CloudFlare节点 #2'
+  name: '4,8,9|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #4'
   network: ws
   port: 80
   server: 104.18.15.150
@@ -181,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,14|github.com/freefq - 美国CloudFla... #5'
+  name: '9,13,14|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
