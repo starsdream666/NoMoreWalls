@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14,15|台湾【TG：@ccbaohe】定时更新节点订阅 7
+  name: '14,15|台湾【TG：@ccbaohe】定时更新节点订阅 #2'
   network: tcp
-  port: 12002
+  port: '12002'
   server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
@@ -11,17 +11,7 @@ proxies:
   uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
 - alterId: 0
   cipher: auto
-  name: '15|台湾【TG：@ccbaohe】定时更新节点订阅 5 #1'
-  network: tcp
-  port: 12002
-  server: 118.167.69.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
-- alterId: 0
-  cipher: auto
-  name: '15|台湾【TG：@ccbaohe】定时更新节点订阅 2 #1'
+  name: 15|台湾【TG：@ccbaohe】定时更新节点订阅 2
   network: tcp
   port: 4443
   server: nb24.ntbq.dynu.net
@@ -29,3 +19,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
+- alterId: 0
+  cipher: auto
+  name: '15,20|baipaovpn台湾省 #1'
+  network: tcp
+  port: '12002'
+  server: 118.167.69.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
