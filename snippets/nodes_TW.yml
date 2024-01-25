@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,14,20|baipaovpn台湾省南投县
+  name: 13,14,15|🇹🇼|TW|台湾|@wxgqlfx|5
   network: tcp
-  port: '6122'
+  port: 6122
   server: 36.232.158.210
   servername: ''
   tls: false
@@ -11,7 +11,17 @@ proxies:
   uuid: a209ff8c-d691-496c-8c1f-32d2e995b603
 - alterId: 0
   cipher: auto
-  name: 15|台湾【TG：@ccbaohe】定时更新节点订阅 6
+  name: 14,15|台湾【TG：@ccbaohe】定时更新节点订阅 34
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
+- alterId: 0
+  cipher: auto
+  name: 14,15|台湾【TG：@ccbaohe】定时更新节点订阅 6
   network: tcp
   port: 4443
   server: nb24.ntbq.dynu.net
@@ -21,27 +31,7 @@ proxies:
   uuid: b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4
 - alterId: 0
   cipher: auto
-  name: 15|🇹🇼|TW|台湾|@wxgqlfx|55
-  network: tcp
-  port: '12002'
-  server: 118.167.69.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-- alterId: 0
-  cipher: auto
-  name: '20|baipaovpn台湾省 #1'
-  network: tcp
-  port: '12002'
-  server: 118.167.72.107
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-- alterId: 0
-  cipher: auto
-  name: '20|baipaovpn台湾省 #2'
+  name: 20|baipaovpn台湾省
   network: tcp
   port: '4443'
   server: 118.167.67.180
