@@ -50,17 +50,3 @@ proxies:
     headers:
       Host: zhejiang2024.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 20|baipaovpn香港
-  network: ws
-  port: '14572'
-  server: 52.184.85.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5deb517b-2512-42bb-f48d-9267327efa4e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /xROAST
