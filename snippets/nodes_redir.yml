@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,13,14,19,23|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 0,3,4,8,9,13,19,23|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: 104.31.16.104
@@ -98,19 +98,4 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15,17,18,23|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_6
-  network: ws
-  port: 80
-  server: 104.17.25.1
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
-  ws-opts:
-    headers:
-      Host: lmnyvpn.catnipballs.gay
     path: /

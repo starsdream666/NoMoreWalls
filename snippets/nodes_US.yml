@@ -67,11 +67,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,13,14,15,19,23|🇺🇸_US_美国_4_22
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,9,13,14,15,19,23|🇺🇸_US_美国_4_22
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -249,7 +252,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed2b2490-26d3-4265-bb6f-ff123cd8c54c
+  uuid: b483d100-c6c1-4bbc-b3d3-ceb2a118461e
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国05
@@ -259,7 +262,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed2b2490-26d3-4265-bb6f-ff123cd8c54c
+  uuid: b483d100-c6c1-4bbc-b3d3-ceb2a118461e
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国06
@@ -269,7 +272,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed2b2490-26d3-4265-bb6f-ff123cd8c54c
+  uuid: b483d100-c6c1-4bbc-b3d3-ceb2a118461e
 - alterId: 0
   cipher: auto
   name: 13,14,17,18|新加坡3|@ripaojiedian
@@ -314,7 +317,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 13,17,18|香港4|@ripaojiedian
+  name: 13,14,17,18|香港4|@ripaojiedian
   network: ws
   port: '80'
   server: 104.156.85.242
@@ -326,6 +329,43 @@ proxies:
   ws-opts:
     headers:
       Host: zhejiang2024.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,15|☮️4@oneclickvpnkeys
+  network: ws
+  port: '443'
+  server: urnxewzvh.site
+  servername: urnxewzvh.site
+  tls: true
+  type: vmess
+  uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143
+  ws-opts:
+    headers:
+      Host: urnxewzvh.site
+    path: /kwhmvws
+- alterId: 0
+  cipher: auto
+  name: 14,15|FR_speednode_0018
+  network: tcp
+  port: 8443
+  server: 172.232.49.78
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 887a4a4b-f43c-4bd6-a6f7-85a0654c5000
+- alterId: 0
+  cipher: auto
+  name: 14,15|🇨🇦加拿大4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -342,6 +382,21 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: 14,15,17,18,23|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_6
+  network: ws
+  port: 80
+  server: 104.17.25.1
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
+  ws-opts:
+    headers:
+      Host: lmnyvpn.catnipballs.gay
+    path: /
 - alterId: 0
   cipher: auto
   name: 15|🇺🇸|US|美国|@wxgqlfx|13
@@ -435,7 +490,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d935be8-d1f5-4cce-952b-af1909d37a46
+  uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 05 | 1x US
@@ -445,7 +500,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d935be8-d1f5-4cce-952b-af1909d37a46
+  uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 06 | 1x US
@@ -455,7 +510,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d935be8-d1f5-4cce-952b-af1909d37a46
+  uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
 - cipher: chacha20-ietf-poly1305
   name: 17|🇺🇸 美国2|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
