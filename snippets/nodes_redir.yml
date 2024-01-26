@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #9'
+  name: 0,4,8,9,22|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_34
   network: ws
   port: 80
   server: 162.159.200.7
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #10'
+  name: 0,4,8,9,22|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_36
   network: ws
   port: 80
   server: 104.18.15.148
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #11'
+  name: 0,4,8,9,22|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4_37
   network: ws
   port: 80
   server: 104.18.15.149
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,23|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其_3由快嘴科技提供：...
+  name: 0,3,4,8,9,19,22|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其_3由快嘴科技提供：...
   network: ws
   port: 443
   server: 130.193.166.2
@@ -53,7 +53,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #8'
+  name: 0,4,8,9,22|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
   network: ws
   port: 80
   server: 162.159.200.6
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,4,8,9|🇨🇳_CN_中国->🇵🇰_PK_巴基斯坦 #2'
+  name: 0,1,4,8,9,22|🇨🇳_CN_中国->🇵🇰_PK_巴基斯坦_38
   network: tcp
   port: 33311
   server: 36.212.152.13
@@ -76,7 +76,7 @@ proxies:
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9|🇪🇸_ES_西班牙->🇭🇰_HK_香港 #2'
+  name: 0,4,8,9,22|🇪🇸_ES_西班牙->🇭🇰_HK_香港_39
   network: ws
   port: 8002
   server: 185.214.103.249
@@ -159,27 +159,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-203
+  name: 1|_ES_->_HK_
   network: ws
   port: 8002
   server: 185.214.103.249
-  servername: data-hk-1.cn-db.top
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
   ws-opts:
     headers:
-      HOST: data-hk-1.cn-db.top
+      host: cache-hk-1.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 3,13,14,15,17,18,19,23|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_6
+  name: '3,13,14,17,18,19|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #1'
   network: ws
-  port: 80
+  port: '80'
   server: 104.17.25.1
   servername: ''
   skip-cert-verify: false
