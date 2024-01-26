@@ -50,7 +50,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 18,20|baipaovpn甘肃省兰州市
+  name: 18|香港|@ripaojiedian
   network: tcp
   port: '33302'
   server: 36.139.110.169
