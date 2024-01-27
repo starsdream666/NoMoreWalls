@@ -1026,6 +1026,58 @@ proxies:
     headers:
       Host: hytron.io
     path: /
+- client-fingerprint: chrome
+  name: 12|ip1
+  network: ws
+  port: 443
+  server: 23.227.38.51
+  servername: fr.freeh1.xyz
+  tls: true
+  type: vless
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
+  ws-opts:
+    headers:
+      host: fr.freeh1.xyz
+    path: /kfhaws
+- client-fingerprint: chrome
+  name: 12|ip1-2
+  network: ws
+  port: 443
+  server: 23.227.39.51
+  servername: fr.freeh1.xyz
+  tls: true
+  type: vless
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
+  ws-opts:
+    headers:
+      host: fr.freeh1.xyz
+    path: /kfhaws
+- client-fingerprint: chrome
+  name: 13|ip
+  network: ws
+  port: 443
+  server: 198.41.220.101
+  servername: v2ray3.freegradely.xyz
+  tls: true
+  type: vless
+  uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075
+  ws-opts:
+    headers:
+      host: v2ray3.freegradely.xyz
+    path: /bqbows
+- client-fingerprint: chrome
+  name: 14|ip4
+  network: ws
+  port: 443
+  server: 23.227.39.53
+  servername: fr.freeh1.xyz
+  tls: true
+  type: vless
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
+  ws-opts:
+    headers:
+      host: fr.freeh1.xyz
+    path: /kfhaws
 - alterId: 0
   cipher: auto
   name: '15|ip #1'
@@ -1041,6 +1093,32 @@ proxies:
     headers:
       host: xray1.freeh1.xyz
     path: /gzogws
+- client-fingerprint: chrome
+  name: '17|ip1 #1'
+  network: ws
+  port: 443
+  server: 172.67.70.101
+  servername: fr.freeh1.xyz
+  tls: true
+  type: vless
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
+  ws-opts:
+    headers:
+      host: fr.freeh1.xyz
+    path: /kfhaws
+- client-fingerprint: chrome
+  name: '17|ip1-2 #1'
+  network: ws
+  port: 443
+  server: 172.67.70.103
+  servername: fr.freeh1.xyz
+  tls: true
+  type: vless
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
+  ws-opts:
+    headers:
+      host: fr.freeh1.xyz
+    path: /kfhaws
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本04
@@ -2636,6 +2714,7 @@ proxy-groups:
   - 22|【BGP】俄罗斯 04 | 1x RU
   - 1|_IQ_->_TR_
   - 7|德国2
+  - 12|ip1-2
   - 19,20,21|🇺🇸_US_美国_8
   - 21|⚡️@DeamNet 🇳🇱The Netherlands 4
   - 1|_US__4
@@ -2718,6 +2797,7 @@ proxy-groups:
   - '3,4,8,9,21,25|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
   - 21|⚡️@DeamNet 🇺🇸United States 8
   - 6|-https://t.me/MrXbin-6
+  - 14|ip4
   - 18|🇬🇧英国04
   - 7|德国4
   - 23|🇸🇬 狮城特殊2|@ripaojiedian
@@ -2803,9 +2883,11 @@ proxy-groups:
   - 18|🇵🇹葡萄牙04
   - 1|_US_->_DE__1
   - 18|🇦🇺澳大利亚04
+  - '17|ip1-2 #1'
   - 6|-https://t.me/MrXbin-37
   - 1|_CN_->_US__2
   - 19,20|github.com/freefq - 乌克兰  10
+  - 12|ip1
   - 1|_CN_->_US__3
   - 22|【BGP】韩国 02 | 1x KR
   - 6|-https://t.me/MrXbin-22
@@ -2840,9 +2922,11 @@ proxy-groups:
   - '21|⚡️@DeamNet_🔻 🇺🇸United States 2... #1'
   - '21|💻 Channel 🆔 : @AlienVPN402 👽 (... #4'
   - 19,20,21|GR_speednode_0070
+  - '17|ip1 #1'
   - 19,20,23,24|罗马尼亚|@ripaojiedian
   - 6|-https://t.me/MrXbin-36
   - 18|🇪🇸西班牙04
+  - 13|ip
   - 21|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
   - 7|德国1
   type: load-balance
