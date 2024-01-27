@@ -164,19 +164,18 @@ proxies:
       host: www.coldstone.club
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-61
+  cipher: auto
+  name: 1|_US_->_IR__3
   network: ws
   port: 8080
   server: www.darkroom.lol
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.darkroom.lol
     path: /
 - name: 1|_AM_->_NL_
   network: ws
@@ -285,12 +284,16 @@ proxies:
     path: /yfjc/kus2
 - alterId: 0
   cipher: auto
-  name: '3,4,8,9,21,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3'
+  h2-opts: {}
+  http-opts: {}
+  name: '3,4,6,8,9,21,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3'
   network: ws
   port: '8080'
   server: www.darkroom.lol
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
