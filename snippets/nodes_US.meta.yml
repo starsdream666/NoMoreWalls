@@ -69,14 +69,11 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '0,3,4,6,8,9,19,20,21,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #5'
+  name: '0,3,4,8,9,19,20,21,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #5'
   network: ws
   port: '8080'
   server: www.crispyrainbow.biz
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -164,13 +161,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '3,4,6,8,9,21,25|🇺🇸 _US_美国 #11'
+  name: '3,4,8,9,21,25|🇺🇸 _US_美国 #11'
   network: ws
   port: '8080'
   server: www.blueberrywindow.online
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -217,7 +211,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d4c37272-43f1-46b7-b973-ca1934bde93b
+  uuid: 3905c81c-32af-4a2c-8f53-0a5b2b019f62
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -227,7 +221,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d4c37272-43f1-46b7-b973-ca1934bde93b
+  uuid: 3905c81c-32af-4a2c-8f53-0a5b2b019f62
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -237,7 +231,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d4c37272-43f1-46b7-b973-ca1934bde93b
+  uuid: 3905c81c-32af-4a2c-8f53-0a5b2b019f62
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #2'
@@ -530,7 +524,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 889a1874-8b09-41fa-aea1-b9d9206723a3
+  uuid: e32e1e0e-e767-44df-99eb-66f06ee46025
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -540,7 +534,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 889a1874-8b09-41fa-aea1-b9d9206723a3
+  uuid: e32e1e0e-e767-44df-99eb-66f06ee46025
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -550,7 +544,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 889a1874-8b09-41fa-aea1-b9d9206723a3
+  uuid: e32e1e0e-e767-44df-99eb-66f06ee46025
 - alterId: 0
   cipher: auto
   name: 23,24|美国2|@ripaojiedian
