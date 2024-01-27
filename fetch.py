@@ -409,13 +409,11 @@ class Node:
             ret['cipher'] = 'auto'
         return ret
 
-    def supports_clash(self) -> bool:
+    def supports_meta(self, noMeta=False) -> bool:
         if self.isfake: return False
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
             # A quick fix for #2
             self.data['tls'] = True
-        if self.type == 'vless': return False
-        if self.data['type'] == 'vless': return False
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
         elif self.type == 'vmess':
@@ -423,6 +421,7 @@ class Node:
         elif self.type == 'ss' or self.type == 'ssr':
             supported = CLASH_CIPHER_SS
         elif self.type == 'trojan': return True
+        elif not noMeta: return True
         else: supported = []
         if self.data['cipher'] not in supported: return False
         if self.type == 'ssr':
@@ -433,6 +432,12 @@ class Node:
         if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
                 and not self.data['plugin-opts']['mode']: return False
         return True
+    
+    def supports_clash(self, meta=False) -> bool:
+        if meta: return self.supports_meta()
+        if self.type == 'vless': return False
+        if self.data['type'] == 'vless': return False
+        return self.supports_meta(noMeta=True)
 
     def supports_ray(self) -> bool:
         if self.isfake: return False
@@ -882,6 +887,7 @@ def main():
 
     snip_conf: Dict[str, Dict[str, Any]] = {}
     ctg_nodes: Dict[str, List[Node.DATA_TYPE]] = {}
+    ctg_nodes_meta: Dict[str, List[Node.DATA_TYPE]] = {}
     categories: Dict[str, List[str]] = {}
     try:
         with open("snippets/_config.yml", encoding="utf-8") as f:
@@ -892,9 +898,11 @@ def main():
     else:
         print("正在按地区分类节点...")
         categories = snip_conf['categories']
-        for ctg in categories: ctg_nodes[ctg] = []
+        for ctg in categories:
+            ctg_nodes[ctg] = []
+            ctg_nodes_meta[ctg] = []
         for node in merged.values():
-            if node.supports_clash():
+            if node.supports_meta():
                 ctgs = []
                 for ctg, keys in categories.items():
                     for key in keys:
@@ -904,29 +912,17 @@ def main():
                     if ctgs and keys[-1] == 'OVERALL':
                         break
                 if len(ctgs) == 1:
-                    ctg_nodes[ctgs[0]].append(node.clash_data)
+                    if node.supports_clash():
+                        ctg_nodes[ctgs[0]].append(node.clash_data)
+                    ctg_nodes_meta[ctgs[0]].append(node.clash_data)
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
+        for ctg, proxies in ctg_nodes_meta.items():
+            with open("snippets/nodes_"+ctg+".meta.yml", 'w', encoding="utf-8") as f:
+                yaml.dump({'proxies': proxies}, f, allow_unicode=True)
 
-    # print("正在抓取 Google IP 列表... ", end='', flush=True)
-    # proxy_name: str = conf['proxy-groups'][0]['name']
-    # try:
-    #     prefixes: List[Dict[str,str]] = session.get("https://www.gstatic.com/ipranges/goog.json").json()['prefixes']
-    #     for prefix in prefixes:
-    #         for tp, ip in prefix.items():
-    #             if tp.startswith('ipv4'):
-    #                 rules['IP-CIDR,'+ip] = proxy_name
-    #             elif tp.startswith('ipv6'):
-    #                 rules['IP-CIDR6,'+ip] = proxy_name
-    # except requests.exceptions.RequestException:
-    #     print("抓取失败！")
-    # except Exception:
-    #     print("解析失败！")
-    #     traceback.print_exc()
-    # else: print("解析成功！")
-
-    print("正在写出 Clash 订阅...")
+    print("正在写出 Clash & Meta 订阅...")
     match_rule = None
     for rule in conf['rules']:
         tmp = rule.strip().split(',')
@@ -943,14 +939,27 @@ def main():
         if k not in rules:
             rules[k] = rpolicy
     conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
-    conf['proxies'] = []
+
+    # Clash & Meta
+    proxies: List[Node.DATA_TYPE] = []
+    proxies_meta: List[Node.DATA_TYPE] = []
     ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
     names_clash: Union[Set[str], List[str]] = set()
+    names_clash_meta: Union[Set[str], List[str]] = set()
     for p in merged.values():
-        if p.supports_clash():
-            conf['proxies'].append(p.clash_data)
-            names_clash.add(p.data['name'])
+        if p.supports_meta():
+            proxies_meta.append(p.clash_data)
+            names_clash_meta.add(p.data['name'])
+            if p.supports_clash():
+                proxies.append(p.clash_data)
+                names_clash.add(p.data['name'])
     names_clash = list(names_clash)
+    names_clash_meta = list(names_clash_meta)
+    import copy
+    conf_meta = copy.deepcopy(conf)
+
+    # Clash
+    conf['proxies'] = proxies
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash
@@ -969,7 +978,30 @@ def main():
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': conf['proxies']}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies}, allow_unicode=True).replace('!!str ',''))
+
+    # Meta
+    conf = conf_meta
+    conf['proxies'] = proxies_meta
+    for group in conf['proxy-groups']:
+        if not group['proxies']:
+            group['proxies'] = names_clash_meta
+    if snip_conf:
+        conf['proxy-groups'][-1]['proxies'] = []
+        ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
+        ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        for ctg, payload in ctg_nodes_meta.items():
+            if ctg in ctg_disp:
+                disp = ctg_base.copy()
+                disp['name'] = ctg_disp[ctg]
+                if not payload: disp['proxies'] = ['REJECT']
+                else: disp['proxies'] = [_['name'] for _ in payload]
+                conf['proxy-groups'].append(disp)
+                ctg_selects.append(disp['name'])
+    with open("list.meta.yml", 'w', encoding="utf-8") as f:
+        f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
+    with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
+        f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ',''))
 
     if snip_conf:
         print("正在写出配置片段...")
@@ -999,3 +1031,23 @@ def main():
 if __name__ == '__main__':
     from dynamic import AUTOURLS, AUTOFETCH
     main()
+
+
+'''python
+print("正在抓取 Google IP 列表... ", end='', flush=True)
+proxy_name: str = conf['proxy-groups'][0]['name']
+try:
+    prefixes: List[Dict[str,str]] = session.get("https://www.gstatic.com/ipranges/goog.json").json()['prefixes']
+    for prefix in prefixes:
+        for tp, ip in prefix.items():
+            if tp.startswith('ipv4'):
+                rules['IP-CIDR,'+ip] = proxy_name
+            elif tp.startswith('ipv6'):
+                rules['IP-CIDR6,'+ip] = proxy_name
+except requests.exceptions.RequestException:
+    print("抓取失败！")
+except Exception:
+    print("解析失败！")
+    traceback.print_exc()
+else: print("解析成功！")
+'''

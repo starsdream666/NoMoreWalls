@@ -7,8 +7,9 @@
 ## Proxy Providers 规则集
 
 - [nodes.yml](./nodes.yml)：节点列表，注意**不要**和下文的 `proxy.yml` 搞混了。
+- [nodes.meta.yml](./nodes.meta.yml)：适用于 Meta 核心的节点列表。
 - [nodes_redir.yml](./nodes_redir.yml)：中转节点列表。
-- nodes_地区码.yml：相应地区的节点列表，根据名称识别，不保证准确性，也不保证使用第三方服务时是否会被判断为国区。
+- nodes_地区码.yml：相应地区的节点列表，根据名称识别，不保证准确性，也不保证使用第三方服务时是否会被判断为国区。`.meta.yml` 表示列表适用于 Meta 核心。
 
 ## Rule Providers 规则集
 
@@ -88,13 +89,13 @@ rules:
 
 # 加速链接（以节点列表为例）
 - 原始链接: `https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
-- Gh-Proxy.com: `https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
 - JsDelivr 反代（zzko.cn）: `https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
 - JsDelivr Fastly CDN: `https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
 - JsDelivr Cloudflare CDN: `https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
 - JsDelivr GCore CDN: `https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
+- GhProxy.com: `https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
+- Gh-Proxy.com: `https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
 
 以下加速链接可能无效：
-- Statically CDN: `https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/snippets/nodes.yml`
 - KGithub: `https://raw.kgithub.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
-- GhProxy.com: `https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
+- KKGithub: `https://raw.kkgithub.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
