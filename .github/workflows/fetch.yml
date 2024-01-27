@@ -9,6 +9,7 @@ on:
     paths:
       - 'sources.list'
       - 'config.yml'
+      - 'abpwhite.txt'
       - '.github/workflows/**'
       - '**.py'
       - 'snippets/_*'
@@ -18,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: 安装 Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
         cache: 'pip'
