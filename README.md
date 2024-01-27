@@ -8,6 +8,12 @@
 
 为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
 
+## 一级警报：Clash 死了！！！[最后的遗照](https://github.com/doreamon-design/clash)
+## 一级警报：Clash 死了！！！[最后的遗照](https://github.com/doreamon-design/clash)
+## 一级警报：Clash 死了！！！[最后的遗照](https://github.com/doreamon-design/clash)
+
+受此影响，MetaCubeX 团队宣布放弃 Clash.Meta，改入游戏行业并发布了第一款基于 YS 二开的游戏：[mihomo](https://github.com/MetaCubeX/mihomo)。我试过了，很好玩（
+
 ## 关于 Google Play 等服务在国内无法使用的解决方法
 
 ~~由于 Google 调整了服务器安排，将原有的国外服务器的**域名**调整到了国内专版，但是**服务器**还没跟上，导致 Google Play 等服务在国内连上的是**空域名**，直接不能用了。~~
