@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 17|🇭🇰 香港KT2|@ripaojiedian
+  name: 23|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -15,7 +15,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 18|香港2|@ripaojiedian
+  name: 24|香港2|@ripaojiedian
   network: tcp
   port: '10241'
   server: 38.147.191.185
