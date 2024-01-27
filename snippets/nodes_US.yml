@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,8,23|🇺🇸_US_美国_9_35
+  name: 0,23|🇺🇸_US_美国_9_35
   network: ws
   port: 80
   server: 104.18.15.147
@@ -83,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,8,23|🇺🇸_US_美国_8_32
+  name: 0,23|🇺🇸_US_美国_8_32
   network: ws
   port: 80
   server: 104.18.15.150
@@ -124,7 +124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,4,8,9,13,14,15|🇺🇸_US_美国 #16'
+  name: '1,4,8,9,13,14,15|🇺🇸_US_美国 #13'
   network: ws
   port: 80
   server: be1-vmess.sshmax.xyz
@@ -157,13 +157,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '3,4,6,9,19|🇺🇸 _US_美国 #11'
+  name: '3,4,8,9,19|🇺🇸 _US_美国 #11'
   network: ws
   port: '8080'
   server: www.blueberrywindow.online
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -173,7 +170,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,9,15,17,18,19|🇺🇸 _US_美国 #12'
+  name: '3,4,8,9,15,17,18,19|🇺🇸 _US_美国 #12'
   network: ws
   port: '8080'
   server: www.crispyrainbow.online
@@ -210,7 +207,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4339c75-5796-4073-82f5-4f70b5ef5f3d
+  uuid: f555f144-76c7-4466-8d46-c937ddc02242
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国05
@@ -220,7 +217,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4339c75-5796-4073-82f5-4f70b5ef5f3d
+  uuid: f555f144-76c7-4466-8d46-c937ddc02242
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸美国06
@@ -230,7 +227,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4339c75-5796-4073-82f5-4f70b5ef5f3d
+  uuid: f555f144-76c7-4466-8d46-c937ddc02242
 - alterId: 0
   cipher: auto
   name: 13|美国 CloudFlare节点
@@ -608,7 +605,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12671c32-bc31-4ecc-a50c-a1cfeed336d9
+  uuid: 1d511093-226b-44fc-afa1-0ea0ef6abf35
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 05 | 1x US
@@ -618,7 +615,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12671c32-bc31-4ecc-a50c-a1cfeed336d9
+  uuid: 1d511093-226b-44fc-afa1-0ea0ef6abf35
 - alterId: 0
   cipher: auto
   name: 16|【BGP】美国 06 | 1x US
@@ -628,18 +625,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12671c32-bc31-4ecc-a50c-a1cfeed336d9
-- alterId: 0
-  cipher: auto
-  name: 20|baipaovpn美国
-  network: ws
-  port: '8080'
-  server: 104.17.232.18
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
-  ws-opts:
-    headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
+  uuid: 1d511093-226b-44fc-afa1-0ea0ef6abf35
