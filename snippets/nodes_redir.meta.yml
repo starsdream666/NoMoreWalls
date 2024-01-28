@@ -1,12 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,4,8,9,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_3由快嘴科技提供：...
+  h2-opts: {}
+  http-opts: {}
+  name: 0,4,6,8,9,21,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_3由快嘴科技提供：...
   network: ws
   port: 8080
   server: www.darkroom.lol
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -46,7 +50,7 @@ proxies:
   uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
 - alterId: 0
   cipher: auto
-  name: 0,4,8,9,19,20,21,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,4,8,9,19,21,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -86,19 +90,19 @@ proxies:
       host: er3.889611.com
     path: /
 - alterId: 0
-  cipher: auto
-  name: 1,21|🇺🇸_US_美国->🇮🇷_IR_伊朗_1
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-113
   network: ws
   port: 8080
   server: www.darkroom.lol
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
