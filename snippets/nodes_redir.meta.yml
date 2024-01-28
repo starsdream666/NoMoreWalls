@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0,4,6,8,9,21,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_3由快嘴科技提供：...
+  name: 0,4,6,8,9,20,21,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_3由快嘴科技提供：...
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -93,7 +93,7 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-113
+  name: 1,6|-https://t.me/MrXbin-128
   network: ws
   port: 8080
   server: www.darkroom.lol
