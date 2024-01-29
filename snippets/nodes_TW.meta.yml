@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 台湾省新竹市中华电信...
+  name: 19,20,21|🔒 VM-TCP-NA 🇹🇼 TW-114.37.139.1...
   network: tcp
   port: '2024'
   server: 114.37.139.157
@@ -21,7 +21,7 @@ proxies:
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 台湾省晟崴科技股份有...
+  name: 19|台湾省晟崴科技股份有限公司 23
   network: ws
   port: '80'
   server: 103.118.29.229
@@ -33,3 +33,43 @@ proxies:
     headers:
       Host: lienquan.garena.vn
     path: /5gtocdocao.com
+- alterId: 0
+  cipher: auto
+  name: 21,26|baipaovpn台湾省
+  network: tcp
+  port: '6122'
+  server: 125.224.144.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇹🇼 TW-114.37.136.1...
+  network: tcp
+  port: '4443'
+  server: 114.37.136.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+- alterId: 0
+  cipher: auto
+  name: 21,24|台湾|@ripaojiedian
+  network: tcp
+  port: '6122'
+  server: c12.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn台湾省 #1'
+  network: tcp
+  port: '12002'
+  server: 118.167.70.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a

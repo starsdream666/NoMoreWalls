@@ -1,4 +1,37 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '21,23,24|香港3|@ripaojiedian #1'
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  ws-opts:
+    headers:
+      Host: yvhnbevxhk1.yofnhkfc.xyz
+    path: /video/34kKXbLM
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT2|@ripaojiedian
@@ -15,23 +48,6 @@ proxies:
   server: 47.243.59.144
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|香港3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
-  ws-opts:
-    headers:
-      Host: yvhnbevxhk1.yofnhkfc.xyz
-    path: /video/34kKXbLM
 - alterId: 0
   cipher: auto
   name: 24|香港2|@ripaojiedian
