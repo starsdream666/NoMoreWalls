@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,21,26|baipaovpn台湾省新竹市
+  name: 19,20,21,26|baipaovpn台湾省新竹市
   network: tcp
   port: '2024'
   server: 114.37.139.157
@@ -11,7 +11,7 @@ proxies:
   uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
 - alterId: 0
   cipher: auto
-  name: 19|台湾省晟崴科技股份有限公司 13
+  name: 19,20|github.com/freefq - 台湾省晟崴科技股份有...
   network: ws
   port: '80'
   server: 103.118.29.229
@@ -35,7 +35,7 @@ proxies:
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: '19,20|github.com/freefq - 台湾省中华电信(Hi... #1'
+  name: 19,20|github.com/freefq - 台湾省中华电信(Hi...
   network: tcp
   port: 6122
   server: 125.224.144.24
@@ -65,10 +65,30 @@ proxies:
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省彰化县
+  name: 26|baipaovpn台湾省南投县
+  network: tcp
+  port: '6122'
+  server: 36.232.161.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省新北市
+  network: tcp
+  port: '4443'
+  server: 61.228.135.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省台中市
   network: ws
   port: '36002'
-  server: 36.232.27.237
+  server: 36.232.1.168
   servername: ''
   tls: false
   type: vmess
@@ -79,7 +99,21 @@ proxies:
     path: /ergedgdsrgsd
 - alterId: 0
   cipher: auto
-  name: 28|🇹🇼_TW_台湾_32
+  name: 26|baipaovpn台湾省
+  network: ws
+  port: '80'
+  server: 103.118.29.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: ''
+    path: /5gtocdocao.com
+- alterId: 0
+  cipher: auto
+  name: 29|🇹🇼_TW_台湾_32
   network: ws
   port: 19888
   server: 113.61.250.18
