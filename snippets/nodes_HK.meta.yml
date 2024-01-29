@@ -1,22 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.223.223
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
   name: 23|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -31,19 +15,6 @@ proxies:
   server: 47.243.59.144
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23|🇮🇳 印度|@ripaojiedian
-  password: dcff95c5991346deba858aa2076943ab
-  port: 38664
-  server: 103.65.140.83
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
 - alterId: 0
   cipher: auto
   name: 24|香港2|@ripaojiedian
