@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,21|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
+  name: 19,20,21|台湾【TG：@ccbaohe】定时更新节点订阅
   network: tcp
   port: '4443'
   server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: 19,20,21,26|baipaovpn台湾省新竹市
+  name: 19,20|github.com/freefq - 台湾省新竹市中华电信...
   network: tcp
   port: '2024'
   server: 114.37.139.157
@@ -21,7 +21,7 @@ proxies:
   uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
 - alterId: 0
   cipher: auto
-  name: 19,21,24|台湾
+  name: 19,24|台湾
   network: tcp
   port: '12002'
   server: 118.167.70.229
@@ -31,7 +31,7 @@ proxies:
   uuid: 04b694b2-7022-4767-801b-6d21611f548b
 - alterId: 0
   cipher: auto
-  name: 19,21|🇻🇳|VN|越南|@wxgqlfx|33
+  name: 19,20|github.com/freefq - 台湾省晟崴科技股份有...
   network: ws
   port: '80'
   server: 103.118.29.229
@@ -45,16 +45,17 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: 20,21|🔒 VM-TCP-NA 🇹🇼 TW-118.167.77.5...
+  name: 26|baipaovpn台湾省新竹市
   network: tcp
   port: '4443'
-  server: 118.167.77.5
+  server: 114.37.136.126
+  servername: ''
   tls: false
   type: vmess
-  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: 21,26|baipaovpn台湾省
+  name: 26|baipaovpn台湾省
   network: tcp
   port: '6122'
   server: 125.224.144.24
