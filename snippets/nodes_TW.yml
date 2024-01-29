@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,21|台湾【TG：@ccbaohe】定时更新节点订阅
-  network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
   name: 19,20|github.com/freefq - 台湾省新竹市中华电信...
   network: tcp
   port: '2024'
@@ -21,14 +11,14 @@ proxies:
   uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
 - alterId: 0
   cipher: auto
-  name: 19,24|台湾
+  name: 19,20,21|台湾【TG：@ccbaohe】定时更新节点订阅
   network: tcp
-  port: '12002'
-  server: 118.167.70.229
+  port: '4443'
+  server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 04b694b2-7022-4767-801b-6d21611f548b
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
   name: 19,20|github.com/freefq - 台湾省晟崴科技股份有...
@@ -43,23 +33,3 @@ proxies:
     headers:
       Host: lienquan.garena.vn
     path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省新竹市
-  network: tcp
-  port: '4443'
-  server: 114.37.136.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省
-  network: tcp
-  port: '6122'
-  server: 125.224.144.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
