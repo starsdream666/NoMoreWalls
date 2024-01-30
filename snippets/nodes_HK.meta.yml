@@ -49,3 +49,16 @@ proxies:
   server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇮🇳 印度|@ripaojiedian
+  password: c94df578-85f2-4c04-bc86-d18a8eda5a67
+  port: 38664
+  server: 103.65.140.83
+  skip-cert-verify: false
+  sni: download.xn--mes358a9urctx.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39

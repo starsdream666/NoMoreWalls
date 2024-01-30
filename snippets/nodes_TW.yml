@@ -59,20 +59,6 @@ proxies:
   uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省
-  network: ws
-  port: '80'
-  server: 103.118.29.208
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  ws-opts:
-    headers:
-      Host: PR1.5GTOCDOCAO.COM
-    path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
   name: 26|baipaovpn台湾省台中市
   network: ws
   port: '36002'
@@ -83,5 +69,5 @@ proxies:
   uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
   ws-opts:
     headers:
-      Host: tw.178820225.xyz
+      Host: ''
     path: /ergedgdsrgsd
