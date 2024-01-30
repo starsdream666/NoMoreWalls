@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
+  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
+  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -28,7 +28,20 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
+  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵日本3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -44,16 +57,6 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
   name: 22|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -61,7 +64,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
+  uuid: fab80a77-5758-4781-8a5c-9832302361b4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -71,7 +74,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
+  uuid: fab80a77-5758-4781-8a5c-9832302361b4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -81,7 +84,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
+  uuid: fab80a77-5758-4781-8a5c-9832302361b4
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本KT|@ripaojiedian
@@ -96,14 +99,6 @@ proxies:
     tls: false
   port: 10016
   server: 122.118.173.203
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本|@ripaojiedian
-  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
-  port: 26668
-  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - cipher: aes-256-cfb
