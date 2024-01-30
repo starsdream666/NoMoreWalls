@@ -5,7 +5,6 @@ proxies:
   network: ws
   port: 8080
   server: 172.67.166.190
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -15,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇺🇸 _US_美国 #25'
+  name: '0,3,4,8,9,25|🇺🇸 _US_美国 #25'
   network: ws
   port: '2052'
   server: cfcdn1.yuzhoucloud003.xyz
@@ -28,7 +27,7 @@ proxies:
     path: /video/LpPP8QNC
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇺🇸 _US_美国 #35'
+  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国 #35'
   network: ws
   port: '80'
   server: be1-vmess.sshmax.xyz
@@ -41,7 +40,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
+  name: 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -55,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|_GT_危地马拉 #2'
+  name: '0,3,4,8,9,25|_GT_危地马拉 #2'
   network: ws
   port: '80'
   server: 181.174.80.182
@@ -88,7 +87,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,19,21,25|🇺🇸 _US_美国 #26'
+  name: '0,3,4,8,9,19,21,25|🇺🇸 _US_美国 #26'
   network: ws
   port: '2095'
   server: cfcdn1.sanfencdn9.com
@@ -102,7 +101,7 @@ proxies:
     path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,20,21,25|🇨🇾 _CY_塞浦路斯->🇹🇷_TR_土耳其 #2'
+  name: '0,3,4,8,9,25|🇨🇾 _CY_塞浦路斯->🇹🇷_TR_土耳其 #2'
   network: ws
   port: '80'
   server: 195.14.146.81
@@ -128,13 +127,22 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,9,25,29|🇩🇪_DE_德国_5
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - speedtest.net
+    method: GET
+    path:
+    - /
+  name: 0,1,3,4,6,8,9,25,29|🇩🇪_DE_德国_5
   network: http
   port: 34310
   server: 167.235.65.233
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: b067a70b-5579-4b61-bc34-4c3266909d19
 - alterId: 0
   cipher: auto
@@ -151,11 +159,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇺🇸 _US_美国 #29'
+  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国 #29'
   network: ws
   port: '8080'
   server: 172.67.212.114
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -165,7 +172,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|🇹🇷 _EC_厄瓜多尔->🇹🇷_TR_土耳其 #2'
+  name: '0,3,4,8,9,25|🇹🇷 _EC_厄瓜多尔->🇹🇷_TR_土耳其 #2'
   network: ws
   port: '80'
   server: 181.39.11.210
@@ -178,7 +185,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇺🇸 _US_美国 #27'
+  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国 #27'
   network: ws
   port: '8080'
   server: 104.21.83.10
@@ -221,7 +228,6 @@ proxies:
   network: ws
   port: 8080
   server: www.blueberrywindow.online
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -248,7 +254,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,9,25|🇺🇸 _US_美国 #34'
+  name: '0,1,3,4,8,9,25|🇺🇸 _US_美国 #34'
   network: http
   port: '13489'
   server: 35.87.209.22
@@ -258,14 +264,11 @@ proxies:
   uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -275,7 +278,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇺🇸 _US_美国 #24'
+  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国 #24'
   network: ws
   port: '2095'
   server: 104.19.234.82
@@ -316,7 +319,7 @@ proxies:
     path: /video/LpPP8QNC
 - alterId: 0
   cipher: auto
-  name: 1,8,19,20|github.com/freefq - 乌克兰  10
+  name: 1,19,20|github.com/freefq - 乌克兰  3
   network: ws
   port: '80'
   server: be1-vmess.sshmax.xyz
@@ -333,16 +336,19 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-67
+  name: 1,6,21|Youtube顺丰资源  US00192
   network: ws
-  port: 8080
+  port: '8080'
   server: www.darkroom.lol
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -585,15 +591,6 @@ proxies:
     headers:
       host: us82pRzxDMb.fzbqfrse.xyz
     path: /video/qYZue4zaWS
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6,23|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 34.217.80.153
-  tfo: false
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 6,23|🇭🇰 香港KT|@ripaojiedian
@@ -619,246 +616,130 @@ proxies:
   tfo: false
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-3
+  password: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+  port: 3234
+  server: c11.twtc.dynu.net
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 13.231.164.174
+  server: 43.201.110.52
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-5
   password: qwerREWQ@@
-  port: 56906
-  server: p234.panda004.net
+  port: 54345
+  server: p110.panda001.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-6
   password: amazonskr05
   port: 443
-  server: 13.250.25.60
+  server: 13.231.164.174
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-7
+  client-fingerprint: chrome
+  name: 6,23|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 34.217.80.153
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-8
   password: amazonskr05
   port: 443
   server: 43.201.116.29
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-9
-  obfs: http_simple
-  obfs-param: 07ded74339.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 74339:ZNWHS5Imf8AgkvDE
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-10
-  obfs: http_simple
-  obfs-param: 1f50767465.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 67465:wvYN0TI3Byxngpoj
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-11
-  obfs: http_simple
-  obfs-param: 0139b67945.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 67945:cswZylSlE9QUzBo0
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
+- cipher: aes-256-ctr
   name: 6|-https://t.me/MrXbin-12
-  obfs: http_simple
-  obfs-param: a0b5867967.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 67967:4PACE3qVqUHZk319
-  server: chaoxi.cool
+  obfs: tls1.2_ticket_auth
+  obfs-param: cdn.appsflyer.com
+  password: NewBypasser2023
+  port: 443
+  protocol: origin
+  server: 163.172.218.164
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-13
+  name: 6|-https://t.me/MrXbin-15
   obfs: http_simple
-  obfs-param: 451c268100.microsoft.com
+  obfs-param: 6605767881.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 68100:HrPOPbpPAzwcSWsQ
+  protocol-param: 67881:ELSdQ9BX2wRuZkm6
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
   name: 6|-https://t.me/MrXbin-16
   obfs: http_simple
-  obfs-param: 7013768961.microsoft.com
+  obfs-param: 9ebee73828.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 68961:qlZrTB4eHhX5NQck
+  protocol-param: 73828:tNq6aK24hiDzH61q
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
   name: 6|-https://t.me/MrXbin-17
   obfs: http_simple
-  obfs-param: b42f269074.microsoft.com
+  obfs-param: 5e00d66393.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 69074:srIv6AEkxMITZiGU
+  protocol-param: 66393:MIxUnTwwZlfR9x4y
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
   name: 6|-https://t.me/MrXbin-18
   obfs: http_simple
-  obfs-param: 4597669169.microsoft.com
+  obfs-param: 61da169011.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 69169:ftieI50qLlXGLxov
+  protocol-param: 69011:pBpT7EjnmqlN0Krv
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
   name: 6|-https://t.me/MrXbin-19
   obfs: http_simple
-  obfs-param: 765b269315.microsoft.com
+  obfs-param: 520d873459.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 69315:PCa29933GZgJcsOX
+  protocol-param: 73459:lqXz1YyA0B3DvjOh
+  server: chaoxi.cool
+  type: ssr
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-20
+  obfs: http_simple
+  obfs-param: 8fdf173532.microsoft.com
+  password: cxssr911
+  port: 2000
+  protocol: auth_aes128_md5
+  protocol-param: 73532:ro67BW8AlXPpNPOj
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
   name: 6|-https://t.me/MrXbin-21
   obfs: http_simple
-  obfs-param: bfb4e69551.microsoft.com
+  obfs-param: 4579d73596.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 69551:72IODC5EkFE2YwU3
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-23
-  obfs: http_simple
-  obfs-param: 509b869637.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 69637:xto1eQ5QRCbxmukg
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-24
-  obfs: http_simple
-  obfs-param: c566f69770.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 69770:58mqqR8XtHfCeHaS
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-25
-  obfs: http_simple
-  obfs-param: 59e8070111.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70111:4t4OKOlYVyudqCLr
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-26
-  obfs: http_simple
-  obfs-param: ab4fc70295.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70295:n83FZxJSXeeM5pT7
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-27
-  obfs: http_simple
-  obfs-param: 0709e70397.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70397:4wn5Kybbczel3A1O
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-28
-  obfs: http_simple
-  obfs-param: 99f1370427.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70427:QC0GzcAOmo84Cmdj
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-29
-  obfs: http_simple
-  obfs-param: bccb070452.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70452:mkc4KpHSP78zQod4
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-30
-  obfs: http_simple
-  obfs-param: 1428370499.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70499:iPSkSjGVBaHFalN1
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-31
-  obfs: http_simple
-  obfs-param: 71cfc70851.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 70851:A3mlKhpso5VljEPN
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-32
-  obfs: http_simple
-  obfs-param: b7d7571168.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 71168:iv3wg3LeJJvs0Bkc
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-34
-  obfs: http_simple
-  obfs-param: f037b67630.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 67630:4Al8vaCPX5vSLRWw
+  protocol-param: 73596:jaDpVhpJiRyhkuYH
   server: chaoxi.cool
   type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-35
+  name: 6|-https://t.me/MrXbin-23
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -866,7 +747,7 @@ proxies:
   server: us-am3.eqnode.net
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-36
+  name: 6|-https://t.me/MrXbin-25
   obfs: http_simple
   obfs-param: 43e7674035.microsoft.com
   password: cxssr911
@@ -876,7 +757,47 @@ proxies:
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-39
+  name: 6|-https://t.me/MrXbin-26
+  obfs: http_simple
+  obfs-param: 847fe74160.microsoft.com
+  password: cxssr911
+  port: 2000
+  protocol: auth_aes128_md5
+  protocol-param: 74160:4zbolTRr89SNgRhG
+  server: chaoxi.cool
+  type: ssr
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-27
+  obfs: http_simple
+  obfs-param: 1c8f574318.microsoft.com
+  password: cxssr911
+  port: 2000
+  protocol: auth_aes128_md5
+  protocol-param: 74318:BKR1Lyt2oRQNIiFu
+  server: chaoxi.cool
+  type: ssr
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-28
+  obfs: http_simple
+  obfs-param: fc29067773.microsoft.com
+  password: cxssr911
+  port: 2000
+  protocol: auth_aes128_md5
+  protocol-param: 67773:Bsotm3tcAzzW6nhv
+  server: chaoxi.cool
+  type: ssr
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-29
+  obfs: http_simple
+  obfs-param: d6cf574499.microsoft.com
+  password: cxssr911
+  port: 2000
+  protocol: auth_aes128_md5
+  protocol-param: 74499:8g3S131jXDUow337
+  server: chaoxi.cool
+  type: ssr
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-30
   obfs: http_simple
   obfs-param: 0994d67180.microsoft.com
   password: cxssr911
@@ -885,54 +806,38 @@ proxies:
   protocol-param: 67180:bFXw8pmEy9pPnqRr
   server: chaoxi.cool
   type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-40
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13501
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: tata12.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: aes-256-ctr
-  name: 6|-https://t.me/MrXbin-43
-  obfs: tls1.2_ticket_auth
-  obfs-param: cdn.appsflyer.com
-  password: NewBypasser2023
-  port: 443
-  protocol: origin
-  server: 163.172.218.164
-  type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-44
+  name: 6|-https://t.me/MrXbin-31
   obfs: http_simple
-  obfs-param: ff63e67267.microsoft.com
+  obfs-param: 2332368446.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 67267:DaHY4a2j5AxLU4B6
+  protocol-param: 68446:uRw3p0NiCnR2cfBN
   server: chaoxi.cool
   type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-45
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13545
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-32
+  obfs: http_simple
+  obfs-param: d10fb68262.microsoft.com
+  password: cxssr911
+  port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: tata12.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-46
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13299
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
+  protocol-param: 68262:lmFdQyhWS675MgGg
+  server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-48
+  name: 6|-https://t.me/MrXbin-33
+  obfs: http_simple
+  obfs-param: a0b5867967.microsoft.com
+  password: cxssr911
+  port: 2000
+  protocol: auth_aes128_md5
+  protocol-param: 67967:4PACE3qVqUHZk319
+  server: chaoxi.cool
+  type: ssr
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-34
   obfs: http_simple
   obfs-param: 614f567920.microsoft.com
   password: cxssr911
@@ -942,124 +847,111 @@ proxies:
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-50
+  name: 6|-https://t.me/MrXbin-35
   obfs: http_simple
-  obfs-param: e6ffd65707.microsoft.com
+  obfs-param: a534367318.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 65707:pfB5HPf4bvUOpb0u
+  protocol-param: 67318:vHqVazU524lEKbuv
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-53
+  name: 6|-https://t.me/MrXbin-37
   obfs: http_simple
-  obfs-param: 7b26b66221.microsoft.com
+  obfs-param: f3e5c73846.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 66221:fgHYwM4zZuXfBKXS
+  protocol-param: 73846:cwzPlSSVTxTQ2Bxx
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-54
+  name: 6|-https://t.me/MrXbin-38
   obfs: http_simple
-  obfs-param: e551871470.microsoft.com
+  obfs-param: 338d767359.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 71470:apLxnhVS1mztS1Su
+  protocol-param: 67359:48wdnz7kZIGE7pg8
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-55
+  name: 6|-https://t.me/MrXbin-40
   obfs: http_simple
-  obfs-param: e481471563.microsoft.com
+  obfs-param: dfd4a67603.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 71563:ZBlvOE0YrUUUWYvz
+  protocol-param: 67603:1IOjgCVtje6Y3eZq
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-56
+  name: 6|-https://t.me/MrXbin-41
   obfs: http_simple
-  obfs-param: 4572c71857.microsoft.com
+  obfs-param: 8ff5167528.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 71857:gtxZAgfWpLz44mxg
+  protocol-param: 67528:j4datbTtBPmw5IiH
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-57
+  name: 6|-https://t.me/MrXbin-42
   obfs: http_simple
-  obfs-param: 4895a72520.microsoft.com
+  obfs-param: 925f773990.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 72520:kXJpL9LkIQSA9Pvu
+  protocol-param: 73990:bwCYRrKznuraYAfV
   server: chaoxi.cool
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-58
+  name: 6|-https://t.me/MrXbin-43
   obfs: http_simple
-  obfs-param: f928572538.microsoft.com
+  obfs-param: 9196e67490.microsoft.com
   password: cxssr911
   port: 2000
   protocol: auth_aes128_md5
-  protocol-param: 72538:PHhjq5bV2vlVUmGJ
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-59
-  obfs: http_simple
-  obfs-param: 5d0f472915.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 72915:2bDyMR1z5leiuRIj
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-60
-  obfs: http_simple
-  obfs-param: d0e0a73003.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 73003:HPc6VMOaR8vCaHVz
-  server: chaoxi.cool
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|-https://t.me/MrXbin-61
-  obfs: http_simple
-  obfs-param: 20d0973127.microsoft.com
-  password: cxssr911
-  port: 2000
-  protocol: auth_aes128_md5
-  protocol-param: 73127:pMqpzH70sjqHrmkB
+  protocol-param: 67490:qKtfGxWzlrwYxQ4Y
   server: chaoxi.cool
   type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-64
-  network: ws
-  port: 27490
-  server: jkgd.sbs
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 6|-https://t.me/MrXbin-49
+  network: http
+  port: 43713
+  server: 103.20.198.51
   skip-cert-verify: true
   type: vmess
   udp: true
-  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
+  uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a
+- alterId: 0
+  cipher: aes-128-gcm
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-50
+  network: ws
+  port: 2082
+  server: spca.114514782.xyz
+  servername: aegbbs.5489265.xyz
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: e7663aaf-bf76-3b8d-8cd5-29791ec136f6
   ws-opts:
     headers:
-      Host: jkgd.sbs
-    path: /
+      Host: aegbbs.5489265.xyz
+    path: /uasfbbc
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: CN
   h2-opts: {}
   http-opts: {}
   name: 6,23|🇮🇳 印度|@ripaojiedian
@@ -1078,66 +970,17 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-71
-  network: ws
-  port: 27490
-  server: 149.56.7.123
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,21|🇺🇸|US|美国|@wxgqlfx|5
+  name: 6|-https://t.me/MrXbin-55
   network: tcp
-  port: 443
-  server: pitcairn.ednovas.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-660
-  network: ws
-  port: 443
-  server: 94.176.183.12
-  servername: soft8989.redirectme.net
+  port: 80
+  server: ru01.333210.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
-  ws-opts:
-    headers:
-      HOST: soft8989.redirectme.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-661
-  network: ws
-  port: 8002
-  server: 185.214.103.249
-  servername: data-hk-1.cn-db.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d
-  ws-opts:
-    headers:
-      HOST: data-hk-1.cn-db.top
-    path: /db00
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
 - cipher: aes-256-cfb
   country: JP
-  name: 6|-https://t.me/MrXbin-662
+  name: 6|-https://t.me/MrXbin-684
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: 8081
@@ -1146,15 +989,15 @@ proxies:
   server: jp-am48-6.eqnode.net
   type: ssr
 - cipher: aes-256-cfb
-  country: ' SG'
-  name: 6|-https://t.me/MrXbin-663
-  password: amazonskr05
-  port: 443
-  server: 54.169.114.116
+  country: KR
+  name: 6|-https://t.me/MrXbin-685
+  password: qwerREWQ@@
+  port: 4398
+  server: p232.panda004.net
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-664
+  name: 6|-https://t.me/MrXbin-686
   password: amazonskr05
   port: 443
   server: 13.213.1.132
@@ -1164,7 +1007,7 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 6,19,20,21|🇹🇼|TW|台湾|@wxgqlfx|12
+  name: 6,19,21|🇹🇼|TW|台湾|@wxgqlfx|12
   network: tcp
   port: 2024
   server: b23.ntbq.dynu.net
@@ -1173,6 +1016,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 99e39047-9298-404e-b632-1867f7ed1b37
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-688
+  network: tcp
+  port: 29080
+  server: 199.115.229.12
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7e7c5056-ac2b-49e4-fbce-a47b09003e37
 - alterId: 0
   cipher: auto
   name: 7|德国1
@@ -1243,67 +1098,6 @@ proxies:
     headers:
       Host: eu5.openxai.link
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8|🇺🇿_UZ_乌兹别克斯坦->🇹🇷_TR_土耳其
-  network: ws
-  port: 80
-  server: 37.110.209.228
-  tls: false
-  type: vmess
-  uuid: f0028153-2a2d-45fe-b44e-a1a6dbd0c65e
-  ws-opts:
-    headers:
-      Host: saman8888.servecounterstrike.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '8|🇺🇸_US_美国 #16'
-  network: tcp
-  port: 8080
-  server: 23.137.248.47
-  tls: false
-  type: vmess
-  uuid: c65dd227-86bb-5854-bdf7-54c9c16acdb2
-- alterId: 0
-  cipher: auto
-  name: '8|🇺🇸_US_美国 #17'
-  network: ws
-  port: 2086
-  server: cdn.yifenjichang.top
-  tls: false
-  type: vmess
-  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
-  ws-opts:
-    headers:
-      Host: gc-sql-blast-law.trycloudflare.com
-    path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
-- alterId: 0
-  cipher: auto
-  name: '8,21|🇮🇱_IL_以色列->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: 80
-  server: 5.188.94.5
-  tls: false
-  type: vmess
-  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
-  ws-opts:
-    headers:
-      Host: sahar55.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '8,21|🇺🇸_US_美国 #30'
-  network: ws
-  port: 443
-  server: 104.21.20.16
-  tls: true
-  type: vmess
-  uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
-  ws-opts:
-    headers:
-      Host: se2-vmess.sshmax.xyz
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: '10,11|🇺🇸 United States 01 @nodpai #1'
@@ -1449,7 +1243,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -1459,7 +1253,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -1469,7 +1263,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡04
@@ -1479,7 +1273,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -1489,7 +1283,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -1499,7 +1293,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国04
@@ -1509,7 +1303,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -1519,7 +1313,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -1529,7 +1323,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇷🇺俄罗斯04
@@ -1539,7 +1333,7 @@ proxies:
   servername: ru04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇲🇾马来西亚04
@@ -1549,7 +1343,7 @@ proxies:
   servername: my04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇹🇭泰国04
@@ -1559,7 +1353,7 @@ proxies:
   servername: th04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇵🇭菲律宾04
@@ -1569,7 +1363,7 @@ proxies:
   servername: ph04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷韩国04
@@ -1579,7 +1373,7 @@ proxies:
   servername: kr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇮🇳印度04
@@ -1589,7 +1383,7 @@ proxies:
   servername: in04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇧🇷巴西04
@@ -1599,7 +1393,7 @@ proxies:
   servername: br04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇻🇳越南04
@@ -1609,7 +1403,7 @@ proxies:
   servername: vn04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇭🇺匈牙利04
@@ -1619,7 +1413,7 @@ proxies:
   servername: hu04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇦🇷阿根廷04
@@ -1629,7 +1423,7 @@ proxies:
   servername: ar04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇹🇷土耳其04
@@ -1639,7 +1433,7 @@ proxies:
   servername: tr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇺🇦乌克兰04
@@ -1649,7 +1443,7 @@ proxies:
   servername: ua04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇦🇺澳大利亚04
@@ -1659,7 +1453,7 @@ proxies:
   servername: au04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇬🇧英国04
@@ -1669,7 +1463,7 @@ proxies:
   servername: uk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇩🇪德国04
@@ -1679,7 +1473,7 @@ proxies:
   servername: de04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇵🇹葡萄牙04
@@ -1689,7 +1483,7 @@ proxies:
   servername: pt04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇨🇦加拿大04
@@ -1699,7 +1493,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: 18|🇪🇸西班牙04
@@ -1709,7 +1503,7 @@ proxies:
   servername: es04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bf8ed64-5bce-4ccf-9994-4be9a321f770
+  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #2'
@@ -1743,7 +1537,7 @@ proxies:
     path: /geg/45?ed=2048
 - alterId: 0
   cipher: auto
-  name: 19,20,21|🇺🇸_US_美国_8
+  name: 19,20,21|🇺🇸|US|美国|@wxgqlfx|44
   network: ws
   port: 80
   server: 94.131.10.135
@@ -1752,14 +1546,12 @@ proxies:
   type: vmess
   uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   ws-opts:
-    headers:
-      Host: ''
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 19,21|🇺🇸|US|美国|@wxgqlfx|37
+  name: '19|美国 CloudFlare节点 #4'
   network: ws
-  port: 2052
+  port: '2052'
   server: 108.162.194.165
   servername: ''
   tls: false
@@ -1805,7 +1597,7 @@ proxies:
   uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
 - alterId: 0
   cipher: auto
-  name: 19,20,21|🇺🇸|US|美国|@wxgqlfx|42
+  name: 19,20|github.com/freefq - 乌克兰  5
   network: ws
   port: 80
   server: pt2-vmess.sshmax.xyz
@@ -1814,10 +1606,12 @@ proxies:
   type: vmess
   uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   ws-opts:
+    headers:
+      Host: ''
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 19,20,21,26|baipaovpn乌克兰
+  name: '19,20,21,26|baipaovpn乌克兰 #3'
   network: ws
   port: '80'
   server: 94.131.8.32
@@ -1831,7 +1625,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 乌克兰  35
+  name: 19,20|github.com/freefq - 乌克兰  2
   network: ws
   port: '80'
   server: 94.131.97.123
@@ -1844,7 +1638,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 19,20,21|🇨🇿|CZ|捷克|@wxgqlfx|49
+  name: 19,20,21|乌克兰(yudou66.com 玉豆免费节点)_2
   network: ws
   port: 80
   server: cz1-vmess.sshmax.xyz
@@ -1855,7 +1649,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '19,20|github.com/freefq - 美国CloudFla... #5'
+  name: '19,20|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -1912,7 +1706,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 利比亚  25
+  name: 19|利比亚  18
   network: ws
   port: 80
   server: 197.215.140.235
@@ -1951,7 +1745,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 19,20,21|台湾【TG：@ccbaohe】定时更新节点订阅 5
+  name: 19|台湾省新北市中华电信 21
   network: tcp
   port: 4443
   server: nb24.ntbq.dynu.net
@@ -1987,7 +1781,7 @@ proxies:
     path: /4gchill.com
 - alterId: 0
   cipher: auto
-  name: '19,20|github.com/freefq - 美国CloudFla... #7'
+  name: '19,20|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 80
   server: 104.17.25.2
@@ -2013,7 +1807,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 广东省移动 32
+  name: 19,20|github.com/freefq - 广东省移动 19
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -2027,9 +1821,9 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 19,20,21|🇺🇸|US|美国|@wxgqlfx|33
+  name: 19|美国CloudFlare公司CDN节点 28
   network: ws
-  port: 80
+  port: '80'
   server: 108.162.194.165
   servername: ''
   tls: false
@@ -2041,7 +1835,7 @@ proxies:
     path: /video/fz2DANLn
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 伊拉克  27
+  name: 19|伊拉克  29
   network: ws
   port: '80'
   server: 130.193.166.2
@@ -2054,167 +1848,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 20,21|美国【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
-  ws-opts:
-    headers:
-      Host: usnatvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|TW_speednode_0051
-  network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  servername: nb11.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: 99e39047-9298-404e-b632-1867f7ed1b37
-- alterId: 0
-  cipher: auto
-  name: '20|github.com/freefq - 美国CloudFla... #1'
-  network: ws
-  port: '2082'
-  server: 104.18.202.250
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /nina.bond/linkvws
-- alterId: 0
-  cipher: auto
-  name: '20|github.com/freefq - 美国CloudFla... #3'
-  network: ws
-  port: 443
-  server: www.paizipai.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: anything-jerusalem-disabled-cloud.trycloudflare.com
-    path: /argo-vmess?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '20|github.com/freefq - 美国CloudFla... #6'
-  network: ws
-  port: '8880'
-  server: 104.21.73.14
-  tls: false
-  type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-  ws-opts:
-    headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /adenc35.fixedlfoat.top/linkws
-- alterId: 0
-  cipher: auto
-  name: 20|github.com/freefq - 吉尔吉斯斯坦  28
-  network: ws
-  port: 80
-  server: 185.48.136.150
-  tls: false
-  type: vmess
-  uuid: a692469f-5b96-4f49-9a5b-7eb1e7f11566
-  ws-opts:
-    headers:
-      Host: mehdi13.servecounterstrike.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇨🇾|CY|塞浦路斯|@wxgqlfx|63
-  network: ws
-  port: 80
-  server: 195.14.146.81
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
-  ws-opts:
-    headers:
-      Host: xyz33.servecounterstrike.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 21|🇻🇳|VN|越南|@wxgqlfx|31
-  network: ws
-  port: 80
-  server: 103.118.29.229
-  tls: false
-  type: vmess
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  ws-opts:
-    headers:
-      Host: lienquan.garena.vn
-    path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
-  name: 21|Youtube顺丰资源  DE00220
-  network: ws
-  port: '443'
-  server: 92.223.124.35
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a4d92be0-5c64-4fbe-a3cb-1177f8753b52
-  ws-opts:
-    headers:
-      Host: sahar4.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 21|@Hope_Net-join-us-on-Telegram
-  network: ws
-  port: '2086'
-  server: 172.67.229.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 21|Youtube顺丰资源  US00133
-  network: ws
-  port: '8420'
-  server: 38.180.40.86
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  ws-opts:
-    headers:
-      Host: xray1.freeh1.xyz
-    path: /gzogws
-- alterId: 0
-  cipher: auto
-  name: '21|@Hope_Net-join-us-on-Telegram #1'
-  network: ws
-  port: '443'
-  server: 104.21.4.6
-  servername: glweidf.cfd
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: glweidf.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇨🇦 CA-149.56.7.123:...
+  name: 20|github.com/freefq - 加拿大魁北克省博阿努...
   network: ws
   port: '27490'
   server: 149.56.7.123
@@ -2228,31 +1862,201 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|11
+  name: '20,21|美国【TG：@ccbaohe】定时更新节点订阅 #1'
   network: ws
-  port: 80
-  server: 104.24.208.37
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.44.2...
-  network: ws
-  port: '8880'
-  server: 104.21.44.200
+  port: '80'
+  server: 104.17.25.1
   servername: ''
   tls: false
   type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
   ws-opts:
     headers:
-      Host: fra.yj2022.gq
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
+      Host: usnatvpn.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 20|github.com/freefq - 台湾省晟崴科技股份有...
+  network: ws
+  port: 80
+  server: 3SAO.5GTOCDOCAO.COM
+  tls: false
+  type: vmess
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: 3SAO.5GTOCDOCAO.COM
+    path: /5gtocdocao.com
+- alterId: 0
+  cipher: auto
+  name: 20|github.com/freefq - 德国  11
+  network: ws
+  port: '80'
+  server: 5.252.23.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d70a32b5-5d4b-4ebe-adf6-8f34c73871d2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 20|github.com/freefq - 台湾省南投县中华电信...
+  network: tcp
+  port: '6122'
+  server: 36.232.161.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
+- alterId: 0
+  cipher: auto
+  name: 20,21|TW_speednode_0051
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: nb11.ntbq.dynu.net
+  tls: false
+  type: vmess
+  uuid: 99e39047-9298-404e-b632-1867f7ed1b37
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸_US_美国_10
+  network: ws
+  port: 80
+  server: 158.101.7.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-TLS 🇨🇦 CA-107.174.241....
+  network: ws
+  port: '3443'
+  server: 107.174.241.220
+  servername: xray1.freeh1.xyz
+  tls: true
+  type: vmess
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  ws-opts:
+    headers:
+      Host: xray1.freeh1.xyz
+    path: /gzogws
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸|US|美国|@wxgqlfx|35
+  network: ws
+  port: 2086
+  server: 94.131.10.135
+  tls: false
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸|US|美国|@wxgqlfx|40
+  network: ws
+  port: 2095
+  server: 94.131.8.32
+  tls: false
+  type: vmess
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 21|美国-2.72MB/s
+  network: ws
+  port: 43121
+  server: 129.146.113.254
+  tls: false
+  type: vmess
+  uuid: d53b39e2-925e-45b6-9389-46b9fa95878b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸|US|美国|@wxgqlfx|62
+  network: ws
+  port: 8080
+  server: 94.131.10.135
+  tls: false
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21|德国(yudou66.com 玉豆免费节点)_6
+  network: ws
+  port: 443
+  server: 92.223.124.35
+  tls: true
+  type: vmess
+  uuid: aca1584c-e8b3-453c-9fe4-6021f6f0f67e
+  ws-opts:
+    headers:
+      Host: sas67.zapto.org
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 21,26|baipaovpn台湾省新竹市
+  network: tcp
+  port: '2024'
+  server: 114.37.132.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+- alterId: 0
+  cipher: auto
+  name: 21|美国(yudou66.com 玉豆免费节点)_2
+  network: ws
+  port: 80
+  server: 195.14.146.81
+  tls: false
+  type: vmess
+  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
+  ws-opts:
+    headers:
+      Host: sahar55.serveirc.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸|US|美国|@wxgqlfx|53
+  network: ws
+  port: 80
+  server: pt2-vmess.sshmax.xyz
+  tls: false
+  type: vmess
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+  ws-opts:
+    headers:
+      Host: pt2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇿|CZ|捷克|@wxgqlfx|39
+  network: ws
+  port: 80
+  server: 94.131.97.123
+  tls: false
+  type: vmess
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  ws-opts:
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: '21|Channel id: @ShadowProxy66🇳🇱'
@@ -2269,134 +2073,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-WS-NA 🇭🇰 HK-47.242.76.125...
-  network: ws
-  port: '45631'
-  server: 47.242.76.125
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|32
-  network: ws
-  port: 80
-  server: cfcdn2.yuzhoucloud003.xyz
-  tls: false
-  type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
-  ws-opts:
-    headers:
-      Host: cghyxmvhjp3.zvhdeaof.xyz
-    path: /video/fz2DANLn
-- alterId: 0
-  cipher: auto
-  name: 21|美国(yudou66.com 玉豆免费节点)_29
-  network: ws
-  port: 80
-  server: 92.46.108.106
-  tls: false
-  type: vmess
-  uuid: 726a0a65-04fd-4531-a96b-5510537737fc
-  ws-opts:
-    headers:
-      Host: saber.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '21|@Hope_Net-join-us-on-Telegram #2'
-  network: ws
-  port: '2053'
-  server: 104.21.13.222
-  servername: v2ray.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24
-  ws-opts:
-    headers:
-      Host: v2ray.ibgfw.top
-    path: /vVNUJOgb/
-- alterId: 0
-  cipher: auto
-  name: '21,26|baipaovpn乌克兰 #4'
-  network: ws
-  port: '2082'
-  server: 94.131.8.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 21|Youtube顺丰资源  DE00210
-  network: ws
-  port: '443'
-  server: 92.223.124.23
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: aca1584c-e8b3-453c-9fe4-6021f6f0f67e
-  ws-opts:
-    headers:
-      Host: sas67.zapto.org
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 21|Youtube顺丰资源  DE0066
-  network: ws
-  port: '443'
-  server: 92.223.124.23
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 695ae833-9d90-4598-b431-c4cd214106c0
-  ws-opts:
-    headers:
-      Host: tasnim.onthewifi.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇰🇷 KR-144.24.88.10...
-  network: tcp
-  port: '16833'
-  server: 144.24.88.101
-  tls: false
-  type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
-  network: tcp
-  port: '14432'
-  server: 104.237.128.72
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|34
-  network: ws
-  port: 2052
-  server: cfcdn2.yuzhoucloud003.xyz
-  tls: false
-  type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
-  ws-opts:
-    headers:
-      Host: dwlwfykrjp1.zvhdeaof.xyz
-    path: /video/NgeVbib3
-- alterId: 0
-  cipher: auto
   name: 21|🇺🇸|US|美国|@wxgqlfx|13
   network: ws
   port: 2095
@@ -2410,110 +2086,20 @@ proxies:
     path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
-  name: '21,26|baipaovpn乌克兰 #3'
-  network: ws
-  port: '2086'
-  server: 94.131.8.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇹🇼 TW-114.37.132.4...
-  network: tcp
-  port: '2024'
-  server: 114.37.132.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 99e39047-9298-404e-b632-1867f7ed1b37
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|35
-  network: ws
-  port: 2086
-  server: 94.131.10.135
-  tls: false
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇿|CZ|捷克|@wxgqlfx|39
+  name: 21|🇺🇸|US|美国|@wxgqlfx|11
   network: ws
   port: 80
-  server: 94.131.97.123
+  server: 104.24.208.37
   tls: false
   type: vmess
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|6
-  network: tcp
-  port: 443
-  server: 173.249.197.176
-  tls: false
-  type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-- alterId: 0
-  cipher: auto
-  name: 21|荷兰(yudou66.com 玉豆免费节点)
-  network: ws
-  port: 80
-  server: 109.68.233.242
-  tls: false
-  type: vmess
-  uuid: f0028153-2a2d-45fe-b44e-a1a6dbd0c65e
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: saman8888.servecounterstrike.com
-    path: /@forwardv2ray
+      Host: my1.tooters.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|85
-  network: ws
-  port: '8880'
-  server: fra.yj2022.gq
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: fra.yj2022.gq
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇦|CA|加拿大|@wxgqlfx|25
-  network: ws
-  port: 27490
-  server: jkgd.sbs
-  tls: false
-  type: vmess
-  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21,26|baipaovpn台湾省
-  network: tcp
-  port: '12002'
-  server: 118.167.73.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
-- alterId: 0
-  cipher: auto
-  name: 21,24,26|baipaovpn澳大利亚
+  name: 21,24|日本2|@ripaojiedian
   network: tcp
   port: '43713'
   server: 103.20.198.51
@@ -2521,6 +2107,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a
+- alterId: 0
+  cipher: auto
+  name: 21|Youtube顺丰资源  DE00220
+  network: ws
+  port: '443'
+  server: 92.223.124.35
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a4d92be0-5c64-4fbe-a3cb-1177f8753b52
+  ws-opts:
+    headers:
+      Host: sahar4.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇮🇷 IR-37.152.191.1...
+  network: tcp
+  port: '25528'
+  server: 37.152.191.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b555d157-2617-43e1-8c6b-b1e7f5942790
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-NA 🇸🇬 SG-45.76.144.158...
+  network: ws
+  port: '55081'
+  server: 45.76.144.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c659458-b937-4297-95bd-3cc571c53032
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -2540,37 +2164,140 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: 21,26|baipaovpn台湾省南投县
+  name: 21|🇺🇸|US|美国|@wxgqlfx|5
   network: tcp
-  port: '6122'
-  server: 36.232.161.39
+  port: 443
+  server: pitcairn.ednovas.org
+  tls: false
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.18....
+  network: ws
+  port: '443'
+  server: 104.21.18.30
+  servername: urnxewzvh.site
+  tls: true
+  type: vmess
+  uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143
+  ws-opts:
+    headers:
+      Host: urnxewzvh.site
+    path: /kwhmvws
+- alterId: 0
+  cipher: auto
+  name: '21|Channel id: @ShadowProxy66🇨🇭'
+  network: tcp
+  port: '47182'
+  server: 94.131.99.8
   servername: ''
   tls: false
   type: vmess
-  uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
 - alterId: 0
   cipher: auto
-  name: 21|瑞典(yudou66.com 玉豆免费节点)_11
+  name: 21|Youtube顺丰资源  DE00210
   network: ws
-  port: 443
-  server: 92.223.124.35
+  port: '443'
+  server: 92.223.124.23
+  servername: ''
   tls: true
   type: vmess
-  uuid: 8a72e0a0-4767-4bd2-b329-72906762eff8
+  uuid: aca1584c-e8b3-453c-9fe4-6021f6f0f67e
   ws-opts:
     headers:
-      Host: kosar.serveminecraft.net
+      Host: sas67.zapto.org
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇨🇦 CA-15.235.49.12...
-  network: tcp
-  port: '48366'
-  server: 15.235.49.129
+  name: 21|CA_speednode_0005
+  network: ws
+  port: 27490
+  server: 149.56.7.123
   servername: ''
   tls: false
   type: vmess
-  uuid: f3c167ee-b379-44a4-b3a8-3add749dab15
+  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|美国【TG：@ccbaohe】定时更新节点订阅 #2'
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|Youtube顺丰资源  US00133
+  network: ws
+  port: '8420'
+  server: 38.180.40.86
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  ws-opts:
+    headers:
+      Host: xray1.freeh1.xyz
+    path: /gzogws
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇫🇮 FI-65.109.199.1...
+  network: tcp
+  port: '31380'
+  server: 65.109.199.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e1006f6-a6d6-4883-9ec3-809320ba2d28
+- alterId: 0
+  cipher: auto
+  name: '21,26|baipaovpn乌克兰 #1'
+  network: ws
+  port: '2086'
+  server: 94.131.8.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-TLS 🇺🇸 US-149.28.227.7...
+  network: ws
+  port: '12154'
+  server: 149.28.227.75
+  servername: xray1.freeh1.xyz
+  tls: true
+  type: vmess
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  ws-opts:
+    headers:
+      Host: xray1.freeh1.xyz
+    path: /gzogws
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸|US|美国|@wxgqlfx|6
+  network: tcp
+  port: 443
+  server: 173.249.197.176
+  tls: false
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
@@ -2583,18 +2310,62 @@ proxies:
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
-  name: '21,26|baipaovpn乌克兰 #1'
-  network: ws
-  port: '2095'
-  server: 94.131.8.32
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-129.146.133....
+  network: tcp
+  port: '51009'
+  server: 129.146.133.157
+  tls: false
+  type: vmess
+  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+- alterId: 0
+  cipher: auto
+  name: '21|🔒 VM-TCP-NA 🇫🇮 FI-65.109.199.1... #1'
+  network: tcp
+  port: '32201'
+  server: 65.109.199.113
   servername: ''
   tls: false
   type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  uuid: f1bbe133-3509-451e-a16e-4068d732fab9
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
+  network: ws
+  port: '12345'
+  server: 152.69.197.74
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess
+      Host: 152.69.197.74
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: 21|关注电报https://t.me/aifenxiang202...
+  network: ws
+  port: 443
+  server: urnxewzvh.site
+  tls: true
+  type: vmess
+  uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143
+  ws-opts:
+    headers:
+      Host: urnxewzvh.site
+    path: /kwhmvws
+- alterId: 0
+  cipher: auto
+  name: 21|🇮🇱_IL_以色列->🇳🇱_NL_荷兰
+  network: ws
+  port: 80
+  server: 5.188.94.5
+  tls: false
+  type: vmess
+  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
+  ws-opts:
+    headers:
+      Host: sahar55.serveirc.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '21,26|baipaovpn乌克兰 #2'
@@ -2611,87 +2382,72 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+  name: 21|🔒 VM-TCP-NA 🇰🇷 KR-144.24.88.10...
+  network: tcp
+  port: '16833'
+  server: 144.24.88.101
+  tls: false
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+- alterId: 0
+  cipher: auto
+  name: 21,26|baipaovpn乌克兰
   network: ws
-  port: '41597'
-  server: 183.181.36.194
+  port: '2082'
+  server: 94.131.8.32
   servername: ''
   tls: false
   type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
   ws-opts:
     headers:
       Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-162.251.62.1...
+  network: tcp
+  port: '22324'
+  server: 162.251.62.115
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇦|CA|加拿大|@wxgqlfx|25
+  network: ws
+  port: 27490
+  server: jkgd.sbs
+  tls: false
+  type: vmess
+  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21|@Hope_Net-join-us-on-Telegram #3'
-  network: tcp
-  port: '3389'
-  server: 167.99.179.27
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 21|英国(yudou66.com 玉豆免费节点)
+  name: 21|🇺🇸|US|美国|@wxgqlfx|85
   network: ws
-  port: 80
-  server: 93.123.11.11
-  tls: false
-  type: vmess
-  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
-  ws-opts:
-    headers:
-      Host: sahar55.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|84
-  network: ws
-  port: '2052'
-  server: 104.18.38.194
+  port: '8880'
+  server: fra.yj2022.gq
   servername: ''
   tls: false
   type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   ws-opts:
     headers:
-      Host: huzfxqdgus1.zvhdeaof.xyz
-    path: /video/LpPP8QNC
+      Host: fra.yj2022.gq
+    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇩🇪 DE-165.227.151....
+  name: 21|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
-  port: '39642'
-  server: 165.227.151.202
+  port: '14935'
+  server: 167.179.111.237
   servername: ''
   tls: false
   type: vmess
-  uuid: 2339917a-aebe-44d6-d43a-610f88808413
-- alterId: 0
-  cipher: auto
-  name: 21|美国(yudou66.com 玉豆免费节点)_19
-  network: ws
-  port: 80
-  server: 109.68.233.242
-  tls: false
-  type: vmess
-  uuid: 726a0a65-04fd-4531-a96b-5510537737fc
-  ws-opts:
-    headers:
-      Host: saber.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99.8:...
-  network: tcp
-  port: '47182'
-  server: 94.131.99.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
@@ -2708,92 +2464,41 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-  network: tcp
-  port: 21872
-  server: 130.61.111.167
+  name: 21|美国(yudou66.com 玉豆免费节点)_37
+  network: ws
+  port: 80
+  server: 197.215.140.234
   tls: false
   type: vmess
-  uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084
-- alterId: 0
-  cipher: auto
-  name: 21|德国(yudou66.com 玉豆免费节点)_6
-  network: ws
-  port: 443
-  server: 92.223.124.35
-  tls: true
-  type: vmess
-  uuid: aca1584c-e8b3-453c-9fe4-6021f6f0f67e
+  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
   ws-opts:
     headers:
-      Host: sas67.zapto.org
+      Host: sahar55.serveirc.com
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 21|Relay_🏁ZZ-🏁ZZ_248 |12.43Mb
+  name: 21|🇻🇳|VN|越南|@wxgqlfx|28
   network: ws
   port: 80
-  server: 3SAO.5GTOCDOCAO.COM
+  server: bs2.loadingip.com
   tls: false
   type: vmess
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
   ws-opts:
-    headers:
-      Host: 3SAO.5GTOCDOCAO.COM
-    path: /5gtocdocao.com
+    path: /bs
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸|US|美国|@wxgqlfx|62
-  network: ws
-  port: 8080
-  server: 94.131.10.135
-  tls: false
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /vmess
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 21|美国-2.09MB/s
-  network: ws
-  port: 43121
-  server: 129.146.113.254
-  tls: false
-  type: vmess
-  uuid: d53b39e2-925e-45b6-9389-46b9fa95878b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|关注电报https://t.me/aifenxiang202...
-  network: ws
-  port: 443
-  server: urnxewzvh.site
-  tls: true
-  type: vmess
-  uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143
-  ws-opts:
-    headers:
-      Host: urnxewzvh.site
-    path: /kwhmvws
-- alterId: 0
-  cipher: auto
-  name: '21|美国【TG：@ccbaohe】定时更新节点订阅 #1'
+  name: 21|🇱🇾|LY|利比亚|@wxgqlfx|68
   network: ws
   port: 80
-  server: 104.20.231.30
-  servername: ''
+  server: 197.215.140.235
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
   ws-opts:
     headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
+      Host: sahar55.serveirc.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 21|Youtube顺丰资源  DE00230
@@ -2810,23 +2515,6 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '21,23,24|新加坡2|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: sg02.hajimihajimihajimi.online
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
-  ws-opts:
-    headers:
-      Host: sg02.xpoti.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 22|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -2834,7 +2522,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -2844,7 +2532,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -2854,7 +2542,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 04 | 1x SG
@@ -2864,7 +2552,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -2874,7 +2562,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -2884,7 +2572,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 04 | 1x US
@@ -2894,7 +2582,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -2904,7 +2592,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -2914,7 +2602,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】韩国 02 | 1x KR
@@ -2924,7 +2612,7 @@ proxies:
   servername: kr04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】菲律宾 04 | 1x PH
@@ -2934,7 +2622,7 @@ proxies:
   servername: ph04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】俄罗斯 04 | 1x RU
@@ -2944,7 +2632,7 @@ proxies:
   servername: ru04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】马来西亚 04 | 1x MY
@@ -2954,7 +2642,7 @@ proxies:
   servername: my04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】泰国 04 | 1x TH
@@ -2964,7 +2652,7 @@ proxies:
   servername: th04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】阿根廷 04 | 1x AR
@@ -2974,7 +2662,7 @@ proxies:
   servername: ar04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】匈牙利 04 | 1x HU
@@ -2984,7 +2672,7 @@ proxies:
   servername: hu04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】土耳其 04 | 1x TR
@@ -2994,7 +2682,7 @@ proxies:
   servername: tr04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】乌克兰 04 | 1x UA
@@ -3004,7 +2692,7 @@ proxies:
   servername: ua04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】越南 04 | 1x VN
@@ -3014,7 +2702,7 @@ proxies:
   servername: vn04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】巴西 04 | 1x BR
@@ -3024,7 +2712,7 @@ proxies:
   servername: br04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】印度 04 | 1x IN
@@ -3034,7 +2722,7 @@ proxies:
   servername: in04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】澳大利亚 04 | 1x AU
@@ -3044,7 +2732,7 @@ proxies:
   servername: au04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】英国 04 | 1x UK
@@ -3054,7 +2742,7 @@ proxies:
   servername: uk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】德国 04 | 1x AU
@@ -3064,7 +2752,7 @@ proxies:
   servername: de04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】葡萄牙 04 | 1x PT
@@ -3074,7 +2762,7 @@ proxies:
   servername: pt04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
@@ -3084,7 +2772,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】西班牙 02 | 1x ES
@@ -3094,7 +2782,7 @@ proxies:
   servername: es04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c84f3af0-6f20-40d6-b78f-4ab92df8906f
+  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本KT|@ripaojiedian
@@ -3151,6 +2839,23 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23,24|新加坡2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: sg02.hajimihajimihajimi.online
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
+  ws-opts:
+    headers:
+      Host: sg02.xpoti.online
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
@@ -3205,6 +2910,20 @@ proxies:
   uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
 - alterId: 0
   cipher: auto
+  name: 26|baipaovpn新加坡
+  network: ws
+  port: '80'
+  server: 13.213.31.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
+  ws-opts:
+    headers:
+      Host: sg02.xpoti.online
+    path: /
+- alterId: 0
+  cipher: auto
   name: 26|baipaovpn台湾省台北市
   network: tcp
   port: '4443'
@@ -3215,46 +2934,18 @@ proxies:
   uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn德国
+  name: 26|baipaovpn台湾省
   network: ws
-  port: '2082'
-  server: 5.252.23.173
+  port: '36002'
+  server: 118.170.91.204
   servername: ''
   tls: false
   type: vmess
-  uuid: d70a32b5-5d4b-4ebe-adf6-8f34c73871d2
+  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn德国 #1'
-  network: ws
-  port: '80'
-  server: 5.252.23.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d70a32b5-5d4b-4ebe-adf6-8f34c73871d2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn英国
-  network: ws
-  port: '80'
-  server: 213.35.113.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+      Host: tw.178820225.xyz
+    path: /ergedgdsrgsd
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
