@@ -111,11 +111,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com5
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,21,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com5
   network: ws
   port: 8080
   server: www.blueberrywindow.online
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -199,7 +202,7 @@ proxies:
     path: /video/LpPP8QNC
 - alterId: 0
   cipher: auto
-  name: 1,12,13,14,17,19,20,21|🇺🇸|US|美国|@wxgqlfx|36
+  name: 1,12,19,20,21|🇺🇸|US|美国|@wxgqlfx|36
   network: ws
   port: 80
   server: be1-vmess.sshmax.xyz
@@ -346,7 +349,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
+  uuid: 8dcce478-4aaf-405f-a0e4-ae3d1cfaec0b
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -356,7 +359,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
+  uuid: 8dcce478-4aaf-405f-a0e4-ae3d1cfaec0b
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -366,7 +369,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
+  uuid: 8dcce478-4aaf-405f-a0e4-ae3d1cfaec0b
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #2'
@@ -732,7 +735,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fab80a77-5758-4781-8a5c-9832302361b4
+  uuid: c068eb41-12aa-4613-b04d-c5d97fcaf9a4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -742,7 +745,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fab80a77-5758-4781-8a5c-9832302361b4
+  uuid: c068eb41-12aa-4613-b04d-c5d97fcaf9a4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -752,7 +755,17 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fab80a77-5758-4781-8a5c-9832302361b4
+  uuid: c068eb41-12aa-4613-b04d-c5d97fcaf9a4
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: tcp
+  port: '29080'
+  server: 199.115.229.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e7c5056-ac2b-49e4-fbce-a47b09003e37
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_4_8

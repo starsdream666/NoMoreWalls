@@ -94,3 +94,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省台北市
+  network: tcp
+  port: '12002'
+  server: 36.226.132.249
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
