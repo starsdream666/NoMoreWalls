@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|台湾省新竹市中华电信 2
-  network: tcp
-  port: '2024'
-  server: 114.37.139.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
-- alterId: 0
-  cipher: auto
   name: '19,20,21,24|台湾|@ripaojiedian #1'
   network: tcp
   port: '6122'
@@ -33,26 +23,6 @@ proxies:
     headers:
       Host: 103.118.29.229
     path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
-  name: 19|台湾省新竹市中华电信 20
-  network: tcp
-  port: '4443'
-  server: 114.37.136.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
-  name: 19|台湾省中华电信(HiNet)数据中心 27
-  network: tcp
-  port: 6122
-  server: 125.224.144.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
 - alterId: 0
   cipher: auto
   name: 19,20|github.com/freefq - 台湾省新北市中华电信...
@@ -89,7 +59,7 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: 24,26|baipaovpn台湾省新北市
+  name: 24|台湾4|@ripaojiedian
   network: tcp
   port: '4443'
   server: 61.228.135.7
@@ -109,10 +79,10 @@ proxies:
   uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省新竹市
+  name: 26|baipaovpn台湾省
   network: tcp
-  port: '2024'
-  server: 114.37.132.46
+  port: '12002'
+  server: 118.167.73.99
   servername: ''
   tls: false
   type: vmess
