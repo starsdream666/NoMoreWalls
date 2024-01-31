@@ -1,30 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|🇭🇰香港1丨白嫖机场.com
+  name: 21|🇭🇰 Hongkong 2
   network: ws
-  port: '80'
-  server: 104.18.15.147
+  port: '2086'
+  server: dl1.fanqiecloud.top
   tls: false
   type: vmess
-  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
+  uuid: 4f10f797-cdf0-41fc-a5bd-a2179165b594
   ws-opts:
     headers:
-      Host: hk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇭🇰香港2丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 212.192.12.231
-  tls: false
-  type: vmess
-  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /
+      Host: cf-hk2.fanqiecloud.top
+    path: /sssddd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT2|@ripaojiedian
@@ -49,16 +36,3 @@ proxies:
   server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23|🇮🇳 印度|@ripaojiedian
-  password: c94df578-85f2-4c04-bc86-d18a8eda5a67
-  port: 38664
-  server: 103.65.140.83
-  skip-cert-verify: false
-  sni: download.xn--mes358a9urctx.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 广东省移动 17
+  name: 19,20|github.com/freefq - 广东省移动 19
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
