@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '21,23,24|香港|@ripaojiedian #1'
+  network: ws
+  port: '8002'
+  server: 185.214.103.249
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d
+  ws-opts:
+    headers:
+      Host: data-hk-1.cn-db.top
+    path: /db00
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -15,36 +32,3 @@ proxies:
   server: 1.65.223.223
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.243.196.229
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|香港|@ripaojiedian
-  network: ws
-  port: '8002'
-  server: 185.214.103.249
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d
-  ws-opts:
-    headers:
-      Host: data-hk-1.cn-db.top
-    path: /db00
