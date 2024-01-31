@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e29c7293-5fce-4d4d-a1d7-9c848fc907ff
+  uuid: ea07cc80-561c-4cd0-ac69-3a4edd1ca730
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e29c7293-5fce-4d4d-a1d7-9c848fc907ff
+  uuid: ea07cc80-561c-4cd0-ac69-3a4edd1ca730
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e29c7293-5fce-4d4d-a1d7-9c848fc907ff
+  uuid: ea07cc80-561c-4cd0-ac69-3a4edd1ca730
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇸🇬 SG-45.76.186.33:...
@@ -73,14 +73,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '21,23,24|新加坡2|@ripaojiedian #1'
+  name: 21|新加坡2|@ripaojiedian
   network: ws
   port: '80'
   server: sg02.hajimihajimihajimi.online
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
@@ -97,7 +94,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 409f400e-e948-4eae-83fc-699c12b7cd48
+  uuid: 97101c5f-163b-438d-a4d3-56cce3ff3f53
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -107,7 +104,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 409f400e-e948-4eae-83fc-699c12b7cd48
+  uuid: 97101c5f-163b-438d-a4d3-56cce3ff3f53
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -117,11 +114,11 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 409f400e-e948-4eae-83fc-699c12b7cd48
+  uuid: 97101c5f-163b-438d-a4d3-56cce3ff3f53
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|新加坡3|@ripaojiedian
+  name: '23,24|新加坡2|@ripaojiedian #1'
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -130,17 +127,17 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  uuid: 8a4450df-74cc-4a57-a404-4b9558390043
   ws-opts:
     headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.113.1.121
+  server: 54.199.158.82
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -148,7 +145,7 @@ proxies:
   name: 23|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.217.80.153
+  server: 13.112.10.231
   tfo: false
   type: ss
 - alterId: 0
