@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21|🇭🇰 Hongkong 2
-  network: ws
-  port: '2086'
-  server: dl1.fanqiecloud.top
-  tls: false
-  type: vmess
-  uuid: 4f10f797-cdf0-41fc-a5bd-a2179165b594
-  ws-opts:
-    headers:
-      Host: cf-hk2.fanqiecloud.top
-    path: /sssddd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -61,16 +48,3 @@ proxies:
     headers:
       Host: data-hk-1.cn-db.top
     path: /db00
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23|🇮🇳 印度|@ripaojiedian
-  password: c94df578-85f2-4c04-bc86-d18a8eda5a67
-  port: 38664
-  server: 103.65.140.83
-  skip-cert-verify: false
-  sni: download.xn--mes358a9urctx.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
