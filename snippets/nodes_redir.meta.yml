@@ -14,13 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
+  name: 0,3,4,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -133,7 +130,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,25|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #11'
+  name: '0,3,4,8,9,25|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #11'
   network: ws
   port: '80'
   server: 104.18.15.148
@@ -159,10 +156,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,25,28|🇨🇳_CN_中国->🇺🇸_US_美国_4_38
+  name: 0,3,4,8,9,19,20,25,28|🇨🇳_CN_中国->🇺🇸_US_美国_4_38
   network: ws
   port: 2095
   server: 120.233.45.104
+  servername: ''
   tls: false
   type: vmess
   uuid: 8c456efc-67d7-3190-8b75-5c879e133288
@@ -247,8 +245,10 @@ proxies:
       host: er3.889611.com
     path: /
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-62
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -257,8 +257,6 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
