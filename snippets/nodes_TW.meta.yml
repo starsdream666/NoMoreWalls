@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,21|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
+  name: 19,20,21|🇹🇼|TW|台湾|@wxgqlfx|10
   network: tcp
-  port: '2024'
+  port: 2024
   server: b23.ntbq.dynu.net
   servername: ''
   tls: false
@@ -21,10 +21,20 @@ proxies:
   uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
 - alterId: 0
   cipher: auto
-  name: '19,20|github.com/freefq - 台湾省新竹市中华电信... #1'
+  name: 19,20,21|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: '4443'
   server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
+- alterId: 0
+  cipher: auto
+  name: '21,26|baipaovpn台湾省新竹市 #1'
+  network: tcp
+  port: '2024'
+  server: 114.37.132.46
   servername: ''
   tls: false
   type: vmess
@@ -49,6 +59,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省台北市
+  network: tcp
+  port: '12002'
+  server: 36.226.132.249
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn台湾省南投县
