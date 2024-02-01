@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,24,26|baipaovpn美国华盛顿
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- alterId: 0
-  cipher: auto
-  name: 21|香港·{TG：@ccbaohe}定时更新节点订阅
+  name: 20|github.com/freefq - 香港Microsof...
   network: ws
   port: '10510'
   server: 23.99.120.52
