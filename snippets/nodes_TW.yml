@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,21|🇹🇼|TW|台湾|@wxgqlfx|10
+  name: 19,21|🇹🇼|TW|台湾|@wxgqlfx|10
   network: tcp
   port: 2024
   server: b23.ntbq.dynu.net
@@ -11,7 +11,7 @@ proxies:
   uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
 - alterId: 0
   cipher: auto
-  name: 19,20,21|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
+  name: 19,21|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: '6122'
   server: c12.twtc.dynu.net
@@ -21,7 +21,7 @@ proxies:
   uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
 - alterId: 0
   cipher: auto
-  name: 19,20,21|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
+  name: 19,21|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: '4443'
   server: nb24.ntbq.dynu.net
@@ -31,14 +31,14 @@ proxies:
   uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
 - alterId: 0
   cipher: auto
-  name: '21,26|baipaovpn台湾省新竹市 #1'
+  name: 21,26|baipaovpn台湾省新竹市
   network: tcp
   port: '2024'
   server: 114.37.132.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
+  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
 - alterId: 0
   cipher: auto
   name: 24|台湾2|@ripaojiedian
@@ -51,16 +51,6 @@ proxies:
   uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省新竹市
-  network: tcp
-  port: '4443'
-  server: 114.37.142.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
-- alterId: 0
-  cipher: auto
   name: 26|baipaovpn台湾省台北市
   network: tcp
   port: '12002'
@@ -71,11 +61,15 @@ proxies:
   uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省南投县
-  network: tcp
-  port: '6122'
-  server: 36.232.161.39
+  name: 26|baipaovpn台湾省
+  network: ws
+  port: '36002'
+  server: 118.170.78.73
   servername: ''
   tls: false
   type: vmess
-  uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7
+  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
+  ws-opts:
+    headers:
+      Host: tw.178820225.xyz
+    path: /ergedgdsrgsd
