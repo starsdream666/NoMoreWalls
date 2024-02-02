@@ -39,6 +39,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇮🇳 印度|@ripaojiedian
+  password: wS9pGFWw885T
+  port: 38664
+  server: 103.65.140.83
+  skip-cert-verify: false
+  sni: www.myethblog.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
+- alterId: 0
+  cipher: auto
   name: 24|香港3|@ripaojiedian
   network: tcp
   port: '10241'
