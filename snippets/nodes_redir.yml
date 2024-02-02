@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
   network: ws
   port: 8080
   server: www.darkroom.lol
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -15,14 +19,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -75,18 +76,19 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-74
   network: ws
   port: 8080
   server: www.darkroom.lol
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.darkroom.lol
     path: /
 - name: 1|_CN_->_US__2
   network: tcp
@@ -98,8 +100,10 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__2
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-75
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -108,8 +112,6 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
     path: /
 - name: 1|_CN_->_US__3
   network: tcp
