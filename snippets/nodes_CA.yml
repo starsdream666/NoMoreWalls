@@ -1,18 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,9,13,19,21,25,28|🇨🇦_CA_加拿大_8
+  name: 0,1,3,4,8,9,13,15,21,25,28|🇨🇦_CA_加拿大_8
   network: tcp
   port: 33445
   server: 108.181.2.154
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,8,9,14,15,16,20,21,25|🇨🇦 _CA_加拿大 #5'
+  name: '0,1,3,4,8,9,14,16,19,20,21,25|🇨🇦 _CA_加拿大 #5'
   network: tcp
   port: '18657'
   server: 108.181.5.18
@@ -30,7 +29,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4d3f57f4-35f2-424e-a758-2bb785b3fe20
+  uuid: 04053575-c3ae-4d51-944b-138b66026282
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-TCP-NA 🇨🇦 CA-167.99.179.2...
@@ -49,4 +48,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: de05272f-5258-4603-8814-ceec0d4176aa
+  uuid: f21602b9-72d2-45bc-968b-04ae843d9f02

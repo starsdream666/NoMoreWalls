@@ -1,16 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,19,20,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
+  name: 0,3,4,8,19,20,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
   network: ws
   port: 8080
   server: www.darkroom.lol
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -173,7 +169,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9,19|美国CloudFlare节点 9
+  name: 9|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 80
   server: 162.159.200.3
