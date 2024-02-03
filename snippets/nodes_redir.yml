@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|_CN_中国->🇮🇶_IQ_伊拉克 #2'
+  name: '0,3,4,8,9,25|_CN_中国->🇮🇶_IQ_伊拉克 #2'
   network: ws
   port: '20011'
   server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,19,20,21,25|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #2'
+  name: '0,3,4,8,9,19,20,25|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #2'
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -28,17 +28,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
+  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
   network: ws
   port: 8080
   server: www.darkroom.lol
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -46,11 +42,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,3,4,8,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -60,7 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,9,19,25|🇮🇳 _CN_中国->🇮🇳_IN_印度 #2'
+  name: '0,1,3,4,8,9,19,25|🇮🇳 _CN_中国->🇮🇳_IN_印度 #2'
   network: tcp
   port: '30128'
   server: 183.232.170.22
@@ -70,7 +65,7 @@ proxies:
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|🇺🇦 _CN_中国->🇺🇦_UA_乌克兰 #2'
+  name: '0,3,4,8,9,25|🇺🇦 _CN_中国->🇺🇦_UA_乌克兰 #2'
   network: ws
   port: '20005'
   server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
@@ -110,25 +105,22 @@ proxies:
       host: lmnyvpn.catnipballs.gay
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-84
+  cipher: auto
+  name: 1|_US_->_IR__1
   network: ws
   port: 8080
   server: www.darkroom.lol
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.darkroom.lol
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-80
+  cipher: auto
+  name: 1|_US_->_IR__2
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -137,6 +129,8 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -152,37 +146,6 @@ proxies:
     headers:
       host: tms.dingtalk.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 8,29|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_3由快嘴科技提供：...
-  network: tcp
-  port: 443
-  server: 173.249.197.176
-  tls: false
-  type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-- alterId: 0
-  cipher: auto
-  name: 8|🇦🇷_AR_阿根廷->🇳🇱_NL_荷兰
-  network: ws
-  port: 80
-  server: 87.120.164.7
-  tls: false
-  type: vmess
-  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
-  ws-opts:
-    headers:
-      Host: sahar55.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '8|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩 #1'
-  network: tcp
-  port: 443
-  server: pitcairn.ednovas.org
-  tls: false
-  type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
 - alterId: 0
   cipher: auto
   name: 9|🇪🇸_ES_西班牙->🇭🇰_HK_香港
@@ -300,3 +263,12 @@ proxies:
     headers:
       Host: pq.kmoljklj.top
     path: /qZTtpya?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_3由快嘴科技提供：...
+  network: tcp
+  port: 443
+  server: 173.249.197.176
+  tls: false
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
