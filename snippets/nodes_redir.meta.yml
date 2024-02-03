@@ -121,10 +121,8 @@ proxies:
       host: www.darkroom.lol
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-55
+  cipher: auto
+  name: 1|_US_->_IR__2
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -133,6 +131,8 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto

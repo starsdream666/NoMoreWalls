@@ -53,30 +53,20 @@ proxies:
   uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省新竹市
-  network: tcp
-  port: '4443'
-  server: 114.37.142.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn台湾省新竹市 #1'
-  network: tcp
-  port: '2024'
-  server: 36.226.153.203
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-- alterId: 0
-  cipher: auto
   name: 26|baipaovpn台湾省
   network: tcp
   port: '12002'
   server: 118.167.66.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省新竹市
+  network: tcp
+  port: '4443'
+  server: 114.37.142.154
   servername: ''
   tls: false
   type: vmess
