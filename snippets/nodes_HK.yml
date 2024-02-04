@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21|🇭🇰 VGA香港15TB纪念版
-  network: ws
-  port: '10510'
-  server: 23.99.120.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
-  ws-opts:
-    headers:
-      Host: www.alipay.com
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -27,6 +13,22 @@ proxies:
     tls: false
   port: 443
   server: 8.210.196.224
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.243.196.229
   tfo: false
   type: ss
 - alterId: 0
