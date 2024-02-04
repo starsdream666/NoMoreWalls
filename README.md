@@ -55,7 +55,7 @@
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.txt)
 - [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.txt)
 
-或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，请将链接最后的 `.yml` 替换成 `.meta.yml`）
+或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，请将链接最后的 `.yml` 替换成 `.meta.yml`。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
