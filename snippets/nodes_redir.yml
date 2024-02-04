@@ -19,7 +19,6 @@ proxies:
   network: ws
   port: 8080
   server: www.darkroom.lol
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -29,11 +28,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,21,25,29|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_25
+  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_25
   network: ws
   port: 80
   server: 104.17.25.1
-  servername: ''
   tls: false
   type: vmess
   uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
@@ -60,8 +58,10 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-81
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -70,8 +70,6 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
     path: /
 - name: 1|_CN_->_US__2
   network: tcp
@@ -148,9 +146,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,25|_CN_中国->🇮🇶_IQ_伊拉克
+  name: 8|🇨🇳_CN_中国->🇮🇶_IQ_伊拉克
   network: ws
-  port: '20011'
+  port: 20011
   server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
   tls: false
   type: vmess
@@ -161,7 +159,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,19,20,25|🇮🇳 _CN_中国->🇮🇳_IN_印度
+  name: 8,9,19|广东省佛山市移动 3
   network: tcp
   port: '30128'
   server: 183.232.170.22
@@ -170,9 +168,9 @@ proxies:
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
-  name: 8,9,25|🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
+  name: 8|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
   network: ws
-  port: '20005'
+  port: 20005
   server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
   tls: false
   type: vmess
@@ -194,97 +192,6 @@ proxies:
     headers:
       Host: cache-hk-1.cn-db.top
     path: /db00
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 20018
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 2004
-  server: 223.113.54.131
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇳_CN_中国->🇸🇰_SK_斯洛伐克
-  network: ws
-  port: 20026
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇳_CN_中国->🇧🇾_BY_白俄罗斯
-  network: ws
-  port: 20019
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-  network: ws
-  port: 2000
-  server: 223.113.54.131
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇳_CN_中国->🇧🇦_BA_波黑
-  network: ws
-  port: 20014
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
-  network: ws
-  port: 20021
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
