@@ -21,7 +21,21 @@ proxies:
   uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
 - alterId: 0
   cipher: auto
-  name: 21|台湾【TG：@ccbaohe】定时更新节点订阅
+  name: 20|github.com/freefq - 台湾省晟崴科技股份有...
+  network: ws
+  port: '80'
+  server: 103.118.29.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: ''
+    path: /5gtocdocao.com
+- alterId: 0
+  cipher: auto
+  name: 21|台湾【TG：@ccbaohe】定时更新节点订阅 2
   network: ws
   port: 8443
   server: 35.185.165.99
@@ -43,17 +57,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|台湾2|@ripaojiedian
-  network: tcp
-  port: '6122'
-  server: 36.233.233.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省
+  name: 24|台湾|@ripaojiedian
   network: tcp
   port: '12002'
   server: 118.167.66.198
@@ -65,9 +69,23 @@ proxies:
   cipher: auto
   name: 26|baipaovpn台湾省新竹市
   network: tcp
-  port: '4443'
-  server: 114.37.142.154
+  port: '2024'
+  server: 36.226.153.203
   servername: ''
   tls: false
   type: vmess
   uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省
+  network: ws
+  port: '80'
+  server: 103.118.29.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: PR1.5GTOCDOCAO.COM
+    path: /5gtocdocao.com
