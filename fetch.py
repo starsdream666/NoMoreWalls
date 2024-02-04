@@ -11,6 +11,7 @@ import binascii
 import threading
 import sys
 import os
+import copy
 from types import FunctionType as function
 from typing import Set, List, Dict, Union, Any, Optional
 
@@ -411,18 +412,18 @@ class Node:
 
     def supports_meta(self, noMeta=False) -> bool:
         if self.isfake: return False
+        if self.type == 'vmess':
+            supported = CLASH_CIPHER_VMESS
+        elif self.type == 'ss' or self.type == 'ssr':
+            supported = CLASH_CIPHER_SS
+        elif self.type == 'trojan': return True
+        elif noMeta: return False
+        else: return True
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
             # A quick fix for #2
             self.data['tls'] = True
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
-        elif self.type == 'vmess':
-            supported = CLASH_CIPHER_VMESS
-        elif self.type == 'ss' or self.type == 'ssr':
-            supported = CLASH_CIPHER_SS
-        elif self.type == 'trojan': return True
-        elif not noMeta: return True
-        else: supported = []
         if self.data['cipher'] not in supported: return False
         if self.type == 'ssr':
             if 'obfs' in self.data and self.data['obfs'] not in CLASH_SSR_OBFS:
@@ -955,7 +956,6 @@ def main():
                 names_clash.add(p.data['name'])
     names_clash = list(names_clash)
     names_clash_meta = list(names_clash_meta)
-    import copy
     conf_meta = copy.deepcopy(conf)
 
     # Clash
