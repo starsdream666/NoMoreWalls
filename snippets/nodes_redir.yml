@@ -15,12 +15,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.darkroom.lol
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -28,10 +33,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_25
+  name: 0,3,4,8,9,19,21,25,29|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_25
   network: ws
   port: 80
   server: 104.17.25.1
+  servername: ''
   tls: false
   type: vmess
   uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
@@ -58,10 +64,8 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-81
+  cipher: auto
+  name: 1|_US_->_IR__1
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -70,6 +74,8 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
     path: /
 - name: 1|_CN_->_US__2
   network: tcp
@@ -146,39 +152,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|🇨🇳_CN_中国->🇮🇶_IQ_伊拉克
-  network: ws
-  port: 20011
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8,9,19|广东省佛山市移动 3
+  name: 9,19,20|github.com/freefq - 广东省佛山市移动 1...
   network: tcp
   port: '30128'
   server: 183.232.170.22
   tls: false
   type: vmess
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-  network: ws
-  port: 20005
-  server: b17f1be8-b6fa-42b3-de2c-ece5ebbe6fd8.ritalin.dev
-  tls: false
-  type: vmess
-  uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇪🇸_ES_西班牙->🇭🇰_HK_香港
