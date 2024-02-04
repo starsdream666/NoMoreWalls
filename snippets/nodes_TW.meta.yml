@@ -42,8 +42,8 @@ proxies:
   cipher: auto
   name: 26|baipaovpn台湾省
   network: tcp
-  port: '4443'
-  server: 118.167.70.123
+  port: '2024'
+  server: 118.167.74.134
   servername: ''
   tls: false
   type: vmess
@@ -52,8 +52,8 @@ proxies:
   cipher: auto
   name: '26|baipaovpn台湾省 #1'
   network: tcp
-  port: '2024'
-  server: 118.167.74.134
+  port: '4443'
+  server: 118.167.70.123
   servername: ''
   tls: false
   type: vmess

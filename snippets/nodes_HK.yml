@@ -18,6 +18,19 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 23|🇮🇳 印度|@ripaojiedian
+  password: 941634d941894a4a8c894824302af28c
+  port: 38664
+  server: 103.65.140.83
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 23,24|香港|@ripaojiedian
   network: ws
   port: '21010'
