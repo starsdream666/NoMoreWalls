@@ -47,9 +47,9 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港|@ripaojiedian
-  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
-  port: 20001
-  server: service.ouluyun9803.com
+  name: 23|🇭🇰 香港1|@ripaojiedian
+  password: Rain8240
+  port: 56006
+  server: 36.151.192.38
   tfo: false
   type: ss
