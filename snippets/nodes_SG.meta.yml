@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c40d6ce4-80f0-46ba-8bb6-b269fb00d6f9
+  uuid: aaed4335-bb10-4fdb-b39d-844a8dc29e15
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c40d6ce4-80f0-46ba-8bb6-b269fb00d6f9
+  uuid: aaed4335-bb10-4fdb-b39d-844a8dc29e15
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c40d6ce4-80f0-46ba-8bb6-b269fb00d6f9
+  uuid: aaed4335-bb10-4fdb-b39d-844a8dc29e15
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇸🇬 SG-45.76.186.33:...
@@ -45,6 +45,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 21,23,24|香港|@ripaojiedian
+  network: ws
+  port: '21010'
+  server: 194.156.163.108
+  servername: wapv62g.gorun.tech
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 57c3bfd6-09d1-4954-9b67-3a7580adc14f
+  ws-opts:
+    headers:
+      Host: wapv62g.gorun.tech
+    path: /ebffd932-3fb9-460e-dc98-700b592bfb9c
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -52,7 +69,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 166b98a2-b785-4c33-8380-2f066ff628e4
+  uuid: 8d1f858e-b055-41d1-b803-f207e02d109e
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -62,7 +79,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 166b98a2-b785-4c33-8380-2f066ff628e4
+  uuid: 8d1f858e-b055-41d1-b803-f207e02d109e
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -72,7 +89,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 166b98a2-b785-4c33-8380-2f066ff628e4
+  uuid: 8d1f858e-b055-41d1-b803-f207e02d109e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
