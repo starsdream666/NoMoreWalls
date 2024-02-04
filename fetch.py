@@ -976,6 +976,7 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
     with open("list.yml", 'w', encoding="utf-8") as f:
+        f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies}, allow_unicode=True).replace('!!str ',''))
@@ -999,6 +1000,7 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
+        f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ',''))
