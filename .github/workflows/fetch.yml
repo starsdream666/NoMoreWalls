@@ -62,3 +62,4 @@ jobs:
       uses: egad13/purge-jsdelivr-cache@v1
       with:
         url: ${{ steps.purge_urls.outputs.urls }}
+      continue-on-error: true
