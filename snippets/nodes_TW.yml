@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,21|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
-  network: tcp
-  port: '2024'
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6d1d2171-fab5-4313-8e8c-91ecc9f5dee0
-- alterId: 0
-  cipher: auto
   name: 21|台湾 03 | tcp
   network: tcp
   port: '80'
@@ -18,19 +8,17 @@ proxies:
   tls: false
   type: vmess
   uuid: f919e531-2a05-4b7a-9b40-3efdc71041ca
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇹🇼 台湾|@ripaojiedian
+  password: 9cc18dc9-993d-4d34-8638-904024f5efb5
+  port: 3234
+  server: c11.twtc.dynu.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 24|台湾|@ripaojiedian
-  network: tcp
-  port: '12002'
-  server: 118.167.66.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省台北市
+  name: 24|台湾2|@ripaojiedian
   network: tcp
   port: '4443'
   server: 61.228.160.178
@@ -38,3 +26,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省
+  network: tcp
+  port: '12002'
+  server: 118.167.68.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn台湾省 #1'
+  network: tcp
+  port: '6122'
+  server: 125.224.140.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6d1d2171-fab5-4313-8e8c-91ecc9f5dee0
