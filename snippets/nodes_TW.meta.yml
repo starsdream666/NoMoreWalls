@@ -30,18 +30,8 @@ proxies:
   cipher: auto
   name: 26|baipaovpn台湾省
   network: tcp
-  port: '12002'
-  server: 118.167.68.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn台湾省 #1'
-  network: tcp
-  port: '6122'
-  server: 125.224.140.64
+  port: '2024'
+  server: 118.167.68.146
   servername: ''
   tls: false
   type: vmess

@@ -55,7 +55,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 24,26|baipaovpn广东省
+  name: 24|香港3
   network: tcp
   port: '54002'
   server: 183.237.20.148
