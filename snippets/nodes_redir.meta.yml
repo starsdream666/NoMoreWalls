@@ -54,17 +54,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_ES_->_HK_
+  country: GB
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-80
   network: ws
   port: 8002
   server: 185.214.103.249
+  servername: data-hk-1.cn-db.top
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+  uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d
   ws-opts:
     headers:
-      host: cache-hk-1.cn-db.top
+      HOST: data-hk-1.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
@@ -91,7 +95,7 @@ proxies:
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_2由快嘴科技提供：...
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_5_2由快嘴科技提供：...
   network: ws
   port: 80
   server: www.greendam.site
@@ -104,7 +108,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  name: 28|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.24.208.37
@@ -117,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
+  name: 28|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
