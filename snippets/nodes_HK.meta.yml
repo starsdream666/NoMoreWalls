@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,21|[宇航员] 香港 80免流 04
+  name: 19,21|[宇航员] 香港 80免流 05
   network: ws
   port: '80'
   server: hke9016a-9c15-ce43.xn--jsrz0o258a.online
@@ -12,6 +12,20 @@ proxies:
     headers:
       Host: bilibili.com
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|HK_speednode_0023
+  network: ws
+  port: 10000
+  server: 185.244.208.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7093298-c066-11ee-ade9-4b28e1112dca
+  ws-opts:
+    headers:
+      Host: 185.244.208.71
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: 21|[宇航员] 香港 80免流 03
@@ -25,22 +39,6 @@ proxies:
     headers:
       Host: bilibili.com
     path: /?ed=2048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.196.224
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇭🇰 香港|@ripaojiedian
@@ -49,23 +47,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 24|香港A
-  network: tcp
-  port: '54002'
-  server: 183.237.20.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 24|香港B
-  network: tcp
-  port: '54137'
-  server: 112.28.208.18
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
