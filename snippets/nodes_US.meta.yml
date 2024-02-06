@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,20,21,25,29|🇺🇸_US_美国_8_23
+  name: 0,3,4,8,9,19,20,21,25,28|🇺🇸_US_美国_8_23
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_27
+  name: 0,3,4,8,9,21,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_27
   network: ws
   port: 8080
   server: 104.21.23.176
@@ -28,11 +28,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,21,25,26,29|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com3
+  name: 0,3,4,8,9,21,25,28|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com3
   network: ws
   port: 8080
   server: 104.21.94.99
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -42,7 +41,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6
+  name: 0,3,4,8,9,19,21,25,28|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6
   network: ws
   port: 8080
   server: www.blueberrywindow.online
@@ -56,7 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_9_24
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_9_24
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -69,11 +68,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,25|🇺🇸 _US_美国 #38'
+  name: '0,3,4,8,9,25|🇺🇸 _US_美国 #38'
   network: ws
   port: '2052'
   server: 104.17.19.122
-  servername: ''
   tls: false
   type: vmess
   uuid: ce1b46f7-fd89-4646-a968-206d65245aba
@@ -83,11 +81,10 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,26,29|🇺🇸_US_美国_7_22
+  name: 0,3,4,8,9,19,25,28|🇺🇸_US_美国_7_22
   network: ws
   port: 8080
   server: 172.67.166.190
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -97,7 +94,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,25|🇺🇸 _US_美国 #43'
+  name: '0,3,4,8,9,25|🇺🇸 _US_美国 #43'
   network: ws
   port: '8880'
   server: server20.beheshtbaneh.com
@@ -110,7 +107,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,19,25|🇺🇸 _US_美国 #51'
+  name: '0,3,4,8,25|🇺🇸 _US_美国 #51'
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -124,9 +121,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,9,23,24,25,29|🇺🇸_US_美国_2_6
+  name: 0,3,4,8,9,23,24,25,28|🇺🇸_US_美国_2_6
   network: ws
   port: 8080
   server: www.crispyrainbow.online
@@ -135,7 +130,6 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -143,7 +137,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com9
+  name: 0,3,4,8,9,21,25,28|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com9
   network: ws
   port: 8880
   server: server26.beheshtbaneh.com
@@ -170,7 +164,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_4
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_4
   network: ws
   port: 8080
   server: 172.67.212.114
@@ -183,11 +177,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,25|🇺🇸 _US_美国 #53'
+  name: '0,3,4,8,9,25|🇺🇸 _US_美国 #53'
   network: ws
   port: '8880'
   server: 104.21.82.183
-  servername: ''
   tls: false
   type: vmess
   uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
@@ -214,10 +207,11 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_25
+  name: 0,3,4,8,9,19,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_25
   network: ws
   port: 8880
   server: server32.beheshtbaneh.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
@@ -240,7 +234,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,25|🇺🇸 _US_美国 #39'
+  name: '0,3,4,8,9,25|🇺🇸 _US_美国 #39'
   network: ws
   port: '2052'
   server: 104.19.23.194
@@ -252,19 +246,18 @@ proxies:
       Host: us3AJ8biuQx.fzbqfrse.xyz
     path: /video/QXjZG5u4F2
 - alterId: 0
-  cipher: chacha20-poly1305
-  name: '1,19|美国 CloudFlare节点 #2'
+  cipher: auto
+  name: 1|_US__1
   network: ws
-  port: '8080'
+  port: 8080
   server: www.darkroom.lol
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: ''
+      host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -309,10 +302,8 @@ proxies:
       host: www.blueberrywindow.online
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-45
+  cipher: auto
+  name: 1|_US__5
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -321,6 +312,8 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -338,9 +331,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-50
+  name: 1|_US__7
   network: ws
   port: 8080
   server: 172.67.166.190
@@ -396,36 +387,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-112
+  name: 1|_US__11
   network: ws
   port: 8880
   server: server26.beheshtbaneh.com
-  servername: server26.beheshtbaneh.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      HOST: server26.beheshtbaneh.com
+      host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,19|美国 CloudFlare节点 #3'
+  name: 1|_US__12
   network: ws
-  port: '8880'
+  port: 8880
   server: server31.beheshtbaneh.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   ws-opts:
     headers:
-      Host: ''
+      host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -471,7 +457,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: '1,19|美国 CloudFlare节点 #10'
+  name: 1|_US__16
   network: ws
   port: 8880
   server: server32.beheshtbaneh.com
@@ -480,6 +466,8 @@ proxies:
   type: vmess
   uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
   ws-opts:
+    headers:
+      host: server32.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -511,7 +499,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: '9,20,21|🇺🇸_US_美国 #55'
+  name: '9,19,20,21|🇺🇸_US_美国 #55'
   network: ws
   port: 8880
   server: server33.beheshtbaneh.com
@@ -547,7 +535,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f13c793e-ac3c-4e73-b47b-6dca82a92233
+  uuid: 67fcf3e4-598b-44fe-bfe0-fc24cf85884a
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -557,7 +545,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f13c793e-ac3c-4e73-b47b-6dca82a92233
+  uuid: 67fcf3e4-598b-44fe-bfe0-fc24cf85884a
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -567,10 +555,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f13c793e-ac3c-4e73-b47b-6dca82a92233
+  uuid: 67fcf3e4-598b-44fe-bfe0-fc24cf85884a
 - alterId: 0
   cipher: auto
-  name: 20|github.com/freefq - 美国CloudFla...
+  name: 19,20|github.com/freefq - 美国CloudFla...
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -584,21 +572,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20,21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.82.1...
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20|github.com/freefq - 美国Fastly全球...
+  name: 19,20|github.com/freefq - 美国Fastly全球...
   network: ws
   port: '443'
   server: gov.uk
@@ -610,6 +584,34 @@ proxies:
     headers:
       Host: zheshiscp.com
     path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '19,21|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '80'
+  server: 172.67.229.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr9.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 19,20,21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.82.1...
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-TLS 🇺🇸 US-172.67.196.1...
@@ -788,7 +790,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com8
+  name: 21,28|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com8
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -823,7 +825,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9f882a4d-4c29-439f-b594-e6b4421740d7
+  uuid: 3aef984b-4890-4fd7-8e36-786b6e4c024d
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -833,7 +835,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9f882a4d-4c29-439f-b594-e6b4421740d7
+  uuid: 3aef984b-4890-4fd7-8e36-786b6e4c024d
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -843,7 +845,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9f882a4d-4c29-439f-b594-e6b4421740d7
+  uuid: 3aef984b-4890-4fd7-8e36-786b6e4c024d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇺🇸 美国1|@ripaojiedian

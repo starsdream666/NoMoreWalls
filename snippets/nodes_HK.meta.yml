@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|香港Google云计算数据中心 4
-  network: ws
-  port: '80'
-  server: hke9016a-9c15-ce43.xn--jsrz0o258a.online
-  tls: false
-  type: vmess
-  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
-  ws-opts:
-    headers:
-      Host: bilibili.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 21|[宇航员] 香港 80免流 02
   network: ws
   port: '80'
@@ -25,22 +12,6 @@ proxies:
     headers:
       Host: bilibili.com
     path: /?ed=2048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.196.224
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT2|@ripaojiedian
