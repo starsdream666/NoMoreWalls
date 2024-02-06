@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  name: 0,3,4,8,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_28
   network: ws
   port: 80
   server: 104.24.208.37
@@ -14,10 +14,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
+  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -27,9 +28,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,19,20,21,25|🇺🇸 _US_美国->🇹🇷_TR_土耳其 #2'
+  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇹🇷_TR_土耳其_2_由快嘴科技提供：...
   network: ws
-  port: '8080'
+  port: 8080
   server: ip.sb
   servername: ''
   tls: false
@@ -41,11 +42,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,20,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 104.20.231.30
-  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -55,7 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_8
+  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.22.51.162
@@ -69,10 +69,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_2由快嘴科技提供：...
+  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_9
   network: ws
   port: 80
   server: www.greendam.site
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
