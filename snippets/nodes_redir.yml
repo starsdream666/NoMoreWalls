@@ -1,111 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_28
-  network: ws
-  port: 80
-  server: 104.24.208.37
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
-  network: ws
-  port: 80
-  server: for-irancell.outline-vpn.cloud
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,19,25,29|🇺🇸_US_美国->🇹🇷_TR_土耳其_2_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: ip.sb
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e315854-9066-4775-fee9-a54b34148ab0
-  ws-opts:
-    headers:
-      Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 80
-  server: 104.20.231.30
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
-  network: ws
-  port: 80
-  server: 104.22.51.162
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_9
-  network: ws
-  port: 80
-  server: www.greendam.site
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- name: 1|_CA_->_DE_
-  network: ws
-  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
-  port: 443
-  server: 23.227.39.166
+  name: '0,1,3,4,9,25|🇨🇳_CN_中国->🇮🇳_IN_印度 #3'
+  network: tcp
+  port: 30128
+  server: 183.232.170.22
   skip-cert-verify: true
-  sni: jde1.jsjc.sbs
+  tls: false
+  type: vmess
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
+- name: 1|_CN_->_CZ_
+  network: tcp
+  password: 4623e7ff-47b4-41d6-8f5a-33c8e6ac3fd5
+  port: 10846
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      host: jde1.jsjc.sbs
-    path: /jsjc/de1
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__1
-  network: ws
-  port: 80
-  server: 104.24.208.37
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- name: 1|_US_->_DE__2
+- name: 1|_US_->_DE_
   network: ws
   password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
   port: 443
@@ -120,83 +33,30 @@ proxies:
     path: /jsjc/nl1
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE__3
-  network: ws
-  port: 80
-  server: for-irancell.outline-vpn.cloud
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_TR_
+  name: 8,29|🇺🇸_US_美国->🇹🇷_TR_土耳其_2_由快嘴科技提供：...
   network: ws
   port: 8080
   server: ip.sb
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7e315854-9066-4775-fee9-a54b34148ab0
   ws-opts:
     headers:
-      host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
+      Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE__4
-  network: ws
-  port: 80
-  server: 104.20.231.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__5
-  network: ws
-  port: 80
-  server: 104.22.51.162
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__6
+  name: 8,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_9
   network: ws
   port: 80
   server: www.greendam.site
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      host: my1.tooters.ir
+      Host: my1.tooters.ir
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇳_CN_中国->🇮🇳_IN_印度
-  network: tcp
-  port: 30128
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk...
