@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,20,21,25,29|🇺🇸_US_美国_3_4
+  name: 0,3,4,8,9,19,20,21,25,28|🇺🇸_US_美国_3_4
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -15,10 +15,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com6_32
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com6_32
   network: ws
   port: 8080
   server: 172.67.212.114
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -28,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_24
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_24
   network: ws
   port: 8080
   server: 172.67.166.190
@@ -41,7 +44,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
   network: ws
   port: 8080
   server: 104.21.94.99
@@ -54,7 +57,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_5_9
+  name: 0,3,4,8,9,19,25,28|🇺🇸_US_美国_5_9
   network: ws
   port: 80
   server: 104.22.51.162
@@ -67,7 +70,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,25,29|🇺🇸_US_美国_2_3
+  name: 0,3,4,8,25,28|🇺🇸_US_美国_2_3
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -80,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,25,29|🇺🇸_US_美国_4_6
+  name: 0,3,4,8,25,28|🇺🇸_US_美国_4_6
   network: ws
   port: 8080
   server: 104.21.23.176
@@ -107,7 +110,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,4,8,9,23,24,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_35
+  name: 0,3,4,8,9,23,24,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_35
   network: ws
   port: 8080
   server: www.crispyrainbow.online
@@ -124,7 +127,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,4,8,9,21,23,24,25,29|🇺🇸_US_美国_9_2由快嘴科技提供：kkzui.com
+  name: 0,3,4,8,9,21,23,24,25,28|🇺🇸_US_美国_9_2由快嘴科技提供：kkzui.com
   network: ws
   port: 8880
   server: server33.beheshtbaneh.com
@@ -140,7 +143,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com9_37
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com9_37
   network: ws
   port: 80
   server: 104.20.231.30
@@ -153,7 +156,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,20,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com3_29
+  name: 0,3,4,8,9,19,20,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com3_29
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -167,7 +170,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_30
+  name: 0,3,4,8,9,19,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_30
   network: ws
   port: 8880
   server: server20.beheshtbaneh.com
@@ -180,7 +183,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_20_38
+  name: 0,3,4,8,9,19,25,28|🇺🇸_US_美国_20_38
   network: ws
   port: 8080
   server: 172.67.221.183
@@ -207,7 +210,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇺🇸_US_美国_2由快嘴科技提供：kkzui.com_40
+  name: 0,3,4,8,9,21,25,28|🇺🇸_US_美国_2由快嘴科技提供：kkzui.com_40
   network: ws
   port: 80
   server: 104.24.208.37
@@ -221,7 +224,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_28
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_28
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -234,7 +237,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_26
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_26
   network: ws
   port: 8080
   server: 104.21.89.252
@@ -247,10 +250,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com8_36
+  name: 0,3,4,8,9,19,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com8_36
   network: ws
   port: 8080
   server: www.blueberrywindow.online
+  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -428,7 +432,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,19|美国 CloudFlare节点 #6'
+  name: 1|_US__13
   network: ws
   port: 8880
   server: server20.beheshtbaneh.com
@@ -437,6 +441,8 @@ proxies:
   type: vmess
   uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
   ws-opts:
+    headers:
+      host: server20.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -524,7 +530,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,19,20,21,29|🇺🇸_US_美国_8_由快嘴科技提供：kkzui.com7
+  name: 9,19,20,21,28|🇺🇸_US_美国_8_由快嘴科技提供：kkzui.com7
   network: ws
   port: 8880
   server: server31.beheshtbaneh.com
@@ -545,7 +551,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1527f1bb-7783-4493-a2f2-52fb4df1aa45
+  uuid: 9e078d92-06ff-4528-b19d-4eadaf1a5a6e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -555,7 +561,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1527f1bb-7783-4493-a2f2-52fb4df1aa45
+  uuid: 9e078d92-06ff-4528-b19d-4eadaf1a5a6e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -565,20 +571,34 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1527f1bb-7783-4493-a2f2-52fb4df1aa45
+  uuid: 9e078d92-06ff-4528-b19d-4eadaf1a5a6e
 - alterId: 0
   cipher: auto
-  name: 19|美国 CloudFlare节点
+  name: 19,21|CL_speednode_0004
   network: ws
-  port: '80'
-  server: 104.17.25.1
+  port: 80
+  server: s12.956256.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
   ws-opts:
     headers:
-      Host: kr1.ljyyds.top
+      Host: caonimashabiwanyi21.daxiongda.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,21|美国 048
+  network: ws
+  port: 80
+  server: s1.956256.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  ws-opts:
+    headers:
+      Host: caonimashabiwanyi4.daxiongda.top
     path: /
 - alterId: 0
   cipher: auto
@@ -595,31 +615,35 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
-  name: '19|美国 CloudFlare节点 #5'
+  client-fingerprint: chrome
+  name: 19,23,24|韩国2|@ripaojiedian
   network: ws
-  port: 8880
-  server: 104.21.73.14
+  port: '80'
+  server: ip.sb
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
   ws-opts:
     headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /adenc35.fixedlfoat.top/linkws
+      Host: kr1.ljyyds.top
+    path: /
 - alterId: 0
   cipher: auto
-  name: '19|美国 CloudFlare节点 #9'
+  name: '19|美国 纽约美联社 #1'
   network: ws
-  port: '8080'
-  server: 104.17.123.55
+  port: '80'
+  server: 165.1.66.37
   servername: ''
   tls: false
   type: vmess
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
   ws-opts:
     headers:
-      Host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
+      Host: caonimashabiwanyi4.daxiongda.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|美国 043
@@ -663,6 +687,20 @@ proxies:
     path: /vmess?ed=2048
 - alterId: 0
   cipher: auto
+  name: 21|美国 046
+  network: ws
+  port: 80
+  server: s2.956256.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  ws-opts:
+    headers:
+      Host: caonimashabiwanyi5.daxiongda.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-51.81.186.25...
   network: tcp
   port: '45306'
@@ -695,6 +733,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- alterId: 0
+  cipher: auto
+  name: 21|美国 049
+  network: ws
+  port: 80
+  server: s14.956256.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  ws-opts:
+    headers:
+      Host: caonimashabiwanyi21.daxiongda.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇺🇸 US-172.67.15.233...
@@ -952,7 +1004,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com5_31
+  name: 21,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com5_31
   network: ws
   port: 80
   server: 144.126.145.219
@@ -1025,7 +1077,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d668bbb1-6e8f-4115-9a6a-1d5cac84c7ee
+  uuid: 373c20d9-34af-4e52-9abd-e23a5c906944
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -1035,7 +1087,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d668bbb1-6e8f-4115-9a6a-1d5cac84c7ee
+  uuid: 373c20d9-34af-4e52-9abd-e23a5c906944
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1045,7 +1097,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d668bbb1-6e8f-4115-9a6a-1d5cac84c7ee
+  uuid: 373c20d9-34af-4e52-9abd-e23a5c906944
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇺🇸 美国1|@ripaojiedian
@@ -1090,7 +1142,7 @@ proxies:
     path: /path/340323081726
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  name: 28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
   network: ws
   port: 8880
   server: server2.beheshtbaneh.com
@@ -1101,3 +1153,12 @@ proxies:
     headers:
       Host: server2.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 28|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com0
+  network: http
+  port: 3389
+  server: 5.161.220.92
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7

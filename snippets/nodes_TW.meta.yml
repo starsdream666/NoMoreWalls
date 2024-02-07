@@ -20,17 +20,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省
-  network: ws
-  port: '18803'
-  server: 111.247.40.248
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /
