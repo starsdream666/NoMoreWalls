@@ -17,7 +17,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 4,8,23|🇫🇷 法国|tg频道:@ripaojiedian
+  name: 4,8,23,29|🇫🇷_FR_法国_由快嘴科技提供：kkzui.com6
   network: ws
   port: 62953
   server: fr-marseille-oracle-07e914.ip1.shop
@@ -30,20 +30,6 @@ proxies:
     headers:
       Host: fr-marseille-oracle-07e914.ip1.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 21|法国 005
-  network: ws
-  port: 80
-  server: 51.210.123.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
   name: 21|法国 004
@@ -60,10 +46,24 @@ proxies:
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
-  name: 21|法国 002
+  name: 21|FR_speednode_0062
   network: ws
   port: 80
   server: 146.59.192.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 21|法国 005
+  network: ws
+  port: 80
+  server: 51.210.123.74
   servername: ''
   tls: false
   type: vmess
