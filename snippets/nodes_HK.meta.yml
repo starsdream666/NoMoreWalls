@@ -86,17 +86,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn香港
-  network: ws
-  port: '20759'
-  server: 223.17.12.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1647a11-25bc-439e-b7a8-224c240019e4
-  ws-opts:
-    headers:
-      Host: hkt.littleqqq.co
-    path: /hls/cctv5phd.m3u8

@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 09af6c80-0d7d-4ea0-8d7d-bf45efc13b1d
+  uuid: 9f8e03da-75a7-4bf6-856b-6b1e033ccee1
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 09af6c80-0d7d-4ea0-8d7d-bf45efc13b1d
+  uuid: 9f8e03da-75a7-4bf6-856b-6b1e033ccee1
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 09af6c80-0d7d-4ea0-8d7d-bf45efc13b1d
+  uuid: 9f8e03da-75a7-4bf6-856b-6b1e033ccee1
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.16...
@@ -45,7 +45,7 @@ proxies:
     path: /MOBITEL
 - alterId: 0
   cipher: auto
-  name: 21|新加坡 006
+  name: 21|SG_speednode_0114
   network: ws
   port: 80
   server: 172.105.117.129
@@ -59,6 +59,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 21|🔒 VM-WS-NA 🇸🇬 SG-167.172.80.19...
+  network: ws
+  port: 8880
+  server: 167.172.80.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae3e6ab7-144a-4ecc-981d-603ea73bc8af
+  ws-opts:
+    headers:
+      Host: 8db7766f-d893-430e-96fb-ccd20e681145.tg.hkaa0.66688888.xyz
+    path: /Telegram:@hkaa0
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -66,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 01ae57c6-aa28-4961-8f09-b70ea7fe4a09
+  uuid: e7d3c2fd-813c-4ed7-bfa0-ef01ed9fbfb8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -76,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 01ae57c6-aa28-4961-8f09-b70ea7fe4a09
+  uuid: e7d3c2fd-813c-4ed7-bfa0-ef01ed9fbfb8
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -86,7 +100,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 01ae57c6-aa28-4961-8f09-b70ea7fe4a09
+  uuid: e7d3c2fd-813c-4ed7-bfa0-ef01ed9fbfb8
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian

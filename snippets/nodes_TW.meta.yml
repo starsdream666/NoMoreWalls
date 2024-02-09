@@ -1,11 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
+  name: 26|baipaovpn台湾省
   network: tcp
   port: '4443'
-  server: nb24.ntbq.dynu.net
+  server: 118.167.68.3
   servername: ''
   tls: false
   type: vmess
-  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省新北市
+  network: tcp
+  port: '2024'
+  server: 61.228.144.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn台湾省 #1'
+  network: tcp
+  port: '12002'
+  server: 118.167.68.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9

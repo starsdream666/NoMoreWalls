@@ -72,6 +72,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
+  network: ws
+  port: 80
+  server: fastly.alipay.ovh
+  tls: false
+  type: vmess
+  uuid: 97d5d17f-1a55-4074-8207-192873e362ed
+  ws-opts:
+    headers:
+      Host: beeline.ru
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
   name: 29|🇺🇸_US_美国->🇧🇷_BR_巴西_28
   network: ws
   port: 80
