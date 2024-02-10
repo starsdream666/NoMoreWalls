@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 174a210b-6e8b-4093-b1c5-25d35e0e65e8
+  uuid: 171caebc-e9e7-4aa3-86c9-5baab2b7a603
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 174a210b-6e8b-4093-b1c5-25d35e0e65e8
+  uuid: 171caebc-e9e7-4aa3-86c9-5baab2b7a603
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,20 +28,20 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 174a210b-6e8b-4093-b1c5-25d35e0e65e8
+  uuid: 171caebc-e9e7-4aa3-86c9-5baab2b7a603
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
+  name: 21|新加坡 006
   network: ws
-  port: '42513'
-  server: 146.190.105.70
+  port: 80
+  server: 172.105.117.129
   servername: ''
   tls: false
   type: vmess
-  uuid: d78e91ae-ea30-484f-8a5a-7d27b2b2014a
+  uuid: f686f0c9-e69c-412c-bc5d-cb296705a2c4
   ws-opts:
     headers:
-      Host: m.zoom.us
+      Host: www.tesla.com
     path: /
 - alterId: 0
   cipher: auto
@@ -52,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2bb84912-20c6-4dd6-9649-d6240c8acbc4
+  uuid: 71a3d45e-2d69-45fe-9792-9ec8983f0b2e
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -62,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2bb84912-20c6-4dd6-9649-d6240c8acbc4
+  uuid: 71a3d45e-2d69-45fe-9792-9ec8983f0b2e
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -72,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2bb84912-20c6-4dd6-9649-d6240c8acbc4
+  uuid: 71a3d45e-2d69-45fe-9792-9ec8983f0b2e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
