@@ -431,7 +431,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 790cf1ff-fd5b-40ea-84d4-cecbeb83a7a6
+  uuid: 174a210b-6e8b-4093-b1c5-25d35e0e65e8
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -441,7 +441,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 790cf1ff-fd5b-40ea-84d4-cecbeb83a7a6
+  uuid: 174a210b-6e8b-4093-b1c5-25d35e0e65e8
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -451,27 +451,13 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 790cf1ff-fd5b-40ea-84d4-cecbeb83a7a6
-- alterId: 0
-  cipher: auto
-  name: 19,21|美国【TG：@ccbaohe】定时更新节点订阅 15
-  network: ws
-  port: 80
-  server: 104.24.208.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
+  uuid: 174a210b-6e8b-4093-b1c5-25d35e0e65e8
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: www.greendam.site
+  port: 80
+  server: 104.22.51.162
   servername: ''
   tls: false
   type: vmess
@@ -479,35 +465,61 @@ proxies:
   ws-opts:
     headers:
       Host: my1.tooters.ir
-    path: /
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 19,21|中国 036
+  network: ws
+  port: 37000
+  server: 108.186.196.170
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/1707385668735
+- alterId: 64
+  cipher: auto
+  name: '19,21|US美国(mibei77.com 米贝节点分享) #3'
+  network: ws
+  port: '37000'
+  server: 108.186.164.74
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.98382183.xyz
+    path: /path/1707385668735
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #2'
   network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
+  port: 80
+  server: yhnsb3.shabijichang.com
+  servername: yhnsb3.shabijichang.com
   tls: false
   type: vmess
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
-    headers:
-      Host: kr1.ljyyds.top
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '19|美国 CloudFlare节点 #3'
+  name: '19,21|US美国(mibei77.com 米贝节点分享) #13'
   network: ws
-  port: '8880'
-  server: server26.beheshtbaneh.com
+  port: '37000'
+  server: 38.12.82.100
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: www.65825524.xyz
+    path: /path/1707212417349
 - alterId: 0
   cipher: auto
   name: 19,20|github.com/freefq - 美国CloudFla...
@@ -520,6 +532,46 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: ip.sb
+  tls: false
+  type: vmess
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  ws-opts:
+    headers:
+      Host: kr1.ljyyds.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #6'
+  network: ws
+  port: 80
+  server: 104.19.249.22
+  tls: false
+  type: vmess
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: '19,21|US美国(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '8880'
+  server: server28.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -562,20 +614,6 @@ proxies:
     headers:
       Host: www.31033708.xyz
     path: /path/1707385668735
-- alterId: 0
-  cipher: auto
-  name: '21|US美国(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '8880'
-  server: server28.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: '21|US美国(mibei77.com 米贝节点分享) #2'
@@ -610,20 +648,6 @@ proxies:
   tls: true
   type: vmess
   uuid: c090fe2c-442b-4643-ef5e-98d53a5d72ac
-- alterId: 64
-  cipher: auto
-  name: '21|US美国(mibei77.com 米贝节点分享) #3'
-  network: ws
-  port: '37000'
-  server: 108.186.164.74
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.98382183.xyz
-    path: /path/1707385668735
 - alterId: 64
   cipher: auto
   name: '21|US美国(mibei77.com 米贝节点分享) #4'
@@ -774,20 +798,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '21|US美国(mibei77.com 米贝节点分享) #13'
+  name: 21|美国【TG：@ccbaohe】定时更新节点订阅 15
   network: ws
-  port: '37000'
-  server: 38.12.82.100
+  port: 80
+  server: 104.24.208.37
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: www.65825524.xyz
-    path: /path/1707212417349
+      Host: my1.tooters.ir
+    path: /
 - alterId: 64
   cipher: auto
   name: 21|美国 080
@@ -1125,7 +1149,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed03697d-43a7-4692-bbbc-be4eb96d337c
+  uuid: 2bb84912-20c6-4dd6-9649-d6240c8acbc4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -1135,7 +1159,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed03697d-43a7-4692-bbbc-be4eb96d337c
+  uuid: 2bb84912-20c6-4dd6-9649-d6240c8acbc4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1145,7 +1169,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed03697d-43a7-4692-bbbc-be4eb96d337c
+  uuid: 2bb84912-20c6-4dd6-9649-d6240c8acbc4
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1180,3 +1204,31 @@ proxies:
     headers:
       Host: us77SmSk86j.fzbqfrse.xyz
     path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 162.159.9.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845d3e81-1f2c-4d21-c1ce-21d48dcb6e50
+  ws-opts:
+    headers:
+      Host: newtest.alipay.ovh
+    path: /test?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '443'
+  server: 104.21.55.223
+  servername: jader.fun
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: jader.fun
+    path: /linkvws
