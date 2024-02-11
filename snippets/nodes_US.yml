@@ -305,10 +305,13 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com9
+  h2-opts: {}
+  http-opts: {}
+  name: 3,4,6,8,9,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com9
   network: ws
   port: 8080
   server: 172.67.212.114
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -576,7 +579,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 83b93c4c-5ab3-40d2-b057-822a4756bb13
+  uuid: aa517ccd-6cd1-4cb7-b3c5-603e64f0cff2
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -586,7 +589,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 83b93c4c-5ab3-40d2-b057-822a4756bb13
+  uuid: aa517ccd-6cd1-4cb7-b3c5-603e64f0cff2
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -596,7 +599,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 83b93c4c-5ab3-40d2-b057-822a4756bb13
+  uuid: aa517ccd-6cd1-4cb7-b3c5-603e64f0cff2
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #1'
@@ -772,9 +775,9 @@ proxies:
     path: /path/1707212417349
 - alterId: 0
   cipher: auto
-  name: 21,26|baipaovpn日本东京都
+  name: 21|美国 094
   network: ws
-  port: '43058'
+  port: 43058
   server: 20.210.219.158
   servername: ''
   tls: false
@@ -1089,7 +1092,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 70f41984-507f-4be3-b9ff-75967aa6a8b1
+  uuid: 1503d065-ee74-41d1-84dc-754166d4d676
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -1099,7 +1102,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 70f41984-507f-4be3-b9ff-75967aa6a8b1
+  uuid: 1503d065-ee74-41d1-84dc-754166d4d676
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1109,7 +1112,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 70f41984-507f-4be3-b9ff-75967aa6a8b1
+  uuid: 1503d065-ee74-41d1-84dc-754166d4d676
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇺🇸 美国4|@ripaojiedian
@@ -1157,6 +1160,20 @@ proxies:
     headers:
       Host: newtest.alipay.ovh
     path: /test?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '49898'
+  server: 64.110.66.254
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 41631bd2-4463-48a0-ab4c-15dcba237a90
+  ws-opts:
+    headers:
+      Host: kr-seoul-oracle-4fccf5.ip1.shop
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_33
