@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e9b55e27-2868-4322-920b-09261e7211c5
+  uuid: 591bdd14-aaf9-4f77-8276-9f73cf3a2f15
 - alterId: 0
   cipher: auto
   name: 21|加拿大 016
@@ -260,6 +260,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 21|加拿大 014
+  network: ws
+  port: 80
+  server: ip.sb
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  ws-opts:
+    headers:
+      Host: kr1.ljyyds.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
   network: tcp
   port: '22324'
@@ -284,9 +298,9 @@ proxies:
     path: /test?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21|加拿大 111
+  name: 21,26|baipaovpn美国
   network: ws
-  port: 80
+  port: '80'
   server: 162.159.5.6
   servername: ''
   tls: false
@@ -361,4 +375,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a0e52382-d700-444a-a6b3-93acef540383
+  uuid: 248c9b55-fb26-4d5b-8f72-dd6916f6f83e
