@@ -1,16 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|🇭🇰香港1丨白嫖机场.com
+  name: 21|🇭🇰香港3丨白嫖机场.com
   network: ws
   port: '80'
-  server: 104.18.15.147
+  server: 162.159.200.4
   tls: false
   type: vmess
   uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
   ws-opts:
     headers:
-      Host: hk3.889611.com
+      Host: hk3.visaapp.top
     path: /
 - alterId: 0
   cipher: auto
@@ -41,22 +41,6 @@ proxies:
   server: 8.218.71.80
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.243.196.229
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇭🇰 香港|@ripaojiedian
@@ -76,17 +60,3 @@ proxies:
   protocol-param: 175910:AcKdLc
   server: yd-04.paofunlink.com
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn香港
-  network: ws
-  port: '20759'
-  server: 223.17.12.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0dcbfce5-086b-450d-ae81-c18ba529bf02
-  ws-opts:
-    headers:
-      Host: hkt.littleqqq.co
-    path: /hls/cctv5phd.m3u8
