@@ -76,3 +76,17 @@ proxies:
   protocol-param: 175910:AcKdLc
   server: yd-04.paofunlink.com
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn香港
+  network: ws
+  port: '20759'
+  server: 223.17.12.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0dcbfce5-086b-450d-ae81-c18ba529bf02
+  ws-opts:
+    headers:
+      Host: hkt.littleqqq.co
+    path: /hls/cctv5phd.m3u8
