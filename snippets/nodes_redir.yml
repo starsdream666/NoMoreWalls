@@ -294,7 +294,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 3,4,8,19,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -335,7 +335,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,9,19,25|🇺🇸_US_美国->🇿🇦_ZA_南非 #2'
+  name: '3,9,25|🇺🇸_US_美国->🇿🇦_ZA_南非 #2'
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
