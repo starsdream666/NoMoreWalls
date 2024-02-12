@@ -45,10 +45,10 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省
+  name: 26|baipaovpn台湾省彰化县
   network: tcp
-  port: '12002'
-  server: 118.167.65.80
+  port: '6122'
+  server: 36.233.237.131
   servername: ''
   tls: false
   type: vmess

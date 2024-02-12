@@ -135,7 +135,7 @@ proxies:
     path: /path/271624282113
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,28|🇺🇸_US_美国->🇩🇪_DE_德国_2_9
+  name: 3,4,8,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_9
   network: ws
   port: 80
   server: www.greendam.site
@@ -148,7 +148,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,21,25,28|🇺🇸_US_美国->🇩🇪_DE_德国_5_30
+  name: 3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_30
   network: ws
   port: 80
   server: 104.24.208.37
@@ -161,7 +161,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,28|🇺🇸_US_美国->🇩🇪_DE_德国_3_23
+  name: 3,4,8,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_23
   network: ws
   port: 80
   server: 104.22.51.162
@@ -174,7 +174,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,19,21,25,28|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 3,4,8,19,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -188,7 +188,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,28|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 3,4,8,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 188.114.96.11
@@ -201,7 +201,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,25,28|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3_28
+  name: 3,4,8,9,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3_28
   network: ws
   port: 80
   server: mci--join.outline-vpn.cloud
@@ -227,7 +227,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4,8,28|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26
+  name: 4,8,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26
   network: ws
   port: 80
   server: 188.114.96.113
@@ -240,7 +240,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 4,28|🇺🇸_US_美国->🇩🇪_DE_德国_4_29
+  name: 4,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_29
   network: ws
   port: 80
   server: 104.21.69.44
