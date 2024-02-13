@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: '0,3,4,8,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #21'
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -14,10 +14,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26
+  name: 0,3,4,8,9,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3_39
   network: ws
   port: 80
   server: 188.114.96.113
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -67,7 +68,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3_28
+  name: 0,3,4,8,9,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_28
   network: ws
   port: 80
   server: mci--join.outline-vpn.cloud
@@ -202,7 +203,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_23
+  name: 3,4,8,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 104.22.51.162
@@ -215,7 +216,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,19,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_30
+  name: 3,4,8,19,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_50
   network: ws
   port: 80
   server: 104.24.208.37
@@ -228,7 +229,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_9
+  name: 3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 80
   server: www.greendam.site
@@ -241,10 +242,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,19,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_29
+  name: 3,4,8,9,19,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_48
   network: ws
   port: 80
   server: 104.21.69.44
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -265,3 +267,29 @@ proxies:
     headers:
       Host: yhnsb3.shabijichang.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 29|🇬🇧_GB_英国->🇩🇪_DE_德国_23
+  network: ws
+  port: 31000
+  server: 51.89.68.94
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12938243.xyz
+    path: /path/060231310424
+- alterId: 64
+  cipher: auto
+  name: 29|🇫🇷_FR_法国->🇩🇪_DE_德国_47
+  network: ws
+  port: 30000
+  server: 51.77.92.134
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88109376.xyz
+    path: /path/070410072720
