@@ -41,6 +41,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇩🇪 德国2|@ripaojiedian
+  port: 3389
+  server: 116.203.116.244
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
   name: 24,26|baipaovpn罗马尼亚
   network: tcp
   port: '3389'
