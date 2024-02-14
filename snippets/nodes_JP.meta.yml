@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: fd5ce0db-7ec5-4c85-b209-2b7af8931fc5
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: fd5ce0db-7ec5-4c85-b209-2b7af8931fc5
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: fd5ce0db-7ec5-4c85-b209-2b7af8931fc5
 - alterId: 0
   cipher: auto
   name: 21|日本(yudou66.com 玉豆免费节点)
@@ -140,17 +140,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn日本东京
-  network: ws
-  port: '21988'
-  server: 158.101.150.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: jp-tokyo-oracle-03b285.ip1.shop
-    path: /rongseven?ed=2048
