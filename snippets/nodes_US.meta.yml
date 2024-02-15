@@ -286,7 +286,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
+  uuid: ba83e02b-4f87-441d-86ec-93fe29cd5ea3
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -296,7 +296,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
+  uuid: ba83e02b-4f87-441d-86ec-93fe29cd5ea3
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -306,7 +306,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
+  uuid: ba83e02b-4f87-441d-86ec-93fe29cd5ea3
 - alterId: 0
   cipher: auto
   name: 19,20|github.com/freefq - 美国CloudFla...
@@ -683,19 +683,6 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com4
-  network: ws
-  port: 80
-  server: 144.126.145.219
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_5_32
