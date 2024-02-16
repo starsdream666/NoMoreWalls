@@ -1,4 +1,43 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.18.15.147
+  tls: false
+  type: vmess
+  uuid: c37f5fe6-5621-412f-8b78-1d6197ade017
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰香港2丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 212.192.12.231
+  tls: false
+  type: vmess
+  uuid: c37f5fe6-5621-412f-8b78-1d6197ade017
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰香港3丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: c37f5fe6-5621-412f-8b78-1d6197ade017
+  ws-opts:
+    headers:
+      Host: hk3.visaapp.top
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -52,7 +91,7 @@ proxies:
   uuid: 88b3fe23-06ef-3ac4-a6e2-65380ed8c034
 - alterId: 0
   cipher: auto
-  name: 24,26|baipaovpn罗马尼亚
+  name: 24|香港3|@ripaojiedian
   network: tcp
   port: '3389'
   server: 185.244.208.61
@@ -60,17 +99,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn香港
-  network: ws
-  port: '20759'
-  server: 223.17.12.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35c4aba6-a30a-44b9-85d8-b659293c5265
-  ws-opts:
-    headers:
-      Host: hkt.littleqqq.co
-    path: /hls/cctv5phd.m3u8
