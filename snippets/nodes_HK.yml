@@ -67,17 +67,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 23|台北|@ripaojiedian
-  port: 15109
-  server: shdx.pmxu.link
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 88b3fe23-06ef-3ac4-a6e2-65380ed8c034
-- alterId: 0
-  cipher: auto
   name: 24|香港3|@ripaojiedian
   network: tcp
   port: '3389'
