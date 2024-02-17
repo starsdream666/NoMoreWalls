@@ -10,17 +10,8 @@ proxies:
   uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
 - alterId: 0
   cipher: auto
-  name: 21|BGP|台湾02-Hinet|Netflix|Disney+...
-  network: tcp
-  port: 33262
-  server: wuhan.sy-isp.com
-  tls: false
-  type: vmess
-  uuid: c24aad53-1133-3363-b29d-4bf6cbcce86c
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 23,24|台湾|@ripaojiedian
+  name: 21,23,24|台湾|@ripaojiedian
   network: ws
   port: '18840'
   server: www.dtku40.xyz
