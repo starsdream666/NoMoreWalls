@@ -18,6 +18,26 @@ proxies:
     path: /9tEYTPFN/
 - alterId: 0
   cipher: auto
+  name: 26|baipaovpn台湾省
+  network: tcp
+  port: '2024'
+  server: 118.167.66.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省新竹市
+  network: tcp
+  port: '12002'
+  server: 114.37.158.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+- alterId: 0
+  cipher: auto
   name: 26|baipaovpn台湾省桃园市
   network: tcp
   port: '21353'
