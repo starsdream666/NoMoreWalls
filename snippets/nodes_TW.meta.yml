@@ -1,17 +1,8 @@
 proxies:
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 21|台湾-4.61MB/s
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
-- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21,23,24|台湾|@ripaojiedian
+  name: 23,24|台湾|@ripaojiedian
   network: ws
   port: '18840'
   server: www.dtku40.xyz
@@ -27,11 +18,11 @@ proxies:
     path: /9tEYTPFN/
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省新竹市
+  name: 26|baipaovpn台湾省桃园市
   network: tcp
-  port: '12002'
-  server: 114.37.158.127
+  port: '21353'
+  server: 1.162.150.61
   servername: ''
   tls: false
   type: vmess
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
