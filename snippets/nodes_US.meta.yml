@@ -14,7 +14,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国_6_32
+  name: 0,3,4,8,21,25,28|🇺🇸_US_美国_6_32
   network: ws
   port: 8080
   server: www.velvetmountain.shop
@@ -40,7 +40,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,25,29|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
+  name: 0,3,4,8,25,28|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
   network: ws
   port: 8080
   server: 104.21.31.244
@@ -120,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,29|🇺🇸_US_美国_5_3由快嘴科技提供：kkzui.com
+  name: 9,28|🇺🇸_US_美国_5_3由快嘴科技提供：kkzui.com
   network: ws
   port: 80
   server: 209.141.37.89
@@ -133,7 +133,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,29|🇺🇸_US_美国_4_23
+  name: 9,28|🇺🇸_US_美国_4_23
   network: ws
   port: 80
   server: 104.18.15.147
@@ -166,7 +166,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc3456dd-1dcd-4293-98f6-9624158259cc
+  uuid: c598ce03-8bc1-493c-ace9-f45425b260a4
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -176,7 +176,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc3456dd-1dcd-4293-98f6-9624158259cc
+  uuid: c598ce03-8bc1-493c-ace9-f45425b260a4
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -186,102 +186,21 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc3456dd-1dcd-4293-98f6-9624158259cc
+  uuid: c598ce03-8bc1-493c-ace9-f45425b260a4
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: 19,29|🇯🇵_JP_日本->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 80
-  server: 131.186.63.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19,29|🇺🇸_US_美国_7_4由快嘴科技提供：kkzui.com
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062
-  ws-opts:
-    headers:
-      Host: us1cPZiz8nb.fzbqfrse.xyz
-    path: /video/6VBhAkCtV4/
-- alterId: 0
-  cipher: auto
-  name: '19|美国 Fastly全球Anycast节点 #1'
-  network: ws
-  port: '80'
-  server: 151.101.65.57
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  ws-opts:
-    headers:
-      Host: nmsl.kp
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #3'
-  network: ws
-  port: '8880'
-  server: 104.21.1.28
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: us-ccs.yuji2022.eu.org
-    path: /XSjeg73o6ZdsheahCb5JG
-- alterId: 0
-  cipher: auto
-  name: 19,20,21|VPN招代理电报联系@xiaoying229
+  name: 19|美国 CloudFlare节点
   network: ws
   port: '8080'
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '19,20|github.com/freefq - 美国CloudFla... #1'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
+  server: 172.67.171.177
   servername: ''
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
-    path: /
+      Host: eu3.openxai.link
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '19,20|github.com/freefq - 美国CloudFla... #2'
@@ -312,6 +231,130 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '19,21|美国【TG：@ccbaohe】定时更新节点订阅 5 #1'
+  network: ws
+  port: 8080
+  server: www.ywnouvbale.biz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #5'
+  network: ws
+  port: 80
+  server: 104.24.208.37
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,21,23,24,28|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
+  network: ws
+  port: 8080
+  server: 162.159.136.253
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  ws-opts:
+    headers:
+      Host: xentain.kmoljklj.top
+    path: /7bFcoRZS?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 19|美国 马里兰州罗耀拉大学
+  network: ws
+  port: 80
+  server: 144.126.145.219
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /v118-fccxmxm35
+- alterId: 0
+  cipher: auto
+  name: 19|美国 v2rayfree.eu.org
+  network: ws
+  port: '80'
+  server: 150.230.205.56
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,21|·美国·{电报：@ccbaohe}定时更新节点订阅·84
+  network: ws
+  port: 80
+  server: 104.21.226.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 19,20,21|VPN招代理电报联系@xiaoying229
+  network: ws
+  port: '8080'
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19,20|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
   name: 21|US_youtube@资源分享师_110
   network: ws
   port: 80
@@ -338,7 +381,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_8_由快嘴科技提供：k...
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_8_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.21.238.91
@@ -497,7 +540,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_5_7
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_5_7
   network: ws
   port: 80
   server: 104.21.229.26
@@ -550,7 +593,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: '21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #9'
+  name: '21,28|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #9'
   network: ws
   port: 80
   server: 104.21.225.26
@@ -817,7 +860,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_30_46
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_30_46
   network: ws
   port: 80
   server: 104.21.227.18
@@ -991,7 +1034,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_20_33
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_20_33
   network: ws
   port: 80
   server: 104.21.228.20
@@ -1033,7 +1076,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21,26|baipaovpn伊朗
+  name: '21,26|baipaovpn伊朗 #1'
   network: ws
   port: '57223'
   server: 5.78.77.159
@@ -1274,7 +1317,7 @@ proxies:
     path: /urnxewzvh.site:443/kwhmvws
 - alterId: 0
   cipher: auto
-  name: '21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8'
+  name: '21,28|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8'
   network: ws
   port: 80
   server: 104.21.234.71
@@ -1301,7 +1344,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #4'
+  name: '21,28|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #4'
   network: ws
   port: 80
   server: 104.21.237.89
@@ -1392,20 +1435,6 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|美国【TG：@ccbaohe】定时更新节点订阅 5 #1'
-  network: ws
-  port: 8080
-  server: www.ywnouvbale.biz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·74
@@ -1582,20 +1611,6 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21|·美国·{电报：@ccbaohe}定时更新节点订阅·84
-  network: ws
-  port: 80
-  server: 104.21.226.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 21|US_youtube@资源分享师_55
   network: ws
   port: 80
@@ -1609,7 +1624,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_23_36
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_23_36
   network: ws
   port: 80
   server: 104.21.229.48
@@ -1634,23 +1649,6 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 21,23,24,29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
-  network: ws
-  port: 8080
-  server: 162.159.136.253
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ade73e62-7554-40a8-9314-195a372bae28
-  ws-opts:
-    headers:
-      Host: xentain.kmoljklj.top
-    path: /7bFcoRZS?ed=2048
 - alterId: 0
   cipher: auto
   name: 21|·美国·{电报：@ccbaohe}定时更新节点订阅·93
@@ -1928,7 +1926,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_27_42
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_27_42
   network: ws
   port: 80
   server: 104.21.230.32
@@ -1983,7 +1981,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_25_38
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_25_38
   network: ws
   port: 80
   server: 104.21.239.97
@@ -2171,7 +2169,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_3
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_2_3
   network: ws
   port: 80
   server: 104.21.232.41
@@ -2199,7 +2197,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_29_45
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_29_45
   network: ws
   port: 80
   server: 104.21.230.50
@@ -2280,7 +2278,7 @@ proxies:
     path: /urnxewzvh.site:443/kwhmvws
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 21,28|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 104.21.238.90
@@ -2320,7 +2318,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: '21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5'
+  name: '21,28|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5'
   network: ws
   port: 80
   server: 104.21.227.37
@@ -2365,7 +2363,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24,26,29|🇺🇸_US_美国->🇩🇪_DE_德国_22_35
+  name: 23,24,28|🇺🇸_US_美国->🇩🇪_DE_德国_22_35
   network: ws
   port: 80
   server: 104.21.225.108
@@ -2381,7 +2379,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn美国 #1'
+  name: 26|baipaovpn美国
   network: ws
   port: '25314'
   server: 129.146.31.240
@@ -2395,7 +2393,7 @@ proxies:
     path: /victorias
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  name: 28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
   network: ws
   port: 8080
   server: 172.67.180.248
@@ -2406,3 +2404,16 @@ proxies:
     headers:
       Host: www.nahck.site
     path: /
+- alterId: 0
+  cipher: auto
+  name: 28|🇺🇸_US_美国_7_4由快嘴科技提供：kkzui.com
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062
+  ws-opts:
+    headers:
+      Host: us1cPZiz8nb.fzbqfrse.xyz
+    path: /video/6VBhAkCtV4/

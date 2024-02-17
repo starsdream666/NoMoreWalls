@@ -1,15 +1,5 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 9,21|Relay_-🇹🇼TW_250
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- alterId: 0
   cipher: aes-128-gcm
   name: 21|台湾-4.61MB/s
   network: tcp
@@ -35,3 +25,13 @@ proxies:
     headers:
       Host: www.dtku40.xyz
     path: /9tEYTPFN/
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省新竹市
+  network: tcp
+  port: '12002'
+  server: 114.37.158.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
