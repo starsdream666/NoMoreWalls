@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 733a89a4-502f-41b3-a187-7d09c8823abf
+  uuid: b231989a-28b6-4e1b-9b3c-3ec9fd08e124
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 733a89a4-502f-41b3-a187-7d09c8823abf
+  uuid: b231989a-28b6-4e1b-9b3c-3ec9fd08e124
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 733a89a4-502f-41b3-a187-7d09c8823abf
+  uuid: b231989a-28b6-4e1b-9b3c-3ec9fd08e124
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 04 | 1x SG
@@ -38,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
+  uuid: 9b7e3d63-015d-43bf-88e3-0f4f9eaeef62
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -48,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
+  uuid: 9b7e3d63-015d-43bf-88e3-0f4f9eaeef62
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -58,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
+  uuid: 9b7e3d63-015d-43bf-88e3-0f4f9eaeef62
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡2|@ripaojiedian
@@ -77,10 +77,10 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡3|@ripaojiedian
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  server: 103.172.116.79
+  name: 23|🇸🇬 新加坡1|@ripaojiedian
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 103.172.116.103
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -88,15 +88,7 @@ proxies:
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.254.44.150
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.197.162.65
+  server: 43.203.203.99
   tfo: false
   type: ss
 - alterId: 0
@@ -111,5 +103,5 @@ proxies:
   uuid: ab8c009c-3ff5-40f0-83c4-43fae2d66639
   ws-opts:
     headers:
-      Host: group.vpnking.online
+      Host: ''
     path: /SACHI
