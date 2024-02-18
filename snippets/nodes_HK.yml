@@ -79,7 +79,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|香港3|@ripaojiedian
+  name: 24,26|baipaovpn罗马尼亚
   network: tcp
   port: '3389'
   server: 185.244.208.61
