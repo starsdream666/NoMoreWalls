@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn法国
+  name: 9,26|baipaovpn法国
   network: ws
   port: '45094'
   server: 91.121.37.90
