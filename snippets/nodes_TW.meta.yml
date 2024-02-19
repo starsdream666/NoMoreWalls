@@ -48,16 +48,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省
-  network: tcp
-  port: '3278'
-  server: 118.167.69.188
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b534a780-d521-402d-9a68-aea33e47a5de
-- alterId: 0
-  cipher: auto
   name: 26|baipaovpn台湾省南投县
   network: tcp
   port: '14431'
@@ -65,4 +55,14 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: b534a780-d521-402d-9a68-aea33e47a5de
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省
+  network: tcp
+  port: '3278'
+  server: 118.167.69.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
