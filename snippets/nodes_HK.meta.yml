@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT|@ripaojiedian
+  name: 24|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -17,7 +17,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT2|@ripaojiedian
+  name: 24|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -33,7 +33,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港|@ripaojiedian
+  name: 24|🇭🇰 香港|@ripaojiedian
   password: 2770a662-61db-40ed-a17c-783e521084ce
   port: 21001
   server: service.ouluyun9803.com
@@ -42,7 +42,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|香港2|@ripaojiedian
+  name: 24,25|香港2|@ripaojiedian
   network: ws
   port: '19979'
   server: 101.89.154.94
@@ -59,7 +59,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港A|@ripaojiedian
+  name: 24|🇭🇰 香港A|@ripaojiedian
   password: 3720bdbc-c808-384d-988a-3cfabf17c4b4
   port: 53537
   server: gd1-hk.fwcloud.cc
@@ -71,7 +71,7 @@ proxies:
   uuid: de9558f3-d11b-410e-ab27-26956dde256d
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港4|@ripaojiedian
+  name: 24|🇭🇰 香港4|@ripaojiedian
   password: f3b7ba7a-e0ae-4b81-8e26-29369bb4958d
   port: 29126
   server: c.skrspc.org
@@ -80,7 +80,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|香港B|@ripaojiedian
+  name: 24,25|香港B|@ripaojiedian
   network: ws
   port: '80'
   server: hk01.hajimihajimihajimi.online
@@ -96,7 +96,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|香港3|@ripaojiedian
+  name: 25,27|baipaovpn罗马尼亚
   network: tcp
   port: '3389'
   server: 185.244.208.61

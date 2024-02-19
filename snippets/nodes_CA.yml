@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦加拿大04
+  name: 19|🇨🇦加拿大04
   network: tcp
   port: '36701'
   server: 5c1a04.abzoones.xyz
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc8c9f9e-1e10-42d6-aebf-952e2c19f857
+  uuid: 4e57da77-4406-4a0b-ba7d-a2dbd6d14dcd
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 27
+  name: 22|⚡️@DeamNet 🇨🇦Canada 27
   network: ws
   port: 2086
   server: 172.67.229.19
@@ -25,7 +25,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet_🔻 🇨🇦Canada 9
+  name: 22|⚡️@DeamNet_🔻 🇨🇦Canada 9
   network: ws
   port: 2086
   server: 172.67.229.33
@@ -39,7 +39,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 13
+  name: 22|⚡️@DeamNet 🇨🇦Canada 13
   network: ws
   port: 2086
   server: 172.67.229.37
@@ -53,7 +53,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet_🔻 🇨🇦Canada 10
+  name: 22|⚡️@DeamNet_🔻 🇨🇦Canada 10
   network: ws
   port: 2086
   server: 172.67.229.25
@@ -67,7 +67,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 18
+  name: 22|⚡️@DeamNet 🇨🇦Canada 18
   network: ws
   port: 2086
   server: 172.67.229.39
@@ -81,7 +81,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 7
+  name: 22|⚡️@DeamNet 🇨🇦Canada 7
   network: ws
   port: 2086
   server: 172.67.229.13
@@ -95,7 +95,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 15
+  name: 22|⚡️@DeamNet 🇨🇦Canada 15
   network: ws
   port: 80
   server: 104.31.16.27
@@ -109,7 +109,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 47
+  name: 22|⚡️@DeamNet 🇨🇦Canada 47
   network: ws
   port: 80
   server: 104.18.202.232
@@ -123,7 +123,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet_🔻 🇨🇦Canada 4
+  name: 22|⚡️@DeamNet_🔻 🇨🇦Canada 4
   network: ws
   port: 2086
   server: 172.67.229.36
@@ -137,7 +137,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 22
+  name: 22|⚡️@DeamNet 🇨🇦Canada 22
   network: ws
   port: 2086
   server: 172.67.229.38
@@ -151,7 +151,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet_🔻 🇨🇦Canada 3
+  name: 22|⚡️@DeamNet_🔻 🇨🇦Canada 3
   network: ws
   port: 2086
   server: 172.67.229.34
@@ -165,7 +165,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet_🔻 🇨🇦Canada 13
+  name: 22|⚡️@DeamNet_🔻 🇨🇦Canada 13
   network: tcp
   port: 22324
   server: 198.57.27.212
@@ -175,7 +175,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 25
+  name: 22|⚡️@DeamNet 🇨🇦Canada 25
   network: ws
   port: 443
   server: 104.21.44.64
@@ -189,7 +189,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet_🔻 🇨🇦Canada 5
+  name: 22|⚡️@DeamNet_🔻 🇨🇦Canada 5
   network: ws
   port: 2086
   server: 14.vmessprotocol.telegram-vmessprotocol-channel.space
@@ -203,7 +203,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇨🇦Canada 40
+  name: 22|⚡️@DeamNet 🇨🇦Canada 40
   network: ws
   port: 443
   server: obdii.cfd
@@ -217,11 +217,11 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 22|【BGP】加拿大 02 | 1x CA
+  name: 23|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
   server: 3d1c4a04.m1k2s.xyz
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a26b72ab-2a9c-4ec4-b376-0d813be0178c
+  uuid: a22b37b0-e0d1-4305-a938-e5f5f6b74930

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9,24|台湾|@ripaojiedian
+  name: 9,25|台湾|@ripaojiedian
   network: tcp
   port: '5681'
   server: 118.167.66.25
@@ -20,7 +20,7 @@ proxies:
   uuid: de9558f3-d11b-410e-ab27-26956dde256d
 - alterId: 0
   cipher: auto
-  name: 21|⚡️@DeamNet 🇹🇼Taiwan
+  name: 22|⚡️@DeamNet 🇹🇼Taiwan
   network: tcp
   port: 12002
   server: nb22.ntbq.dynu.net
@@ -30,7 +30,7 @@ proxies:
   uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6
 - alterId: 0
   cipher: auto
-  name: 21|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
+  name: 22|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: 3278
   server: nb24.ntbq.dynu.net
@@ -40,7 +40,7 @@ proxies:
   uuid: 814879ae-a670-4423-be9d-f4cbf4923ada
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇹🇼 台湾2|@ripaojiedian
+  name: 24|🇹🇼 台湾2|@ripaojiedian
   password: 2770a662-61db-40ed-a17c-783e521084ce
   port: 20005
   server: service.ouluyun9803.com
@@ -48,7 +48,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省南投县
+  name: 27|baipaovpn台湾省南投县
   network: tcp
   port: '14431'
   server: 36.232.170.53
@@ -58,7 +58,7 @@ proxies:
   uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn台湾省
+  name: 27|baipaovpn台湾省
   network: tcp
   port: '3278'
   server: 118.167.69.188

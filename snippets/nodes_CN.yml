@@ -1,7 +1,33 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 18|中国Naqu|Github搜索TrojanLinks
+  network: ws
+  port: '36000'
+  server: 137.175.5.214
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.66273264.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 18|中国文城|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 108.186.164.76
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.98382183.xyz
+    path: /path/271624282113
 - alterId: 0
   cipher: auto
-  name: 19,20|github.com/freefq - 广东省移动 7
+  name: 20,21|github.com/freefq - 广东省移动 7
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn

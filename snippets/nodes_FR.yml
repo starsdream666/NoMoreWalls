@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|FR_speednode_0064
+  name: 22|FR_speednode_0064
   network: ws
   port: 8880
   server: 57.128.173.202
