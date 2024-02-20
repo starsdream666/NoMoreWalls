@@ -1,20 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 18|中国洛阳市|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 137.175.3.52
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.99555130.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 18|中国石家庄市|Github搜索TrojanLinks
+  name: 12|中国石家庄市|Github搜索TrojanLinks
   network: ws
   port: '37000'
   server: 142.0.134.133
@@ -25,35 +12,9 @@ proxies:
     headers:
       Host: www.32307443.xyz
     path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 18|中国南京|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 142.4.96.50
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.72594139.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 18|中国东程|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 137.175.29.50
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.87569156.xyz
-    path: /path/271624282113
 - alterId: 0
   cipher: auto
-  name: 20,21|github.com/freefq - 广东省移动 7
+  name: 14,15|github.com/freefq - 广东省移动 7
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -65,3 +26,31 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 16|中国 001
+  network: ws
+  port: 36000
+  server: 142.4.97.68
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.31033708.xyz
+    path: /path/1707385668735
+- alterId: 64
+  cipher: auto
+  name: 16|中国 011
+  network: ws
+  port: 37000
+  server: 142.4.103.181
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.84675006.xyz
+    path: /path/271624282113
