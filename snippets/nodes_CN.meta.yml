@@ -1,33 +1,33 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 18|中国洛阳市|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 137.175.3.52
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 18|中国石家庄市|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 142.0.134.133
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32307443.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
   name: 18|中国南京|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 142.4.103.181
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.84675006.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 18|中国Fangchenggang|Github搜索Trojan...
-  network: ws
-  port: '37000'
-  server: 137.175.11.58
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.20234339.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '18|中国南京|Github搜索TrojanLinks #1'
   network: ws
   port: '37000'
   server: 142.4.96.50
@@ -65,17 +65,3 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 22|中国 001
-  network: ws
-  port: 36000
-  server: 142.4.97.68
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.31033708.xyz
-    path: /path/1707385668735
