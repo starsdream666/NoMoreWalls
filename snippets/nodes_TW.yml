@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,4|🇹🇼_TW_台湾
+  name: '1,4,8|🇹🇼_TW_台湾 #1'
   network: tcp
   port: 3278
   server: 118.167.69.188
@@ -21,14 +21,14 @@ proxies:
   uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
 - alterId: 0
   cipher: auto
-  name: 22|21|TW-板桥2-3(TCP) - 麻雀加速器 Sparr...
+  name: 22|⚡️@DeamNet 🇹🇼Taiwan
   network: tcp
-  port: 5681
-  server: b23.ntbq.dynu.net
+  port: 12002
+  server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 814879ae-a670-4423-be9d-f4cbf4923ada
+  uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 24|🇹🇼 台湾R|@ripaojiedian
@@ -40,33 +40,3 @@ proxies:
   protocol-param: 83013:lrh5bO
   server: mysql.accessconnect.cc
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 27|baipaovpn台湾省
-  network: tcp
-  port: '12002'
-  server: 118.167.71.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e
-- alterId: 0
-  cipher: auto
-  name: 27|baipaovpn台湾省新竹市
-  network: tcp
-  port: '5681'
-  server: 114.37.144.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
-- alterId: 0
-  cipher: auto
-  name: '27|baipaovpn台湾省 #1'
-  network: tcp
-  port: '3278'
-  server: 118.167.70.124
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4

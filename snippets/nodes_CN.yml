@@ -1,16 +1,55 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 18|中国五指山市|Github搜索TrojanLinks
+  name: 18|中国南京|Github搜索TrojanLinks
   network: ws
   port: '37000'
-  server: 108.186.196.170
+  server: 142.4.103.181
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.86222404.xyz
+      Host: www.84675006.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 18|中国Fangchenggang|Github搜索Trojan...
+  network: ws
+  port: '37000'
+  server: 137.175.11.58
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20234339.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: '18|中国南京|Github搜索TrojanLinks #1'
+  network: ws
+  port: '37000'
+  server: 142.4.96.50
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72594139.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 18|中国东程|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 137.175.29.50
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87569156.xyz
     path: /path/271624282113
 - alterId: 0
   cipher: auto
