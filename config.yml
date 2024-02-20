@@ -124,6 +124,8 @@ rules:
   - DOMAIN-SUFFIX,buliang0.cf,🚀 选择代理
   - DOMAIN-SUFFIX,hydro.ac,DIRECT
   - DOMAIN-SUFFIX,tuna.moe,DIRECT
+  - DOMAIN-KEYWORD,qbittorrent,🐟 漏网之鱼
+  - DOMAIN-SUFFIX,greatfire.org,🚀 选择代理
 
 
   # 国内网站（优先，避免 google.cn 走代理）
