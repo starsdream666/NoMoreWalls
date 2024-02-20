@@ -95,18 +95,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 24|🇭🇰 香港B
-  port: 45055
-  server: 183.233.187.193
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 25|香港A
+  name: 25,27|baipaovpn广东省
   network: tcp
   port: '34602'
   server: 183.237.20.153
@@ -116,7 +105,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 25|香港B
+  name: 25,27|baipaovpn广东省广州市
   network: tcp
   port: '45055'
   server: 183.233.187.193
