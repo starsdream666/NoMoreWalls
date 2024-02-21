@@ -1,20 +1,33 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国东程|Github搜索TrojanLinks
+  name: 12|中国五指山市|Github搜索TrojanLinks
   network: ws
   port: '37000'
-  server: 137.175.29.50
+  server: 108.186.196.170
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.87569156.xyz
+      Host: www.86222404.xyz
     path: /path/271624282113
 - alterId: 64
   cipher: auto
-  name: 12|中国南京|Github搜索TrojanLinks
+  name: 12|中国洛阳市|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 137.175.3.52
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 12,14|美国 加利福尼亚州圣何塞PEG TECH
   network: ws
   port: '36000'
   server: 142.4.97.71
@@ -27,17 +40,48 @@ proxies:
     path: /path/271624282113
 - alterId: 64
   cipher: auto
-  name: 12|中国十堰|Github搜索TrojanLinks
+  name: 12|中国东程|Github搜索TrojanLinks
   network: ws
-  port: '38000'
-  server: 137.175.29.76
+  port: '37000'
+  server: 137.175.29.50
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.46074906.xyz
+      Host: www.87569156.xyz
     path: /path/271624282113
+- alterId: 0
+  cipher: auto
+  name: 14|广东省 移动
+  network: ws
+  port: '16648'
+  server: m.cnmjcn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e418915e-6459-414d-bc76-bbcbda621f0f
+  ws-opts:
+    headers:
+      Host: 1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,18,19|香港2|@ripaojiedian
+  network: ws
+  port: '19979'
+  server: 101.89.154.94
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
