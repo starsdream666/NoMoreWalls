@@ -1,42 +1,29 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国Naqu|Github搜索TrojanLinks
+  name: 12|中国泉州市|Github搜索TrojanLinks
   network: ws
   port: '36000'
-  server: 137.175.5.214
+  server: 142.4.108.199
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.66273264.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 12|中国咸阳市|Github搜索TrojanLinks
-  network: ws
-  port: '38000'
-  server: 108.186.145.194
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.35688874.xyz
+      Host: www.17383957.xyz
     path: /path/271624282113
 - alterId: 64
   cipher: auto
   name: 12|中国南京|Github搜索TrojanLinks
   network: ws
-  port: '36000'
-  server: 142.4.97.73
+  port: '37000'
+  server: 142.4.103.182
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.31033708.xyz
+      Host: www.84675006.xyz
     path: /path/271624282113
 - alterId: 64
   cipher: auto
@@ -55,14 +42,14 @@ proxies:
   cipher: auto
   name: 14|广东省 移动
   network: ws
-  port: 16622
+  port: '16620'
   server: m.cnmjcn.com
   tls: false
   type: vmess
-  uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3
+  uuid: c99074bd-bacd-48b5-9561-da069c481602
   ws-opts:
     headers:
-      Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
+      Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
