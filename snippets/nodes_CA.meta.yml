@@ -21,7 +21,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ae4d2619-b4e8-48d8-978f-64616ecdacce
+  uuid: c8286c27-bd62-4ead-ab31-48f06eaad4de
 - alterId: 0
   cipher: auto
   name: 16|加拿大 063
@@ -52,7 +52,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 16,23|🇺🇸_US_美国->🇩🇪_DE_德国_9
+  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_9
   network: ws
   port: 80
   server: 104.21.225.225
@@ -311,4 +311,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 54350a32-9595-4156-8d87-65042a2b4610
+  uuid: f80790ae-ca2f-4291-9fb5-16b6ec9a1ab7
