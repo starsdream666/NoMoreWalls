@@ -46,6 +46,19 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 18|🇺🇸 美国5|@ripaojiedian
+  password: ff19d0b5-cc5e-455d-b6cd-dba8c0c792a5
+  port: 40059
+  server: 129.80.151.246
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1b359f51-72df-4435-81df-b92cf75262d9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 18,19|香港4|@ripaojiedian
   network: ws
   port: '443'
