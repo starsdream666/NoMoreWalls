@@ -21,21 +21,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49d4fecd-2101-4eeb-86df-58b29a3ba887
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 204
-  network: ws
-  port: 80
-  server: 104.21.225.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
+  uuid: 8c0c733a-52c6-446d-b8bf-a7aaf5e98b20
 - alterId: 0
   cipher: auto
   name: 16|加拿大 194
@@ -66,20 +52,6 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 117
-  network: ws
-  port: 80
-  server: 104.21.225.5
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|加拿大【TG：@ccbaohe】定时更新节点订阅 2 2
   network: ws
   port: 8080
@@ -108,6 +80,20 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
+  name: 16|加拿大 209
+  network: ws
+  port: 80
+  server: 104.21.225.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16|加拿大 200
   network: ws
   port: 80
@@ -120,20 +106,6 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 251
-  network: ws
-  port: 80
-  server: 104.21.225.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: 16|加拿大 215
@@ -220,20 +192,6 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 214
-  network: ws
-  port: 80
-  server: 104.21.225.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
   name: 16,23|🇺🇸_US_美国->🇩🇪_DE_德国_7
   network: ws
   port: 80
@@ -290,6 +248,20 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
+  name: 16|加拿大 190
+  network: ws
+  port: 80
+  server: 104.21.225.210
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -297,4 +269,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9dccc0d-0f0f-4b57-b150-61d029429470
+  uuid: 5d6b5ee9-debe-4254-a6eb-f22a441a0bb6
