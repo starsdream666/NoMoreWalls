@@ -46,33 +46,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn台湾省台北市
-  network: tcp
-  port: '3278'
-  server: 61.228.166.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn台湾省
-  network: tcp
-  port: '5681'
-  server: 118.167.68.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn台湾省南投县
-  network: tcp
-  port: '14431'
-  server: 36.232.170.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
