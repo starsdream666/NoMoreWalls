@@ -1,23 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14,16|TW-板桥2-4(TCP)
+  name: 14|台湾省台北市 中华电信
   network: tcp
-  port: '3278'
+  port: 3278
   server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: de92df70-f63f-47ca-a551-b2a95f636a25
-- alterId: 0
-  cipher: auto
-  name: 16|TW-板桥2-3(TCP)
-  network: tcp
-  port: '5681'
-  server: b23.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: de92df70-f63f-47ca-a551-b2a95f636a25
+  uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇹🇼 台湾|@ripaojiedian
@@ -34,3 +25,33 @@ proxies:
   server: 36.138.102.76
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn台湾省台北市
+  network: tcp
+  port: '3278'
+  server: 61.228.166.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn台湾省
+  network: tcp
+  port: '5681'
+  server: 118.167.68.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn台湾省南投县
+  network: tcp
+  port: '14431'
+  server: 36.232.170.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
