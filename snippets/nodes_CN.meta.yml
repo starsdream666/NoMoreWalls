@@ -1,11 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|广东省 移动
+  client-fingerprint: chrome
+  name: 14,18,19|香港2|@ripaojiedian
   network: ws
   port: '16620'
   server: m.cnmjcn.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: c99074bd-bacd-48b5-9561-da069c481602
@@ -13,3 +16,13 @@ proxies:
     headers:
       Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省广州市
+  network: tcp
+  port: '50004'
+  server: 14.18.91.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
