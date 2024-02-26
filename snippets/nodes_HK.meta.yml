@@ -34,16 +34,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇯🇵 日本3|@ripaojiedian
-  password: 1fb1e787-5b16-405d-8e38-fb179dfc61f9
-  port: 10817
-  server: xijinping.19890604.day
+  name: 18,19|香港2|@ripaojiedian
+  network: ws
+  port: '16620'
+  server: m.cnmjcn.com
+  servername: ''
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: trojan
-  uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
+  type: vmess
+  uuid: c99074bd-bacd-48b5-9561-da069c481602
+  ws-opts:
+    headers:
+      Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
@@ -64,3 +68,17 @@ proxies:
   server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: ws
+  port: '36801'
+  server: 20.6.147.95
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8
