@@ -31,6 +31,14 @@ proxies:
   server: 42.2.118.117
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 18|🇯🇵 日本3|@ripaojiedian
+  password: 1fb1e787-5b16-405d-8e38-fb179dfc61f9
+  port: 10817
+  server: xijinping.19890604.day
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港1|@ripaojiedian
