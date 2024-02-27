@@ -1,20 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,21|baipaovpn台湾省南投县
+  name: 14|台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: '12002'
+  server: nb22.ntbq.dynu.net
+  tls: false
+  type: vmess
+  uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6
+- alterId: 0
+  cipher: auto
+  name: 19|台湾|@ripaojiedian
   network: tcp
   port: '14431'
   server: 36.232.170.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn台湾省台北市
-  network: tcp
-  port: '3278'
-  server: 61.228.166.29
   servername: ''
   tls: false
   type: vmess

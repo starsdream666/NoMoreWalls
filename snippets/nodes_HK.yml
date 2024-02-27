@@ -31,6 +31,19 @@ proxies:
   server: 42.2.118.117
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡3|@ripaojiedian
+  password: 13tfB0OPVA
+  port: 41603
+  server: sg-singapore-oracle-4f34e8.ip1.shop
+  skip-cert-verify: false
+  sni: sg-singapore-oracle-4f34e8.ip1.shop
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
@@ -43,17 +56,3 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn香港
-  network: ws
-  port: '36801'
-  server: 20.239.21.153
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
-  ws-opts:
-    headers:
-      Host: annie50.ceoiii.com
-    path: /hls/cctv5phd.m3u8
