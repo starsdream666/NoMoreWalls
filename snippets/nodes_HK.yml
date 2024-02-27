@@ -12,7 +12,7 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 8.217.145.134
+  server: 8.218.82.85
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -29,22 +29,6 @@ proxies:
     tls: false
   port: 443
   server: 42.2.118.117
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 18|🇯🇵 日本3|@ripaojiedian
-  password: 1fb1e787-5b16-405d-8e38-fb179dfc61f9
-  port: 10817
-  server: xijinping.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港1|@ripaojiedian
-  password: 293ec37c942a47938231d849a5dca9bd
-  port: 40086
-  server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
 - cipher: aes-128-gcm
