@@ -66,3 +66,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 908188f4-c035-47e9-b351-7d0bfdafec1b
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: tcp
+  port: '25185'
+  server: 185.242.232.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 784e7466-c926-4c50-dbf4-f07fe8eaf77d
