@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14,16|【电报：@ccbaohe|免费机场节点 11
-  network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e
-- alterId: 0
-  cipher: auto
-  name: 19,21|baipaovpn台湾省新竹市
+  name: 19|台湾|@ripaojiedian
   network: tcp
   port: '5681'
   server: 36.226.155.245
