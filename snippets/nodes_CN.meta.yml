@@ -1,43 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12|中国十堰|Github搜索TrojanLinks
-  network: ws
-  port: '38000'
-  server: 137.175.29.76
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.46074906.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 12|中国南京|Github搜索TrojanLinks
-  network: ws
-  port: '36000'
-  server: 142.4.97.76
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.31033708.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: 12|中国Naqu|Github搜索TrojanLinks
-  network: ws
-  port: '36000'
-  server: 137.175.5.214
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.66273264.xyz
-    path: /path/271624282113
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -52,13 +13,3 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn中国
-  network: tcp
-  port: '44339'
-  server: 8.222.225.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d998034a-a407-498f-8e2f-591510f77dad
