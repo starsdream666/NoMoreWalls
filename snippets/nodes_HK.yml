@@ -31,19 +31,6 @@ proxies:
   server: 42.2.118.117
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇩🇪 德国|@ripaojiedian
-  password: 13tfB0OPVA
-  port: 43526
-  server: 112.28.208.19
-  skip-cert-verify: false
-  sni: sg-singapore-oracle-4f34e8.ip1.shop
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
@@ -56,3 +43,13 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 19|香港|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.238.122.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
