@@ -33,22 +33,6 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港A|@ripaojiedian
-  password: 35a0f157-2869-491a-84ca-6c07c25efdc3
-  port: 11004
-  server: trojan.hkg.gz.cn
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港B|@ripaojiedian
-  password: 2c48d9754aca4237b62147bbb10b6e74
-  port: 42102
-  server: 7690-hk45.hmbcloud-client.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: obfs
@@ -57,6 +41,14 @@ proxies:
     mode: http
   port: 80
   server: 47.76.185.99
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港5|@ripaojiedian
+  password: ec94e82c-5d2b-45c4-a139-c5f591ec7754
+  port: 51008
+  server: behbwombrmfotezo.oneoneoneoneoneoneoneoneoneone.one
   tfo: false
   type: ss
 - alterId: 64

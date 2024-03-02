@@ -15,11 +15,161 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省
+  name: 21|baipaovpn广东省江门市
   network: tcp
-  port: '16110'
-  server: 120.233.43.4
+  port: '9003'
+  server: 120.238.122.180
   servername: ''
   tls: false
   type: vmess
-  uuid: 1534454e-13c1-332c-a1f6-dffb2e51f778
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #1'
+  network: tcp
+  port: '9004'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #2'
+  network: tcp
+  port: '9005'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #3'
+  network: tcp
+  port: '9006'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #4'
+  network: tcp
+  port: '9009'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #5'
+  network: tcp
+  port: '9038'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #6'
+  network: tcp
+  port: '9039'
+  server: 120.238.122.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #7'
+  network: tcp
+  port: '9040'
+  server: 120.238.122.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #8'
+  network: tcp
+  port: '9041'
+  server: 120.238.122.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #9'
+  network: tcp
+  port: '9042'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #10'
+  network: tcp
+  port: '9043'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #11'
+  network: tcp
+  port: '9044'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #12'
+  network: tcp
+  port: '9045'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #13'
+  network: tcp
+  port: '11934'
+  server: 120.238.122.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #14'
+  network: tcp
+  port: '11934'
+  server: 120.238.122.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省江门市 #15'
+  network: tcp
+  port: '11934'
+  server: 120.238.122.180
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9855eb1-6073-315d-80e9-2f5ae56d1c6f
