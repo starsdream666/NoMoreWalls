@@ -85,7 +85,7 @@ proxies:
     path: d7ea6546-296f-4524-952f-16b4ced4857e-vm
 - alterId: 64
   cipher: auto
-  name: 19|香港1|@ripaojiedian
+  name: 19,21|baipaovpn广东省广州市
   network: tcp
   port: '54137'
   server: 183.233.187.216
