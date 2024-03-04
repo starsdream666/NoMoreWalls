@@ -66,7 +66,7 @@ proxies:
   uuid: 6129eda5-99da-4c07-ddb0-0c830ee89bb3
 - alterId: 0
   cipher: auto
-  name: 19|香港5|@ripaojiedian
+  name: 19,21|baipaovpn南非
   network: tcp
   port: '31464'
   server: 156.251.217.24
