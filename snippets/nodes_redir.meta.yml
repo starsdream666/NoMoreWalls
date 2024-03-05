@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇪🇸_ES_西班牙->🇭🇰_HK_香港_由快嘴科技提供：kk...
+  name: 0,3,4,8,20,24|🇪🇸_ES_西班牙->🇭🇰_HK_香港_由快嘴科技提供：kk...
   network: ws
   port: 34601
   server: 185.214.103.156
@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
+  name: 0,3,4,8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -54,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: chacha20-poly1305
-  name: 0,3,4,8,9,20,24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,3,4,8,20,24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: you2.fastiran.info
@@ -94,7 +94,7 @@ proxies:
     path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_4
+  name: 0,3,4,8,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_4
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -257,7 +257,59 @@ proxies:
     path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
 - alterId: 0
   cipher: auto
-  name: 9,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_由快嘴科技提供：...
+  name: 9|🇨🇦_CA_加拿大->🇺🇸_US_美国
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
+- alterId: 0
+  cipher: auto
+  name: '9,16|🇨🇦_CA_加拿大->🇺🇸_US_美国 #2'
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
+- alterId: 0
+  cipher: auto
+  name: '9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+- alterId: 0
+  cipher: auto
+  name: '9|🇺🇸_US_美国->🇩🇪_DE_德国 #7'
+  network: ws
+  port: 8080
+  server: 172.67.169.158
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_由快嘴科技提供：...
   network: ws
   port: 8080
   server: 23.227.38.22
