@@ -27,7 +27,7 @@ proxies:
     path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
 - alterId: 0
   cipher: auto
-  name: 0,4,8,9,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  name: 0,4,8,9,14,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_20
   network: ws
   port: 8080
   server: fbi.gov
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,4,8,9,14,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_23
+  name: 0,4,8,9,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_23
   network: ws
   port: 8080
   server: 172.67.169.158
@@ -228,10 +228,11 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: 3,9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供：...
+  name: 3,9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供：...
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
