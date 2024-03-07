@@ -9,11 +9,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|台湾2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 18,19|台湾2|@ripaojiedian
   network: ws
   port: '40568'
   server: 185.203.39.8
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: fc6e5f14-6334-435d-9164-fd72db30fcee
