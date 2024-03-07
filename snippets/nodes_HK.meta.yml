@@ -82,13 +82,17 @@ proxies:
   server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 19|香港|@ripaojiedian
-  network: tcp
-  port: '44602'
-  server: 183.237.20.150
+  name: 19|香港2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: onea.flha.ru
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
