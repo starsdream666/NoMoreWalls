@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
-  network: ws
-  port: 8080
-  server: 23.227.38.11
-  tls: false
-  type: vmess
-  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
-  ws-opts:
-    headers:
-      Host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 8080
-  server: de-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: de-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
   name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_4
   network: ws
   port: 8880
@@ -40,17 +14,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  name: 0,3,4,8,9,14,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
   network: ws
-  port: 8080
-  server: fbi.gov
+  port: 2082
+  server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
-  uuid: 0a5903c5-0ff3-4d79-9420-2a966873f787
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: 0a5903c5-0ff3-4d79-9420-2a966873f787-vm
+      Host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_CA_->_US__1
@@ -120,7 +95,46 @@ proxies:
     path: 0a5903c5-0ff3-4d79-9420-2a966873f787-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  name: '8,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  network: ws
+  port: 8080
+  server: 23.227.38.11
+  tls: false
+  type: vmess
+  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
+- alterId: 0
+  cipher: auto
+  name: 8,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 8080
+  server: de-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: de-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: 0a5903c5-0ff3-4d79-9420-2a966873f787
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: 0a5903c5-0ff3-4d79-9420-2a966873f787-vm
+- alterId: 0
+  cipher: auto
+  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
   server: fbi.gov
