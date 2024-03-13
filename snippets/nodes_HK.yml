@@ -18,6 +18,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 18|🇺🇸 美国3|@ripaojiedian
+  port: 50003
+  server: 50003.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 18,19|香港2|@ripaojiedian
   network: ws
   port: '16627'
@@ -42,16 +53,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|香港|@ripaojiedian
-  network: tcp
-  port: '50022'
-  server: 50022.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
-- alterId: 0
-  cipher: auto
   name: 19,21|baipaovpn香港
   network: tcp
   port: '25469'
@@ -60,17 +61,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn香港 #1'
-  network: ws
-  port: '36801'
-  server: 20.255.223.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
-  ws-opts:
-    headers:
-      Host: annie50.ceoiii.com
-    path: /hls/cctv5phd.m3u8

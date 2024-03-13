@@ -1,6 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: '0,1,3,4,6,9|🇨🇦_CA_加拿大 #2'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
   name: 13|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -8,7 +27,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6a9d219b-6113-4b4a-b316-00b9bfdf10d6
+  uuid: 1a783e0c-e6fc-433c-9a62-10ef0b1c6627
 - alterId: 0
   cipher: auto
   name: 16|加拿大 039
@@ -258,20 +277,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 031
-  network: ws
-  port: 8080
-  server: ip1.ag.cn.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6c6b7018-654f-42cc-bbbc-2ff6e5be8cd4
-  ws-opts:
-    headers:
-      Host: hkv62.agagag.link
-    path: /masvod/public/2023/08/25/20230825_18a2b496fcf_r1_1200k.mp4
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -279,4 +284,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68246932-ee8b-48aa-a591-0a1f6796f303
+  uuid: 8590b88a-107c-4393-9ef8-9219aa8233f0
