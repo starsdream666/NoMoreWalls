@@ -69,7 +69,33 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 9,16,24|🇺🇸_US_美国_7_23
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.21.20.19
@@ -82,20 +108,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
-  network: ws
-  port: 8080
-  server: fbi.gov
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_24
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_24
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
