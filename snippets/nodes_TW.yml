@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|台湾省 中华电信(HiNet)数据中心
+  name: 18|台湾省 中华电信(HiNet)数据中心
   network: ws
   port: 44332
   server: 118.163.101.44
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn台湾省桃园市
+  name: 25|baipaovpn台湾省桃园市
   network: ws
   port: '20095'
   server: 1.162.151.143

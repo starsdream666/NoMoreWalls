@@ -1,67 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.a3b5wy.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 379e49c5-d6a1-42e1-9fea-afbb291bdc0f
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.a3b5wy.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 379e49c5-d6a1-42e1-9fea-afbb291bdc0f
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.a3b5wy.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 379e49c5-d6a1-42e1-9fea-afbb291bdc0f
-- alterId: 0
-  cipher: auto
-  name: 17|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m3c5wy.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 06f04a36-2219-493f-acd4-e7ff304c93eb
-- alterId: 0
-  cipher: auto
-  name: 17|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m3c5wy.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 06f04a36-2219-493f-acd4-e7ff304c93eb
-- alterId: 0
-  cipher: auto
-  name: 17|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m3c5wy.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 06f04a36-2219-493f-acd4-e7ff304c93eb
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 18|🇸🇬 新加坡|@ripaojiedian
+  name: 22|🇸🇬 新加坡|@ripaojiedian
   password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054
   port: 28894
   server: gran.efnwgood.top
@@ -69,7 +9,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 18|🇸🇬 新加坡3|@ripaojiedian
+  name: 22|🇸🇬 新加坡3|@ripaojiedian
   password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
   port: 20009
   server: ddns.olucloud.subapi.cc
@@ -77,7 +17,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  name: 22|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 2
