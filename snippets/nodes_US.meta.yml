@@ -4,7 +4,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-244
+  name: 1,6|-https://t.me/MrXbin-233
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -252,19 +252,6 @@ proxies:
   network: ws
   port: 2052
   server: 104.21.82.39
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8,9,16,24|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com8
-  network: ws
-  port: 2052
-  server: mahilu.site
   tls: false
   type: vmess
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
@@ -574,7 +561,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fbefe911-24b3-4956-ad61-c010ad6fcedf
+  uuid: 379e49c5-d6a1-42e1-9fea-afbb291bdc0f
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -584,7 +571,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fbefe911-24b3-4956-ad61-c010ad6fcedf
+  uuid: 379e49c5-d6a1-42e1-9fea-afbb291bdc0f
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -594,7 +581,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fbefe911-24b3-4956-ad61-c010ad6fcedf
+  uuid: 379e49c5-d6a1-42e1-9fea-afbb291bdc0f
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -1180,6 +1167,16 @@ proxies:
   uuid: ce7674fe-05f2-4b33-bb4c-4e3b7f0e6ea7
 - alterId: 0
   cipher: auto
+  name: 16|美国 083
+  network: tcp
+  port: 33666
+  server: 149.28.235.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ac51203-d0ba-401b-87e0-7e2e562801c2
+- alterId: 0
+  cipher: auto
   name: 16|🔒 VM-TCP-NA 🇺🇸 US-198.105.126....
   network: tcp
   port: '15246'
@@ -1498,7 +1495,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72398e33-6a0c-4131-9071-fa2372dced86
+  uuid: 06f04a36-2219-493f-acd4-e7ff304c93eb
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1508,7 +1505,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72398e33-6a0c-4131-9071-fa2372dced86
+  uuid: 06f04a36-2219-493f-acd4-e7ff304c93eb
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1518,7 +1515,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72398e33-6a0c-4131-9071-fa2372dced86
+  uuid: 06f04a36-2219-493f-acd4-e7ff304c93eb
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
