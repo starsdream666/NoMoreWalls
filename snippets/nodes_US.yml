@@ -157,7 +157,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,24,28|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  name: 3,8,9,25,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
   port: 8080
   server: fbi.gov
@@ -170,7 +170,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,24,28|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_35
+  name: 3,8,9,25,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_35
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -183,7 +183,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,24,28|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_34
+  name: 3,8,25,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_34
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -196,7 +196,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,24,28|🇺🇸_US_美国_7_26
+  name: 3,8,25,29|🇺🇸_US_美国_7_26
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -209,7 +209,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,24,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_33
+  name: 3,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_33
   network: ws
   port: 2095
   server: russia.com
@@ -222,7 +222,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '3,24|🇺🇸_US_美国 #38'
+  name: '3,25|🇺🇸_US_美国 #38'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -235,7 +235,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 8,9,28|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com6
+  name: 8,9,29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com6
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -248,7 +248,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,28|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com7
+  name: 8,9,29|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com7
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -261,7 +261,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,28|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com8
+  name: 8,9,29|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com8
   network: ws
   port: 2052
   server: mahilu.site
@@ -275,7 +275,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8,20,22,23|美国|@ripaojiedian
+  name: 8,19,21,22|美国|@ripaojiedian
   network: ws
   port: '2086'
   server: cfcdn1.sanfencdn9.com
@@ -317,7 +317,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 8,28|🇺🇸_US_美国_9_30
+  name: 8,29|🇺🇸_US_美国_9_30
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -330,7 +330,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9,18,28|🇺🇸_US_美国_5_22
+  name: 9,18,29|🇺🇸_US_美国_5_22
   network: ws
   port: 80
   server: 172.67.116.48
@@ -343,7 +343,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,18,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_15
+  name: 9,18,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_15
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -357,7 +357,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 9,18,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_36
+  name: 9,18,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_36
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -508,7 +508,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 18,23|美国3|@ripaojiedian
+  name: 18,22|美国3|@ripaojiedian
   network: tcp
   port: '26743'
   server: 136.175.176.25
@@ -532,7 +532,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18,19|github.com/freefq - 美国Fastly全球...
+  name: 18|美国Fastly全球Anycast节点 13
   network: ws
   port: 443
   server: gov.uk
@@ -546,7 +546,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,20,22,23|台湾|@ripaojiedian
+  name: 18,19,21,22|台湾|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -617,7 +617,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 18,19|github.com/freefq - 美国CloudFla...
+  name: 18|美国CloudFlare公司CDN节点 4
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -630,7 +630,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '18,19|github.com/freefq - 美国CloudFla... #1'
+  name: 18|美国CloudFlare公司CDN节点 6
   network: ws
   port: 8880
   server: server31.beheshtbaneh.com
@@ -644,7 +644,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '18,19|github.com/freefq - 美国CloudFla... #2'
+  name: 18|美国CloudFlare公司CDN节点 9
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -658,7 +658,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '18,19|github.com/freefq - 美国CloudFla... #3'
+  name: 18|美国CloudFlare节点 14
   network: ws
   port: 8880
   server: server32.beheshtbaneh.com
@@ -672,7 +672,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|美国 072
+  name: 19|美国 072
   network: tcp
   port: 10922
   server: 104.156.224.32
@@ -682,7 +682,7 @@ proxies:
   uuid: 7c6d9bb7-8939-43ff-e4f9-9f5d38383d74
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|64
+  name: 19|🇺🇸|US|美国|@wxgqlfx|64
   network: ws
   port: 80
   server: 104.19.243.44
@@ -695,7 +695,7 @@ proxies:
     path: /video/P7EExoE2
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|40
+  name: 19|🇺🇸|US|美国|@wxgqlfx|40
   network: ws
   port: 80
   server: 104.21.237.136
@@ -708,7 +708,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|US_speednode_0084
+  name: 19|US_speednode_0084
   network: ws
   port: 38409
   server: 45.152.84.131
@@ -722,7 +722,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|31
+  name: 19|🇺🇸|US|美国|@wxgqlfx|31
   network: ws
   port: 80
   server: 104.21.237.73
@@ -735,7 +735,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|13
+  name: 19|🇺🇸|US|美国|@wxgqlfx|13
   network: tcp
   port: 27321
   server: 104.167.247.77
@@ -744,7 +744,7 @@ proxies:
   uuid: a49a2591-d07f-4338-95d8-8838014de7e3
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
   network: tcp
   port: '42598'
   server: 129.146.247.135
@@ -754,7 +754,7 @@ proxies:
   uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
 - alterId: 0
   cipher: auto
-  name: '20|🇺🇸_US_美国 #29'
+  name: '19|🇺🇸_US_美国 #29'
   network: tcp
   port: 39027
   server: 174.136.205.46
@@ -763,7 +763,7 @@ proxies:
   uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|38
+  name: 19|🇺🇸|US|美国|@wxgqlfx|38
   network: ws
   port: 80
   server: 104.21.237.148
@@ -776,7 +776,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|美国 087
+  name: 19|美国 087
   network: tcp
   port: 19755
   server: 205.234.231.204
@@ -786,7 +786,7 @@ proxies:
   uuid: f3f8eb00-67b7-4254-f692-7f87e195925a
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|34
+  name: 19|🇺🇸|US|美国|@wxgqlfx|34
   network: ws
   port: 80
   server: 104.21.237.189
@@ -799,7 +799,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '20|Channel id: @ShadowProxy66 🇺🇸'
+  name: '19|Channel id: @ShadowProxy66 🇺🇸'
   network: tcp
   port: '55160'
   server: 140.82.42.183
@@ -809,7 +809,7 @@ proxies:
   uuid: 2e18b966-a7de-48e1-d991-5ddb63410df6
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-147.135.26.4...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-147.135.26.4...
   network: tcp
   port: '47212'
   server: 147.135.26.48
@@ -819,7 +819,7 @@ proxies:
   uuid: c46ec369-6de2-4f4c-a788-001703eefdd8
 - alterId: 0
   cipher: auto
-  name: 20|美国 079
+  name: 19|美国 079
   network: tcp
   port: 25875
   server: 149.28.46.147
@@ -829,7 +829,7 @@ proxies:
   uuid: 19c2e1dc-8dd7-43e3-8ad1-201d41aa605c
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|27
+  name: 19|🇺🇸|US|美国|@wxgqlfx|27
   network: ws
   port: 80
   server: 104.21.237.126
@@ -842,7 +842,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|美国 069
+  name: 19|美国 069
   network: tcp
   port: 38622
   server: 149.28.63.249
@@ -852,7 +852,7 @@ proxies:
   uuid: 6430fc54-bbad-402b-aef1-f79edac91efc
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-104.238.133....
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-104.238.133....
   network: tcp
   port: '34120'
   server: 104.238.133.112
@@ -862,16 +862,25 @@ proxies:
   uuid: cf8de0e9-fc3c-46ab-eda1-b5b12913aa07
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸 美国 080
+  name: 19|🇺🇸 美国 080
   network: tcp
   port: '37664'
   server: 149.28.36.167
   tls: false
   type: vmess
   uuid: 116217e3-be8b-4a11-826c-b32479f67166
+- alterId: 64
+  cipher: auto
+  name: 19|🇺🇸|US|美国|@wxgqlfx|48
+  network: tcp
+  port: 24999
+  server: 45.91.82.52
+  tls: false
+  type: vmess
+  uuid: 28fe6831-6bc3-46c8-be12-457e9f4babbf
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-198.105.126....
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-198.105.126....
   network: tcp
   port: '15246'
   server: 198.105.126.236
@@ -881,7 +890,7 @@ proxies:
   uuid: 197125d1-5bce-49f2-df4b-a1d63a7a0be1
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|79
+  name: 19|🇺🇸|US|美国|@wxgqlfx|79
   network: ws
   port: 8443
   server: geili.mulanwevictory.top
@@ -892,7 +901,7 @@ proxies:
     path: /MGNF44G
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|71
+  name: 19|🇺🇸|US|美国|@wxgqlfx|71
   network: ws
   port: 80
   server: 104.21.237.160
@@ -905,7 +914,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '20|Channel id: @ShadowProxy66 🇺🇸 #1'
+  name: '19|Channel id: @ShadowProxy66 🇺🇸 #1'
   network: tcp
   port: '11698'
   server: 192.177.98.189
@@ -915,7 +924,7 @@ proxies:
   uuid: 8587ceb2-dc65-4bc3-9d25-f13239c1cc52
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-104.165.241.5...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-104.165.241.5...
   network: ws
   port: '46711'
   server: 104.165.241.58
@@ -929,7 +938,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '20|美国 CloudFlare节点 #19'
+  name: '19|美国 CloudFlare节点 #19'
   network: ws
   port: 80
   server: 104.21.237.111
@@ -943,7 +952,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '20|🇺🇸_US_美国 #30'
+  name: '19|🇺🇸_US_美国 #30'
   network: ws
   port: 2086
   server: 174.136.207.168
@@ -954,7 +963,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '20|美国 CloudFlare节点 #20'
+  name: '19|美国 CloudFlare节点 #20'
   network: ws
   port: 80
   server: 104.21.237.32
@@ -968,7 +977,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|US_speednode_0115
+  name: 19|US_speednode_0115
   network: ws
   port: 26175
   server: 23.27.120.43
@@ -982,7 +991,7 @@ proxies:
     path: /ff21781a
 - alterId: 0
   cipher: auto
-  name: 20,25,28|🇺🇸_US_美国->🇩🇪_DE_德国_8
+  name: 19,26,29|🇺🇸_US_美国->🇩🇪_DE_德国_8
   network: ws
   port: 80
   server: 172.64.160.210
@@ -996,7 +1005,7 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|23
+  name: 19|🇺🇸|US|美国|@wxgqlfx|23
   network: ws
   port: 80
   server: 104.21.237.103
@@ -1009,7 +1018,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|美国 085
+  name: 19|美国 085
   network: tcp
   port: 20275
   server: esgf.ecosusi.cc
@@ -1019,7 +1028,7 @@ proxies:
   uuid: dab71d2b-be15-4705-c916-43d11608d934
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|53
+  name: 19|🇺🇸|US|美国|@wxgqlfx|53
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -1032,7 +1041,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-TLS 🇺🇸 US-172.67.136.2...
+  name: 19|🔒 VM-WS-TLS 🇺🇸 US-172.67.136.2...
   network: ws
   port: '2087'
   server: 172.67.136.244
@@ -1046,7 +1055,7 @@ proxies:
     path: /fws
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|41
+  name: 19|🇺🇸|US|美国|@wxgqlfx|41
   network: ws
   port: 80
   server: 104.21.237.212
@@ -1059,7 +1068,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|美国 077
+  name: 19|美国 077
   network: tcp
   port: 24721
   server: 149.28.120.218
@@ -1069,7 +1078,7 @@ proxies:
   uuid: 538f45a8-cfeb-4c29-9903-f8ccec575160
 - alterId: 0
   cipher: auto
-  name: '20|Channel id: @ShadowProxy66 🇺🇸 #2'
+  name: '19|Channel id: @ShadowProxy66 🇺🇸 #2'
   network: tcp
   port: '35000'
   server: 205.234.231.148
@@ -1079,7 +1088,7 @@ proxies:
   uuid: 260877c8-e970-44b5-97fe-9ef0052158d5
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-108.61.128.8...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-108.61.128.8...
   network: tcp
   port: '27599'
   server: 108.61.128.81
@@ -1089,7 +1098,7 @@ proxies:
   uuid: d6a6e964-d9ff-49cb-a1c7-3b56e8d26d62
 - alterId: 0
   cipher: auto
-  name: '20|美国 CloudFlare节点 #21'
+  name: '19|美国 CloudFlare节点 #21'
   network: ws
   port: '8880'
   server: cdn.vds-server.ir
@@ -1103,7 +1112,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|美国 084
+  name: 19|美国 084
   network: tcp
   port: 445
   server: 205.234.233.68
@@ -1113,7 +1122,7 @@ proxies:
   uuid: ff982b62-2d2e-4ebe-befc-6e3d5177857c
 - alterId: 0
   cipher: none
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-23.158.72.13...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-23.158.72.13...
   network: tcp
   port: '80'
   server: 23.158.72.133
@@ -1123,7 +1132,18 @@ proxies:
   uuid: 373a69c0-e995-11ee-afff-1239d0255272
 - alterId: 0
   cipher: auto
-  name: 20|美国 081
+  name: 19|🇺🇸|US|美国|@wxgqlfx|69
+  network: ws
+  port: 50874
+  server: www.fyhqll.top
+  tls: true
+  type: vmess
+  uuid: ca0f6eb4-bb7c-4fdb-8c8c-5aee7caaf3d1
+  ws-opts:
+    path: /ting123
+- alterId: 0
+  cipher: auto
+  name: 19|美国 081
   network: tcp
   port: 19100
   server: 149.28.84.185
@@ -1133,7 +1153,7 @@ proxies:
   uuid: fe1b2d35-9596-4692-fd35-4221a23b39b9
 - alterId: 0
   cipher: auto
-  name: 20|美国 074
+  name: 19|美国 074
   network: tcp
   port: 37985
   server: 149.28.226.202
@@ -1143,7 +1163,7 @@ proxies:
   uuid: a36d5f0e-f529-4c83-9279-f4c4ce557031
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-140.82.4.81:...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-140.82.4.81:...
   network: tcp
   port: '45970'
   server: 140.82.4.81
@@ -1153,7 +1173,7 @@ proxies:
   uuid: eb6340dd-9c48-427f-ebda-b548c4b7942b
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|70
+  name: 19|🇺🇸|US|美国|@wxgqlfx|70
   network: ws
   port: 80
   server: 104.21.237.128
@@ -1166,7 +1186,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-140.82.12.13...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-140.82.12.13...
   network: tcp
   port: '12342'
   server: 140.82.12.135
@@ -1176,7 +1196,7 @@ proxies:
   uuid: 53baa2f4-5f59-4245-eaea-1f95a7c6abdf
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-104.207.132....
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-104.207.132....
   network: tcp
   port: '13523'
   server: 104.207.132.39
@@ -1186,7 +1206,7 @@ proxies:
   uuid: ce7674fe-05f2-4b33-bb4c-4e3b7f0e6ea7
 - alterId: 0
   cipher: auto
-  name: 20|USTR
+  name: 19|USTR
   network: tcp
   port: 33388
   server: ustr.bagsmart.cc
@@ -1196,7 +1216,7 @@ proxies:
   uuid: 1b6ae74a-20cd-4027-bd4c-89ec6578a75c
 - alterId: 0
   cipher: auto
-  name: 20|美国 076
+  name: 19|美国 076
   network: tcp
   port: 48859
   server: 172.252.72.140
@@ -1206,7 +1226,7 @@ proxies:
   uuid: 08673fea-ef78-4a5f-9e43-658d32b64276
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-208.167.242....
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-208.167.242....
   network: tcp
   port: 23930
   server: 208.167.242.162
@@ -1216,7 +1236,7 @@ proxies:
   uuid: 338c0fda-6e48-4a0c-d2d1-f59bddcb9bac
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|29
+  name: 19|🇺🇸|US|美国|@wxgqlfx|29
   network: ws
   port: 80
   server: 104.21.237.226
@@ -1229,7 +1249,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-149.28.233.7...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-149.28.233.7...
   network: tcp
   port: '25487'
   server: 149.28.233.73
@@ -1239,7 +1259,7 @@ proxies:
   uuid: 352970a3-41c2-4d57-925f-452d76ba6d23
 - alterId: 0
   cipher: auto
-  name: 20|美国 067
+  name: 19|美国 067
   network: tcp
   port: 32924
   server: 154.29.157.175
@@ -1249,7 +1269,7 @@ proxies:
   uuid: 19337e62-730f-4b9f-c1b0-110b66d727bb
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|24
+  name: 19|🇺🇸|US|美国|@wxgqlfx|24
   network: ws
   port: 80
   server: 104.21.237.70
@@ -1262,7 +1282,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-192.18.135.25...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-192.18.135.25...
   network: ws
   port: '18091'
   server: 192.18.135.250
@@ -1276,7 +1296,7 @@ proxies:
     path: /er208a4028472
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸 美国 071
+  name: 19|🇺🇸 美国 071
   network: tcp
   port: '22195'
   server: 149.28.228.215
@@ -1285,7 +1305,7 @@ proxies:
   uuid: f865bc43-b129-443e-d00a-7d303b25c4a2
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|26
+  name: 19|🇺🇸|US|美国|@wxgqlfx|26
   network: ws
   port: 80
   server: 104.21.237.26
@@ -1298,7 +1318,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|US_speednode_0097
+  name: 19|US_speednode_0097
   network: tcp
   port: 40118
   server: 104.249.173.159
@@ -1308,7 +1328,7 @@ proxies:
   uuid: b89f5af7-e478-4b45-f1d5-1a5481acc15b
 - alterId: 0
   cipher: auto
-  name: 20|美国 068
+  name: 19|美国 068
   network: tcp
   port: 52817
   server: 149.28.119.196
@@ -1318,7 +1338,7 @@ proxies:
   uuid: 39b454ae-2d59-4cf1-8379-b3ccb6c46659
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸 美国 CloudFlare节点
+  name: 19|🇺🇸 美国 CloudFlare节点
   network: ws
   port: '80'
   server: yhnsb3.shabijichang.com
@@ -1331,7 +1351,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸 美国 089
+  name: 19|🇺🇸 美国 089
   network: ws
   port: '43215'
   server: houdezaiwu.cycmpr.com
@@ -1344,7 +1364,7 @@ proxies:
     path: /a0b3595c
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-136.0.8.85:45...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-136.0.8.85:45...
   network: ws
   port: '45603'
   server: 136.0.8.85
@@ -1358,7 +1378,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|73
+  name: 19|🇺🇸|US|美国|@wxgqlfx|73
   network: ws
   port: 443
   server: 104.21.25.19
@@ -1371,7 +1391,7 @@ proxies:
     path: /@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-205.185.125.2...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-205.185.125.2...
   network: ws
   port: '11451'
   server: 205.185.125.200
@@ -1385,7 +1405,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-185.238.249.1...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-185.238.249.1...
   network: ws
   port: 1234
   server: 185.238.249.145
@@ -1399,7 +1419,7 @@ proxies:
     path: /ab
 - alterId: 0
   cipher: auto
-  name: 20|US_speednode_0079
+  name: 19|US_speednode_0079
   network: tcp
   port: 16179
   server: 45.152.84.131
@@ -1409,7 +1429,7 @@ proxies:
   uuid: d95078fa-9968-49fb-f505-78ccd01faa92
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-104.164.211.2...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-104.164.211.2...
   network: ws
   port: '56910'
   server: 104.164.211.21
@@ -1423,7 +1443,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-149.28.232.1...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-149.28.232.1...
   network: tcp
   port: '43231'
   server: 149.28.232.195
@@ -1433,7 +1453,7 @@ proxies:
   uuid: 2c4e4cf0-e671-4c0c-ebe8-45e1d1e02bd3
 - alterId: 0
   cipher: auto
-  name: '20|🇺🇸_US_美国 #31'
+  name: '19|🇺🇸_US_美国 #31'
   network: ws
   port: 2053
   server: qin06.rong1104.uk
@@ -1444,7 +1464,7 @@ proxies:
     path: /qin06
 - alterId: 0
   cipher: auto
-  name: 20|美国 066
+  name: 19|美国 066
   network: ws
   port: 443
   server: a.qypsnewservice.buzz
@@ -1458,7 +1478,7 @@ proxies:
     path: /abc
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-135.148.62.1...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-135.148.62.1...
   network: tcp
   port: '22673'
   server: 135.148.62.165
@@ -1468,7 +1488,7 @@ proxies:
   uuid: 4c9ded6a-626a-48fe-a7eb-6f0bee8a9a36
 - alterId: 0
   cipher: auto
-  name: '20|🔒 VM-WS-NA 🇺🇸 US-104.164.211.2... #1'
+  name: '19|🔒 VM-WS-NA 🇺🇸 US-104.164.211.2... #1'
   network: ws
   port: 24835
   server: 104.164.211.218
@@ -1482,7 +1502,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20|美国 070
+  name: 19|美国 070
   network: tcp
   port: 52626
   server: 149.28.61.192
@@ -1492,7 +1512,7 @@ proxies:
   uuid: 077b9908-9b00-4d22-abc9-2e7052fd784a
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|37
+  name: 19|🇺🇸|US|美国|@wxgqlfx|37
   network: ws
   port: 80
   server: 104.21.237.91
@@ -1505,7 +1525,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '20|🇺🇸_US_美国 #32'
+  name: '19|🇺🇸_US_美国 #32'
   network: tcp
   port: 40583
   server: 205.234.252.215
@@ -1514,7 +1534,7 @@ proxies:
   uuid: 9c4bb4a0-2bd0-40ff-d0dd-24749a20c1bf
 - alterId: 0
   cipher: auto
-  name: 20|美国 083
+  name: 19|美国 083
   network: tcp
   port: 33666
   server: 149.28.235.229
@@ -1524,7 +1544,7 @@ proxies:
   uuid: 0ac51203-d0ba-401b-87e0-7e2e562801c2
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇺🇸 US-173.245.58.10...
+  name: 19|🔒 VM-WS-NA 🇺🇸 US-173.245.58.10...
   network: ws
   port: 8080
   server: 173.245.58.100
@@ -1538,7 +1558,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|11
+  name: 19|🇺🇸|US|美国|@wxgqlfx|11
   network: tcp
   port: 28888
   server: 104.167.247.77
@@ -1547,7 +1567,7 @@ proxies:
   uuid: e76392f8-a570-4b79-8a17-98aaca831ad2
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-108.61.242.1...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-108.61.242.1...
   network: tcp
   port: '36037'
   server: 108.61.242.155
@@ -1557,7 +1577,7 @@ proxies:
   uuid: c1428f18-b05f-4271-bab9-1dc41a1c506f
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|87
+  name: 19|🇺🇸|US|美国|@wxgqlfx|87
   network: tcp
   port: 48160
   server: 5.161.145.46
@@ -1566,7 +1586,7 @@ proxies:
   uuid: 3e499ac1-6e46-4ca2-ad23-e53f93d000d1
 - alterId: 0
   cipher: auto
-  name: 20|美国 073
+  name: 19|美国 073
   network: tcp
   port: 53597
   server: 149.28.76.173
@@ -1576,7 +1596,7 @@ proxies:
   uuid: 2419a4f1-8740-4ccb-8168-9ddd4796b805
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸|US|美国|@wxgqlfx|39
+  name: 19|🇺🇸|US|美国|@wxgqlfx|39
   network: ws
   port: 80
   server: 104.21.237.49
@@ -1589,7 +1609,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 20|美国 086
+  name: 19|美国 086
   network: tcp
   port: 5129
   server: 205.234.233.22
@@ -1599,7 +1619,7 @@ proxies:
   uuid: 2e504818-e2e2-4183-eb75-0d1175a947de
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-TCP-NA 🇺🇸 US-107.191.36.1...
+  name: 19|🔒 VM-TCP-NA 🇺🇸 US-107.191.36.1...
   network: tcp
   port: '38848'
   server: 107.191.36.148
@@ -1610,7 +1630,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22,23|美国2|@ripaojiedian
+  name: 21,22|美国2|@ripaojiedian
   network: ws
   port: '26927'
   server: 47.243.28.9
@@ -1624,9 +1644,23 @@ proxies:
     headers:
       Host: wapmiandian.mac2winer.cfd
     path: /4db02294
+- delay: 932
+  name: 24|US_speednode_0105
+  network: ws
+  password: mikuu404
+  port: 23331
+  server: 136.175.176.25
+  skip-cert-verify: true
+  sni: bing.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: bing.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 28|🇺🇸_US_美国_6_23
+  name: 29|🇺🇸_US_美国_6_23
   network: ws
   port: 80
   server: 172.67.49.214

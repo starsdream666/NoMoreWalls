@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 20|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
   network: ws
   port: '32128'
   server: 128.199.193.14
@@ -15,7 +15,7 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 22|🇸🇬 新加坡|@ripaojiedian
+  name: 21|🇸🇬 新加坡|@ripaojiedian
   password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054
   port: 28894
   server: gran.efnwgood.top
@@ -23,7 +23,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 22|🇸🇬 新加坡3|@ripaojiedian
+  name: 21|🇸🇬 新加坡3|@ripaojiedian
   password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
   port: 20009
   server: ddns.olucloud.subapi.cc
@@ -31,7 +31,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 22|🇸🇬 狮城特殊|@ripaojiedian
+  name: 21|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 2
