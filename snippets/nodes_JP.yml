@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 19|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 21,22|日本2|@ripaojiedian
   network: ws
@@ -35,23 +45,6 @@ proxies:
   protocol-param: 9890:cqtnFi
   server: 183.240.220.87
   type: ssr
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 21,22|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 21|🇯🇵 日本特殊|@ripaojiedian
