@@ -91,6 +91,7 @@ BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8=').split()
 
 # !!! JUST FOR DEBUGING !!!
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
+DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 
 class UnsupportedType(Exception): pass
@@ -471,6 +472,7 @@ class Source():
             self.url_source: None = None
         self.content: Union[str, List[str], int] = None
         self.sub: list = None
+        self.cfg: Dict[str, Any] = {}
 
     def gen_url(self) -> None:
         self.url_source: str
@@ -492,6 +494,18 @@ class Source():
                 self.content: Union[str, List[str]] = self.url_source()
             else:
                 global session
+                if '#' in self.url:
+                    segs = self.url.split('#')
+                    self.cfg = dict([_.split('=',1) for _ in segs[-1].split('&')])
+                    if 'max' in self.cfg:
+                        try:
+                            self.cfg['max'] = int(self.cfg['max'])
+                        except ValueError:
+                            exc_queue.append("最大节点数限制不是整数！")
+                            del self.cfg['max']
+                    if 'ignore' in self.cfg:
+                        self.cfg['ignore'] = [_ for _ in self.cfg['ignore'].split(',') if _.strip()]
+                    self.url = '#'.join(segs[:-1])
                 with session.get(self.url, stream=True) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
@@ -569,7 +583,17 @@ class Source():
                     # V2Ray Sub
                     sub = b64decodes(text.strip()).strip().splitlines()
             else: sub = text # 动态节点抓取后直接传入列表
-            self.sub = sub
+
+            if 'max' in self.cfg and len(sub) > self.cfg['max']:
+                exc_queue.append(f"此订阅有 {len(sub)} 个节点，最大限制为 {self.cfg['max']} 个，忽略此订阅。")
+                self.sub = []
+            elif sub and 'ignore' in self.cfg:
+                if isinstance(sub[0], str):
+                    self.sub = [_ for _ in sub if _.split('://', 1)[0] not in self.cfg['ignore']]
+                elif isinstance(sub[0], dict):
+                    self.sub = [_ for _ in sub if _.get('type', '') not in self.cfg['ignore']]
+                else: self.sub = sub
+            else: self.sub = sub
         except KeyboardInterrupt: raise
         except: exc_queue.append(
                 "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc())
@@ -759,6 +783,10 @@ def main():
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
         AUTOURLS = AUTOFETCH = sources = []
+    elif DEBUG_NO_DYNAMIC:
+        # !!! JUST FOR DEBUGING !!!
+        print("!!! 警告：您已选择不抓取动态节点 !!!")
+        AUTOURLS = AUTOFETCH = []
     print("正在生成动态链接...")
     for auto_fun in AUTOURLS:
         print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
@@ -777,6 +805,7 @@ def main():
     sources_final = set()
     airports = set()
     for source in sources:
+        if source == 'EOF': break
         if not source: continue
         if source[0] == '#': continue
         sub = source
