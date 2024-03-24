@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 20|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  network: ws
+  port: '32128'
+  server: 128.199.193.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cc7e743-f9c9-492a-954b-7333df7ad7ae
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 22|🇸🇬 新加坡|@ripaojiedian
