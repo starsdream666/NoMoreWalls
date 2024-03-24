@@ -83,7 +83,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #3'
+  name: '8,19|🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -109,38 +109,38 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 19|加拿大 073
+  name: '19|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
-  port: 2087
-  server: 104.21.10.205
-  servername: api.cdn-tgju.org
+  port: '443'
+  server: 172.67.166.31
+  servername: inna.cfd
   tls: true
   type: vmess
-  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: api.cdn-tgju.org
-    path: /ows
+      Host: inna.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 19|加拿大 084
+  name: 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_5
   network: ws
-  port: 80
-  server: 104.21.237.191
+  port: 2086
+  server: admin.arzonhost.ir
   servername: ''
   tls: false
   type: vmess
-  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: hDIgP.cnbete.life
-    path: /?ed=2048
+      Host: admin.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 19|加拿大 085
+  name: 19|加拿大 083
   network: ws
   port: 80
-  server: 104.21.237.201
+  server: 104.21.237.111
   servername: ''
   tls: false
   type: vmess
@@ -165,42 +165,28 @@ proxies:
     path: /v149-dskds65
 - alterId: 0
   cipher: auto
-  name: '19|Channel id: @ShadowProxy66 🇨🇦'
+  name: 19|🇨🇦 加拿大 085
   network: ws
-  port: '443'
-  server: 172.67.166.31
-  servername: inna.cfd
-  tls: true
+  port: '80'
+  server: 104.21.237.201
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
   ws-opts:
     headers:
-      Host: inna.cfd
-    path: /linkvws
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇬🇧_GB_英国_3
+  name: 19|加拿大 084
   network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
+  port: 80
+  server: 104.21.237.191
   servername: ''
   tls: false
   type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
   ws-opts:
     headers:
-      Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_5
-  network: ws
-  port: 2086
-  server: admin.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
