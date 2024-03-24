@@ -343,19 +343,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,29|🇺🇸_US_美国 #51'
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
   name: '9,29|🇺🇸_US_美国 #44'
   network: ws
   port: 8080
@@ -3296,6 +3283,70 @@ proxies:
     headers:
       Host: bing.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: tcp
+  port: '37523'
+  server: 45.32.75.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0e7becc2-e807-4b44-c97d-806d094064c0
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: tcp
+  port: '3389'
+  server: 134.122.41.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: tcp
+  port: '12842'
+  server: 174.136.207.168
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d7e439a8-9cb4-4c62-9a6a-d36824689a04
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
+  network: tcp
+  port: '15074'
+  server: 66.135.4.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9cab2f40-9f7c-48c2-95ed-7518be0fb0f9
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #5'
+  network: tcp
+  port: '16219'
+  server: 45.77.101.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d08d2216-5801-448f-ff37-ca82ca42d03c
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #6'
+  network: ws
+  port: '80'
+  server: 104.21.237.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '29|🇺🇸_US_美国 #37'
