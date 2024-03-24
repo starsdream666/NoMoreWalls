@@ -315,16 +315,20 @@ class Node:
         
     @property
     def isfake(self) -> bool:
-        if 'server' not in self.data: return True
-        if '.' not in self.data['server']: return True
-        if self.data['server'] in FAKE_IPS: return True
-        if int(str(self.data['port'])) < 20: return True
-        for domain in FAKE_DOMAINS:
-            if self.data['server'] == domain.lstrip('.'): return True
-            if self.data['server'].endswith(domain): return True
-        # TODO: Fake UUID
-        if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
-            return True
+        try:
+            if 'server' not in self.data: return True
+            if '.' not in self.data['server']: return True
+            if self.data['server'] in FAKE_IPS: return True
+            if int(str(self.data['port'])) < 20: return True
+            for domain in FAKE_DOMAINS:
+                if self.data['server'] == domain.lstrip('.'): return True
+                if self.data['server'].endswith(domain): return True
+            # TODO: Fake UUID
+            if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
+                return True
+        except Exception:
+            print("无法验证的节点！", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
         return False
 
     @property
@@ -425,13 +429,18 @@ class Node:
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
         if self.data['cipher'] not in supported: return False
-        if self.type == 'ssr':
-            if 'obfs' in self.data and self.data['obfs'] not in CLASH_SSR_OBFS:
-                return False
-            if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
-                return False
-        if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
-                and not self.data['plugin-opts']['mode']: return False
+        try:
+            if self.type == 'ssr':
+                if 'obfs' in self.data and self.data['obfs'] not in CLASH_SSR_OBFS:
+                    return False
+                if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
+                    return False
+            if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
+                    and not self.data['plugin-opts']['mode']: return False
+        except Exception:
+            print("无法验证的 Clash 节点！", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+            return False
         return True
     
     def supports_clash(self, meta=False) -> bool:
