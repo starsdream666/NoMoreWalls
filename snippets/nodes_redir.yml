@@ -43,7 +43,7 @@ proxies:
   country: AE
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-111
+  name: 1,6|-https://t.me/MrXbin-99
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -184,6 +184,19 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇪🇸_ES_西班牙
+  network: ws
+  port: 8080
+  server: us2.laobideng.xyz
+  tls: false
+  type: vmess
+  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇲🇾_MY_马来西亚
