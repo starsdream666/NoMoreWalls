@@ -34,9 +34,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21|🇭🇰 香港2|@ripaojiedian
+  name: 21,22|香港2|@ripaojiedian
   network: ws
-  port: 2053
+  port: '2053'
   server: 8.218.142.253
   servername: cfhk.393930.xyz
   skip-cert-verify: false
@@ -52,43 +52,29 @@ proxies:
   cipher: auto
   name: 22|香港|@ripaojiedian
   network: tcp
-  port: '34414'
-  server: 120.238.122.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 22|香港2|@ripaojiedian
-  network: tcp
-  port: '54882'
-  server: 120.238.122.254
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 22|香港3|@ripaojiedian
-  network: tcp
-  port: '54100'
-  server: 183.236.51.60
+  port: '42055'
+  server: 120.238.122.251
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 22|香港5|@ripaojiedian
-  network: ws
-  port: '20207'
-  server: data-hk-v1.shwjfkw.cn
+  name: 22|香港1|@ripaojiedian
+  network: tcp
+  port: '37078'
+  server: 38.147.189.180
   servername: ''
   tls: false
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.shwjfkw.cn
-    path: /debian
+  uuid: d5e16a28-afa8-4b64-a459-db32d14cd4d1
+- alterId: 64
+  cipher: auto
+  name: 22|香港3|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
