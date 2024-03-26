@@ -102,7 +102,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -193,16 +193,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_24
-  network: tcp
-  port: 11129
-  server: 23.142.200.149
-  tls: false
-  type: vmess
-  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
-- alterId: 0
-  cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_由快嘴科技提供：...
+  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_由快嘴科技提供：...
   network: ws
   port: 80
   server: 104.21.235.6
@@ -213,6 +204,15 @@ proxies:
     headers:
       Host: m4p9q.cnbete.life
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: tcp
+  port: 50004
+  server: 14.18.91.151
+  tls: false
+  type: vmess
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk...
@@ -226,6 +226,15 @@ proxies:
     headers:
       Host: us2.laobideng.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_24
+  network: tcp
+  port: 11129
+  server: 23.142.200.149
+  tls: false
+  type: vmess
+  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇿🇦_ZA_南非_36

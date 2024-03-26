@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
-  network: ws
-  port: '52419'
-  server: 128.199.193.14
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
-  ws-opts:
-    headers:
-      Host: whatsapp.net
-    path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 21|🇸🇬 新加坡|@ripaojiedian
