@@ -1,21 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 21,22|日本3|@ripaojiedian
+  name: 19|日本02-高速｜x1
   network: ws
-  port: '8080'
-  server: 87.120.204.64
-  servername: jp-17.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
+  port: '31636'
+  server: 103.150.8.236
+  servername: jp.pddf.buzz
   tls: true
   type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  uuid: dd1a99fc-8080-4b6f-b255-20fe1a57d238
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: jp.pddf.buzz
+    path: /pdd?ed=2048
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -50,6 +47,22 @@ proxies:
     headers:
       Host: www.17438016.xyz
     path: /path/311227222808
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 21|🇯🇵 日本6|@ripaojiedian
+  network: ws
+  port: 2095
+  server: jpc.flha.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: jpc.flha.ru
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 21|🇯🇵 日本特殊|@ripaojiedian
