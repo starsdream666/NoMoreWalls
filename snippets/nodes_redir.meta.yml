@@ -40,21 +40,17 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-178
+  name: 1|_AE_->_GB_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - name: 1|_CA_->_US_
   network: ws
@@ -106,7 +102,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -119,7 +115,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+  name: 3,8,9,19,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -171,10 +167,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,18|美国 CloudFlare节点 #20'
+  name: 8,9,18,19|美国(yudou66.com 玉豆免费节点)
   network: ws
-  port: 8080
+  port: '8080'
   server: 162.159.5.6
+  servername: ''
   tls: false
   type: vmess
   uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
@@ -184,17 +181,13 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇬🇧_GB_英国_32
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
+  name: 19,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_24
+  network: tcp
+  port: 11129
+  server: 23.142.200.149
   tls: false
   type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
+  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_由快嘴科技提供：...
@@ -232,13 +225,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_24
-  network: tcp
-  port: 11129
-  server: 23.142.200.149
+  name: 29|🇺🇸_US_美国->🇬🇧_GB_英国_32
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
   tls: false
   type: vmess
-  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇿🇦_ZA_南非_36
@@ -251,17 +248,4 @@ proxies:
   ws-opts:
     headers:
       Host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_4_38
-  network: ws
-  port: 2086
-  server: admin.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
     path: /
