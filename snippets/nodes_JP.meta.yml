@@ -67,22 +67,6 @@ proxies:
     headers:
       Host: www.17438016.xyz
     path: /path/311227222808
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 21|🇯🇵 日本6|@ripaojiedian
-  network: ws
-  port: 2095
-  server: jpc.flha.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: jpc.flha.ru
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 21|🇯🇵 日本特殊|@ripaojiedian
