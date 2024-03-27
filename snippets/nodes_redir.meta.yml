@@ -154,7 +154,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,9,25|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '3,9,18,25|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -167,7 +167,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,18,19|美国(yudou66.com 玉豆免费节点)
+  name: 8,9,19|美国(yudou66.com 玉豆免费节点)
   network: ws
   port: '8080'
   server: 162.159.5.6
@@ -188,6 +188,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_9
+  network: ws
+  port: 80
+  server: 104.21.235.170
+  tls: false
+  type: vmess
+  uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: m4p9q.cnbete.life
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_由快嘴科技提供：...
@@ -222,6 +235,19 @@ proxies:
   ws-opts:
     headers:
       Host: us2.laobideng.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_2_30
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
