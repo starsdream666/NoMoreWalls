@@ -84,17 +84,21 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 1|_US__7
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-183
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
+  servername: us77SmSk86j.fzbqfrse.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
+  uuid: 67d8b1b9-1c9f-4a8b-8ddc-0b9ec2db2d6c
   ws-opts:
     headers:
-      host: us77SmSk86j.fzbqfrse.xyz
+      HOST: us77SmSk86j.fzbqfrse.xyz
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
@@ -536,6 +540,20 @@ proxies:
   ws-opts:
     headers:
       Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|美国 CloudFlare节点 #12'
+  network: ws
+  port: '2086'
+  server: admin.arzonhost.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
