@@ -16,3 +16,21 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- name: 24|TW_speednode_0080
+  network: tcp
+  password: 158141ca-528d-407d-88f2-c0ddca399b26
+  port: 18912
+  server: ty12t.twty.dynu.net
+  skip-cert-verify: true
+  sni: ty12t.twty.dynu.net
+  type: trojan
+  udp: true
+- name: 24|TW_speednode_0084
+  network: tcp
+  password: 158141ca-528d-407d-88f2-c0ddca399b26
+  port: 14656
+  server: nc12.twtc.dynu.net
+  skip-cert-verify: true
+  sni: nc12.twtc.dynu.net
+  type: trojan
+  udp: true
