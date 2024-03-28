@@ -145,6 +145,7 @@ proxies:
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -167,9 +168,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #21'
+  name: '8,9,18|美国 CloudFlare节点 #21'
   network: ws
-  port: 8080
+  port: '8080'
   server: 162.159.5.6
   tls: false
   type: vmess
@@ -204,19 +205,6 @@ proxies:
     headers:
       Host: m4p9q.cnbete.life
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_29
