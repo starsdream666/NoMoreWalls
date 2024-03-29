@@ -1,17 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US__1
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-225
   network: ws
   port: 2052
   server: 172.67.152.170
+  servername: mahilu.site
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      host: mahilu.site
+      HOST: mahilu.site
     path: /
 - alterId: 0
   cipher: auto
@@ -262,6 +266,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '8,9,19|🇺🇸_US_美国 #30'
+  network: ws
+  port: 2052
+  server: mahilu.site
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
   name: '8|🇺🇸_US_美国 #12'
   network: ws
   port: 2086
@@ -404,19 +421,6 @@ proxies:
   ws-opts:
     headers:
       Host: a.prapt1.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '18|美国 CloudFlare节点 #2'
-  network: ws
-  port: '2052'
-  server: 172.67.214.33
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
     path: /
 - alterId: 0
   cipher: auto
