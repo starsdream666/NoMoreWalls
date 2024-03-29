@@ -45,7 +45,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '1,3,8,9,25|🇨🇦_CA_加拿大 #7'
+  name: 1,3,8,9,25,29|🇨🇦_CA_加拿大_2
   network: http
   port: 3389
   server: 134.122.41.160
@@ -96,7 +96,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  name: 8,9,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_30
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -109,71 +109,32 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
+  name: 19|加拿大 007
+  network: ws
+  port: 443
+  server: cdn2_de.majutsu.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
+  ws-opts:
+    headers:
+      Host: cdn2_de.majutsu.top
+    path: /acc
+- alterId: 0
+  cipher: auto
   name: '19|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
-  server: 104.16.216.241
-  servername: nelly.homes
+  server: 104.21.15.212
+  servername: glweidf.sbs
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   ws-opts:
     headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 19|🇨🇦 加拿大 024
-  network: ws
-  port: '80'
-  server: beijing.mfa.ee
-  tls: false
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  ws-opts:
-    headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '19|Channel id: @ShadowProxy66 🇨🇦 #1'
-  network: ws
-  port: '443'
-  server: 172.67.71.160
-  servername: obdii.cfd
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
+      Host: glweidf.sbs
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|🇨🇦 加拿大 026
-  network: ws
-  port: '80'
-  server: gw.jidexufei.top
-  tls: false
-  type: vmess
-  uuid: 75d51bad-0f16-422f-95c0-c74786c57c05
-  ws-opts:
-    headers:
-      Host: gw.jidexufei.top
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19|🇨🇦 加拿大 021
-  network: ws
-  port: '8443'
-  server: v014.583181.xyz
-  tls: true
-  type: vmess
-  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
-  ws-opts:
-    headers:
-      Host: v014.583181.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 19|加拿大 011
@@ -190,34 +151,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 19|🇨🇦 加拿大 020
-  network: ws
-  port: '2052'
-  server: 104.19.129.191
-  tls: false
-  type: vmess
-  uuid: 67d8b1b9-1c9f-4a8b-8ddc-0b9ec2db2d6c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: '19|Channel id: @ShadowProxy66 🇨🇦 #2'
-  network: ws
-  port: '443'
-  server: 104.21.15.212
-  servername: glweidf.sbs
-  tls: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: glweidf.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '19|Channel id: @ShadowProxy66 🇨🇦 #3'
+  name: '19|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
   server: 104.21.4.6
@@ -229,3 +163,71 @@ proxies:
     headers:
       Host: glweidf.cfd
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '19|Channel id: @ShadowProxy66 🇨🇦 #2'
+  network: ws
+  port: '443'
+  server: 104.16.216.241
+  servername: nelly.homes
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nelly.homes
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇦 加拿大 021
+  network: ws
+  port: '8443'
+  server: v014.583181.xyz
+  tls: true
+  type: vmess
+  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
+  ws-opts:
+    headers:
+      Host: v014.583181.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|加拿大 020
+  network: ws
+  port: 2052
+  server: 104.19.129.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67d8b1b9-1c9f-4a8b-8ddc-0b9ec2db2d6c
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: '19|Channel id: @ShadowProxy66 🇨🇦 #3'
+  network: ws
+  port: '443'
+  server: 104.21.75.244
+  servername: janett.click
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: janett.click
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇦 加拿大 026
+  network: ws
+  port: '80'
+  server: gw.jidexufei.top
+  tls: false
+  type: vmess
+  uuid: 75d51bad-0f16-422f-95c0-c74786c57c05
+  ws-opts:
+    headers:
+      Host: gw.jidexufei.top
+    path: /cctv13/hd.m3u8

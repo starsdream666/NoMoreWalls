@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,26|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 54.250.147.208
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: jp02.xpoti.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 19|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
   port: '14935'
@@ -23,6 +9,20 @@ proxies:
   tls: false
   type: vmess
   uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: '19,26|baipaovpn日本 #1'
+  network: ws
+  port: '80'
+  server: 43.203.179.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
+  ws-opts:
+    headers:
+      Host: kr01.xpoti.online
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -40,23 +40,6 @@ proxies:
     headers:
       Host: www.63739551.xyz
     path: /path/311227222808
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 21,22|日本3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 87.120.204.64
-  servername: jp-17.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 21|🇯🇵 日本特殊|@ripaojiedian
@@ -65,3 +48,31 @@ proxies:
   server: 54.186.125.168
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 3.112.30.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
+  ws-opts:
+    headers:
+      Host: jp03.xpoti.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 54.250.147.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
+  ws-opts:
+    headers:
+      Host: jp02.xpoti.online
+    path: /
