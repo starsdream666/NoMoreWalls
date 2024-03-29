@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19| 🇸🇬 新加坡 SG02
-  network: ws
-  port: '80'
-  server: sg02.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
   network: ws
   port: '52419'

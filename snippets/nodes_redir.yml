@@ -40,21 +40,17 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-104
+  name: 1|_AE_->_GB_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - name: 1|_CA_->_US_
   network: ws
@@ -106,7 +102,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,18,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -158,7 +154,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,9,18,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_3_27
+  name: 3,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_3_27
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -171,9 +167,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,18|美国 CloudFlare节点 #24'
+  name: '8,9|🇺🇸_US_美国 #21'
   network: ws
-  port: '8080'
+  port: 8080
   server: 162.159.5.6
   tls: false
   type: vmess
@@ -208,17 +204,6 @@ proxies:
     headers:
       Host: admin.arzonhost.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
-  network: ws
-  port: 443
-  server: cdn2_de.majutsu.top
-  tls: true
-  type: vmess
-  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
-  ws-opts:
-    path: /acc
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_4_28
