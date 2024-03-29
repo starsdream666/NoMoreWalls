@@ -43,7 +43,7 @@ proxies:
   country: AE
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-101
+  name: 1,6|-https://t.me/MrXbin-93
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -119,7 +119,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_7
+  name: 3,8,9,19,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_7
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -132,7 +132,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,8,25|🇨🇦_CA_加拿大->🇺🇸_US_美国 #2'
+  name: '3,8,25|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -185,6 +185,32 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
+  name: 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_6
+  network: ws
+  port: 2086
+  server: admin.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,29|🇺🇸_US_美国->🇬🇧_GB_英国_5
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
   port: 80
@@ -196,15 +222,6 @@ proxies:
     headers:
       Host: m4p9q.cnbete.life
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_30
-  network: tcp
-  port: 11129
-  server: 23.142.200.149
-  tls: false
-  type: vmess
-  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
 - alterId: 0
   cipher: auto
   name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_39
