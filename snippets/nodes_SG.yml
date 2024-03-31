@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-WS-NONE 🇸🇬 SG-13.212.76.1...
+  name: 18,19|🔒 VM-WS-NONE 🇸🇬 SG-13.212.76.1...
   network: ws
   port: 14217
   server: 13.212.76.151
@@ -10,11 +10,3 @@ proxies:
   uuid: f5948c85-5342-4e11-9a68-ef5fbb8556c7
   ws-opts:
     path: /ow
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 21|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.24.53
-  tfo: false
-  type: ss

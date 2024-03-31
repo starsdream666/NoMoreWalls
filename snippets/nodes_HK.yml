@@ -58,7 +58,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 22|香港|@ripaojiedian
+  name: 22,26|baipaovpn广东省广州市
   network: tcp
   port: '41492'
   server: 120.232.242.117
