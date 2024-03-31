@@ -209,19 +209,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #20'
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
   name: '9|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
@@ -339,20 +326,6 @@ proxies:
   type: vmess
   uuid: a7dc92a2-ecfb-494d-934a-6706e366cbf2
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '18|美国 CloudFlare节点 #8'
-  network: ws
-  port: '2095'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
