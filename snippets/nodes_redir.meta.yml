@@ -102,7 +102,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,18,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '3,8,18,19,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -142,7 +142,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,9,18,25,29|🇺🇸_US_美国->🇫🇷_FR_法国 #9'
+  name: '3,9,18,25,29|🇺🇸_US_美国->🇫🇷_FR_法国 #8'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -155,7 +155,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国 #11'
+  name: '3,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国 #10'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -181,7 +181,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '19,29|🇺🇸_US_美国->🇫🇷_FR_法国 #10'
+  name: '19,29|🇺🇸_US_美国->🇫🇷_FR_法国 #9'
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -194,14 +194,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '29|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
+  name: '19,29|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
   network: ws
-  port: 8880
-  server: cdn.vds-server.ir
+  port: 2086
+  server: mizban.arzonhost.ir
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   ws-opts:
     headers:
-      Host: cdn.vds-server.ir
+      Host: mizban.arzonhost.ir
     path: /
