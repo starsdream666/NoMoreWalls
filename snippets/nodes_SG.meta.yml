@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18,19|🔒 VM-WS-NONE 🇸🇬 SG-13.212.76.1...
+  name: 18|新加坡 Amazon数据中心
   network: ws
   port: 14217
   server: 13.212.76.151
