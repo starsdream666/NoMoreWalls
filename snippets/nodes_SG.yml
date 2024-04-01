@@ -64,7 +64,7 @@ proxies:
   server: 43.203.192.6
   tfo: false
   type: ss
-- name: 24|SG_speednode_0023
+- name: 24|SG_speednode_0072
   network: ws
   password: duniavpn-duniavpn
   port: 443

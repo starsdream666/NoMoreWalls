@@ -1,14 +1,18 @@
 proxies:
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 19|日本 002
-  network: tcp
-  port: 444
-  server: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
-  servername: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
+  name: 18,19|-1394-VN【ccbaohe.com〗 永久免费节点机场
+  network: ws
+  port: '80'
+  server: max26.flash5g.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+  uuid: 4e25f91f-603c-4e83-b002-c26030757816
+  ws-opts:
+    headers:
+      Host: max26.flash5g.com
+    path: /AnhBin
 - alterId: 1
   cipher: auto
   name: 19|日本 001
@@ -59,14 +63,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 21|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.32.221.7
-  tfo: false
-  type: ss
 - alterId: 1
   cipher: auto
   name: 26|baipaovpn日本东京
