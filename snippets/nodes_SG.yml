@@ -1,4 +1,29 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 19|新加坡【TG：@ccbaohe】定时更新节点订阅 20
+  network: ws
+  port: 2086
+  server: 27.50.48.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 19|🔒 VM-WS-NONE 🇸🇬 SG-45.32.99.83...
+  network: ws
+  port: 28051
+  server: 45.32.99.83
+  tls: false
+  type: vmess
+  uuid: bcf27281-d173-4404-a1ce-7513e4337622
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 21|🇸🇬 新加坡|@ripaojiedian
