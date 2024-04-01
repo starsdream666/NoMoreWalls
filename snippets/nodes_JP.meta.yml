@@ -1,4 +1,24 @@
 proxies:
+- alterId: 1
+  cipher: auto
+  name: 19|日本 002
+  network: tcp
+  port: 444
+  server: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
+  servername: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- alterId: 1
+  cipher: auto
+  name: 19|日本 001
+  network: tcp
+  port: 21581
+  server: avido-g01.jp03-7d22-vm0.entry.fr0307a.art
+  servername: avido-g01.jp03-7d22-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 21|🇯🇵 日本2|@ripaojiedian
