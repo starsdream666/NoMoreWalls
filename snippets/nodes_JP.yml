@@ -1,6 +1,15 @@
 proxies:
 - alterId: 1
   cipher: auto
+  name: 19|🇯🇵 日本 008
+  network: tcp
+  port: '28783'
+  server: tfu6i-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
   name: 19|日本 004
   network: tcp
   port: 46484
