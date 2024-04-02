@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
-  network: ws
-  port: '26012'
-  server: 146.190.84.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
-  ws-opts:
-    headers:
-      Host: tiktok.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
   network: ws
   port: '52419'
@@ -26,6 +12,20 @@ proxies:
   ws-opts:
     headers:
       Host: whatsapp.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: '26012'
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
     path: /
 - alterId: 0
   cipher: auto
@@ -50,16 +50,3 @@ proxies:
   server: 18.141.8.132
   tfo: false
   type: ss
-- name: 24|SG_speednode_0072
-  network: ws
-  password: duniavpn-duniavpn
-  port: 443
-  server: sgfreenicuy.duniavpn.me
-  skip-cert-verify: true
-  sni: bug.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: sgfreenicuy.duniavpn.me
-    path: /trojan
