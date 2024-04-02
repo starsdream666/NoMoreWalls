@@ -26,3 +26,17 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn广东省广州市
+  network: ws
+  port: '46038'
+  server: 120.232.159.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3
+  ws-opts:
+    headers:
+      Host: mf838f.micloud.buzz
+    path: /zh-cn
