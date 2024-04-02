@@ -11,6 +11,20 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
+  name: 19|日本 V2CROSS.COM
+  network: ws
+  port: '80'
+  server: max26.flash5g.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e25f91f-603c-4e83-b002-c26030757816
+  ws-opts:
+    headers:
+      Host: max26.flash5g.com
+    path: /AnhBin
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
