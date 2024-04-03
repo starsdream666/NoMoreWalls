@@ -11,20 +11,6 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 19|日本 002
-  network: ws
-  port: 8080
-  server: 87.120.204.64
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: 87.120.204.64
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 21|🇯🇵 日本|@ripaojiedian
   network: ws
@@ -39,23 +25,6 @@ proxies:
     headers:
       Host: mf411f.micloud.buzz
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 21,22|日本3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 87.120.204.126
-  servername: jp-14.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 21|🇯🇵 日本特殊|@ripaojiedian

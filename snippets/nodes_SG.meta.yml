@@ -1,23 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  name: 19|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
   network: ws
-  port: '52419'
-  server: 128.199.193.14
+  port: '26012'
+  server: 146.190.84.34
   servername: ''
   tls: false
   type: vmess
-  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
   ws-opts:
     headers:
-      Host: whatsapp.net
+      Host: tiktok.com
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 21|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.231.229.48
-  tfo: false
-  type: ss
