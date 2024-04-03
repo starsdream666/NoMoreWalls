@@ -21,3 +21,11 @@ proxies:
   server: 789rmi3z.chytenciz-jgufv-sg02.my777999.top
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 21|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.231.229.48
+  tfo: false
+  type: ss
