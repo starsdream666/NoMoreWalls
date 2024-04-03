@@ -13,3 +13,11 @@ proxies:
     headers:
       Host: whatsapp.net
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 21|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.231.229.48
+  tfo: false
+  type: ss
