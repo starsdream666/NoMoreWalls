@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|日本 1 Nico Abema - 西瓜皮是真的皮〖电报：@...
-  network: tcp
-  port: 19831
-  server: xg-cm2.dx001.top
+  name: 19|日本 002
+  network: ws
+  port: 8080
+  server: 87.120.204.64
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: f6b92f29-1b3c-3628-86b0-b47a44a2b3bf
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 87.120.204.64
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
