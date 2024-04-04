@@ -4,7 +4,6 @@ payload:
 - DOMAIN-KEYWORD,clash
 - DOMAIN-KEYWORD,v2ray
 - DOMAIN-KEYWORD,v2fly
-- DOMAIN-SUFFIX,star-history.com
 - DOMAIN-SUFFIX,ivonblog.com
 - DOMAIN-SUFFIX,googleapis.cn
 - DOMAIN-SUFFIX,gitlab.io

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  name: 16|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
   network: ws
   port: '26012'
   server: 146.190.84.34
@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
   network: ws
   port: '52419'
   server: 128.199.193.14
@@ -29,7 +29,7 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 21|🇸🇬 新加坡|@ripaojiedian
+  name: 18|🇸🇬 新加坡|@ripaojiedian
   password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
   port: 20109
   server: ddns.olucloud.subapi.cc
@@ -37,7 +37,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 21|🇸🇬 狮城特殊|@ripaojiedian
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.215.156.208

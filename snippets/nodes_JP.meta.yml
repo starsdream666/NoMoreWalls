@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|日本 002
+  name: 16|日本 002
   network: ws
   port: 8080
   server: 87.120.204.64
@@ -16,7 +16,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21|🇯🇵 日本|@ripaojiedian
+  name: 18|🇯🇵 日本|@ripaojiedian
   network: ws
   port: 46012
   server: mf411f.micloud.buzz
@@ -31,7 +31,7 @@ proxies:
     path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 21|🇯🇵 日本2|@ripaojiedian
+  name: 18|🇯🇵 日本2|@ripaojiedian
   password: 4f2fdda5-9fb0-4c0c-8ec7-77fe7ae15a3d
   port: 43505
   server: rk2.izoizoizo.top
@@ -39,7 +39,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 22|日本|@ripaojiedian
+  name: 19|日本|@ripaojiedian
   network: ws
   port: '46012'
   server: mf411f.micloud.buzz
@@ -51,13 +51,27 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 26|baipaovpn日本
+  name: 22|baipaovpn日本
+  network: ws
+  port: '2052'
+  server: 47.74.6.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
+- alterId: 0
+  cipher: auto
+  name: 22|baipaovpn日本东京
   network: tcp
-  port: '28786'
-  server: 54.249.214.28
-  servername: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
+  port: '30101'
+  server: 18.176.134.145
+  servername: jp01.tomoony.xyz
   tls: true
   type: vmess
-  uuid: e147ce52-2598-31b0-950d-6b12c306b360
+  uuid: 71609ebd-9a75-3bc3-91ad-a87d8d7afb29
