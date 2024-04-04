@@ -25,6 +25,13 @@ log-level: warning
 # Clash 的 RESTful API
 external-controller: '0.0.0.0:9090'
 
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+
+global-client-fingerprint: chrome
 
 proxies: []
 
@@ -107,7 +114,7 @@ rules:
   - DOMAIN-KEYWORD,v2ray,🚀 选择代理
   - DOMAIN-KEYWORD,v2fly,🚀 选择代理
   - DOMAIN-SUFFIX,trafficmanager.net,DIRECT
-  - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
+  # - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
   - DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理 # 视情况而定
   - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理 # 代理会自动切到国外，详情请见 README
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器

@@ -48,7 +48,7 @@ jobs:
     - name: 计算要清除缓存的文件
       id: purge_urls
       run: |
-        sleep 3
+        sleep 5
         baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
         urls=""
         for f in `find snippets -name "*.yml" -type f`; do

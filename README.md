@@ -42,25 +42,27 @@
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+- [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+
+以下链接可能不是最新：
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
-- [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 以下加速链接可能无效：
-- [FastGit](https://raw.fgit.cf/peasoft/NoMoreWalls/master/list.txt) (403 Forbidden)
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.txt)
 - [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.txt)
 
 或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，请将链接最后的 `.yml` 替换成 `.meta.yml`。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
+- [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
+
+以下链接可能不是最新：
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
-- [FastGit](https://raw.fgit.cf/peasoft/NoMoreWalls/master/list.yml)
-- [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 以下加速链接可能无效：
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.yml)
@@ -74,7 +76,7 @@
 
 由于本仓库的完整 Commit 历史极大（见页顶 repo size），如果要克隆本仓库，请使用：
 
-```
+```bash
 git clone https://github.com/peasoft/NoMoreWalls.git --depth=1
 ```
 

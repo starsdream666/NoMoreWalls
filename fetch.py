@@ -980,6 +980,7 @@ def main():
     conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
 
     # Clash & Meta
+    global_fp: Optional[str] = conf.get('global-client-fingerprint', None)
     proxies: List[Node.DATA_TYPE] = []
     proxies_meta: List[Node.DATA_TYPE] = []
     ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
@@ -987,6 +988,9 @@ def main():
     names_clash_meta: Union[Set[str], List[str]] = set()
     for p in merged.values():
         if p.supports_meta():
+            if ('client-fingerprint' in p.data and
+                    p.data['client-fingerprint'] == global_fp):
+                del p.data['client-fingerprint']
             proxies_meta.append(p.clash_data)
             names_clash_meta.add(p.data['name'])
             if p.supports_clash():
