@@ -1,21 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|香港 001
-  network: ws
-  port: 8080
-  server: 194.99.79.178
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: 194.99.79.178
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT|@ripaojiedian
+  name: 5|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -31,7 +17,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT2|@ripaojiedian
+  name: 5|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -48,7 +34,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港5|@ripaojiedian
+  name: 5,6|香港5|@ripaojiedian
   network: ws
   port: '8080'
   server: 185.244.208.61
@@ -64,7 +50,7 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港2|@ripaojiedian
+  name: 5|🇭🇰 香港2|@ripaojiedian
   password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
   port: 10061
   server: v3-js-hk.as9929.uk
@@ -73,7 +59,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港4|@ripaojiedian
+  name: 5|🇭🇰 香港4|@ripaojiedian
   network: ws
   port: 2095
   server: fcdn.flha.ru
@@ -88,7 +74,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 19|香港3|@ripaojiedian
+  name: 6|香港3|@ripaojiedian
   network: tcp
   port: '35601'
   server: 120.238.122.243
@@ -98,7 +84,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19|香港1|@ripaojiedian
+  name: 6|香港1|@ripaojiedian
   network: tcp
   port: '45449'
   server: xctransfer1st.cokecloud.top
@@ -108,7 +94,7 @@ proxies:
   uuid: 5d9bdafc-35a3-4adf-88a9-b8d827a77cd8
 - alterId: 0
   cipher: auto
-  name: 19|香港4|@ripaojiedian
+  name: 6|香港4|@ripaojiedian
   network: ws
   port: '2095'
   server: fcdn.flha.ru
@@ -122,7 +108,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 22|baipaovpn香港
+  name: 9|baipaovpn香港
   network: ws
   port: '2053'
   server: 47.242.155.183

@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
-  network: ws
-  port: 53259
-  server: 104.234.69.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+proxies: []
