@@ -2,9 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
+  name: 5,6,10|🇺🇸_US_美国_9_27
   network: ws
-  port: '2082'
+  port: 2082
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -18,10 +18,49 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_18
+  name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com9
   network: ws
   port: 8080
-  server: 173.245.58.100
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_5_22
+  network: ws
+  port: 8880
+  server: cdn.vds-server.ir
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_6_23
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_8_26
+  network: ws
+  port: 8080
+  server: 162.159.7.226
   tls: false
   type: vmess
   uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
@@ -31,53 +70,10 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_23
-  network: ws
-  port: 2052
-  server: mahilu.site
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_28
+  network: tcp
+  port: 47918
+  server: 207.148.10.248
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_3_24
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_27
-  network: ws
-  port: 80
-  server: 172.67.116.48
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      Host: wap.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_6_29
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    headers:
-      Host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+  uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691
