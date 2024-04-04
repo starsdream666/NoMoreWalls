@@ -13,3 +13,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn广东省广州市
+  network: tcp
+  port: '50003'
+  server: 14.18.91.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 80d448a5-115b-4af5-8505-89d26fe21fc0

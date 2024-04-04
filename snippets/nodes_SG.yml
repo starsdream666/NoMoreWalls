@@ -15,17 +15,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-WS-NONE 🇸🇬 SG-146.190.87....
-  network: ws
-  port: 19193
-  server: 146.190.87.238
-  tls: false
-  type: vmess
-  uuid: 0f94fdae-5653-4314-9c92-e57e5ec55513
-  ws-opts:
-    path: /ow
-- alterId: 0
-  cipher: auto
   name: 19|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
   network: ws
   port: '52419'

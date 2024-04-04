@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
   name: 19|日本 002
   network: ws
   port: 8080
@@ -61,3 +51,13 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 1
+  cipher: auto
+  name: 26|baipaovpn日本
+  network: tcp
+  port: '28786'
+  server: 54.249.214.28
+  servername: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: e147ce52-2598-31b0-950d-6b12c306b360
