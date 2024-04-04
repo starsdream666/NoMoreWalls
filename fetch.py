@@ -13,7 +13,7 @@ import sys
 import os
 import copy
 from types import FunctionType as function
-from typing import Set, List, Dict, Union, Any, Optional
+from typing import Set, List, Dict, Union, Any, Optional, no_type_check
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -131,47 +131,41 @@ class Node:
         try:
             path = ""
             if self.type == 'vmess':
-                path = data['network']+':'
-                if data['network'] == 'ws':
-                    if 'ws-opts' in data:
-                        try:
-                            path += data['ws-opts']['headers']['Host']
-                        except KeyError: pass
-                        if 'path' in data['ws-opts']:
-                            path += '/'+data['ws-opts']['path']
-                elif data['network'] == 'h2':
-                    if 'h2-opts' in data:
-                        if 'host' in data['h2-opts']:
-                            path += ','.join(data['h2-opts']['host'])
-                        if 'path' in data['h2-opts']:
-                            path += '/'+data['h2-opts']['path']
-                elif data['network'] == 'grpc':
-                    if 'grpc-opts' in data:
-                        if 'grpc-service-name' in data['grpc-opts']:
-                            path += data['grpc-opts']['grpc-service-name']
+                net: str = data.get('network', '')
+                path = net+':'
+                if not net: pass
+                elif net == 'ws':
+                    opts: Dict[str, Any] = data.get('ws-opts', {})
+                    path += opts.get('headers', {}).get('Host', '')
+                    path += '/'+opts.get('path', '')
+                elif net == 'h2':
+                    opts: Dict[str, Any] = data.get('h2-opts', {})
+                    path += ','.join(opts.get('host', []))
+                    path += '/'+opts.get('path', '')
+                elif net == 'grpc':
+                    path += data.get('grpc-opts', {}).get('grpc-service-name','')
             elif self.type == 'ss':
-                if 'plugin-opts' in data:
-                    opts = data['plugin-opts']
-                    if 'host' in opts:
-                        path = opts['host']
-                    if 'path' in opts:
-                        path += '/'+opts['path']
+                opts: Dict[str, Any] = data.get('plugin-opts', {})
+                path = opts.get('host', '')
+                path += '/'+opts.get('path', '')
             elif self.type == 'ssr':
-                if 'obfs-param' in data:
-                    path = data['obfs-param']
+                path = data.get('obfs-param', '')
             elif self.type == 'trojan':
-                if 'sni' in data:
-                    path = data['sni']+':'
-                if data['network'] == 'ws':
-                    if 'ws-opts' in data:
-                        try:
-                            path += data['ws-opts']['headers']['Host']
-                        except KeyError: pass
-                        if 'path' in data['ws-opts']:
-                            path += '/'+data['ws-opts']['path']
+                path = data.get('sni', '')+':'
+                net: str = data.get('network', '')
+                if not net: pass
+                elif net == 'ws':
+                    opts: Dict[str, Any] = data.get('ws-opts', {})
+                    path += opts.get('headers', {}).get('Host', '')
+                    path += '/'+opts.get('path', '')
+                elif net == 'grpc':
+                    path += data.get('grpc-opts', {}).get('grpc-service-name','')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
-        except Exception: return hash('__ERROR__')
+        except Exception:
+            print("节点 Hash 计算失败！", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+            return hash('__ERROR__')
     
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -459,6 +453,7 @@ class Node:
         return True
 
 class Source():
+    @no_type_check
     def __init__(self, url: Union[str, function]) -> None:
         if isinstance(url, function):
             self.url: str = "dynamic://"+url.__name__
@@ -486,6 +481,7 @@ class Source():
                 self.date -= datetime.timedelta(days=1)
         self.url = url
 
+    @no_type_check
     def get(self, depth=2) -> None:
         global exc_queue
         if self.content: return
@@ -591,7 +587,7 @@ class Source():
                 if isinstance(sub[0], str):
                     self.sub = [_ for _ in sub if _.split('://', 1)[0] not in self.cfg['ignore']]
                 elif isinstance(sub[0], dict):
-                    self.sub = [_ for _ in sub if _.get('type', '') not in self.cfg['ignore']]
+                    self.sub = [_ for _ in sub if _.get('type', '') not in self.cfg['ignore']] #type:ignore
                 else: self.sub = sub
             else: self.sub = sub
         except KeyboardInterrupt: raise
@@ -650,7 +646,7 @@ def extract(url: str) -> Union[Set[str], int]:
             urls.add(line)
     return urls
 
-merged: Dict[str, Node] = {}
+merged: Dict[int, Node] = {}
 unknown: Set[str] = set()
 used: Dict[int, Dict[int, str]] = {}
 def merge(source_obj: Source, sourceId=-1) -> None:
@@ -675,14 +671,16 @@ def merge(source_obj: Source, sourceId=-1) -> None:
         else:
             n.format_name()
             Node.names.add(n.data['name'])
-            if hash(n) not in merged:
-                merged[hash(n)] = n
+            hashn = hash(n)
+            if hashn not in merged:
+                merged[hashn] = n
             else:
-                merged[hash(n)].data.update(n.data)
-            if hash(n) not in used:
-                used[hash(n)] = {}
-            used[hash(n)][sourceId] = n.name
+                merged[hashn].data.update(n.data)
+            if hashn not in used:
+                used[hashn] = {}
+            used[hashn][sourceId] = n.name
 
+@no_type_check
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
     # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
