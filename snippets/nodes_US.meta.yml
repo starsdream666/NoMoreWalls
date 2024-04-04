@@ -1069,6 +1069,15 @@ proxies:
     headers:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
+- delay: 1036
+  name: 24|US_speednode_0181
+  network: tcp
+  password: 27876_t7d7f4e3f
+  port: 443
+  server: 23.142.200.175
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #28'
@@ -1082,6 +1091,20 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 104.20.30.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      Host: newsg1.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_18
