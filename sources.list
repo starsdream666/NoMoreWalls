@@ -16,26 +16,30 @@
 # https://raw.githubusercontent.com/freefq/free/master/v2
 # https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
 # https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
-https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+# https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 # https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
 # https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 # https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD # 关闭，循环引用
 # https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
-https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md#ignore=vmess
-https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md#ignore=vmess
-https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md#ignore=vmess,vless
-https://raw.githubusercontent.com/mianfeifq/share/main/README.md#ignore=vmess/tcp
+
+https://raw.githubusercontent.com/mianfeifq/share/main/README.md#ignore=vmess
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess#ignore=vmess
+https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml#ignore=vmess,ss,ssr
+
+# 小水管
+https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md#ignore=vmess
+https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md#ignore=vmess
+https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md#ignore=vmess,vless
 
 # Alvin9999
-https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml#max=100
-https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml#max=100
-https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml#max=100
-https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml#max=100
-https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml#max=100
-https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml#max=100
+# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml#max=100
+# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml#max=100
+# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml#max=100
+# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml#max=100
+# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml#max=100
+# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml#max=100
 
 # 不更新
 # https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
@@ -53,7 +57,6 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yam
 # https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt
 # https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
 # https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
-https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml#ignore=vmess,ss,ssr
 # https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt
 # https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
 # https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
@@ -62,18 +65,12 @@ https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
 # 这里包含了全网的所有节点
 # https://raw.githubusercontent.com/mheidari98/.proxy/main/all
 
-# !https://freefq.neocities.org/free.txt
-# !https://freefq.neocities.org/free.xml
 # +date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
-+date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
-+date https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
-# +date https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-!+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
+# +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
+# !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
 # !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-!+date https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.txt
-# !+date https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-!+date https://wefound.cc/freenode/%Y/%m/%Y%m%d.txt
-# !+date https://wefound.cc/freenode/%Y/%m/%Y%m%d.yaml
+# !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
+# !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
 # !https://sub.nicevpn.top/long
 # !https://sub.nicevpn.top/Clash.yaml
 # https://sub.sharecentre.online/sub
@@ -84,7 +81,7 @@ https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
 
 # Copied from https://github.com/ClodQiu/Clash.Base64/blob/Grey/Node.Address
 https://vpnyyds.link/free
-!https://jc.openxai.link/
+# !https://jc.openxai.link/
 !https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads
 
 
