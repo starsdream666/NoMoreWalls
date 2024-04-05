@@ -186,7 +186,7 @@ proxies:
   name: 9|baipaovpn美国
   network: ws
   port: '80'
-  server: 3.38.179.117
+  server: 3.38.165.124
   servername: ''
   tls: false
   type: vmess
@@ -200,15 +200,29 @@ proxies:
   name: '9|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 3.38.179.117
+  server: 3.38.165.124
   servername: ''
   tls: false
   type: vmess
   uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
   ws-opts:
     headers:
-      Host: kr04.hajimihajimihajimi.online
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '2087'
+  server: 47.236.150.13
+  servername: jp.pddf.buzz
+  tls: true
+  type: vmess
+  uuid: 0b732cff-36f4-43e4-a921-7925c78afc92
+  ws-opts:
+    headers:
+      Host: jp.pddf.buzz
+    path: /pdd?ed=2048
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_1
