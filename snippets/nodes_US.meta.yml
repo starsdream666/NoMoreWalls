@@ -186,7 +186,7 @@ proxies:
   name: 9|baipaovpn美国
   network: ws
   port: '80'
-  server: 52.194.221.38
+  server: 3.38.179.117
   servername: ''
   tls: false
   type: vmess
@@ -200,14 +200,14 @@ proxies:
   name: '9|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 52.194.221.38
+  server: 3.38.179.117
   servername: ''
   tls: false
   type: vmess
   uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
   ws-opts:
     headers:
-      Host: ''
+      Host: kr04.hajimihajimihajimi.online
     path: /
 - alterId: 0
   cipher: auto

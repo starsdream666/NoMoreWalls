@@ -32,6 +32,14 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.254.167.160
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 6|日本|@ripaojiedian
@@ -248,15 +256,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn日本 #1'
+  name: 9|baipaovpn日本东京
   network: ws
   port: '80'
-  server: 54.249.134.209
+  server: 52.196.147.196
   servername: ''
   tls: false
   type: vmess
   uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
   ws-opts:
     headers:
-      Host: ''
+      Host: jp04.hajimihajimihajimi.online
     path: /
