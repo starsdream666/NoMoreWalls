@@ -1,8 +1,9 @@
 proxies:
-- name: 8|FR_speednode_0067
+- name: 8|FR_speednode_0026
   password: b3902e81-6260-4932-bcc9-708445fe40b4
   port: 443
-  server: 51.77.213.197
+  server: frt2.sshocean.net
   skip-cert-verify: true
+  sni: frt2.sshocean.net
   type: trojan
   udp: true
