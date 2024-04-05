@@ -33,3 +33,47 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- name: 8|TW_speednode_0179
+  password: 3c4e10af98c30972
+  port: 3306
+  server: 60.248.114.187
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 8|TW_speednode_0180
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.if.ua
+  skip-cert-verify: true
+  sni: official.taipeicitygovernment.if.ua
+  type: trojan
+  udp: true
+- name: 8|TW_speednode_0181
+  password: 3c4e10af98c30972
+  port: 3306
+  server: 60.248.114.186
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 8|TW_speednode_0182
+  password: 3c4e10af98c30972
+  port: 3306
+  server: 60.248.114.184
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 8|TW_speednode_0183
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.co.ua
+  skip-cert-verify: true
+  sni: official.taipeicitygovernment.co.ua
+  type: trojan
+  udp: true
+- name: 8|TW_speednode_0184
+  password: 3c4e10af98c30972
+  port: 3306
+  server: 60.248.114.185
+  skip-cert-verify: true
+  type: trojan
+  udp: true

@@ -1,15 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn法国
-  network: ws
-  port: '80'
-  server: 57.180.246.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  ws-opts:
-    headers:
-      Host: jp01.hajimihajimihajimi.online
-    path: /
+- name: 8|FR_speednode_0067
+  password: b3902e81-6260-4932-bcc9-708445fe40b4
+  port: 443
+  server: 51.77.213.197
+  skip-cert-verify: true
+  type: trojan
+  udp: true
