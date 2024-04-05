@@ -7,3 +7,17 @@ proxies:
   sni: frt2.sshocean.net
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn法国
+  network: ws
+  port: '88'
+  server: 57.181.145.223
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6c1f641-651f-4781-b9e2-c4e4858a619a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /name

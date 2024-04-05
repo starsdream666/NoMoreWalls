@@ -183,34 +183,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 3.38.165.124
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 3.38.165.124
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '9|baipaovpn美国 #2'
   network: ws
   port: '2087'
@@ -223,6 +195,16 @@ proxies:
     headers:
       Host: jp.pddf.buzz
     path: /pdd?ed=2048
+- alterId: 1
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: tcp
+  port: '449'
+  server: 52.195.19.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_1
