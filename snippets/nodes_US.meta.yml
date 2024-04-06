@@ -107,33 +107,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_1
-  network: ws
-  port: 2052
-  server: lol.ps
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2
-  network: ws
-  port: 8880
-  server: cdn.vds-server.ir
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_3
+  name: 10|🇺🇸_US_美国_4_27
   network: ws
   port: 80
   server: 172.67.116.48
@@ -146,7 +120,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_4
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_19
+  network: ws
+  port: 2053
+  server: qin15.rong1104.uk
+  tls: true
+  type: vmess
+  uuid: 869caccc-12af-4276-f458-366fa256f8a0
+  ws-opts:
+    path: /qin15
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -159,7 +144,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_5
+  name: 10|🇺🇸_US_美国_5_32
   network: ws
   port: 8080
   server: 162.159.137.249
