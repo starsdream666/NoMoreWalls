@@ -12,7 +12,23 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 1.65.218.192
+  server: 42.98.119.98
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港KT2|@ripaojiedian
+  password: oiwym4ovI4Yb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 61.224.79.46
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -21,14 +37,6 @@ proxies:
   password: Rad35baG
   port: 10001
   server: 121.43.117.216
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 5|🇭🇰 香港3|@ripaojiedian
-  password: 55062350-d53a-485b-a523-7f64a20fa6ae
-  port: 41878
-  server: hk.1.thap.xyz
   tfo: false
   type: ss
 - alterId: 64
@@ -42,23 +50,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|香港4|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 134.122.135.35
-  servername: www.44317374.xyz
+  name: 5|🇭🇰 香港3|@ripaojiedian
+  port: 44827
+  server: hkscdn02.dorabbb.top
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.44317374.xyz
-    path: /path/311227222808
+  uuid: 86933ebf-fe3a-4c67-8eb6-25c82bf07e85
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -97,7 +99,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 6,9|baipaovpn广东省广州市
+  name: '6,9|baipaovpn广东省广州市 #2'
   network: tcp
   port: '54100'
   server: 183.236.51.59
@@ -105,6 +107,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 6|香港3|@ripaojiedian
+  network: tcp
+  port: '44827'
+  server: hkscdn02.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86933ebf-fe3a-4c67-8eb6-25c82bf07e85
 - alterId: 64
   cipher: auto
   name: 6|香港7|@ripaojiedian
@@ -115,92 +127,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 8|HK_speednode_0038
-  password: ae4da236-bfec-4673-9e1e-bbbd942162a8
-  port: 443
-  server: hk02.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk02.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0031
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: ru01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: ru01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0032
-  password: aef2ca33-b162-409f-8f16-4c736c338412
-  port: 443
-  server: 20.205.37.136
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0043
-  password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8
-  port: 443
-  server: hk01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0049
-  password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8
-  port: 443
-  server: sk01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: sk01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0050
-  password: ee20db28-0e13-4936-96b1-37bfa5244854
-  port: 443
-  server: my01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: my01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0040
-  password: d02058f4f819dced
-  port: 3389
-  server: 45.11.104.94
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0042
-  password: 3c4e10af98c30972
-  port: 3306
-  server: 103.152.221.91
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0045
-  password: 72d8e820-7926-4ce3-a87c-b6969f425c79
-  port: 443
-  server: 103.235.46.40
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0046
-  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  port: 443
-  server: my.mjt001.com
-  skip-cert-verify: true
-  sni: my.mjt001.com
-  type: trojan
-  udp: true
-- name: 8|HK_speednode_0048
-  password: 4a39dba7-463b-4c8a-a804-758282c11c62
-  port: 443
-  server: 52.175.23.201
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn香港 #3'
+  name: 9|baipaovpn香港
   network: tcp
   port: '443'
   server: 220.246.94.127
@@ -208,31 +137,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #4'
-  network: ws
-  port: '51275'
-  server: 202.81.231.30
-  servername: jp.pddf.buzz
-  tls: true
-  type: vmess
-  uuid: 0b732cff-36f4-43e4-a921-7925c78afc92
-  ws-opts:
-    headers:
-      Host: jp.pddf.buzz
-    path: /pdd?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #5'
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /

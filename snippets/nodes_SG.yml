@@ -1,78 +1,63 @@
 proxies:
-- name: 8|SG_speednode_0131
-  password: d02058f4f819dced
-  port: 3306
-  server: 5.44.249.44
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0134
-  password: b09d2aaa443af97a
-  port: 3306
-  server: 5.44.249.43
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0139
-  password: dT6h9HBwQO
-  port: 31313
-  server: 139.59.108.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0140
-  password: d4e41ff772c7fd45
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0142
-  password: 8a5360b3b31229d8
-  port: 3306
-  server: 5.44.249.50
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0144
-  password: dc2d9db59868ba6b
-  port: 3306
-  server: 5.44.249.51
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0145
-  password: 26a663656e575c0b
-  port: 3389
-  server: 5.44.249.51
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0150
-  password: 3c4e10af98c30972
-  port: 3306
-  server: 5.44.249.53
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0149
-  password: 9flLNn3JNs
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡2|@ripaojiedian
+  port: 37996
+  server: 9898.fz-6-0-kcet8y0fd-so04.my777999.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 139.59.108.29
+  server: 13.124.212.29
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|新加坡2|@ripaojiedian
+  network: tcp
+  port: '37996'
+  server: 9898.fz-6-0-kcet8y0fd-so04.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
+- name: 8|SG_speednode_0032
+  password: fVTtA8rx8GMX
+  port: 17352
+  server: 13.212.182.235
   skip-cert-verify: true
+  sni: appsvs.shop
   type: trojan
   udp: true
-- name: 8|SG_speednode_0151
-  password: cd39f62aed7b90f6
-  port: 3389
-  server: 5.44.249.43
+- name: 8|SG_speednode_0033
+  password: bDBQZ)evYawi
+  port: 17358
+  server: 47.128.153.210
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0153
-  password: 9a27800ca7b52ee0
-  port: 3389
-  server: 103.172.116.113
-  skip-cert-verify: true
+  sni: appsvs.shop
   type: trojan
   udp: true
