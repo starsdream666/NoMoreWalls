@@ -45,19 +45,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 22212159-1be2-4c81-afbb-6203b6a51739
-- name: 8|SG_speednode_0032
-  password: fVTtA8rx8GMX
-  port: 17352
-  server: 13.212.182.235
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- name: 8|SG_speednode_0033
-  password: bDBQZ)evYawi
-  port: 17358
-  server: 47.128.153.210
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
