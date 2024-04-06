@@ -397,17 +397,3 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #1'
-  network: ws
-  port: '2083'
-  server: 47.243.86.79
-  servername: jp.pddf.buzz
-  tls: true
-  type: vmess
-  uuid: 0b732cff-36f4-43e4-a921-7925c78afc92
-  ws-opts:
-    headers:
-      Host: jp.pddf.buzz
-    path: /pdd?ed=2048
