@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|US_speednode_0114
+  name: 8|US_speednode_0108
   network: ws
   port: 34147
   server: 156.251.183.226
@@ -15,7 +15,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|US_speednode_0115
+  name: 8|US_speednode_0109
   network: ws
   port: 123
   server: 199.19.110.225
@@ -30,22 +30,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|US_speednode_0116
-  network: ws
-  port: 32939
-  server: 154.17.11.211
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|US_speednode_0117
+  name: 8|US_speednode_0110
   network: ws
   port: 80
   server: 34.95.126.8
@@ -58,6 +43,48 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 3.36.56.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8643b6c5-d037-41f4-9081-43756b1e9e8d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 3.36.56.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8643b6c5-d037-41f4-9081-43756b1e9e8d
+  ws-opts:
+    headers:
+      Host: kr03.handsomequinlan.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 3.36.56.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 42e97605-d7cb-4b90-a5e5-aeddefda4b2d
+  ws-opts:
+    headers:
+      Host: kr03.36routes.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_4_27

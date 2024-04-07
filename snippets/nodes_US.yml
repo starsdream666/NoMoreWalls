@@ -1,6 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 3.36.56.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8643b6c5-d037-41f4-9081-43756b1e9e8d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 3.36.56.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8643b6c5-d037-41f4-9081-43756b1e9e8d
+  ws-opts:
+    headers:
+      Host: kr03.handsomequinlan.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 3.36.56.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 42e97605-d7cb-4b90-a5e5-aeddefda4b2d
+  ws-opts:
+    headers:
+      Host: kr03.36routes.online
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_4_27
   network: ws
   port: 80

@@ -17,7 +17,7 @@ proxies:
       Host: hinet.luodi.xyz
     path: /hinet
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0109
+  name: 8|TW_speednode_0104
   network: ws
   port: 12559
   server: 118.163.128.81
@@ -32,7 +32,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0110
+  name: 8|TW_speednode_0105
   network: ws
   port: 36633
   server: 61.220.41.143
@@ -47,7 +47,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0111
+  name: 8|TW_speednode_0106
   network: ws
   port: 20734
   server: 125.227.70.180
@@ -62,7 +62,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0112
+  name: 8|TW_speednode_0107
   network: ws
   port: 4443
   server: 211.75.74.232

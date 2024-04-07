@@ -25,7 +25,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 8|SG_speednode_0108
+  name: 8|SG_speednode_0103
   network: ws
   port: 8443
   server: 139.162.9.77
