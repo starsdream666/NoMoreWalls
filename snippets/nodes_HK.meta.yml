@@ -377,3 +377,13 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn香港 #1'
+  network: tcp
+  port: '80'
+  server: 42.98.27.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
