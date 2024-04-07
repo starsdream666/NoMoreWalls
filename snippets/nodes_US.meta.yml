@@ -45,20 +45,6 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 3.36.56.119
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 42e97605-d7cb-4b90-a5e5-aeddefda4b2d
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_5
   network: ws
   port: 2087
