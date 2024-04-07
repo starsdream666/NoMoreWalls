@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦_CA_加拿大_3由快嘴科技提供：kkzui.com
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+proxies: []
