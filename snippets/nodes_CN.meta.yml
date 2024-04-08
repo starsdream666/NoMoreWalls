@@ -35,17 +35,3 @@ proxies:
     headers:
       Host: hk.lalayunssl.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn中国
-  network: ws
-  port: '2053'
-  server: 8.218.142.253
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
