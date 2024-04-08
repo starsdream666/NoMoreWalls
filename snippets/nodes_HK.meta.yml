@@ -112,16 +112,6 @@ proxies:
   server: 47.96.69.161
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|香港2|@ripaojiedian
-  network: tcp
-  port: '80'
-  server: UNLIMITED.HUY.0.SRL
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
 - alterId: 64
   cipher: auto
   name: 6|香港3|@ripaojiedian
@@ -132,21 +122,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 8|HK_speednode_0016
-  network: ws
-  port: 2053
-  server: 47.243.183.127
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
 - client-fingerprint: chrome
   name: 8|HK_speednode_0017
   network: ws
@@ -197,36 +172,6 @@ proxies:
   network: ws
   port: 8080
   server: 45.78.30.50
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|HK_speednode_0022
-  network: ws
-  port: 8443
-  server: 47.243.183.127
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|HK_speednode_0023
-  network: ws
-  port: 31613
-  server: 194.169.55.101
   servername: cfed.tgzdyz2.top
   skip-cert-verify: false
   tfo: false
@@ -313,21 +258,6 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0029
-  network: ws
-  port: 443
-  server: 43.198.53.11
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
   name: 8|HK_speednode_0030
   network: ws
   port: 34237
@@ -344,7 +274,7 @@ proxies:
     path: TG@ZDYZ2
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn香港 #2'
+  name: 9|baipaovpn香港
   network: tcp
   port: '80'
   server: 42.3.121.109

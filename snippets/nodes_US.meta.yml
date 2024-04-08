@@ -1,20 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|US_speednode_0108
-  network: ws
-  port: 34147
-  server: 156.251.183.226
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
   name: 8|US_speednode_0109
   network: ws
   port: 123
