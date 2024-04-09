@@ -1,4 +1,33 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾|@ripaojiedian
+  password: oiwym4ovI4Yb
+  port: 81
+  server: 61.224.79.46
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾2|@ripaojiedian
+  port: 34999
+  server: 90778990.okc94l-zleouxmco-tw01.my777999.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
+- alterId: 0
+  cipher: auto
+  name: 6|台湾2|@ripaojiedian
+  network: tcp
+  port: '34999'
+  server: 90778990.okc94l-zleouxmco-tw01.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
 - client-fingerprint: chrome
   name: 8|TW_speednode_0104
   network: ws
