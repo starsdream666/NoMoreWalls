@@ -1,77 +1,5 @@
 proxies:
-- name: 8|CN_speednode_0034
-  password: 6647ca6c-587e-40ea-8551-6131c31d68bf
-  port: 31018
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: in-01.v4vip.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0035
-  password: 6ebf4f72-17dd-3a33-96fd-dd4ff6c199ad
-  port: 20071
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x71.flybar.work
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0037
-  password: 6ebf4f72-17dd-3a33-96fd-dd4ff6c199ad
-  port: 20059
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x59.flybar.work
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0039
-  password: 6647ca6c-587e-40ea-8551-6131c31d68bf
-  port: 31008
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: us-03.v4vip.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0040
-  password: 6647ca6c-587e-40ea-8551-6131c31d68bf
-  port: 31009
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: us-04.v4vip.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0043
-  password: 6ebf4f72-17dd-3a33-96fd-dd4ff6c199ad
-  port: 50355
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z264.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0049
-  password: 6647ca6c-587e-40ea-8551-6131c31d68bf
-  port: 31007
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: us-02.v4vip.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0052
-  password: 6647ca6c-587e-40ea-8551-6131c31d68bf
-  port: 31006
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: us-01.v4vip.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0056
-  password: 6ebf4f72-17dd-3a33-96fd-dd4ff6c199ad
-  port: 20301
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z301.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0062
+- name: 8|CN_speednode_0011
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 26023
   server: gcdddd0001.likeone.lol
@@ -79,7 +7,7 @@ proxies:
   sni: hk02.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0064
+- name: 8|CN_speednode_0012
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 26094
   server: gcdddd0001.likeone.lol
@@ -87,39 +15,7 @@ proxies:
   sni: id01.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0069
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 16343
-  server: gcdddd0001.likeone.lol
-  skip-cert-verify: true
-  sni: vn01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0078
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 58464
-  server: gcdddd0005.likeone.lol
-  skip-cert-verify: true
-  sni: sg02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0079
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 15485
-  server: gcdddd0003.likeone.lol
-  skip-cert-verify: true
-  sni: hk04.ckcloud.info
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0080
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 16343
-  server: gcdddd0005.likeone.lol
-  skip-cert-verify: true
-  sni: vn01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0081
+- name: 8|CN_speednode_0015
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 16483
   server: gcdddd0005.likeone.lol
@@ -127,7 +23,7 @@ proxies:
   sni: jp03.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0082
+- name: 8|CN_speednode_0016
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 15485
   server: gcdddd0005.likeone.lol
@@ -135,7 +31,23 @@ proxies:
   sni: hk04.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0087
+- name: 8|CN_speednode_0017
+  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
+  port: 16343
+  server: gcdddd0005.likeone.lol
+  skip-cert-verify: true
+  sni: vn01.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0019
+  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
+  port: 16343
+  server: gcdddd0001.likeone.lol
+  skip-cert-verify: true
+  sni: vn01.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0020
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 53279
   server: gcdddd0001.likeone.lol
@@ -143,7 +55,7 @@ proxies:
   sni: de01.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0090
+- name: 8|CN_speednode_0022
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 26681
   server: gcdddd0001.likeone.lol
@@ -151,7 +63,7 @@ proxies:
   sni: us04.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0092
+- name: 8|CN_speednode_0023
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 53279
   server: gcdddd0005.likeone.lol
@@ -159,25 +71,35 @@ proxies:
   sni: de01.ckcloud.info
   type: trojan
   udp: true
-- name: 8|CN_speednode_0097
+- name: 8|CN_speednode_0026
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 26681
-  server: gcdddd0005.likeone.lol
+  port: 58464
+  server: gcdddd0001.likeone.lol
   skip-cert-verify: true
-  sni: us04.ckcloud.info
+  sni: sg02.ckcloud.info
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn广东省广州市
-  network: ws
-  port: '10163'
-  server: 36.133.177.91
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
-  ws-opts:
-    headers:
-      Host: hk.lalayunssl.xyz
-    path: /v2ray
+- name: 8|CN_speednode_0028
+  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
+  port: 15485
+  server: gcdddd0001.likeone.lol
+  skip-cert-verify: true
+  sni: hk04.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0030
+  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
+  port: 16483
+  server: gcdddd0001.likeone.lol
+  skip-cert-verify: true
+  sni: jp03.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0032
+  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
+  port: 60293
+  server: gcdddd0005.likeone.lol
+  skip-cert-verify: true
+  sni: tur01.ckcloud.info
+  type: trojan
+  udp: true

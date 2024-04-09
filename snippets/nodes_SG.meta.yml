@@ -7,11 +7,3 @@ proxies:
   server: 52.197.32.239
   tfo: false
   type: ss
-- name: 8|SG_speednode_0130
-  password: aC2aD0L)HDZX
-  port: 12308
-  server: 54.179.6.214
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
