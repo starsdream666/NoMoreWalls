@@ -70,7 +70,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #2'
+  name: '6,9|baipaovpn美国 #1'
+  network: tcp
+  port: '21945'
+  server: 172.98.22.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be2691a5-180e-488b-835a-45e991299830
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
   network: ws
   port: '80'
   server: 172.64.104.182
