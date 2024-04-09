@@ -7,18 +7,11 @@ proxies:
   server: 52.197.32.239
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 8|SG_speednode_0103
-  network: ws
-  port: 8443
-  server: 139.162.9.77
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
+- name: 8|SG_speednode_0130
+  password: aC2aD0L)HDZX
+  port: 12308
+  server: 54.179.6.214
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true

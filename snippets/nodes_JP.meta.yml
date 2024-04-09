@@ -33,150 +33,41 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0031
+- name: 8|JP_speednode_0120
+  password: gq7Nxx797uxI
+  port: 12287
+  server: 35.77.98.61
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- name: 8|JP_speednode_0121
+  password: keLkchhIHkAO
+  port: 12290
+  server: 13.230.147.26
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- name: 8|JP_speednode_0122
+  password: UggiFrRQrkZN
+  port: 12294
+  server: 54.238.44.91
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
   network: ws
-  port: 443
-  server: 54.238.114.82
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0032
-  network: ws
-  port: 443
-  server: 128.22.132.227
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0034
-  network: ws
-  port: 48368
-  server: 45.66.128.116
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0035
-  network: ws
-  port: 50013
-  server: 147.78.247.110
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0037
-  network: ws
-  port: 80
-  server: 47.245.37.12
-  skip-cert-verify: false
-  tfo: false
+  port: '41597'
+  server: 183.181.36.194
+  servername: ''
   tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0046
-  network: ws
-  port: 2053
-  server: 176.97.73.99
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0042
-  network: ws
-  port: 80
-  server: 47.245.30.208
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0043
-  network: ws
-  port: 80
-  server: 47.245.56.207
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0044
-  network: ws
-  port: 34237
-  server: 45.251.240.229
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0045
-  network: ws
-  port: 2053
-  server: 176.97.73.82
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+      Host: internet.life.com.by
+    path: /
