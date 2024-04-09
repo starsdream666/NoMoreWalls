@@ -100,6 +100,20 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '55210'
+  server: 130.162.134.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03b4cf2f-ee21-40f4-9df5-24146f88be7a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /huaxia
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_4
   network: ws
   port: 2082
