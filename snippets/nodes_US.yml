@@ -72,20 +72,6 @@ proxies:
   uuid: be2691a5-180e-488b-835a-45e991299830
 - alterId: 0
   cipher: auto
-  name: 6|美国5|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: fcdn.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|baipaovpn美国
   network: ws
   port: '80'
@@ -101,6 +87,216 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '8080'
+  server: 104.21.234.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '8080'
+  server: 104.21.234.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
+  port: '8080'
+  server: 104.21.238.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #4'
+  network: ws
+  port: '8080'
+  server: 104.21.234.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #5'
+  network: ws
+  port: '8080'
+  server: 104.21.234.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #6'
+  network: ws
+  port: '8080'
+  server: 104.21.234.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #7'
+  network: ws
+  port: '8080'
+  server: 104.21.234.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #8'
+  network: ws
+  port: '8080'
+  server: 104.21.234.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #9'
+  network: ws
+  port: '8080'
+  server: 104.21.234.73
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #10'
+  network: ws
+  port: '8080'
+  server: 104.21.238.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #11'
+  network: ws
+  port: '8080'
+  server: 104.21.238.86
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #12'
+  network: ws
+  port: '8080'
+  server: 104.21.234.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #13'
+  network: ws
+  port: '8080'
+  server: 104.21.234.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #14'
+  network: ws
+  port: '8080'
+  server: 104.21.234.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #15'
+  network: ws
+  port: '8080'
+  server: 104.21.234.131
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  ws-opts:
+    headers:
+      Host: us2.laobideng.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #16'
   network: ws
   port: '55210'
   server: 130.162.134.31
