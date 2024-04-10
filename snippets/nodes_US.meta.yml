@@ -2,9 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '5,6,9|baipaovpn美国 #7'
+  name: 5,6,9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_6_由快嘴科技提供：...
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.161
   servername: ''
   skip-cert-verify: false
@@ -19,9 +19,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
+  name: 5,6,10|🇺🇸_US_美国_4
   network: ws
-  port: '2095'
+  port: 2095
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -114,6 +114,14 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- name: 8|US_speednode_0137
+  password: 87b1b7c2-317c-41c3-a490-2cbf47a68200
+  port: 30018
+  server: us03.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: us03.freeflyingcloud.xyz
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
@@ -130,9 +138,9 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_8_由快嘴科技提供：...
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.156
   servername: ''
   tls: false
@@ -144,9 +152,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #2'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_4_9
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.215
   servername: ''
   tls: false
@@ -158,9 +166,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #3'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk...
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.238.230
   servername: ''
   tls: false
@@ -172,9 +180,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #4'
+  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #1'
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.97
   servername: ''
   tls: false
@@ -186,9 +194,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #5'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_9_由快嘴科技提供：...
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.122
   servername: ''
   tls: false
@@ -200,9 +208,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #6'
+  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #4'
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.47
   servername: ''
   tls: false
@@ -214,9 +222,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #8'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_2_3
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.164
   servername: ''
   tls: false
@@ -242,9 +250,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #10'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_5_由快嘴科技提供：...
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.238.62
   servername: ''
   tls: false
@@ -256,9 +264,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #11'
+  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #3'
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.238.86
   servername: ''
   tls: false
@@ -270,9 +278,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #12'
+  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #2'
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.50
   servername: ''
   tls: false
@@ -284,9 +292,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #13'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_3_7
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.94
   servername: ''
   tls: false
@@ -298,9 +306,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #14'
+  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #5'
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.106
   servername: ''
   tls: false
@@ -312,9 +320,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #15'
+  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_7_由快嘴科技提供：...
   network: ws
-  port: '8080'
+  port: 8080
   server: 104.21.234.131
   servername: ''
   tls: false
@@ -340,45 +348,14 @@ proxies:
     path: /huaxia
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_4
+  name: 10|🇺🇸_US_美国_34
   network: ws
-  port: 2082
-  server: 172.67.130.140
+  port: 46666
+  server: us-phoenix-oracle-3e4543.ip1.shop
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_8
-  network: ws
-  port: 2052
-  server: lol.ps
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_由快嘴科技提供;kkzui.com8
-  network: tcp
-  port: 28241
-  server: 38.147.160.101
-  tls: false
-  type: vmess
-  uuid: adf0d7fc-6c13-4cff-e02a-e130cf562c6f
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com9
-  network: tcp
-  port: 41384
-  server: 38.147.160.101
-  tls: false
-  type: vmess
-  uuid: ab6643ec-5172-4a7b-b0e0-f2767bae83aa
+      Host: us-phoenix-oracle-3e4543.ip1.shop
+    path: /rongseven?ed=2048
