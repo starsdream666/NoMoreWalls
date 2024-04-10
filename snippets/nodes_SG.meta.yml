@@ -1,9 +1,65 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.197.32.239
+- client-fingerprint: random
+  name: 8|SG_speednode_0129
+  network: ws
+  port: 10014
+  server: 161.117.36.43
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
   tfo: false
-  type: ss
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|SG_speednode_0130
+  network: ws
+  port: 2053
+  server: 8.222.154.50
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|SG_speednode_0131
+  network: ws
+  port: 2053
+  server: 8.222.160.61
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|SG_speednode_0132
+  network: ws
+  port: 8443
+  server: 139.162.9.77
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2

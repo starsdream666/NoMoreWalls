@@ -33,3 +33,129 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- client-fingerprint: random
+  name: 8|JP_speednode_0066
+  network: ws
+  port: 48368
+  server: 45.66.128.116
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0067
+  network: ws
+  port: 443
+  server: 128.22.132.227
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0068
+  network: ws
+  port: 13504
+  server: 176.119.148.119
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0069
+  network: ws
+  port: 443
+  server: 3.112.21.102
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0070
+  network: ws
+  port: 50013
+  server: 147.78.247.110
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0071
+  network: ws
+  port: 34237
+  server: 45.251.240.229
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0072
+  network: ws
+  port: 8443
+  server: 176.97.73.82
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0073
+  network: ws
+  port: 2053
+  server: 176.97.73.82
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
