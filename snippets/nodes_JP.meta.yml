@@ -33,6 +33,14 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.168.245.187
+  tfo: false
+  type: ss
 - client-fingerprint: random
   name: 8|JP_speednode_0042
   network: ws
