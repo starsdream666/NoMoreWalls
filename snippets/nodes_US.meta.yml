@@ -88,8 +88,20 @@ proxies:
     headers:
       Host: ''
     path: /
+- name: 8|US_speednode_0159
+  network: ws
+  port: 2083
+  server: 204.93.210.160
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0144
+  name: 8|US_speednode_0160
   network: ws
   port: 80
   server: 34.95.126.8
