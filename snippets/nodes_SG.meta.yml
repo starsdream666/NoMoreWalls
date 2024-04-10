@@ -48,7 +48,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|SG_speednode_0132
+  name: 8|SG_speednode_0135
   network: ws
   port: 8443
   server: 139.162.9.77

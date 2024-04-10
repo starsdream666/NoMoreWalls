@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '5,9|baipaovpn美国 #7'
+  name: '5,6,9|baipaovpn美国 #7'
   network: ws
   port: '8080'
   server: 104.21.234.161
@@ -44,10 +44,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国4|@ripaojiedian
+  name: 5,6|美国4|@ripaojiedian
   network: ws
-  port: 8080
+  port: '8080'
   server: us111.5our.top
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -75,30 +76,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|美国3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 23.227.38.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 6|美国4|@ripaojiedian
-  network: tcp
-  port: '21945'
-  server: 172.98.22.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be2691a5-180e-488b-835a-45e991299830
-- alterId: 0
-  cipher: auto
   name: 6|美国5|@ripaojiedian
   network: ws
   port: '2095'
@@ -112,7 +89,7 @@ proxies:
       Host: ''
     path: /
 - client-fingerprint: chrome
-  name: 8|US_speednode_0140
+  name: 8|US_speednode_0144
   network: ws
   port: 80
   server: 34.95.126.8
