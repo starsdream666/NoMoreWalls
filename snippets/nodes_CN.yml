@@ -1,85 +1,13 @@
 proxies:
-- name: 8|CN_speednode_0013
+- name: 8|CN_speednode_0011
   password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 20059
+  port: 20298
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x59.flybar.work
+  sni: z298.hongkongnode.top
   type: trojan
   udp: true
-- name: 8|CN_speednode_0014
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0015
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 59021
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x100.flybar.work
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0016
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0018
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0019
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 20141
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z141.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0020
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 50355
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z264.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0021
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 20301
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z301.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0023
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 45168
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z263.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0024
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 20139
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z139.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0025
+- name: 8|CN_speednode_0012
   password: d58218a0-72e9-3a0a-b596-089928df5dd3
   port: 21247
   server: gy.58n.net
@@ -87,19 +15,11 @@ proxies:
   sni: x91.flybar.work
   type: trojan
   udp: true
-- name: 8|CN_speednode_0028
+- name: 8|CN_speednode_0013
   password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 20308
+  port: 20076
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z308.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 8|CN_speednode_0029
-  password: d58218a0-72e9-3a0a-b596-089928df5dd3
-  port: 21970
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x41.flybar.work
+  sni: x76.flybar.work
   type: trojan
   udp: true

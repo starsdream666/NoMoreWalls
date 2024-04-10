@@ -1,5 +1,5 @@
 proxies:
-- name: 8|FR_speednode_0043
+- name: 8|FR_speednode_0025
   password: 87b1b7c2-317c-41c3-a490-2cbf47a68200
   port: 30502
   server: fr01.freeflyingcloud.xyz

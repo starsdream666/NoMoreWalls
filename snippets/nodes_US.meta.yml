@@ -88,7 +88,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 8|US_speednode_0159
+- name: 8|US_speednode_0135
   network: ws
   port: 2083
   server: 204.93.210.160
@@ -101,7 +101,7 @@ proxies:
       host: juzibaipiao.5112233.xyz
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0160
+  name: 8|US_speednode_0136
   network: ws
   port: 80
   server: 34.95.126.8
