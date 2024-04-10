@@ -74,20 +74,6 @@ proxies:
     headers:
       Host: fcdn.flha.ru
     path: /
-- alterId: 0
-  cipher: auto
-  name: 6|美国5|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: fcdn.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - name: 8|US_speednode_0137
   password: 87b1b7c2-317c-41c3-a490-2cbf47a68200
   port: 30018
