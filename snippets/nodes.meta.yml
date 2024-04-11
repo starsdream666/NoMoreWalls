@@ -1,123 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 43.203.233.33
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0,5|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 3327
-  server: p235.panda004.net
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 0,5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.54.34
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-5
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: /
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.98.119.98
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 43.203.207.149
-  type: ss
-- cipher: aes-256-gcm
-  name: 0,5|🇺🇸 美国3|@ripaojiedian
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.91.100.122
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: amazonskr05
-  port: 443
-  server: 13.214.212.171
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 54.169.147.64
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
   password: amazonskr05
   port: 443
   server: 43.203.220.68
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 43.201.69.200
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-13
-  password: amazonskr05
-  port: 443
-  server: 43.203.192.6
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: qwerREWQ@@
-  port: 42839
-  server: p236.panda004.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
-  password: qwerREWQ@@
-  port: 51472
-  server: p232.panda004.net
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
-  password: qwerREWQ@@
-  port: 4005
-  server: p225.panda004.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
-  password: qwerREWQ@@
-  port: 50942
-  server: p233.panda004.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-19
-  password: qwerREWQ@@
-  port: 58449
-  server: p234.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -129,72 +15,111 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-21
-  password: qwerREWQ@@
-  port: 57743
-  server: p238.panda004.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-22
-  password: qwerREWQ@@
-  port: 10218
-  server: p229.panda004.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-23
+  name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 13.250.57.60
+  server: 43.203.233.33
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0,5|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.87.25.21
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-24
+  name: 0|-https://t.me/MrXbin-6
+  password: amazonskr05
+  port: 443
+  server: 43.203.207.149
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-7
+  password: amazonskr05
+  port: 443
+  server: 43.201.34.246
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-9
+  password: amazonskr05
+  port: 443
+  server: 54.169.147.64
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-10
+  password: amazonskr05
+  port: 443
+  server: 43.201.69.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: amazonskr05
+  port: 443
+  server: 13.231.229.48
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
+  password: qwerREWQ@@
+  port: 58449
+  server: p234.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-14
+  password: qwerREWQ@@
+  port: 4005
+  server: p225.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-15
+  password: qwerREWQ@@
+  port: 58449
+  server: p226.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
+  password: amazonskr05
+  port: 443
+  server: 47.128.64.71
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
   password: amazonskr05
   port: 443
   server: 13.250.61.18
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-25
+  name: 0|-https://t.me/MrXbin-18
   password: amazonskr05
   port: 443
-  server: 47.129.9.69
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-26
-  password: amazonskr05
-  port: 443
-  server: 13.125.25.193
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-27
-  password: amazonskr05
-  port: 443
-  server: 13.250.63.15
+  server: 52.195.10.194
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-28
-  password: amazonskr05
-  port: 443
-  server: 54.248.173.222
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-29
+  name: 0|-https://t.me/MrXbin-19
   password: amazonskr05
   port: 443
   server: 47.128.77.190
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-30
+  name: 0|-https://t.me/MrXbin-20
   password: amazonskr05
   port: 443
-  server: 57.181.36.85
+  server: 43.203.201.192
   type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-21
+  password: amazonskr05
+  port: 443
+  server: 54.248.173.222
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-33
+  name: 0|-https://t.me/MrXbin-24
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -207,163 +132,22 @@ proxies:
   port: 443
   server: 8.218.196.35
   type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-35
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 103.172.116.103
+- cipher: aes-128-gcm
+  name: 0|-https://t.me/MrXbin-25
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.243.196.229
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-36
-  password: TPqX8edgbAURcAMb
-  port: 9079
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-37
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-38
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-39
-  password: kSPmvwdFzGMMW5pY
-  port: 9007
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-40
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-41
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-42
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-43
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-44
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-45
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-46
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-47
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-48
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-49
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-50
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-51
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-52
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-53
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-54
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-55
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-66
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
 - cipher: aes-256-ctr
-  name: 0|-https://t.me/MrXbin-83
+  name: 0|-https://t.me/MrXbin-59
   obfs: tls1.2_ticket_auth
   obfs-param: cdn.appsflyer.com
   password: NewBypasser2023
@@ -371,27 +155,19 @@ proxies:
   protocol: origin
   server: 163.172.218.164
   type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-92
-  network: ws
-  port: 80
-  server: 1.namesilo123.top
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
-  ws-opts:
-    headers:
-      Host: de.sanfen002.top
-    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-60
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
 - alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-93
+  name: 0|-https://t.me/MrXbin-62
   network: ws
   port: 41000
   server: 156.225.67.240
@@ -406,7 +182,25 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-94
+  name: 0,5,6|香港5|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 91.199.84.136
+  servername: hk-3.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-67
   network: ws
   port: 80
   server: 4.namesilo123.top
@@ -422,30 +216,45 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts:
-    headers:
-      Host:
-      - internet.life.com.by
     method: GET
     path:
     - /
-  name: 0|-https://t.me/MrXbin-105
+  name: 0|-https://t.me/MrXbin-68
   network: http
-  port: 3389
-  server: 78.111.102.232
+  port: 49585
+  server: 159.223.211.229
+  servername: www.speedtest.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6d0f5e10-3d0e-4a0b-9566-202c66ced84f
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-69
+  network: ws
+  port: 80
+  server: 1.namesilo123.top
   skip-cert-verify: true
   type: vmess
   udp: true
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- name: 0,8|JP_speednode_0034
-  password: 761cc01b-5674-3f50-92cd-54e3ba730e3c
-  port: 443
-  server: 35.78.196.235
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: de.sanfen002.top
+    path: /?ed=2048
+- name: 0|-https://t.me/MrXbin-70
+  password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf
+  port: 20230
+  server: us03.421421.xyz
   skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  sni: us03.421421.xyz
   type: trojan
   udp: true
 - country: AU
-  name: 0|-https://t.me/MrXbin-116
+  name: 0|-https://t.me/MrXbin-71
   password: ca6fbc51-3dd4-4f6f-a7d4-3a8419a4ae76
   port: 42002
   server: au01.freeflyingcloud.xyz
@@ -453,85 +262,12 @@ proxies:
   sni: au01.freeflyingcloud.xyz
   type: trojan
   udp: true
-- name: 0,8|GB_speednode_0019
-  password: 0c682abc-cb45-47cc-881b-40dafeff2403
-  port: 22252
-  server: uk01.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: uk01.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- name: 0|-https://t.me/MrXbin-109
-  password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf
-  port: 20230
-  server: jp06.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- name: 0|-https://t.me/MrXbin-110
-  password: 0c682abc-cb45-47cc-881b-40dafeff2403
-  port: 24852
-  server: kr01.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: kr01.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- name: 0,8|RU_speednode_0096
-  password: 0c682abc-cb45-47cc-881b-40dafeff2403
-  port: 30002
-  server: ru01.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: ru01.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- name: 0,8|US_speednode_0193
-  password: 0c682abc-cb45-47cc-881b-40dafeff2403
-  port: 30018
-  server: us03.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: us03.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- name: 0,8|SG_speednode_0189
-  password: 0c682abc-cb45-47cc-881b-40dafeff2403
-  port: 35702
-  server: sg01.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: sg01.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- name: 0,8|JP_speednode_0033
-  password: 0c682abc-cb45-47cc-881b-40dafeff2403
-  port: 44402
-  server: jp01.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: jp01.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-115
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  servername: food.zhaal.ir
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      HOST: food.zhaal.ir
-    path: /
 - alterId: 0
   cipher: auto
   country: BR
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-117
+  name: 0|-https://t.me/MrXbin-72
   network: ws
   port: 8080
   server: 89.39.161.122
@@ -543,93 +279,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: BR
+  country: CN
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-118
-  network: ws
+  name: 0|-https://t.me/MrXbin-107
+  network: tcp
+  port: 16105
+  server: zfd-usv1.kunlun-one.com
+  servername: zfd-usv1.kunlun-one.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1534454e-13c1-332c-a1f6-dffb2e51f778
+- cipher: chacha20-ietf-poly1305
+  country: ' GB'
+  name: 0|-https://t.me/MrXbin-112
+  password: Bog0ELmMM9DSxDdQ
   port: 443
-  server: 80.240.124.4
-  servername: kosar11.bounceme.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1e88fa44-945e-4d6b-b256-2581f89fc3d9
-  ws-opts:
-    headers:
-      HOST: kosar11.bounceme.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-165
-  network: ws
-  port: 80
-  server: de3-vmess.sshmax.xyz
-  servername: de3-vmess.sshmax.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7142b543-45a8-4274-b80d-f401e7892f5c
-  ws-opts:
-    headers:
-      HOST: de3-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-163
-  network: ws
-  port: 443
-  server: 23.158.56.50
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-164
-  network: ws
-  port: 443
-  server: 23.158.56.229
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
+  server: series-a2-me.varzesh360.co
+  type: ss
 - cipher: aes-128-gcm
   country: HK
-  name: 0|-https://t.me/MrXbin-166
+  name: 0|-https://t.me/MrXbin-113
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 8.210.67.215
+  type: ss
+- cipher: aes-128-gcm
+  country: HK
+  name: 0|-https://t.me/MrXbin-114
   password: a-wym4ovY4Yw
   port: 80
   server: 1.36.223.86
   type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 0|-https://t.me/MrXbin-167
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-115
+  network: ws
   port: 443
-  server: 52.195.237.101
-  type: ss
-- cipher: aes-256-cfb
-  country: KR
-  name: 0|-https://t.me/MrXbin-168
-  password: qwerREWQ@@
-  port: 58449
-  server: 222.112.15.140
-  type: ss
+  server: 188.114.97.43
+  servername: ua2-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0e4d17ea-1332-481a-aae2-ef9b790201cf
+  ws-opts:
+    headers:
+      HOST: ua2-vmess.sshmax.xyz
+    path: /vmess
 - cipher: aes-128-gcm
   country: ' SG'
-  name: 0|-https://t.me/MrXbin-169
+  name: 0|-https://t.me/MrXbin-116
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -639,74 +341,53 @@ proxies:
   port: 443
   server: 8.210.33.152
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-170
-  network: ws
-  port: 80
-  server: tw1g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 91d71551-9399-492a-83a2-e67ce8dc0f99
-  ws-opts:
-    path: /
+  name: 0|-https://t.me/MrXbin-117
+  password: oiwym4ovI4Yb
+  port: 81
+  server: 61.224.91.182
+  type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-171
+  name: 0|-https://t.me/MrXbin-118
   password: lGqs95QkFHo2NV
   port: 5499
   server: 167.88.61.159
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-172
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 167.88.61.159
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-173
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-174
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-175
-  password: fade2b35-7872-442e-a54e-6ccf9b970476
-  port: 44214
-  server: 23.27.103.76
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-176
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 167.88.61.159
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-177
+  name: 0|-https://t.me/MrXbin-119
   password: pKEW8JPByTVTLtM
   port: 443
   server: 167.88.61.235
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-178
+  name: 0|-https://t.me/MrXbin-120
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 167.88.61.235
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-121
   password: kDWvXYZoTBcGkC4
   port: 8882
+  server: 167.88.61.235
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-122
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 167.88.61.235
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-123
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 167.88.61.235
   type: ss
 - alterId: 0
@@ -714,39 +395,41 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-179
+  name: 0|-https://t.me/MrXbin-125
   network: ws
-  port: 2095
-  server: tu.mahilu.site
+  port: 80
+  server: 172.67.217.144
+  servername: lv1.xv2ray.net
   skip-cert-verify: true
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-181
-  network: ws
-  port: 443
-  server: zula.ir
-  servername: hdfy5c1.freeairlaines.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
   ws-opts:
     headers:
-      HOST: hdfy5c1.freeairlaines.com
-    path: /Nbs2DSTSkFW6MrrFQHeSDQ7
+      HOST: lv1.xv2ray.net
+    path: /vmess
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-183
+  name: 0|-https://t.me/MrXbin-128
+  network: ws
+  port: 80
+  server: movies4u.center
+  servername: fi1.xv2ray.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: a1dccd85-41dd-454d-983d-b72ef013386a
+  ws-opts:
+    headers:
+      HOST: fi1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-129
   network: ws
   port: 443
   server: 172.67.183.55
@@ -758,40 +441,6 @@ proxies:
   ws-opts:
     headers:
       HOST: de3-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-185
-  network: ws
-  port: 80
-  server: us2e-20240116.v2freevpn.com
-  servername: us2e-20240116.v2freevpn.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      HOST: us2e-20240116.v2freevpn.com
-    path: /us2ekjds3nay
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-188
-  network: ws
-  port: 80
-  server: upload.ir
-  servername: lv1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
-  ws-opts:
-    headers:
-      HOST: lv1-vmess.sshmax.xyz
     path: /vmess
 - cipher: aes-128-gcm
   name: 5|🇭🇰 香港KT|@ripaojiedian
@@ -848,22 +497,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a082903-6e40-4307-b73b-d0d26791c771
-- alterId: 0
-  cipher: auto
-  name: 5,6|香港5|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 91.199.84.136
-  servername: hk-3.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-128-gcm
   name: 5|🇭🇰 香港7|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -917,6 +550,13 @@ proxies:
   skip-cert-verify: false
   sni: claydol.superpokemon.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 5|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 3327
+  server: p235.panda004.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 5,6|新加坡|@ripaojiedian
@@ -935,7 +575,7 @@ proxies:
     path: /singapore
 - alterId: 0
   cipher: auto
-  name: 5,6,10|🇺🇸_US_美国_4
+  name: 5,6,10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com2
   network: ws
   port: 2095
   server: cfcdn1.sanfencdn9.com
@@ -949,6 +589,13 @@ proxies:
     headers:
       Host: us82pRzxDMb.fzbqfrse.xyz
     path: /video/qYZue4zaWS
+- cipher: aes-256-gcm
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.91.100.122
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 5|🇺🇸 美国5|@ripaojiedian
@@ -972,10 +619,10 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 5|🇰🇷 韩国特殊|@ripaojiedian
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.87.25.21
+  server: 43.201.54.34
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1007,7 +654,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 6,9|baipaovpn广东省广州市
+  name: 6|香港3|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -1039,7 +686,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 8|CN_speednode_0007
+- name: 8|CN_speednode_0005
   network: ws
   port: 443
   server: 103.44.255.27
@@ -1052,7 +699,7 @@ proxies:
       host: juzibaipiao.5112233.xyz
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|DE_speednode_0009
+  name: 8|DE_speednode_0007
   network: ws
   port: 2087
   server: 140.99.233.156
@@ -1069,7 +716,7 @@ proxies:
     path: TG@ZDYZ2
 - grpc-opts:
     grpc-service-name: grpc
-  name: 8|DE_speednode_0010
+  name: 8|DE_speednode_0008
   network: grpc
   password: 0453eb8b-8b3a-42c5-9040-cb1495279898
   port: 443
@@ -1078,7 +725,7 @@ proxies:
   sni: cdn.appsflyer.com
   type: trojan
   udp: true
-- name: 8|EE_speednode_0015
+- name: 8|EE_speednode_0013
   network: ws
   port: 8443
   server: 45.80.110.46
@@ -1090,7 +737,7 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
-- name: 8|EE_speednode_0016
+- name: 8|EE_speednode_0014
   network: ws
   port: 2053
   server: 45.80.110.251
@@ -1102,7 +749,7 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
-- name: 8|EE_speednode_0017
+- name: 8|EE_speednode_0015
   network: ws
   port: 2087
   server: 45.80.110.106
@@ -1114,7 +761,7 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
-- name: 8|EE_speednode_0018
+- name: 8|EE_speednode_0016
   network: ws
   port: 2087
   server: 45.80.110.215
@@ -1126,7 +773,7 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
-- name: 8|HK_speednode_0020
+- name: 8|HK_speednode_0017
   network: ws
   port: 34237
   server: 8.210.74.9
@@ -1143,7 +790,7 @@ proxies:
 - Inc. - 4: None
   client-fingerprint: random
   delay: 849
-  name: 8|HK_speednode_0021
+  name: 8|HK_speednode_0018
   network: ws
   port: 8449
   server: 47.244.255.95
@@ -1161,7 +808,7 @@ proxies:
 - Inc. - 7: None
   client-fingerprint: random
   delay: 902
-  name: 8|HK_speednode_0022
+  name: 8|HK_speednode_0019
   network: ws
   port: 4430
   server: 8.218.163.29
@@ -1179,7 +826,7 @@ proxies:
 - Inc. - 10: None
   client-fingerprint: random
   delay: 783
-  name: 8|HK_speednode_0023
+  name: 8|HK_speednode_0020
   network: ws
   port: 8443
   server: 45.78.30.50
@@ -1197,7 +844,7 @@ proxies:
 - Inc. - 9: None
   client-fingerprint: random
   delay: 908
-  name: 8|HK_speednode_0024
+  name: 8|HK_speednode_0021
   network: ws
   port: 8080
   server: 45.78.30.50
@@ -1212,28 +859,10 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- Inc. - 11: None
-  client-fingerprint: random
-  delay: 995
-  name: 8|HK_speednode_0025
-  network: ws
-  port: 29876
-  server: 154.204.60.218
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
 - Inc. - 8: None
   client-fingerprint: random
   delay: 859
-  name: 8|HK_speednode_0026
+  name: 8|HK_speednode_0022
   network: ws
   port: 8969
   server: 152.32.252.175
@@ -1248,7 +877,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|HK_speednode_0027
+- name: 8|HK_speednode_0023
   network: ws
   port: 443
   server: 45.8.186.188
@@ -1262,7 +891,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|HK_speednode_0028
+- name: 8|HK_speednode_0024
   network: ws
   port: 443
   server: 18.167.20.205
@@ -1276,21 +905,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|HK_speednode_0029
-  network: ws
-  port: 2000
-  server: 206.237.2.118
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- name: 8|IT_speednode_0032
+- name: 8|IT_speednode_0027
   network: ws
   port: 443
   server: 5.182.34.8
@@ -1302,7 +917,15 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|JP_speednode_0035
+- name: 8|JP_speednode_0028
+  password: 761cc01b-5674-3f50-92cd-54e3ba730e3c
+  port: 443
+  server: 35.78.196.235
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  type: trojan
+  udp: true
+- name: 8|JP_speednode_0029
   network: ws
   port: 443
   server: 54.238.114.82
@@ -1317,7 +940,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|JP_speednode_0036
+  name: 8|JP_speednode_0030
   network: ws
   port: 443
   server: 3.112.21.102
@@ -1335,7 +958,7 @@ proxies:
 - Inc. - 3: None
   client-fingerprint: random
   delay: 964
-  name: 8|JP_speednode_0037
+  name: 8|JP_speednode_0031
   network: ws
   port: 50013
   server: 147.78.247.110
@@ -1350,7 +973,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|JP_speednode_0038
+- name: 8|JP_speednode_0032
   network: ws
   port: 8443
   server: 176.97.73.82
@@ -1367,7 +990,7 @@ proxies:
 - Inc. - 19: None
   client-fingerprint: random
   delay: 943
-  name: 8|KR_speednode_0049
+  name: 8|KR_speednode_0043
   network: ws
   port: 9527
   server: 132.226.171.158
@@ -1385,7 +1008,7 @@ proxies:
 - Inc. - 20: None
   client-fingerprint: random
   delay: 1040
-  name: 8|KR_speednode_0051
+  name: 8|KR_speednode_0045
   network: ws
   port: 33405
   server: 152.70.246.67
@@ -1403,7 +1026,7 @@ proxies:
 - Inc. - 16: None
   client-fingerprint: random
   delay: 1672
-  name: 8|KR_speednode_0052
+  name: 8|KR_speednode_0046
   network: ws
   port: 15800
   server: 129.154.223.89
@@ -1419,7 +1042,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 2043
-  name: 8|KR_speednode_0042
+  name: 8|KR_speednode_0036
   network: ws
   port: 25800
   server: 193.122.110.164
@@ -1435,7 +1058,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
   delay: 2365
-  name: 8|KR_speednode_0043
+  name: 8|KR_speednode_0037
   network: ws
   port: 11202
   server: 146.56.144.32
@@ -1452,7 +1075,7 @@ proxies:
 - Inc. - 17: None
   client-fingerprint: random
   delay: 2385
-  name: 8|KR_speednode_0047
+  name: 8|KR_speednode_0041
   network: ws
   port: 18421
   server: 132.226.168.199
@@ -1470,7 +1093,7 @@ proxies:
 - Inc. - 18: None
   client-fingerprint: random
   delay: 2020
-  name: 8|KR_speednode_0054
+  name: 8|KR_speednode_0048
   network: ws
   port: 11659
   server: 146.56.171.182
@@ -1487,7 +1110,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
   delay: 727
-  name: 8|KR_speednode_0046
+  name: 8|KR_speednode_0040
   network: ws
   port: 49248
   server: 193.123.239.18
@@ -1503,7 +1126,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
   delay: 2343
-  name: 8|KR_speednode_0048
+  name: 8|KR_speednode_0042
   network: ws
   port: 53777
   server: 193.122.126.64
@@ -1519,7 +1142,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
   delay: 2025
-  name: 8|KR_speednode_0050
+  name: 8|KR_speednode_0044
   network: ws
   port: 61153
   server: 146.56.136.49
@@ -1534,7 +1157,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2040
-  name: 8|KR_speednode_0053
+  name: 8|KR_speednode_0047
   network: ws
   port: 48888
   server: 146.56.188.95
@@ -1549,7 +1172,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2466
-  name: 8|KR_speednode_0055
+  name: 8|KR_speednode_0049
   network: ws
   port: 33155
   server: 129.154.211.201
@@ -1564,7 +1187,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2131
-  name: 8|KR_speednode_0056
+  name: 8|KR_speednode_0050
   network: ws
   port: 28756
   server: 152.70.248.236
@@ -1580,7 +1203,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
   delay: 2081
-  name: 8|KR_speednode_0057
+  name: 8|KR_speednode_0051
   network: ws
   port: 45696
   server: 152.70.246.67
@@ -1595,7 +1218,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2001
-  name: 8|KR_speednode_0058
+  name: 8|KR_speednode_0052
   network: ws
   port: 34237
   server: 146.56.169.23
@@ -1610,7 +1233,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2019
-  name: 8|KR_speednode_0059
+  name: 8|KR_speednode_0053
   network: ws
   port: 39637
   server: 132.145.95.170
@@ -1627,7 +1250,7 @@ proxies:
 - Inc. - 33: None
   client-fingerprint: random
   delay: 985
-  name: 8|KR_speednode_0081
+  name: 8|KR_speednode_0075
   network: ws
   port: 22802
   server: 152.70.251.80
@@ -1643,7 +1266,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 2119
-  name: 8|KR_speednode_0061
+  name: 8|KR_speednode_0055
   network: ws
   port: 34237
   server: 193.122.113.210
@@ -1658,7 +1281,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2444
-  name: 8|KR_speednode_0062
+  name: 8|KR_speednode_0056
   network: ws
   port: 45593
   server: 146.56.161.141
@@ -1675,7 +1298,7 @@ proxies:
 - Inc. - 31: None
   client-fingerprint: random
   delay: 924
-  name: 8|KR_speednode_0078
+  name: 8|KR_speednode_0072
   network: ws
   port: 10003
   server: 193.122.112.161
@@ -1691,7 +1314,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 2202
-  name: 8|KR_speednode_0064
+  name: 8|KR_speednode_0058
   network: ws
   port: 17029
   server: 152.70.234.249
@@ -1708,7 +1331,7 @@ proxies:
 - Inc. - 34: None
   client-fingerprint: random
   delay: 935
-  name: 8|KR_speednode_0066
+  name: 8|KR_speednode_0060
   network: ws
   port: 33799
   server: 132.145.83.155
@@ -1724,7 +1347,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 931
-  name: 8|KR_speednode_0067
+  name: 8|KR_speednode_0061
   network: ws
   port: 21650
   server: 129.154.192.48
@@ -1739,7 +1362,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2234
-  name: 8|KR_speednode_0068
+  name: 8|KR_speednode_0062
   network: ws
   port: 46060
   server: 146.56.166.59
@@ -1754,7 +1377,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 1427
-  name: 8|KR_speednode_0069
+  name: 8|KR_speednode_0063
   network: ws
   port: 56785
   server: 193.123.250.205
@@ -1769,7 +1392,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2509
-  name: 8|KR_speednode_0070
+  name: 8|KR_speednode_0064
   network: ws
   port: 39803
   server: 193.123.233.169
@@ -1784,7 +1407,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 2211
-  name: 8|KR_speednode_0071
+  name: 8|KR_speednode_0065
   network: ws
   port: 47590
   server: 146.56.141.168
@@ -1799,7 +1422,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - delay: 1430
-  name: 8|KR_speednode_0072
+  name: 8|KR_speednode_0066
   network: ws
   port: 46730
   server: 132.226.172.226
@@ -1814,7 +1437,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
-  name: 8|KR_speednode_0073
+  name: 8|KR_speednode_0067
   network: ws
   port: 11370
   server: 146.56.146.8
@@ -1828,7 +1451,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 8|KR_speednode_0074
+- name: 8|KR_speednode_0068
   network: ws
   port: 48132
   server: 132.226.230.177
@@ -1845,7 +1468,7 @@ proxies:
 - Inc. - 35: None
   client-fingerprint: random
   delay: 1042
-  name: 8|KR_speednode_0082
+  name: 8|KR_speednode_0076
   network: ws
   port: 10261
   server: 140.238.19.251
@@ -1861,7 +1484,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 2371
-  name: 8|KR_speednode_0076
+  name: 8|KR_speednode_0070
   network: ws
   port: 28756
   server: 140.238.17.177
@@ -1876,7 +1499,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
-  name: 8|KR_speednode_0079
+  name: 8|KR_speednode_0073
   network: ws
   port: 37992
   server: 119.17.25.40
@@ -1892,7 +1515,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 1897
-  name: 8|KR_speednode_0080
+  name: 8|KR_speednode_0074
   network: ws
   port: 48652
   server: 146.56.42.31
@@ -1906,7 +1529,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 8|KR_speednode_0083
+- name: 8|KR_speednode_0077
   network: ws
   port: 9999
   server: 140.238.7.57
@@ -1923,7 +1546,7 @@ proxies:
 - Inc. - 36: None
   client-fingerprint: random
   delay: 1953
-  name: 8|KR_speednode_0084
+  name: 8|KR_speednode_0078
   network: ws
   port: 16617
   server: 146.56.135.192
@@ -1941,7 +1564,7 @@ proxies:
 - Inc. - 23: None
   client-fingerprint: random
   delay: 1384
-  name: 8|KR_speednode_0085
+  name: 8|KR_speednode_0079
   network: ws
   port: 2053
   server: 193.122.125.174
@@ -1959,7 +1582,7 @@ proxies:
 - Inc. - 22: None
   client-fingerprint: random
   delay: 2506
-  name: 8|KR_speednode_0087
+  name: 8|KR_speednode_0081
   network: ws
   port: 18888
   server: 112.168.91.60
@@ -1975,7 +1598,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - delay: 2396
-  name: 8|LT_speednode_0089
+  name: 8|LT_speednode_0083
   network: ws
   port: 443
   server: 88.216.66.38
@@ -1987,7 +1610,7 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|LT_speednode_0090
+- name: 8|LT_speednode_0084
   network: ws
   port: 443
   server: 88.216.66.193
@@ -1999,7 +1622,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 8|NL_speednode_0091
+- name: 8|NL_speednode_0085
   network: ws
   port: 8443
   server: 79.99.31.170
@@ -2011,7 +1634,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|NL_speednode_0092
+- name: 8|NL_speednode_0086
   network: ws
   port: 8443
   server: 79.99.28.165
@@ -2025,7 +1648,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 13: None
   delay: 2094
-  name: 8|SG_speednode_0109
+  name: 8|SG_speednode_0102
   network: ws
   port: 8443
   server: 8.222.215.228
@@ -2039,7 +1662,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 10: None
   delay: 2089
-  name: 8|SG_speednode_0098
+  name: 8|SG_speednode_0091
   network: ws
   port: 2087
   server: 8.222.182.10
@@ -2053,7 +1676,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 6: None
   delay: 1600
-  name: 8|SG_speednode_0099
+  name: 8|SG_speednode_0092
   network: ws
   port: 2087
   server: 8.222.131.102
@@ -2067,7 +1690,7 @@ proxies:
     path: /freecodes
 - Inc. - 17: None
   delay: 2118
-  name: 8|SG_speednode_0100
+  name: 8|SG_speednode_0093
   network: ws
   port: 2087
   server: 8.222.137.166
@@ -2079,7 +1702,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0101
+- name: 8|SG_speednode_0094
   network: ws
   port: 2096
   server: 8.222.188.56
@@ -2093,7 +1716,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 12: None
   delay: 1970
-  name: 8|SG_speednode_0102
+  name: 8|SG_speednode_0095
   network: ws
   port: 2087
   server: 8.222.129.32
@@ -2107,7 +1730,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 5: None
   delay: 1594
-  name: 8|SG_speednode_0103
+  name: 8|SG_speednode_0096
   network: ws
   port: 2087
   server: 8.222.130.137
@@ -2121,7 +1744,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 7: None
   delay: 2030
-  name: 8|SG_speednode_0126
+  name: 8|SG_speednode_0119
   network: ws
   port: 8443
   server: 8.222.175.78
@@ -2135,7 +1758,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 8: None
   delay: 1934
-  name: 8|SG_speednode_0105
+  name: 8|SG_speednode_0098
   network: ws
   port: 2087
   server: 8.222.167.147
@@ -2149,7 +1772,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 18: None
   delay: 1897
-  name: 8|SG_speednode_0106
+  name: 8|SG_speednode_0099
   network: ws
   port: 2087
   server: 8.222.237.131
@@ -2161,7 +1784,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0107
+- name: 8|SG_speednode_0100
   network: ws
   port: 2053
   server: 8.222.168.155
@@ -2175,7 +1798,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 11: None
   delay: 2067
-  name: 8|SG_speednode_0108
+  name: 8|SG_speednode_0101
   network: ws
   port: 2087
   server: 8.222.180.86
@@ -2187,7 +1810,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0110
+- name: 8|SG_speednode_0103
   network: ws
   port: 8443
   server: 8.222.227.191
@@ -2199,7 +1822,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0111
+- name: 8|SG_speednode_0104
   network: ws
   port: 8443
   server: 8.222.184.198
@@ -2213,7 +1836,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 14: None
   delay: 2080
-  name: 8|SG_speednode_0112
+  name: 8|SG_speednode_0105
   network: ws
   port: 2087
   server: 8.222.187.107
@@ -2225,7 +1848,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0113
+- name: 8|SG_speednode_0106
   network: ws
   port: 2053
   server: 8.222.155.242
@@ -2237,7 +1860,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0114
+- name: 8|SG_speednode_0107
   network: ws
   port: 8443
   server: 8.222.182.10
@@ -2251,7 +1874,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 19: None
   delay: 1892
-  name: 8|SG_speednode_0115
+  name: 8|SG_speednode_0108
   network: ws
   port: 2087
   server: 8.222.150.197
@@ -2266,7 +1889,7 @@ proxies:
 - Inc. - 20: None
   client-fingerprint: random
   delay: 1591
-  name: 8|SG_speednode_0116
+  name: 8|SG_speednode_0109
   network: ws
   port: 2053
   server: 8.222.160.61
@@ -2281,7 +1904,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|SG_speednode_0138
+- name: 8|SG_speednode_0131
   network: ws
   port: 8443
   server: 8.222.211.124
@@ -2295,7 +1918,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 16: None
   delay: 2097
-  name: 8|SG_speednode_0118
+  name: 8|SG_speednode_0111
   network: ws
   port: 2087
   server: 8.222.174.108
@@ -2307,7 +1930,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0119
+- name: 8|SG_speednode_0112
   network: ws
   port: 8443
   server: 8.222.244.192
@@ -2321,7 +1944,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 21: None
   delay: 1916
-  name: 8|SG_speednode_0120
+  name: 8|SG_speednode_0113
   network: ws
   port: 8443
   server: 8.222.129.245
@@ -2335,7 +1958,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 15: None
   delay: 1973
-  name: 8|SG_speednode_0121
+  name: 8|SG_speednode_0114
   network: ws
   port: 2087
   server: 8.222.249.190
@@ -2347,7 +1970,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0122
+- name: 8|SG_speednode_0115
   network: ws
   port: 8443
   server: 8.222.167.147
@@ -2359,7 +1982,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0123
+- name: 8|SG_speednode_0116
   network: ws
   port: 8443
   server: 8.222.136.196
@@ -2373,7 +1996,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 9: None
   delay: 1864
-  name: 8|SG_speednode_0124
+  name: 8|SG_speednode_0117
   network: ws
   port: 2087
   server: 8.222.190.225
@@ -2385,7 +2008,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0125
+- name: 8|SG_speednode_0118
   network: ws
   port: 2096
   server: 8.222.154.227
@@ -2397,7 +2020,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0127
+- name: 8|SG_speednode_0120
   network: ws
   port: 2087
   server: 8.222.137.178
@@ -2409,7 +2032,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0128
+- name: 8|SG_speednode_0121
   network: ws
   port: 8443
   server: 8.222.224.163
@@ -2422,7 +2045,7 @@ proxies:
       host: jd.wxgqlfx.top
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|SG_speednode_0183
+  name: 8|SG_speednode_0173
   network: ws
   port: 2053
   server: 8.222.154.50
@@ -2437,7 +2060,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|SG_speednode_0130
+- name: 8|SG_speednode_0123
   network: ws
   port: 2087
   server: 8.222.140.185
@@ -2449,7 +2072,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0131
+- name: 8|SG_speednode_0124
   network: ws
   port: 2087
   server: 8.222.219.252
@@ -2461,7 +2084,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0132
+- name: 8|SG_speednode_0125
   network: ws
   port: 8443
   server: 8.222.248.188
@@ -2473,7 +2096,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0153
+- name: 8|SG_speednode_0146
   network: ws
   port: 8443
   server: 8.222.164.44
@@ -2485,7 +2108,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0134
+- name: 8|SG_speednode_0127
   network: ws
   port: 2053
   server: 8.222.162.45
@@ -2497,7 +2120,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0135
+- name: 8|SG_speednode_0128
   network: ws
   port: 2087
   server: 8.222.229.22
@@ -2509,7 +2132,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0136
+- name: 8|SG_speednode_0129
   network: ws
   port: 8443
   server: 8.222.155.242
@@ -2521,7 +2144,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0137
+- name: 8|SG_speednode_0130
   network: ws
   port: 8443
   server: 8.222.137.178
@@ -2533,7 +2156,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0139
+- name: 8|SG_speednode_0132
   network: ws
   port: 8443
   server: 47.236.166.184
@@ -2545,7 +2168,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0140
+- name: 8|SG_speednode_0133
   network: ws
   port: 8443
   server: 8.222.160.61
@@ -2557,7 +2180,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0141
+- name: 8|SG_speednode_0134
   network: ws
   port: 2096
   server: 8.222.160.176
@@ -2569,7 +2192,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0142
+- name: 8|SG_speednode_0135
   network: ws
   port: 2087
   server: 8.222.159.252
@@ -2581,7 +2204,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0143
+- name: 8|SG_speednode_0136
   network: ws
   port: 46458
   server: 8.222.169.181
@@ -2593,7 +2216,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0144
+- name: 8|SG_speednode_0137
   network: ws
   port: 8443
   server: 8.222.219.252
@@ -2605,7 +2228,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0145
+- name: 8|SG_speednode_0138
   network: ws
   port: 2083
   server: 8.222.130.137
@@ -2617,7 +2240,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0146
+- name: 8|SG_speednode_0139
   network: ws
   port: 2087
   server: 8.222.238.141
@@ -2629,7 +2252,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0147
+- name: 8|SG_speednode_0140
   network: ws
   port: 8443
   server: 8.222.180.86
@@ -2641,7 +2264,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0148
+- name: 8|SG_speednode_0141
   network: ws
   port: 8443
   server: 47.236.174.206
@@ -2653,7 +2276,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0149
+- name: 8|SG_speednode_0142
   network: ws
   port: 8443
   server: 47.236.144.48
@@ -2665,7 +2288,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0187
+- name: 8|SG_speednode_0177
   network: ws
   port: 8443
   server: 8.222.167.8
@@ -2677,7 +2300,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0151
+- name: 8|SG_speednode_0144
   network: ws
   port: 8443
   server: 8.222.221.197
@@ -2689,7 +2312,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0179
+- name: 8|SG_speednode_0170
   network: ws
   port: 8443
   server: 8.222.169.182
@@ -2701,7 +2324,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0154
+- name: 8|SG_speednode_0147
   network: ws
   port: 2053
   server: 8.222.180.86
@@ -2713,7 +2336,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0155
+- name: 8|SG_speednode_0148
   network: ws
   port: 2096
   server: 8.222.174.108
@@ -2725,7 +2348,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0156
+- name: 8|SG_speednode_0149
   network: ws
   port: 8443
   server: 8.222.147.203
@@ -2737,7 +2360,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0157
+- name: 8|SG_speednode_0150
   network: ws
   port: 2096
   server: 8.222.129.32
@@ -2749,7 +2372,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0158
+- name: 8|SG_speednode_0151
   network: ws
   port: 2083
   server: 47.236.148.174
@@ -2761,19 +2384,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0159
-  network: ws
-  port: 8443
-  server: 47.236.130.95
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /?ed=2048
-- name: 8|SG_speednode_0160
+- name: 8|SG_speednode_0152
   network: ws
   port: 2087
   server: 8.222.168.24
@@ -2785,7 +2396,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0161
+- name: 8|SG_speednode_0153
   network: ws
   port: 2087
   server: 8.222.160.61
@@ -2797,7 +2408,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0162
+- name: 8|SG_speednode_0154
   network: ws
   port: 8443
   server: 47.236.165.25
@@ -2809,7 +2420,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0163
+- name: 8|SG_speednode_0155
   network: ws
   port: 8443
   server: 8.222.159.252
@@ -2821,7 +2432,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0164
+- name: 8|SG_speednode_0156
   network: ws
   port: 8443
   server: 47.236.7.246
@@ -2833,7 +2444,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0165
+- name: 8|SG_speednode_0157
   network: ws
   port: 2087
   server: 8.222.168.155
@@ -2845,7 +2456,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0166
+- name: 8|SG_speednode_0158
   network: ws
   port: 443
   server: 47.236.12.195
@@ -2857,7 +2468,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0167
+- name: 8|SG_speednode_0159
   network: ws
   port: 8443
   server: 8.222.168.155
@@ -2869,7 +2480,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0168
+- name: 8|SG_speednode_0160
   network: ws
   port: 2087
   server: 8.222.221.197
@@ -2881,7 +2492,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0169
+- name: 8|SG_speednode_0161
   network: ws
   port: 2083
   server: 47.236.79.77
@@ -2893,7 +2504,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0170
+- name: 8|SG_speednode_0162
   network: ws
   port: 2087
   server: 8.222.145.110
@@ -2905,7 +2516,7 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|SG_speednode_0171
+- name: 8|SG_speednode_0163
   network: ws
   port: 8443
   server: 8.222.140.185
@@ -2917,7 +2528,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0172
+- name: 8|SG_speednode_0164
   network: ws
   port: 2096
   server: 47.236.114.167
@@ -2929,7 +2540,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0173
+- name: 8|SG_speednode_0165
   network: ws
   port: 2053
   server: 47.236.145.85
@@ -2941,7 +2552,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0174
+- name: 8|SG_speednode_0166
   network: ws
   port: 2053
   server: 47.236.87.206
@@ -2953,7 +2564,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0175
+- name: 8|SG_speednode_0167
   network: ws
   port: 8443
   server: 8.222.229.22
@@ -2965,7 +2576,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0176
+- name: 8|SG_speednode_0168
   network: ws
   port: 8443
   server: 8.222.187.107
@@ -2977,23 +2588,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- client-fingerprint: random
-  name: 8|SG_speednode_0177
-  network: ws
-  port: 10014
-  server: 161.117.36.43
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- name: 8|SG_speednode_0178
+- name: 8|SG_speednode_0169
   network: ws
   port: 2087
   server: 8.222.145.164
@@ -3005,7 +2600,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0180
+- name: 8|SG_speednode_0171
   network: ws
   port: 2096
   server: 8.222.168.24
@@ -3017,7 +2612,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0181
+- name: 8|SG_speednode_0172
   network: ws
   port: 8443
   server: 47.236.147.146
@@ -3029,19 +2624,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0182
-  network: ws
-  port: 8443
-  server: 47.236.168.17
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /?ed=2048
-- name: 8|SG_speednode_0184
+- name: 8|SG_speednode_0174
   network: ws
   port: 2087
   server: 8.222.144.219
@@ -3053,7 +2636,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0185
+- name: 8|SG_speednode_0175
   network: ws
   port: 8443
   server: 8.222.168.24
@@ -3065,7 +2648,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0186
+- name: 8|SG_speednode_0176
   network: ws
   port: 2087
   server: 8.222.129.245
@@ -3077,7 +2660,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0188
+- name: 8|SG_speednode_0178
   network: ws
   port: 8443
   server: 47.236.75.113
@@ -3090,7 +2673,7 @@ proxies:
       host: jd.wxgqlfx.top
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|SG_speednode_0190
+  name: 8|SG_speednode_0179
   network: ws
   port: 8443
   server: 139.162.9.77
@@ -3105,7 +2688,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|TW_speednode_0191
+- name: 8|TW_speednode_0180
   network: ws
   port: 4443
   server: 211.75.74.232
@@ -3119,7 +2702,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|US_speednode_0194
+- name: 8|US_speednode_0181
   network: ws
   port: 2096
   server: 204.93.210.131
@@ -3131,7 +2714,7 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
-- name: 8|US_speednode_0195
+- name: 8|US_speednode_0182
   network: ws
   port: 8443
   server: 192.9.246.112
@@ -3143,7 +2726,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|US_speednode_0196
+- name: 8|US_speednode_0183
   network: ws
   port: 443
   server: 43.153.80.208
@@ -3157,276 +2740,31 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: 9|baipaovpn日本
   network: ws
-  port: '80'
-  server: 172.64.104.182
+  port: '2052'
+  server: 47.91.10.228
   servername: ''
   tls: false
   type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
   ws-opts:
     headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn韩国
-  network: tcp
-  port: '10001'
-  server: 103.214.68.57
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_8_由快嘴科技提供：...
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
-  port: 8080
-  server: 104.21.234.156
-  servername: ''
+  port: 2095
+  server: onea.flha.ru
   tls: false
   type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_4_9
-  network: ws
-  port: 8080
-  server: 104.21.234.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk...
-  network: ws
-  port: 8080
-  server: 104.21.238.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #1'
-  network: ws
-  port: 8080
-  server: 104.21.234.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_9_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.234.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #4'
-  network: ws
-  port: 8080
-  server: 104.21.234.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_6_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.234.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_2_3
-  network: ws
-  port: 8080
-  server: 104.21.234.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #9'
-  network: ws
-  port: '8080'
-  server: 104.21.234.73
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_5_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.238.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #3'
-  network: ws
-  port: 8080
-  server: 104.21.238.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #2'
-  network: ws
-  port: 8080
-  server: 104.21.234.50
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_3_7
-  network: ws
-  port: 8080
-  server: 104.21.234.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #5'
-  network: ws
-  port: 8080
-  server: 104.21.234.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,10|🇺🇸_US_美国->🇪🇸_ES_西班牙_7_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.234.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn香港
-  network: tcp
-  port: '443'
-  server: 220.246.94.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 9|baipaovpn韩国首尔
-  network: ws
-  port: '8002'
-  server: 185.214.103.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b00c57f5-3f8f-38e7-b269-6ca1dea41096
-  ws-opts:
-    headers:
-      Host: cache-2.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #16'
-  network: ws
-  port: '55210'
-  server: 130.162.134.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03b4cf2f-ee21-40f4-9df5-24146f88be7a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /huaxia
+      Host: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
@@ -3442,33 +2780,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_8
+  name: 10|🇺🇸_US_美国_3_23
   network: ws
-  port: 2086
-  server: admin.arzonhost.ir
+  port: 2095
+  server: 104.18.135.91
   tls: false
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
   ws-opts:
     headers:
-      Host: admin.arzonhost.ir
-    path: /
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_3_2由快嘴科技提供：...
-  network: ws
-  port: 2086
-  server: 104.21.4.14
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: 10|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -3481,33 +2806,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_25
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_7
   network: ws
-  port: 8880
-  server: 94.140.0.110
+  port: 2086
+  server: 104.21.4.14
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: food.zhaal.ir
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇹🇷_TR_土耳其_32
-  network: ws
-  port: 2095
-  server: tu.mahilu.site
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: tu.mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇬🇧_GB_英国_2_33
+  name: '10|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -3520,20 +2832,70 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_34
+  name: 10|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
   network: ws
-  port: 46666
-  server: us-phoenix-oracle-3e4543.ip1.shop
+  port: 8880
+  server: 94.140.0.110
   tls: false
   type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      Host: us-phoenix-oracle-3e4543.ip1.shop
-    path: /rongseven?ed=2048
+      Host: food.zhaal.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_4_35
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
+  network: ws
+  port: 2087
+  server: api.cdn-tgju.org
+  tls: true
+  type: vmess
+  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
+  ws-opts:
+    path: /ows
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 10|🇪🇸_ES_西班牙->🇺🇸_US_美国_由快嘴科技提供：kk...
+  network: ws
+  port: 8002
+  server: 185.214.103.249
+  tls: false
+  type: vmess
+  uuid: b00c57f5-3f8f-38e7-b269-6ca1dea41096
+  ws-opts:
+    headers:
+      Host: cache-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
+  network: ws
+  port: 2086
+  server: admin.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_4_由快嘴科技提供：k...
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_5_由快嘴科技提供：k...
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -3546,10 +2908,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_5_36
+  name: 10|🇱🇺_LU_卢森堡_由快嘴科技提供：kkzui.com8
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_6_由快嘴科技提供：k...
   network: ws
   port: 2082
-  server: s1c.v2.v001sss.xyz
+  server: 104.21.8.157
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a

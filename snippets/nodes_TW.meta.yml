@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0191
+  name: 8|TW_speednode_0180
   network: ws
   port: 4443
   server: 211.75.74.232

@@ -26,7 +26,7 @@ proxies:
   type: ss
 - Inc. - 13: None
   delay: 2094
-  name: 8|SG_speednode_0109
+  name: 8|SG_speednode_0102
   network: ws
   port: 8443
   server: 8.222.215.228
@@ -40,7 +40,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 10: None
   delay: 2089
-  name: 8|SG_speednode_0098
+  name: 8|SG_speednode_0091
   network: ws
   port: 2087
   server: 8.222.182.10
@@ -54,7 +54,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 6: None
   delay: 1600
-  name: 8|SG_speednode_0099
+  name: 8|SG_speednode_0092
   network: ws
   port: 2087
   server: 8.222.131.102
@@ -68,7 +68,7 @@ proxies:
     path: /freecodes
 - Inc. - 17: None
   delay: 2118
-  name: 8|SG_speednode_0100
+  name: 8|SG_speednode_0093
   network: ws
   port: 2087
   server: 8.222.137.166
@@ -80,7 +80,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0101
+- name: 8|SG_speednode_0094
   network: ws
   port: 2096
   server: 8.222.188.56
@@ -94,7 +94,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 12: None
   delay: 1970
-  name: 8|SG_speednode_0102
+  name: 8|SG_speednode_0095
   network: ws
   port: 2087
   server: 8.222.129.32
@@ -108,7 +108,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 5: None
   delay: 1594
-  name: 8|SG_speednode_0103
+  name: 8|SG_speednode_0096
   network: ws
   port: 2087
   server: 8.222.130.137
@@ -122,7 +122,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 7: None
   delay: 2030
-  name: 8|SG_speednode_0126
+  name: 8|SG_speednode_0119
   network: ws
   port: 8443
   server: 8.222.175.78
@@ -136,7 +136,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 8: None
   delay: 1934
-  name: 8|SG_speednode_0105
+  name: 8|SG_speednode_0098
   network: ws
   port: 2087
   server: 8.222.167.147
@@ -150,7 +150,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 18: None
   delay: 1897
-  name: 8|SG_speednode_0106
+  name: 8|SG_speednode_0099
   network: ws
   port: 2087
   server: 8.222.237.131
@@ -162,7 +162,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0107
+- name: 8|SG_speednode_0100
   network: ws
   port: 2053
   server: 8.222.168.155
@@ -176,7 +176,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 11: None
   delay: 2067
-  name: 8|SG_speednode_0108
+  name: 8|SG_speednode_0101
   network: ws
   port: 2087
   server: 8.222.180.86
@@ -188,7 +188,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0110
+- name: 8|SG_speednode_0103
   network: ws
   port: 8443
   server: 8.222.227.191
@@ -200,7 +200,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0111
+- name: 8|SG_speednode_0104
   network: ws
   port: 8443
   server: 8.222.184.198
@@ -214,7 +214,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 14: None
   delay: 2080
-  name: 8|SG_speednode_0112
+  name: 8|SG_speednode_0105
   network: ws
   port: 2087
   server: 8.222.187.107
@@ -226,7 +226,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0113
+- name: 8|SG_speednode_0106
   network: ws
   port: 2053
   server: 8.222.155.242
@@ -238,7 +238,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0114
+- name: 8|SG_speednode_0107
   network: ws
   port: 8443
   server: 8.222.182.10
@@ -252,7 +252,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 19: None
   delay: 1892
-  name: 8|SG_speednode_0115
+  name: 8|SG_speednode_0108
   network: ws
   port: 2087
   server: 8.222.150.197
@@ -267,7 +267,7 @@ proxies:
 - Inc. - 20: None
   client-fingerprint: random
   delay: 1591
-  name: 8|SG_speednode_0116
+  name: 8|SG_speednode_0109
   network: ws
   port: 2053
   server: 8.222.160.61
@@ -282,7 +282,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|SG_speednode_0138
+- name: 8|SG_speednode_0131
   network: ws
   port: 8443
   server: 8.222.211.124
@@ -296,7 +296,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 16: None
   delay: 2097
-  name: 8|SG_speednode_0118
+  name: 8|SG_speednode_0111
   network: ws
   port: 2087
   server: 8.222.174.108
@@ -308,7 +308,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0119
+- name: 8|SG_speednode_0112
   network: ws
   port: 8443
   server: 8.222.244.192
@@ -322,7 +322,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 21: None
   delay: 1916
-  name: 8|SG_speednode_0120
+  name: 8|SG_speednode_0113
   network: ws
   port: 8443
   server: 8.222.129.245
@@ -336,7 +336,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 15: None
   delay: 1973
-  name: 8|SG_speednode_0121
+  name: 8|SG_speednode_0114
   network: ws
   port: 2087
   server: 8.222.249.190
@@ -348,7 +348,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0122
+- name: 8|SG_speednode_0115
   network: ws
   port: 8443
   server: 8.222.167.147
@@ -360,7 +360,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0123
+- name: 8|SG_speednode_0116
   network: ws
   port: 8443
   server: 8.222.136.196
@@ -374,7 +374,7 @@ proxies:
     path: /?ed=2048
 - Inc. - 9: None
   delay: 1864
-  name: 8|SG_speednode_0124
+  name: 8|SG_speednode_0117
   network: ws
   port: 2087
   server: 8.222.190.225
@@ -386,7 +386,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0125
+- name: 8|SG_speednode_0118
   network: ws
   port: 2096
   server: 8.222.154.227
@@ -398,7 +398,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0127
+- name: 8|SG_speednode_0120
   network: ws
   port: 2087
   server: 8.222.137.178
@@ -410,7 +410,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0128
+- name: 8|SG_speednode_0121
   network: ws
   port: 8443
   server: 8.222.224.163
@@ -423,7 +423,7 @@ proxies:
       host: jd.wxgqlfx.top
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|SG_speednode_0183
+  name: 8|SG_speednode_0173
   network: ws
   port: 2053
   server: 8.222.154.50
@@ -438,7 +438,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|SG_speednode_0130
+- name: 8|SG_speednode_0123
   network: ws
   port: 2087
   server: 8.222.140.185
@@ -450,7 +450,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0131
+- name: 8|SG_speednode_0124
   network: ws
   port: 2087
   server: 8.222.219.252
@@ -462,7 +462,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0132
+- name: 8|SG_speednode_0125
   network: ws
   port: 8443
   server: 8.222.248.188
@@ -474,7 +474,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0153
+- name: 8|SG_speednode_0146
   network: ws
   port: 8443
   server: 8.222.164.44
@@ -486,7 +486,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0134
+- name: 8|SG_speednode_0127
   network: ws
   port: 2053
   server: 8.222.162.45
@@ -498,7 +498,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0135
+- name: 8|SG_speednode_0128
   network: ws
   port: 2087
   server: 8.222.229.22
@@ -510,7 +510,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0136
+- name: 8|SG_speednode_0129
   network: ws
   port: 8443
   server: 8.222.155.242
@@ -522,7 +522,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0137
+- name: 8|SG_speednode_0130
   network: ws
   port: 8443
   server: 8.222.137.178
@@ -534,7 +534,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0139
+- name: 8|SG_speednode_0132
   network: ws
   port: 8443
   server: 47.236.166.184
@@ -546,7 +546,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0140
+- name: 8|SG_speednode_0133
   network: ws
   port: 8443
   server: 8.222.160.61
@@ -558,7 +558,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0141
+- name: 8|SG_speednode_0134
   network: ws
   port: 2096
   server: 8.222.160.176
@@ -570,7 +570,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0142
+- name: 8|SG_speednode_0135
   network: ws
   port: 2087
   server: 8.222.159.252
@@ -582,7 +582,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0143
+- name: 8|SG_speednode_0136
   network: ws
   port: 46458
   server: 8.222.169.181
@@ -594,7 +594,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0144
+- name: 8|SG_speednode_0137
   network: ws
   port: 8443
   server: 8.222.219.252
@@ -606,7 +606,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0145
+- name: 8|SG_speednode_0138
   network: ws
   port: 2083
   server: 8.222.130.137
@@ -618,7 +618,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0146
+- name: 8|SG_speednode_0139
   network: ws
   port: 2087
   server: 8.222.238.141
@@ -630,7 +630,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0147
+- name: 8|SG_speednode_0140
   network: ws
   port: 8443
   server: 8.222.180.86
@@ -642,7 +642,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0148
+- name: 8|SG_speednode_0141
   network: ws
   port: 8443
   server: 47.236.174.206
@@ -654,7 +654,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0149
+- name: 8|SG_speednode_0142
   network: ws
   port: 8443
   server: 47.236.144.48
@@ -666,7 +666,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0187
+- name: 8|SG_speednode_0177
   network: ws
   port: 8443
   server: 8.222.167.8
@@ -678,7 +678,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0151
+- name: 8|SG_speednode_0144
   network: ws
   port: 8443
   server: 8.222.221.197
@@ -690,7 +690,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0179
+- name: 8|SG_speednode_0170
   network: ws
   port: 8443
   server: 8.222.169.182
@@ -702,7 +702,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0154
+- name: 8|SG_speednode_0147
   network: ws
   port: 2053
   server: 8.222.180.86
@@ -714,7 +714,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0155
+- name: 8|SG_speednode_0148
   network: ws
   port: 2096
   server: 8.222.174.108
@@ -726,7 +726,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0156
+- name: 8|SG_speednode_0149
   network: ws
   port: 8443
   server: 8.222.147.203
@@ -738,7 +738,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0157
+- name: 8|SG_speednode_0150
   network: ws
   port: 2096
   server: 8.222.129.32
@@ -750,7 +750,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0158
+- name: 8|SG_speednode_0151
   network: ws
   port: 2083
   server: 47.236.148.174
@@ -762,19 +762,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0159
-  network: ws
-  port: 8443
-  server: 47.236.130.95
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /?ed=2048
-- name: 8|SG_speednode_0160
+- name: 8|SG_speednode_0152
   network: ws
   port: 2087
   server: 8.222.168.24
@@ -786,7 +774,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0161
+- name: 8|SG_speednode_0153
   network: ws
   port: 2087
   server: 8.222.160.61
@@ -798,7 +786,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0162
+- name: 8|SG_speednode_0154
   network: ws
   port: 8443
   server: 47.236.165.25
@@ -810,7 +798,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0163
+- name: 8|SG_speednode_0155
   network: ws
   port: 8443
   server: 8.222.159.252
@@ -822,7 +810,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0164
+- name: 8|SG_speednode_0156
   network: ws
   port: 8443
   server: 47.236.7.246
@@ -834,7 +822,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0165
+- name: 8|SG_speednode_0157
   network: ws
   port: 2087
   server: 8.222.168.155
@@ -846,7 +834,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0166
+- name: 8|SG_speednode_0158
   network: ws
   port: 443
   server: 47.236.12.195
@@ -858,7 +846,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0167
+- name: 8|SG_speednode_0159
   network: ws
   port: 8443
   server: 8.222.168.155
@@ -870,7 +858,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0168
+- name: 8|SG_speednode_0160
   network: ws
   port: 2087
   server: 8.222.221.197
@@ -882,7 +870,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0169
+- name: 8|SG_speednode_0161
   network: ws
   port: 2083
   server: 47.236.79.77
@@ -894,7 +882,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0170
+- name: 8|SG_speednode_0162
   network: ws
   port: 2087
   server: 8.222.145.110
@@ -906,7 +894,7 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|SG_speednode_0171
+- name: 8|SG_speednode_0163
   network: ws
   port: 8443
   server: 8.222.140.185
@@ -918,7 +906,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0172
+- name: 8|SG_speednode_0164
   network: ws
   port: 2096
   server: 47.236.114.167
@@ -930,7 +918,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0173
+- name: 8|SG_speednode_0165
   network: ws
   port: 2053
   server: 47.236.145.85
@@ -942,7 +930,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0174
+- name: 8|SG_speednode_0166
   network: ws
   port: 2053
   server: 47.236.87.206
@@ -954,7 +942,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0175
+- name: 8|SG_speednode_0167
   network: ws
   port: 8443
   server: 8.222.229.22
@@ -966,7 +954,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /freecodes
-- name: 8|SG_speednode_0176
+- name: 8|SG_speednode_0168
   network: ws
   port: 8443
   server: 8.222.187.107
@@ -978,23 +966,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- client-fingerprint: random
-  name: 8|SG_speednode_0177
-  network: ws
-  port: 10014
-  server: 161.117.36.43
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- name: 8|SG_speednode_0178
+- name: 8|SG_speednode_0169
   network: ws
   port: 2087
   server: 8.222.145.164
@@ -1006,7 +978,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0180
+- name: 8|SG_speednode_0171
   network: ws
   port: 2096
   server: 8.222.168.24
@@ -1018,7 +990,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0181
+- name: 8|SG_speednode_0172
   network: ws
   port: 8443
   server: 47.236.147.146
@@ -1030,19 +1002,7 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|SG_speednode_0182
-  network: ws
-  port: 8443
-  server: 47.236.168.17
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /?ed=2048
-- name: 8|SG_speednode_0184
+- name: 8|SG_speednode_0174
   network: ws
   port: 2087
   server: 8.222.144.219
@@ -1054,7 +1014,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0185
+- name: 8|SG_speednode_0175
   network: ws
   port: 8443
   server: 8.222.168.24
@@ -1066,7 +1026,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0186
+- name: 8|SG_speednode_0176
   network: ws
   port: 2087
   server: 8.222.129.245
@@ -1078,7 +1038,7 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- name: 8|SG_speednode_0188
+- name: 8|SG_speednode_0178
   network: ws
   port: 8443
   server: 47.236.75.113
@@ -1091,7 +1051,7 @@ proxies:
       host: jd.wxgqlfx.top
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|SG_speednode_0190
+  name: 8|SG_speednode_0179
   network: ws
   port: 8443
   server: 139.162.9.77
