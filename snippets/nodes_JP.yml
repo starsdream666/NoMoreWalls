@@ -49,6 +49,14 @@ proxies:
   skip-cert-verify: false
   sni: claydol.superpokemon.com
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.54.34
+  tfo: false
+  type: ss
 - name: 8|JP_speednode_0028
   password: 761cc01b-5674-3f50-92cd-54e3ba730e3c
   port: 443
@@ -59,7 +67,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本
+  name: '9|baipaovpn日本 #1'
   network: ws
   port: '2052'
   server: 47.91.10.228
