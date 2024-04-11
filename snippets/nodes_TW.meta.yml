@@ -1,14 +1,6 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  password: oiwym4ovI4Yb
-  port: 81
-  server: 61.224.87.44
-  tfo: false
-  type: ss
 - client-fingerprint: random
-  name: 8|TW_speednode_0134
+  name: 8|TW_speednode_0115
   network: ws
   port: 36633
   server: 61.220.41.143
