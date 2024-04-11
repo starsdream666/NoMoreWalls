@@ -59,6 +59,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a082903-6e40-4307-b73b-d0d26791c771
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|香港5|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 91.199.84.136
+  servername: hk-3.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 5|🇭🇰 香港7|@ripaojiedian
@@ -107,3 +124,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a082903-6e40-4307-b73b-d0d26791c771
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn香港 #1'
+  network: ws
+  port: '2053'
+  server: 47.242.155.183
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
