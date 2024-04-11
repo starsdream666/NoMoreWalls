@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 8|FR_speednode_0064
+  password: 0c682abc-cb45-47cc-881b-40dafeff2403
+  port: 30502
+  server: fr01.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: fr01.freeflyingcloud.xyz
+  type: trojan
+  udp: true
