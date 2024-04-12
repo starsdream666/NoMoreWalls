@@ -58,6 +58,14 @@ proxies:
     headers:
       Host: fcdn.flha.ru
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国6|@ripaojiedian
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 167.88.61.159
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 6|美国5|@ripaojiedian
@@ -72,7 +80,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 8|US_speednode_0191
+- name: 8|US_speednode_0183
   network: ws
   port: 2096
   server: 204.93.210.131
@@ -84,10 +92,25 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
-- name: 8|US_speednode_0192
+- client-fingerprint: chrome
+  delay: 1318
+  name: 8|US_speednode_0184
   network: ws
-  port: 8443
-  server: 192.9.246.112
+  port: 80
+  server: 34.95.126.8
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- name: 8|US_speednode_0185
+  network: ws
+  port: 443
+  server: 43.153.80.208
   servername: jd.wxgqlfx.top
   tls: true
   type: vless
@@ -96,10 +119,22 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|US_speednode_0193
+- name: 8|US_speednode_0186
   network: ws
   port: 443
-  server: 43.153.80.208
+  server: tg.wxgqlfx.top
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /?ed=2048
+- name: 8|US_speednode_0188
+  network: ws
+  port: 8443
+  server: 192.9.246.112
   servername: jd.wxgqlfx.top
   tls: true
   type: vless

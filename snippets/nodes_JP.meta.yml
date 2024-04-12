@@ -49,19 +49,29 @@ proxies:
   server: 43.201.47.36
   tfo: false
   type: ss
-- name: 8|JP_speednode_0032
-  password: 761cc01b-5674-3f50-92cd-54e3ba730e3c
-  port: 443
-  server: 35.78.196.235
+- Inc. - 12: None
+  client-fingerprint: random
+  delay: 1062
+  name: 8|JP_speednode_0043
+  network: ws
+  port: 2086
+  server: 43.207.156.148
+  servername: cfed.tgzdyz2.top
   skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|JP_speednode_0033
+  name: 8|JP_speednode_0044
   network: ws
   port: 443
-  server: 54.238.114.82
+  server: 128.22.132.227
   servername: cfed.tgzdyz2.top
   skip-cert-verify: false
   tfo: false
@@ -73,9 +83,9 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|JP_speednode_0034
+  name: 8|JP_speednode_0045
   network: ws
-  port: 8443
+  port: 2053
   server: 176.97.73.82
   servername: a.ssll.gay
   skip-cert-verify: false
@@ -87,17 +97,19 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
+- client-fingerprint: random
+  name: 8|JP_speednode_0046
   network: ws
-  port: '2052'
-  server: 47.74.34.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  port: 58294
+  server: 103.150.8.57
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
