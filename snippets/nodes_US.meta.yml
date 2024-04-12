@@ -108,14 +108,6 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
-- name: 8|US_speednode_0196
-  password: 3a65fd6b-302d-3c39-bc3b-7f1627484d7a
-  port: 30042
-  server: wwwshs022.google01.com
-  skip-cert-verify: true
-  sni: wwwshs022.google01.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1

@@ -1057,11 +1057,3 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- name: 8|SG_speednode_0188
-  password: 0e640912-0b6c-33fb-9b59-dd3f5121447d
-  port: 30042
-  server: wwwsg043.google01.com
-  skip-cert-verify: true
-  sni: wwwsg043.google01.com
-  type: trojan
-  udp: true
