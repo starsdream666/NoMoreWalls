@@ -1,18 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 5,6|新加坡|@ripaojiedian
-  network: ws
-  port: '21021'
-  server: sg.lianjianode.cc
-  servername: ''
-  skip-cert-verify: false
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: 4feb33c2-cb06-4371-a572-243d47b789d9
+  port: 20009
+  server: ddns.olucloud.subapi.cc
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 44ceed0a-7421-4da0-b968-c30cb933a89d
-  ws-opts:
-    headers:
-      Host: sg1.luodi.xyz
-    path: /singapore
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.71.116.112
+  tfo: false
+  type: ss
+- name: 8|SG_speednode_0188
+  password: 0e640912-0b6c-33fb-9b59-dd3f5121447d
+  port: 30042
+  server: wwwsg043.google01.com
+  skip-cert-verify: true
+  sni: wwwsg043.google01.com
+  type: trojan
+  udp: true
