@@ -3,7 +3,7 @@ proxies:
   client-fingerprint: chrome
   name: 5|🇸🇬 新加坡|@ripaojiedian
   password: 4feb33c2-cb06-4371-a572-243d47b789d9
-  port: 20009
+  port: 20109
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
@@ -12,7 +12,7 @@ proxies:
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.71.116.112
+  server: 54.238.23.117
   tfo: false
   type: ss
 - Inc. - 10: None
