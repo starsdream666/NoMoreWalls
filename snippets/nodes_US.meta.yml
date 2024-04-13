@@ -133,14 +133,27 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com8
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
+  network: ws
+  port: 80
+  server: us219.netfilx.live
+  tls: false
+  type: vmess
+  uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f
+  ws-opts:
+    headers:
+      Host: us219.netfilx.live
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_2_4
   network: ws
   port: 2095
-  server: onea.flha.ru
+  server: tu.mahilu.site
   tls: false
   type: vmess
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: tu.mahilu.site
     path: /
