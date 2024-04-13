@@ -141,6 +141,20 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2052'
+  server: 172.67.76.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com8
   network: ws
   port: 2095
