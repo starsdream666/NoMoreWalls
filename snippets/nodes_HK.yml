@@ -94,3 +94,17 @@ proxies:
   tls: false
   type: vmess
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn香港
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
