@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_14
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    path: /1IKYjV0r/
