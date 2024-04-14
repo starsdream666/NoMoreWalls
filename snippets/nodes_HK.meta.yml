@@ -278,22 +278,6 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|HK_speednode_0035
-  network: ws
-  port: 2096
-  server: 8.217.164.10
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: random
   name: 8|HK_speednode_0036
   network: ws
   port: 34237
@@ -346,22 +330,6 @@ proxies:
   network: ws
   port: 10081
   server: 103.247.29.42
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: random
-  name: 8|HK_speednode_0040
-  network: ws
-  port: 39522
-  server: 38.207.161.206
   servername: cfed.tgzdyz2.top
   skip-cert-verify: true
   tfo: false

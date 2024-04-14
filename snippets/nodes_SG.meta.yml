@@ -1223,22 +1223,6 @@ proxies:
       host: cf.xujiang.link
     path: /youtube-由零開始
 - client-fingerprint: random
-  name: 8|SG_speednode_0170
-  network: ws
-  port: 10014
-  server: 161.117.36.43
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: random
   name: 8|SG_speednode_0173
   network: ws
   port: 2053
