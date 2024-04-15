@@ -39,16 +39,6 @@ proxies:
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: tcp
-  port: '8443'
-  server: 143.198.82.223
-  servername: sg2-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: 5006dfce-dc8c-4b94-8c1e-f596e3da8543
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com3
   network: ws
   port: 80
