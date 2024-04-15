@@ -1,12 +1,15 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国3|@ripaojiedian
-  password: 4feb33c2-cb06-4371-a572-243d47b789d9
-  port: 26670
-  server: ddns.olucloud.subapi.cc
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  port: 30063
+  server: 183.232.170.21
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -26,18 +29,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|美国5|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: fcdn.flha.ru
+  name: 6|美国2|@ripaojiedian
+  network: tcp
+  port: '30063'
+  server: 183.232.170.21
   servername: ''
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - name: 8|US_speednode_0183
   network: ws
   port: 2096
