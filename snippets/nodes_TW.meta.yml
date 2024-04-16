@@ -40,7 +40,7 @@ proxies:
   type: vmess
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0176
+  name: 8|TW_speednode_0159
   network: ws
   port: 4443
   server: 211.75.74.232
@@ -55,7 +55,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0177
+  name: 8|TW_speednode_0160
   network: ws
   port: 12559
   server: 118.163.128.81
@@ -70,7 +70,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0181
+  name: 8|TW_speednode_0161
   network: ws
   port: 13688
   server: 118.163.128.81
@@ -86,7 +86,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0182
+  name: 8|TW_speednode_0162
   network: ws
   port: 53760
   server: 103.137.63.37
