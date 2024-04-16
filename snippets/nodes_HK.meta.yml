@@ -118,9 +118,9 @@ proxies:
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
-  name: 6|香港7|@ripaojiedian
+  name: 6,10|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_2_2
   network: tcp
-  port: '35996'
+  port: 35996
   server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
   servername: ''
   tls: false
