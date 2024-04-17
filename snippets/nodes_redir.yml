@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_2_2
+  network: tcp
+  port: 35996
+  server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
+  tls: false
+  type: vmess
+  uuid: f9d88b9b-baf4-48cd-b98f-c28912b96ce5
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_3_35
   network: ws
   port: 2086
@@ -111,6 +120,15 @@ proxies:
     headers:
       Host: tu.mahilu.site
     path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_26_26
+  network: tcp
+  port: 30058
+  server: 183.240.179.207
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_34
