@@ -24,6 +24,14 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
     path: /video/ibCT6z55
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本4|@ripaojiedian
+  password: d59da4cf-97f2-4204-bc7a-12ed6d0c9f05
+  port: 44402
+  server: jp01.freeflyingcloud.xyz
+  skip-cert-verify: false
+  sni: jp01.freeflyingcloud.xyz
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian
