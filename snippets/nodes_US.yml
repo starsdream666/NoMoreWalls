@@ -128,44 +128,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: ws
-  port: '2082'
-  server: 162.159.136.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fa2fea97-2bdf-4557-b323-0551f2e1e2f8
-  ws-opts:
-    headers:
-      Host: sgv8.gas51qwrhmzz8.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 172.64.104.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: tcp
-  port: '50001'
-  server: 16.162.254.228
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_4_32
   network: ws
   port: 8080
