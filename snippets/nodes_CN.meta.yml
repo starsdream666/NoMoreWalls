@@ -19,7 +19,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 10|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com4
+  name: 10|🇨🇳_CN_中国_40
   network: ws
   port: 20401
   server: data-us-v1.shwjfkw.cn
