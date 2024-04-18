@@ -1,22 +1,46 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
-  password: 4feb33c2-cb06-4371-a572-243d47b789d9
-  port: 20007
-  server: ddns.olucloud.subapi.cc
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本2|@ripaojiedian
+  port: 38997
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f9d88b9b-baf4-48cd-b98f-c28912b96ce5
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.168.200.34
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|日本2|@ripaojiedian
+  name: 6|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
@@ -24,19 +48,3 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
     path: /video/ibCT6z55
-- client-fingerprint: chrome
-  name: 5|🇯🇵 日本4|@ripaojiedian
-  password: d59da4cf-97f2-4204-bc7a-12ed6d0c9f05
-  port: 44402
-  server: jp01.freeflyingcloud.xyz
-  skip-cert-verify: false
-  sni: jp01.freeflyingcloud.xyz
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.175.104
-  tfo: false
-  type: ss

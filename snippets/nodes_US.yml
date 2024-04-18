@@ -1,46 +1,55 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国|@ripaojiedian
+  name: 5|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '8080'
-  server: 23.227.39.84
-  servername: ''
+  port: 37000
+  server: 108.186.31.108
+  servername: www.63763079.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- client-fingerprint: chrome
+      Host: www.63763079.xyz
+    path: /path/351212081517
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
   name: 5|🇺🇸 美国2|@ripaojiedian
-  password: faa0fd1b-ecf9-42ae-a5f3-0a96274b64cb
-  port: 30018
-  server: us03.freeflyingcloud.xyz
-  skip-cert-verify: false
-  sni: us03.freeflyingcloud.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|美国3|@ripaojiedian
   network: ws
-  port: '2095'
-  server: 172.67.214.33
-  servername: ''
+  port: 443
+  server: 107.148.5.167
+  servername: www.30033530.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: fcdn.flha.ru
-    path: /
+      Host: www.30033530.xyz
+    path: /path/351212081517
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  port: 38000
+  server: 38.11.49.56
+  servername: www.30471929.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.30471929.xyz
+    path: /path/351212081517
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -58,23 +67,38 @@ proxies:
     headers:
       Host: fcdn.flha.ru
     path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国5|@ripaojiedian
+  network: ws
+  port: 38001
+  server: 142.4.97.39
+  servername: www.28251658.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
+  ws-opts:
+    headers:
+      Host: www.28251658.xyz
+    path: /path/351212081517
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国5|@ripaojiedian
+  name: 5|🇺🇸 美国6|@ripaojiedian
   network: ws
-  port: '80'
-  server: vps789.com
-  servername: ''
+  port: 13337
+  server: 64.23.196.139
+  servername: sfo3-2.trollfunny.net
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 58783709-6a26-4bae-b001-0f9e058f06d4
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
-    headers:
-      Host: kuus.nekoneko.buzz
-    path: /cctv13/hd.m3u8
+    path: /
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国7|@ripaojiedian
   password: 36acffd6bb2fd049%2540525113083387973
@@ -83,6 +107,64 @@ proxies:
   skip-cert-verify: false
   sni: node.bmrzqy.xyz
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国8|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  ws-opts:
+    headers:
+      Host: usxm.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|美国|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 23.227.39.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: 6|美国3|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: 172.67.214.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: fcdn.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|美国5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: vps789.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58783709-6a26-4bae-b001-0f9e058f06d4
+  ws-opts:
+    headers:
+      Host: kuus.nekoneko.buzz
+    path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_3
