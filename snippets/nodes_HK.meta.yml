@@ -40,9 +40,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇭🇰 香港3|@ripaojiedian
+  name: 5,6|香港3|@ripaojiedian
   network: ws
-  port: 443
+  port: '443'
   server: n1709457297.aaigefm.cn
   servername: n1709457297.aaigefm.cn
   skip-cert-verify: false
@@ -57,9 +57,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇭🇰 香港4|@ripaojiedian
+  name: 5,6|香港4|@ripaojiedian
   network: ws
-  port: 443
+  port: '443'
   server: n1710825489.aaigefm.cn
   servername: n1710825489.aaigefm.cn
   skip-cert-verify: false
@@ -113,40 +113,22 @@ proxies:
   cipher: auto
   name: 6|香港2|@ripaojiedian
   network: tcp
+  port: '42055'
+  server: 120.238.122.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|香港2|@ripaojiedian #1'
+  network: tcp
   port: '41242'
   server: 183.237.20.158
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 6|香港5|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 35.201.203.106
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|香港6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
-  ws-opts:
-    headers:
-      Host: yvhnbevxhk1.yofnhkfc.xyz
-    path: /video/34kKXbLM
 - Inc. - 4: None
   client-fingerprint: random
   delay: 849
@@ -190,24 +172,6 @@ proxies:
   network: ws
   port: 50400
   server: 202.81.235.90
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- Inc. - 3: None
-  client-fingerprint: random
-  delay: 1997
-  name: 8|HK_speednode_0021
-  network: ws
-  port: 40269
-  server: 117.18.13.170
   servername: cfed.tgzdyz2.top
   skip-cert-verify: true
   tfo: false
@@ -300,22 +264,6 @@ proxies:
 - client-fingerprint: random
   name: 8|HK_speednode_0027
   network: ws
-  port: 34237
-  server: 103.218.243.226
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: random
-  name: 8|HK_speednode_0028
-  network: ws
   port: 443
   server: 103.149.144.102
   servername: cfed.tgzdyz2.top
@@ -330,7 +278,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|HK_speednode_0029
+  name: 8|HK_speednode_0028
   network: ws
   port: 49454
   server: 45.249.246.59
@@ -346,7 +294,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|HK_speednode_0030
+  name: 8|HK_speednode_0029
   network: ws
   port: 10081
   server: 103.247.29.42
@@ -362,7 +310,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|HK_speednode_0031
+  name: 8|HK_speednode_0030
   network: ws
   port: 443
   server: 219.76.13.167
@@ -377,3 +325,183 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
+- name: 8|HK_speednode_0031
+  network: ws
+  port: 80
+  server: 8.218.3.12
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0032
+  network: ws
+  port: 80
+  server: 8.218.174.118
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0033
+  network: ws
+  port: 80
+  server: 8.217.221.165
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0034
+  network: ws
+  port: 80
+  server: 8.210.245.224
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0035
+  network: ws
+  port: 80
+  server: 8.218.105.223
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0036
+  network: ws
+  port: 80
+  server: 47.242.174.27
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0037
+  network: ws
+  port: 80
+  server: 47.242.176.237
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0038
+  network: ws
+  port: 80
+  server: 8.218.201.73
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0039
+  network: ws
+  port: 80
+  server: 8.218.188.129
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0040
+  network: ws
+  port: 80
+  server: 47.242.54.157
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0041
+  network: ws
+  port: 80
+  server: 8.217.145.40
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0042
+  network: ws
+  port: 80
+  server: 8.217.159.210
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0043
+  network: ws
+  port: 80
+  server: 47.243.42.219
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0044
+  network: ws
+  port: 80
+  server: 8.217.85.14
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0045
+  network: ws
+  port: 80
+  server: 8.218.122.55
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048

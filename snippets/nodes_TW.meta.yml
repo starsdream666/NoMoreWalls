@@ -2,10 +2,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
+  name: 5,6|台湾|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -16,7 +17,7 @@ proxies:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0159
+  name: 8|TW_speednode_0223
   network: ws
   port: 4443
   server: 211.75.74.232
@@ -31,7 +32,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0160
+  name: 8|TW_speednode_0224
   network: ws
   port: 12559
   server: 118.163.128.81
@@ -46,7 +47,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0161
+  name: 8|TW_speednode_0225
   network: ws
   port: 13688
   server: 118.163.128.81
@@ -62,7 +63,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0162
+  name: 8|TW_speednode_0226
   network: ws
   port: 53760
   server: 103.137.63.37
