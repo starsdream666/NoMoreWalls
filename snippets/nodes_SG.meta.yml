@@ -29,14 +29,6 @@ proxies:
     headers:
       Host: six.nekoneko.buzz
     path: /cctv13/hd.m3u8
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.218.182
-  tfo: false
-  type: ss
 - Inc. - 10: None
   delay: 2089
   name: 8|SG_speednode_0118
