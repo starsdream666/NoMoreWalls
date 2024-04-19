@@ -16,6 +16,18 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾2|@ripaojiedian
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 21858-jiuzhou722.download.microsoft.com
+    mode: http
+  port: 8801
+  server: cn00.mynode.me
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 8|TW_speednode_0223
   network: ws
