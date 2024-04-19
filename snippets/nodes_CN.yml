@@ -1,6 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '9|baipaovpn广东省 #1'
+  network: tcp
+  port: '21551'
+  server: 183.240.232.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9d9d01a5-1e0c-432e-818a-d26cd04314b5
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn中国
+  network: ws
+  port: '2052'
+  server: 8.218.174.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
+  ws-opts:
+    headers:
+      Host: hyhk2.kcjs.me
+    path: /fdsffgfdgdfgdf
+- alterId: 0
+  cipher: auto
   name: 10|🇨🇳_CN_中国_40
   network: ws
   port: 20401
