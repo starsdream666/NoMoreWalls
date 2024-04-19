@@ -111,20 +111,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '2082'
-  server: 162.159.136.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22c579dc-f6b0-4e42-b97c-8cabc6ba5831
-  ws-opts:
-    headers:
-      Host: sgv8.gas51qwrhmzz8.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_4_32
   network: ws
   port: 8080
