@@ -60,7 +60,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: '9|baipaovpn美国 #1'
   network: ws
   port: '2082'
   server: 162.159.136.220
@@ -72,44 +72,6 @@ proxies:
     headers:
       Host: sgv8.gas51qwrhmzz8.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '443'
-  server: 162.159.133.160
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 04da526b-fac4-49c5-bb2a-e8cf74ee8c7f
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '443'
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 04da526b-fac4-49c5-bb2a-e8cf74ee8c7f
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: tcp
-  port: '50001'
-  server: 3.39.244.66
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_4_32
