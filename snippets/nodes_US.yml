@@ -105,3 +105,17 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2082'
+  server: 162.159.136.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe430992-97bd-4a01-bc4b-47c8fb48da08
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
