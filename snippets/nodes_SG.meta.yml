@@ -16,14 +16,6 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.208.94
-  tfo: false
-  type: ss
 - Inc. - 13: None
   delay: 2094
   name: 8|SG_speednode_0029
