@@ -101,6 +101,27 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- name: 8|US_speednode_0096
+  password: 76cbe3a4-d245-4681-9765-ce94cc119532
+  port: 30020
+  server: us05.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: us05.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- delay: 2242
+  name: 8|US_speednode_0102
+  network: ws
+  port: 2096
+  server: 204.93.210.131
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: telegram🇨🇳@wangcai_8/?ed=2048
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国

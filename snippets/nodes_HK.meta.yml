@@ -99,24 +99,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 44bc69e1-57c2-4310-901d-fa55f41cbe94
-- client-fingerprint: random
-  name: 8|HK_speednode_0013
-  network: ws
-  port: 49454
-  server: 118.193.44.62
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0014
+  name: 8|HK_speednode_0062
   network: ws
   port: 13080
   server: 119.8.62.199
