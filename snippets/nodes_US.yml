@@ -59,7 +59,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui。com_20
+  name: 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_23
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
@@ -101,49 +101,17 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- name: 8|US_speednode_0076
+  password: 76cbe3a4-d245-4681-9765-ce94cc119532
+  port: 30020
+  server: us05.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: us05.freeflyingcloud.xyz
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '2082'
-  server: 162.159.136.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f5e2e10b-cae0-45a3-ae8b-af755ce21a02
-  ws-opts:
-    headers:
-      Host: sgv8.gas51qwrhmzz8.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui。com_5
-  network: ws
-  port: 8080
-  server: www.visa.com.hk
-  tls: false
-  type: vmess
-  uuid: 007ed733-b751-44fa-ae72-69dbc9aaeccb
-  ws-opts:
-    headers:
-      Host: cs.tashancloud.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_37
-  network: ws
-  port: 8080
-  server: 104.19.58.60
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: concentrations-taxi-about-recognised.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_4_29
+  name: 10|🇺🇸_US_美国_7_40
   network: ws
   port: 8080
   server: yh5.dtku41.xyz
@@ -156,33 +124,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_5_30
-  network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui。com1_39
-  network: ws
-  port: 8080
-  server: yh4.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui。com3_42
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com9_52
   network: ws
   port: 80
   server: us219.netfilx.live

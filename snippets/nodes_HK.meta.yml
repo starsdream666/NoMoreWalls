@@ -91,9 +91,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 6|香港2|@ripaojiedian
+  name: 6,10|🇨🇳_CN_中国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
   network: tcp
-  port: '44805'
+  port: 44805
   server: hkscdn02.dorabbb.top
   servername: ''
   tls: false

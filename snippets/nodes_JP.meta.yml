@@ -100,17 +100,3 @@ proxies:
     headers:
       host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 47.245.7.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
