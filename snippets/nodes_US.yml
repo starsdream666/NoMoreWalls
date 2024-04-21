@@ -103,6 +103,20 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2082'
+  server: 162.159.136.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5e2e10b-cae0-45a3-ae8b-af755ce21a02
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui。com_5
   network: ws
   port: 8080
