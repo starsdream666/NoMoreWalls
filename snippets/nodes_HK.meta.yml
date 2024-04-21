@@ -100,7 +100,7 @@ proxies:
   type: vmess
   uuid: 44bc69e1-57c2-4310-901d-fa55f41cbe94
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0062
+  name: 8|HK_speednode_0049
   network: ws
   port: 13080
   server: 119.8.62.199
