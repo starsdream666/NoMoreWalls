@@ -34,6 +34,20 @@ proxies:
       Host: mai.nekoneko.buzz
     path: /cctv13/hd.m3u8
 - client-fingerprint: chrome
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  password: BZjkHMao
+  port: 443
+  server: 36.151.192.17
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国5|@ripaojiedian
+  password: BZjkHMao
+  port: 51001
+  server: 36.156.102.6
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
   name: 5|🇺🇸 美国7|@ripaojiedian
   password: 36acffd6bb2fd049%2540525113083387973
   port: 12578
@@ -71,6 +85,34 @@ proxies:
     headers:
       host: a.ssll.gay
     path: telegram🇨🇳@wangcai_8/?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn北美地区
+  network: ws
+  port: '443'
+  server: 23.158.56.229
+  servername: 23.158.56.229
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.229
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2082'
+  server: 162.159.136.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 895349b7-1263-4efa-9b0e-35e34d691149
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_7_40

@@ -3,7 +3,7 @@ proxies:
   name: 5|🇯🇵 日本|@ripaojiedian
   password: BZjkHMao
   port: 443
-  server: 36.151.192.21
+  server: 112.16.228.105
   skip-cert-verify: true
   type: trojan
 - alterId: 0
@@ -28,6 +28,6 @@ proxies:
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.124.178.1
+  server: 13.229.115.125
   tfo: false
   type: ss
