@@ -1,21 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|日本|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 54.249.13.12
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cc8624d9-9012-41fc-a425-0039ad48ae85
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本|@ripaojiedian
+  password: BZjkHMao
+  port: 443
+  server: 36.151.192.21
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -33,72 +23,11 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 18.179.199.9
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 146f5892-29b5-4f91-b96c-62a0f92c7690
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.215.162.189
+  server: 13.124.178.1
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|日本4|@ripaojiedian
-  network: ws
-  port: '46011'
-  server: mmjp11.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 52.68.237.132
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048

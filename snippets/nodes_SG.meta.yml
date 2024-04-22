@@ -16,36 +16,21 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 5|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  skip-cert-verify: false
+  password: BZjkHMao
+  port: 443
+  server: 112.16.228.103
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.195.189.211
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: mmsg16.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 6|新加坡2|@ripaojiedian
-  network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+  type: ss
 - delay: 1855
   name: 8|SG_speednode_0067
   network: ws
