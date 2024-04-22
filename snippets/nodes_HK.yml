@@ -104,17 +104,7 @@ proxies:
   uuid: 324aa1c5-7504-4893-82b4-1365596331e2
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn香港 #1'
-  network: tcp
-  port: '39996'
-  server: 218.102.135.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 324aa1c5-7504-4893-82b4-1365596331e2
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #2'
+  name: 9|baipaovpn香港
   network: ws
   port: '80'
   server: 8.210.9.129
