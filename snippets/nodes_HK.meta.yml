@@ -119,7 +119,7 @@ proxies:
     path: TG@ZDYZ2
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn香港
+  name: '9|baipaovpn香港 #1'
   network: ws
   port: '80'
   server: 8.210.9.129
