@@ -31,7 +31,7 @@ proxies:
   server: 13.124.178.1
   tfo: false
   type: ss
-- name: 8|JP_speednode_0050
+- name: 8|JP_speednode_0024
   network: ws
   port: 80
   server: 8.209.222.232

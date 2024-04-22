@@ -58,14 +58,6 @@ proxies:
     headers:
       Host: usxm.inekokkk.top
     path: /
-- name: 8|US_speednode_0076
-  password: 76cbe3a4-d245-4681-9765-ce94cc119532
-  port: 30020
-  server: us05.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: us05.freeflyingcloud.xyz
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_7_40

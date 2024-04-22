@@ -31,22 +31,9 @@ proxies:
   server: 52.195.189.211
   tfo: false
   type: ss
-- delay: 1855
-  name: 8|SG_speednode_0067
-  network: ws
-  port: 8443
-  server: 8.222.136.196
-  servername: dns68.shift.cloudns.org
-  tls: true
-  type: vless
-  uuid: 86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15
-  ws-opts:
-    headers:
-      host: dns68.shift.cloudns.org
-    path: /?ed=2048
 - Inc. - 13: None
   delay: 2094
-  name: 8|SG_speednode_0068
+  name: 8|SG_speednode_0032
   network: ws
   port: 8443
   server: 8.222.215.228
@@ -58,23 +45,9 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
-- Inc. - 15: None
-  delay: 1973
-  name: 8|SG_speednode_0069
-  network: ws
-  port: 2087
-  server: 8.222.249.190
-  servername: cf.xujiang.link
-  tls: true
-  type: vless
-  uuid: 4bada4e0-0f18-4b3e-bdd9-94891134b9b1
-  ws-opts:
-    headers:
-      host: cf.xujiang.link
-    path: /freecodes
 - Inc. - 16: None
   delay: 2097
-  name: 8|SG_speednode_0070
+  name: 8|SG_speednode_0033
   network: ws
   port: 2087
   server: 8.222.174.108
@@ -88,7 +61,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 19: None
   delay: 1892
-  name: 8|SG_speednode_0071
+  name: 8|SG_speednode_0034
   network: ws
   port: 2087
   server: 8.222.150.197
@@ -102,7 +75,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 14: None
   delay: 2080
-  name: 8|SG_speednode_0072
+  name: 8|SG_speednode_0035
   network: ws
   port: 2087
   server: 8.222.187.107
@@ -116,7 +89,7 @@ proxies:
     path: /youtube-由零開始
 - Inc. - 18: None
   delay: 1897
-  name: 8|SG_speednode_0073
+  name: 8|SG_speednode_0036
   network: ws
   port: 2087
   server: 8.222.237.131
@@ -128,3 +101,17 @@ proxies:
     headers:
       host: cf.xujiang.link
     path: /youtube-由零開始
+- Inc. - 15: None
+  delay: 1973
+  name: 8|SG_speednode_0037
+  network: ws
+  port: 2087
+  server: 8.222.249.190
+  servername: cf.xujiang.link
+  tls: true
+  type: vless
+  uuid: 4bada4e0-0f18-4b3e-bdd9-94891134b9b1
+  ws-opts:
+    headers:
+      host: cf.xujiang.link
+    path: /freecodes
