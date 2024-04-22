@@ -87,18 +87,18 @@ proxies:
     path: telegram🇨🇳@wangcai_8/?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn北美地区
+  name: 9|baipaovpn美国
   network: ws
-  port: '443'
-  server: 23.158.56.229
-  servername: 23.158.56.229
-  tls: true
+  port: '80'
+  server: 172.64.104.182
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: 23.158.56.229
-    path: /linkvws
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_5_49
