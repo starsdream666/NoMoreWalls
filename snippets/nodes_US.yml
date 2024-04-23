@@ -85,6 +85,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 3.36.95.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 16.162.22.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_5_49
   network: ws
   port: 8080
