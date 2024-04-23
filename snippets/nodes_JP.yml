@@ -52,17 +52,3 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
