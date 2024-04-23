@@ -86,6 +86,34 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
+  port: '80'
+  server: 192.248.191.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 192.248.191.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
   port: '2082'
   server: 162.159.136.220
   servername: ''
@@ -98,24 +126,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
+  name: 9|baipaovpn北美地区
   network: ws
-  port: '80'
-  server: 3.36.95.153
-  servername: ''
-  tls: false
+  port: '443'
+  server: 23.158.56.229
+  servername: 23.158.56.229
+  tls: true
   type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: 23.158.56.229
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #2'
+  name: '9|baipaovpn美国 #4'
   network: ws
   port: '80'
-  server: 16.162.22.203
+  server: 16.162.33.222
   servername: ''
   tls: false
   type: vmess
@@ -123,7 +151,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_5_49
