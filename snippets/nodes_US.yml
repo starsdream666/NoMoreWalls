@@ -71,34 +71,6 @@ proxies:
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 16.162.192.153
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 16.162.33.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_29
   network: ws
   port: 8080
