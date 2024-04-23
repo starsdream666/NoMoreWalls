@@ -21,14 +21,14 @@ proxies:
   password: BZjkHMao
   port: 443
   server: 112.16.228.103
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.189.194
+  server: 52.192.178.138
   tfo: false
   type: ss
 - Inc. - 13: None

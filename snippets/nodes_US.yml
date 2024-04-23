@@ -19,27 +19,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国_6_53
-  network: ws
-  port: 80
-  server: vps789.com
-  servername: ''
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  port: 11029
+  server: dotu-usv1.03ezhg0qsa.download
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4b5c9371-0668-486a-9473-3699b842853c
-  ws-opts:
-    headers:
-      Host: mai.nekoneko.buzz
-    path: /cctv13/hd.m3u8
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国3|@ripaojiedian
-  password: BZjkHMao
-  port: 443
-  server: 36.151.192.17
-  skip-cert-verify: true
-  type: trojan
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: BZjkHMao
@@ -72,6 +59,16 @@ proxies:
     headers:
       Host: usxm.inekokkk.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 6|美国2|@ripaojiedian
+  network: tcp
+  port: '11029'
+  server: dotu-usv1.03ezhg0qsa.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
@@ -145,3 +142,16 @@ proxies:
   uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
   ws-opts:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_6_53
+  network: ws
+  port: 80
+  server: vps789.com
+  tls: false
+  type: vmess
+  uuid: 4b5c9371-0668-486a-9473-3699b842853c
+  ws-opts:
+    headers:
+      Host: mai.nekoneko.buzz
+    path: /cctv13/hd.m3u8

@@ -18,7 +18,40 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn台湾省台中市 #2'
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾2|@ripaojiedian
+  port: 11014
+  server: dotu-twv1.03ezhg0qsa.download
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾3|@ripaojiedian
+  port: 39999
+  server: 36.235.166.17
+  servername: twgnjby3f.kw1030v8.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 37fc2344-b008-32da-a9eb-9431625c4d38
+- alterId: 0
+  cipher: auto
+  name: 6|台湾2|@ripaojiedian
+  network: tcp
+  port: '11014'
+  server: dotu-twv1.03ezhg0qsa.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 6|台湾3|@ripaojiedian
   network: tcp
   port: '39999'
   server: 36.235.166.17
