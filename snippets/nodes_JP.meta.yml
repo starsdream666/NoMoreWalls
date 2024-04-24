@@ -82,17 +82,3 @@ proxies:
     headers:
       host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本东京
-  network: ws
-  port: '4033'
-  server: 149.28.28.167
-  servername: apis-jp1.veadev.com
-  tls: true
-  type: vmess
-  uuid: 95d33f63-d5b0-4ca0-b37c-3777ae165995
-  ws-opts:
-    headers:
-      Host: apis-jp1.veadev.com
-    path: /config

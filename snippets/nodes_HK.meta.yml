@@ -230,13 +230,3 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #1'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3959d0e4-b7d1-455d-a0bd-668aeb49dd19
