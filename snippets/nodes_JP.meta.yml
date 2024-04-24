@@ -39,23 +39,21 @@ proxies:
   server: 18.141.186.136
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0095
+- delay: 632
+  name: 8|JP_speednode_0065
   network: ws
-  port: 34237
-  server: 45.251.240.229
+  port: 80
+  server: 8.209.222.232
   servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  tls: false
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: a.ssll.gay
+      host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: chrome
-  name: 8|JP_speednode_0096
+  name: 8|JP_speednode_0066
   network: ws
   port: 34237
   server: 45.251.241.13
@@ -69,16 +67,93 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- delay: 632
-  name: 8|JP_speednode_0097
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0067
   network: ws
-  port: 80
-  server: 8.209.222.232
+  port: 34237
+  server: 45.251.241.103
   servername: a.ssll.gay
-  tls: false
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      host: a.ssll.gay
+      Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0068
+  network: ws
+  port: 443
+  server: 54.238.114.82
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: random
+  name: 8|JP_speednode_0069
+  network: ws
+  port: 8420
+  server: 176.97.73.99
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0070
+  network: ws
+  port: 2053
+  server: 176.97.73.82
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0071
+  network: ws
+  port: 8443
+  server: 176.97.73.82
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0072
+  network: ws
+  port: 2053
+  server: 176.97.73.99
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048

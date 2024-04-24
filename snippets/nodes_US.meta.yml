@@ -28,13 +28,12 @@ proxies:
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0078
+  name: 5|🇺🇸 美国5|@ripaojiedian
   password: BZjkHMao
   port: 51000
   server: 112.29.94.24
   skip-cert-verify: true
   type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国7|@ripaojiedian
   password: 36acffd6bb2fd049%2540525113083387973
@@ -53,16 +52,8 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- name: 8|US_speednode_0105
-  password: dUEdDMCKHjBO
-  port: 12127
-  server: 54.159.4.243
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
 - delay: 1854
-  name: 8|US_speednode_0106
+  name: 8|US_speednode_0155
   network: ws
   port: 8443
   server: 192.9.246.112
@@ -74,6 +65,37 @@ proxies:
     headers:
       host: jd.wxgqlfx.top
     path: /?ed=2048
+- client-fingerprint: chrome
+  delay: 754
+  name: 8|US_speednode_0156
+  network: ws
+  port: 80
+  server: 34.95.126.8
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0157
+  network: ws
+  port: 2053
+  server: 162.159.58.157
+  servername: toujiediansigema.666888.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: TG@mianfeicf
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_2_3由快嘴科技提供：kkzui.com
