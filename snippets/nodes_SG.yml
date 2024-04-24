@@ -17,12 +17,13 @@ proxies:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
 - client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡2|@ripaojiedian
+  name: 5,8|CN_speednode_0082
   password: BZjkHMao
   port: 443
   server: 112.16.228.83
   skip-cert-verify: true
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian

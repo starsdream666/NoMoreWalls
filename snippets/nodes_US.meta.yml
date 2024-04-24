@@ -28,12 +28,13 @@ proxies:
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
+  name: 5,8|CN_speednode_0078
   password: BZjkHMao
   port: 51000
   server: 112.29.94.24
   skip-cert-verify: true
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国7|@ripaojiedian
   password: 36acffd6bb2fd049%2540525113083387973
@@ -52,19 +53,41 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- delay: 2242
-  name: 8|US_speednode_0038
+- name: 8|US_speednode_0105
+  password: dUEdDMCKHjBO
+  port: 12127
+  server: 54.159.4.243
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- delay: 1854
+  name: 8|US_speednode_0106
   network: ws
-  port: 2096
-  server: 204.93.210.131
-  servername: a.ssll.gay
+  port: 8443
+  server: 192.9.246.112
+  servername: jd.wxgqlfx.top
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: telegram🇨🇳@wangcai_8/?ed=2048
+      host: jd.wxgqlfx.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2082'
+  server: 162.159.136.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b8acf05-0b8a-487f-81ca-27b135dc4967
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn北美地区

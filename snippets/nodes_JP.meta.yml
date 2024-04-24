@@ -39,7 +39,38 @@ proxies:
   server: 18.141.186.136
   tfo: false
   type: ss
-- name: 8|JP_speednode_0024
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0095
+  network: ws
+  port: 34237
+  server: 45.251.240.229
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0096
+  network: ws
+  port: 34237
+  server: 45.251.241.13
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- delay: 632
+  name: 8|JP_speednode_0097
   network: ws
   port: 80
   server: 8.209.222.232
@@ -51,3 +82,17 @@ proxies:
     headers:
       host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '4033'
+  server: 149.28.28.167
+  servername: apis-jp1.veadev.com
+  tls: true
+  type: vmess
+  uuid: 95d33f63-d5b0-4ca0-b37c-3777ae165995
+  ws-opts:
+    headers:
+      Host: apis-jp1.veadev.com
+    path: /config

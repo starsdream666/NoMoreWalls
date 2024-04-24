@@ -28,12 +28,13 @@ proxies:
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
+  name: 5,8|CN_speednode_0078
   password: BZjkHMao
   port: 51000
   server: 112.29.94.24
   skip-cert-verify: true
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国7|@ripaojiedian
   password: 36acffd6bb2fd049%2540525113083387973
@@ -52,6 +53,28 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- name: 8|US_speednode_0105
+  password: dUEdDMCKHjBO
+  port: 12127
+  server: 54.159.4.243
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2082'
+  server: 162.159.136.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b8acf05-0b8a-487f-81ca-27b135dc4967
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn北美地区
