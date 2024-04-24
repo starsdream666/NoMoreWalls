@@ -1,8 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 5|🇫🇷 法国|@ripaojiedian
-  password: BZjkHMao
-  port: 51000
-  server: 112.16.228.119
-  skip-cert-verify: true
-  type: trojan
+proxies: []
