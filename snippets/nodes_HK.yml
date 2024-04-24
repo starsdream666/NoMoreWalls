@@ -125,7 +125,7 @@ proxies:
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn香港 #1'
+  name: 9|baipaovpn香港
   network: tcp
   port: '39996'
   server: 119.236.193.185
