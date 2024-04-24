@@ -181,14 +181,3 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬_SG_新加坡_49
-  network: ws
-  port: 37765
-  server: xinjiapo.jinchanbaby.shop
-  tls: true
-  type: vmess
-  uuid: 3a7b80b6-2b54-425e-dabf-fa91b549103f
-  ws-opts:
-    path: /

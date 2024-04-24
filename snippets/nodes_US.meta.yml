@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '5,6,10|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk... #1'
+  name: 5,6,10|🇺🇸_US_美国->🇹🇷_TR_土耳其_3_29
   network: ws
   port: 2095
   server: tu.mahilu.site
@@ -98,7 +98,7 @@ proxies:
     path: TG@mianfeicf
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_3由快嘴科技提供：kkzui.com
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
@@ -111,20 +111,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_29
+  name: 10|🇺🇸_US_美国->🇬🇧_GB_英国_4_30
   network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
+  port: 8880
+  server: cdn.vds-server.ir
   tls: false
   type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+      Host: cdn.vds-server.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_9_44
+  name: 10|🇺🇸_US_美国_2_24
+  network: ws
+  port: 8080
+  server: 104.19.58.60
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: concentrations-taxi-about-recognised.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_3_3由快嘴科技提供：kkzui.com
   network: ws
   port: 80
   server: us219.netfilx.live
@@ -135,3 +148,16 @@ proxies:
     headers:
       Host: us219.netfilx.live
     path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_8_38
+  network: ws
+  port: 8080
+  server: yh7.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: booty-pensions-scheduling-blogging.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
