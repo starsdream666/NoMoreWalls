@@ -144,10 +144,24 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn日本 #1'
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '4033'
+  server: 149.28.28.167
+  servername: apis-jp1.veadev.com
+  tls: true
+  type: vmess
+  uuid: 25dc01a1-ecce-45a9-b970-cd7119b40c0a
+  ws-opts:
+    headers:
+      Host: apis-jp1.veadev.com
+    path: /config
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
   network: ws
   port: '80'
-  server: 47.74.5.99
+  server: 47.74.37.50
   servername: ''
   tls: false
   type: vmess

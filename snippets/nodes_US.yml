@@ -65,16 +65,16 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '80'
-  server: 168.138.184.64
+  port: '2082'
+  server: 162.159.136.220
   servername: ''
   tls: false
   type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  uuid: 7f407c91-ae0c-4bfa-94bc-9242b8727882
   ws-opts:
     headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11

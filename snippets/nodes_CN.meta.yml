@@ -17,10 +17,10 @@ proxies:
     path: TG@mianfeicf
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn中国 #5'
+  name: 9|baipaovpn中国
   network: ws
   port: '80'
-  server: 8.218.126.53
+  server: 8.218.8.142
   servername: ''
   tls: false
   type: vmess
@@ -34,7 +34,7 @@ proxies:
   name: '9|baipaovpn中国 #1'
   network: ws
   port: '80'
-  server: 8.218.11.90
+  server: 8.217.250.222
   servername: ''
   tls: false
   type: vmess
@@ -48,7 +48,7 @@ proxies:
   name: '9|baipaovpn中国 #2'
   network: ws
   port: '80'
-  server: 8.217.91.121
+  server: 8.218.22.210
   servername: ''
   tls: false
   type: vmess
@@ -59,29 +59,11 @@ proxies:
     path: /needay?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn中国 #3'
-  network: ws
-  port: '80'
-  server: 8.218.156.91
+  name: 9|baipaovpn广东省
+  network: tcp
+  port: '11029'
+  server: 120.233.204.121
   servername: ''
   tls: false
   type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn中国 #4'
-  network: ws
-  port: '80'
-  server: 8.218.136.25
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
