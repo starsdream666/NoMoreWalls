@@ -61,22 +61,9 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- delay: 1854
-  name: 8|US_speednode_0110
-  network: ws
-  port: 8443
-  server: 192.9.246.112
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /?ed=2048
 - client-fingerprint: chrome
-  delay: 754
-  name: 8|US_speednode_0111
+  delay: 1236
+  name: 8|US_speednode_0198
   network: ws
   port: 80
   server: 34.95.126.8
@@ -89,6 +76,60 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- delay: 1854
+  name: 8|US_speednode_0199
+  network: ws
+  port: 8443
+  server: 192.9.246.112
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /?ed=2048
+- delay: 1706
+  name: 8|US_speednode_0200
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 47.245.115.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 47.245.87.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com9
