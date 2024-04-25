@@ -62,7 +62,7 @@ proxies:
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - delay: 1854
-  name: 8|US_speednode_0155
+  name: 8|US_speednode_0110
   network: ws
   port: 8443
   server: 192.9.246.112
@@ -76,7 +76,7 @@ proxies:
     path: /?ed=2048
 - client-fingerprint: chrome
   delay: 754
-  name: 8|US_speednode_0156
+  name: 8|US_speednode_0111
   network: ws
   port: 80
   server: 34.95.126.8
@@ -89,39 +89,9 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0157
-  network: ws
-  port: 2053
-  server: 162.159.58.157
-  servername: toujiediansigema.666888.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 168.138.161.0
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
   network: ws
   port: '80'
   server: 168.138.184.64

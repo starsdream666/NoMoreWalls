@@ -66,20 +66,6 @@ proxies:
   name: 9|baipaovpn美国
   network: ws
   port: '80'
-  server: 168.138.161.0
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
   server: 168.138.184.64
   servername: ''
   tls: false
