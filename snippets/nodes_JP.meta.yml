@@ -172,7 +172,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本
+  name: '9|baipaovpn日本 #1'
   network: ws
   port: '80'
   server: 47.74.5.99
