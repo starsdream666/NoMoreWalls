@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国->🇹🇷_TR_土耳其_3_29
+  name: 5,6,10|🇺🇸_US_美国->🇹🇷_TR_土耳其_2_20
   network: ws
   port: 2095
   server: tu.mahilu.site
@@ -30,9 +30,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国3|@ripaojiedian
+  name: 5,6,10|🇺🇸_US_美国_4_由快嘴科技提供;kkzui.com1
   network: ws
-  port: '2095'
+  port: 2095
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -91,33 +91,42 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
+  name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com9
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
   tls: false
   type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  uuid: a595e9ba-b641-480f-8597-323612357ba5
   ws-opts:
     headers:
-      Host: usxm.inekokkk.top
-    path: /
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇬🇧_GB_英国_4_30
-  network: ws
-  port: 8880
-  server: cdn.vds-server.ir
+  name: 10|🇺🇸_US_美国_2_2
+  network: tcp
+  port: 12732
+  server: 75.102.51.61
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 191ba971-0f63-402e-bbc9-9e9eb2604b0c
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_2_由快嘴科技提供;kkzui.com6
+  network: ws
+  port: 2095
+  server: 172.67.214.33
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: cdn.vds-server.ir
+      Host: fcdn.flha.ru
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_24
+  name: 10|🇺🇸_US_美国_4_2由快嘴科技提供;kkzui.com
   network: ws
   port: 8080
   server: 104.19.58.60
@@ -130,7 +139,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_3由快嘴科技提供：kkzui.com
+  name: 10|🇺🇸_US_美国_5_27
   network: ws
   port: 80
   server: us219.netfilx.live
@@ -143,14 +152,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_8_38
+  name: 10|🇺🇸_US_美国_6_28
   network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
+  port: 80
+  server: 95.164.38.6
   tls: false
   type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: 8b86eebb-4332-46ea-aa70-8a821dc8272f
   ws-opts:
     headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+      Host: no1.xv2ray.net
+    path: /vmess
