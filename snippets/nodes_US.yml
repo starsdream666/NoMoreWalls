@@ -27,20 +27,29 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国3|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a595e9ba-b641-480f-8597-323612357ba5
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: BZjkHMao
   port: 51000
   server: 112.29.94.24
   skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国7|@ripaojiedian
-  password: 36acffd6bb2fd049%2540525113083387973
-  port: 12578
-  server: 38.145.220.68
-  skip-cert-verify: false
-  sni: node.bmrzqy.xyz
   type: trojan
 - alterId: 0
   cipher: auto
@@ -52,6 +61,20 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '58186'
+  server: 64.110.82.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
