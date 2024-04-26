@@ -97,57 +97,15 @@ proxies:
   name: 9|baipaovpn美国
   network: ws
   port: '443'
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 0b983f83-c544-4b9e-95ba-cecf3f10485b
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '443'
   server: 162.159.133.160
   servername: v2ray.ryin.vip
   tls: true
   type: vmess
-  uuid: ca8b40d2-3cfa-41da-9731-932f825c8aef
+  uuid: cf949603-c8b1-44f8-bb6c-3dc9cabe95d0
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 162.159.58.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newjp1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 162.159.58.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newjp1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
