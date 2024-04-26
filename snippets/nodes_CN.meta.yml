@@ -1,22 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 8|CN_speednode_0054
-  network: ws
-  port: 11525
-  server: 120.233.27.175
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 8|CN_speednode_0081
+  name: 8|CN_speednode_0004
   network: ws
   port: 17630
   server: 27.115.117.197

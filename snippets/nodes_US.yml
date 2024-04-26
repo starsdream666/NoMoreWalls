@@ -15,82 +15,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '443'
-  server: 162.159.133.160
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 388cc494-31ba-4509-a614-a5599e48cb7e
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com9
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: a595e9ba-b641-480f-8597-323612357ba5
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_2
-  network: tcp
-  port: 12732
-  server: 75.102.51.61
-  tls: false
-  type: vmess
-  uuid: 191ba971-0f63-402e-bbc9-9e9eb2604b0c
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_由快嘴科技提供;kkzui.com6
-  network: ws
-  port: 2095
-  server: 172.67.214.33
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: fcdn.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_4_由快嘴科技提供;kkzui.com1
-  network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: a595e9ba-b641-480f-8597-323612357ba5
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_4_2由快嘴科技提供;kkzui.com
-  network: ws
-  port: 8080
-  server: 104.19.58.60
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: concentrations-taxi-about-recognised.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_27
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
   network: ws
   port: 80
   server: us219.netfilx.live
@@ -103,14 +28,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_6_28
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_17
   network: ws
-  port: 80
-  server: 95.164.38.6
+  port: 2095
+  server: fcdn.flha.ru
   tls: false
   type: vmess
-  uuid: 8b86eebb-4332-46ea-aa70-8a821dc8272f
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: no1.xv2ray.net
-    path: /vmess
+      Host: fcdn.flha.ru
+    path: /
