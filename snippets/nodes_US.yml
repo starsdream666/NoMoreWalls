@@ -17,16 +17,30 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '2082'
-  server: 162.159.136.220
-  servername: ''
-  tls: false
+  port: '443'
+  server: 162.159.128.17
+  servername: v2ray.ryin.vip
+  tls: true
   type: vmess
-  uuid: 3cfb0cec-0f62-42c7-ad65-161ceb0ff913
+  uuid: decdcb94-bc2a-41ee-9cd5-f6db393667ec
   ws-opts:
     headers:
-      Host: sgv8.gas51qwrhmzz8.top
-    path: /
+      Host: v2ray.ryin.vip
+    path: /ryinsocksv2board
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '443'
+  server: 162.159.133.160
+  servername: v2ray.ryin.vip
+  tls: true
+  type: vmess
+  uuid: 7acc3b77-5eac-49c1-b0db-47ee8530fa62
+  ws-opts:
+    headers:
+      Host: v2ray.ryin.vip
+    path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com9
