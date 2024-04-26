@@ -3,28 +3,20 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾|@ripaojiedian
-  port: 11012
-  server: dotu-twv1.03ezhg0qsa.download
+  port: 32866
+  server: qsx5ff6ubid5.uxzbpycs.xyz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- client-fingerprint: chrome
-  name: 5|🇹🇼 台湾2|@ripaojiedian
-  password: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-  port: 11017
-  server: dotu-twv2.03ezhg0qsa.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
+  uuid: d557c608-f676-472a-bd6b-612ba975c116
 - alterId: 0
   cipher: auto
   name: 6|台湾|@ripaojiedian
   network: tcp
-  port: '11012'
-  server: dotu-twv1.03ezhg0qsa.download
+  port: '32866'
+  server: qsx5ff6ubid5.uxzbpycs.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+  uuid: d557c608-f676-472a-bd6b-612ba975c116

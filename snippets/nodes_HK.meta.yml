@@ -18,17 +18,6 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇭🇰 香港|@ripaojiedian
-  port: 54437
-  server: 183.236.51.59
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
   name: 5|🇭🇰 香港2|@ripaojiedian
   port: 40259
   server: 120.238.122.243
@@ -38,12 +27,31 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
+  name: 5|🇭🇰 香港3|@ripaojiedian
+  password: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+  port: 11010
+  server: dotu-hkv2.03ezhg0qsa.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: BZjkHMao
   port: 443
   server: 112.29.94.24
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港6|@ripaojiedian
+  port: 53385
+  server: e00618c75712.uxzbpycs.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d557c608-f676-472a-bd6b-612ba975c116
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -63,16 +71,6 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: 6|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 6|香港2|@ripaojiedian
   network: tcp
   port: '40259'
@@ -81,6 +79,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 6|香港6|@ripaojiedian
+  network: tcp
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d557c608-f676-472a-bd6b-612ba975c116
 - client-fingerprint: chrome
   delay: 612
   name: 8|HK_speednode_0085
@@ -585,3 +593,31 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn香港
+  network: ws
+  port: '80'
+  server: 47.76.49.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn香港 #1'
+  network: ws
+  port: '80'
+  server: 8.210.146.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048

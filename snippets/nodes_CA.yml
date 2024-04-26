@@ -3,6 +3,6 @@ proxies:
   name: 5|🇨🇦 加拿大|@ripaojiedian
   password: BZjkHMao
   port: 443
-  server: 112.16.228.104
+  server: 38.180.127.194
   skip-cert-verify: true
   type: trojan
