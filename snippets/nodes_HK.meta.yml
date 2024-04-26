@@ -595,10 +595,20 @@ proxies:
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn香港
+  name: '9|baipaovpn香港 #1'
+  network: tcp
+  port: '19901'
+  server: 163.53.18.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 75b6b473-bdf7-42e8-a63d-b778fb0f6b46
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn香港 #2'
   network: ws
   port: '80'
-  server: 47.76.49.246
+  server: 8.210.146.108
   servername: ''
   tls: false
   type: vmess
@@ -609,10 +619,10 @@ proxies:
     path: /needay?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn香港 #1'
+  name: '9|baipaovpn香港 #3'
   network: ws
   port: '80'
-  server: 8.210.146.108
+  server: 8.210.101.157
   servername: ''
   tls: false
   type: vmess
