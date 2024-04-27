@@ -1,17 +1,1 @@
-proxies:
-- client-fingerprint: random
-  name: 8|CN_speednode_0004
-  network: ws
-  port: 17630
-  server: 27.115.117.197
-  servername: toujiediansigema.666888.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
+proxies: []

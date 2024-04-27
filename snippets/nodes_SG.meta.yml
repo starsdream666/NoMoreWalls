@@ -1,90 +1,54 @@
 proxies:
 - client-fingerprint: chrome
   name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|新加坡2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d
+  ws-opts:
+    headers:
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡3|@ripaojiedian
+  password: 29005ac3-b2fc-4394-b4e9-a26b1c2d87d1
+  port: 26189
+  server: sg06.goodyun.buzz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡|@ripaojiedian 2
   password: BZjkHMao
   port: 51001
   server: 112.16.228.100
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡2|@ripaojiedian
-  port: 11038
-  server: dotu-sgv1.03ezhg0qsa.download
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.68.68.78
+  server: 52.78.184.192
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|新加坡2|@ripaojiedian
-  network: tcp
-  port: '11038'
-  server: dotu-sgv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - client-fingerprint: random
-  name: 8|SG_speednode_0086
-  network: ws
-  port: 2087
-  server: 47.236.123.218
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
-  ws-opts:
-    headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|SG_speednode_0087
-  network: ws
-  port: 2096
-  server: 47.236.112.193
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
-  ws-opts:
-    headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|SG_speednode_0088
-  network: ws
-  port: 2087
-  server: 47.236.23.102
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
-  ws-opts:
-    headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|SG_speednode_0089
+  name: 8|SG_speednode_0081
   network: ws
   port: 2083
   server: 47.236.5.223

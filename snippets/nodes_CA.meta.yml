@@ -1,8 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 5|🇨🇦 加拿大|@ripaojiedian
-  password: BZjkHMao
-  port: 443
-  server: 38.180.127.194
-  skip-cert-verify: true
-  type: trojan
+proxies: []
