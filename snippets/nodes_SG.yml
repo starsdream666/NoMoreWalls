@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
