@@ -52,19 +52,3 @@ proxies:
   server: 52.78.184.192
   tfo: true
   type: ss
-- client-fingerprint: random
-  name: 8|SG_speednode_0067
-  network: ws
-  port: 2083
-  server: 47.236.5.223
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
-  ws-opts:
-    headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com

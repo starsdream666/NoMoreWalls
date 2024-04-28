@@ -86,7 +86,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0004
+  name: 8|HK_speednode_0010
   network: ws
   port: 18980
   server: 8.217.85.212
@@ -99,10 +99,10 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
   delay: 560
-  name: 8|HK_speednode_0005
+  name: 8|HK_speednode_0011
   network: ws
   port: 37564
   server: 8.210.160.12
@@ -115,9 +115,9 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0006
+  name: 8|HK_speednode_0012
   network: ws
   port: 34237
   server: 8.217.45.182
@@ -130,10 +130,10 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
   delay: 612
-  name: 8|HK_speednode_0007
+  name: 8|HK_speednode_0013
   network: ws
   port: 13080
   server: 94.74.100.2
@@ -146,9 +146,9 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0008
+  name: 8|HK_speednode_0014
   network: ws
   port: 34237
   server: 8.210.1.45
@@ -161,9 +161,9 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0009
+  name: 8|HK_speednode_0015
   network: ws
   port: 34237
   server: 8.210.168.29
@@ -176,9 +176,9 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0010
+  name: 8|HK_speednode_0016
   network: ws
   port: 48952
   server: 8.217.85.212
@@ -191,42 +191,9 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: chrome
-  delay: 1918
-  name: 8|HK_speednode_0011
-  network: ws
-  port: 13080
-  server: 119.8.62.199
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: random
-  name: 8|HK_speednode_0014
-  network: ws
-  port: 10020
-  server: 103.235.18.119
-  servername: toujiediansigema.666888.lol
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
-- client-fingerprint: chrome
-  name: 8|HK_speednode_0013
+  name: 8|HK_speednode_0017
   network: ws
   port: 22338
   server: 43.132.244.52
@@ -239,11 +206,11 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - Inc. - 3: None
   client-fingerprint: chrome
   delay: 648
-  name: 8|HK_speednode_0016
+  name: 8|HK_speednode_0019
   network: ws
   port: 49454
   server: 45.249.246.59
@@ -257,9 +224,9 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|HK_speednode_0017
+  name: 8|HK_speednode_0020
   network: ws
   port: 2096
   server: 47.243.179.249
@@ -275,7 +242,7 @@ proxies:
       Host: tg.hellitroy.xyz
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|HK_speednode_0018
+  name: 8|HK_speednode_0021
   network: ws
   port: 2096
   server: aliyun.godns.onflashdrive.app
@@ -291,7 +258,7 @@ proxies:
       Host: tg.hellitroy.xyz
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|HK_speednode_0019
+  name: 8|HK_speednode_0022
   network: ws
   port: 443
   server: 43.129.171.137
@@ -307,7 +274,7 @@ proxies:
       Host: tg.hellitroy.xyz
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|HK_speednode_0020
+  name: 8|HK_speednode_0023
   network: ws
   port: 41473
   server: 103.234.53.204
@@ -323,7 +290,7 @@ proxies:
       Host: tg.hellitroy.xyz
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|HK_speednode_0021
+  name: 8|HK_speednode_0024
   network: ws
   port: 28976
   server: 103.225.199.188

@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|台湾|@ripaojiedian
+  name: 5,6,9|baipaovpn中国
   network: ws
   port: '80'
   server: 8.218.85.128
