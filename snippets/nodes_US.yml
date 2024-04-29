@@ -42,16 +42,30 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '2082'
-  server: 162.159.136.220
+  port: '28852'
+  server: 152.70.233.65
   servername: ''
   tls: false
   type: vmess
-  uuid: c9b520ba-d737-448c-9b9f-5985152f7450
+  uuid: 4268a1d7-171c-40ae-9684-e580c67b7354
   ws-opts:
     headers:
-      Host: sgv8.gas51qwrhmzz8.top
-    path: /
+      Host: kr-seoul-oracle-4fccf5.ip1.shop
+    path: /namebgdfxhnsh
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 172.64.104.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_4_由快嘴科技提供;kkzui.com1
