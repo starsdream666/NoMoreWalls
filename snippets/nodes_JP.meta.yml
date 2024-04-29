@@ -32,7 +32,26 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 8|JP_speednode_0035
+  delay: 1203
+  fp: random
+  name: 8|JP_speednode_0046
+  network: ws
+  port: 34237
+  security: tls
+  server: 45.251.241.103
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0047
   network: ws
   port: 34237
   server: 45.251.241.13
@@ -47,88 +66,51 @@ proxies:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|JP_speednode_0036
+  name: 8|JP_speednode_0048
   network: ws
-  port: 35463
-  server: 195.245.241.39
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
+  port: 21817
+  security: tls
+  server: 147.78.247.234
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
   tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
 - client-fingerprint: random
-  name: 8|JP_speednode_0037
+  delay: 1163
+  name: 8|JP_speednode_0049
   network: ws
-  port: 33211
-  server: 193.32.151.217
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
+  port: 8420
+  server: 176.97.73.99
+  servername: a.ssll.gay
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|JP_speednode_0038
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  delay: 1189
+  name: 8|JP_speednode_0050
   network: ws
-  port: 56061
-  server: 45.66.130.112
-  servername: tg.hellitroy.xyz
-  skip-cert-verify: true
+  port: 2053
+  server: 176.97.73.99
+  servername: a.ssll.gay
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: c1483db0-35ea-4a21-b71b-43beb7285735
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: tg.hellitroy.xyz
-    path: /proxyIP=oracle.gitgoogle.com
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本 #3'
-  network: tcp
-  port: '23234'
-  server: 18.183.209.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本 #1'
-  network: ws
-  port: '45123'
-  server: 18.183.209.37
-  servername: QWQ
-  tls: true
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本 #2'
-  network: ws
-  port: '45123'
-  server: 18.183.209.37
-  servername: QWQ
-  tls: true
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: QWQ
-    path: /
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048

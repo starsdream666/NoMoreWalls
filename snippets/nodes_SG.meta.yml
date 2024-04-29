@@ -14,41 +14,38 @@ proxies:
   server: 52.78.184.192
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
+- client-fingerprint: random
+  fp: random
+  name: 8|SG_speednode_0094
   network: ws
-  port: '15638'
-  server: 18.140.66.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  port: 8443
+  security: tls
+  server: 8.219.173.195
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn新加坡 #1'
-  network: tcp
-  port: '54126'
-  server: 18.140.66.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn新加坡 #2'
+      host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|SG_speednode_0095
   network: ws
-  port: '15638'
-  server: 18.140.66.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  port: 8443
+  security: tls
+  server: 47.129.2.211
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
