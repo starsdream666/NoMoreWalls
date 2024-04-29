@@ -178,3 +178,13 @@ proxies:
     headers:
       Host: tg.hellitroy.xyz
     path: /proxyIP=oracle.gitgoogle.com
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn台湾省彰化县
+  network: tcp
+  port: '56568'
+  server: 61.224.109.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
