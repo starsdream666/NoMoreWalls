@@ -16,6 +16,14 @@ proxies:
     headers:
       Host: us1cPZiz8nb.fzbqfrse.xyz
     path: /video/6VBhAkCtV4/
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.110.1.111
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: MyYoZhfX
@@ -39,7 +47,7 @@ proxies:
   servername: v2ray.ryin.vip
   tls: true
   type: vmess
-  uuid: 727b7242-b94b-404e-976a-700dbce030e5
+  uuid: e045d38b-7aa3-4f45-83f9-a9a5c2ec1aab
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -53,7 +61,7 @@ proxies:
   servername: v2ray.ryin.vip
   tls: true
   type: vmess
-  uuid: a2af71c0-c70a-4b9a-86a0-9b3046252285
+  uuid: e045d38b-7aa3-4f45-83f9-a9a5c2ec1aab
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -62,40 +70,16 @@ proxies:
   cipher: auto
   name: '9|baipaovpn美国 #2'
   network: ws
-  port: '443'
-  server: 185.177.229.100
-  servername: 185.177.229.100
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 185.177.229.100
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: tcp
-  port: '80'
-  server: 168.119.160.232
+  port: '2082'
+  server: 162.159.136.220
   servername: ''
   tls: false
   type: vmess
-  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #4'
-  network: ws
-  port: '80'
-  server: 172.64.104.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  uuid: d8f109e0-1d76-4bf3-b0fa-a4351ac78b09
   ws-opts:
     headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国
