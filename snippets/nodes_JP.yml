@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
-  password: BZjkHMao
+  password: MyYoZhfX
   port: 51000
   server: 112.16.228.100
   skip-cert-verify: true
@@ -11,35 +11,18 @@ proxies:
   client-fingerprint: chrome
   name: 5,6|日本2|@ripaojiedian
   network: ws
-  port: '2052'
+  port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d
+  uuid: 8c7b39d2-eb80-48d4-9471-76bddc5273c8
   ws-opts:
     headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cf1.ftclashcloud.site
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
-  ws-opts:
-    headers:
-      Host: churrosjp01.ftclashcloud.online
-    path: /ws?ed
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian

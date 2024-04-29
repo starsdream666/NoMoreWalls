@@ -1,54 +1,16 @@
 proxies:
 - client-fingerprint: chrome
   name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|新加坡2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d
-  ws-opts:
-    headers:
-      Host: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian 2
-  password: BZjkHMao
+  password: MyYoZhfX
   port: 51002
   server: 120.226.50.90
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡3|@ripaojiedian
-  network: ws
-  password: d6cc066f-9d8b-43e4-b659-8d6f4189288a
-  port: 443
-  server: cyhxjc123456.51889188.xyz
-  skip-cert-verify: false
-  sni: sg.cfyun01.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg.cfyun01.sbs
-    path: /CFYUN
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.78.184.192
-  tfo: true
+  tfo: false
   type: ss
