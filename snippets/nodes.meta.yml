@@ -1,8 +1,8 @@
 proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
-  password: GeregetR8cvQHzYr
-  port: 9030
+  password: p9z5BVADH2YFs3MN
+  port: 9040
   server: 103.172.116.79
   type: ss
   udp: true
@@ -10,199 +10,267 @@ proxies:
   name: 0|-https://t.me/MrXbin-2
   password: shadowsocks
   port: 443
-  server: 109.201.152.181
+  server: 156.146.38.163
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 43.201.69.200
+  server: 13.124.178.1
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
+  password: amazonskr05
+  port: 443
+  server: 52.195.189.211
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-5
+  password: amazonskr05
+  port: 443
+  server: 47.128.230.112
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-6
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-7
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-8
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-9
   password: qwerREWQ@@
   port: 49032
   server: p227.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-5
+  name: 0|-https://t.me/MrXbin-10
+  password: amazonskr05
+  port: 443
+  server: 43.201.69.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: amazonskr05
+  port: 443
+  server: 13.250.57.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 103.172.116.79
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.79
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
+  name: 0|-https://t.me/MrXbin-13
   password: cp8pRSUAyLhTfVWH
   port: 9064
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
+  name: 0|-https://t.me/MrXbin-14
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-15
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-18
   password: Lp27rqyJq72bZsqX
   port: 9045
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
+  name: 0|-https://t.me/MrXbin-19
+  password: KnJGad3FqTvjqbaX
+  port: 9014
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
+  name: 0|-https://t.me/MrXbin-20
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-21
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-22
   password: JdmRK9gMEqFgs8nP
   port: 9003
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
+  name: 0|-https://t.me/MrXbin-23
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-24
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-25
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-26
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-27
   password: y9VURyNzJWNRYEGQ
   port: 9008
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-13
-  password: dML2sfhbVwvtfNPe
-  port: 9058
+  name: 0|-https://t.me/MrXbin-28
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
   server: 103.172.116.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
+  name: 0|-https://t.me/MrXbin-29
+  password: rNBfNuuANFCAk7KB
+  port: 9056
   server: 103.172.116.79
   type: ss
   udp: true
-- cipher: aes-256-ctr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-30
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-31
-  obfs: tls1.2_ticket_auth
-  obfs-param: cdn.appsflyer.com
-  password: NewBypasser2023
-  port: 443
-  protocol: origin
-  server: 163.172.218.164
-  type: ssr
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-52
-  obfs: plain
-  obfs-param: None
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  protocol: origin
-  protocol-param: None
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
   server: 103.172.116.79
-  type: ssr
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-32
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-33
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-34
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-35
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-36
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 103.172.116.79
+  type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-37
-  obfs: plain
-  obfs-param: None
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  protocol: origin
-  protocol-param: None
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
   server: 103.172.116.79
-  type: ssr
+  type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-38
-  obfs: plain
-  obfs-param: None
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  protocol: origin
-  protocol-param: None
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
   server: 103.172.116.79
-  type: ssr
+  type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-39
-  obfs: plain
-  obfs-param: None
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  protocol: origin
-  protocol-param: None
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
   server: 103.172.116.79
-  type: ssr
-  udp: true
+  type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-40
-  obfs: plain
-  obfs-param: None
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  protocol: origin
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
   server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-41
-  obfs: plain
-  obfs-param: None
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-42
-  obfs: plain
-  obfs-param: None
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-43
-  obfs: plain
-  obfs-param: None
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
+  type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-44
-  obfs: plain
-  obfs-param: None
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-46
   obfs: plain
   obfs-param: None
   password: U6qnYRhfyDmn8sgn
@@ -213,7 +281,40 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-96
+  obfs: plain
+  obfs-param: None
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-46
+  obfs: plain
+  obfs-param: None
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-47
+  obfs: plain
+  obfs-param: None
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-49
   obfs: plain
   obfs-param: None
   password: rpgbNnU9rDDU4aWZ
@@ -224,7 +325,27 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-48
+  name: 0|-https://t.me/MrXbin-50
+  obfs: plain
+  obfs-param: None
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-51
+  obfs: plain
+  obfs-param: None
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-54
   obfs: plain
   password: y9VURyNzJWNRYEGQ
   port: 9008
@@ -233,7 +354,7 @@ proxies:
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-49
+  name: 0|-https://t.me/MrXbin-55
   obfs: plain
   obfs-param: None
   password: GeregetR8cvQHzYr
@@ -244,22 +365,44 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-51
+  name: 0|-https://t.me/MrXbin-56
   obfs: plain
   obfs-param: None
-  password: SBM7R883jBmnqe6C
-  port: 9053
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
   protocol: origin
   protocol-param: None
   server: 103.172.116.79
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-53
+  name: 0|-https://t.me/MrXbin-57
   obfs: plain
   obfs-param: None
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-59
+  obfs: plain
+  obfs-param: None
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-60
+  obfs: plain
+  obfs-param: None
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
   protocol: origin
   protocol-param: None
   server: 103.172.116.79
@@ -269,6 +412,25 @@ proxies:
   name: 0|-https://t.me/MrXbin-61
   obfs: plain
   obfs-param: None
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-63
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-73
+  obfs: plain
+  obfs-param: None
   password: FAdUvMJUq5vDgKEq
   port: 9006
   protocol: origin
@@ -276,18 +438,8 @@ proxies:
   server: 103.172.116.79
   type: ssr
   udp: true
-- cipher: chacha20-ietf
-  name: 0|-https://t.me/MrXbin-63
-  obfs: plain
-  obfs-param: 2f51e42274.wns.microsoft.com
-  password: fnf.xyz
-  port: 20505
-  protocol: auth_aes128_sha1
-  protocol-param: 42274:oSRZAa
-  server: ceu-a01.stream.fnode.top
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-67
+  name: 0|-https://t.me/MrXbin-78
   obfs: plain
   password: wjTugX3ZtHMB9c3Z
   port: 9057
@@ -295,118 +447,221 @@ proxies:
   server: 103.172.116.79
   type: ssr
   udp: true
-- name: 0|-https://t.me/MrXbin-77
-  password: 27876_t7d7f4e3f
+- cipher: aes-256-ctr
+  name: 0|-https://t.me/MrXbin-92
+  obfs: tls1.2_ticket_auth
+  obfs-param: cdn.appsflyer.com
+  password: NewBypasser2023
   port: 443
-  server: 23.142.200.175
+  protocol: origin
+  server: 163.172.218.164
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 0|-https://t.me/MrXbin-102
+  network: http
+  port: 3389
+  server: 45.82.31.164
   skip-cert-verify: true
-  type: trojan
-- country: CA
-  name: 0|-https://t.me/MrXbin-78
-  password: NAyEzbZhLGy(
-  port: 12825
-  server: 52.60.82.70
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
+  type: vmess
   udp: true
-- country: DE
-  name: 0|-https://t.me/MrXbin-113
-  password: HGd(UOqW8XC0
-  port: 12812
-  server: 3.70.246.47
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-103
+  network: tcp
+  port: 59905
+  server: 173.232.87.45
   skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
+  type: vmess
+  uuid: ca556428-0e97-42e8-e423-ef1a8e8eeb06
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-104
+  network: ws
+  port: 80
+  server: 172.67.166.192
+  skip-cert-verify: true
+  type: vmess
   udp: true
+  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
+  ws-opts:
+    headers:
+      Host: ua1-vmess.sshmax.xyz
+    path: /vmess
 - country: DE
-  name: 0|-https://t.me/MrXbin-114
-  password: PjOpy9ssmrOh
-  port: 12819
+  name: 0|-https://t.me/MrXbin-146
+  password: Fc(nOuHiQXIv
+  port: 13000
   server: 3.79.109.194
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
   udp: true
-- country: KR
-  name: 0|-https://t.me/MrXbin-115
-  password: lZxtblGGT6E1
-  port: 12812
-  server: 3.36.61.101
+- alterId: 1
+  cipher: auto
+  country: JP
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-147
+  network: tcp
+  port: 28788
+  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+- alterId: 1
+  cipher: auto
+  country: JP
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-148
+  network: tcp
+  port: 28786
+  server: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e147ce52-2598-31b0-950d-6b12c306b360
+- country: JP
+  name: 0|-https://t.me/MrXbin-149
+  password: Bd0Y7cFSnvDI
+  port: 12984
+  server: 18.183.120.70
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: JP
+  name: 0|-https://t.me/MrXbin-150
+  password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf
+  port: 20230
+  server: jp07.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
+  type: trojan
+  udp: true
+- country: JP
+  name: 0|-https://t.me/MrXbin-151
+  password: R1khzKpAkVjf
+  port: 12997
+  server: 43.206.242.253
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: JP
+  name: 0|-https://t.me/MrXbin-152
+  password: HcjXAPFkgu0L
+  port: 12985
+  server: 18.183.142.86
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: JP
+  name: 0|-https://t.me/MrXbin-153
+  password: Nj0FQlmWmEav
+  port: 13001
+  server: 54.248.42.193
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
   country: ' NL'
-  name: 0|-https://t.me/MrXbin-116
+  name: 0|-https://t.me/MrXbin-154
   password: sIZ80DZsAC9ZSshS69gYql
   port: 50744
   server: 194.26.229.18
   type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-155
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-156
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-157
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-158
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-159
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-160
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-161
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.77.53.200
+  type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-117
+  name: 0|-https://t.me/MrXbin-162
+  obfs: plain
+  obfs-param: Vmtjd05XUldjRkpLVkU1RlNsUk9SUSUzRCUzRA%3D%3D
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  protocol: origin
+  protocol-param: Vmtjd05XUldjRkpLVkU1RlNsUk9SUSUzRCUzRA%3D%3D
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 0|-https://t.me/MrXbin-163
   obfs: plain
   obfs-param: Tm9uZQ%3D%3D
-  password: f8npKgNzdkss2ytn
-  port: 9088
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
   protocol: origin
   protocol-param: Tm9uZQ%3D%3D
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-118
-  obfs: plain
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 0|-https://t.me/MrXbin-119
-  obfs: plain
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 0|-https://t.me/MrXbin-120
-  obfs: plain
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 0|-https://t.me/MrXbin-121
-  obfs: plain
-  obfs-param: Tm9uZQ%3D%3D
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  protocol: origin
-  protocol-param: Tm9uZQ%3D%3D
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 0|-https://t.me/MrXbin-122
-  obfs: plain
-  obfs-param: VG05dVpRJTNEJTNE
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  protocol: origin
-  protocol-param: VG05dVpRJTNEJTNE
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 0|-https://t.me/MrXbin-123
+  name: 0|-https://t.me/MrXbin-164
   obfs: plain
   obfs-param: Tm9uZQ%3D%3D
   password: dML2sfhbVwvtfNPe
@@ -417,27 +672,27 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-124
+  name: 0|-https://t.me/MrXbin-165
   obfs: plain
-  password: kSPmvwdFzGMMW5pY
-  port: 9007
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
   protocol: origin
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-125
+  name: 0|-https://t.me/MrXbin-166
   obfs: plain
   obfs-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
   protocol: origin
   protocol-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-126
+  name: 0|-https://t.me/MrXbin-167
   obfs: plain
   password: c3NtHJ5ujV2tGDfj
   port: 9084
@@ -446,7 +701,36 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-127
+  name: 0|-https://t.me/MrXbin-168
+  obfs: plain
+  obfs-param: Tm9uZQ%3D%3D
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  protocol: origin
+  protocol-param: Tm9uZQ%3D%3D
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 0|-https://t.me/MrXbin-169
+  obfs: plain
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 0|-https://t.me/MrXbin-170
+  obfs: plain
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 0|-https://t.me/MrXbin-171
   obfs: plain
   password: f63gg8EruDnUrmz4
   port: 9010
@@ -455,7 +739,16 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-128
+  name: 0|-https://t.me/MrXbin-172
+  obfs: plain
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 0|-https://t.me/MrXbin-173
   obfs: plain
   password: TPqX8edgbAURcAMb
   port: 9079
@@ -464,200 +757,185 @@ proxies:
   type: ssr
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-129
-  password: Y6R9pAtvxxzmGC
-  port: 3389
+  name: 0|-https://t.me/MrXbin-174
+  password: TEzjfAYq2IjtuoS
+  port: 6679
   server: 23.157.40.47
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-130
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 23.157.40.16
+  name: 0|-https://t.me/MrXbin-175
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 23.157.40.81
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-131
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 23.157.40.66
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-132
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 23.157.40.16
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-133
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 23.157.40.16
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-134
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 23.157.40.66
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-135
+  name: 0|-https://t.me/MrXbin-176
   password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 23.157.40.66
+  port: 8090
+  server: 23.157.40.81
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-136
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 23.157.40.66
+  name: 0|-https://t.me/MrXbin-177
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 23.157.40.47
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-137
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.157.40.16
+  name: 0|-https://t.me/MrXbin-178
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.157.40.81
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-138
+  name: 0|-https://t.me/MrXbin-179
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 23.157.40.66
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-139
-  password: KixLvKzwjekG00rm
-  port: 5500
+  name: 0|-https://t.me/MrXbin-180
+  password: Y6R9pAtvxxzmGC
+  port: 3389
   server: 23.157.40.47
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-140
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 23.157.40.16
+  name: 0|-https://t.me/MrXbin-181
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 23.157.40.20
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-141
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 23.157.40.16
+  name: 0|-https://t.me/MrXbin-182
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.157.40.47
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-142
+  name: 0|-https://t.me/MrXbin-183
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 23.157.40.66
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-184
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-185
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 23.157.40.66
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-186
   password: XKFKl2rULjIp74
   port: 8008
-  server: 23.157.40.16
+  server: 23.157.40.66
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-143
+  name: 0|-https://t.me/MrXbin-187
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 23.157.40.47
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-144
+  name: 0|-https://t.me/MrXbin-188
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-189
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 23.157.40.47
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-190
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 23.157.40.47
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-145
+  name: 0|-https://t.me/MrXbin-191
   password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 23.157.40.16
+  port: 3306
+  server: 23.157.40.20
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-146
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.157.40.16
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-147
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 23.154.136.218
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-148
+  name: 0|-https://t.me/MrXbin-192
   password: lGqs95QkFHo2NV
   port: 5499
   server: 23.157.40.66
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-149
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 23.157.40.16
+  name: 0|-https://t.me/MrXbin-193
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 23.157.40.20
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-150
+  name: 0|-https://t.me/MrXbin-194
   password: e4FCWrgpkji3QY
   port: 9101
   server: 23.157.40.66
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-151
-  network: ws
+  name: 0|-https://t.me/MrXbin-195
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-196
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 23.157.40.66
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-197
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-128-cfb
+  country: US
+  name: 0|-https://t.me/MrXbin-198
+  password: shadowsocks
   port: 443
-  server: hkcft01.xqc.best
-  servername: d2zpep5anc4l5k.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d4a9bf15-dcb5-46cd-bcdb-d14ff4b65434
-  ws-opts:
-    headers:
-      HOST: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
+  server: 212.102.47.198
+  type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-153
-  network: ws
-  port: 443
-  server: 172.67.183.55
-  servername: de3-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7142b543-45a8-4274-b80d-f401e7892f5c
-  ws-opts:
-    headers:
-      HOST: de3-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-154
+  name: 0|-https://t.me/MrXbin-199
   network: ws
   port: 443
   server: channel.hopev2ray.link
@@ -670,6 +948,77 @@ proxies:
     headers:
       HOST: no1-vmess.sshmax.xyz
     path: /vmess
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-200
+  network: ws
+  port: 80
+  server: ede474be-sb9ts0-sdlngq-1n7jq.sj.p5pv.com
+  servername: ede474be-sb9ts0-sdlngq-1n7jq.sj.p5pv.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 85bce006-4885-11ee-8792-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: ede474be-sb9ts0-sdlngq-1n7jq.sj.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-201
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: dd7xps5fj6dfo.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b57caed-da32-45cd-9b61-34b22a663ef5
+  ws-opts:
+    headers:
+      HOST: dd7xps5fj6dfo.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-203
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: d2zpep5anc4l5k.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b57caed-da32-45cd-9b61-34b22a663ef5
+  ws-opts:
+    headers:
+      HOST: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- country: US
+  name: 0|-https://t.me/MrXbin-206
+  password: mb18d57VNXW7
+  port: 13009
+  server: 54.191.105.151
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: US
+  name: 0|-https://t.me/MrXbin-207
+  password: tYHTbB09LxKm
+  port: 12987
+  server: 18.191.98.154
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
   name: 5|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -920,23 +1269,40 @@ proxies:
   tls: false
   type: vmess
   uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623
-- delay: 552
-  name: 8|HK_speednode_0004
+- client-fingerprint: random
+  name: 8|CA_speednode_0002
   network: ws
-  port: 26343
-  server: 8.217.229.36
-  servername: a.ssll.gay
-  skip-cert-verify: false
+  port: 18005
+  server: 154.12.59.251
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|CA_speednode_0003
+  network: ws
+  port: 3334
+  server: 23.94.61.36
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - delay: 840
-  name: 8|HK_speednode_0005
+  name: 8|HK_speednode_0004
   network: ws
   port: 58029
   server: 8.217.229.36
@@ -950,25 +1316,9 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- Inc. - 6: None
-  delay: 924
-  name: 8|HK_speednode_0006
-  network: ws
-  port: 34237
-  server: 8.210.168.29
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
 - Inc. - 3: None
   delay: 510
-  name: 8|HK_speednode_0007
+  name: 8|HK_speednode_0005
   network: ws
   port: 37564
   server: 8.210.160.12
@@ -982,9 +1332,24 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
+- delay: 552
+  name: 8|HK_speednode_0006
+  network: ws
+  port: 26343
+  server: 8.217.229.36
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - Inc. - 4: None
   delay: 500
-  name: 8|HK_speednode_0008
+  name: 8|HK_speednode_0007
   network: ws
   port: 34237
   server: 8.217.45.182
@@ -999,7 +1364,7 @@ proxies:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
 - delay: 490
-  name: 8|HK_speednode_0009
+  name: 8|HK_speednode_0008
   network: ws
   port: 34159
   server: 8.217.229.36
@@ -1013,10 +1378,27 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- delay: 530
+- Inc. - 6: None
+  delay: 924
+  name: 8|HK_speednode_0009
+  network: ws
+  port: 34237
+  server: 8.210.168.29
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- Inc. - 7: None
+  delay: 921
   name: 8|HK_speednode_0010
   network: ws
-  port: 29558
+  port: 48952
   server: 8.217.85.212
   servername: a.ssll.gay
   skip-cert-verify: false
@@ -1027,7 +1409,7 @@ proxies:
   ws-opts:
     headers:
       Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+    path: /proxyIP=oracle.gitgoogle.com
 - Inc. - 2: None
   delay: 449
   name: 8|HK_speednode_0011
@@ -1044,23 +1426,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
-- Inc. - 7: None
-  delay: 921
-  name: 8|HK_speednode_0012
-  network: ws
-  port: 48952
-  server: 8.217.85.212
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- name: 8|HK_speednode_0013
+- name: 8|HK_speednode_0012
   network: ws
   port: 34237
   server: 8.210.1.45
@@ -1074,11 +1440,11 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
-- delay: 1826
-  name: 8|HK_speednode_0014
+- delay: 530
+  name: 8|HK_speednode_0013
   network: ws
-  port: 1935
-  server: 43.154.34.74
+  port: 29558
+  server: 8.217.85.212
   servername: a.ssll.gay
   skip-cert-verify: false
   tfo: false
@@ -1090,7 +1456,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
-  name: 8|HK_speednode_0015
+  name: 8|HK_speednode_0014
   network: ws
   port: 41473
   security: tls
@@ -1107,7 +1473,7 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - delay: 842
-  name: 8|HK_speednode_0016
+  name: 8|HK_speednode_0015
   network: ws
   port: 8969
   server: 152.32.252.175
@@ -1121,66 +1487,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|HK_speednode_0017
-  network: ws
-  port: 22338
-  server: 43.132.244.52
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: random
-  name: 8|HK_speednode_0018
-  network: ws
-  port: 45398
-  security: tls
-  server: 103.234.53.242
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: 8|HK_speednode_0019
-  network: ws
-  port: 8888
-  server: 101.32.40.116
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|HK_speednode_0020
-  network: ws
-  port: 443
-  server: 118.193.34.138
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|HK_speednode_0021
+- name: 8|HK_speednode_0016
   network: ws
   port: 10001
   server: 43.128.6.137
@@ -1195,42 +1502,25 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
-  name: 8|HK_speednode_0022
-  network: ws
-  port: 34237
-  security: tls
-  server: 103.247.29.92
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
+  delay: 1826
   name: 8|HK_speednode_0023
   network: ws
-  port: 36166
-  security: tls
-  server: 38.207.161.158
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  port: 1935
+  server: 43.154.34.74
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.aliyun.fxxk.dedyn.io
 - client-fingerprint: random
   fp: random
-  name: 8|HK_speednode_0024
+  name: 8|HK_speednode_0018
   network: ws
   port: 8443
   security: tls
@@ -1247,7 +1537,24 @@ proxies:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 8|HK_speednode_0025
+  name: 8|HK_speednode_0019
+  network: ws
+  port: 34237
+  security: tls
+  server: 103.247.29.92
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 8|HK_speednode_0020
   network: ws
   port: 2053
   security: tls
@@ -1263,7 +1570,21 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- name: 8|HK_speednode_0026
+- name: 8|HK_speednode_0021
+  network: ws
+  port: 22338
+  server: 43.132.244.52
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- name: 8|HK_speednode_0022
   network: ws
   port: 3028
   server: 103.73.67.54
@@ -1278,25 +1599,54 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
-  delay: 1203
-  fp: random
-  name: 8|JP_speednode_0033
+  name: 8|HK_speednode_0024
   network: ws
-  port: 34237
-  security: tls
-  server: 45.251.241.103
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  port: 20015
+  server: 119.28.64.48
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 8|JP_speednode_0034
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.aliyun.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|HK_speednode_0025
+  network: ws
+  port: 2053
+  server: 47.76.33.40
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|HK_speednode_0026
+  network: ws
+  port: 2087
+  server: 8.218.127.249
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.aliyun.fxxk.dedyn.io
+- name: 8|JP_speednode_0028
   network: ws
   port: 34237
   server: 45.251.241.13
@@ -1311,11 +1661,28 @@ proxies:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|JP_speednode_0035
+  name: 8|JP_speednode_0029
   network: ws
-  port: 21817
+  port: 54322
+  server: 152.69.205.37
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- client-fingerprint: random
+  fp: random
+  name: 8|KR_speednode_0030
+  network: ws
+  port: 12203
   security: tls
-  server: 147.78.247.234
+  server: 1.232.40.93
   servername: cfed.tgzdyz2.top
   skip-cert-verify: false
   sni: cfed.tgzdyz2.top
@@ -1326,58 +1693,11 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  delay: 1163
-  name: 8|JP_speednode_0036
-  network: ws
-  port: 8420
-  server: 176.97.73.99
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- delay: 1189
-  name: 8|JP_speednode_0037
-  network: ws
-  port: 2053
-  server: 176.97.73.99
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- client-fingerprint: random
-  delay: 675
-  name: 8|KR_speednode_0038
-  network: ws
-  port: 49248
-  server: 193.123.239.18
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+    path: TG%40ZDYZ2
 - '...': None
   client-fingerprint: random
   delay: 1348
-  name: 8|KR_speednode_0070
+  name: 8|KR_speednode_0044
   network: ws
   port: 11211
   security: tls
@@ -1394,247 +1714,8 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- delay: 1112
-  name: 8|KR_speednode_0040
-  network: ws
-  port: 48888
-  server: 146.56.188.95
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- delay: 1091
-  name: 8|KR_speednode_0043
-  network: ws
-  port: 9527
-  security: tls
-  server: 132.226.171.158
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|KR_speednode_0060
-  network: ws
-  port: 11659
-  security: tls
-  server: 146.56.171.182
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|KR_speednode_0048
-  network: ws
-  port: 11370
-  security: tls
-  server: 146.56.146.8
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  fp: random
-  name: 8|KR_speednode_0047
-  network: ws
-  port: 12203
-  security: tls
-  server: 1.232.40.93
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- delay: 1150
-  name: 8|KR_speednode_0049
-  network: ws
-  port: 21650
-  server: 129.154.192.48
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- client-fingerprint: random
-  delay: 856
-  name: 8|KR_speednode_0050
-  network: ws
-  port: 59158
-  security: tls
-  server: 129.154.206.254
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- delay: 1195
-  name: 8|KR_speednode_0051
-  network: ws
-  port: 36831
-  server: 124.50.116.202
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|KR_speednode_0052
-  network: ws
-  port: 25800
-  server: 193.122.110.164
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- delay: 872
-  name: 8|KR_speednode_0053
-  network: ws
-  port: 46730
-  server: 132.226.172.226
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- delay: 1167
-  name: 8|KR_speednode_0054
-  network: ws
-  port: 48652
-  server: 146.56.42.31
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 8|KR_speednode_0065
-  network: ws
-  port: 47590
-  security: tls
-  server: 146.56.141.168
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- delay: 819
-  name: 8|KR_speednode_0074
-  network: ws
-  port: 39637
-  security: tls
-  server: 132.145.95.170
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|KR_speednode_0057
-  network: ws
-  port: 11202
-  server: 146.56.144.32
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- name: 8|KR_speednode_0058
-  network: ws
-  port: 45171
-  server: 193.122.103.10
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|KR_speednode_0059
+  name: 8|KR_speednode_0032
   network: ws
   port: 36795
   security: tls
@@ -1651,8 +1732,106 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
+  name: 8|KR_speednode_0046
+  network: ws
+  port: 11659
+  security: tls
+  server: 146.56.171.182
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- client-fingerprint: random
+  delay: 1091
+  name: 8|KR_speednode_0043
+  network: ws
+  port: 9527
+  security: tls
+  server: 132.226.171.158
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 8|KR_speednode_0039
+  network: ws
+  port: 11370
+  security: tls
+  server: 146.56.146.8
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: random
+  delay: 675
+  name: 8|KR_speednode_0036
+  network: ws
+  port: 49248
+  server: 193.123.239.18
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- delay: 1150
+  name: 8|KR_speednode_0037
+  network: ws
+  port: 21650
+  server: 129.154.192.48
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- delay: 1112
+  name: 8|KR_speednode_0040
+  network: ws
+  port: 48888
+  server: 146.56.188.95
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: random
   fp: random
-  name: 8|KR_speednode_0061
+  name: 8|KR_speednode_0042
   network: ws
   port: 39732
   security: tls
@@ -1668,10 +1847,28 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- name: 8|KR_speednode_0062
+- client-fingerprint: random
+  delay: 856
+  name: 8|KR_speednode_0045
   network: ws
-  port: 39803
-  server: 193.123.233.169
+  port: 59158
+  security: tls
+  server: 129.154.206.254
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 8|KR_speednode_0047
+  network: ws
+  port: 45171
+  server: 193.122.103.10
   servername: a.ssll.gay
   skip-cert-verify: false
   tfo: false
@@ -1682,7 +1879,91 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
+- client-fingerprint: random
+  name: 8|KR_speednode_0048
+  network: ws
+  port: 11202
+  server: 146.56.144.32
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- delay: 1167
+  name: 8|KR_speednode_0049
+  network: ws
+  port: 48652
+  server: 146.56.42.31
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: random
+  delay: 819
+  name: 8|KR_speednode_0068
+  network: ws
+  port: 39637
+  security: tls
+  server: 132.145.95.170
+  servername: toujiediansigema.666888.lol
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: TG@mianfeicf
+- client-fingerprint: random
+  delay: 1074
+  fp: random
+  name: 8|KR_speednode_0051
+  network: ws
+  port: 20082
+  security: tls
+  server: 210.111.176.108
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
 - name: 8|KR_speednode_0063
+  network: ws
+  port: 47590
+  security: tls
+  server: 146.56.141.168
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- name: 8|KR_speednode_0053
   network: ws
   port: 46060
   server: 146.56.166.59
@@ -1696,8 +1977,81 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
+- name: 8|KR_speednode_0054
+  network: ws
+  port: 25800
+  server: 193.122.110.164
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- name: 8|KR_speednode_0055
+  network: ws
+  port: 39803
+  server: 193.123.233.169
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- delay: 1195
+  name: 8|KR_speednode_0056
+  network: ws
+  port: 36831
+  server: 124.50.116.202
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
-  name: 8|KR_speednode_0064
+  delay: 998
+  name: 8|KR_speednode_0057
+  network: ws
+  port: 61153
+  server: 146.56.136.49
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+- name: 8|KR_speednode_0058
+  network: ws
+  port: 28756
+  server: 152.70.248.236
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- client-fingerprint: random
+  name: 8|KR_speednode_0059
   network: ws
   port: 58854
   security: tls
@@ -1714,7 +2068,55 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  name: 8|KR_speednode_0066
+  name: 8|KR_speednode_0060
+  network: ws
+  port: 32118
+  server: 58.238.50.200
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  delay: 744
+  name: 8|KR_speednode_0062
+  network: ws
+  port: 28756
+  security: tls
+  server: 152.70.232.173
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 8|KR_speednode_0064
+  network: ws
+  port: 45593
+  server: 146.56.161.141
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /proxyIP=oracle.gitgoogle.com
+- client-fingerprint: random
+  name: 8|KR_speednode_0065
   network: ws
   port: 50001
   security: tls
@@ -1731,7 +2133,7 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  name: 8|KR_speednode_0067
+  name: 8|KR_speednode_0066
   network: ws
   port: 59408
   security: tls
@@ -1747,26 +2149,8 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- client-fingerprint: random
-  delay: 744
-  name: 8|KR_speednode_0068
-  network: ws
-  port: 28756
-  security: tls
-  server: 152.70.232.173
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
 - delay: 1358
-  name: 8|KR_speednode_0069
+  name: 8|KR_speednode_0067
   network: ws
   port: 56785
   server: 193.123.250.205
@@ -1780,86 +2164,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
-- name: 8|KR_speednode_0072
-  network: ws
-  port: 45593
-  server: 146.56.161.141
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  delay: 998
-  name: 8|KR_speednode_0073
-  network: ws
-  port: 61153
-  server: 146.56.136.49
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 8|KR_speednode_0075
-  network: ws
-  port: 28756
-  server: 152.70.248.236
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- client-fingerprint: random
-  name: 8|KR_speednode_0076
-  network: ws
-  port: 32118
-  server: 58.238.50.200
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  delay: 1074
-  fp: random
-  name: 8|KR_speednode_0077
-  network: ws
-  port: 20082
-  security: tls
-  server: 210.111.176.108
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 8|KR_speednode_0078
+- name: 8|KR_speednode_0069
   network: ws
   port: 33155
   server: 129.154.211.201
@@ -1873,24 +2178,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
-- '...': None
-  client-fingerprint: random
-  delay: 1257
-  name: 8|KR_speednode_0079
-  network: ws
-  port: 37992
-  server: 119.17.25.40
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- name: 8|KR_speednode_0080
+- name: 8|KR_speednode_0070
   network: ws
   port: 48132
   server: 132.226.230.177
@@ -1904,55 +2192,72 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
-- delay: 1093
-  name: 8|KR_speednode_0081
-  network: ws
-  port: 9999
-  server: 140.238.7.57
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 8|KR_speednode_0082
-  network: ws
-  port: 28756
-  server: 140.238.17.177
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: random
-  fp: random
-  name: 8|SG_speednode_0084
+  name: 8|KR_speednode_0071
   network: ws
-  port: 8443
-  security: tls
-  server: 8.219.173.195
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  port: 50030
+  server: 182.230.121.50
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.kr.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|SG_speednode_0085
+  name: 8|KR_speednode_0072
+  network: ws
+  port: 30002
+  server: 203.132.181.73
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.kr.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|KR_speednode_0073
+  network: ws
+  port: 30051
+  server: 125.133.233.48
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.kr.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|KR_speednode_0074
+  network: ws
+  port: 39419
+  server: 125.133.160.129
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.kr.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|SG_speednode_0076
   network: ws
   port: 8443
   security: tls
@@ -1969,24 +2274,38 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  delay: 1057
-  name: 8|TW_speednode_0087
+  name: 8|SG_speednode_0077
   network: ws
-  port: 13688
-  security: tls
-  server: 118.163.128.81
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  port: 3747
+  server: 8.222.153.193
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: 8|TW_speednode_0088
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.sg.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|SG_speednode_0078
+  network: ws
+  port: 17465
+  server: 138.2.95.33
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.sg.fxxk.dedyn.io
+- name: 8|TW_speednode_0079
   network: ws
   port: 30686
   server: 211.22.240.107
@@ -2001,57 +2320,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
-  delay: 942
-  name: 8|TW_speednode_0108
-  network: ws
-  port: 12559
-  server: 118.163.128.81
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  delay: 591
-  name: 8|TW_speednode_0090
-  network: ws
-  port: 38370
-  security: tls
-  server: 118.163.128.81
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- delay: 1109
-  name: 8|TW_speednode_0091
-  network: ws
-  port: 32733
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: random
-  name: 8|TW_speednode_0102
+  name: 8|TW_speednode_0086
   network: ws
   port: 25424
   security: tls
@@ -2070,7 +2339,7 @@ proxies:
     path: TG@mianfeicf
 - client-fingerprint: random
   delay: 941
-  name: 8|TW_speednode_0104
+  name: 8|TW_speednode_0085
   network: ws
   port: 4443
   security: tls
@@ -2086,22 +2355,7 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- delay: 1004
-  name: 8|TW_speednode_0094
-  network: ws
-  port: 22904
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|TW_speednode_0095
+- name: 8|TW_speednode_0082
   network: ws
   port: 36697
   server: 60.248.63.88
@@ -2115,80 +2369,9 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|TW_speednode_0096
-  network: ws
-  port: 15991
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- delay: 857
-  name: 8|TW_speednode_0097
-  network: ws
-  port: 39560
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|TW_speednode_0098
-  network: ws
-  port: 17333
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|TW_speednode_0099
-  network: ws
-  port: 25593
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 8|TW_speednode_0100
-  network: ws
-  port: 15665
-  server: 118.163.128.81
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
   fp: random
-  name: 8|TW_speednode_0101
+  name: 8|TW_speednode_0083
   network: ws
   port: 553
   security: tls
@@ -2204,50 +2387,15 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- delay: 952
-  name: 8|TW_speednode_0103
-  network: ws
-  port: 26832
-  server: 61.220.65.189
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - Inc. - 1...: None
+  client-fingerprint: random
   delay: 886
   fp: random
-  name: 8|TW_speednode_0107
+  name: 8|TW_speednode_0088
   network: ws
   port: 36633
   security: tls
   server: 61.220.41.143
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /proxyIP=oracle.gitgoogle.com
-- Inc. - 2...: None
-  client-fingerprint: random
-  delay: 576
-  fp: random
-  name: 8|TW_speednode_0110
-  network: ws
-  port: 53760
-  security: tls
-  server: 103.137.63.37
   servername: cfed.tgzdyz2.top
   skip-cert-verify: false
   sni: cfed.tgzdyz2.top
@@ -2261,8 +2409,55 @@ proxies:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
+  name: 8|TW_speednode_0089
+  network: ws
+  port: 23555
+  server: 118.163.175.168
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.tw.fxxk.dedyn.io
+- delay: 952
+  name: 8|TW_speednode_0090
+  network: ws
+  port: 26832
+  server: 61.220.65.189
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+- client-fingerprint: random
+  name: 8|TW_speednode_0091
+  network: ws
+  port: 12559
+  server: 118.163.128.81
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
   fp: random
-  name: 8|US_speednode_0113
+  name: 8|US_speednode_0094
   network: ws
   port: 35658
   security: tls
@@ -2279,7 +2474,135 @@ proxies:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 8|US_speednode_0114
+  name: 8|US_speednode_0095
+  network: ws
+  port: 20003
+  server: 154.9.237.215
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0096
+  network: ws
+  port: 25510
+  server: 154.9.240.205
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0097
+  network: ws
+  port: 20001
+  server: 154.9.237.213
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0098
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0100
+  network: ws
+  port: 443
+  server: 155.248.202.141
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0101
+  network: ws
+  port: 8443
+  server: 192.18.139.229
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0102
+  network: ws
+  port: 30371
+  server: 154.64.225.139
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0103
+  network: ws
+  port: 2053
+  server: 158.101.32.53
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0104
   network: ws
   port: 443
   security: tls
@@ -2295,48 +2618,96 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
+- client-fingerprint: random
+  name: 8|US_speednode_0105
+  network: ws
+  port: 4333
+  server: 43.153.27.246
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0106
+  network: ws
+  port: 4333
+  server: 43.153.16.136
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0107
+  network: ws
+  port: 443
+  server: 99.83.209.185
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本东京
+  name: 9|baipaovpn美国
   network: ws
-  port: '57557'
-  server: 158.101.157.23
+  port: '46515'
+  server: 152.70.254.160
   servername: ''
   tls: false
   type: vmess
   uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: jp-tokyo-oracle-5a26da.ip1.shop
+      Host: ''
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn德国
+  name: 9|baipaovpn欧盟
   network: ws
-  port: '45103'
-  server: 130.61.182.111
-  servername: ''
-  tls: false
+  port: '443'
+  server: 45.93.28.103
+  servername: 48.sking.app
+  tls: true
   type: vmess
-  uuid: 2ebcca87-e56e-432a-826e-3d0002faf71a
+  uuid: ec026505-1af4-48a6-8bf2-e08dc8401181
   ws-opts:
     headers:
-      Host: oracle-de-01.t3csyun.buzz
-    path: /de1
+      Host: 48.sking.app
+    path: /
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn德国 #1'
+  name: 9|baipaovpn新加坡
   network: ws
-  port: '45104'
-  server: 130.61.182.111
+  port: '99'
+  server: 128.199.161.230
   servername: ''
   tls: false
   type: vmess
-  uuid: 2ebcca87-e56e-432a-826e-3d0002faf71a
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
   ws-opts:
     headers:
-      Host: oracle-de-02.t3csyun.buzz
-    path: /de2
+      Host: ''
+    path: /v2ray
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz...

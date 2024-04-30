@@ -49,7 +49,7 @@ proxies:
   type: trojan
 - client-fingerprint: random
   fp: random
-  name: 8|US_speednode_0113
+  name: 8|US_speednode_0094
   network: ws
   port: 35658
   security: tls
@@ -66,7 +66,135 @@ proxies:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 8|US_speednode_0114
+  name: 8|US_speednode_0095
+  network: ws
+  port: 20003
+  server: 154.9.237.215
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0096
+  network: ws
+  port: 25510
+  server: 154.9.240.205
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0097
+  network: ws
+  port: 20001
+  server: 154.9.237.213
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0098
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0100
+  network: ws
+  port: 443
+  server: 155.248.202.141
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0101
+  network: ws
+  port: 8443
+  server: 192.18.139.229
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0102
+  network: ws
+  port: 30371
+  server: 154.64.225.139
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0103
+  network: ws
+  port: 2053
+  server: 158.101.32.53
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0104
   network: ws
   port: 443
   security: tls
@@ -82,6 +210,68 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
+- client-fingerprint: random
+  name: 8|US_speednode_0105
+  network: ws
+  port: 4333
+  server: 43.153.27.246
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0106
+  network: ws
+  port: 4333
+  server: 43.153.16.136
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0107
+  network: ws
+  port: 443
+  server: 99.83.209.185
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '46515'
+  server: 152.70.254.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: ''
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com3
