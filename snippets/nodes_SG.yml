@@ -1,26 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: MyYoZhfX
-  port: 51002
-  server: 120.226.50.90
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.184.192
+  server: 54.254.225.115
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
-  network: tcp
-  port: '54126'
-  server: 52.77.235.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
