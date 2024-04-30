@@ -16,7 +16,7 @@ proxies:
   type: ss
 - client-fingerprint: random
   fp: random
-  name: 8|SG_speednode_0094
+  name: 8|SG_speednode_0084
   network: ws
   port: 8443
   security: tls
@@ -33,7 +33,7 @@ proxies:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 8|SG_speednode_0095
+  name: 8|SG_speednode_0085
   network: ws
   port: 8443
   security: tls
@@ -49,3 +49,13 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn新加坡
+  network: tcp
+  port: '54126'
+  server: 52.77.235.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc

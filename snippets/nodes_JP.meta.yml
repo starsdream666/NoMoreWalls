@@ -31,27 +31,27 @@ proxies:
   server: 43.201.34.246
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- client-fingerprint: random
   delay: 1203
   fp: random
-  name: 8|JP_speednode_0046
+  name: 8|JP_speednode_0033
   network: ws
   port: 34237
   security: tls
   server: 45.251.241.103
-  servername: a.ssll.gay
+  servername: cfed.tgzdyz2.top
   skip-cert-verify: false
   sni: cfed.tgzdyz2.top
   tfo: false
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+      host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
 - client-fingerprint: chrome
-  name: 8|JP_speednode_0047
+  name: 8|JP_speednode_0034
   network: ws
   port: 34237
   server: 45.251.241.13
@@ -66,7 +66,7 @@ proxies:
       Host: a.ssll.gay
     path: /proxyIP=oracle.gitgoogle.com
 - client-fingerprint: random
-  name: 8|JP_speednode_0048
+  name: 8|JP_speednode_0035
   network: ws
   port: 21817
   security: tls
@@ -84,7 +84,7 @@ proxies:
     path: tg%40zdyz2
 - client-fingerprint: random
   delay: 1163
-  name: 8|JP_speednode_0049
+  name: 8|JP_speednode_0036
   network: ws
   port: 8420
   server: 176.97.73.99
@@ -100,7 +100,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - client-fingerprint: chrome
   delay: 1189
-  name: 8|JP_speednode_0050
+  name: 8|JP_speednode_0037
   network: ws
   port: 2053
   server: 176.97.73.99
@@ -116,20 +116,20 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn日本 #3'
+  name: '9|baipaovpn日本东京 #2'
   network: tcp
   port: '23234'
-  server: 52.68.240.158
+  server: 13.231.195.211
   servername: ''
   tls: false
   type: vmess
   uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn日本 #1'
+  name: '9|baipaovpn日本东京 #3'
   network: ws
   port: '45123'
-  server: 52.68.240.158
+  server: 13.231.195.211
   servername: QWQ
   tls: true
   type: vmess
@@ -140,10 +140,10 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn日本 #2'
+  name: '9|baipaovpn日本东京 #4'
   network: ws
   port: '45123'
-  server: 52.68.240.158
+  server: 13.231.195.211
   servername: QWQ
   tls: true
   type: vmess
