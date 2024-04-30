@@ -19,9 +19,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
+  name: 5,6,10|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
   network: ws
-  port: '16928'
+  port: 16928
   server: vip3.niuniupremium.xyz
   servername: ''
   skip-cert-verify: false
@@ -49,23 +49,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_4_由快嘴科技提供;kkzui.com1
+  name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com3
   network: ws
   port: 8080
-  server: yh9.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: hang-broke-john-neither.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_由快嘴科技提供;kkzui.com2
-  network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
+  server: 104.17.17.103
   tls: false
   type: vmess
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
