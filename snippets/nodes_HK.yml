@@ -106,12 +106,40 @@ proxies:
   server: hkjs.lydurlclub.top
   skip-cert-verify: true
   type: trojan
+- name: 8|HK_speednode_0039
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: tw02.trojanyyds.xyz
+  sni: tw02.trojanyyds.xyz
+  type: trojan
+  udp: true
 - name: 8|HK_speednode_0040
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
   server: jp.lydurlclub.top
   skip-cert-verify: true
   type: trojan
+- name: 8|HK_speednode_0042
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: hk03.trojanyyds.xyz
+  sni: hk03.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: 8|HK_speednode_0043
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: hk01.trojanyyds.xyz
+  sni: hk01.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: 8|HK_speednode_0044
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: hk04.trojanyyds.xyz
+  sni: hk04.trojanyyds.xyz
+  type: trojan
+  udp: true
 - name: 8|HK_speednode_0045
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -136,11 +164,25 @@ proxies:
   server: usajs.lydurlclub.top
   skip-cert-verify: true
   type: trojan
+- name: 8|HK_speednode_0049
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: in01.trojanyyds.xyz
+  sni: in01.trojanyyds.xyz
+  type: trojan
+  udp: true
 - name: 8|HK_speednode_0050
   password: 1640b579-cff8-46bc-a657-3860b5455712
   port: 443
   server: my02.trojanyyds.xyz
   sni: my02.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: 8|HK_speednode_0051
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: sk01.trojanyyds.xyz
+  sni: sk01.trojanyyds.xyz
   type: trojan
   udp: true
 - name: 8|HK_speednode_0052
@@ -173,6 +215,13 @@ proxies:
   port: 443
   server: de01.trojanyyds.xyz
   sni: de01.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: 8|HK_speednode_0057
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: us01.trojanyyds.xyz
+  sni: us01.trojanyyds.xyz
   type: trojan
   udp: true
 - name: 8|HK_speednode_0058
