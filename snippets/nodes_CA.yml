@@ -1,12 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦_CA_加拿大_9
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
+proxies: []

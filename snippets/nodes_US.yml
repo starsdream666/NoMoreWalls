@@ -49,14 +49,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com3
+  name: 10|🇺🇸_US_美国_6
   network: ws
-  port: 8080
-  server: 104.17.17.103
-  tls: false
+  port: 443
+  server: channel.hopev2ray.link
+  tls: true
   type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: 9aaceca0-bc5b-49e6-a83f-088e14d94434
   ws-opts:
     headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+      Host: no1-vmess.sshmax.xyz
+    path: /vmess
