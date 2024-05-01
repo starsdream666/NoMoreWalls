@@ -19,20 +19,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
+  name: 5,6|美国2|@ripaojiedian
   network: ws
-  port: 16928
-  server: vip3.niuniupremium.xyz
+  port: '80'
+  server: www.udemy.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  uuid: 4410d5aa-d906-44bc-80f5-5a275a035654
   ws-opts:
     headers:
-      Host: 193.25.215.160
-    path: /v2ray
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: MyYoZhfX
@@ -45,7 +45,7 @@ proxies:
   password: MyYoZhfX
   port: 51000
   server: 112.29.94.24
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
