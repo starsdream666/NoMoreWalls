@@ -86,7 +86,7 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: 6|香港2|@ripaojiedian
+  name: 6,9|baipaovpn广东省江门市
   network: tcp
   port: '40259'
   server: 120.238.122.243
@@ -94,13 +94,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn香港
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c158d237-c8c6-4a57-8240-01dd6183e448
+- name: 8|HK_speednode_0046
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: aujs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0048
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: usajs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0050
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: my02.trojanyyds.xyz
+  sni: my02.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: 8|HK_speednode_0055
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: my01.trojanyyds.xyz
+  sni: my01.trojanyyds.xyz
+  type: trojan
+  udp: true

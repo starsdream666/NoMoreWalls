@@ -1,22 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 8|CA_speednode_0002
-  network: ws
-  port: 18005
-  server: 154.12.59.251
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|CA_speednode_0003
+  name: 8|CA_speednode_0001
   network: ws
   port: 3334
   server: 23.94.61.36
