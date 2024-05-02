@@ -48,16 +48,16 @@ proxies:
   cipher: auto
   name: '9|baipaovpn美国 #1'
   network: ws
-  port: '46515'
-  server: 131.186.18.59
+  port: '2082'
+  server: 162.159.136.220
   servername: ''
   tls: false
   type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  uuid: b5fa773d-1b12-419c-bdef-8b627e3bb51d
   ws-opts:
     headers:
-      Host: ''
-    path: /rongseven?ed=2048
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_1
