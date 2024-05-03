@@ -1,18 +1,47 @@
 proxies:
-- client-fingerprint: random
-  name: 8|CA_speednode_0002
+- Inc. - 1...: None
+  client-fingerprint: random
+  delay: 1070
+  name: 8|CA_speednode_0005
   network: ws
-  port: 2053
+  port: 3334
+  server: 23.94.61.36
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  ws-opts:
+    headers:
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|CA_speednode_0007
+  network: ws
+  port: 443
   security: tls
-  server: 45.58.37.185
-  servername: cfed.tgzdyz2.top
+  server: 168.138.70.29
+  servername: edgood.889876.xyz
   skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  sni: edgood.889876.xyz
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
+      host: edgood.889876.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|CA_speednode_0008
+  network: ws
+  port: 8443
+  server: 20.151.142.151
+  servername: xin010.ylks.link
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xin010.ylks.link
+    path: /freecodes

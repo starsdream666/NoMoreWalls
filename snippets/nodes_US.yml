@@ -30,6 +30,14 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
+- name: 8|US_speednode_0253
+  network: tcp
+  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
@@ -40,30 +48,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4400260c-f088-4748-af5c-cacce1156de0
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 1
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: tcp
-  port: '21586'
-  server: 52.194.236.142
-  servername: 82e76-g06.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 138.2.106.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
   ws-opts:
     headers:
       Host: ''
