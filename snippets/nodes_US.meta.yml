@@ -339,14 +339,6 @@ proxies:
     headers:
       host: hk010.ylks.link
     path: /freecodes
-- name: 8|US_speednode_0253
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - client-fingerprint: random
   name: 8|US_speednode_0254
   network: ws
@@ -462,20 +454,6 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '45103'
-  server: 138.2.134.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4807b409-137e-480b-a593-0beaf657e850
-  ws-opts:
-    headers:
-      Host: oracle-de-01.t3csyun.buzz
-    path: /de1
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
   port: '45104'
   server: 138.2.134.219
   servername: ''
@@ -486,6 +464,20 @@ proxies:
     headers:
       Host: oracle-de-02.t3csyun.buzz
     path: /de2
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '45103'
+  server: 138.2.134.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4807b409-137e-480b-a593-0beaf657e850
+  ws-opts:
+    headers:
+      Host: oracle-de-01.t3csyun.buzz
+    path: /de1
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6
