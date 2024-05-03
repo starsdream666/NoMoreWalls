@@ -45,6 +45,14 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
+  name: 5|🇭🇰 香港3|@ripaojiedian
+  password: 1640b579-cff8-46bc-a657-3860b5455712
+  port: 443
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: sk01.trojanyyds.xyz
+  type: trojan
+- client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: MyYoZhfX
   port: 11210
@@ -71,6 +79,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 5|🇭🇰 香港6|@ripaojiedian
+  port: 15601
+  server: 183.240.179.195
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 5,6|香港7|@ripaojiedian
   network: ws
   port: '20206'
@@ -85,6 +104,17 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港8|@ripaojiedian
+  port: 15607
+  server: 183.232.199.59
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
   name: 6|香港2|@ripaojiedian
@@ -97,15 +127,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn香港
-  network: ws
-  port: '26489'
-  server: 210.17.255.59
+  name: 6|香港6|@ripaojiedian
+  network: tcp
+  port: '15601'
+  server: 183.240.179.195
   servername: ''
   tls: false
   type: vmess
-  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 6|香港8|@ripaojiedian
+  network: tcp
+  port: '15607'
+  server: 183.232.199.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
