@@ -30,34 +30,28 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
+- name: 8|US_speednode_0253
+  network: tcp
+  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '45104'
-  server: 138.2.134.219
+  port: '80'
+  server: 3.39.6.218
   servername: ''
   tls: false
   type: vmess
-  uuid: 4807b409-137e-480b-a593-0beaf657e850
+  uuid: e71bf91c-083b-4dc2-abd6-b0630d0a4515
   ws-opts:
     headers:
-      Host: oracle-de-02.t3csyun.buzz
-    path: /de2
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '45103'
-  server: 138.2.134.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4807b409-137e-480b-a593-0beaf657e850
-  ws-opts:
-    headers:
-      Host: oracle-de-01.t3csyun.buzz
-    path: /de1
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6
