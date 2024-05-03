@@ -466,13 +466,3 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #1'
-  network: tcp
-  port: '19901'
-  server: 163.53.18.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5c9e5318-8598-41ed-88b8-1226a481a7d9
