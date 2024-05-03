@@ -35,8 +35,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 5,10|美国(由快嘴科技提供：kkzui.com) 4_16
-  network: ''
+  name: 5|🇭🇰 香港2|@ripaojiedian
   port: 40259
   server: 120.238.122.243
   skip-cert-verify: false
