@@ -339,14 +339,6 @@ proxies:
     headers:
       host: hk010.ylks.link
     path: /freecodes
-- name: 8|US_speednode_0253
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - client-fingerprint: random
   name: 8|US_speednode_0254
   network: ws

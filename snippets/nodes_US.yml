@@ -30,14 +30,6 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
-- name: 8|US_speednode_0253
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_9
