@@ -147,3 +147,17 @@ proxies:
     headers:
       host: edgood.889876.xyz
     path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 18.179.205.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8842bea-ec04-4039-b03a-aac6c42fe2c5
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
