@@ -40,20 +40,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 3.39.6.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e71bf91c-083b-4dc2-abd6-b0630d0a4515
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6
   network: ws
   port: 8880
