@@ -24,6 +24,14 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- client-fingerprint: chrome
+  name: 5|🇹🇼 台湾3|@ripaojiedian
+  password: 7be1cf8f-c48f-4fbd-a98b-6cf54e16919b
+  port: 45335
+  server: 5gzdx.233235.xyz
+  skip-cert-verify: false
+  sni: 5gzdx.233235.xyz
+  type: trojan
 - client-fingerprint: random
   delay: 2084
   name: 8|TW_speednode_0182
