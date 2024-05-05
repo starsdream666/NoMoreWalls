@@ -162,6 +162,34 @@ proxies:
     path: tg@zdyz2
 - alterId: 0
   cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 3.39.193.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 3.39.193.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
   network: ws
   port: 2082

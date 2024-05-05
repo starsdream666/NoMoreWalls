@@ -32,3 +32,17 @@ proxies:
   skip-cert-verify: false
   sni: 5gzdx.233235.xyz
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn台湾省桃园市
+  network: ws
+  port: '80'
+  server: 1.162.144.124
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
