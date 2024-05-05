@@ -16,13 +16,31 @@ proxies:
     headers:
       Host: us7.wish.ml
     path: /
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
-  password: MyYoZhfX
-  port: 51003
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
+  port: 43605
+  server: zy.aand.site
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国3|@ripaojiedian
+  network: ws
+  port: '2082'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: MyYoZhfX
@@ -30,42 +48,13 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
-- name: 8|US_speednode_0253
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国5|@ripaojiedian
+  password: MyYoZhfX
+  port: 51003
+  server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '2052'
-  server: 172.67.64.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5edafe88-b558-4129-a86d-58fd84be79f0
-  ws-opts:
-    headers:
-      Host: hk07.hy-2.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '2052'
-  server: 162.159.130.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5edafe88-b558-4129-a86d-58fd84be79f0
-  ws-opts:
-    headers:
-      Host: hk07.hy-2.one
-    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8

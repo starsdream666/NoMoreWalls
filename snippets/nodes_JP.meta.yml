@@ -30,7 +30,7 @@ proxies:
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.105.129
+  server: 13.231.128.15
   tfo: false
   type: ss
 - alterId: 0
@@ -43,82 +43,29 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- client-fingerprint: random
-  delay: 605
-  name: 8|JP_speednode_0065
+- Inc. - 6...: None
+  client-fingerprint: random
+  delay: 752
+  name: 8|JP_speednode_0162
   network: ws
-  port: 46573
-  security: tls
-  server: 45.14.64.188
+  port: 2086
+  server: 43.207.156.148
   servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: chrome
-  delay: 993
-  name: 8|JP_speednode_0067
-  network: ws
-  port: 443
-  server: 54.238.114.82
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
 - client-fingerprint: random
-  delay: 974
-  fp: random
-  name: 8|JP_speednode_0068
-  network: ws
-  port: 25410
-  security: tls
-  server: 20.194.221.36
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- '...': None
-  client-fingerprint: chrome
-  delay: 1188
-  name: 8|JP_speednode_0070
-  network: ws
-  port: 34237
-  server: 45.251.240.229
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- client-fingerprint: random
-  name: 8|JP_speednode_0071
+  name: 8|JP_speednode_0163
   network: ws
   port: 8443
   security: tls
-  server: 138.2.36.157
+  server: 152.69.199.70
   servername: TG.CMLiussss.ooguy.com
   skip-cert-verify: false
   sni: TG.CMLiussss.ooguy.com
@@ -130,20 +77,17 @@ proxies:
     headers:
       host: TG.CMLiussss.ooguy.com
     path: '%2f%3fed%3d2560'
-- client-fingerprint: random
-  name: 8|JP_speednode_0073
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本东京
   network: ws
-  port: 8443
-  security: tls
-  server: 152.69.199.70
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  sni: edgood.889876.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  port: '57557'
+  server: 158.101.146.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
   ws-opts:
     headers:
-      host: edgood.889876.xyz
-    path: '%2f%3fed%3d2048'
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /rongseven?ed=2048

@@ -16,13 +16,31 @@ proxies:
     headers:
       Host: us7.wish.ml
     path: /
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
-  password: MyYoZhfX
-  port: 51003
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
+  port: 43605
+  server: zy.aand.site
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国3|@ripaojiedian
+  network: ws
+  port: '2082'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: MyYoZhfX
@@ -31,22 +49,14 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 8|US_speednode_0219
-  network: ws
-  port: 34237
-  server: 156.251.179.136
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
+  name: 5|🇺🇸 美国5|@ripaojiedian
+  password: MyYoZhfX
+  port: 51003
+  server: 112.29.94.23
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: random
-  name: 8|US_speednode_0220
+  name: 8|US_speednode_0188
   network: ws
   port: 2053
   security: tls
@@ -63,39 +73,8 @@ proxies:
       host: mositr.freenods.sbs
     path: '%2f%3fed%3d2048'
 - client-fingerprint: random
-  name: 8|US_speednode_0222
-  network: ws
-  port: 34237
-  security: tls
-  server: 45.136.15.212
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  sni: edgood.889876.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: chrome
-  delay: 2489
-  name: 8|US_speednode_0226
-  network: ws
-  port: 80
-  server: 34.95.126.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai2 /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0229
+  delay: 2568
+  name: 8|US_speednode_0191
   network: ws
   port: 443
   security: tls
@@ -110,38 +89,21 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0232
+    path: tg%40zdyz2
+- name: 8|US_speednode_0192
   network: ws
   port: 443
-  server: 91.149.239.64
-  servername: jd.wxgqlfx.top
+  server: 43.153.103.203
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: jd.wxgqlfx.top
-    path: /
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
 - client-fingerprint: random
-  name: 8|US_speednode_0233
-  network: ws
-  port: 39103
-  security: tls
-  server: 154.17.2.125
-  servername: c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org
-  skip-cert-verify: false
-  sni: c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 90cd4a77-141a-43c9-991b-08263cfe9c10
-  ws-opts:
-    headers:
-      host: c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org
-    path: '%2fworld2024.10482833.workers.dev%2f%3fed%3d2560'
-- client-fingerprint: random
-  name: 8|US_speednode_0234
+  name: 8|US_speednode_0193
   network: ws
   port: 8443
   security: tls
@@ -157,97 +119,20 @@ proxies:
     headers:
       host: TG.CMLiussss.ooguy.com
     path: '%2f%3fed%3d2560'
-- name: 8|US_speednode_0235
-  network: ws
-  port: 49355
-  server: 149.28.201.214
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /
-- client-fingerprint: random
-  name: 8|US_speednode_0251
-  network: ws
-  port: 443
-  security: tls
-  server: 43.153.103.203
-  servername: jd.wxgqlfx.top
-  skip-cert-verify: false
-  sni: edgood.889876.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /
-- client-fingerprint: random
-  name: 8|US_speednode_0237
-  network: ws
-  port: 443
-  security: tls
-  server: 155.248.202.141
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  sni: edgood.889876.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|US_speednode_0242
-  network: ws
-  port: 443
-  security: tls
-  server: 150.230.47.17
-  servername: jd.wxgqlfx.top
-  skip-cert-verify: false
-  sni: jd.wxgqlfx.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: '%2f'
-- name: 8|US_speednode_0240
+- name: 8|US_speednode_0194
   network: ws
   port: 8443
-  server: 152.70.123.225
-  servername: jp010.ylks01.eu.org
+  server: 192.18.139.229
+  servername: kk030.ylks.link
   tls: true
   type: vless
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: jp010.ylks01.eu.org
+      host: kk030.ylks.link
     path: /freecodes
-- Inc. - ...: None
-  delay: 1417
-  name: 8|US_speednode_0241
-  network: ws
-  port: 443
-  server: 172.82.16.99
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /
 - client-fingerprint: chrome
-  name: 8|US_speednode_0245
+  name: 8|US_speednode_0195
   network: ws
   port: 443
   server: 104.26.15.16
@@ -260,38 +145,7 @@ proxies:
     headers:
       host: bIA-paiN-BaCHE.pAGES.Dev
     path: /Telegram-MARAMBASHI/?ed=2048
-- client-fingerprint: chrome
-  name: 8|US_speednode_0246
-  network: ws
-  port: 8443
-  server: tgju.org
-  servername: telegram-falcunargo-france.falcunar.asso.eu.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 2136a808-ccd7-48cf-97c8-2c0b255e4715
-  ws-opts:
-    headers:
-      host: telegram-falcunargo-france.falcunar.asso.eu.org
-    path: Telegram@SiNABiGO/?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0247
-  network: ws
-  port: 443
-  security: tls
-  server: 129.153.213.8
-  servername: TG.CMLiussss.ooguy.com
-  skip-cert-verify: false
-  sni: TG.CMLiussss.ooguy.com
-  tfo: false
-  tls: true
-  type: vless
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      host: TG.CMLiussss.ooguy.com
-    path: '%2f%3fed%3d2560'
-- name: 8|US_speednode_0248
+- name: 8|US_speednode_0196
   network: ws
   port: 8443
   server: 159.65.165.75
@@ -303,189 +157,6 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|US_speednode_0249
-  network: ws
-  port: 443
-  server: 34.123.83.237
-  servername: kk010.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: kk010.ylks.link
-    path: /freecodes
-- name: 8|US_speednode_0250
-  network: ws
-  port: 443
-  server: 129.146.254.39
-  servername: aut010.ylks.link
-  tls: true
-  type: vless
-  uuid: 01ab9337-f478-4765-9534-88f009f83ddb
-  ws-opts:
-    headers:
-      host: aut010.ylks.link
-    path: /freecodes
-- name: 8|US_speednode_0252
-  network: ws
-  port: 443
-  server: 34.150.133.11
-  servername: hk010.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: hk010.ylks.link
-    path: /freecodes
-- name: 8|US_speednode_0253
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: random
-  name: 8|US_speednode_0254
-  network: ws
-  port: 443
-  security: tls
-  server: 129.146.248.140
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  sni: edgood.889876.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: '%2f%3fed%3d2048'
-- name: 8|US_speednode_0255
-  network: ws
-  port: 443
-  server: 34.85.199.232
-  servername: hk010.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: hk010.ylks.link
-    path: /freecodes
-- name: 8|US_speednode_0256
-  network: ws
-  port: 443
-  server: 34.29.228.169
-  servername: aut010.ylks.link
-  tls: true
-  type: vless
-  uuid: 01ab9337-f478-4765-9534-88f009f83ddb
-  ws-opts:
-    headers:
-      host: aut010.ylks.link
-    path: /freecodes
-- name: 8|US_speednode_0257
-  network: ws
-  port: 443
-  server: 152.67.231.219
-  servername: jp010.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: jp010.ylks01.eu.org
-    path: /freecodes
-- name: 8|US_speednode_0258
-  network: ws
-  port: 443
-  server: 193.122.197.111
-  servername: kk010.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: kk010.ylks.link
-    path: /freecodes
-- client-fingerprint: random
-  name: 8|US_speednode_0259
-  network: ws
-  port: 8443
-  security: tls
-  server: 150.136.241.40
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  sni: edgood.889876.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|US_speednode_0264
-  network: ws
-  port: 13888
-  security: tls
-  server: 65.75.194.18
-  servername: jd.wxgqlfx.top
-  skip-cert-verify: false
-  sni: jd.wxgqlfx.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: '%2f'
-- name: 8|US_speednode_0263
-  network: ws
-  port: 34237
-  server: 65.75.194.2
-  servername: hk010.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: hk010.ylks.link
-    path: /freecodes
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '2052'
-  server: 172.67.64.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5edafe88-b558-4129-a86d-58fd84be79f0
-  ws-opts:
-    headers:
-      Host: hk07.hy-2.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '2052'
-  server: 162.159.130.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5edafe88-b558-4129-a86d-58fd84be79f0
-  ws-opts:
-    headers:
-      Host: hk07.hy-2.one
-    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
