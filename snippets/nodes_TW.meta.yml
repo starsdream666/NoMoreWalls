@@ -33,25 +33,7 @@ proxies:
   sni: 5gzdx.233235.xyz
   type: trojan
 - client-fingerprint: random
-  delay: 2084
-  name: 8|TW_speednode_0182
-  network: ws
-  port: 38370
-  security: tls
-  server: 118.163.128.81
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- client-fingerprint: random
-  name: 8|TW_speednode_0183
+  name: 8|TW_speednode_0071
   network: ws
   port: 13688
   security: tls
@@ -66,10 +48,27 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+    path: tg%40zdyz2
+- Inc. - 3...: None
+  Inc. - 4...: None
+  client-fingerprint: random
+  delay: 1062
+  name: 8|TW_speednode_0072
+  network: ws
+  port: 36697
+  server: 60.248.63.88
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: TG@mianfeicf
 - client-fingerprint: random
   delay: 779
-  name: 8|TW_speednode_0185
+  name: 8|TW_speednode_0074
   network: ws
   port: 25424
   security: tls
@@ -84,25 +83,8 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- Inc. - 3...: None
-  Inc. - 4...: None
-  client-fingerprint: random
-  delay: 1062
-  name: 8|TW_speednode_0186
-  network: ws
-  port: 36697
-  server: 60.248.63.88
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
-- name: 8|TW_speednode_0187
+    path: tg%40zdyz2
+- name: 8|TW_speednode_0075
   network: ws
   port: 443
   server: 34.81.35.248
