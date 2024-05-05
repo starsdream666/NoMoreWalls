@@ -24,20 +24,8 @@ proxies:
   server: 54.92.66.166
   tfo: false
   type: ss
-- name: 8|SG_speednode_0069
-  network: ws
-  port: 8080
-  server: 47.236.165.25
-  servername: hk030.ylks.link
-  tls: false
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: hk030.ylks.link
-    path: /freecodes
 - client-fingerprint: random
-  name: 8|SG_speednode_0070
+  name: 8|SG_speednode_0106
   network: ws
   port: 53821
   security: tls

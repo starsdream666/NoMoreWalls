@@ -136,9 +136,25 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
+  delay: 1969
+  name: 8|HK_speednode_0023
+  network: ws
+  port: 8888
+  server: 101.32.40.116
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: random
   fp: random
-  name: 8|HK_speednode_0023
+  name: 8|HK_speednode_0024
   network: ws
   port: 36950
   security: tls
@@ -155,7 +171,7 @@ proxies:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - delay: 677
-  name: 8|HK_speednode_0024
+  name: 8|HK_speednode_0025
   network: ws
   port: 1443
   server: 103.148.72.147
@@ -167,22 +183,6 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- client-fingerprint: chrome
-  delay: 1969
-  name: 8|HK_speednode_0025
-  network: ws
-  port: 8888
-  server: 101.32.40.116
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - name: 8|HK_speednode_0026
   network: ws
   port: 22338
@@ -195,3 +195,57 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- name: 8|HK_speednode_0027
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: sg.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0028
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0029
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: jp.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0030
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: uk.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0031
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: usajs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0032
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: aujs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0033
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: cajs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0034
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: dejs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 8|HK_speednode_0035
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: chjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
