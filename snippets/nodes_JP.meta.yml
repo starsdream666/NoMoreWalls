@@ -35,24 +35,10 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- client-fingerprint: chrome
-  delay: 1726
-  name: 8|JP_speednode_0044
-  network: ws
-  port: 34237
-  server: 45.251.241.103
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - Inc. - 6...: None
   client-fingerprint: random
   delay: 752
-  name: 8|JP_speednode_0045
+  name: 8|JP_speednode_0145
   network: ws
   port: 2086
   server: 43.207.156.148
@@ -66,20 +52,13 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- client-fingerprint: random
-  name: 8|JP_speednode_0046
-  network: ws
-  port: 8443
-  security: tls
-  server: 152.69.199.70
-  servername: TG.CMLiussss.ooguy.com
-  skip-cert-verify: false
-  sni: TG.CMLiussss.ooguy.com
-  tfo: false
-  tls: true
-  type: vless
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      host: TG.CMLiussss.ooguy.com
-    path: '%2f%3fed%3d2560'
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
+  network: tcp
+  port: '50001'
+  server: 18.179.26.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6541d170-1507-45bc-9603-e8138a21b28c

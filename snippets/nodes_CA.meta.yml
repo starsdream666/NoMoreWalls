@@ -1,26 +1,8 @@
 proxies:
-- Inc. - 1...: None
-  Inc. - 3...: None
-  client-fingerprint: random
-  delay: 1167
-  name: 8|CA_speednode_0001
-  network: ws
-  port: 3334
-  server: 23.94.61.36
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - Inc. -...: None
   client-fingerprint: random
   delay: 1452
-  name: 8|CA_speednode_0003
+  name: 8|CA_speednode_0002
   network: ws
   port: 2053
   security: tls
@@ -35,7 +17,7 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+    path: tg%40zdyz2
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦_CA_加拿大_5

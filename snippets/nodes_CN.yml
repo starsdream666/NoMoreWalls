@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: -1
+  cipher: auto
+  client-fingerprint: chrome
+  customName: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  name: 8|CN_speednode_0134
+  network: tcp
+  password: MyYoZhfX
+  port: 40316
+  server: 36.138.99.56
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
