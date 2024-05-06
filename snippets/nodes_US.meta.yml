@@ -67,20 +67,6 @@ proxies:
     path: tg%40zdyz2
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '2086'
-  server: 104.16.61.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国_2_9
   network: ws
   port: 2052
