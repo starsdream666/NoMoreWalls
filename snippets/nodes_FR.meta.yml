@@ -20,7 +20,7 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- name: 8|FR_speednode_0008
+- name: 8|FR_speednode_0006
   network: ws
   port: 2053
   server: 51.38.86.3
@@ -34,7 +34,7 @@ proxies:
     path: Twitterfreecodes
 - client-fingerprint: random
   fp: random
-  name: 8|FR_speednode_0011
+  name: 8|FR_speednode_0009
   network: ws
   port: 2053
   security: tls

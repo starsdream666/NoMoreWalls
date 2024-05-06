@@ -120,7 +120,7 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0013
+  name: 8|HK_speednode_0011
   network: ws
   password: CMLiu
   port: 2096
@@ -134,7 +134,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0014
+  name: 8|HK_speednode_0012
   network: ws
   password: CMLiu
   port: 2087
@@ -148,7 +148,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0015
+  name: 8|HK_speednode_0013
   network: ws
   password: CMLiu
   port: 35123
@@ -162,7 +162,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0016
+  name: 8|HK_speednode_0014
   network: ws
   password: CMLiu
   port: 2053
@@ -176,7 +176,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0017
+  name: 8|HK_speednode_0015
   network: ws
   password: CMLiu
   port: 4431
@@ -190,7 +190,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0018
+  name: 8|HK_speednode_0016
   network: ws
   password: CMLiu
   port: 50100
@@ -204,7 +204,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|HK_speednode_0019
+  name: 8|HK_speednode_0017
   network: ws
   password: CMLiu
   port: 55044

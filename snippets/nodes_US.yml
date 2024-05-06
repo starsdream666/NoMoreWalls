@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 8|US_speednode_0052
+  name: 8|US_speednode_0049
   network: ws
   password: CMLiu
   port: 53151
@@ -45,7 +45,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0054
+  name: 8|US_speednode_0051
   network: ws
   password: CMLiu
   port: 29293
@@ -59,7 +59,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0057
+  name: 8|US_speednode_0053
   network: ws
   password: CMLiu
   port: 49555
@@ -73,7 +73,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0058
+  name: 8|US_speednode_0054
   network: ws
   password: CMLiu
   port: 34237
@@ -87,7 +87,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0059
+  name: 8|US_speednode_0055
   network: ws
   password: CMLiu
   port: 25176
@@ -101,7 +101,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0060
+  name: 8|US_speednode_0056
   network: ws
   password: CMLiu
   port: 11324
@@ -115,7 +115,7 @@ proxies:
       Host: trojan.classelivre.eu.org
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 8|US_speednode_0061
+  name: 8|US_speednode_0057
   network: ws
   password: CMLiu
   port: 41697
