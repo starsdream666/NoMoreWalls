@@ -7,3 +7,87 @@ proxies:
   server: 54.254.62.209
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 8|SG_speednode_0043
+  network: ws
+  password: CMLiu
+  port: 2096
+  server: 8.219.67.133
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|SG_speednode_0044
+  network: ws
+  password: CMLiu
+  port: 2053
+  server: 47.237.8.82
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|SG_speednode_0045
+  network: ws
+  password: CMLiu
+  port: 2053
+  server: 47.236.144.196
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|SG_speednode_0046
+  network: ws
+  password: CMLiu
+  port: 2083
+  server: 47.236.144.208
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|SG_speednode_0047
+  network: ws
+  password: CMLiu
+  port: 8443
+  server: 47.236.83.239
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|SG_speednode_0048
+  network: ws
+  password: CMLiu
+  port: 2087
+  server: 47.236.171.205
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048

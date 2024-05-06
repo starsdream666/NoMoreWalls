@@ -1,8 +1,7 @@
 proxies:
-- Inc. -...: None
-  client-fingerprint: random
-  delay: 1452
-  name: 8|CA_speednode_0002
+- client-fingerprint: random
+  delay: 1732
+  name: 8|CA_speednode_0001
   network: ws
   port: 2053
   security: tls
@@ -18,14 +17,3 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦_CA_加拿大_5
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws

@@ -35,17 +35,87 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0021
+  network: ws
+  password: CMLiu
+  port: 21880
+  server: 149.62.44.35
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0022
+  network: ws
+  password: CMLiu
+  port: 11665
+  server: 141.98.197.101
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0023
+  network: ws
+  password: CMLiu
+  port: 31425
+  server: 147.78.242.111
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0024
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 43.207.178.66
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0025
+  network: ws
+  password: CMLiu
+  port: 20111
+  server: 185.200.64.87
+  skip-cert-verify: true
+  sni: trojan.classelivre.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.classelivre.eu.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn日本
   network: ws
   port: '80'
-  server: 43.201.27.168
+  server: 54.248.66.236
   servername: ''
   tls: false
   type: vmess
-  uuid: e5e2206d-8650-4dfb-9731-fe2ee99b944e
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
   ws-opts:
     headers:
-      Host: kr01.travisdependable.online
+      Host: jp01.fredericamelody.online
     path: /
