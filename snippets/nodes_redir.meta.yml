@@ -40,6 +40,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 10|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  tls: false
+  type: vmess
+  uuid: 543f15f1-96a8-4205-b4a2-1a1ae6766c12
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_4_2由快嘴科技提供：...
   network: ws
   port: 2052
