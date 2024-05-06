@@ -120,7 +120,7 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
-  name: 8|HK_speednode_0141
+  name: 8|HK_speednode_0016
   network: ws
   port: 8969
   security: tls
@@ -136,26 +136,21 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- Inc. - 6...: None
-  client-fingerprint: random
-  delay: 403
-  name: 8|HK_speednode_0142
+- name: 8|HK_speednode_0017
   network: ws
-  port: 49454
-  server: 45.249.246.59
+  port: 22338
+  server: 43.132.244.52
   servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
 - client-fingerprint: random
   fp: random
-  name: 8|HK_speednode_0143
+  name: 8|HK_speednode_0018
   network: ws
   port: 36950
   security: tls
@@ -171,15 +166,20 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- name: 8|HK_speednode_0144
+- Inc. - 6...: None
+  client-fingerprint: random
+  delay: 403
+  name: 8|HK_speednode_0019
   network: ws
-  port: 22338
-  server: 43.132.244.52
+  port: 49454
+  server: 45.249.246.59
   servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+      Host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2

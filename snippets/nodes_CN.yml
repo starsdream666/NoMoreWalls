@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   customName: 🇨🇳_CN_中国->🇩🇪_DE_德国
-  name: 8|CN_speednode_0134
+  name: 8|CN_speednode_0012
   network: tcp
   password: MyYoZhfX
   port: 40316
