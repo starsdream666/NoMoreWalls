@@ -37,11 +37,27 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- Inc. - 5...: None
+- Inc. - 5: None
   client-fingerprint: random
-  delay: 1469
+  delay: 526
+  name: 8|TW_speednode_0056
+  network: ws
+  port: 36633
+  server: 61.220.41.143
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- Inc. - 5...: None
+  Inc. - 8: None
+  client-fingerprint: random
+  delay: 456
   fp: random
-  name: 8|TW_speednode_0047
+  name: 8|TW_speednode_0057
   network: ws
   port: 553
   security: tls
@@ -57,19 +73,64 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- Inc. - 5...: None
-  client-fingerprint: random
-  delay: 1189
-  name: 8|TW_speednode_0048
+- client-fingerprint: random
+  delay: 476
+  name: 8|TW_speednode_0058
   network: ws
-  port: 25424
-  server: 220.133.227.253
-  servername: toujiediansigema.666888.lol
+  port: 4443
+  security: tls
+  server: 211.75.74.232
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- Inc. - 1...: None
+  client-fingerprint: random
+  delay: 2222
+  name: 8|TW_speednode_0059
+  network: ws
+  port: 12559
+  server: 118.163.128.81
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn台湾省高雄市
+  network: ws
+  port: '443'
+  server: 61.227.195.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn台湾省高雄市 #1'
+  network: ws
+  port: '443'
+  server: 61.227.195.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /

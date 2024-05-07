@@ -20,7 +20,7 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- name: 8|FR_speednode_0006
+- name: 8|FR_speednode_0029
   network: ws
   port: 2053
   server: 51.38.86.3
@@ -34,19 +34,19 @@ proxies:
     path: Twitterfreecodes
 - client-fingerprint: random
   fp: random
-  name: 8|FR_speednode_0009
+  name: 8|FR_speednode_0032
   network: ws
   port: 2053
   security: tls
   server: 46.105.170.124
-  servername: mositr.freenods.sbs
+  servername: cfed.tgzdyz2.top
   skip-cert-verify: false
-  sni: mositr.freenods.sbs
+  sni: cfed.tgzdyz2.top
   tfo: false
   tls: true
   type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: mositr.freenods.sbs
-    path: '%2f%3fed%3d2048'
+      host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
