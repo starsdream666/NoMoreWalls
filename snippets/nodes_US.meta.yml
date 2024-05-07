@@ -191,7 +191,20 @@ proxies:
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  name: 10|🇺🇸_US_美国_2_5
+  network: ws
+  port: 2052
+  server: 104.17.229.133
+  tls: false
+  type: vmess
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  ws-opts:
+    headers:
+      Host: usxm.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_2_8
   network: ws
   port: 2082
   server: 104.19.138.73
@@ -204,7 +217,16 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_16
+  name: 10|🇺🇸_US_美国_3_9
+  network: http
+  port: 80
+  server: 46.3.82.198
+  tls: false
+  type: vmess
+  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com0
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -217,53 +239,36 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com0
+  name: 10|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com1
   network: ws
-  port: 80
-  server: 162.159.133.42
+  port: 2082
+  server: 162.159.33.117
   tls: false
   type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
   ws-opts:
     headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com2
-  network: ws
-  port: 80
-  server: 104.18.15.150
+  name: 10|🇺🇸_US_美国_8_2由快嘴科技提供：kkzui.com
+  network: http
+  port: 443
+  server: 46.3.82.198
   tls: false
   type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
-  ws-opts:
-    headers:
-      Host: us3.889611.com
-    path: /
+  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
+  name: 10|🇺🇸_US_美国_9_24
   network: ws
   port: 80
-  server: 104.19.173.68
+  server: 172.67.164.78
   tls: false
   type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  uuid: 42507d7c-bc67-4534-8ffc-6b9234b74018
   ws-opts:
     headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com7
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
+      Host: mai.nekoneko.buzz
+    path: /cctv13/hd.m3u8
