@@ -159,7 +159,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
   delay: 356
-  name: 8|HK_speednode_0034
+  name: 8|HK_speednode_0015
   network: ws
   port: 8969
   security: tls

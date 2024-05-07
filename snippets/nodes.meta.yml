@@ -1,71 +1,67 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)feec8af:29306
-    mode: tls
-  port: 2377
-  server: 118.163.179.161
-  type: ss
 - cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-1
+  password: amazonskr05
+  port: 443
+  server: 43.202.41.139
+  type: ss
+- cipher: aes-128-gcm
   name: 0|-https://t.me/MrXbin-2
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.76.185.99
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-3
   password: qwerREWQ@@
   port: 49032
   server: p227.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
-  password: amazonskr05
-  port: 443
-  server: 47.129.9.69
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
-  password: amazonskr05
-  port: 443
-  server: 18.142.225.182
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.94
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
-  password: amazonskr05
-  port: 443
-  server: 43.201.47.36
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  server: 103.172.116.94
   type: ss
-- cipher: aes-256-gcm
+  udp: true
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-6
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.110.1.3
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 47.128.230.112
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 103.172.116.94
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-8
-  password: amazonskr05
-  port: 443
-  server: 13.124.178.1
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 103.172.116.94
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-9
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -75,23 +71,135 @@ proxies:
   server: 118.163.179.137
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-11
+  name: 0|-https://t.me/MrXbin-10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (TG @WangCai2)feec8af:29306
+    host: (TG @WangCai2)c68b799:50307
     mode: tls
   port: 2377
-  server: 118.163.179.162
+  server: 118.163.179.138
   type: ss
 - cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-13
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-14
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-15
+  password: amazonskr05
+  port: 443
+  server: 18.139.225.183
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-18
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-19
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-20
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-21
+  password: amazonskr05
+  port: 443
+  server: 3.112.218.182
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-22
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.110.1.3
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-23
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-24
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-25
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-26
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-27
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-28
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 103.172.116.94
+  type: ss
 - cipher: aes-256-ctr
   name: 0|-https://t.me/MrXbin-37
   obfs: tls1.2_ticket_auth
@@ -101,12 +209,28 @@ proxies:
   protocol: origin
   server: 163.172.218.164
   type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-41
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
+- name: 0|-https://t.me/MrXbin-82
+  password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf
+  port: 20230
+  server: jp06.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-67
+  name: 0|-https://t.me/MrXbin-84
   network: ws
   port: 443
   server: 158.51.121.36
@@ -116,106 +240,79 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 0,10|🇩🇪_DE_德意志联邦共和国_25
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - country: DE
-  name: 0|-https://t.me/MrXbin-109
-  password: FDvtQ3nb9mji
-  port: 14467
-  server: 18.194.173.181
+  name: 0|-https://t.me/MrXbin-126
+  password: YWqIEK)HY6S3
+  port: 14646
+  server: 3.75.248.2
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
   udp: true
 - country: DE
-  name: 0|-https://t.me/MrXbin-110
-  password: GWJUajR3N9bB
-  port: 14462
+  name: 0|-https://t.me/MrXbin-127
+  password: tOiFiUfE(GrC
+  port: 14643
   server: 3.75.222.21
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
   udp: true
-- country: GB
-  name: 0|-https://t.me/MrXbin-111
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.168.216.140
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: JP
-  name: 0|-https://t.me/MrXbin-112
-  password: Q4SD70n)2m9V
-  port: 14458
-  server: 3.112.234.65
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: JP
-  name: 0|-https://t.me/MrXbin-113
-  password: 9uuM9ZSO)VY6
-  port: 14464
-  server: 13.113.195.243
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: JP
-  name: 0|-https://t.me/MrXbin-114
-  password: putV3xjGiJ8F
-  port: 14450
-  server: 13.113.26.153
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: NL
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-115
-  network: ws
-  port: 80
-  server: 188.114.99.77
-  servername: nl1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2dd253e4-311f-4898-92f5-d4eb88ce27af
-  ws-opts:
-    headers:
-      HOST: nl1-vmess.sshmax.xyz
-    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  country: ' GB'
+  name: 0|-https://t.me/MrXbin-128
+  password: Bog0ELmMM9DSxDdQ
+  port: 443
+  server: series-a2-me.varzesh360.co
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 0,3|未命名
+  obfs: tls1.2_ticket_auth
+  password: eAokbaDN6
+  port: '8081'
+  protocol: origin
+  protocol-param: ",:\x16\x13##\x16@...:#%%%%%%%%%\x12%^..%"
+  server: jp-am48-6.eqnode.net
+  type: ssr
+- cipher: aes-256-cfb
+  country: ' SG'
+  name: 0|-https://t.me/MrXbin-130
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: ' SG'
+  name: 0|-https://t.me/MrXbin-131
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 0|-https://t.me/MrXbin-132
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 103.172.116.94
+  type: ss
 - country: SG
-  name: 0|-https://t.me/MrXbin-116
-  password: zrglPROlfpXH
-  port: 14458
-  server: 13.229.101.184
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: SG
-  name: 0,5|🇸🇬 新加坡|@ripaojiedian
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- country: SG
-  name: 0|-https://t.me/MrXbin-118
-  password: Wl56dZRmySq5
-  port: 14456
-  server: 13.250.21.76
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: SG
-  name: 0|-https://t.me/MrXbin-119
+  name: 0|-https://t.me/MrXbin-133
   password: 6e0ad609-d828-4674-af4d-125ca947dbcc
   port: 5001
   server: 139.180.212.5
@@ -223,17 +320,8 @@ proxies:
   sni: global.download.synology.com
   type: trojan
   udp: true
-- country: SG
-  name: 0|-https://t.me/MrXbin-121
-  password: L7KiSsVTGG)m
-  port: 14470
-  server: 13.212.249.44
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
 - country: TW
-  name: 0|-https://t.me/MrXbin-122
+  name: 0|-https://t.me/MrXbin-134
   password: 6e0ad609-d828-4674-af4d-125ca947dbcc
   port: 5001
   server: cyberspeed.synology.me
@@ -241,59 +329,242 @@ proxies:
   sni: global.download.synology.com
   type: trojan
   udp: true
+- cipher: aes-128-cfb
+  country: US
+  name: 0|-https://t.me/MrXbin-136
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-123
+  name: 0|-https://t.me/MrXbin-137
   network: ws
-  port: 8080
-  server: 172.67.185.79
-  servername: oiictw.yydsii.com
+  port: 443
+  server: jpcft01.xqc.best
+  servername: dd7xps5fj6dfo.cloudfront.net
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 9b57caed-da32-45cd-9b61-34b22a663ef5
   ws-opts:
     headers:
-      HOST: oiictw.yydsii.com
-    path: /
-- country: US
-  name: 0|-https://t.me/MrXbin-124
-  password: DzWd1V)CtyQ1
-  port: 14457
-  server: 34.213.163.17
+      HOST: dd7xps5fj6dfo.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-139
+  network: ws
+  port: 80
+  server: upload.ir
+  servername: lv1-vmess.sshmax.xyz
   skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: US
-  name: 0|-https://t.me/MrXbin-125
-  password: qBJv)AcjkaM0
-  port: 14455
-  server: 35.172.211.173
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: US
-  name: 0|-https://t.me/MrXbin-126
-  password: YidcRorGw6xk
-  port: 14451
-  server: 34.220.144.96
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
+  ws-opts:
+    headers:
+      HOST: lv1-vmess.sshmax.xyz
+    path: /vmess
 - cipher: aes-256-cfb
-  name: 3|8J%2BHr%2FCfh7VfSlBf5pel5pysXz...
-  obfs: tls1.2_ticket_auth
+  name: 3|IHwzMC4wNk1i
+  obfs: plain
+  password: ZpNDDKRu9MagNvaf
+  port: '9015'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4xNU1i
+  obfs: plain
+  password: HSZuyJQcWe8dxNdF
+  port: '9043'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOS4yNE1i
+  obfs: plain
   obfs-param: ''
-  password: eAokbaDN6
-  port: '8081'
+  password: U6qnYRhfyDmn8sgn
+  port: '9041'
+  protocol: origin
+  server: 103.172.116.90
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4yOE1i
+  obfs: plain
+  password: a3GFYt36Sm82Vys9
+  port: '9000'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC41Nk1i
+  obfs: plain
+  password: KnJGad3FqTvjqbaX
+  port: '9014'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4yMk1i
+  obfs: plain
+  password: wfLC2y7rzZyCmuyt
+  port: '9093'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4wMk1i
+  obfs: plain
+  password: dML2sfhbVwvtfNPe
+  port: '9058'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4zOE1i
+  obfs: plain
+  password: NvS8N4Vf8qAGPSCL
+  port: '9046'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC42ME1i
+  obfs: plain
+  password: gYCYXfkUQEs2TaJQ
+  port: '9038'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOS41ME1i
+  obfs: plain
+  password: BejrQvtu9sqUeNuZ
+  port: '9024'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: '3|未命名 #1'
+  obfs: plain
+  password: 2170f8
+  port: '14293'
+  protocol: origin
+  server: 45.55.2.232
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4yM01i
+  obfs: plain
+  password: UTJA57ypk2XKQpnm
+  port: '9033'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOS45N01i
+  obfs: plain
+  password: GA9KzeEgvfxNrgmM
+  port: '9019'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: '3|IHwzMC4wMk1i #1'
+  obfs: plain
+  password: GeregetR8cvQHzYr
+  port: '9030'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4xNk1i
+  obfs: plain
+  password: p9z5BVADH2YFs3MN
+  port: '9040'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: '3|IHwyOS45N01i #1'
+  obfs: plain
+  password: y9VURyNzJWNRYEGQ
+  port: '9008'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC40M01i
+  obfs: plain
+  password: FAdUvMJUq5vDgKEq
+  port: '9006'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4zME1i
+  obfs: plain
+  password: QWDDvVE9npNurQfA
+  port: '9026'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOS44NE1i
+  obfs: plain
+  password: U6qnYRhfyDmn8sgn
+  port: '9041'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4wN01i
+  obfs: plain
+  password: wjTugX3ZtHMB9c3Z
+  port: '9057'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOS45Nk1i
+  obfs: plain
+  password: S7KwUu7yBy58S3Ga
+  port: '9042'
   protocol: origin
   protocol-param: ''
-  server: jp-am48-6.eqnode.net
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwyOC45OU1i
+  obfs: plain
+  obfs-param: ''
+  password: BwcAUZk8hUFAkDGN
+  port: '9031'
+  protocol: origin
+  server: 103.172.116.90
+  type: ssr
+- cipher: aes-256-cfb
+  name: '3|IHwzMC4yMk1i #1'
+  obfs: plain
+  password: ZET59LF6DvCC8KVt
+  port: '9005'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: 3|IHwzMC4yN01i
+  obfs: plain
+  password: f8npKgNzdkss2ytn
+  port: '9088'
+  protocol: origin
+  server: 103.172.116.79
   type: ssr
 - cipher: aes-128-gcm
   name: 5|🇭🇰 香港KT|@ripaojiedian
@@ -446,6 +717,13 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 5,6|美国|@ripaojiedian
@@ -631,23 +909,10 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- delay: 2101
-  name: 8|AT_speednode_0001
-  network: ws
-  port: 130
-  server: 94.177.8.26
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
 - Inc. - 1...: None
   client-fingerprint: random
   delay: 1889
-  name: 8|CA_speednode_0002
+  name: 8|CA_speednode_0001
   network: ws
   port: 3334
   server: 23.94.61.36
@@ -663,7 +928,7 @@ proxies:
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
   delay: 2094
-  name: 8|CA_speednode_0003
+  name: 8|CA_speednode_0002
   network: ws
   port: 443
   server: 168.138.70.29
@@ -677,39 +942,27 @@ proxies:
     path: '%2f%3fed%3d2048'
 - Inc. - 6: None
   client-fingerprint: random
-  delay: 1156
+  delay: 449
   fp: random
-  name: 8|CN_speednode_0014
+  name: 8|CN_speednode_0004
   network: ws
   port: 443
   security: tls
   server: 103.44.255.27
-  servername: cfed.tgzdyz2.top
+  servername: juzibaipiao.5112233.xyz
   skip-cert-verify: false
   sni: cfed.tgzdyz2.top
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 8|FR_speednode_0029
-  network: ws
-  port: 2053
-  server: 51.38.86.3
-  servername: mositr.freenods.sbs
-  tls: true
-  type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      host: mositr.freenods.sbs
-    path: Twitterfreecodes
+      host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
 - client-fingerprint: random
   fp: random
-  name: 8|FR_speednode_0032
+  name: 8|FR_speednode_0013
   network: ws
   port: 2053
   security: tls
@@ -724,10 +977,22 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+    path: tg@zdyz2
+- name: 8|FR_speednode_0014
+  network: ws
+  port: 2053
+  server: 51.38.86.3
+  servername: mositr.freenods.sbs
+  tls: true
+  type: vless
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      host: mositr.freenods.sbs
+    path: Twitterfreecodes
 - client-fingerprint: random
   delay: 356
-  name: 8|HK_speednode_0034
+  name: 8|HK_speednode_0015
   network: ws
   port: 8969
   security: tls
@@ -744,7 +1009,23 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  name: 8|JP_speednode_0035
+  name: 8|JP_speednode_0017
+  network: ws
+  port: 443
+  server: 13.230.34.30
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|JP_speednode_0018
   network: ws
   port: 21817
   security: tls
@@ -759,10 +1040,26 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
+- client-fingerprint: random
+  name: 8|JP_speednode_0019
+  network: ws
+  port: 443
+  server: 168.138.201.0
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
 - Inc. - 6...: None
   client-fingerprint: random
   delay: 752
-  name: 8|JP_speednode_0036
+  name: 8|JP_speednode_0020
   network: ws
   port: 2086
   server: 43.207.156.148
@@ -776,10 +1073,42 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0021
+  network: ws
+  port: 990
+  server: 23.106.131.230
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|JP_speednode_0022
+  network: ws
+  port: 61735
+  server: 138.2.19.1
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
 - '...': None
   client-fingerprint: random
   delay: 1848
-  name: 8|JP_speednode_0037
+  name: 8|JP_speednode_0023
   network: ws
   port: 54322
   server: 152.69.205.37
@@ -794,7 +1123,39 @@ proxies:
       Host: TG.CMLiussss.elementfx.com
     path: /proxyIP=proxyip.jp.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|KR_speednode_0038
+  name: 8|JP_speednode_0024
+  network: ws
+  port: 443
+  server: 64.110.103.69
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|JP_speednode_0025
+  network: ws
+  port: 8443
+  server: 152.69.199.70
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|KR_speednode_0026
   network: ws
   port: 9527
   security: tls
@@ -810,7 +1171,7 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  name: 8|KR_speednode_0040
+  name: 8|KR_speednode_0027
   network: ws
   port: 11659
   security: tls
@@ -826,8 +1187,41 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
+  name: 8|KR_speednode_0033
+  network: ws
+  port: 50001
+  security: tls
+  server: 146.56.145.38
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- Inc. - 4...: None
+  client-fingerprint: random
+  delay: 1518
+  name: 8|KR_speednode_0030
+  network: ws
+  port: 59158
+  server: 129.154.206.254
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: TG@mianfeicf
+- client-fingerprint: random
   delay: 1572
-  name: 8|KR_speednode_0041
+  name: 8|KR_speednode_0031
   network: ws
   port: 47590
   security: tls
@@ -843,34 +1237,27 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- name: 8|KR_speednode_0042
+- client-fingerprint: random
+  delay: 776
+  name: 8|KR_speednode_0032
   network: ws
-  port: 48888
-  server: 146.56.188.95
+  port: 20082
+  security: tls
+  server: 210.111.176.108
   servername: cfed.tgzdyz2.top
+  skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
+  tfo: false
   tls: true
   type: vless
   uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- delay: 1068
-  name: 8|KR_speednode_0043
-  network: ws
-  port: 25800
-  server: 193.122.110.164
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+    path: tg%40zdyz2
 - client-fingerprint: random
   delay: 1074
-  name: 8|KR_speednode_0044
+  name: 8|KR_speednode_0034
   network: ws
   port: 59408
   security: tls
@@ -885,25 +1272,9 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- Inc. - 4...: None
-  client-fingerprint: random
-  delay: 1518
-  name: 8|KR_speednode_0045
-  network: ws
-  port: 59158
-  server: 129.154.206.254
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
 - client-fingerprint: random
   delay: 1528
-  name: 8|KR_speednode_0046
+  name: 8|KR_speednode_0035
   network: ws
   port: 18888
   security: tls
@@ -920,25 +1291,8 @@ proxies:
       host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
 - client-fingerprint: random
-  name: 8|KR_speednode_0048
-  network: ws
-  port: 50001
-  security: tls
-  server: 146.56.145.38
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
   delay: 1414
-  name: 8|KR_speednode_0049
+  name: 8|KR_speednode_0036
   network: ws
   port: 39637
   security: tls
@@ -956,7 +1310,7 @@ proxies:
     path: tg%40zdyz2
 - client-fingerprint: random
   delay: 773
-  name: 8|KR_speednode_0050
+  name: 8|KR_speednode_0037
   network: ws
   port: 10194
   security: tls
@@ -973,42 +1327,7 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  delay: 1996
-  name: 8|KR_speednode_0051
-  network: ws
-  port: 10200
-  security: tls
-  server: 183.104.40.186
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  delay: 776
-  name: 8|KR_speednode_0052
-  network: ws
-  port: 20082
-  security: tls
-  server: 210.111.176.108
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 8|SG_speednode_0054
+  name: 8|SG_speednode_0039
   network: ws
   port: 53821
   security: tls
@@ -1024,13 +1343,45 @@ proxies:
     headers:
       host: edgetunnel-free.pages.dev
     path: '%2f%3fed%3d2048'
-- Inc. - 5: None
-  client-fingerprint: random
-  delay: 526
-  name: 8|TW_speednode_0056
+- client-fingerprint: random
+  name: 8|SG_speednode_0040
   network: ws
-  port: 36633
-  server: 61.220.41.143
+  port: 21737
+  server: 8.222.138.166
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.sg.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|SG_speednode_0041
+  network: ws
+  port: 44120
+  server: 47.236.114.166
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.sg.fxxk.dedyn.io
+- Inc. - 1...: None
+  client-fingerprint: random
+  delay: 2222
+  name: 8|TW_speednode_0042
+  network: ws
+  port: 12559
+  server: 118.163.128.81
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -1038,13 +1389,13 @@ proxies:
   ws-opts:
     headers:
       host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+    path: tg%40zdyz2
 - Inc. - 5...: None
   Inc. - 8: None
   client-fingerprint: random
   delay: 456
   fp: random
-  name: 8|TW_speednode_0057
+  name: 8|TW_speednode_0043
   network: ws
   port: 553
   security: tls
@@ -1062,7 +1413,7 @@ proxies:
     path: TG%40ZDYZ2
 - client-fingerprint: random
   delay: 476
-  name: 8|TW_speednode_0058
+  name: 8|TW_speednode_0044
   network: ws
   port: 4443
   security: tls
@@ -1078,39 +1429,7 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- Inc. - 1...: None
-  client-fingerprint: random
-  delay: 2222
-  name: 8|TW_speednode_0059
-  network: ws
-  port: 12559
-  server: 118.163.128.81
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 8|US_speednode_0060
-  network: ws
-  port: 443
-  security: tls
-  server: 154.85.99.37
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: 8|US_speednode_0061
+- name: 8|US_speednode_0045
   network: ws
   port: 80
   server: 5.161.60.111
@@ -1120,23 +1439,117 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: random
-  delay: 2240
-  name: 8|US_speednode_0062
+  name: 8|US_speednode_0046
   network: ws
   port: 443
-  security: tls
-  server: 43.153.103.203
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  server: 193.122.197.111
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0047
+  network: ws
+  port: 80
+  server: 129.146.213.36
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0048
+  network: ws
+  port: 8444
+  server: 13.52.251.56
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0049
+  network: ws
+  port: 80
+  server: 54.193.109.100
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0050
+  network: ws
+  port: 443
+  server: 129.153.165.237
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0051
+  network: ws
+  port: 80
+  server: 18.236.13.188
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|US_speednode_0052
+  network: ws
+  port: 50007
+  server: 195.123.241.122
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn台湾省高雄市
@@ -1151,54 +1564,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn台湾省高雄市 #1'
-  network: ws
-  port: '443'
-  server: 61.227.195.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn韩国
-  network: ws
-  port: '25363'
-  server: 140.238.11.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
-  ws-opts:
-    headers:
-      Host: kr-seoul-oracle-4fccf5.ip1.shop
-    path: /gd3245vd2S32cr
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn韩国 #1'
-  network: tcp
-  port: '10001'
-  server: 103.214.68.57
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
 - alterId: 0
   cipher: auto
   name: 10|🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：kkzui.com
@@ -1349,17 +1714,6 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇩🇪_DE_德意志联邦共和国_25
-  network: ws
-  port: 443
-  server: 23.158.56.50
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_26
