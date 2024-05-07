@@ -2,20 +2,48 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国3|@ripaojiedian
+  name: 5,6|美国|@ripaojiedian
   network: ws
-  port: '13486'
-  server: 218.204.178.2
+  port: '80'
+  server: cf2.ftclashcloud.site
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 61b81abc-320b-49c1-893c-f3ddd45880de
+  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
   ws-opts:
     headers:
-      Host: waphk.xlb8.eu.org
-    path: /
+      Host: mhyusa01.ftclashcloud.online
+    path: /ws?ed
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国2|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  port: 80
+  server: 46.3.82.198
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: MyYoZhfX
@@ -30,6 +58,16 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 6|美国3|@ripaojiedian
+  network: tcp
+  port: '80'
+  server: 46.3.82.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
 - client-fingerprint: chrome
   name: 8|US_speednode_0049
   network: ws

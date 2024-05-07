@@ -43,6 +43,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|香港3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cf1.ftclashcloud.site
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
+  ws-opts:
+    headers:
+      Host: azhk01.ftclashcloud.online
+    path: /ws?ed
 - client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: MyYoZhfX
@@ -78,6 +95,17 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港7|@ripaojiedian
+  port: 32998
+  server: 120.232.242.122
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -109,6 +137,16 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 64
+  cipher: auto
+  name: 6|香港7|@ripaojiedian
+  network: tcp
+  port: '32998'
+  server: 120.232.242.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 6|香港8|@ripaojiedian
