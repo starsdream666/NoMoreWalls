@@ -45,6 +45,14 @@ proxies:
     headers:
       Host: dd7xps5fj6dfo.cloudfront.net
     path: /stream
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.47.36
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 6|日本2|@ripaojiedian
