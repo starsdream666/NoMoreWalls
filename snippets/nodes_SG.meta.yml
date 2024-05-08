@@ -1,10 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.151.219.143
+  server: 54.151.216.148
   tfo: false
   type: ss
 - client-fingerprint: random

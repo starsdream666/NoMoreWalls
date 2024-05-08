@@ -3,8 +3,8 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾|@ripaojiedian
-  port: 21006
-  server: 183.232.199.61
+  port: 21003
+  server: 183.240.179.195
   skip-cert-verify: false
   tfo: false
   tls: false
