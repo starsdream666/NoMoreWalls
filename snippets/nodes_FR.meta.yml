@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: random
   fp: random
-  name: 8|FR_speednode_0030
+  name: 8|FR_speednode_0021
   network: ws
   port: 2053
   security: tls
@@ -17,7 +17,7 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|FR_speednode_0031
+- name: 8|FR_speednode_0020
   network: ws
   port: 2053
   server: 51.38.86.3

@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
@@ -16,40 +8,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: random
-  name: 8|SG_speednode_0056
-  network: ws
-  port: 53821
-  security: tls
-  server: 101.32.242.254
-  servername: edgetunnel-free.pages.dev
-  skip-cert-verify: false
-  sni: edgetunnel-free.pages.dev
-  tfo: false
-  tls: true
-  type: vless
-  uuid: de44b044-8f90-4e18-b742-16591667ff96
-  ws-opts:
-    headers:
-      host: edgetunnel-free.pages.dev
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|SG_speednode_0057
-  network: ws
-  port: 21737
-  server: 8.222.138.166
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.sg.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|SG_speednode_0058
+  name: 8|SG_speednode_0100
   network: ws
   port: 44120
   server: 47.236.114.166
@@ -67,7 +26,7 @@ proxies:
 - Inc. -...: None
   client-fingerprint: random
   delay: 557
-  name: 8|SG_speednode_0059
+  name: 8|SG_speednode_0101
   network: ws
   port: 17465
   server: 138.2.95.33
@@ -80,4 +39,37 @@ proxies:
   ws-opts:
     headers:
       Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.sg.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 8|SG_speednode_0102
+  network: ws
+  port: 53821
+  security: tls
+  server: 101.32.242.254
+  servername: edgetunnel-free.pages.dev
+  skip-cert-verify: false
+  sni: edgetunnel-free.pages.dev
+  tfo: false
+  tls: true
+  type: vless
+  uuid: de44b044-8f90-4e18-b742-16591667ff96
+  ws-opts:
+    headers:
+      host: edgetunnel-free.pages.dev
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|SG_speednode_0103
+  network: ws
+  port: 21737
+  server: 8.222.138.166
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.sg.fxxk.dedyn.io

@@ -46,49 +46,8 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
-- name: 8|US_speednode_0067
-  network: ws
-  port: 80
-  server: 5.161.60.111
-  tls: false
-  type: vless
-  uuid: 923667eb-376d-4055-ba7d-d6adbb768c05
-  ws-opts:
-    path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0068
-  network: ws
-  port: 443
-  server: 193.122.197.111
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|US_speednode_0069
-  network: ws
-  port: 80
-  server: 129.146.213.36
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|US_speednode_0070
+  name: 8|US_speednode_0144
   network: ws
   port: 8444
   server: 13.52.251.56
@@ -104,7 +63,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0071
+  name: 8|US_speednode_0145
   network: ws
   port: 80
   server: 54.193.109.100
@@ -119,11 +78,20 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|US_speednode_0072
+- name: 8|US_speednode_0146
   network: ws
-  port: 443
-  server: 129.153.165.237
+  port: 80
+  server: 5.161.60.111
+  tls: false
+  type: vless
+  uuid: 923667eb-376d-4055-ba7d-d6adbb768c05
+  ws-opts:
+    path: /
+- client-fingerprint: random
+  name: 8|US_speednode_0147
+  network: ws
+  port: 50007
+  server: 195.123.241.122
   servername: qifei.today.elementfx.com
   skip-cert-verify: true
   tfo: false
@@ -136,7 +104,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0073
+  name: 8|US_speednode_0148
   network: ws
   port: 80
   server: 18.236.13.188
@@ -152,10 +120,10 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0074
+  name: 8|US_speednode_0149
   network: ws
-  port: 50007
-  server: 195.123.241.122
+  port: 443
+  server: 193.122.197.111
   servername: qifei.today.elementfx.com
   skip-cert-verify: true
   tfo: false
@@ -167,26 +135,9 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- Inc. -...: None
-  client-fingerprint: random
-  delay: 1083
-  name: 8|US_speednode_0075
-  network: ws
-  port: 2053
-  server: 158.101.32.53
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
   delay: 939
-  name: 8|US_speednode_0076
+  name: 8|US_speednode_0150
   network: ws
   port: 443
   security: tls
@@ -201,23 +152,6 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- Inc....: None
-  client-fingerprint: random
-  delay: 1761
-  name: 8|US_speednode_0077
-  network: ws
-  port: 443
-  server: 99.83.209.185
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
