@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -40,7 +48,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_5
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  network: ws
+  port: 2052
+  server: 104.18.131.224
+  tls: false
+  type: vmess
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
   network: ws
   port: 2052
   server: 104.17.229.133
@@ -53,71 +74,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_8
+  name: 10|🇺🇸_US_美国_3_6
   network: ws
-  port: 2082
+  port: 2052
   server: 104.19.138.73
   tls: false
   type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
   ws-opts:
     headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_9
-  network: http
-  port: 80
-  server: 46.3.82.198
-  tls: false
-  type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com0
+  name: 10|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
   network: ws
-  port: 2082
+  port: 2052
   server: cfcdn1.sanfencdn9.com
   tls: false
   type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
   ws-opts:
     headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com1
-  network: ws
-  port: 2082
-  server: 162.159.33.117
-  tls: false
-  type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-  ws-opts:
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_8_2由快嘴科技提供：kkzui.com
-  network: http
-  port: 443
-  server: 46.3.82.198
-  tls: false
-  type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_9_24
-  network: ws
-  port: 80
-  server: 172.67.164.78
-  tls: false
-  type: vmess
-  uuid: 42507d7c-bc67-4534-8ffc-6b9234b74018
-  ws-opts:
-    headers:
-      Host: mai.nekoneko.buzz
-    path: /cctv13/hd.m3u8
+      Host: usxm.inekokkk.top
+    path: /
