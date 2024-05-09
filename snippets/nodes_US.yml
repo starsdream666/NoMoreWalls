@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -38,16 +30,20 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: tcp
-  port: '45017'
-  server: 142.0.134.241
+  name: 9|baipaovpn美国
+  network: ws
+  port: '8080'
+  server: 172.67.172.173
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
