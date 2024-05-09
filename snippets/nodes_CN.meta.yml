@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 9|baipaovpn广东省江门市
+  name: '9|baipaovpn广东省江门市 #1'
   network: tcp
   port: '40002'
   server: 120.238.122.239

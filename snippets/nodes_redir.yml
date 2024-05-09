@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_22
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 2052
   server: 104.18.36.119
@@ -14,20 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
-  port: 2052
-  server: 104.18.19.191
+  port: 2082
+  server: 104.21.8.157
   tls: false
   type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: helanv6cf.inekokkk.top
+      Host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_2由快嘴科技提供：...
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -40,7 +40,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  network: ws
+  port: 2052
+  server: 104.18.19.191
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_20
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -50,26 +76,4 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-  network: tcp
-  port: 44001
-  server: 183.232.199.28
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-  network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /

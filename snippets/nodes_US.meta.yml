@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇺🇸 美国2|@ripaojiedian
@@ -10,9 +18,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国3|@ripaojiedian
+  name: 5,6,10|🇺🇸_US_美国_2_2
   network: ws
-  port: '8880'
+  port: 8880
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -201,53 +209,80 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  name: 9|baipaovpn美国
   network: ws
-  port: 2052
-  server: 104.18.131.224
+  port: '80'
+  server: 3.36.132.55
+  servername: ''
   tls: false
   type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  uuid: e5e2206d-8650-4dfb-9731-fe2ee99b944e
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
-  port: 2052
-  server: 104.17.229.133
+  port: 80
+  server: us6.jiedian.stream
   tls: false
   type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: usxm.inekokkk.top
+      Host: us.cdn02.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_6
+  name: 10|🇺🇸_US_美国_3_4
   network: ws
-  port: 2052
-  server: 104.19.138.73
+  port: 80
+  server: us5.jiedian.stream
   tls: false
   type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: us.cdn01.top
+    path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
+  name: 10|🇺🇸_US_美国_4_5
   network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  port: 80
+  server: us1.jiedian.stream
   tls: false
   type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: usxm.inekokkk.top
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_5_7
+  network: ws
+  port: 80
+  server: us2.jiedian.stream
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_15
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
     path: /
