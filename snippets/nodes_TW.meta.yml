@@ -38,7 +38,7 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
-  name: 8|TW_speednode_0062
+  name: 8|TW_speednode_0054
   network: ws
   port: 12031
   server: 60.248.63.88
@@ -54,7 +54,7 @@ proxies:
       Host: mositr.freenods.sbs
     path: /?ed=2560
 - client-fingerprint: random
-  name: 8|TW_speednode_0063
+  name: 8|TW_speednode_0055
   network: ws
   port: 13688
   server: 118.163.128.81

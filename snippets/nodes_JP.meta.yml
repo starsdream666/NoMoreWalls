@@ -64,34 +64,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- Inc. - 6...: None
-  client-fingerprint: random
-  delay: 752
-  name: 8|JP_speednode_0022
-  network: ws
-  port: 2086
-  server: 43.207.156.148
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 54.95.84.153
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''

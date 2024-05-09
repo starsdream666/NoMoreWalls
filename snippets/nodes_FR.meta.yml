@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: random
   fp: random
-  name: 8|FR_speednode_0016
+  name: 8|FR_speednode_0013
   network: ws
   port: 2053
   security: tls
@@ -18,7 +18,7 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- name: 8|FR_speednode_0014
+- name: 8|FR_speednode_0011
   network: ws
   port: 2053
   server: 51.38.86.3
@@ -31,7 +31,7 @@ proxies:
       host: mositr.freenods.sbs
     path: Twitterfreecodes
 - client-fingerprint: random
-  name: 8|FR_speednode_0015
+  name: 8|FR_speednode_0012
   network: ws
   port: 2053
   server: 178.33.196.127
