@@ -2,7 +2,7 @@ proxies:
 - Inc. - 1...: None
   client-fingerprint: random
   delay: 1889
-  name: 8|CA_speednode_0002
+  name: 8|CA_speednode_0003
   network: ws
   port: 3334
   server: 23.94.61.36
@@ -18,7 +18,7 @@ proxies:
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
   delay: 2094
-  name: 8|CA_speednode_0004
+  name: 8|CA_speednode_0005
   network: ws
   port: 443
   server: 168.138.70.29
@@ -30,3 +30,35 @@ proxies:
     headers:
       host: edgood.889876.xyz
     path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|CA_speednode_0006
+  network: ws
+  port: 2053
+  server: 178.128.225.209
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|CA_speednode_0007
+  network: ws
+  port: 2053
+  server: 45.58.37.185
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560

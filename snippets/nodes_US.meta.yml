@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇺🇸 美国2|@ripaojiedian
@@ -39,7 +47,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: random
-  name: 8|US_speednode_0053
+  name: 8|US_speednode_0064
   network: ws
   port: 8444
   server: 13.52.251.56
@@ -55,7 +63,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0054
+  name: 8|US_speednode_0065
   network: ws
   port: 80
   server: 54.193.109.100
@@ -70,17 +78,8 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- name: 8|US_speednode_0055
-  network: ws
-  port: 80
-  server: 5.161.60.111
-  tls: false
-  type: vless
-  uuid: 923667eb-376d-4055-ba7d-d6adbb768c05
-  ws-opts:
-    path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0056
+  name: 8|US_speednode_0066
   network: ws
   port: 50007
   server: 195.123.241.122
@@ -96,7 +95,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0057
+  name: 8|US_speednode_0067
   network: ws
   port: 80
   server: 18.236.13.188
@@ -112,7 +111,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0058
+  name: 8|US_speednode_0068
   network: ws
   port: 443
   server: 193.122.197.111
@@ -129,7 +128,7 @@ proxies:
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
   delay: 939
-  name: 8|US_speednode_0059
+  name: 8|US_speednode_0069
   network: ws
   port: 443
   security: tls
@@ -144,111 +143,127 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
+- client-fingerprint: random
+  name: 8|US_speednode_0077
+  network: ws
+  port: 8443
+  server: 104.18.33.205
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|US_speednode_0078
+  network: ws
+  port: 2096
+  server: 104.17.215.54
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|US_speednode_0079
+  network: ws
+  port: 2053
+  server: 104.18.46.118
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|US_speednode_0080
+  network: ws
+  port: 2096
+  server: 104.20.27.133
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|US_speednode_0081
+  network: ws
+  port: 2096
+  server: 104.20.27.224
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|US_speednode_0082
+  network: ws
+  port: 2053
+  server: 162.159.58.157
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
   port: '80'
-  server: 52.33.154.250
+  server: 35.92.103.90
   servername: ''
   tls: false
   type: vmess
   uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
+  name: 9|baipaovpn美国俄勒冈州波特兰
   network: ws
   port: '80'
-  server: 54.149.247.66
+  server: 34.219.36.68
   servername: ''
   tls: false
   type: vmess
   uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 3.67.176.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 13.214.162.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
-  network: ws
-  port: 2052
-  server: 104.18.131.224
-  tls: false
-  type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
-  network: ws
-  port: 2052
-  server: 104.17.229.133
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_3_6
-  network: ws
-  port: 2052
-  server: 104.19.138.73
-  tls: false
-  type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
+      Host: ''
+    path: ''

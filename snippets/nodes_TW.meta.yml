@@ -38,51 +38,34 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
-  delay: 806
-  name: 8|TW_speednode_0049
+  name: 8|TW_speednode_0062
   network: ws
-  port: 25424
-  security: tls
-  server: 220.133.227.253
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
+  port: 12031
+  server: 60.248.63.88
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
 - client-fingerprint: random
-  delay: 476
-  name: 8|TW_speednode_0050
+  name: 8|TW_speednode_0063
   network: ws
-  port: 4443
-  security: tls
-  server: 211.75.74.232
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
+  port: 13688
+  server: 118.163.128.81
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn台湾省新北市
-  network: ws
-  port: '80'
-  server: 61.230.136.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
