@@ -3,8 +3,8 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾|@ripaojiedian
-  port: 21003
-  server: 183.240.179.195
+  port: 21006
+  server: 183.232.199.28
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -22,7 +22,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
   ws-opts:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
@@ -31,8 +31,8 @@ proxies:
   cipher: auto
   name: 6|台湾|@ripaojiedian
   network: tcp
-  port: '21003'
-  server: 183.240.179.195
+  port: '21006'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
