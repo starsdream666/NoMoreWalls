@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
@@ -7,3 +15,31 @@ proxies:
   server: 18.183.73.152
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn新加坡
+  network: ws
+  port: '80'
+  server: 178.128.56.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn新加坡 #1'
+  network: ws
+  port: '80'
+  server: 13.250.51.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /

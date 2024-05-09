@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.151
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -31,7 +39,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: random
-  name: 8|US_speednode_0144
+  name: 8|US_speednode_0053
   network: ws
   port: 8444
   server: 13.52.251.56
@@ -47,7 +55,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0145
+  name: 8|US_speednode_0054
   network: ws
   port: 80
   server: 54.193.109.100
@@ -62,7 +70,7 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- name: 8|US_speednode_0146
+- name: 8|US_speednode_0055
   network: ws
   port: 80
   server: 5.161.60.111
@@ -72,7 +80,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0147
+  name: 8|US_speednode_0056
   network: ws
   port: 50007
   server: 195.123.241.122
@@ -88,7 +96,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0148
+  name: 8|US_speednode_0057
   network: ws
   port: 80
   server: 18.236.13.188
@@ -104,7 +112,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|US_speednode_0149
+  name: 8|US_speednode_0058
   network: ws
   port: 443
   server: 193.122.197.111
@@ -121,7 +129,7 @@ proxies:
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - client-fingerprint: random
   delay: 939
-  name: 8|US_speednode_0150
+  name: 8|US_speednode_0059
   network: ws
   port: 443
   security: tls
@@ -140,16 +148,58 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '32253'
-  server: 152.70.244.153
+  port: '80'
+  server: 52.33.154.250
   servername: ''
   tls: false
   type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: kr-seoul-oracle-b0566e.ip1.shop
-    path: /gd3DS3432432S32cr
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 54.149.247.66
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 3.67.176.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 13.214.162.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2

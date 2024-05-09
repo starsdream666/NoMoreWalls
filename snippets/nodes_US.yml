@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.151
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -34,16 +42,58 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '32253'
-  server: 152.70.244.153
+  port: '80'
+  server: 52.33.154.250
   servername: ''
   tls: false
   type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: kr-seoul-oracle-b0566e.ip1.shop
-    path: /gd3DS3432432S32cr
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 54.149.247.66
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 3.67.176.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 13.214.162.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2

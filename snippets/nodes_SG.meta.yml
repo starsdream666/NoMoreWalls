@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
@@ -8,7 +16,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: random
-  name: 8|SG_speednode_0100
+  name: 8|SG_speednode_0035
   network: ws
   port: 44120
   server: 47.236.114.166
@@ -26,7 +34,7 @@ proxies:
 - Inc. -...: None
   client-fingerprint: random
   delay: 557
-  name: 8|SG_speednode_0101
+  name: 8|SG_speednode_0036
   network: ws
   port: 17465
   server: 138.2.95.33
@@ -41,24 +49,7 @@ proxies:
       Host: TG.CMLiussss.elementfx.com
     path: /proxyIP=proxyip.sg.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|SG_speednode_0102
-  network: ws
-  port: 53821
-  security: tls
-  server: 101.32.242.254
-  servername: edgetunnel-free.pages.dev
-  skip-cert-verify: false
-  sni: edgetunnel-free.pages.dev
-  tfo: false
-  tls: true
-  type: vless
-  uuid: de44b044-8f90-4e18-b742-16591667ff96
-  ws-opts:
-    headers:
-      host: edgetunnel-free.pages.dev
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|SG_speednode_0103
+  name: 8|SG_speednode_0037
   network: ws
   port: 21737
   server: 8.222.138.166
@@ -73,3 +64,31 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.sg.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn新加坡
+  network: ws
+  port: '80'
+  server: 178.128.56.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn新加坡 #1'
+  network: ws
+  port: '80'
+  server: 13.250.51.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /

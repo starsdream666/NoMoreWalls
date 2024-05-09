@@ -39,7 +39,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
   delay: 806
-  name: 8|TW_speednode_0129
+  name: 8|TW_speednode_0049
   network: ws
   port: 25424
   security: tls
@@ -56,7 +56,7 @@ proxies:
     path: tg%40zdyz2
 - client-fingerprint: random
   delay: 476
-  name: 8|TW_speednode_0130
+  name: 8|TW_speednode_0050
   network: ws
   port: 4443
   security: tls
@@ -72,3 +72,17 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn台湾省新北市
+  network: ws
+  port: '80'
+  server: 61.230.136.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
