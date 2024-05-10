@@ -1,13 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
-- client-fingerprint: chrome
   name: 5,8|SG_speednode_0089
   network: ws
   password: e81d213d-8dd5-4207-9445-24d8903ffe0c
@@ -28,3 +20,27 @@ proxies:
   server: 18.143.93.163
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn新加坡
+  network: tcp
+  port: '50001'
+  server: 18.139.115.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn新加坡 #1'
+  network: ws
+  port: '80'
+  server: 172.104.190.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f15831d2-461c-442e-a11b-9acee6dc5286
+  ws-opts:
+    headers:
+      Host: sg1.pkyun.website
+    path: /ray

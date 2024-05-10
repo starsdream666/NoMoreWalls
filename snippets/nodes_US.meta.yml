@@ -18,7 +18,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国_2_2
+  name: 5,6,10|🇺🇸_US_美国_4_22
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
@@ -381,66 +381,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
-  network: ws
-  port: 80
-  server: us6.jiedian.stream
+  name: 9|baipaovpn美国
+  network: tcp
+  port: '50001'
+  server: 16.163.41.222
+  servername: ''
   tls: false
   type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: us.cdn02.top
-    path: /
+  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_4
+  name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com9
   network: ws
-  port: 80
-  server: us5.jiedian.stream
+  port: 2052
+  server: 104.18.242.177
   tls: false
   type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
   ws-opts:
     headers:
-      Host: us.cdn01.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_4_5
-  network: ws
-  port: 80
-  server: us1.jiedian.stream
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_7
-  network: ws
-  port: 80
-  server: us2.jiedian.stream
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_15
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g

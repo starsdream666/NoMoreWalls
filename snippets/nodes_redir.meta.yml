@@ -1,45 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 2052
@@ -53,10 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
+  name: '10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #2'
   network: ws
   port: 2052
-  server: cfcdn1.sanfencdn9.com
+  server: 104.19.250.15
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -66,14 +27,66 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_20
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
+  port: 21035
+  server: ca.lianjianode.cc
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: d9fa43a7-c853-4aa6-ac13-5ea635066d37
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: hk1.luodi.xyz
+    path: /hongkong
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_8
+  network: ws
+  port: 21034
+  server: ca.lianjianode.cc
+  tls: false
+  type: vmess
+  uuid: d9fa43a7-c853-4aa6-ac13-5ea635066d37
+  ws-opts:
+    headers:
+      Host: hk1.luodi.xyz
+    path: /hongkong
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 34175
+  server: us.lianjianode.cc
+  tls: false
+  type: vmess
+  uuid: d9fa43a7-c853-4aa6-ac13-5ea635066d37
+  ws-opts:
+    headers:
+      Host: us1.luodi.xyz
+    path: /usa
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  network: ws
+  port: 21000
+  server: us.lianjianode.cc
+  tls: false
+  type: vmess
+  uuid: d9fa43a7-c853-4aa6-ac13-5ea635066d37
+  ws-opts:
+    headers:
+      Host: us1.luodi.xyz
+    path: /usa
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  network: ws
+  port: 2052
+  server: 104.18.36.119
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
     path: /

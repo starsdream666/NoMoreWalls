@@ -13,7 +13,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国_6_8
+  name: 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_14
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
