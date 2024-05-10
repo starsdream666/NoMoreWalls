@@ -33,7 +33,7 @@ proxies:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0012
+  name: 5,8|CN_speednode_0004
   network: tcp
   password: MyYoZhfX
   port: 46011
@@ -42,7 +42,7 @@ proxies:
   type: trojan
   udp: false
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0022
+  name: 5|🇺🇸 美国5|@ripaojiedian
   password: MyYoZhfX
   port: 51003
   server: 112.29.94.23
@@ -69,16 +69,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f14897d-154a-4d03-ad28-dad24f37513c
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn美国
-  network: tcp
-  port: '50001'
-  server: 16.163.41.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com9

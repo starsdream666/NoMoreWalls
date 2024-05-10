@@ -37,35 +37,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- client-fingerprint: random
-  name: 8|TW_speednode_0094
-  network: ws
-  port: 12031
-  server: 60.248.63.88
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|TW_speednode_0095
-  network: ws
-  port: 13688
-  server: 118.163.128.81
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560

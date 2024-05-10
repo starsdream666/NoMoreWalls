@@ -1,32 +1,70 @@
 proxies:
-- cipher: aes-128-cfb
+- cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-1
-  password: shadowsocks
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-35
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 216.39.250.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-36
+  password: amazonskr05
   port: 443
-  server: 156.146.38.163
+  server: 43.201.47.36
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-39
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-40
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-41
+  password: amazonskr05
+  port: 443
+  server: 3.112.218.182
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-44
+  password: qwerREWQ@@
+  port: 49032
+  server: 125.141.26.7
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-46
+  password: qwerREWQ@@
+  port: 49032
+  server: p227.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-47
+  password: amazonskr05
+  port: 443
+  server: 13.231.229.48
+  type: ss
+- cipher: aes-256-cfb
+  name: 0,5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.88.161.5
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.159
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-50
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -36,70 +74,67 @@ proxies:
   server: 118.163.179.158
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-5
+  name: 0|-https://t.me/MrXbin-51
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (TG @WangCai2)b491fd9:82122
+    host: (TG @WangCai2)c68b799:50307
     mode: tls
   port: 2377
-  server: 45.11.104.113
+  server: 118.163.179.159
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-52
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c68b799:50307
+    mode: tls
+  port: 2377
+  server: 118.163.179.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-53
+  password: 3fbeb668f48414f6
+  port: 57456
+  server: us.sptnk.space
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-54
   password: amazonskr05
   port: 443
-  server: 3.112.218.182
+  server: 13.124.178.1
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-55
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 118.163.179.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-56
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 118.163.179.161
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 3.34.95.205
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
-  password: amazonskr05
-  port: 443
-  server: 13.231.229.48
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: amazonskr05
-  port: 443
-  server: 13.214.212.171
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 43.202.41.139
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
+  name: 0|-https://t.me/MrXbin-57
   password: amazonskr05
   port: 443
   server: 47.129.9.69
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-30
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
 - cipher: aes-256-ctr
-  name: 0|-https://t.me/MrXbin-32
+  name: 0|-https://t.me/MrXbin-75
   obfs: tls1.2_ticket_auth
   obfs-param: cdn.appsflyer.com
   password: NewBypasser2023
@@ -107,11 +142,38 @@ proxies:
   protocol: origin
   server: 163.172.218.164
   type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-90
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 0,10|🇱🇺_LU_卢森堡_由快嘴科技提供：kkzui.com1
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-60
+  name: 0|-https://t.me/MrXbin-105
   network: ws
   port: 80
   server: 129.153.126.128
@@ -119,52 +181,84 @@ proxies:
   type: vmess
   uuid: 5f3d1958-40e7-4c3b-888c-790205b49d9d
   ws-opts: {}
-- country: DE
-  name: 0|-https://t.me/MrXbin-99
-  password: bCsyNhvvaNfc
-  port: 14810
-  server: 3.122.244.128
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-107
+  network: ws
+  port: 8880
+  server: cdn.bethebest.eu.org
+  type: vmess
+  uuid: 86a0a07a-d0ed-480a-aa2a-f1a96592747e
+  ws-opts:
+    headers:
+      Host: us.bethebest.eu.org
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' AO'
+  name: 0|-https://t.me/MrXbin-120
+  password: 3fbeb668f48414f6
+  port: 57456
+  server: 104.167.197.23
+  type: ss
+- country: CA
+  name: 0|-https://t.me/MrXbin-122
+  password: xupJIPsgLxtk
+  port: 15001
+  server: 35.182.236.34
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
   udp: true
 - country: DE
-  name: 0|-https://t.me/MrXbin-100
-  password: 4BjsKsbNIlwo
-  port: 14815
-  server: 18.184.243.34
-  skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-  udp: true
-- country: DE
-  name: 0|-https://t.me/MrXbin-101
-  password: SgeGUHtv9RtB
-  port: 14819
+  name: 0|-https://t.me/MrXbin-161
+  password: zDBI9)1UIsmF
+  port: 15002
   server: 3.67.72.38
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: ' GB'
-  name: 0|-https://t.me/MrXbin-102
-  password: Bog0ELmMM9DSxDdQ
-  port: 443
-  server: series-a2-me.varzesh360.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
   country: GB
-  name: 0|-https://t.me/MrXbin-103
+  name: 0|-https://t.me/MrXbin-162
   password: mps3FwmDjLrWaOVg
   port: 443
   server: series-a2.samanehha.co
   type: ss
 - country: GB
-  name: 0|-https://t.me/MrXbin-104
-  password: aObfgThc4VMS
-  port: 14809
+  name: 0|-https://t.me/MrXbin-163
+  password: vOeswzRYEWET
+  port: 14991
   server: 35.178.144.206
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: GB
+  name: 0|-https://t.me/MrXbin-164
+  password: Onw6uIjHT5)e
+  port: 15009
+  server: 3.9.169.249
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: KR
+  name: 0|-https://t.me/MrXbin-165
+  password: (xb3zH64m0eZ
+  port: 15006
+  server: 13.125.95.227
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: KR
+  name: 0|-https://t.me/MrXbin-166
+  password: P0fhtMCQqA22
+  port: 14989
+  server: 13.124.168.127
   skip-cert-verify: true
   sni: appsvs.shop
   type: trojan
@@ -174,7 +268,7 @@ proxies:
   country: NL
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-105
+  name: 0|-https://t.me/MrXbin-167
   network: ws
   port: 443
   server: 188.114.97.43
@@ -187,6 +281,125 @@ proxies:
     headers:
       HOST: ua2-vmess.sshmax.xyz
     path: /vmess
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-168
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-169
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-170
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-171
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-172
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-173
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-174
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-175
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-176
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-177
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-178
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-179
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-180
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-181
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-182
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-183
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-184
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 51.77.53.200
+  type: ss
 - country: SG
   name: 0,5|🇸🇬 新加坡|@ripaojiedian
   password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
@@ -196,76 +409,26 @@ proxies:
   sni: 421421.xyz
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-107
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.86.135.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-108
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.86.135.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-109
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.86.135.225
-  type: ss
 - cipher: aes-128-cfb
   country: US
-  name: 0|-https://t.me/MrXbin-110
+  name: 0|-https://t.me/MrXbin-186
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-112
-  network: ws
+  name: 0|-https://t.me/MrXbin-187
+  password: pKEW8JPByTVTLtM
   port: 443
-  server: 172.67.183.55
-  servername: de3-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7142b543-45a8-4274-b80d-f401e7892f5c
-  ws-opts:
-    headers:
-      HOST: de3-vmess.sshmax.xyz
-    path: /vmess
+  server: 38.114.114.143
+  type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-113
-  network: ws
-  port: 443
-  server: zula.ir
-  servername: pt1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 44e35bf1-6e80-4dd0-88d4-ed90fcfd19ca
-  ws-opts:
-    headers:
-      HOST: pt1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-115
+  name: 0|-https://t.me/MrXbin-188
   network: ws
   port: 2095
   server: 172.67.214.33
@@ -282,18 +445,72 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-116
+  name: 0|-https://t.me/MrXbin-191
   network: ws
-  port: 2095
-  server: onea.flha.ru
-  servername: onea.flha.ru
+  port: 443
+  server: 172.67.183.55
+  servername: de3-vmess.sshmax.xyz
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 7142b543-45a8-4274-b80d-f401e7892f5c
   ws-opts:
     headers:
-      HOST: onea.flha.ru
-    path: /
+      HOST: de3-vmess.sshmax.xyz
+    path: /vmess
+- country: US
+  name: 0|-https://t.me/MrXbin-192
+  password: gfZR07Z7wq)6
+  port: 14997
+  server: 35.94.67.197
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: US
+  name: 0|-https://t.me/MrXbin-193
+  password: zON42T)RLReQ
+  port: 15009
+  server: 44.214.143.88
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: US
+  name: 0|-https://t.me/MrXbin-194
+  password: K)g8eenqeIAN
+  port: 15004
+  server: 3.133.140.171
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- country: US
+  name: 0|-https://t.me/MrXbin-195
+  password: Oawihrkny28q
+  port: 15002
+  server: 3.129.253.216
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-201
+  network: ws
+  port: 80
+  server: upload.ir
+  servername: lv1-vmess.sshmax.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
+  ws-opts:
+    headers:
+      HOST: lv1-vmess.sshmax.xyz
+    path: /vmess
 - cipher: aes-256-cfb
   name: 3|IHwzMC40M01i
   obfs: plain
@@ -557,7 +774,7 @@ proxies:
   tls: true
   type: vmess
   uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
-- name: 5,8|CN_speednode_0017
+- name: 5|🇭🇰 香港4|@ripaojiedian
   password: MyYoZhfX
   port: 15370
   server: 223.113.54.154
@@ -641,7 +858,7 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
-- name: 5,8|CN_speednode_0018
+- name: 5|🇯🇵 日本|@ripaojiedian
   password: MyYoZhfX
   port: 45809
   server: 36.151.195.49
@@ -667,7 +884,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 5,8|SG_speednode_0089
+- name: 5|🇸🇬 新加坡2|@ripaojiedian
   network: ws
   password: e81d213d-8dd5-4207-9445-24d8903ffe0c
   port: 2248
@@ -721,7 +938,7 @@ proxies:
     headers:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
-- name: 5,8|CN_speednode_0012
+- name: 5,8|CN_speednode_0004
   network: tcp
   password: MyYoZhfX
   port: 46011
@@ -729,7 +946,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: false
-- name: 5,8|CN_speednode_0022
+- name: 5|🇺🇸 美国5|@ripaojiedian
   password: MyYoZhfX
   port: 51003
   server: 112.29.94.23
@@ -750,13 +967,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 47.128.230.112
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.88.161.5
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -882,271 +1092,43 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- name: 8|CN_speednode_0013
+  network: tcp
+  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
+  port: 40212
+  server: w2.forlive.live
+  sni: 2777.vxcvjkl.com
+  type: trojan
+- name: 8|CN_speednode_0020
+  network: tcp
+  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
+  port: 40214
+  server: w2.forlive.live
+  sni: 2777.vxcvjkl.com
+  type: trojan
+- name: 8|CN_speednode_0052
+  network: tcp
+  password: eb7e85c8-d699-4d84-9a69-d44a1b5e2de9
+  port: 21232
+  server: hk-lobalance.speedyweb.xyz
+  sni: hk-g.speedyweb.xyz
+  type: trojan
+- name: 8|CN_speednode_0058
+  network: tcp
+  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
+  port: 40219
+  server: w2.forlive.live
+  sni: 2777.vxcvjkl.com
+  type: trojan
 - client-fingerprint: random
-  name: 8|AU_speednode_0001
-  network: ws
-  port: 8443
-  server: 3.107.40.57
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|AU_speednode_0002
-  network: ws
-  port: 47580
-  server: 192.9.165.253
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- Inc. - 1...: None
-  client-fingerprint: random
-  delay: 1889
-  name: 8|CA_speednode_0003
-  network: ws
-  port: 3334
-  server: 23.94.61.36
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  delay: 2094
-  name: 8|CA_speednode_0004
-  network: ws
-  port: 443
-  server: 168.138.70.29
-  servername: edgood.889876.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|CA_speednode_0005
-  network: ws
-  port: 2053
-  server: 178.128.225.209
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- name: 8|DE_speednode_0024
-  network: ws
-  port: 22222
-  server: 18.158.15.165
-  servername: telegram-channel-vlessconfig.sohala.uk
-  tls: true
-  type: vless
-  udp: false
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- client-fingerprint: random
-  name: 8|ES_speednode_0026
-  network: ws
-  port: 8443
-  server: 45.86.229.176
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|FI_speednode_0027
-  network: ws
-  port: 8443
-  server: 35.217.24.30
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  fp: random
-  name: 8|FR_speednode_0031
-  network: ws
-  port: 2053
-  security: tls
-  server: 46.105.170.124
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- name: 8|FR_speednode_0029
-  network: ws
-  port: 2053
-  server: 51.38.86.3
-  servername: mositr.freenods.sbs
-  tls: true
-  type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      host: mositr.freenods.sbs
-    path: Twitterfreecodes
-- client-fingerprint: random
-  name: 8|FR_speednode_0030
-  network: ws
-  port: 2053
-  server: 178.33.196.127
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|GB_speednode_0032
-  network: ws
-  port: 23352
-  server: 95.164.88.214
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|GB_speednode_0033
-  network: ws
-  port: 2053
-  server: 51.38.69.149
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  delay: 356
-  name: 8|HK_speednode_0034
-  network: ws
-  port: 8969
-  security: tls
-  server: 152.32.252.175
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 8|KR_speednode_0053
+  name: 8|KR_speednode_0067
   network: ws
   port: 50001
   security: tls
   server: 146.56.145.38
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  delay: 861
-  name: 8|KR_speednode_0052
-  network: ws
-  port: 59408
-  security: tls
-  server: 132.226.235.126
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|KR_speednode_0043
-  network: ws
-  port: 11659
-  security: tls
-  server: 146.56.171.182
   servername: cfed.tgzdyz2.top
   skip-cert-verify: false
+  sni: cfed.tgzdyz2.top
   tfo: false
   tls: true
   type: vless
@@ -1157,30 +1139,11 @@ proxies:
     path: tg%40zdyz2
 - client-fingerprint: random
   delay: 776
-  name: 8|KR_speednode_0049
+  name: 8|KR_speednode_0068
   network: ws
   port: 20082
   security: tls
   server: 210.111.176.108
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  sni: cfed.tgzdyz2.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  delay: 1572
-  name: 8|KR_speednode_0045
-  network: ws
-  port: 47590
-  security: tls
-  server: 146.56.141.168
   servername: cfed.tgzdyz2.top
   skip-cert-verify: false
   sni: cfed.tgzdyz2.top
@@ -1192,200 +1155,6 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- Inc. - 1...: None
-  delay: 1212
-  name: 8|KR_speednode_0046
-  network: ws
-  port: 28756
-  server: 152.70.232.173
-  servername: mositr.freenods.sbs
-  tls: true
-  type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      host: mositr.freenods.sbs
-    path: Twitterfreecodes
-- client-fingerprint: random
-  name: 8|KR_speednode_0047
-  network: ws
-  port: 26516
-  server: 121.158.147.183
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|KR_speednode_0048
-  network: ws
-  port: 59158
-  server: 129.154.206.254
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|KR_speednode_0050
-  network: ws
-  port: 10243
-  server: 218.147.177.196
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|KR_speednode_0051
-  network: ws
-  port: 14850
-  server: 146.56.130.130
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SC_speednode_0063
-  network: ws
-  port: 443
-  server: 154.197.121.253
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SC_speednode_0064
-  network: ws
-  port: 443
-  server: 154.197.121.127
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SC_speednode_0065
-  network: ws
-  port: 8443
-  server: 154.197.121.13
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SC_speednode_0066
-  network: ws
-  port: 443
-  server: 185.114.72.67
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SE_speednode_0067
-  network: ws
-  port: 8443
-  server: 51.20.78.198
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- name: 8|SE_speednode_0068
-  network: ws
-  port: 80
-  server: v2raygodvip--allh1.v2raygod.site
-  tls: false
-  type: vless
-  udp: false
-  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
-  ws-opts:
-    headers:
-      host: V2rayGodVip--free.azaronline.Org.
-    path: '@V2rayGodVip=Telegram/?ed=2048'
-- name: 8|SE_speednode_0069
-  network: ws
-  port: 80
-  server: 185.146.173.89
-  tls: false
-  type: vless
-  udp: false
-  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
-  ws-opts:
-    headers:
-      host: V2rayGodVip--free.azaronline.Org.
-    path: '@V2rayGodVip=Telegram/?ed=2048'
-- name: 8|SE_speednode_0070
-  network: ws
-  port: 80
-  server: V2rayGodVip--allh1.v2raygod.Site
-  tls: false
-  type: vless
-  udp: false
-  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
-  ws-opts:
-    headers:
-      host: V2rayGodVip--free.azaronline.Org.
-    path: '@V2rayGodVip=Telegram/?ed=2048'
 - client-fingerprint: random
   name: 8|SG_speednode_0071
   network: ws
@@ -1436,328 +1205,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.sg.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|SG_speednode_0074
-  network: ws
-  port: 2096
-  server: 47.236.104.98
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0075
-  network: ws
-  port: 2096
-  server: 47.236.144.48
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0076
-  network: ws
-  port: 2096
-  server: 8.219.194.170
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0077
-  network: ws
-  port: 2096
-  server: 47.236.169.141
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0078
-  network: ws
-  port: 2096
-  server: 47.236.117.48
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0079
-  network: ws
-  port: 2096
-  server: 47.236.167.231
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0080
-  network: ws
-  port: 2096
-  server: 47.236.121.7
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0081
-  network: ws
-  port: 2096
-  server: 47.236.83.239
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0082
-  network: ws
-  port: 443
-  server: 27.50.48.108
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|TW_speednode_0094
-  network: ws
-  port: 12031
-  server: 60.248.63.88
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|TW_speednode_0095
-  network: ws
-  port: 13688
-  server: 118.163.128.81
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0096
-  network: ws
-  port: 8444
-  server: 13.52.251.56
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|US_speednode_0097
-  network: ws
-  port: 80
-  server: 54.193.109.100
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|US_speednode_0098
-  network: ws
-  port: 443
-  server: 193.122.197.111
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: random
-  delay: 939
-  name: 8|US_speednode_0099
-  network: ws
-  port: 443
-  security: tls
-  server: 43.153.103.203
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 8|US_speednode_0100
-  network: ws
-  port: 8443
-  server: 104.18.33.205
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0101
-  network: ws
-  port: 2096
-  server: 104.17.215.54
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0102
-  network: ws
-  port: 2053
-  server: 104.18.46.118
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0103
-  network: ws
-  port: 2096
-  server: 104.20.27.133
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0104
-  network: ws
-  port: 2096
-  server: 104.20.27.224
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0105
+  name: 8|US_speednode_0079
   network: ws
   port: 2053
   server: 162.159.58.157
@@ -1772,180 +1220,6 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- name: 8|US_speednode_0108
-  network: ws
-  port: 80
-  server: 104.19.21.24
-  servername: giving-hide-provisions-corrected.trycloudflare.com
-  tls: false
-  type: vless
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  ws-opts:
-    headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-    path: /argox-vl?ed=2048
-- name: 8|US_speednode_0110
-  network: ws
-  port: 443
-  server: 104.26.15.16
-  servername: bIA-paIn-bacHE.PAGeS.DEv
-  tls: true
-  type: vless
-  udp: false
-  uuid: 5007dc3f-0270-4ed8-a210-1a1d7952756d
-  ws-opts:
-    headers:
-      host: bIA-paiN-BaCHE.pAGES.Dev
-    path: /Telegram-MARAMBASHI/?ed
-- name: 8|US_speednode_0123
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: efd542cd-6b60-43db-a115-9bf0b825f38b
-  ws-opts:
-    headers:
-      host: kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev
-    path: /?ed=2560
-- name: 8|US_speednode_0113
-  network: ws
-  port: 443
-  server: 104.16.54.150
-  servername: BIa-pAIN-bAche.PagEs.DeV
-  tls: true
-  type: vless
-  udp: false
-  uuid: 5007dc3f-0270-4ed8-a210-1a1d7952756d
-  ws-opts:
-    headers:
-      host: BiA-pAIN-bACHE.pAges.DEv
-    path: /
-- name: 8|US_speednode_0114
-  network: ws
-  port: 443
-  server: 104.16.160.137
-  servername: BiA-PAiN-bAcHe.PAGes.deV
-  tls: true
-  type: vless
-  udp: false
-  uuid: 5007dc3f-0270-4ed8-a210-1a1d7952756d
-  ws-opts:
-    headers:
-      host: bIA-PAIN-BacHe.pAGeS.DEV
-    path: /irhfpYO0S9VRvTSg?ed=2560
-- name: 8|US_speednode_0115
-  network: ws
-  port: 443
-  server: 104.18.23.19
-  servername: bIA-paIn-bacHE.PAGeS.DEv
-  tls: true
-  type: vless
-  udp: false
-  uuid: 5007dc3f-0270-4ed8-a210-1a1d7952756d
-  ws-opts:
-    headers:
-      host: bIA-paiN-BaCHE.pAGES.Dev
-    path: /
-- name: 8|US_speednode_0116
-  network: ws
-  port: 8443
-  server: tgju.org
-  servername: telegram-falcunargo-france.falcunar.asso.eu.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 2136a808-ccd7-48cf-97c8-2c0b255e4715
-  ws-opts:
-    headers:
-      host: telegram-falcunargo-france.falcunar.asso.eu.org
-    path: Telegram@SiNABiGO/?ed=2048
-- name: 8|US_speednode_0117
-  network: ws
-  port: 80
-  server: 104.19.38.28
-  servername: giving-hide-provisions-corrected.trycloudflare.com
-  tls: false
-  type: vless
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  ws-opts:
-    headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-    path: /argox-vl?ed=2048
-- name: 8|US_speednode_0124
-  network: ws
-  port: 80
-  server: skk.moe
-  tls: false
-  type: vless
-  udp: false
-  uuid: 5c62b24a-2dfe-49c1-8c93-cc2c35bd4f26
-  ws-opts:
-    headers:
-      host: worker-floral-sun-5945.miyenep837.workers.DEV
-    path: /vless-ws/?ed=2048
-- name: 8|US_speednode_0125
-  network: ws
-  port: 443
-  server: 172.64.87.176
-  servername: cfdy.yueuzi.dynv6.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: df4608a5-0ceb-4513-b991-596f541bccdb
-  ws-opts:
-    headers:
-      host: cfdy.yueuzi.dynv6.net
-    path: /
-- name: 8|US_speednode_0126
-  network: ws
-  port: 8443
-  server: 104.18.41.138
-  servername: pardazesh-tgws.pages.dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9a39f63e-28c8-4560-af18-b01b9916ef1b
-  ws-opts:
-    headers:
-      host: pardazesh-tgws.pages.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
-  network: tcp
-  port: '50001'
-  server: 18.139.115.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn美国
-  network: tcp
-  port: '50001'
-  server: 16.163.41.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn新加坡 #1'
-  network: ws
-  port: '80'
-  server: 172.104.190.235
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f15831d2-461c-442e-a11b-9acee6dc5286
-  ws-opts:
-    headers:
-      Host: sg1.pkyun.website
-    path: /ray
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
@@ -2037,15 +1311,6 @@ proxies:
     headers:
       Host: us1.luodi.xyz
     path: /usa
-- alterId: 0
-  cipher: auto
-  name: 10|🇱🇺_LU_卢森堡_由快嘴科技提供：kkzui.com1
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
