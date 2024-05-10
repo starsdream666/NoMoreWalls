@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇺🇸 美国2|@ripaojiedian
@@ -40,6 +48,17 @@ proxies:
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国6|@ripaojiedian
+  port: 443
+  server: 38.77.232.31
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7f14897d-154a-4d03-ad28-dad24f37513c
 - alterId: 0
   cipher: auto
   name: 6|美国6|@ripaojiedian
