@@ -38,7 +38,7 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
-  name: 8|TW_speednode_0054
+  name: 8|TW_speednode_0094
   network: ws
   port: 12031
   server: 60.248.63.88
@@ -54,7 +54,7 @@ proxies:
       Host: mositr.freenods.sbs
     path: /?ed=2560
 - client-fingerprint: random
-  name: 8|TW_speednode_0055
+  name: 8|TW_speednode_0095
   network: ws
   port: 13688
   server: 118.163.128.81
@@ -71,7 +71,7 @@ proxies:
     path: /?ed=2560
 - alterId: 64
   cipher: auto
-  name: 9|baipaovpn台湾省台北市
+  name: '9|baipaovpn台湾省台北市 #1'
   network: ws
   port: '30000'
   server: 103.123.132.26

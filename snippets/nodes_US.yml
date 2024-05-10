@@ -1,10 +1,10 @@
 proxies:
-- cipher: aes-128-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
   port: 443
-  server: 212.102.47.198
+  server: 205.134.180.151
   tfo: false
   type: ss
 - alterId: 0
@@ -25,30 +25,21 @@ proxies:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国4|@ripaojiedian
+  name: 5,8|CN_speednode_0012
+  network: tcp
   password: MyYoZhfX
   port: 46011
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
+  udp: false
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
+  name: 5,8|CN_speednode_0022
   password: MyYoZhfX
   port: 51003
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国6|@ripaojiedian
-  port: 443
-  server: 38.77.232.31
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7f14897d-154a-4d03-ad28-dad24f37513c
 - alterId: 0
   cipher: auto
   name: 6|美国6|@ripaojiedian

@@ -8,7 +8,7 @@ proxies:
   sni: 421421.xyz
   type: trojan
 - client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡2|@ripaojiedian
+  name: 5,8|SG_speednode_0089
   network: ws
   password: e81d213d-8dd5-4207-9445-24d8903ffe0c
   port: 2248
