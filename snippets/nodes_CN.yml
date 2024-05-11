@@ -1,4 +1,13 @@
 proxies:
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0004
+  network: tcp
+  password: MyYoZhfX
+  port: 46011
+  server: 112.29.94.23
+  skip-cert-verify: true
+  type: trojan
+  udp: false
 - name: 8|CN_speednode_0013
   network: tcp
   password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
