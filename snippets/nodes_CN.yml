@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0004
+  name: 8|CN_speednode_0147
   network: tcp
   password: MyYoZhfX
   port: 46011
@@ -8,31 +8,3 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: false
-- name: 8|CN_speednode_0013
-  network: tcp
-  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
-  port: 40212
-  server: w2.forlive.live
-  sni: 2777.vxcvjkl.com
-  type: trojan
-- name: 8|CN_speednode_0020
-  network: tcp
-  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
-  port: 40214
-  server: w2.forlive.live
-  sni: 2777.vxcvjkl.com
-  type: trojan
-- name: 8|CN_speednode_0052
-  network: tcp
-  password: eb7e85c8-d699-4d84-9a69-d44a1b5e2de9
-  port: 21232
-  server: hk-lobalance.speedyweb.xyz
-  sni: hk-g.speedyweb.xyz
-  type: trojan
-- name: 8|CN_speednode_0058
-  network: tcp
-  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
-  port: 40219
-  server: w2.forlive.live
-  sni: 2777.vxcvjkl.com
-  type: trojan

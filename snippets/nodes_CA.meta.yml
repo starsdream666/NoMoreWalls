@@ -16,3 +16,12 @@ proxies:
     headers:
       Host: tokyo-appointment-int-convenience.trycloudflare.com
     path: 28d2fdca
+- name: 8|CA_speednode_0002
+  network: ws
+  port: 80
+  server: 148.113.175.147
+  tls: false
+  type: vless
+  uuid: 378ac207-38d3-4401-ba96-3a7931968bc5
+  ws-opts:
+    path: /http
