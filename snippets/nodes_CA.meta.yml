@@ -1,18 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|加拿大|tg频道:@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 104.19.113.227
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 28d2fdca-e896-4dea-b36c-42ef133542a7
-  ws-opts:
-    headers:
-      Host: tokyo-appointment-int-convenience.trycloudflare.com
-    path: 28d2fdca
+proxies: []
