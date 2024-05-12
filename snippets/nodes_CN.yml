@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   delay: 1033
-  name: 8|CN_speednode_0034
+  name: 8|CN_speednode_0019
   network: tcp
   password: MyYoZhfX
   port: 46011
@@ -9,3 +9,17 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: false
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn广东省
+  network: ws
+  port: '16627'
+  server: 183.240.220.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu

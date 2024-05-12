@@ -30,7 +30,7 @@ proxies:
   uuid: 6399ac7d-8265-436d-b348-299df4b735a5
 - client-fingerprint: random
   delay: 1049
-  name: 8|SG_speednode_0086
+  name: 8|SG_speednode_0044
   network: ws
   port: 44120
   server: 47.236.114.166
@@ -46,7 +46,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.sg.fxxk.dedyn.io
 - client-fingerprint: random
-  name: 8|SG_speednode_0104
+  name: 8|SG_speednode_0045
   network: ws
   port: 21737
   server: 8.222.138.166
@@ -61,10 +61,9 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.sg.fxxk.dedyn.io
-- Inc. -...: None
-  client-fingerprint: random
+- client-fingerprint: random
   delay: 557
-  name: 8|SG_speednode_0105
+  name: 8|SG_speednode_0046
   network: ws
   port: 17465
   server: 138.2.95.33

@@ -1,14 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0015
-  port: 7890
-  server: 47.97.36.190
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0019
+  name: 8|CN_speednode_0005
   port: 7192
   server: 47.105.37.46
   skip-cert-verify: true
@@ -16,7 +8,15 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0026
+  name: 8|CN_speednode_0006
+  port: 7890
+  server: 47.97.36.190
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0009
   port: 25501
   server: 101.132.113.116
   skip-cert-verify: true
@@ -24,7 +24,7 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0031
+  name: 8|CN_speednode_0012
   port: 7890
   server: 113.123.18.251
   skip-cert-verify: true
@@ -32,8 +32,24 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
+  name: 8|CN_speednode_0013
+  port: 33210
+  server: 62.234.28.193
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0018
+  port: 33210
+  server: 118.25.20.188
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
   delay: 1033
-  name: 8|CN_speednode_0034
+  name: 8|CN_speednode_0019
   network: tcp
   password: MyYoZhfX
   port: 46011
@@ -42,34 +58,32 @@ proxies:
   type: trojan
   udp: false
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0038
-  port: 33210
-  server: 62.234.28.193
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0045
-  port: 33210
-  server: 118.25.20.188
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0051
-  port: 33210
-  server: 82.157.163.148
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0057
+  name: 8|CN_speednode_0021
   port: 25570
   server: 121.239.255.209
   skip-cert-verify: true
   tls: false
   type: http
   udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0023
+  port: 33210
+  server: 82.157.163.148
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn广东省
+  network: ws
+  port: '16627'
+  server: 183.240.220.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu

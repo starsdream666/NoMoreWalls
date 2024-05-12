@@ -33,7 +33,7 @@ proxies:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0055
+  name: 5,8|CN_speednode_0027
   network: tcp
   password: MyYoZhfX
   port: 15274
@@ -41,30 +41,16 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0056
+  name: 5,8|CN_speednode_0026
   network: tcp
   password: MyYoZhfX
   port: 20344
   server: 36.151.195.46
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  delay: 2605
-  name: 8|US_speednode_0110
-  network: ws
-  port: 2053
-  server: frbb.digicert.pp.ua
-  servername: frb.digicert.pp.ua
-  tls: true
-  type: vless
-  uuid: fa8bde55-b196-331d-aab7-7f5857c88c61
-  ws-opts:
-    headers:
-      Host: frb.digicert.pp.ua
-    path: /
 - client-fingerprint: random
   delay: 1593
-  name: 8|US_speednode_0111
+  name: 8|US_speednode_0057
   network: ws
   port: 2096
   server: 104.20.27.224
@@ -78,74 +64,9 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- fast-open: true
-  name: 8|US_speednode_0112
-  password: dongtaiwang.com
-  port: 40391
-  server: 104.192.224.140
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- fast-open: true
-  name: 8|US_speednode_0113
-  password: dongtaiwang.com
-  port: 40391
-  server: 104.192.224.141
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 8|US_speednode_0114
-  network: ws
-  port: 35911
-  server: 5.161.53.108
-  tls: false
-  type: vless
-  uuid: 5621b36b-91ed-4a0e-92f9-8204a50cec7a
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  down: 55 Mbps
-  name: 8|US_speednode_0115
-  password: dongtaiwang.com
-  port: 22441
-  server: 109.104.152.89
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: 11 Mbps
-- country: 🇺🇸US
-  delay: 860
-  name: 8|US_speednode_0116
-  network: ws
-  port: 80
-  server: 172.67.174.120
-  servername: public.列列男事的事列上赛男85.shop
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: public.列列男事的事列上赛男85.shop
-    path: /
-- alterId: -1
-  country: 🇺🇸US
-  customName: Relay_🇺🇸US-🇸🇪SE_544
-  delay: 1008
-  grpc-opts:
-    grpc-service-name: xw7uebRG4KlUXGGYTVEagC5V7fI
-  name: 8|US_speednode_0117
-  network: grpc
-  password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
-  port: 443
-  server: 172.67.149.124
-  sni: hdfyc1.achaemenidempireofpersia.uk
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   delay: 1046
-  name: 8|US_speednode_0118
+  name: 8|US_speednode_0069
   network: ws
   port: 443
   server: 104.21.66.93
@@ -157,6 +78,21 @@ proxies:
     headers:
       host: v2fly.milik-fukada.eu.org
     path: Telegram@V2ray_Alpha/?ed=2048
+- alterId: -1
+  country: 🇺🇸US
+  customName: Relay_🇺🇸US-🇸🇪SE_544
+  delay: 1008
+  grpc-opts:
+    grpc-service-name: xw7uebRG4KlUXGGYTVEagC5V7fI
+  name: 8|US_speednode_0071
+  network: grpc
+  password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+  port: 443
+  server: 172.67.149.124
+  sni: hdfyc1.achaemenidempireofpersia.uk
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20

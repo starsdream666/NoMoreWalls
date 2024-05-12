@@ -33,7 +33,7 @@ proxies:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0055
+  name: 5,8|CN_speednode_0027
   network: tcp
   password: MyYoZhfX
   port: 15274
@@ -41,7 +41,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0056
+  name: 5,8|CN_speednode_0026
   network: tcp
   password: MyYoZhfX
   port: 20344
@@ -54,7 +54,7 @@ proxies:
   delay: 1008
   grpc-opts:
     grpc-service-name: xw7uebRG4KlUXGGYTVEagC5V7fI
-  name: 8|US_speednode_0117
+  name: 8|US_speednode_0071
   network: grpc
   password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
   port: 443
