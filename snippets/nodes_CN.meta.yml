@@ -1,6 +1,39 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0006
+  name: 8|CN_speednode_0015
+  port: 7890
+  server: 47.97.36.190
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0019
+  port: 7192
+  server: 47.105.37.46
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0026
+  port: 25501
+  server: 101.132.113.116
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0031
+  port: 7890
+  server: 113.123.18.251
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  delay: 1033
+  name: 8|CN_speednode_0034
   network: tcp
   password: MyYoZhfX
   port: 46011
@@ -8,3 +41,35 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: false
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0038
+  port: 33210
+  server: 62.234.28.193
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0045
+  port: 33210
+  server: 118.25.20.188
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0051
+  port: 33210
+  server: 82.157.163.148
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0057
+  port: 25570
+  server: 121.239.255.209
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true

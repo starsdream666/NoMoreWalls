@@ -1,6 +1,7 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|CN_speednode_0006
+  delay: 1033
+  name: 8|CN_speednode_0034
   network: tcp
   password: MyYoZhfX
   port: 46011

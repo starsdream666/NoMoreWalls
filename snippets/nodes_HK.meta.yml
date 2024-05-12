@@ -145,10 +145,74 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
-  name: 8|HK_speednode_0010
+  name: 8|HK_speednode_0068
+  network: ws
+  port: 2083
+  server: 8.218.156.91
+  servername: freetls.951314.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48201c60-6fbc-4cef-a59f-435eff793c70
+  ws-opts:
+    headers:
+      Host: freetls.951314.xyz
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|HK_speednode_0069
   network: ws
   port: 44097
   server: 20.187.105.97
+  servername: freetls.951314.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48201c60-6fbc-4cef-a59f-435eff793c70
+  ws-opts:
+    headers:
+      Host: freetls.951314.xyz
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|HK_speednode_0070
+  network: ws
+  port: 2087
+  server: 8.218.156.91
+  servername: freetls.951314.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48201c60-6fbc-4cef-a59f-435eff793c70
+  ws-opts:
+    headers:
+      Host: freetls.951314.xyz
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|HK_speednode_0071
+  network: ws
+  port: 2053
+  server: 8.218.156.91
+  servername: freetls.951314.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48201c60-6fbc-4cef-a59f-435eff793c70
+  ws-opts:
+    headers:
+      Host: freetls.951314.xyz
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 8|HK_speednode_0072
+  network: ws
+  port: 443
+  server: 194.104.147.80
   servername: freetls.951314.xyz
   skip-cert-verify: true
   tfo: false
