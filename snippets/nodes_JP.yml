@@ -56,7 +56,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6|日本3|@ripaojiedian
+  name: '6,9|baipaovpn日本东京都 #2'
   network: tcp
   port: '443'
   server: 20.40.97.46
@@ -64,13 +64,45 @@ proxies:
   tls: true
   type: vmess
   uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0096
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 138.2.36.157
+  skip-cert-verify: true
+  sni: 591.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 591.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.jp.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 43.199.61.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '9|baipaovpn日本 #1'
-  network: tcp
-  port: '8080'
-  server: 172.104.96.157
-  servername: jp-db-gy-2.skyorg.me
-  tls: true
+  network: ws
+  port: '80'
+  server: 54.238.240.106
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 98e3e6ae-239e-48f7-a5fc-4a6307bf071c
+  uuid: e7c26c01-186a-479e-9218-4952353d97f1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

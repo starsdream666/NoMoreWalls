@@ -1,11 +1,37 @@
 proxies:
-- client-fingerprint: chrome
-  delay: 1033
-  name: 8|CN_speednode_0019
+- name: 8|CN_speednode_0051
   network: tcp
-  password: MyYoZhfX
-  port: 46011
-  server: 112.29.94.23
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 25106
+  server: n00006.bzdqsmzngpyyng.sbs
   skip-cert-verify: true
+  sni: hk03.ckcloud.info
   type: trojan
-  udp: false
+  udp: true
+- name: 8|CN_speednode_0052
+  network: tcp
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 10187
+  server: n00006.bzdqsmzngpyyng.sbs
+  skip-cert-verify: true
+  sni: hk04.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0057
+  network: tcp
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 27969
+  server: n00006.bzdqsmzngpyyng.sbs
+  skip-cert-verify: true
+  sni: hk02.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0059
+  network: tcp
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 16706
+  server: n00006.bzdqsmzngpyyng.sbs
+  skip-cert-verify: true
+  sni: hk05.ckcloud.info
+  type: trojan
+  udp: true

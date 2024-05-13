@@ -1,75 +1,50 @@
 proxies:
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0005
-  port: 7192
-  server: 47.105.37.46
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0006
-  port: 7890
-  server: 47.97.36.190
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
+- delay: 321
   name: 8|CN_speednode_0009
-  port: 25501
-  server: 101.132.113.116
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0012
-  port: 7890
-  server: 113.123.18.251
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0013
-  port: 33210
-  server: 62.234.28.193
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0018
-  port: 33210
-  server: 118.25.20.188
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  delay: 1033
-  name: 8|CN_speednode_0019
+  network: ws
+  port: 443
+  server: 103.44.255.27
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 8|CN_speednode_0051
   network: tcp
-  password: MyYoZhfX
-  port: 46011
-  server: 112.29.94.23
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 25106
+  server: n00006.bzdqsmzngpyyng.sbs
   skip-cert-verify: true
+  sni: hk03.ckcloud.info
   type: trojan
-  udp: false
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0021
-  port: 25570
-  server: 121.239.255.209
-  skip-cert-verify: true
-  tls: false
-  type: http
   udp: true
-- client-fingerprint: chrome
-  name: 8|CN_speednode_0023
-  port: 33210
-  server: 82.157.163.148
+- name: 8|CN_speednode_0052
+  network: tcp
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 10187
+  server: n00006.bzdqsmzngpyyng.sbs
   skip-cert-verify: true
-  tls: false
-  type: http
+  sni: hk04.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0057
+  network: tcp
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 27969
+  server: n00006.bzdqsmzngpyyng.sbs
+  skip-cert-verify: true
+  sni: hk02.ckcloud.info
+  type: trojan
+  udp: true
+- name: 8|CN_speednode_0059
+  network: tcp
+  password: 43c0cbbe-6ccb-4783-bfe0-d665994f5506
+  port: 16706
+  server: n00006.bzdqsmzngpyyng.sbs
+  skip-cert-verify: true
+  sni: hk05.ckcloud.info
+  type: trojan
   udp: true
