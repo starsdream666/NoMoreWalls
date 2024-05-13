@@ -32,8 +32,8 @@ proxies:
   client-fingerprint: chrome
   name: 5|🇯🇵 日本4|@ripaojiedian
   password: 918eba0d3ff04abc803fb00e18d0fcb5
-  port: 60283
-  server: any.hmbiplc-02.com
+  port: 40010
+  server: 61.172.229.17
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -64,17 +64,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
-- client-fingerprint: chrome
-  name: 8|JP_speednode_0072
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 138.2.36.157
-  skip-cert-verify: true
-  sni: 591.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 591.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.jp.fxxk.dedyn.io

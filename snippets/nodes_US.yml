@@ -43,11 +43,11 @@ proxies:
   name: 9|baipaovpn美国
   network: ws
   port: '80'
-  server: 64.227.126.91
+  server: 16.162.119.193
   servername: ''
   tls: false
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
       Host: ''
