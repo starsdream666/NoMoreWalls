@@ -36,17 +36,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 6399ac7d-8265-436d-b348-299df4b735a5
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
+- name: 8|SG_speednode_0173
   network: ws
-  port: '80'
-  server: 13.229.44.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  password: 26a663656e575c0b
+  port: 3306
+  server: 5.44.249.50
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: TG.WangCai_1
+    path: /gateway/connect

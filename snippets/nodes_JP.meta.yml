@@ -56,7 +56,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '6,9|baipaovpn日本东京都 #2'
+  name: 6|日本3|@ripaojiedian
   network: tcp
   port: '443'
   server: 20.40.97.46
@@ -66,7 +66,7 @@ proxies:
   uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
 - client-fingerprint: random
   delay: 1741
-  name: 8|JP_speednode_0094
+  name: 8|JP_speednode_0070
   network: ws
   port: 18666
   server: 141.11.139.80
@@ -80,7 +80,7 @@ proxies:
     path: TG%40ZDYZ2
 - client-fingerprint: chrome
   delay: 1894
-  name: 8|JP_speednode_0095
+  name: 8|JP_speednode_0071
   network: ws
   port: 34237
   server: 45.251.241.103
@@ -93,7 +93,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: chrome
-  name: 8|JP_speednode_0096
+  name: 8|JP_speednode_0072
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 8443
@@ -106,31 +106,29 @@ proxies:
     headers:
       Host: 591.591haoka.com
     path: /?ed=2560&proxyIP=proxyip.jp.fxxk.dedyn.io
+- client-fingerprint: random
+  delay: 759
+  name: 8|JP_speednode_0073
+  network: ws
+  port: 443
+  server: 13.230.34.30
+  servername: qifei.today.elementfx.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
+  ws-opts:
+    headers:
+      Host: qifei.today.elementfx.com
+    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 43.199.61.184
+  name: '9|baipaovpn日本东京 #1'
+  network: tcp
+  port: '41001'
+  server: 13.231.150.59
   servername: ''
   tls: false
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本 #1'
-  network: ws
-  port: '80'
-  server: 54.238.240.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7c26c01-186a-479e-9218-4952353d97f1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
