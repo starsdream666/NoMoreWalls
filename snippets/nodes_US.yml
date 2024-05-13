@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 5,8|CN_speednode_0027
   network: tcp
@@ -57,28 +49,38 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 209.38.218.216
-  servername: ''
-  tls: false
+  name: '9|baipaovpn美国 #1'
+  network: tcp
+  port: '8080'
+  server: 172.233.84.25
+  servername: jp-dj-gy-1.skyorg.me
+  tls: true
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 98e3e6ae-239e-48f7-a5fc-4a6307bf071c
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
+  name: '9|baipaovpn美国 #2'
   network: ws
-  port: '80'
-  server: 206.189.50.150
+  port: '2052'
+  server: 206.238.236.36
   servername: ''
   tls: false
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 138.2.106.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
   ws-opts:
     headers:
       Host: ''
