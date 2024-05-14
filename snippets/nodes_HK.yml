@@ -96,7 +96,7 @@ proxies:
   uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
-  name: 6,9|baipaovpn广东省汕头市
+  name: 6|香港|@ripaojiedian
   network: tcp
   port: '15603'
   server: 183.240.179.195
@@ -124,31 +124,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #2'
-  network: ws
-  port: '80'
-  server: 18.162.112.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #1'
-  network: ws
-  port: '80'
-  server: 18.162.112.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''

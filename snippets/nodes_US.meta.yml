@@ -42,16 +42,16 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '80'
-  server: 16.162.121.107
-  servername: ''
-  tls: false
+  port: '443'
+  server: 162.159.128.17
+  servername: v2ray.ryin.vip
+  tls: true
   type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  uuid: 3aee4f5f-30de-4c4c-874d-3206718ae8a7
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: v2ray.ryin.vip
+    path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
