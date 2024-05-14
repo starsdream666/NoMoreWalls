@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn广东省佛山市
-  network: tcp
-  port: '30031'
-  server: 183.232.170.21
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+proxies: []
