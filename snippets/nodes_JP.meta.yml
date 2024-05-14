@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
-  password: MyYoZhfX
-  port: 30671
-  server: 36.151.195.46
+  password: TNDSJfNv
+  port: 42583
+  server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
 - alterId: 0
@@ -17,17 +17,14 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇯🇵 日本3|@ripaojiedian
-  port: 443
-  server: 20.40.97.46
-  skip-cert-verify: true
+  password: 1ebd556c-b630-3d2f-9f5f-e97ef248198c
+  port: 61002
+  server: 4.forlive.live
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 5|🇯🇵 日本4|@ripaojiedian
@@ -41,7 +38,7 @@ proxies:
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.112.219.236
+  server: 18.182.6.181
   tfo: false
   type: ss
 - alterId: 0
@@ -54,13 +51,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 6|日本3|@ripaojiedian
-  network: tcp
-  port: '443'
-  server: 20.40.97.46
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
