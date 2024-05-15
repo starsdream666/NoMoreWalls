@@ -141,3 +141,46 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: random
+  delay: 1344
+  name: 8|HK_speednode_0018
+  network: ws
+  port: 10020
+  server: 103.235.18.119
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: TG@mianfeicf
+- client-fingerprint: random
+  delay: 1058
+  name: 8|HK_speednode_0019
+  network: ws
+  port: 2053
+  server: 18.166.180.230
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
+- client-fingerprint: chrome
+  delay: 554
+  name: 8|HK_speednode_0020
+  network: ws
+  port: 35123
+  server: 123.58.212.186
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: ' /?ed=2048'
