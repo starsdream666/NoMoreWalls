@@ -159,7 +159,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
   delay: 1344
-  name: 8|HK_speednode_0018
+  name: 8|HK_speednode_0035
   network: ws
   port: 10020
   server: 103.235.18.119
@@ -172,23 +172,9 @@ proxies:
     headers:
       Host: toujiediansigema.666888.lol
     path: TG@mianfeicf
-- client-fingerprint: random
-  delay: 1058
-  name: 8|HK_speednode_0019
-  network: ws
-  port: 2053
-  server: 18.166.180.230
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
 - client-fingerprint: chrome
   delay: 554
-  name: 8|HK_speednode_0020
+  name: 8|HK_speednode_0036
   network: ws
   port: 35123
   server: 123.58.212.186
