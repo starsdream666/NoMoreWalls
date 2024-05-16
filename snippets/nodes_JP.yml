@@ -2,8 +2,8 @@ proxies:
 - client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
   password: TNDSJfNv
-  port: 42583
-  server: 36.151.195.48
+  port: 46906
+  server: 36.151.195.46
   skip-cert-verify: true
   type: trojan
 - alterId: 0
@@ -22,34 +22,18 @@ proxies:
   client-fingerprint: chrome
   name: 5,6|日本3|@ripaojiedian
   network: ws
-  port: '2086'
-  server: vip1.hpyjc.top
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
+  uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659
   ws-opts:
     headers:
-      Host: jp1.hpyjc.top
-    path: /?ed=2048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本4|@ripaojiedian
-  password: 918eba0d3ff04abc803fb00e18d0fcb5
-  port: 40010
-  server: 61.172.229.17
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.225.183
-  tfo: false
-  type: ss
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
   name: 6|日本2|@ripaojiedian

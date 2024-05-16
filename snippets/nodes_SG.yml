@@ -2,23 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|新加坡|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 5,6|新加坡2|@ripaojiedian
   network: ws
   port: '2052'
@@ -38,6 +21,6 @@ proxies:
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.34.95.205
+  server: 54.212.53.164
   tfo: false
   type: ss
