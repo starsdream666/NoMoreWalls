@@ -1,11 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn广东省佛山市
-  network: tcp
-  port: '21006'
-  server: 183.232.199.61
+  name: 9|baipaovpn广东省
+  network: ws
+  port: '16627'
+  server: 183.240.220.84
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
