@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: TNDSJfNv
@@ -23,158 +15,43 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
-  port: '80'
-  server: 104.16.45.182
-  servername: ''
+  port: 80
+  server: 172.67.199.79
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: b716fb7a-0d57-46dc-8856-98d6055ebcfd
   ws-opts:
     headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 104.16.45.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 104.16.45.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 104.16.45.188
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #4'
-  network: ws
-  port: '80'
-  server: 104.16.45.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #5'
-  network: ws
-  port: '80'
-  server: 104.16.45.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #6'
-  network: ws
-  port: '80'
-  server: 104.16.45.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #7'
-  network: ws
-  port: '80'
-  server: 104.16.45.193
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_9
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659
-  ws-opts:
-    headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-    path: /video/QXjZG5u4F2
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
-  network: ws
-  port: 2095
-  server: 104.16.60.8
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
+      Host: is3-vmess.sshmax.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_16
+  name: 10|🇺🇸_US_美国_2_6
+  network: ws
+  port: 2086
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4
+  network: ws
+  port: 443
+  server: 23.154.136.2
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_18
   network: ws
   port: 8880
   server: russia.com
@@ -187,7 +64,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com8
+  name: 10|🇺🇸_US_美国_3_23
   network: ws
   port: 2095
   server: russia.com

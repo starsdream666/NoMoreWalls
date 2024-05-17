@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 2052
-  server: 104.19.250.15
+  server: 104.18.19.191
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -14,23 +14,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
-  network: ws
-  port: 16627
-  server: 183.240.220.84
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
   network: ws
   port: 2052
-  server: 104.18.19.191
+  server: 104.18.36.119
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_2由快嘴科技提供：...
+  network: ws
+  port: 2052
+  server: 104.19.250.15
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
