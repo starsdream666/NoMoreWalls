@@ -130,7 +130,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6|香港3|@ripaojiedian
+  name: '6,9|baipaovpn广东省广州市 #1'
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -158,9 +158,23 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
+  delay: 554
+  name: 8|HK_speednode_0010
+  network: ws
+  port: 35123
+  server: 123.58.212.186
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: ' /?ed=2048'
 - client-fingerprint: random
   delay: 1344
-  name: 8|HK_speednode_0035
+  name: 8|HK_speednode_0012
   network: ws
   port: 10020
   server: 103.235.18.119
@@ -173,87 +187,17 @@ proxies:
     headers:
       Host: toujiediansigema.666888.lol
     path: TG@mianfeicf
-- client-fingerprint: chrome
-  delay: 554
-  name: 8|HK_speednode_0036
+- client-fingerprint: random
+  delay: 1058
+  name: 8|HK_speednode_0013
   network: ws
-  port: 35123
-  server: 123.58.212.186
-  servername: a.ssll.gay
+  port: 2053
+  server: 18.166.180.230
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: ' /?ed=2048'
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #1'
-  network: ws
-  port: '80'
-  server: 182.16.1.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: ''
-    path: /opt/video/images
-- alterId: 32
-  cipher: auto
-  name: '9|baipaovpn香港 #2'
-  network: ws
-  port: '80'
-  server: 182.16.1.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #3'
-  network: ws
-  port: '80'
-  server: 18.166.64.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #4'
-  network: ws
-  port: '80'
-  server: 18.162.49.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #5'
-  network: ws
-  port: '80'
-  server: 18.166.64.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+      host: cfed.tgzdyz2.top
+    path: TG@ZDYZ2
