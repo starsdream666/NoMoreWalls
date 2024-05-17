@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: TNDSJfNv
@@ -35,6 +27,20 @@ proxies:
     headers:
       Host: free-node-jp.yunyiyi.top
     path: /akljhgdf
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 16.162.109.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_2_9
