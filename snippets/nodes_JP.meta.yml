@@ -103,3 +103,13 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: ' /?ed=2048'
+- alterId: 1
+  cipher: auto
+  name: '9|baipaovpn日本 #1'
+  network: tcp
+  port: '28788'
+  server: 18.183.39.150
+  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
