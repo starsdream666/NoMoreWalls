@@ -11,7 +11,7 @@ proxies:
   client-fingerprint: chrome
   name: 5|🇯🇵 日本2|@ripaojiedian
   port: 61002
-  server: 183.232.142.179
+  server: 183.232.199.61
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -29,28 +29,17 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659
+  uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
   ws-opts:
     headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本4|@ripaojiedian
-  port: 32365
-  server: 158.51.111.114
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.181.198.10
+  server: 18.143.159.186
   tfo: false
   type: ss
 - alterId: 0
@@ -58,18 +47,8 @@ proxies:
   name: 6|日本2|@ripaojiedian
   network: tcp
   port: '61002'
-  server: 183.232.142.179
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 6|日本4|@ripaojiedian
-  network: tcp
-  port: '32365'
-  server: 158.51.111.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16

@@ -5,14 +5,14 @@ proxies:
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: h14.podds.store
+    host: any.ktsfd.shop
     mode: websocket
     mux: true
     path: ''
     skip-cert-verify: false
     tls: true
   port: 443
-  server: 8.210.229.184
+  server: 172.67.124.123
   tfo: false
   type: ss
 - alterId: 0
@@ -26,6 +26,14 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 47.242.87.55
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -117,23 +125,14 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 5,6|香港9|@ripaojiedian
-  network: ws
-  port: '21949'
-  server: sui.forlive.live
-  servername: ''
-  skip-cert-verify: false
+  name: 5|🇭🇰 香港9|@ripaojiedian
+  password: 62b9d2df-b7e4-3bad-88d0-59b2d3fb63dd
+  port: 50001
+  server: iepl1.forlive.live
   tfo: false
-  tls: false
-  type: vmess
-  uuid: f71e9cfc-ada7-46b9-bc87-3281644f6dce
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  type: ss
 - alterId: 0
   cipher: auto
   name: 6|香港|@ripaojiedian
