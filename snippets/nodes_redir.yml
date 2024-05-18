@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2052
   server: 104.18.19.191
@@ -14,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
+  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 2052
   server: 104.18.36.119
@@ -27,14 +40,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3_2由快嘴科技提供：...
+  name: 10|🇺🇸_US_美国->🇺🇦_UA_乌克兰_24
   network: ws
-  port: 2052
-  server: 104.19.250.15
+  port: 80
+  server: 172.67.166.192
   tls: false
   type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
   ws-opts:
     headers:
-      Host: helanv6cf.inekokkk.top
+      Host: ua1-vmess.sshmax.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_27
+  network: ws
+  port: 20401
+  server: data-us-v1.shwjfkw.cn
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
