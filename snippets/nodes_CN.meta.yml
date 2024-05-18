@@ -1,18 +1,5 @@
 proxies:
-- name: 8|CN_speednode_0006
-  network: ws
-  port: 35628
-  server: 39.172.116.144
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- delay: 321
-  name: 8|CN_speednode_0007
+- name: 8|CN_speednode_0011
   network: ws
   port: 443
   server: 103.44.255.27
@@ -24,10 +11,10 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 8|CN_speednode_0008
+- name: 8|CN_speednode_0013
   network: ws
-  port: 31558
-  server: 183.230.233.182
+  port: 35628
+  server: 39.172.116.144
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -36,21 +23,11 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn广东省佛山市
-  network: tcp
-  port: '21006'
-  server: 183.232.199.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
   name: 9|baipaovpn广东省广州市
   network: tcp
-  port: '51707'
+  port: '54100'
   server: 183.236.51.59
   servername: ''
   tls: false

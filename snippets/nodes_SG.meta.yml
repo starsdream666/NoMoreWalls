@@ -42,8 +42,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: random
-  delay: 951
-  name: 8|SG_speednode_0027
+  name: 8|SG_speednode_0029
   network: ws
   port: 2096
   server: 47.236.167.231
@@ -57,24 +56,7 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- client-fingerprint: random
-  delay: 1017
-  name: 8|SG_speednode_0028
-  network: ws
-  port: 2096
-  server: 47.236.117.48
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- delay: 1104
-  name: 8|SG_speednode_0029
+- name: 8|SG_speednode_0030
   network: ws
   port: 8443
   server: 47.236.174.206
@@ -87,8 +69,7 @@ proxies:
       host: jd.wxgqlfx.top
     path: /?ed=2048
 - client-fingerprint: random
-  delay: 1438
-  name: 8|SG_speednode_0030
+  name: 8|SG_speednode_0031
   network: ws
   port: 2053
   server: 8.219.239.79
@@ -99,18 +80,4 @@ proxies:
   ws-opts:
     headers:
       host: edgood.889876.xyz
-    path: /?ed=2048
-- client-fingerprint: random
-  delay: 1570
-  name: 8|SG_speednode_0031
-  network: ws
-  port: 53821
-  server: 101.32.242.254
-  servername: edgetunnel-free.pages.dev
-  tls: true
-  type: vless
-  uuid: de44b044-8f90-4e18-b742-16591667ff96
-  ws-opts:
-    headers:
-      host: edgetunnel-free.pages.dev
     path: /?ed=2048

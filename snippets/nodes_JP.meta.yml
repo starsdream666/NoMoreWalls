@@ -53,8 +53,7 @@ proxies:
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: random
-  delay: 759
-  name: 8|JP_speednode_0015
+  name: 8|JP_speednode_0022
   network: ws
   port: 443
   server: 13.230.34.30
@@ -69,8 +68,7 @@ proxies:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.jp.fxxk.dedyn.io
 - client-fingerprint: chrome
-  delay: 1130
-  name: 8|JP_speednode_0016
+  name: 8|JP_speednode_0023
   network: ws
   port: 34237
   server: 45.251.241.13

@@ -1,7 +1,6 @@
 proxies:
 - client-fingerprint: random
-  delay: 1570
-  name: 8|FR_speednode_0009
+  name: 8|FR_speednode_0017
   network: ws
   port: 2053
   server: 46.105.170.124
