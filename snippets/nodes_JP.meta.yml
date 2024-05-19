@@ -80,3 +80,17 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: ' /?ed=2048'
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 43.199.63.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 25ea21e2-8455-4fca-85bf-4bfbc62646fc
+  ws-opts:
+    headers:
+      Host: hk03.beautifuloctavia.fun
+    path: /

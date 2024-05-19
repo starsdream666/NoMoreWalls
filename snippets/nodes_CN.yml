@@ -8,8 +8,28 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   ws-opts:
     headers:
       Host: 193.25.215.160
     path: /niuniu
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn广东省佛山市
+  network: tcp
+  port: '21006'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 64
+  cipher: auto
+  name: 9|baipaovpn广东省广州市
+  network: tcp
+  port: '54100'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
