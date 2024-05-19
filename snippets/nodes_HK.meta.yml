@@ -179,34 +179,7 @@ proxies:
   type: vmess
   uuid: a6f3c8fb-259d-498e-b39d-4694bc38e32f
 - client-fingerprint: random
-  name: 8|HK_speednode_0019
-  network: ws
-  port: 10020
-  server: 103.235.18.119
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
-- client-fingerprint: chrome
-  name: 8|HK_speednode_0020
-  network: ws
-  port: 35123
-  server: 123.58.212.186
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: ' /?ed=2048'
-- client-fingerprint: random
-  name: 8|HK_speednode_0021
+  name: 8|HK_speednode_0111
   network: ws
   port: 2053
   server: 18.166.180.230
