@@ -1,85 +1,5 @@
 proxies:
-- name: 8|CN_speednode_0031
-  network: tcp
-  password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1
-  port: 40203
-  server: w1.forlive.live
-  skip-cert-verify: true
-  sni: 1666.vxcvjkl.com
-  type: trojan
 - name: 8|CN_speednode_0032
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 37055
-  server: xcsgp.cokecloud.top
-  skip-cert-verify: true
-  sni: sgp.cokecloud.top
-  type: trojan
-- name: 8|CN_speednode_0037
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 22486
-  server: xcsgp.cokecloud.top
-  skip-cert-verify: true
-  sni: node5.leluocloud.com
-  type: trojan
-- name: 8|CN_speednode_0044
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 39364
-  server: xdtransferjp.cokecloud.top
-  skip-cert-verify: true
-  sni: jp.cokecloud.top
-  type: trojan
-- name: 8|CN_speednode_0045
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 33285
-  server: xdtransferjp.cokecloud.top
-  skip-cert-verify: true
-  sni: jpnode.leluocloud.com
-  type: trojan
-- name: 8|CN_speednode_0046
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 24508
-  server: xdtransferjp.cokecloud.top
-  skip-cert-verify: true
-  sni: node2.leluocloud.com
-  type: trojan
-- name: 8|CN_speednode_0073
-  network: tcp
-  password: d5582c3c-4bcc-4705-907a-a6f461dc388d
-  port: 32040
-  server: lbso.bnnodeservice.com
-  skip-cert-verify: true
-  sni: cert.bitbyte.one
-  type: trojan
-- name: 8|CN_speednode_0081
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 10572
-  server: xdus.cokecloud.top
-  skip-cert-verify: true
-  sni: us.cokecloud.top
-  type: trojan
-- name: 8|CN_speednode_0083
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 27457
-  server: xdus.cokecloud.top
-  skip-cert-verify: true
-  sni: node4.leluocloud.com
-  type: trojan
-- name: 8|CN_speednode_0085
-  network: tcp
-  password: 632c54ff-eeb3-4c4d-aaec-cb3f492eb0d3
-  port: 44881
-  server: xdus.cokecloud.top
-  skip-cert-verify: true
-  sni: tiktok.leluocloud.com
-  type: trojan
-- name: 8|CN_speednode_0099
   network: ws
   port: 443
   server: 103.44.255.27
@@ -91,15 +11,13 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 8|CN_speednode_0101
-  network: ws
-  port: 35628
-  server: 39.172.116.144
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn广东省江门市
+  network: tcp
+  port: '35068'
+  server: 120.238.122.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f

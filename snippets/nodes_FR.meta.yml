@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 8|FR_speednode_0105
+  name: 8|FR_speednode_0036
   network: ws
   port: 2053
   server: 46.105.170.124

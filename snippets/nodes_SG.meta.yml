@@ -24,18 +24,7 @@ proxies:
   server: 13.231.105.129
   tfo: false
   type: ss
-- grpc-opts:
-    grpc-service-name: freesg01
-  name: 8|SG_speednode_0132
-  network: grpc
-  password: 8c50d31d-59df-395f-89c9-81c205d62bec
-  port: 16026
-  server: freesg01.jd0001.top
-  skip-cert-verify: true
-  sni: freesg01.jd0001.top
-  tls: true
-  type: trojan
-- name: 8|SG_speednode_0137
+- name: 8|SG_speednode_0054
   network: ws
   port: 8443
   server: 47.236.174.206
@@ -48,7 +37,7 @@ proxies:
       host: jd.wxgqlfx.top
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|SG_speednode_0138
+  name: 8|SG_speednode_0055
   network: ws
   port: 2096
   server: 47.236.167.231
@@ -62,3 +51,10 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
+- name: 8|SG_speednode_0056
+  password: c80c7606-7c52-40c4-a229-d1c67740c2a8
+  port: 5000
+  server: sg.555199.xyz
+  skip-cert-verify: true
+  sni: sg.555199.xyz
+  type: hysteria2
