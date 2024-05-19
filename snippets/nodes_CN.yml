@@ -1,35 +1,15 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 9|baipaovpn广东省广州市
-  network: tcp
-  port: '51707'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '9|baipaovpn广东省广州市 #1'
-  network: tcp
-  port: '54100'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn广东省
   network: ws
-  port: '16632'
-  server: 120.233.204.126
+  port: '16627'
+  server: 183.240.220.84
   servername: ''
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
   ws-opts:
     headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+      Host: 193.25.215.160
+    path: /niuniu
