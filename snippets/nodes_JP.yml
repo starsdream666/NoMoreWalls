@@ -64,3 +64,17 @@ proxies:
   sni: freejp02.jd0001.top
   tls: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '41423'
+  server: 140.83.36.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /skysinternet
