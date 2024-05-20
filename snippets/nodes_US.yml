@@ -18,9 +18,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com2
+  name: 5,6|美国3|@ripaojiedian
   network: ws
-  port: 8880
+  port: '8880'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -70,7 +70,46 @@ proxies:
   uuid: dbbb87ba-7b57-4228-b9e7-bdfa5e661b55
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_5
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
+  network: ws
+  port: 8880
+  server: 172.67.243.40
+  tls: false
+  type: vmess
+  uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
+  network: ws
+  port: 2096
+  server: 104.24.197.20
+  tls: true
+  type: vmess
+  uuid: 5dc153a1-67e5-44a7-9684-4a41ef180c9d
+  ws-opts:
+    headers:
+      Host: dl2.exoshop.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
+  network: ws
+  port: 2096
+  server: 104.17.247.203
+  tls: true
+  type: vmess
+  uuid: 5dc153a1-67e5-44a7-9684-4a41ef180c9d
+  ws-opts:
+    headers:
+      Host: dl2.exoshop.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_5_4由快嘴科技提供：kkzui.com
   network: ws
   port: 8880
   server: russia.com
@@ -81,16 +120,3 @@ proxies:
     headers:
       Host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_30
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 4868-poetry-4868.napora7003.workers.dev
-    path: /obdii.cfd/linkws
