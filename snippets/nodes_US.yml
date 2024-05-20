@@ -70,6 +70,16 @@ proxies:
   uuid: dbbb87ba-7b57-4228-b9e7-bdfa5e661b55
 - alterId: 0
   cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: tcp
+  port: '26022'
+  server: 152.70.39.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e0254dda-dc8c-46b0-8df8-07c453aaafd7
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
   network: ws
   port: 8880
