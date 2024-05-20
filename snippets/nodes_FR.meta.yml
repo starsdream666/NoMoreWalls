@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: random
-  name: 8|FR_speednode_0036
-  network: ws
-  port: 2053
-  server: 46.105.170.124
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
+proxies: []

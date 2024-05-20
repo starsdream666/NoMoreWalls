@@ -1,7 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0031
-  network: tcp
+  name: 5|🇯🇵 日本|@ripaojiedian
   password: TNDSJfNv
   port: 46906
   server: 36.151.195.46

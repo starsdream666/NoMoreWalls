@@ -1,13 +1,6 @@
 proxies:
-- name: 8|TW_speednode_0057
-  password: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  port: 30102
-  server: tw1.wish.ml
-  skip-cert-verify: true
-  sni: tw1.wish.ml
-  type: hysteria2
 - client-fingerprint: random
-  name: 8|TW_speednode_0059
+  name: 8|TW_speednode_0047
   network: ws
   port: 443
   server: 35.201.203.106

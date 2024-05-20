@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇺🇸 美国2|@ripaojiedian
@@ -32,7 +40,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0035
+  name: 5,8|CN_speednode_0027
   network: tcp
   password: TNDSJfNv
   port: 20344
@@ -60,15 +68,8 @@ proxies:
   tls: true
   type: vmess
   uuid: dbbb87ba-7b57-4228-b9e7-bdfa5e661b55
-- name: 8|US_speednode_0060
-  password: c80c7606-7c52-40c4-a229-d1c67740c2a8
-  port: 20000
-  server: jp.555199.xyz
-  skip-cert-verify: true
-  sni: sg.555199.xyz
-  type: hysteria2
 - client-fingerprint: random
-  name: 8|US_speednode_0061
+  name: 8|US_speednode_0050
   network: ws
   port: 80
   server: 162.159.199.28
@@ -79,18 +80,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0062
-  network: ws
-  port: 80
-  server: 162.159.199.31
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0063
+  name: 8|US_speednode_0051
   network: ws
   port: 80
   server: 162.159.199.62
@@ -101,7 +91,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0064
+  name: 8|US_speednode_0052
+  network: ws
+  port: 80
+  server: 162.159.199.31
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0054
   network: ws
   port: 80
   server: 162.159.199.11
@@ -112,18 +113,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0065
-  network: ws
-  port: 80
-  server: 162.159.199.88
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0066
+  name: 8|US_speednode_0055
   network: ws
   port: 80
   server: 162.159.199.108
@@ -134,18 +124,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0067
-  network: ws
-  port: 80
-  server: 162.159.199.1
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0068
+  name: 8|US_speednode_0056
   network: ws
   port: 80
   server: 162.159.199.45
@@ -156,7 +135,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0069
+  name: 8|US_speednode_0057
+  network: ws
+  port: 80
+  server: 162.159.199.1
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0058
   network: ws
   port: 80
   server: 162.159.199.29
@@ -167,7 +157,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0070
+  name: 8|US_speednode_0059
   network: ws
   port: 80
   server: 162.159.199.92
@@ -178,18 +168,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0071
-  network: ws
-  port: 80
-  server: 162.159.199.25
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0072
+  name: 8|US_speednode_0060
   network: ws
   port: 80
   server: 162.159.199.22
@@ -200,7 +179,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0073
+  name: 8|US_speednode_0061
+  network: ws
+  port: 80
+  server: 162.159.199.88
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0062
   network: ws
   port: 80
   server: 162.159.199.8
@@ -211,29 +201,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0074
-  network: ws
-  port: 80
-  server: 162.159.199.91
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0075
-  network: ws
-  port: 80
-  server: 162.159.199.106
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0076
+  name: 8|US_speednode_0063
   network: ws
   port: 80
   server: 162.159.199.3
@@ -244,10 +212,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0077
+  name: 8|US_speednode_0064
   network: ws
   port: 80
-  server: 162.159.199.5
+  server: 162.159.199.25
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -255,7 +223,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0078
+  name: 8|US_speednode_0065
   network: ws
   port: 80
   server: 162.159.199.94
@@ -266,10 +234,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0079
+  name: 8|US_speednode_0066
   network: ws
   port: 80
-  server: 162.159.199.74
+  server: 162.159.199.106
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -277,7 +245,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0080
+  name: 8|US_speednode_0067
+  network: ws
+  port: 80
+  server: 162.159.199.91
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0068
+  network: ws
+  port: 80
+  server: 162.159.199.5
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0069
   network: ws
   port: 80
   server: 162.159.199.16
@@ -288,62 +278,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0081
-  network: ws
-  port: 80
-  server: 162.159.199.2
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0082
-  network: ws
-  port: 80
-  server: 162.159.199.82
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0083
-  network: ws
-  port: 80
-  server: 162.159.199.93
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0084
-  network: ws
-  port: 80
-  server: 162.159.198.122
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0085
-  network: ws
-  port: 80
-  server: 162.159.199.95
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0086
+  name: 8|US_speednode_0070
   network: ws
   port: 80
   server: 162.159.198.82
@@ -354,7 +289,51 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0087
+  name: 8|US_speednode_0071
+  network: ws
+  port: 80
+  server: 162.159.199.74
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0072
+  network: ws
+  port: 80
+  server: 162.159.198.122
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0073
+  network: ws
+  port: 80
+  server: 162.159.199.95
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0074
+  network: ws
+  port: 80
+  server: 162.159.199.2
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0075
   network: ws
   port: 80
   server: 162.159.199.79
@@ -365,10 +344,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0088
+  name: 8|US_speednode_0076
   network: ws
   port: 80
-  server: 162.159.199.60
+  server: 162.159.199.82
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -376,10 +355,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0089
+  name: 8|US_speednode_0077
   network: ws
   port: 80
-  server: 162.159.199.85
+  server: 162.159.199.93
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -387,7 +366,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0090
+  name: 8|US_speednode_0078
   network: ws
   port: 80
   server: 162.159.199.12
@@ -398,18 +377,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0091
-  network: ws
-  port: 80
-  server: 162.159.198.128
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0092
+  name: 8|US_speednode_0079
   network: ws
   port: 80
   server: 162.159.199.65
@@ -420,7 +388,40 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0093
+  name: 8|US_speednode_0080
+  network: ws
+  port: 80
+  server: 162.159.199.60
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0081
+  network: ws
+  port: 80
+  server: 162.159.198.128
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0082
+  network: ws
+  port: 80
+  server: 162.159.199.85
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0083
   network: ws
   port: 80
   server: 162.159.199.122
@@ -431,40 +432,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0094
-  network: ws
-  port: 80
-  server: 162.159.199.44
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0095
-  network: ws
-  port: 80
-  server: 162.159.199.52
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0096
-  network: ws
-  port: 80
-  server: 162.159.199.19
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0097
+  name: 8|US_speednode_0084
   network: ws
   port: 80
   server: 162.159.199.47
@@ -475,10 +443,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0098
+  name: 8|US_speednode_0085
   network: ws
   port: 80
-  server: 162.159.199.100
+  server: 162.159.199.19
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -486,10 +454,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0099
+  name: 8|US_speednode_0086
   network: ws
   port: 80
-  server: 162.159.199.23
+  server: 162.159.199.44
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -497,40 +465,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0100
-  network: ws
-  port: 80
-  server: 162.159.199.43
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0101
-  network: ws
-  port: 80
-  server: 162.159.199.55
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0102
-  network: ws
-  port: 80
-  server: 162.159.199.51
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0103
+  name: 8|US_speednode_0087
   network: ws
   port: 80
   server: 162.159.199.83
@@ -541,10 +476,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0104
+  name: 8|US_speednode_0088
   network: ws
   port: 80
-  server: 162.159.199.104
+  server: 162.159.199.52
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -552,7 +487,62 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0105
+  name: 8|US_speednode_0089
+  network: ws
+  port: 80
+  server: 162.159.199.55
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0090
+  network: ws
+  port: 80
+  server: 162.159.199.100
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0091
+  network: ws
+  port: 80
+  server: 162.159.199.43
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0092
+  network: ws
+  port: 80
+  server: 162.159.199.51
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0093
+  network: ws
+  port: 80
+  server: 162.159.199.23
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0094
   network: ws
   port: 80
   server: 162.159.199.118
@@ -563,51 +553,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0106
-  network: ws
-  port: 80
-  server: 162.159.199.71
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0107
-  network: ws
-  port: 80
-  server: 162.159.199.54
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0108
-  network: ws
-  port: 80
-  server: 162.159.198.58
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0109
-  network: ws
-  port: 80
-  server: 162.159.199.107
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0110
+  name: 8|US_speednode_0095
   network: ws
   port: 80
   server: 162.159.199.58
@@ -618,10 +564,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0111
+  name: 8|US_speednode_0096
   network: ws
   port: 80
-  server: 162.159.198.98
+  server: 162.159.199.54
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -629,7 +575,40 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0112
+  name: 8|US_speednode_0097
+  network: ws
+  port: 80
+  server: 162.159.199.104
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0098
+  network: ws
+  port: 80
+  server: 162.159.199.71
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0099
+  network: ws
+  port: 80
+  server: 162.159.199.107
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0100
   network: ws
   port: 80
   server: 162.159.199.14
@@ -640,7 +619,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0113
+  name: 8|US_speednode_0101
+  network: ws
+  port: 80
+  server: 162.159.198.58
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0102
+  network: ws
+  port: 80
+  server: 162.159.198.98
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0103
   network: ws
   port: 80
   server: 162.159.199.66
@@ -651,29 +652,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0114
-  network: ws
-  port: 80
-  server: 162.159.199.102
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0115
-  network: ws
-  port: 80
-  server: 162.159.198.19
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0116
+  name: 8|US_speednode_0104
   network: ws
   port: 80
   server: 162.159.199.15
@@ -684,7 +663,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0117
+  name: 8|US_speednode_0105
   network: ws
   port: 80
   server: 162.159.199.98
@@ -695,18 +674,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0118
-  network: ws
-  port: 80
-  server: 162.159.199.89
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0119
+  name: 8|US_speednode_0106
   network: ws
   port: 80
   server: 162.159.199.77
@@ -717,10 +685,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0120
+  name: 8|US_speednode_0107
   network: ws
   port: 80
-  server: 162.159.199.4
+  server: 162.159.199.102
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -728,10 +696,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0121
+  name: 8|US_speednode_0108
   network: ws
   port: 80
-  server: 162.159.198.90
+  server: 162.159.199.89
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -739,7 +707,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0122
+  name: 8|US_speednode_0109
   network: ws
   port: 80
   server: 162.159.199.41
@@ -750,40 +718,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0123
-  network: ws
-  port: 80
-  server: 162.159.199.87
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0124
-  network: ws
-  port: 80
-  server: 162.159.199.78
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0125
-  network: ws
-  port: 80
-  server: 162.159.199.96
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0126
+  name: 8|US_speednode_0110
   network: ws
   port: 80
   server: 162.159.199.103
@@ -794,10 +729,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0127
+  name: 8|US_speednode_0111
   network: ws
   port: 80
-  server: 162.159.199.124
+  server: 162.159.199.78
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -805,10 +740,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0128
+  name: 8|US_speednode_0112
   network: ws
   port: 80
-  server: 162.159.198.94
+  server: 162.159.199.96
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -816,10 +751,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0129
+  name: 8|US_speednode_0113
   network: ws
   port: 80
-  server: 162.159.198.159
+  server: 162.159.198.19
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -827,10 +762,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0130
+  name: 8|US_speednode_0114
   network: ws
   port: 80
-  server: 162.159.198.156
+  server: 162.159.199.87
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -838,10 +773,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0131
+  name: 8|US_speednode_0115
   network: ws
   port: 80
-  server: 162.159.199.48
+  server: 162.159.199.4
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -849,7 +784,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0132
+  name: 8|US_speednode_0116
+  network: ws
+  port: 80
+  server: 162.159.198.90
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0117
   network: ws
   port: 80
   server: 162.159.198.145
@@ -860,7 +806,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0133
+  name: 8|US_speednode_0118
+  network: ws
+  port: 80
+  server: 162.159.199.48
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0119
   network: ws
   port: 80
   server: 162.159.199.69
@@ -871,7 +828,40 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0134
+  name: 8|US_speednode_0120
+  network: ws
+  port: 80
+  server: 162.159.199.124
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0121
+  network: ws
+  port: 80
+  server: 162.159.198.94
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0122
+  network: ws
+  port: 80
+  server: 162.159.198.159
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0123
   network: ws
   port: 80
   server: 162.159.198.86
@@ -882,7 +872,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0135
+  name: 8|US_speednode_0124
   network: ws
   port: 80
   server: 162.159.199.27
@@ -893,7 +883,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0136
+  name: 8|US_speednode_0125
   network: ws
   port: 80
   server: 162.159.198.97
@@ -904,18 +894,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0137
-  network: ws
-  port: 80
-  server: 162.159.198.37
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0138
+  name: 8|US_speednode_0126
   network: ws
   port: 80
   server: 162.159.198.49
@@ -926,10 +905,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0139
+  name: 8|US_speednode_0127
   network: ws
   port: 80
-  server: 162.159.199.36
+  server: 162.159.198.37
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -937,18 +916,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0140
-  network: ws
-  port: 80
-  server: 162.159.198.161
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0141
+  name: 8|US_speednode_0128
   network: ws
   port: 80
   server: 162.159.199.73
@@ -959,10 +927,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0142
+  name: 8|US_speednode_0129
   network: ws
   port: 80
-  server: 162.159.199.0
+  server: 162.159.199.36
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -970,10 +938,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0143
+  name: 8|US_speednode_0130
   network: ws
   port: 80
-  server: 162.159.199.42
+  server: 162.159.198.161
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -981,7 +949,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0144
+  name: 8|US_speednode_0131
+  network: ws
+  port: 80
+  server: 162.159.198.156
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0132
   network: ws
   port: 80
   server: 162.159.199.80
@@ -992,18 +971,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0145
-  network: ws
-  port: 80
-  server: 162.159.198.119
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0146
+  name: 8|US_speednode_0133
   network: ws
   port: 80
   server: 162.159.198.158
@@ -1014,7 +982,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0147
+  name: 8|US_speednode_0134
   network: ws
   port: 80
   server: 162.159.198.6
@@ -1025,18 +993,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0148
-  network: ws
-  port: 80
-  server: 162.159.199.38
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0149
+  name: 8|US_speednode_0135
   network: ws
   port: 80
   server: 162.159.198.126
@@ -1047,10 +1004,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0150
+  name: 8|US_speednode_0136
   network: ws
   port: 80
-  server: 162.159.199.101
+  server: 162.159.198.119
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1058,7 +1015,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0151
+  name: 8|US_speednode_0137
   network: ws
   port: 80
   server: 162.159.198.89
@@ -1069,7 +1026,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0152
+  name: 8|US_speednode_0138
   network: ws
   port: 80
   server: 162.159.198.146
@@ -1080,7 +1037,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0153
+  name: 8|US_speednode_0139
   network: ws
   port: 80
   server: 162.159.198.47
@@ -1091,10 +1048,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0154
+  name: 8|US_speednode_0140
   network: ws
   port: 80
-  server: 162.159.198.28
+  server: 162.159.199.42
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1102,10 +1059,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0155
+  name: 8|US_speednode_0141
   network: ws
   port: 80
-  server: 162.159.198.163
+  server: 162.159.199.0
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1113,7 +1070,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0156
+  name: 8|US_speednode_0142
   network: ws
   port: 80
   server: 162.159.198.176
@@ -1124,10 +1081,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0157
+  name: 8|US_speednode_0143
   network: ws
   port: 80
-  server: 162.159.198.53
+  server: 162.159.199.101
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1135,7 +1092,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0158
+  name: 8|US_speednode_0144
+  network: ws
+  port: 80
+  server: 162.159.198.163
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0145
+  network: ws
+  port: 80
+  server: 162.159.199.38
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0146
   network: ws
   port: 80
   server: 162.159.198.134
@@ -1146,7 +1125,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0159
+  name: 8|US_speednode_0147
   network: ws
   port: 80
   server: 162.159.198.88
@@ -1157,7 +1136,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0160
+  name: 8|US_speednode_0148
+  network: ws
+  port: 80
+  server: 162.159.198.28
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0149
+  network: ws
+  port: 80
+  server: 162.159.198.53
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0150
   network: ws
   port: 80
   server: 162.159.198.117
@@ -1168,18 +1169,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0161
-  network: ws
-  port: 80
-  server: 162.159.198.52
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0162
+  name: 8|US_speednode_0151
   network: ws
   port: 80
   server: 162.159.198.137
@@ -1190,7 +1180,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0163
+  name: 8|US_speednode_0152
   network: ws
   port: 80
   server: 162.159.198.125
@@ -1201,10 +1191,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0164
+  name: 8|US_speednode_0153
   network: ws
   port: 80
-  server: 162.159.198.16
+  server: 162.159.198.52
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1212,29 +1202,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0165
-  network: ws
-  port: 80
-  server: 162.159.198.101
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0166
-  network: ws
-  port: 80
-  server: 162.159.198.160
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0167
+  name: 8|US_speednode_0154
   network: ws
   port: 80
   server: 162.159.199.34
@@ -1245,10 +1213,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0168
+  name: 8|US_speednode_0155
   network: ws
   port: 80
-  server: 162.159.198.175
+  server: 162.159.198.16
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1256,10 +1224,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0169
+  name: 8|US_speednode_0156
   network: ws
   port: 80
-  server: 162.159.198.167
+  server: 162.159.198.101
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1267,40 +1235,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0170
-  network: ws
-  port: 80
-  server: 162.159.198.36
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0171
-  network: ws
-  port: 80
-  server: 162.159.198.109
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0172
-  network: ws
-  port: 80
-  server: 162.159.198.68
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0173
+  name: 8|US_speednode_0157
   network: ws
   port: 80
   server: 162.159.198.138
@@ -1311,7 +1246,62 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0174
+  name: 8|US_speednode_0158
+  network: ws
+  port: 80
+  server: 162.159.198.167
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0159
+  network: ws
+  port: 80
+  server: 162.159.198.109
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0160
+  network: ws
+  port: 80
+  server: 162.159.198.160
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0161
+  network: ws
+  port: 80
+  server: 162.159.198.36
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0162
+  network: ws
+  port: 80
+  server: 162.159.198.175
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0163
   network: ws
   port: 80
   server: 162.159.199.37
@@ -1322,10 +1312,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0175
+  name: 8|US_speednode_0164
   network: ws
   port: 80
-  server: 162.159.198.93
+  server: 162.159.198.68
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1333,7 +1323,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0176
+  name: 8|US_speednode_0165
   network: ws
   port: 80
   server: 162.159.198.170
@@ -1344,10 +1334,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0177
+  name: 8|US_speednode_0166
   network: ws
   port: 80
-  server: 162.159.198.136
+  server: 162.159.198.93
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1355,7 +1345,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0178
+  name: 8|US_speednode_0167
   network: ws
   port: 80
   server: 162.159.198.32
@@ -1366,18 +1356,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0179
-  network: ws
-  port: 80
-  server: 162.159.198.51
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0180
+  name: 8|US_speednode_0168
   network: ws
   port: 80
   server: 162.159.198.45
@@ -1388,7 +1367,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0181
+  name: 8|US_speednode_0169
   network: ws
   port: 80
   server: 162.159.198.154
@@ -1399,10 +1378,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0182
+  name: 8|US_speednode_0170
   network: ws
   port: 80
-  server: 162.159.198.120
+  server: 162.159.198.51
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1410,10 +1389,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0183
+  name: 8|US_speednode_0171
   network: ws
   port: 80
-  server: 162.159.198.147
+  server: 162.159.198.136
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1421,7 +1400,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0184
+  name: 8|US_speednode_0172
   network: ws
   port: 80
   server: 162.159.198.116
@@ -1432,7 +1411,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0185
+  name: 8|US_speednode_0173
+  network: ws
+  port: 80
+  server: 162.159.198.120
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0174
+  network: ws
+  port: 80
+  server: 162.159.198.147
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0175
   network: ws
   port: 80
   server: 162.159.198.2
@@ -1443,62 +1444,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0186
-  network: ws
-  port: 80
-  server: 162.159.198.121
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0187
-  network: ws
-  port: 80
-  server: 162.159.198.118
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0188
-  network: ws
-  port: 80
-  server: 162.159.198.123
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0189
-  network: ws
-  port: 80
-  server: 162.159.198.38
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0190
-  network: ws
-  port: 80
-  server: 162.159.198.46
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0191
+  name: 8|US_speednode_0176
   network: ws
   port: 80
   server: 162.159.198.140
@@ -1509,7 +1455,62 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0192
+  name: 8|US_speednode_0177
+  network: ws
+  port: 80
+  server: 162.159.198.121
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0178
+  network: ws
+  port: 80
+  server: 162.159.198.46
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0179
+  network: ws
+  port: 80
+  server: 162.159.198.123
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0180
+  network: ws
+  port: 80
+  server: 162.159.198.118
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0181
+  network: ws
+  port: 80
+  server: 162.159.198.38
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0182
   network: ws
   port: 80
   server: 162.159.198.148
@@ -1520,7 +1521,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0193
+  name: 8|US_speednode_0183
   network: ws
   port: 80
   server: 162.159.198.110
@@ -1531,18 +1532,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0194
-  network: ws
-  port: 80
-  server: 162.159.198.100
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0195
+  name: 8|US_speednode_0184
   network: ws
   port: 80
   server: 162.159.198.71
@@ -1553,62 +1543,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0196
-  network: ws
-  port: 80
-  server: 162.159.198.60
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0197
-  network: ws
-  port: 80
-  server: 162.159.198.152
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0198
-  network: ws
-  port: 80
-  server: 162.159.198.91
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0199
-  network: ws
-  port: 80
-  server: 162.159.198.21
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0200
-  network: ws
-  port: 80
-  server: 162.159.198.4
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0201
+  name: 8|US_speednode_0185
   network: ws
   port: 80
   server: 162.159.198.139
@@ -1619,7 +1554,40 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0202
+  name: 8|US_speednode_0186
+  network: ws
+  port: 80
+  server: 162.159.198.21
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0187
+  network: ws
+  port: 80
+  server: 162.159.198.60
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0188
+  network: ws
+  port: 80
+  server: 162.159.198.152
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0189
   network: ws
   port: 80
   server: 162.159.198.76
@@ -1630,10 +1598,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0203
+  name: 8|US_speednode_0190
   network: ws
   port: 80
-  server: 162.159.198.108
+  server: 162.159.198.91
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1641,7 +1609,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0204
+  name: 8|US_speednode_0191
+  network: ws
+  port: 80
+  server: 162.159.198.100
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0192
   network: ws
   port: 80
   server: 162.159.198.112
@@ -1652,10 +1631,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0205
+  name: 8|US_speednode_0193
   network: ws
   port: 80
-  server: 162.159.198.129
+  server: 162.159.198.4
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1663,29 +1642,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0206
-  network: ws
-  port: 80
-  server: 162.159.198.35
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0207
-  network: ws
-  port: 80
-  server: 162.159.198.3
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0208
+  name: 8|US_speednode_0194
   network: ws
   port: 80
   server: 162.159.198.107
@@ -1696,10 +1653,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0209
+  name: 8|US_speednode_0195
   network: ws
   port: 80
-  server: 162.159.198.41
+  server: 162.159.198.108
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1707,10 +1664,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0210
+  name: 8|US_speednode_0196
   network: ws
   port: 80
-  server: 162.159.198.74
+  server: 162.159.198.3
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1718,10 +1675,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0211
+  name: 8|US_speednode_0197
   network: ws
   port: 80
-  server: 162.159.198.13
+  server: 162.159.198.129
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1729,7 +1686,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0212
+  name: 8|US_speednode_0198
+  network: ws
+  port: 80
+  server: 162.159.198.35
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0199
   network: ws
   port: 80
   server: 162.159.198.33
@@ -1740,10 +1708,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0213
+  name: 8|US_speednode_0200
   network: ws
   port: 80
-  server: 162.159.198.149
+  server: 162.159.198.13
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1751,10 +1719,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0214
+  name: 8|US_speednode_0201
   network: ws
   port: 80
-  server: 162.159.198.81
+  server: 162.159.198.41
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1762,29 +1730,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0215
-  network: ws
-  port: 80
-  server: 162.159.198.9
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0216
-  network: ws
-  port: 80
-  server: 162.159.198.135
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0217
+  name: 8|US_speednode_0202
   network: ws
   port: 80
   server: 162.159.198.133
@@ -1795,10 +1741,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0218
+  name: 8|US_speednode_0203
   network: ws
   port: 80
-  server: 162.159.198.144
+  server: 162.159.198.74
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1806,10 +1752,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0219
+  name: 8|US_speednode_0204
   network: ws
   port: 80
-  server: 162.159.198.130
+  server: 162.159.198.135
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1817,10 +1763,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0220
+  name: 8|US_speednode_0205
   network: ws
   port: 80
-  server: 162.159.198.83
+  server: 162.159.198.149
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1828,7 +1774,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0221
+  name: 8|US_speednode_0206
   network: ws
   port: 80
   server: 162.159.198.39
@@ -1839,10 +1785,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0222
+  name: 8|US_speednode_0207
   network: ws
   port: 80
-  server: 162.159.199.35
+  server: 162.159.198.81
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -1850,7 +1796,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0223
+  name: 8|US_speednode_0208
+  network: ws
+  port: 80
+  server: 162.159.198.83
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0209
+  network: ws
+  port: 80
+  server: 162.159.198.9
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0210
   network: ws
   port: 80
   server: 162.159.198.85
@@ -1861,7 +1829,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0224
+  name: 8|US_speednode_0211
+  network: ws
+  port: 80
+  server: 162.159.198.130
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0212
+  network: ws
+  port: 80
+  server: 162.159.198.144
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0213
   network: ws
   port: 80
   server: 162.159.198.114
@@ -1872,7 +1862,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0225
+  name: 8|US_speednode_0214
+  network: ws
+  port: 80
+  server: 162.159.199.35
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0215
   network: ws
   port: 80
   server: 162.159.198.111
@@ -1883,7 +1884,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0226
+  name: 8|US_speednode_0216
   network: ws
   port: 80
   server: 162.159.198.99
@@ -1894,62 +1895,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0227
-  network: ws
-  port: 80
-  server: 162.159.198.80
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0228
-  network: ws
-  port: 80
-  server: 162.159.198.78
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0229
-  network: ws
-  port: 80
-  server: 162.159.198.115
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0230
-  network: ws
-  port: 80
-  server: 162.159.198.141
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0231
-  network: ws
-  port: 80
-  server: 162.159.198.24
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0232
+  name: 8|US_speednode_0217
   network: ws
   port: 80
   server: 162.159.198.63
@@ -1960,7 +1906,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0233
+  name: 8|US_speednode_0218
+  network: ws
+  port: 80
+  server: 162.159.198.78
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0219
+  network: ws
+  port: 80
+  server: 162.159.198.141
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0220
   network: ws
   port: 80
   server: 162.159.198.44
@@ -1971,7 +1939,40 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0234
+  name: 8|US_speednode_0221
+  network: ws
+  port: 80
+  server: 162.159.198.80
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0222
+  network: ws
+  port: 80
+  server: 162.159.198.115
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0223
+  network: ws
+  port: 80
+  server: 162.159.198.24
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0224
   network: ws
   port: 80
   server: 162.159.198.30
@@ -1982,29 +1983,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0235
-  network: ws
-  port: 80
-  server: 162.159.198.95
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0236
-  network: ws
-  port: 80
-  server: 162.159.198.5
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0237
+  name: 8|US_speednode_0225
   network: ws
   port: 80
   server: 162.159.198.87
@@ -2015,7 +1994,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0238
+  name: 8|US_speednode_0226
   network: ws
   port: 80
   server: 162.159.198.72
@@ -2026,10 +2005,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0239
+  name: 8|US_speednode_0227
   network: ws
   port: 80
-  server: 162.159.198.43
+  server: 162.159.198.95
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -2037,18 +2016,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0240
-  network: ws
-  port: 80
-  server: 162.159.198.11
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0241
+  name: 8|US_speednode_0228
   network: ws
   port: 80
   server: 162.159.198.0
@@ -2059,7 +2027,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0242
+  name: 8|US_speednode_0229
+  network: ws
+  port: 80
+  server: 162.159.198.11
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0230
+  network: ws
+  port: 80
+  server: 162.159.198.5
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0231
   network: ws
   port: 80
   server: 162.159.198.142
@@ -2070,7 +2060,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0243
+  name: 8|US_speednode_0232
   network: ws
   port: 80
   server: 162.159.198.26
@@ -2081,7 +2071,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0244
+  name: 8|US_speednode_0233
+  network: ws
+  port: 80
+  server: 162.159.198.43
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0234
   network: ws
   port: 80
   server: 162.159.198.127
@@ -2092,7 +2093,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0245
+  name: 8|US_speednode_0235
   network: ws
   port: 80
   server: 162.159.198.23
@@ -2103,18 +2104,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0246
-  network: ws
-  port: 80
-  server: 162.159.198.59
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0247
+  name: 8|US_speednode_0238
   network: ws
   port: 80
   server: 162.159.198.77
@@ -2125,7 +2115,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0248
+  name: 8|US_speednode_0239
   network: ws
   port: 80
   server: 162.159.199.105
@@ -2136,29 +2126,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0251
-  network: ws
-  port: 80
-  server: 162.159.198.66
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0252
-  network: ws
-  port: 80
-  server: 162.159.198.132
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0253
+  name: 8|US_speednode_0240
   network: ws
   port: 80
   server: 162.159.198.48
@@ -2169,7 +2137,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0254
+  name: 8|US_speednode_0241
+  network: ws
+  port: 80
+  server: 162.159.198.59
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0242
   network: ws
   port: 80
   server: 162.159.198.42
@@ -2180,10 +2159,10 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0255
+  name: 8|US_speednode_0243
   network: ws
   port: 80
-  server: 162.159.199.13
+  server: 162.159.198.132
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -2191,18 +2170,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0256
-  network: ws
-  port: 80
-  server: 162.159.198.34
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0257
+  name: 8|US_speednode_0244
   network: ws
   port: 443
   server: 154.85.99.37
@@ -2215,7 +2183,40 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - client-fingerprint: random
-  name: 8|US_speednode_0258
+  name: 8|US_speednode_0245
+  network: ws
+  port: 80
+  server: 162.159.199.13
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0246
+  network: ws
+  port: 80
+  server: 162.159.198.66
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0247
+  network: ws
+  port: 80
+  server: 162.159.198.34
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0248
   network: ws
   port: 80
   server: 162.159.198.106
@@ -2226,18 +2227,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0259
-  network: ws
-  port: 80
-  server: 162.159.198.73
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0260
+  name: 8|US_speednode_0249
   network: ws
   port: 80
   server: 162.159.198.102
@@ -2248,29 +2238,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0261
-  network: ws
-  port: 80
-  server: 162.159.198.103
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0262
-  network: ws
-  port: 80
-  server: 162.159.198.22
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0263
+  name: 8|US_speednode_0250
   network: ws
   port: 80
   server: 162.159.198.10
@@ -2281,7 +2249,29 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0264
+  name: 8|US_speednode_0251
+  network: ws
+  port: 80
+  server: 162.159.198.73
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0252
+  network: ws
+  port: 80
+  server: 162.159.198.103
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0253
   network: ws
   port: 80
   server: 162.159.198.67
@@ -2292,7 +2282,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0265
+  name: 8|US_speednode_0254
+  network: ws
+  port: 80
+  server: 162.159.198.22
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0255
   network: ws
   port: 80
   server: 162.159.198.8
@@ -2303,106 +2304,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0266
-  network: ws
-  port: 80
-  server: 162.159.199.6
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0267
-  network: ws
-  port: 80
-  server: 162.159.198.25
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0268
-  network: ws
-  port: 80
-  server: 162.159.198.150
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0269
-  network: ws
-  port: 80
-  server: 162.159.199.123
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0270
-  network: ws
-  port: 80
-  server: 162.159.198.12
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0271
-  network: ws
-  port: 80
-  server: 162.159.199.84
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0272
-  network: ws
-  port: 80
-  server: 162.159.198.64
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0273
-  network: ws
-  port: 80
-  server: 162.159.199.63
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0274
-  network: ws
-  port: 80
-  server: 162.159.199.17
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0275
+  name: 8|US_speednode_0256
   network: ws
   port: 80
   server: 162.159.198.75
@@ -2413,7 +2315,95 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0276
+  name: 8|US_speednode_0257
+  network: ws
+  port: 80
+  server: 162.159.199.6
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0258
+  network: ws
+  port: 80
+  server: 162.159.198.25
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0259
+  network: ws
+  port: 80
+  server: 162.159.199.123
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0260
+  network: ws
+  port: 80
+  server: 162.159.199.84
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0261
+  network: ws
+  port: 80
+  server: 162.159.198.150
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0262
+  network: ws
+  port: 80
+  server: 162.159.198.12
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0263
+  network: ws
+  port: 80
+  server: 162.159.199.63
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0264
+  network: ws
+  port: 80
+  server: 162.159.198.64
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0265
   network: ws
   port: 80
   server: 162.159.199.30
@@ -2424,7 +2414,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0277
+  name: 8|US_speednode_0266
+  network: ws
+  port: 80
+  server: 162.159.199.17
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0267
   network: ws
   port: 80
   server: 162.159.199.18
@@ -2435,7 +2436,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0278
+  name: 8|US_speednode_0268
   network: ws
   port: 80
   server: 162.159.198.62
@@ -2446,7 +2447,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0279
+  name: 8|US_speednode_0269
   network: ws
   port: 80
   server: 162.159.198.27
@@ -2457,7 +2458,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0280
+  name: 8|US_speednode_0270
   network: ws
   port: 80
   server: 162.159.198.40
@@ -2468,18 +2469,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0281
-  network: ws
-  port: 80
-  server: 162.159.199.72
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0282
+  name: 8|US_speednode_0271
   network: ws
   port: 80
   server: 162.159.199.68
@@ -2490,7 +2480,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0283
+  name: 8|US_speednode_0272
   network: ws
   port: 80
   server: 162.159.199.10
@@ -2501,7 +2491,18 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0284
+  name: 8|US_speednode_0273
+  network: ws
+  port: 80
+  server: 162.159.199.72
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 8|US_speednode_0274
   network: ws
   port: 80
   server: 162.159.199.76
@@ -2512,7 +2513,7 @@ proxies:
       host: a.ssll.gay
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0285
+  name: 8|US_speednode_0275
   network: ws
   port: 2053
   server: 158.101.32.53
@@ -2526,21 +2527,23 @@ proxies:
     headers:
       Host: TG.CMLiussss.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- client-fingerprint: chrome
-  name: 8|US_speednode_0286
+- client-fingerprint: random
+  name: 8|US_speednode_0276
   network: ws
-  port: 443
-  server: 198.41.198.76
-  servername: jd.wxgqlfx.top
+  port: 2096
+  server: 104.20.27.133
+  servername: mositr.freenods.sbs
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  udp: true
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
   ws-opts:
     headers:
-      host: jd.wxgqlfx.top
-    path: /Telegram-V2ray_Alpha?ed=2560
+      Host: mositr.freenods.sbs
+    path: /?ed=2560
 - client-fingerprint: random
-  name: 8|US_speednode_0287
+  name: 8|US_speednode_0277
   network: ws
   port: 8443
   server: 150.136.241.40
@@ -2553,7 +2556,7 @@ proxies:
       host: edgood.889876.xyz
     path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0289
+  name: 8|US_speednode_0279
   network: ws
   port: 443
   server: 99.83.209.185
@@ -2567,6 +2570,132 @@ proxies:
     headers:
       Host: TG.CMLiussss.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 16.162.192.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 104.16.45.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 104.16.45.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 104.16.45.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #4'
+  network: ws
+  port: '80'
+  server: 104.16.45.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #5'
+  network: ws
+  port: '80'
+  server: 104.16.45.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #6'
+  network: ws
+  port: '80'
+  server: 104.16.45.134
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #7'
+  network: ws
+  port: '80'
+  server: 104.16.45.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #8'
+  network: ws
+  port: '80'
+  server: 104.16.45.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_5

@@ -1,5 +1,5 @@
 proxies:
-- name: 8|CN_speednode_0032
+- name: 8|CN_speednode_0025
   network: ws
   port: 443
   server: 103.44.255.27
@@ -11,3 +11,39 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /?ed=2048
+- name: 8|CN_speednode_0028
+  network: ws
+  port: 35628
+  server: 39.172.116.144
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn广东省
+  network: tcp
+  port: '35019'
+  server: 120.233.204.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn广东省 #1'
+  network: ws
+  port: '16627'
+  server: 183.240.220.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
