@@ -57,7 +57,7 @@ proxies:
 - client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: TNDSJfNv
-  port: 25104
+  port: 30811
   server: 120.236.196.21
   skip-cert-verify: true
   type: trojan
@@ -119,17 +119,6 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇭🇰 香港9|@ripaojiedian
-  port: 44803
-  server: hkgcdn01.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a6f3c8fb-259d-498e-b39d-4694bc38e32f
-- alterId: 0
-  cipher: auto
   name: 6|香港|@ripaojiedian
   network: tcp
   port: '15603'
@@ -140,7 +129,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6|香港3|@ripaojiedian
+  name: 6,9|baipaovpn广东省广州市
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -168,16 +157,6 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 6|香港9|@ripaojiedian
-  network: tcp
-  port: '44803'
-  server: hkgcdn01.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6f3c8fb-259d-498e-b39d-4694bc38e32f
 - client-fingerprint: random
   name: 8|HK_speednode_0038
   network: ws
