@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn加拿大
-  network: ws
-  port: '80'
-  server: 47.128.84.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fd3c154-312b-4e37-b133-df9326022c98
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+proxies: []
