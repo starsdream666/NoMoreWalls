@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 5|🇹🇼 台湾|@ripaojiedian
+  password: f6e21df5-ca41-4133-8901-64b240716643
+  port: 41012
+  server: dc0.forlive.live
+  skip-cert-verify: false
+  sni: ssl.sbgfw.info
+  type: trojan
