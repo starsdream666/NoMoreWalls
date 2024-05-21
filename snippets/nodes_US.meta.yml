@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -2533,6 +2541,20 @@ proxies:
     headers:
       Host: TG.CMLiussss.elementfx.com
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '8880'
+  server: 104.16.60.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
