@@ -12,3 +12,14 @@ proxies:
     headers:
       host: edgood.889876.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦_CA_加拿大_36
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
