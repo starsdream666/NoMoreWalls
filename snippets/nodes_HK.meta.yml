@@ -119,24 +119,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|香港9|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 22.6bnw.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 439ffb3a-f93a-45be-9505-618b422f5cad
-  ws-opts:
-    headers:
-      Host: polohk.6bnw.top
-    path: /cctv?ed
-- alterId: 0
-  cipher: auto
-  name: 6,9|baipaovpn广东省汕头市
+  name: 6|香港|@ripaojiedian
   network: tcp
   port: '15603'
   server: 183.240.179.195
