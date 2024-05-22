@@ -67,3 +67,27 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '45123'
+  server: 13.114.230.183
+  servername: QWQ
+  tls: true
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn日本东京 #2'
+  network: tcp
+  port: '23234'
+  server: 13.114.230.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc

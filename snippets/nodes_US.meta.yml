@@ -2543,6 +2543,34 @@ proxies:
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 104.18.5.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '2086'
+  server: 104.21.70.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f27f9fa4-31c0-4fcc-9886-d73324e90e90
+  ws-opts:
+    headers:
+      Host: jp01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_3_28
   network: ws
   port: 8880
