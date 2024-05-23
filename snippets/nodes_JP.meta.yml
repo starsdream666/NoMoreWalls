@@ -78,17 +78,3 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本东京
-  network: ws
-  port: '80'
-  server: 3.113.21.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
