@@ -1,33 +1,45 @@
 proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
+  password: rNBfNuuANFCAk7KB
+  port: 9056
   server: 103.172.116.94
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-2
   password: ueLXVkvh4hckhErQ
   port: 9060
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-5
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
+  name: 0|-https://t.me/MrXbin-3
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-4
+  password: dML2sfhbVwvtfNPe
+  port: 9058
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-13
-  password: TPqX8edgbAURcAMb
-  port: 9079
+  name: 0|-https://t.me/MrXbin-5
+  password: amazonskr05
+  port: 443
+  server: 43.203.201.192
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-6
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-9
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
@@ -44,28 +56,42 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-16
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-128-cfb
+  name: 0|-https://t.me/MrXbin-17
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-18
   password: ueLXVkvh4hckhErQ
   port: 9060
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
+  name: 0|-https://t.me/MrXbin-19
   password: amazonskr05
   port: 443
   server: 47.128.72.90
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-19
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.158
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-20
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.181
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-21
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.94
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-20
+  name: 0|-https://t.me/MrXbin-23
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -74,184 +100,189 @@ proxies:
   port: 2377
   server: 118.163.179.159
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-21
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)feec8af:29306
-    mode: tls
-  port: 2377
-  server: 118.163.179.162
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-24
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 80.92.204.106
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-22
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-23
+  name: 0|-https://t.me/MrXbin-25
   password: amazonskr05
   port: 443
-  server: 47.128.230.112
+  server: 3.112.218.182
   type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-24
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-25
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-26
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 51.77.53.200
+  password: amazonskr05
+  port: 443
+  server: 3.34.95.205
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-27
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-28
+  password: qwerREWQ@@
+  port: 49032
+  server: 125.141.26.7
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-29
   password: qwerREWQ@@
   port: 49032
   server: p227.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-28
+  name: 0|-https://t.me/MrXbin-30
   password: amazonskr05
   port: 443
   server: 47.129.9.69
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-29
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-30
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-31
-  password: kSPmvwdFzGMMW5pY
-  port: 9007
-  server: 103.172.116.94
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-32
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-33
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 103.172.116.94
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-34
   password: EXN3S3eQpjE7EJu8
   port: 9027
   server: 103.172.116.94
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-35
+  name: 0|-https://t.me/MrXbin-32
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-33
   password: ZpNDDKRu9MagNvaf
   port: 9015
   server: 103.172.116.94
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-36
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-37
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-38
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 103.172.116.94
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-39
+  name: 0|-https://t.me/MrXbin-35
   password: wfLC2y7rzZyCmuyt
   port: 9093
   server: 103.172.116.94
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-40
-  password: KnJGad3FqTvjqbaX
-  port: 9014
+  name: 0|-https://t.me/MrXbin-36
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
   server: 103.172.116.94
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-41
+  name: 0|-https://t.me/MrXbin-37
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 103.172.116.94
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-38
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-42
-  password: Lp27rqyJq72bZsqX
-  port: 9045
+  name: 0|-https://t.me/MrXbin-39
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
   server: 103.172.116.94
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-43
+  name: 0|-https://t.me/MrXbin-40
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-41
   password: VP8ZPxQpJtZRCjfZ
   port: 9080
   server: 103.172.116.94
   type: ss
   udp: true
-- name: 0|-https://t.me/MrXbin-110
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-42
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 103.172.116.94
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-66
+  network: ws
+  port: 54321
+  server: eedp257bubu2wefy2.lovebaipiao.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy2.lovebaipiao.net
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-68
+  network: ws
+  port: 54321
+  server: eedp257bubu2wefy.lovebaipiao.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy.lovebaipiao.net
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-87
+  network: ws
+  port: 54321
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy3.lovebaipiao.net
+    path: /iphone
+- name: 0|-https://t.me/MrXbin-104
   password: 27876_t7d7f4e3f
   port: 443
   server: 23.142.200.175
   skip-cert-verify: true
   type: trojan
-- cipher: aes-256-gcm
-  country: CA
-  name: 0|-https://t.me/MrXbin-111
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.114.114.207
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 0|-https://t.me/MrXbin-112
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 134.195.196.178
+  country: BD
+  name: 0|-https://t.me/MrXbin-105
+  password: oxp4Xr64OKpXV127Zwtzl14P8L8PovqbFGPHbnbhRf7CxCSW1E
+  port: 8881
+  server: 103.106.2.90
   type: ss
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-113
+  name: 0|-https://t.me/MrXbin-106
   network: ws
   port: 443
   server: 158.51.121.36
@@ -263,41 +294,34 @@ proxies:
     path: /linkvws
 - cipher: aes-256-cfb
   country: DE
-  name: 0|-https://t.me/MrXbin-168
+  name: 0|-https://t.me/MrXbin-155
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 0|-https://t.me/MrXbin-156
   password: a3GFYt36Sm82Vys9
   port: 9000
   server: 80.92.204.106
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: DE
-  name: 0|-https://t.me/MrXbin-169
+  name: 0|-https://t.me/MrXbin-157
   password: ZmRiM
   port: 8388
   server: 95.164.47.219
   type: ss
-- cipher: aes-256-cfb
-  country: DE
-  name: 0|-https://t.me/MrXbin-170
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 80.92.204.106
-  type: ss
 - cipher: chacha20-ietf-poly1305
   country: GB
-  name: 0|-https://t.me/MrXbin-171
+  name: 0|-https://t.me/MrXbin-158
   password: rvniK9LtTUhjlw40NuEngx
   port: 46228
   server: 51.145.101.240
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: GB
-  name: 0|-https://t.me/MrXbin-172
-  password: V8QywnpW9gaAwJfzkStkVp
-  port: 18869
-  server: 51.145.96.134
-  type: ss
 - country: GB
-  name: 0|-https://t.me/MrXbin-173
+  name: 0|-https://t.me/MrXbin-159
   password: c6e74900-0e4e-11ef-a430-1239d0255272
   port: 443
   server: 51.38.65.155
@@ -309,206 +333,62 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-174
+  name: '0,9|baipaovpn香港 #1'
   network: ws
-  port: 12909
+  port: '12909'
   server: 210.3.159.224
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - cipher: aes-256-cfb
   country: JP
-  name: 0|-https://t.me/MrXbin-175
+  name: 0|-https://t.me/MrXbin-161
+  password: amazonskr05
+  port: 443
+  server: 54.95.163.121
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 0|-https://t.me/MrXbin-162
   password: amazonskr05
   port: 443
   server: 18.181.198.10
   type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 0|-https://t.me/MrXbin-176
-  password: amazonskr05
-  port: 443
-  server: 18.183.73.152
-  type: ss
-- cipher: aes-128-gcm
-  country: JP
-  name: 0|-https://t.me/MrXbin-177
-  password: shadowsocks
-  port: 443
-  server: 154.47.20.240
-  type: ss
 - country: JP
-  name: 0|-https://t.me/MrXbin-178
+  name: 0|-https://t.me/MrXbin-163
   password: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  port: 54234
-  server: jp4.mmmmmmmmmm.cfd
+  port: 45127
+  server: jp2.mmmmmmmmmm.cfd
   skip-cert-verify: true
   sni: apple.com
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 0|-https://t.me/MrXbin-202
-  password: 21gTS2s03kUllPJcHNZL0i
+  country: ' NL'
+  name: 0|-https://t.me/MrXbin-164
+  password: sIZ80DZsAC9ZSshS69gYql
   port: 50744
   server: 194.26.229.18
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   country: PL
-  name: 0|-https://t.me/MrXbin-180
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 51.77.53.200
+  name: 0|-https://t.me/MrXbin-165
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.18
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   country: PL
-  name: 0|-https://t.me/MrXbin-181
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-182
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-183
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-184
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-185
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-186
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-187
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-188
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-189
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-190
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-191
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-192
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-193
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-194
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-195
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-196
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-197
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-198
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-199
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-200
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-201
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.77.53.200
+  name: 0|-https://t.me/MrXbin-166
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 217.30.10.18
   type: ss
 - alterId: 0
   cipher: auto
@@ -527,14 +407,21 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   country: ' SG'
-  name: 0|-https://t.me/MrXbin-204
+  name: 0|-https://t.me/MrXbin-168
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
+  country: ' SG'
+  name: 0|-https://t.me/MrXbin-169
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
   country: SG
-  name: 0|-https://t.me/MrXbin-205
+  name: 0|-https://t.me/MrXbin-170
   password: 4R3hUfZ2FHhDmNcP
   port: 9061
   server: 103.172.116.94
@@ -544,7 +431,21 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-206
+  name: 0|-https://t.me/MrXbin-171
+  network: ws
+  port: 80
+  server: sg4g.xn--vhq70hxyat50h6wk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-172
   network: tcp
   port: 12954
   server: 31.192.234.7
@@ -554,164 +455,126 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-207
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 23.157.40.29
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-208
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-209
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 23.157.40.29
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-210
+  name: 0|-https://t.me/MrXbin-173
   password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 15.204.87.225
+  port: 8119
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-128-cfb
+  country: US
+  name: 0,5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-211
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-212
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-213
+  name: 0|-https://t.me/MrXbin-175
   password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 15.204.87.225
+  port: 5004
+  server: 23.157.40.29
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-214
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-215
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 23.157.40.20
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-216
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.157.40.20
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-217
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 23.157.40.20
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-218
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 23.157.40.20
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-219
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-220
+  name: 0|-https://t.me/MrXbin-176
   password: KixLvKzwjekG00rm
   port: 5500
   server: 23.157.40.20
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-221
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 15.204.87.225
+  name: 0|-https://t.me/MrXbin-177
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 23.157.40.20
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-222
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 15.204.87.225
+  name: 0|-https://t.me/MrXbin-178
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 23.157.40.20
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-223
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 169.197.142.120
+  name: 0|-https://t.me/MrXbin-179
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 23.157.40.29
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-224
+  name: 0|-https://t.me/MrXbin-180
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-181
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 169.197.142.120
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-225
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 169.197.142.120
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 0|-https://t.me/MrXbin-226
+  name: 0|-https://t.me/MrXbin-182
   password: lGqs95QkFHo2NV
   port: 5498
   server: 169.197.142.120
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-227
-  password: lGqs95QkFHo2NV
-  port: 5499
+  name: 0|-https://t.me/MrXbin-183
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 169.197.142.120
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-184
+  password: Y6R9pAtvxxzmGC
+  port: 8888
   server: 23.157.40.29
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 0|-https://t.me/MrXbin-228
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 169.197.142.120
+  name: 0|-https://t.me/MrXbin-185
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 23.157.40.29
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-186
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 23.157.40.20
   type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-229
+  name: 0|-https://t.me/MrXbin-187
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      HOST: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-188
   network: ws
   port: 443
   server: 23.154.136.2
@@ -723,42 +586,57 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  country: US
+  country: VN
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-230
-  network: tcp
-  port: 41001
-  server: bgroup.node5.v.nodelist-gfwairport2.top
+  name: 0|-https://t.me/MrXbin-189
+  network: ws
+  port: 80
+  server: bs4.loadingip.com
+  servername: bs4.loadingip.com
   skip-cert-verify: true
   type: vmess
-  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  ws-opts:
+    headers:
+      HOST: bs4.loadingip.com
+    path: /bs
+- alterId: 0
+  cipher: auto
+  country: ZA
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-191
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      HOST: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
 - cipher: aes-256-cfb
   country: ' ZZ'
-  name: 0|-https://t.me/MrXbin-232
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: ' ZZ'
-  name: 0|-https://t.me/MrXbin-233
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: ' ZZ'
-  name: 0|-https://t.me/MrXbin-234
+  name: 0|-https://t.me/MrXbin-192
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: ' ZZ'
-  name: 0|-https://t.me/MrXbin-235
+  name: 0|-https://t.me/MrXbin-193
   password: f63gg8EruDnUrmz4
   port: 9010
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: ' ZZ'
+  name: 0|-https://t.me/MrXbin-194
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
   server: 103.172.116.94
   type: ss
 - alterId: 0
@@ -766,7 +644,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-236
+  name: 0|-https://t.me/MrXbin-195
   network: ws
   port: 80
   server: bs1.loadingip.com
@@ -1017,8 +895,8 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 5|🇭🇰 香港|@ripaojiedian
-  port: 15603
-  server: 183.240.179.195
+  port: 15605
+  server: 183.232.199.28
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1026,30 +904,14 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 5,6|香港2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: hk.wish.ml
-  servername: ''
+  name: 5|🇭🇰 香港2|@ripaojiedian
+  port: 35010
+  server: 120.238.122.212
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: hk2.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 5|🇭🇰 香港3|@ripaojiedian
-  port: 8443
-  server: 120.232.240.38
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - name: 5|🇭🇰 香港4|@ripaojiedian
   password: TNDSJfNv
   port: 30811
@@ -1075,8 +937,8 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 5|🇭🇰 香港6|@ripaojiedian
-  port: 15601
-  server: 183.240.179.195
+  port: 15611
+  server: 183.232.170.47
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1108,19 +970,9 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  port: 34998
-  server: 879xhl1.hsspr5bu1-tw02.my777999.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 798c4ab8-613f-468f-b3ff-daf43c88aad7
 - name: 5|🇯🇵 日本|@ripaojiedian
   password: TNDSJfNv
-  port: 42583
+  port: 29841
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
@@ -1150,7 +1002,7 @@ proxies:
     headers:
       Host: oA5FSz9Tjp1.yofnhkfc.xyz
     path: /video/P7EExoE2
-- name: 5|🇰🇷 韩国|@ripaojiedian
+- name: 5,8|KR_speednode_0064
   network: ws
   password: moist
   port: 39637
@@ -1174,22 +1026,13 @@ proxies:
     headers:
       Host: aws-kr-seoul-1.f1cflinec.com
     path: /f1rocket
-- alterId: 0
-  cipher: auto
-  name: 5,6|新加坡|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: hk.wish.ml
-  servername: ''
-  skip-cert-verify: false
+- cipher: aes-128-gcm
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: a108b134-13a1-4691-9fb1-a7a83977771d
+  port: 22224
+  server: 03.forlive.live
   tfo: false
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: sg1.wish.ml
-    path: /
+  type: ss
 - alterId: 0
   cipher: auto
   name: 5,6|新加坡2|@ripaojiedian
@@ -1206,29 +1049,6 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- alterId: 0
-  cipher: auto
-  name: 5,6|新加坡3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: visa.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f405eff1-9372-4004-b204-ea6edade31cb
-  ws-opts:
-    headers:
-      Host: acmf.zhangyan56.pp.ua
-    path: /cdcxddd
-- cipher: aes-128-cfb
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 5,6|美国2|@ripaojiedian
@@ -1251,19 +1071,20 @@ proxies:
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
-- name: 5,8|CN_speednode_0027
+- name: 5,8|CN_speednode_0031
   network: tcp
   password: TNDSJfNv
   port: 20344
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.143.159.186
-  tfo: false
+  tfo: true
   type: ss
 - cipher: aes-256-cfb
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
@@ -1281,46 +1102,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '5,6,10|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz... #1'
-  network: ws
-  port: 2052
-  server: hk.wish.ml
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: in3.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
   name: 6|香港|@ripaojiedian
   network: tcp
-  port: '15603'
-  server: 183.240.179.195
+  port: '15605'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6|香港3|@ripaojiedian
+  name: 6|香港2|@ripaojiedian
   network: tcp
-  port: '8443'
-  server: 120.232.240.38
+  port: '35010'
+  server: 120.238.122.212
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
   name: 6|香港6|@ripaojiedian
   network: tcp
-  port: '15601'
-  server: 183.240.179.195
+  port: '15611'
+  server: 183.232.170.47
   servername: ''
   tls: false
   type: vmess
@@ -1337,16 +1142,6 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6|台湾|@ripaojiedian
-  network: tcp
-  port: '34998'
-  server: 879xhl1.hsspr5bu1-tw02.my777999.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 798c4ab8-613f-468f-b3ff-daf43c88aad7
-- alterId: 0
-  cipher: auto
   name: 6|日本2|@ripaojiedian
   network: tcp
   port: '30038'
@@ -1355,2272 +1150,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- client-fingerprint: random
-  name: 8|CA_speednode_0001
+- name: 8|AT_speednode_0001
   network: ws
-  port: 443
-  server: 168.138.70.29
-  servername: edgood.889876.xyz
+  port: 130
+  server: 94.177.8.26
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: edgood.889876.xyz
-    path: /?ed=2048
-- name: 8|CN_speednode_0025
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|CN_speednode_0016
   network: ws
   port: 443
   server: 103.44.255.27
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|HK_speednode_0032
-  network: ws
-  port: 10020
-  server: 103.235.18.119
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: TG@mianfeicf
-- name: 8|HK_speednode_0033
-  network: ws
-  port: 35123
-  server: 123.58.212.186
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: ' /?ed=2048'
-- client-fingerprint: random
-  name: 8|HK_speednode_0034
-  network: ws
-  port: 2053
-  server: 18.166.180.230
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: random
-  name: 8|JP_speednode_0037
-  network: ws
-  port: 443
-  server: 13.230.34.30
-  servername: qifei.today.elementfx.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8
-  ws-opts:
-    headers:
-      Host: qifei.today.elementfx.com
-    path: /proxyIP=proxyip.jp.fxxk.dedyn.io
-- client-fingerprint: random
-  name: 8|KR_speednode_0039
-  network: ws
-  port: 443
-  server: 64.110.88.46
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /
-- client-fingerprint: random
-  name: 8|NL_speednode_0040
-  network: ws
-  port: 443
-  server: 141.148.229.106
-  servername: edgood.889876.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|SE_speednode_0041
-  network: ws
-  port: 8443
-  server: 51.20.78.198
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 8|SG_speednode_0042
-  network: ws
-  port: 2096
-  server: 47.236.167.231
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- name: 8|SG_speednode_0043
-  network: ws
-  port: 8443
-  server: 47.236.174.206
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|TW_speednode_0047
-  network: ws
-  port: 443
-  server: 35.201.203.106
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: TG@ZDYZ2
-- client-fingerprint: random
-  name: 8|US_speednode_0050
-  network: ws
-  port: 80
-  server: 162.159.199.28
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0051
-  network: ws
-  port: 80
-  server: 162.159.199.62
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0052
-  network: ws
-  port: 80
-  server: 162.159.199.31
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0054
-  network: ws
-  port: 80
-  server: 162.159.199.11
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0055
-  network: ws
-  port: 80
-  server: 162.159.199.108
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0056
-  network: ws
-  port: 80
-  server: 162.159.199.45
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0057
-  network: ws
-  port: 80
-  server: 162.159.199.1
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0058
-  network: ws
-  port: 80
-  server: 162.159.199.29
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0059
-  network: ws
-  port: 80
-  server: 162.159.199.92
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0060
-  network: ws
-  port: 80
-  server: 162.159.199.22
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0061
-  network: ws
-  port: 80
-  server: 162.159.199.88
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0062
-  network: ws
-  port: 80
-  server: 162.159.199.8
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0063
-  network: ws
-  port: 80
-  server: 162.159.199.3
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0064
-  network: ws
-  port: 80
-  server: 162.159.199.25
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0065
-  network: ws
-  port: 80
-  server: 162.159.199.94
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0066
-  network: ws
-  port: 80
-  server: 162.159.199.106
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0067
-  network: ws
-  port: 80
-  server: 162.159.199.91
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0068
-  network: ws
-  port: 80
-  server: 162.159.199.5
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0069
-  network: ws
-  port: 80
-  server: 162.159.199.16
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0070
-  network: ws
-  port: 80
-  server: 162.159.198.82
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0071
-  network: ws
-  port: 80
-  server: 162.159.199.74
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0072
-  network: ws
-  port: 80
-  server: 162.159.198.122
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0073
-  network: ws
-  port: 80
-  server: 162.159.199.95
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0074
-  network: ws
-  port: 80
-  server: 162.159.199.2
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0075
-  network: ws
-  port: 80
-  server: 162.159.199.79
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0076
-  network: ws
-  port: 80
-  server: 162.159.199.82
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0077
-  network: ws
-  port: 80
-  server: 162.159.199.93
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0078
-  network: ws
-  port: 80
-  server: 162.159.199.12
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0079
-  network: ws
-  port: 80
-  server: 162.159.199.65
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0080
-  network: ws
-  port: 80
-  server: 162.159.199.60
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0081
-  network: ws
-  port: 80
-  server: 162.159.198.128
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0082
-  network: ws
-  port: 80
-  server: 162.159.199.85
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0083
-  network: ws
-  port: 80
-  server: 162.159.199.122
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0084
-  network: ws
-  port: 80
-  server: 162.159.199.47
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0085
-  network: ws
-  port: 80
-  server: 162.159.199.19
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0086
-  network: ws
-  port: 80
-  server: 162.159.199.44
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0087
-  network: ws
-  port: 80
-  server: 162.159.199.83
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0088
-  network: ws
-  port: 80
-  server: 162.159.199.52
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0089
-  network: ws
-  port: 80
-  server: 162.159.199.55
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0090
-  network: ws
-  port: 80
-  server: 162.159.199.100
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0091
-  network: ws
-  port: 80
-  server: 162.159.199.43
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0092
-  network: ws
-  port: 80
-  server: 162.159.199.51
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0093
-  network: ws
-  port: 80
-  server: 162.159.199.23
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0094
-  network: ws
-  port: 80
-  server: 162.159.199.118
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0095
-  network: ws
-  port: 80
-  server: 162.159.199.58
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0096
-  network: ws
-  port: 80
-  server: 162.159.199.54
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0097
-  network: ws
-  port: 80
-  server: 162.159.199.104
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0098
-  network: ws
-  port: 80
-  server: 162.159.199.71
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0099
-  network: ws
-  port: 80
-  server: 162.159.199.107
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0100
-  network: ws
-  port: 80
-  server: 162.159.199.14
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0101
-  network: ws
-  port: 80
-  server: 162.159.198.58
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0102
-  network: ws
-  port: 80
-  server: 162.159.198.98
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0103
-  network: ws
-  port: 80
-  server: 162.159.199.66
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0104
-  network: ws
-  port: 80
-  server: 162.159.199.15
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0105
-  network: ws
-  port: 80
-  server: 162.159.199.98
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0106
-  network: ws
-  port: 80
-  server: 162.159.199.77
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0107
-  network: ws
-  port: 80
-  server: 162.159.199.102
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0108
-  network: ws
-  port: 80
-  server: 162.159.199.89
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0109
-  network: ws
-  port: 80
-  server: 162.159.199.41
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0110
-  network: ws
-  port: 80
-  server: 162.159.199.103
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0111
-  network: ws
-  port: 80
-  server: 162.159.199.78
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0112
-  network: ws
-  port: 80
-  server: 162.159.199.96
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0113
-  network: ws
-  port: 80
-  server: 162.159.198.19
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0114
-  network: ws
-  port: 80
-  server: 162.159.199.87
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0115
-  network: ws
-  port: 80
-  server: 162.159.199.4
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0116
-  network: ws
-  port: 80
-  server: 162.159.198.90
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0117
-  network: ws
-  port: 80
-  server: 162.159.198.145
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0118
-  network: ws
-  port: 80
-  server: 162.159.199.48
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0119
-  network: ws
-  port: 80
-  server: 162.159.199.69
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0120
-  network: ws
-  port: 80
-  server: 162.159.199.124
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0121
-  network: ws
-  port: 80
-  server: 162.159.198.94
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0122
-  network: ws
-  port: 80
-  server: 162.159.198.159
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0123
-  network: ws
-  port: 80
-  server: 162.159.198.86
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0124
-  network: ws
-  port: 80
-  server: 162.159.199.27
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0125
-  network: ws
-  port: 80
-  server: 162.159.198.97
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0126
-  network: ws
-  port: 80
-  server: 162.159.198.49
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0127
-  network: ws
-  port: 80
-  server: 162.159.198.37
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0128
-  network: ws
-  port: 80
-  server: 162.159.199.73
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0129
-  network: ws
-  port: 80
-  server: 162.159.199.36
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0130
-  network: ws
-  port: 80
-  server: 162.159.198.161
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0131
-  network: ws
-  port: 80
-  server: 162.159.198.156
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0132
-  network: ws
-  port: 80
-  server: 162.159.199.80
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0133
-  network: ws
-  port: 80
-  server: 162.159.198.158
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0134
-  network: ws
-  port: 80
-  server: 162.159.198.6
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0135
-  network: ws
-  port: 80
-  server: 162.159.198.126
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0136
-  network: ws
-  port: 80
-  server: 162.159.198.119
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0137
-  network: ws
-  port: 80
-  server: 162.159.198.89
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0138
-  network: ws
-  port: 80
-  server: 162.159.198.146
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0139
-  network: ws
-  port: 80
-  server: 162.159.198.47
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0140
-  network: ws
-  port: 80
-  server: 162.159.199.42
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0141
-  network: ws
-  port: 80
-  server: 162.159.199.0
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0142
-  network: ws
-  port: 80
-  server: 162.159.198.176
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0143
-  network: ws
-  port: 80
-  server: 162.159.199.101
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0144
-  network: ws
-  port: 80
-  server: 162.159.198.163
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0145
-  network: ws
-  port: 80
-  server: 162.159.199.38
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0146
-  network: ws
-  port: 80
-  server: 162.159.198.134
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0147
-  network: ws
-  port: 80
-  server: 162.159.198.88
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0148
-  network: ws
-  port: 80
-  server: 162.159.198.28
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0149
-  network: ws
-  port: 80
-  server: 162.159.198.53
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0150
-  network: ws
-  port: 80
-  server: 162.159.198.117
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0151
-  network: ws
-  port: 80
-  server: 162.159.198.137
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0152
-  network: ws
-  port: 80
-  server: 162.159.198.125
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0153
-  network: ws
-  port: 80
-  server: 162.159.198.52
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0154
-  network: ws
-  port: 80
-  server: 162.159.199.34
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0155
-  network: ws
-  port: 80
-  server: 162.159.198.16
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0156
-  network: ws
-  port: 80
-  server: 162.159.198.101
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0157
-  network: ws
-  port: 80
-  server: 162.159.198.138
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0158
-  network: ws
-  port: 80
-  server: 162.159.198.167
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0159
-  network: ws
-  port: 80
-  server: 162.159.198.109
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0160
-  network: ws
-  port: 80
-  server: 162.159.198.160
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0161
-  network: ws
-  port: 80
-  server: 162.159.198.36
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0162
-  network: ws
-  port: 80
-  server: 162.159.198.175
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0163
-  network: ws
-  port: 80
-  server: 162.159.199.37
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0164
-  network: ws
-  port: 80
-  server: 162.159.198.68
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0165
-  network: ws
-  port: 80
-  server: 162.159.198.170
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0166
-  network: ws
-  port: 80
-  server: 162.159.198.93
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0167
-  network: ws
-  port: 80
-  server: 162.159.198.32
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0168
-  network: ws
-  port: 80
-  server: 162.159.198.45
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0169
-  network: ws
-  port: 80
-  server: 162.159.198.154
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0170
-  network: ws
-  port: 80
-  server: 162.159.198.51
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0171
-  network: ws
-  port: 80
-  server: 162.159.198.136
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0172
-  network: ws
-  port: 80
-  server: 162.159.198.116
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0173
-  network: ws
-  port: 80
-  server: 162.159.198.120
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0174
-  network: ws
-  port: 80
-  server: 162.159.198.147
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0175
-  network: ws
-  port: 80
-  server: 162.159.198.2
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0176
-  network: ws
-  port: 80
-  server: 162.159.198.140
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0177
-  network: ws
-  port: 80
-  server: 162.159.198.121
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0178
-  network: ws
-  port: 80
-  server: 162.159.198.46
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0179
-  network: ws
-  port: 80
-  server: 162.159.198.123
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0180
-  network: ws
-  port: 80
-  server: 162.159.198.118
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0181
-  network: ws
-  port: 80
-  server: 162.159.198.38
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0182
-  network: ws
-  port: 80
-  server: 162.159.198.148
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0183
-  network: ws
-  port: 80
-  server: 162.159.198.110
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0184
-  network: ws
-  port: 80
-  server: 162.159.198.71
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0185
-  network: ws
-  port: 80
-  server: 162.159.198.139
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0186
-  network: ws
-  port: 80
-  server: 162.159.198.21
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0187
-  network: ws
-  port: 80
-  server: 162.159.198.60
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0188
-  network: ws
-  port: 80
-  server: 162.159.198.152
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0189
-  network: ws
-  port: 80
-  server: 162.159.198.76
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0190
-  network: ws
-  port: 80
-  server: 162.159.198.91
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0191
-  network: ws
-  port: 80
-  server: 162.159.198.100
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0192
-  network: ws
-  port: 80
-  server: 162.159.198.112
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0193
-  network: ws
-  port: 80
-  server: 162.159.198.4
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0194
-  network: ws
-  port: 80
-  server: 162.159.198.107
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0195
-  network: ws
-  port: 80
-  server: 162.159.198.108
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0196
-  network: ws
-  port: 80
-  server: 162.159.198.3
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0197
-  network: ws
-  port: 80
-  server: 162.159.198.129
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0198
-  network: ws
-  port: 80
-  server: 162.159.198.35
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0199
-  network: ws
-  port: 80
-  server: 162.159.198.33
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0200
-  network: ws
-  port: 80
-  server: 162.159.198.13
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0201
-  network: ws
-  port: 80
-  server: 162.159.198.41
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0202
-  network: ws
-  port: 80
-  server: 162.159.198.133
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0203
-  network: ws
-  port: 80
-  server: 162.159.198.74
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0204
-  network: ws
-  port: 80
-  server: 162.159.198.135
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0205
-  network: ws
-  port: 80
-  server: 162.159.198.149
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0206
-  network: ws
-  port: 80
-  server: 162.159.198.39
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0207
-  network: ws
-  port: 80
-  server: 162.159.198.81
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0208
-  network: ws
-  port: 80
-  server: 162.159.198.83
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0209
-  network: ws
-  port: 80
-  server: 162.159.198.9
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0210
-  network: ws
-  port: 80
-  server: 162.159.198.85
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0211
-  network: ws
-  port: 80
-  server: 162.159.198.130
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0212
-  network: ws
-  port: 80
-  server: 162.159.198.144
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0213
-  network: ws
-  port: 80
-  server: 162.159.198.114
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0214
-  network: ws
-  port: 80
-  server: 162.159.199.35
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0215
-  network: ws
-  port: 80
-  server: 162.159.198.111
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0216
-  network: ws
-  port: 80
-  server: 162.159.198.99
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0217
-  network: ws
-  port: 80
-  server: 162.159.198.63
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0218
-  network: ws
-  port: 80
-  server: 162.159.198.78
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0219
-  network: ws
-  port: 80
-  server: 162.159.198.141
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0220
-  network: ws
-  port: 80
-  server: 162.159.198.44
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0221
-  network: ws
-  port: 80
-  server: 162.159.198.80
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0222
-  network: ws
-  port: 80
-  server: 162.159.198.115
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0223
-  network: ws
-  port: 80
-  server: 162.159.198.24
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0224
-  network: ws
-  port: 80
-  server: 162.159.198.30
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0225
-  network: ws
-  port: 80
-  server: 162.159.198.87
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0226
-  network: ws
-  port: 80
-  server: 162.159.198.72
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0227
-  network: ws
-  port: 80
-  server: 162.159.198.95
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0228
-  network: ws
-  port: 80
-  server: 162.159.198.0
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0229
-  network: ws
-  port: 80
-  server: 162.159.198.11
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0230
-  network: ws
-  port: 80
-  server: 162.159.198.5
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0231
-  network: ws
-  port: 80
-  server: 162.159.198.142
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0232
-  network: ws
-  port: 80
-  server: 162.159.198.26
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0233
-  network: ws
-  port: 80
-  server: 162.159.198.43
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0234
-  network: ws
-  port: 80
-  server: 162.159.198.127
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0235
-  network: ws
-  port: 80
-  server: 162.159.198.23
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0238
-  network: ws
-  port: 80
-  server: 162.159.198.77
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0239
-  network: ws
-  port: 80
-  server: 162.159.199.105
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0240
-  network: ws
-  port: 80
-  server: 162.159.198.48
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0241
-  network: ws
-  port: 80
-  server: 162.159.198.59
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0242
-  network: ws
-  port: 80
-  server: 162.159.198.42
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0243
-  network: ws
-  port: 80
-  server: 162.159.198.132
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0244
-  network: ws
-  port: 443
-  server: 154.85.99.37
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -3630,337 +1175,980 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - client-fingerprint: random
-  name: 8|US_speednode_0245
+  name: 8|DE_speednode_0038
   network: ws
-  port: 80
-  server: 162.159.199.13
+  port: 2087
+  security: tls
+  server: 140.99.233.156
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|DE_speednode_0034
+  network: ws
+  port: 443
+  server: 185.135.9.144
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|DE_speednode_0035
+  network: ws
+  port: 443
+  server: 45.80.111.27
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|DE_speednode_0037
+  network: ws
+  port: 443
+  server: 188.244.122.119
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: random
+  name: 8|DE_speednode_0039
+  network: ws
+  port: 2096
+  security: tls
+  server: 45.80.111.38
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|GB_speednode_0046
+  network: ws
+  port: 8443
+  security: tls
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|GB_speednode_0045
+  network: ws
+  port: 2053
+  security: tls
+  server: 91.193.58.119
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|GB_speednode_0055
+  network: ws
+  port: 2053
+  security: tls
+  server: 91.193.59.37
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|GB_speednode_0048
+  network: ws
+  port: 2096
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|GB_speednode_0051
+  network: ws
+  port: 443
+  security: tls
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|GB_speednode_0054
+  network: ws
+  port: 2096
+  security: tls
+  server: 91.193.59.37
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|GB_speednode_0052
+  network: ws
+  port: 443
+  server: 194.36.55.97
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: random
+  name: 8|GB_speednode_0056
+  network: ws
+  port: 2096
+  security: tls
+  server: 31.22.116.134
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|HK_speednode_0057
+  network: ws
+  port: 8443
+  server: 47.76.178.146
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|HK_speednode_0058
+  network: ws
+  port: 2053
+  server: 47.76.94.15
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|HK_speednode_0059
+  network: ws
+  port: 8969
+  server: 152.32.252.175
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|HK_speednode_0060
+  network: ws
+  port: 11443
+  server: 103.84.110.114
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|JP_speednode_0061
+  network: ws
+  port: 443
+  server: 43.153.181.217
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- delay: 991
+  name: 8|JP_speednode_0062
+  network: ws
+  port: 34237
+  server: 45.251.240.229
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Telegram🇨🇳
+- name: 8|KR_speednode_0077
+  network: ws
+  port: 11659
+  server: 146.56.171.182
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0065
+  network: ws
+  port: 6056
+  server: 132.226.21.116
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|KR_speednode_0066
+  network: ws
+  port: 15800
+  server: 129.154.223.89
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|KR_speednode_0067
+  network: ws
+  password: moist
+  port: 39637
+  server: 132.145.95.170
+  skip-cert-verify: true
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+- name: 8|KR_speednode_0068
+  network: ws
+  password: moist
+  port: 39637
+  server: 132.145.95.170
+  sni: trojan.freenods.sbs
+  type: trojan
+- name: 8|KR_speednode_0076
+  network: ws
+  port: 28756
+  server: 152.70.232.173
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0074
+  network: ws
+  port: 14850
+  server: 146.56.130.130
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0071
+  network: ws
+  port: 30671
+  server: 182.227.98.7
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|KR_speednode_0072
+  network: ws
+  port: 29133
+  server: 1.221.115.142
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|KR_speednode_0073
+  network: ws
+  port: 34237
+  server: 152.70.239.134
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|KR_speednode_0075
+  network: ws
+  port: 49248
+  server: 193.123.239.18
+  servername: a.ssll.gay
+  tls: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0246
+    path: /
+- name: 8|KR_speednode_0078
   network: ws
-  port: 80
-  server: 162.159.198.66
+  port: 45171
+  server: 193.122.103.10
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0079
+  network: ws
+  port: 46060
+  server: 146.56.166.59
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|KR_speednode_0080
+  network: ws
+  port: 32768
+  server: 121.144.224.35
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0081
+  network: ws
+  port: 32564
+  server: 182.231.142.84
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0082
+  network: ws
+  port: 58854
+  server: 140.238.14.228
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0083
+  network: ws
+  port: 31457
+  server: 182.227.98.7
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KR_speednode_0084
+  network: ws
+  port: 17472
+  server: 140.238.29.212
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|KZ_speednode_0085
+  network: ws
+  port: 443
+  server: 31.43.179.179
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: random
+  name: 8|LT_speednode_0086
+  network: ws
+  port: 443
+  security: tls
+  server: 88.216.66.193
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|LT_speednode_0087
+  network: ws
+  port: 2083
+  server: 89.116.250.6
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|LU_speednode_0089
+  network: ws
+  port: 2053
+  security: tls
+  server: 94.242.231.244
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|LU_speednode_0090
+  network: ws
+  port: 2053
+  security: tls
+  server: 94.242.230.56
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|LU_speednode_0091
+  network: ws
+  port: 443
+  server: 188.42.89.64
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- dns:
+  - 1.1.1.1
+  - 1.0.0.1
+  ip: 172.16.0.2
+  mtu: 1280
+  name: 8|NL_speednode_0092
+  port: 8886
+  private-key: AENLPDNtmsqMX6PAfcOkOXdIp62W33mWACyVpKORUVg=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 188.114.96.28
+  type: wireguard
+  udp: true
+- name: 8|RU_speednode_0094
+  network: ws
+  port: 443
+  server: 185.176.24.106
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|RU_speednode_0095
+  network: ws
+  port: 443
+  server: 193.9.49.233
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|RU_speednode_0096
+  network: ws
+  port: 443
+  server: 185.176.24.120
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: random
+  name: 8|RU_speednode_0100
+  network: ws
+  port: 2096
+  security: tls
+  server: 188.42.145.159
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|RU_speednode_0098
+  network: ws
+  port: 8443
+  security: tls
+  server: 188.42.145.159
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|RU_speednode_0099
+  network: ws
+  port: 443
+  server: 185.176.24.186
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|RU_speednode_0101
+  network: ws
+  port: 2053
+  server: 31.12.75.140
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|RU_speednode_0102
+  network: ws
+  port: 2087
+  security: tls
+  server: 185.176.24.140
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|SC_speednode_0103
+  network: ws
+  port: 8443
+  server: 154.197.121.178
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: random
+  name: 8|SC_speednode_0108
+  network: ws
+  port: 443
+  security: tls
+  server: 45.133.247.14
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|SC_speednode_0109
+  network: ws
+  port: 443
+  security: tls
+  server: 45.133.247.151
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|SC_speednode_0110
+  network: ws
+  port: 2053
+  security: tls
+  server: 154.197.88.97
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|SC_speednode_0111
+  network: ws
+  port: 443
+  server: 154.197.121.253
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|SG_speednode_0112
+  network: ws
+  port: 2087
+  server: 47.236.253.41
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|SG_speednode_0114
+  network: ws
+  port: 2096
+  server: 47.236.93.176
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|SG_speednode_0115
+  network: ws
+  port: 2096
+  server: 47.236.254.120
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|SG_speednode_0116
+  network: ws
+  port: 3003
+  server: 58.182.218.190
+  servername: a.ssll.gay
+  tls: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0247
+    path: /
+- name: 8|SG_speednode_0117
   network: ws
-  port: 80
-  server: 162.159.198.34
+  port: 20872
+  server: 43.156.97.73
+  servername: cfed.tgzdyz2.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0248
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|SG_speednode_0118
   network: ws
-  port: 80
-  server: 162.159.198.106
+  port: 443
+  server: 27.50.48.108
+  servername: cfed.tgzdyz2.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
 - client-fingerprint: random
-  name: 8|US_speednode_0249
+  name: 8|SG_speednode_0120
   network: ws
-  port: 80
-  server: 162.159.198.102
+  port: 443
+  security: tls
+  server: 27.50.48.222
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
+      host: juzibaipiao.5112233.xyz
+    path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0250
+  name: 8|SG_speednode_0121
   network: ws
-  port: 80
-  server: 162.159.198.10
+  port: 8443
+  security: tls
+  server: 27.50.49.232
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
 - client-fingerprint: random
-  name: 8|US_speednode_0251
+  name: 8|SG_speednode_0123
   network: ws
-  port: 80
-  server: 162.159.198.73
+  port: 443
+  security: tls
+  server: 27.50.49.13
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0252
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|TW_speednode_0127
   network: ws
-  port: 80
-  server: 162.159.198.103
+  port: 38370
+  server: 118.163.128.81
+  servername: jd.wxgqlfx.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0253
+      host: jd.wxgqlfx.top
+    path: /
+- name: 8|TW_speednode_0125
   network: ws
-  port: 80
-  server: 162.159.198.67
+  port: 32430
+  server: 118.163.128.81
+  servername: cfed.tgzdyz2.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0254
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|TW_speednode_0126
   network: ws
-  port: 80
-  server: 162.159.198.22
+  port: 13688
+  server: 118.163.128.81
+  servername: cfed.tgzdyz2.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0255
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|TW_speednode_0128
   network: ws
-  port: 80
-  server: 162.159.198.8
+  port: 39560
+  server: 118.163.128.81
+  servername: cfed.tgzdyz2.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0256
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|TW_speednode_0129
   network: ws
-  port: 80
-  server: 162.159.198.75
+  port: 443
+  server: 35.201.203.106
+  servername: tg.dns68.cloudns.nz
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0257
+      host: tg.dns68.cloudns.nz
+    path: /
+- name: 8|UA_speednode_0130
   network: ws
-  port: 80
-  server: 162.159.199.6
+  port: 443
+  server: 45.94.169.235
+  servername: cfed.tgzdyz2.top
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
 - client-fingerprint: random
-  name: 8|US_speednode_0258
+  delay: 933
+  name: 8|US_speednode_0131
   network: ws
-  port: 80
-  server: 162.159.198.25
+  port: 8443
+  server: 192.18.139.229
+  servername: TG.CMLiussss.elementfx.com
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
+      Host: TG.CMLiussss.elementfx.com
+    path: /proxyIP=proxyip.us.fxxk.dedyn.
 - client-fingerprint: random
-  name: 8|US_speednode_0259
+  name: 8|US_speednode_0133
   network: ws
-  port: 80
-  server: 162.159.199.123
+  port: 443
+  security: tls
+  server: 199.181.197.39
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /?ed=2048
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
 - client-fingerprint: random
-  name: 8|US_speednode_0260
-  network: ws
-  port: 80
-  server: 162.159.199.84
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0261
-  network: ws
-  port: 80
-  server: 162.159.198.150
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0262
-  network: ws
-  port: 80
-  server: 162.159.198.12
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0263
-  network: ws
-  port: 80
-  server: 162.159.199.63
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0264
-  network: ws
-  port: 80
-  server: 162.159.198.64
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0265
-  network: ws
-  port: 80
-  server: 162.159.199.30
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0266
-  network: ws
-  port: 80
-  server: 162.159.199.17
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0267
-  network: ws
-  port: 80
-  server: 162.159.199.18
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0268
-  network: ws
-  port: 80
-  server: 162.159.198.62
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0269
-  network: ws
-  port: 80
-  server: 162.159.198.27
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0270
-  network: ws
-  port: 80
-  server: 162.159.198.40
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0271
-  network: ws
-  port: 80
-  server: 162.159.199.68
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0272
-  network: ws
-  port: 80
-  server: 162.159.199.10
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0273
-  network: ws
-  port: 80
-  server: 162.159.199.72
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0274
-  network: ws
-  port: 80
-  server: 162.159.199.76
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: a.ssll.gay
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0275
+  delay: 1002
+  name: 8|US_speednode_0134
   network: ws
   port: 2053
   server: 158.101.32.53
@@ -3973,60 +2161,111 @@ proxies:
   ws-opts:
     headers:
       Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+    path: /proxyIP=proxyip.us.fxxk.dedyn.
 - client-fingerprint: random
-  name: 8|US_speednode_0276
+  name: 8|US_speednode_0145
   network: ws
-  port: 2096
-  server: 104.20.27.133
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
+  port: 2053
+  security: tls
+  server: 216.116.134.43
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
+      host: juzibaipiao.5112233.xyz
+    path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0277
+  name: 8|US_speednode_0136
   network: ws
   port: 8443
-  server: 150.136.241.40
-  servername: edgood.889876.xyz
+  security: tls
+  server: 45.159.218.162
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      host: edgood.889876.xyz
-    path: /?ed=2048
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
 - client-fingerprint: random
-  name: 8|US_speednode_0279
+  name: 8|US_speednode_0137
+  network: ws
+  port: 8443
+  security: tls
+  server: 89.116.161.250
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 8|US_speednode_0139
+  network: ws
+  port: 2083
+  security: tls
+  server: 216.205.52.109
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 8|US_speednode_0140
   network: ws
   port: 443
-  server: 99.83.209.185
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
+  server: 147.185.161.35
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.io
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn香港 #2'
-  network: tcp
-  port: '34180'
-  server: 42.3.159.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|US_speednode_0141
+  network: ws
+  port: 443
+  server: 108.165.216.4
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: random
+  name: 8|US_speednode_0143
+  network: ws
+  port: 2096
+  security: tls
+  server: 14.102.228.210
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn韩国
@@ -4039,97 +2278,7 @@ proxies:
   uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本东京
-  network: ws
-  port: '45123'
-  server: 13.114.230.183
-  servername: QWQ
-  tls: true
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn加拿大 #3'
-  network: tcp
-  port: '54126'
-  server: 47.129.49.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本东京 #2'
-  network: tcp
-  port: '23234'
-  server: 13.114.230.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn广东省
-  network: ws
-  port: '16627'
-  server: 183.240.220.72
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn加拿大 #1'
-  network: ws
-  port: '15638'
-  server: 47.129.49.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 104.18.5.191
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn加拿大 #2'
-  network: ws
-  port: '15638'
-  server: 47.129.49.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
+  name: 9|baipaovpn美国
   network: ws
   port: '2086'
   server: 104.21.70.242
@@ -4143,17 +2292,17 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn广东省汕头市
+  name: 9|baipaovpn广东省佛山市
   network: tcp
-  port: '30127'
-  server: 183.240.179.207
+  port: '15600'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn广东省 #1'
+  name: 9|baipaovpn广东省
   network: ws
   port: '20207'
   server: 120.233.42.83
@@ -4167,34 +2316,204 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn广东省江门市
+  name: '9|baipaovpn广东省佛山市 #1'
   network: tcp
-  port: '35068'
-  server: 120.238.122.151
+  port: '15603'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
-  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn广东省 #2'
+  name: '9|baipaovpn新加坡 #1'
   network: tcp
-  port: '15073'
-  server: 183.240.253.134
+  port: '54126'
+  server: 13.229.129.74
   servername: ''
   tls: false
   type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn香港 #3'
+  name: '9|baipaovpn日本东京 #1'
+  network: tcp
+  port: '23234'
+  server: 3.112.30.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn广东省汕头市
+  network: tcp
+  port: '30131'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn香港 #2'
+  network: tcp
+  port: '34180'
+  server: 42.3.159.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
   network: ws
-  port: '12909'
-  server: 210.3.159.224
+  port: '80'
+  server: 104.16.45.34
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 104.16.45.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 104.16.45.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #4'
+  network: ws
+  port: '80'
+  server: 104.18.5.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #5'
+  network: ws
+  port: '80'
+  server: 104.16.45.134
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #6'
+  network: ws
+  port: '80'
+  server: 104.16.45.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #7'
+  network: ws
+  port: '80'
+  server: 104.16.45.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #8'
+  network: ws
+  port: '80'
+  server: 104.16.45.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #9'
+  network: ws
+  port: '80'
+  server: 104.16.45.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #10'
+  network: ws
+  port: '80'
+  server: 104.16.45.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn新加坡 #2'
+  network: ws
+  port: '15638'
+  server: 13.229.129.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
   ws-opts:
     headers:
       Host: ''
@@ -4220,6 +2539,19 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz... #1'
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
     path: /
 - alterId: 0
   cipher: auto
