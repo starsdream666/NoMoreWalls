@@ -80,38 +80,14 @@ proxies:
     path: Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn日本东京 #2'
-  network: tcp
-  port: '23234'
-  server: 3.112.30.198
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 3.113.21.1
   servername: ''
   tls: false
   type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本东京 #1'
-  network: ws
-  port: '45123'
-  server: 3.112.30.198
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本东京 #3'
-  network: ws
-  port: '45123'
-  server: 3.112.30.198
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
   ws-opts:
     headers:
       Host: ''
