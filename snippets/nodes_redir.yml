@@ -1,29 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-  network: ws
-  port: 2052
-  server: cdncdncdncdn.784654.xyz
-  tls: false
-  type: vmess
-  uuid: 4b5867b5-a9c4-4afa-8d73-2c4330745f3e
-  ws-opts:
-    headers:
-      Host: ca-cfcdn.aikunapp.com
-    path: /index?ed=20
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_2由快嘴科技提供：...
-  network: tcp
-  port: 30013
-  server: 183.240.179.207
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇮🇳_IN_印度_32
+  name: 10|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
   network: ws
   port: 2052
   server: 172.67.164.78
@@ -36,40 +14,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: 10|🇺🇸_US_美国->🇮🇳_IN_印度_2_由快嘴科技提供：k...
   network: ws
-  port: 2082
-  server: 172.67.130.140
+  port: 2052
+  server: hk.wish.ml
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: in3.wish.ml
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_40
-  network: ws
-  port: 2082
-  server: 104.21.8.157
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_3由快嘴科技提供：...
+  network: tcp
+  port: 30013
+  server: 183.240.179.207
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_3_4由快嘴科技提供：...
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4

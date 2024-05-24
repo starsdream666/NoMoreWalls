@@ -37,19 +37,19 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- name: 8|SG_speednode_0112
+- name: 8|SG_speednode_0086
   network: ws
   port: 2087
-  server: 47.236.253.41
-  servername: jd.wxgqlfx.top
+  server: 47.236.93.176
+  servername: hk116.ylks.link
   tls: true
   type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: jd.wxgqlfx.top
+      host: hk116.ylks.link
     path: /
-- name: 8|SG_speednode_0114
+- name: 8|SG_speednode_0087
   network: ws
   port: 2096
   server: 47.236.93.176
@@ -61,31 +61,31 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|SG_speednode_0115
-  network: ws
-  port: 2096
-  server: 47.236.254.120
-  servername: jd.wxgqlfx.top
-  tls: true
-  type: vless
-  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
-  ws-opts:
-    headers:
-      host: jd.wxgqlfx.top
-    path: /
-- name: 8|SG_speednode_0116
+- name: 8|SG_speednode_0088
   network: ws
   port: 3003
   server: 58.182.218.190
-  servername: a.ssll.gay
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: a.ssll.gay
-    path: /
-- name: 8|SG_speednode_0117
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|SG_speednode_0089
+  network: ws
+  port: 62888
+  server: 38.181.73.64
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|SG_speednode_0090
   network: ws
   port: 20872
   server: 43.156.97.73
@@ -97,63 +97,16 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|SG_speednode_0118
+- name: 8|SG_speednode_0092
   network: ws
-  port: 443
-  server: 27.50.48.108
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  password: b84d16a244460e09
+  port: 3306
+  server: 5.44.249.44
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- client-fingerprint: random
-  name: 8|SG_speednode_0120
-  network: ws
-  port: 443
-  security: tls
-  server: 27.50.48.222
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: /
-- client-fingerprint: random
-  name: 8|SG_speednode_0121
-  network: ws
-  port: 8443
-  security: tls
-  server: 27.50.49.232
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|SG_speednode_0123
-  network: ws
-  port: 443
-  security: tls
-  server: 27.50.49.13
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+      Host: TG.WangCai_1
+    path: /gateway/connect

@@ -31,14 +31,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0031
-  network: tcp
+  name: 5|🇺🇸 美国5|@ripaojiedian
   password: TNDSJfNv
   port: 20344
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 6|美国2|@ripaojiedian
@@ -53,56 +51,22 @@ proxies:
     headers:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
-- client-fingerprint: random
-  delay: 933
-  name: 8|US_speednode_0131
+- client-fingerprint: chrome
+  name: 8|US_speednode_0098
   network: ws
   port: 8443
-  server: 192.18.139.229
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
+  server: zula.ir
+  servername: telegram-falcunargo-ukrine.falcunar.asso.eu.org
   tls: true
   type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
+  udp: false
+  uuid: 4f0efec2-9a6e-4122-9bcc-a8ab1c83c298
   ws-opts:
     headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.
+      host: telegram-falcunargo-ukrine.falcunar.asso.eu.org
+    path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0133
-  network: ws
-  port: 443
-  security: tls
-  server: 199.181.197.39
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  delay: 1002
-  name: 8|US_speednode_0134
-  network: ws
-  port: 2053
-  server: 158.101.32.53
-  servername: TG.CMLiussss.elementfx.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904
-  ws-opts:
-    headers:
-      Host: TG.CMLiussss.elementfx.com
-    path: /proxyIP=proxyip.us.fxxk.dedyn.
-- client-fingerprint: random
-  name: 8|US_speednode_0145
+  name: 8|US_speednode_0099
   network: ws
   port: 2053
   security: tls
@@ -116,59 +80,47 @@ proxies:
   ws-opts:
     headers:
       host: juzibaipiao.5112233.xyz
-    path: /
-- client-fingerprint: random
-  name: 8|US_speednode_0136
+    path: /?ed=2048
+- name: 8|US_speednode_0100
   network: ws
-  port: 8443
-  security: tls
-  server: 45.159.218.162
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
+  port: 443
+  server: 108.165.216.167
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|US_speednode_0137
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|US_speednode_0101
   network: ws
-  port: 8443
-  security: tls
-  server: 89.116.161.250
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
+  port: 2087
+  server: 45.159.217.54
+  servername: fq521.6789.cloudns.be
   tls: true
   type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
   ws-opts:
     headers:
-      host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 8|US_speednode_0139
+      host: fq521.6789.cloudns.be
+    path: Twitter苏小柠
+- name: 8|US_speednode_0105
   network: ws
   port: 2083
-  security: tls
   server: 216.205.52.109
   servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
       host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- name: 8|US_speednode_0140
+    path: /
+- name: 8|US_speednode_0106
   network: ws
   port: 443
-  server: 147.185.161.35
+  server: 206.119.178.149
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -177,151 +129,62 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|US_speednode_0141
-  network: ws
-  port: 443
-  server: 108.165.216.4
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- client-fingerprint: random
-  name: 8|US_speednode_0143
+- name: 8|US_speednode_0107
   network: ws
   port: 2096
-  security: tls
   server: 14.102.228.210
   servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
       host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: 10|🇺🇸_US_美国_2_5
   network: ws
-  port: '80'
-  server: 104.16.45.182
-  servername: ''
+  port: 80
+  server: speed.cloudflare.com
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: 4868-poetry-4868.napora7003.workers.dev
+    path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 104.16.45.134
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 104.16.45.206
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 104.16.45.224
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #4'
-  network: ws
-  port: '80'
-  server: 104.16.45.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #5'
-  network: ws
-  port: '80'
-  server: 104.16.45.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #6'
-  network: ws
-  port: '80'
-  server: 104.16.45.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #7'
-  network: ws
-  port: '80'
-  server: 104.16.45.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_36
+  name: 10|🇺🇸_US_美国_4_32
   network: ws
   port: 8880
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  ws-opts:
+    headers:
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_5_33
+  network: ws
+  port: 80
+  server: 172.67.204.84
+  tls: false
+  type: vmess
+  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
+  ws-opts:
+    headers:
+      Host: no1-vmess.sshmax.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸_US_美国_6_34
+  network: ws
+  port: 2095
   server: russia.com
   tls: false
   type: vmess
