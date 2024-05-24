@@ -14,6 +14,15 @@ proxies:
     path: /index?ed=20
 - alterId: 0
   cipher: auto
+  name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_2由快嘴科技提供：...
+  network: tcp
+  port: 30013
+  server: 183.240.179.207
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国->🇮🇳_IN_印度_32
   network: ws
   port: 2052
