@@ -1,4 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - name: 8|TW_speednode_0127
   network: ws
   port: 38370

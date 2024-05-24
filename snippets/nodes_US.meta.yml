@@ -1,21 +1,28 @@
 proxies:
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
+  name: 5|🇺🇸 美国2|@ripaojiedian
   network: ws
-  port: '2082'
+  port: 2095
   server: cfcdn1.sanfencdn9.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
   ws-opts:
     headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: TNDSJfNv
@@ -32,6 +39,20 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|美国2|@ripaojiedian
+  network: ws
+  port: '2082'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - client-fingerprint: random
   delay: 933
   name: 8|US_speednode_0131

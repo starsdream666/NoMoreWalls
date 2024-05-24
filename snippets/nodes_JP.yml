@@ -17,30 +17,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.143.159.186
-  tfo: true
+  server: 18.183.73.152
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -52,3 +35,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: 6|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2

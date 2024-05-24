@@ -30,13 +30,18 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港2|@ripaojiedian
-  port: 35010
-  server: 120.238.122.212
+  network: ws
+  port: 2052
+  server: hk.wish.ml
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: hk2.wish.ml
+    path: /
 - client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: TNDSJfNv
