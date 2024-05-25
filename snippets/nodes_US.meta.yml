@@ -132,65 +132,13 @@ proxies:
   cipher: auto
   name: 9|baipaovpn美国
   network: ws
-  port: '80'
-  server: 172.64.104.182
+  port: '46515'
+  server: 152.70.246.177
   servername: ''
   tls: false
   type: vmess
   uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: fr.grpc.gay
+      Host: ''
     path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_2_5
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 4868-poetry-4868.napora7003.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_4_32
-  network: ws
-  port: 8880
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-  ws-opts:
-    headers:
-      Host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_5_33
-  network: ws
-  port: 80
-  server: 172.67.204.84
-  tls: false
-  type: vmess
-  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
-  ws-opts:
-    headers:
-      Host: no1-vmess.sshmax.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸_US_美国_6_34
-  network: ws
-  port: 2095
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-  ws-opts:
-    headers:
-      Host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
