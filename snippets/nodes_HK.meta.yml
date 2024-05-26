@@ -180,3 +180,13 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn香港
+  network: tcp
+  port: '41001'
+  server: 18.167.121.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
