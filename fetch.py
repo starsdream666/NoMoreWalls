@@ -63,7 +63,8 @@ CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_
 ABFURLS = (
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+    # "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
     # "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
     # "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
     # "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
@@ -87,12 +88,13 @@ FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
 
-BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8=').split()
+BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8gb25ndGFpd2Fu').split()
 
 # !!! JUST FOR DEBUGING !!!
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
 DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
+STOP = False
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
@@ -104,6 +106,10 @@ session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537
 session.mount('file://', FileAdapter())
     
 exc_queue: List[str] = []
+
+d = datetime.datetime.now()
+if (d.month, d.day) in ((6, 4), (7, 1), (10, 1)):
+    DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
 
 class Node:
     names: Set[str] = set()
@@ -319,8 +325,8 @@ class Node:
                 if self.data['server'] == domain.lstrip('.'): return True
                 if self.data['server'].endswith(domain): return True
             # TODO: Fake UUID
-            if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
-                return True
+            # if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
+            #     return True
         except Exception:
             print("无法验证的节点！", file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
@@ -775,7 +781,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     print(f"共有 {len(rules)} 条规则")
 
 def main():
-    global exc_queue, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
+    global exc_queue, merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
@@ -885,6 +891,12 @@ def main():
             break
         while exc_queue:
             print(exc_queue.pop(0), file=sys.stderr, flush=True)
+
+    if STOP:
+        merged = {
+            1: Node("vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjEg5pWP5oSf5pe25pyf77yM5pu05paw5pqC5YGc77yM5aaC5pyJ6ZyA6KaB77yM6Ieq6KGM5pCt5bu6IiwNCiAgImFkZCI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNDQ0NDQ0NDQtNDQ0NC00NDQ0LTQ0NDQtNDQ0NDQ0NDQ0NDQ0NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogImNkMDAxLnd3dy5kdWJhLm5ldCIsDQogICJwYXRoIjogIi9kdWJhL2luc3RhbGwvcGFja2FnZXMvZXZlci9kdWJhXzEwMF8xMDAuZXhlIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogImNkMDAxLnd3dy5kdWJhLm5ldCIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogIjM2MCINCn0="),
+            2: Node("vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjIg5pWP5oSf5pe25pyf77yM5pu05paw5pqC5YGc77yM5aaC5pyJ6ZyA6KaB77yM6Ieq6KGM5pCt5bu6IiwNCiAgImFkZCI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNDQ0NDQ0NDQtNDQ0NC00NDQ0LTQ0NDQtNDQ0NDQ0NDQ0NDQ0NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAiYWxwbiI6ICJodHRwLzEuMSIsDQogICJmcCI6ICIzNjAiDQp9")
+        }
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
