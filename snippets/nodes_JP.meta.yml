@@ -26,13 +26,3 @@ proxies:
     headers:
       host: v116.ylkszy.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: tcp
-  port: '39777'
-  server: 210.230.206.18
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fc78cd01-99ac-a085-cb84-69a60920129d
