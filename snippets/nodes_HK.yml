@@ -46,7 +46,7 @@ proxies:
 - client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: TNDSJfNv
-  port: 30811
+  port: 29529
   server: 120.236.196.21
   skip-cert-verify: true
   type: trojan
@@ -106,6 +106,14 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
+  name: 5|🇭🇰 香港9|@ripaojiedian
+  password: fangyygw
+  port: 443
+  server: s2.itocm.com
+  skip-cert-verify: false
+  sni: s2.itocm.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 6|香港|@ripaojiedian
