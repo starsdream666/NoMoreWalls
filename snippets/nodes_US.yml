@@ -51,7 +51,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 6,9|baipaovpn广东省江门市
+  name: '6,9|baipaovpn广东省江门市 #2'
   network: tcp
   port: '34414'
   server: 120.238.122.250
@@ -59,31 +59,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn美国
-  network: ws
-  port: '46515'
-  server: 130.162.132.0
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: ''
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 172.64.104.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
