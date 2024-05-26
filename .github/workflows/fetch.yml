@@ -20,13 +20,13 @@ jobs:
     steps:
     - name: 迁出代码
       uses: actions/checkout@v4
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装 Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
         cache: 'pip'
-    - name: 设置时区
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装依赖
       run: pip install -r requirements.txt
     - name: 执行任务
