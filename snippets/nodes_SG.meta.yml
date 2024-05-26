@@ -150,13 +150,3 @@ proxies:
     headers:
       host: v116.ylkszy.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
-  network: tcp
-  port: '41001'
-  server: 52.77.231.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02

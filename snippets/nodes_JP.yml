@@ -14,27 +14,3 @@ proxies:
   server: 34.222.36.230
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本
-  network: tcp
-  port: '39777'
-  server: 210.230.206.18
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fc78cd01-99ac-a085-cb84-69a60920129d
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn日本 #1'
-  network: ws
-  port: '46515'
-  server: 146.56.44.165
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: ''
-    path: /rongseven?ed=2048
