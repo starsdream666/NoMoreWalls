@@ -26,25 +26,17 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 5,6|香港2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: hk.wish.ml
-  servername: ''
-  skip-cert-verify: false
+  name: 5|🇭🇰 香港2|@ripaojiedian
+  password: 4c0df09f-e015-441c-a602-1b9d3a0fdded
+  port: 58691
+  server: hk3.gauss.life
   tfo: false
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: hk2.wish.ml
-    path: /
+  type: ss
 - client-fingerprint: chrome
-  name: 5|🇭🇰 香港4|@ripaojiedian
+  name: 5,8|CN_speednode_0008
+  network: tcp
   password: TNDSJfNv
   port: 29529
   server: 120.236.196.21
@@ -106,14 +98,6 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- client-fingerprint: chrome
-  name: 5|🇭🇰 香港9|@ripaojiedian
-  password: fangyygw
-  port: 443
-  server: s2.itocm.com
-  skip-cert-verify: false
-  sni: s2.itocm.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 6|香港|@ripaojiedian
@@ -136,7 +120,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6,9|baipaovpn广东省佛山市
+  name: '6,9|baipaovpn广东省佛山市 #1'
   network: tcp
   port: '15603'
   server: 183.232.199.61

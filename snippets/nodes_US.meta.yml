@@ -7,23 +7,14 @@ proxies:
   server: 212.102.47.198
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
+- client-fingerprint: chrome
+  name: 5,8|CN_speednode_0029
+  network: tcp
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -36,14 +27,8 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国4|@ripaojiedian
-  password: TNDSJfNv
-  port: 4603
-  server: 36.151.195.48
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
+  name: 5,8|CN_speednode_0027
+  network: tcp
   password: TNDSJfNv
   port: 20344
   server: 36.151.195.48
@@ -59,201 +44,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- delay: 711
-  name: 8|US_speednode_0177
-  network: ws
-  port: 443
-  server: 206.119.178.149
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0178
-  network: ws
-  port: 443
-  server: 167.68.11.95
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- client-fingerprint: random
-  delay: 1842
-  name: 8|US_speednode_0186
-  network: ws
-  port: 443
-  server: 43.153.103.203
-  servername: edgood.889876.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      host: edgood.889876.xyz
-    path: /?ed=2048
-- client-fingerprint: random
-  delay: 1732
-  name: 8|US_speednode_0190
-  network: ws
-  port: 2083
-  security: tls
-  server: 216.205.52.109
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: /
-- client-fingerprint: random
-  name: 8|US_speednode_0182
-  network: ws
-  port: 2053
-  security: tls
-  server: 216.116.134.43
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  delay: 2086
-  name: 8|US_speednode_0192
-  network: ws
-  port: 8443
-  security: tls
-  server: 89.116.161.250
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0184
-  network: ws
-  port: 443
-  server: 45.159.218.181
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- client-fingerprint: random
-  delay: 2088
-  name: 8|US_speednode_0193
-  network: ws
-  port: 2096
-  security: tls
-  server: 14.102.228.210
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: /
-- client-fingerprint: random
-  name: 8|US_speednode_0196
-  network: ws
-  port: 443
-  security: tls
-  server: 170.114.45.25
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0191
-  network: ws
-  port: 443
-  server: 216.116.134.16
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0194
-  network: ws
-  port: 443
-  server: 66.81.247.24
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- delay: 1015
-  name: 8|US_speednode_0200
-  network: ws
-  port: 20443
-  server: 136.175.176.49
-  servername: v116.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      host: v116.ylkszy.eu.org
-    path: /
-- name: 8|US_speednode_0198
-  network: ws
-  port: 443
-  server: 104.254.140.206
-  servername: v116.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      host: v116.ylkszy.eu.org
-    path: /
-- name: 8|US_speednode_0199
-  network: ws
-  port: 443
-  server: 147.185.161.44
-  servername: v116.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      host: v116.ylkszy.eu.org
-    path: /
+- name: 8|US_speednode_0075
+  password: dongtaiwang.com
+  port: 62894
+  server: 104.192.224.141
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 8|US_speednode_0076
+  password: dongtaiwang.com
+  port: 62894
+  server: 104.192.224.140
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 8|US_speednode_0078
+  password: dongtaiwang.com
+  port: 22441
+  server: 109.104.152.89
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
@@ -267,4 +78,18 @@ proxies:
   ws-opts:
     headers:
       Host: fr.grpc.gay
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn美国 #1'
+  network: ws
+  port: '46515'
+  server: 152.70.243.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: ''
     path: /rongseven?ed=2048

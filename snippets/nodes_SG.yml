@@ -1,26 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|新加坡|@ripaojiedian
+- name: 8|SG_speednode_0072
   network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  password: b84d16a244460e09
+  port: 3306
+  server: 5.44.249.44
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
   ws-opts:
     headers:
-      Host: rpmlybgzsg2.yofnhkfc.xyz
-    path: /video/3YKfzGw4
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.128.230.112
-  tfo: false
-  type: ss
+      Host: n2.gladns.com
+    path: /gateway/connect
