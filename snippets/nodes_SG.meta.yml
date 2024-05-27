@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.128.230.112
+  tfo: false
+  type: ss
 - name: 8|SG_speednode_0072
   network: ws
   password: b84d16a244460e09
@@ -11,3 +19,11 @@ proxies:
     headers:
       Host: n2.gladns.com
     path: /gateway/connect
+- name: 8|SG_speednode_0073
+  network: tcp
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
+  type: trojan
