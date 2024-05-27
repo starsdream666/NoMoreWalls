@@ -47,24 +47,29 @@ proxies:
   server: 35.77.99.126
   tfo: false
   type: ss
-- name: 8|JP_speednode_0062
-  password: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  port: 30102
-  server: 168.138.203.223
-  skip-cert-verify: true
-  sni: jp2.wish.ml
-  type: hysteria2
-- name: 8|JP_speednode_0063
+- name: 8|JP_speednode_0049
   password: c286daa2-59de-455c-8de8-ec032b6ce2e8
   port: 30102
   server: 103.140.136.23
   skip-cert-verify: true
   sni: jp1.wish.ml
   type: hysteria2
-- name: 8|JP_speednode_0064
+- name: 8|JP_speednode_0050
   password: c286daa2-59de-455c-8de8-ec032b6ce2e8
   port: 30102
   server: 150.230.4.114
   skip-cert-verify: true
   sni: jp3.wish.ml
   type: hysteria2
+- name: 8|JP_speednode_0052
+  network: ws
+  port: 443
+  server: 43.153.181.217
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2

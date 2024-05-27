@@ -28,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 6f81fa0c-2ee2-43f0-adce-5d14a6643ed4
-- name: 8|TW_speednode_0074
+- name: 8|TW_speednode_0080
   password: c286daa2-59de-455c-8de8-ec032b6ce2e8
   port: 30102
   server: 103.137.63.101

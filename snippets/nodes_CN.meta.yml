@@ -1,11 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn广东省深圳市
-  network: tcp
-  port: '15600'
-  server: 183.232.142.179
-  servername: ''
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0023
+  port: 7192
+  server: 47.105.37.46
+  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0025
+  port: 33210
+  server: 42.194.187.178
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0027
+  port: 7890
+  server: 112.73.92.167
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true

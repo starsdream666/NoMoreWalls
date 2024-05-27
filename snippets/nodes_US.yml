@@ -8,7 +8,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0029
+  name: 5,8|CN_speednode_0024
   network: tcp
   password: TNDSJfNv
   port: 4603
@@ -27,8 +27,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0027
-  network: tcp
+  name: 5|🇺🇸 美国5|@ripaojiedian
   password: TNDSJfNv
   port: 20344
   server: 36.151.195.48
@@ -44,3 +43,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 8|US_speednode_0087
+  network: ws
+  password: auto
+  port: 443
+  server: 159.246.55.132
+  skip-cert-verify: true
+  sni: vip.123789.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vip.123789.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '46515'
+  server: 130.162.156.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: ''
+    path: /rongseven?ed=2048
