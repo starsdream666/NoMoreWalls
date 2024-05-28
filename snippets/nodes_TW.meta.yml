@@ -1,33 +1,38 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  password: 6ad6b840-da77-4981-bfe3-1faccd2f974d
-  port: 20007
-  server: chinact.one.edu.kg
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇹🇼 台湾2|@ripaojiedian
-  port: 34999
-  server: 90778990.okc94l-zleouxmco-tw01.my777999.top
+  name: 5,6|台湾|@ripaojiedian
+  network: ws
+  port: '37902'
+  server: hinet-wap.myddns.me
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 6f81fa0c-2ee2-43f0-adce-5d14a6643ed4
+  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
+  ws-opts:
+    headers:
+      Host: hinet-wap.myddns.me
+    path: /index?ed=2560
 - alterId: 0
   cipher: auto
-  name: 6|台湾2|@ripaojiedian
-  network: tcp
-  port: '34999'
-  server: 90778990.okc94l-zleouxmco-tw01.my777999.top
+  client-fingerprint: chrome
+  name: 5,6|台湾2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 6f81fa0c-2ee2-43f0-adce-5d14a6643ed4
+  uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - name: 8|TW_speednode_0080
   password: c286daa2-59de-455c-8de8-ec032b6ce2e8
   port: 30102
