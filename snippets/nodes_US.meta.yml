@@ -236,13 +236,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 9|baipaovpn美国
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
+  network: ws
+  port: '80'
+  server: 162.159.9.55
   servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      Host: hinet.alipay.ovh
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '9|baipaovpn美国 #1'
