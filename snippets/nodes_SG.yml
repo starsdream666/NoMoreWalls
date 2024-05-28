@@ -70,3 +70,13 @@ proxies:
     headers:
       Host: TG.WangCai_1
     path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn新加坡
+  network: tcp
+  port: '41001'
+  server: 54.169.218.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
