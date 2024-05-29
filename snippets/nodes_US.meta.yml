@@ -261,3 +261,17 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 162.159.9.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      Host: hinet.alipay.ovh
+    path: /?ed=2048
