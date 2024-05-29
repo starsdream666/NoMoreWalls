@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|CA_speednode_0005
+  name: 8|CA_speednode_0004
   network: tcp
   port: 443
   server: 103.98.215.248

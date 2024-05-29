@@ -19,32 +19,86 @@ proxies:
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.183.73.152
+  server: 18.143.93.163
   tfo: false
   type: ss
-- name: 8|JP_speednode_0049
-  password: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  port: 30102
-  server: 103.140.136.23
+- client-fingerprint: random
+  name: 8|JP_speednode_0066
+  network: ws
+  port: 8443
+  server: 103.232.214.11
+  servername: cfed.tgzdyz2.top
   skip-cert-verify: true
-  sni: jp1.wish.ml
-  type: hysteria2
-- name: 8|JP_speednode_0050
-  password: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  port: 30102
-  server: 150.230.4.114
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0067
+  network: ws
+  port: 8443
+  server: 149.28.22.198
+  servername: cfed.tgzdyz2.top
   skip-cert-verify: true
-  sni: jp3.wish.ml
-  type: hysteria2
-- name: 8|JP_speednode_0052
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0068
   network: ws
   port: 443
   server: 43.153.181.217
   servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0069
+  network: ws
+  port: 34237
+  server: 150.66.24.104
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|JP_speednode_0070
+  network: ws
+  port: 34237
+  server: 45.251.241.13
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

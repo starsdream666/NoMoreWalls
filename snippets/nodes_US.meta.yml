@@ -1,20 +1,20 @@
 proxies:
-- cipher: aes-128-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国2|@ripaojiedian
-  password: Da7BZAuyS2Fql9FewjayaT3lDXY3ScERR84xg5A3C6xzCpKI0COp38DOnNeSYZ
-  port: 443
-  server: payment.freetrade.link
+  network: ws
+  port: 2052
+  server: hk.wish.ml
   skip-cert-verify: false
-  sni: payment.freetrade.link
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -27,7 +27,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0024
+  name: 5,8|CN_speednode_0020
   network: tcp
   password: TNDSJfNv
   port: 4603
@@ -37,7 +37,7 @@ proxies:
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: TNDSJfNv
-  port: 20344
+  port: 4787
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
@@ -68,36 +68,90 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 8|US_speednode_0082
-  password: dongtaiwang.com
-  port: 62894
-  server: 104.192.224.140
+- client-fingerprint: random
+  name: 8|US_speednode_0117
+  network: ws
+  port: 443
+  server: 45.159.216.65
+  servername: cfed.tgzdyz2.top
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 8|US_speednode_0083
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|US_speednode_0118
+  network: ws
+  port: 443
+  server: 185.148.106.96
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 8|US_speednode_0119
+  network: ws
+  port: 443
+  server: 167.68.11.48
+  servername: cfed.tgzdyz2.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 8|US_speednode_0120
   password: dongtaiwang.com
   port: 62894
   server: 104.192.224.141
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 8|US_speednode_0087
-  network: ws
-  password: auto
-  port: 443
-  server: 159.246.55.132
+- name: 8|US_speednode_0121
+  password: dongtaiwang.com
+  port: 62894
+  server: 104.192.224.140
   skip-cert-verify: true
-  sni: vip.123789.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vip.123789.pp.ua
-    path: /
+  sni: www.bing.com
+  type: hysteria2
+- name: 8|US_speednode_0122
+  password: dongtaiwang.com
+  port: 22441
+  server: 109.104.152.89
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55
+  name: 8|US_speednode_0123
+  port: 58510
+  server: 109.104.152.194
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11
 - client-fingerprint: chrome
   delay: 1131
   flow: None
-  name: 8|US_speednode_0093
+  name: 8|US_speednode_0125
   network: tcp
   port: 13982
   reality-opts:
@@ -119,22 +173,8 @@ proxies:
   type: vless
   udp: true
   uuid: 85beb960-236b-4634-81ce-6ad66652f928
-- client-fingerprint: chrome
-  name: 8|US_speednode_0094
-  network: ws
-  port: 8443
-  server: zula.ir
-  servername: telegram-falcunargo-ukrine.falcunar.asso.eu.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4f0efec2-9a6e-4122-9bcc-a8ab1c83c298
-  ws-opts:
-    headers:
-      host: telegram-falcunargo-ukrine.falcunar.asso.eu.org
-    path: /?ed=2048
 - client-fingerprint: random
-  name: 8|US_speednode_0102
+  name: 8|US_speednode_0129
   network: ws
   port: 2053
   security: tls
@@ -149,19 +189,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|US_speednode_0096
-  network: ws
-  port: 443
-  server: 108.165.216.167
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0097
+- name: 8|US_speednode_0127
   network: ws
   port: 2087
   server: 45.159.217.54
@@ -172,8 +200,8 @@ proxies:
   ws-opts:
     headers:
       host: fq521.6789.cloudns.be
-    path: Twitter苏小柠
-- name: 8|US_speednode_0098
+    path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
+- name: 8|US_speednode_0128
   network: ws
   port: 8443
   server: 209.46.30.217
@@ -184,8 +212,8 @@ proxies:
   ws-opts:
     headers:
       host: fq521.6789.cloudns.be
-    path: Twitter苏小柠
-- name: 8|US_speednode_0099
+    path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
+- name: 8|US_speednode_0130
   network: ws
   port: 443
   server: 170.114.45.25
@@ -197,7 +225,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|US_speednode_0100
+- name: 8|US_speednode_0131
   network: ws
   port: 2083
   server: 216.205.52.109
@@ -209,7 +237,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|US_speednode_0101
+- name: 8|US_speednode_0132
   network: ws
   port: 8443
   server: 159.112.235.14
@@ -221,7 +249,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|US_speednode_0103
+- name: 8|US_speednode_0133
   network: ws
   port: 2096
   server: 14.102.228.210
@@ -251,27 +279,13 @@ proxies:
   cipher: auto
   name: '9|baipaovpn美国 #1'
   network: ws
-  port: '80'
-  server: 162.159.9.55
+  port: '46515'
+  server: 64.110.89.119
   servername: ''
   tls: false
   type: vmess
-  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: hinet.alipay.ovh
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '9|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 104.26.0.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
-  ws-opts:
-    headers:
-      Host: hinet.alipay.ovh
-    path: /?ed=2048
+      Host: ''
+    path: /rongseven?ed=2048
