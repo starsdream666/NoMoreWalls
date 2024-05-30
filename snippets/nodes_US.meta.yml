@@ -245,3 +245,13 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: tcp
+  port: '41001'
+  server: 13.215.49.73
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02

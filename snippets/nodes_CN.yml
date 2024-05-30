@@ -1,11 +1,11 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 9|baipaovpn广东省广州市
+  name: 9|baipaovpn广东省深圳市
   network: tcp
-  port: '51707'
-  server: 183.236.51.59
+  port: '62001'
+  server: 183.232.142.179
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad

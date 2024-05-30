@@ -52,3 +52,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: tcp
+  port: '41001'
+  server: 13.215.49.73
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
