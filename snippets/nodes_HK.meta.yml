@@ -120,7 +120,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 6|香港3|@ripaojiedian
+  name: 6,9|baipaovpn广东省佛山市
   network: tcp
   port: '15603'
   server: 183.232.199.28
