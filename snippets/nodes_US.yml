@@ -54,7 +54,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: '9|baipaovpn美国 #1'
   network: ws
   port: '80'
   server: 162.159.9.55

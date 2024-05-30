@@ -247,7 +247,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: '9|baipaovpn美国 #1'
   network: ws
   port: '80'
   server: 162.159.9.55
