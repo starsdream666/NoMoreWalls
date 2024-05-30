@@ -44,7 +44,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 6|美国3|@ripaojiedian
+  name: 6,9|baipaovpn广东省江门市
   network: tcp
   port: '34414'
   server: 120.238.122.250
@@ -52,3 +52,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国弗吉尼亚州阿什本
+  network: ws
+  port: '80'
+  server: 34.197.201.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d5fb496-19fb-48fb-9880-a147326dee62
+  ws-opts:
+    headers:
+      Host: best-charm-pediatrician.glitch.me
+    path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
