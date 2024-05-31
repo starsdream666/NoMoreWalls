@@ -16,6 +16,23 @@ proxies:
     headers:
       Host: us6_0.wish.ml
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国2|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -28,17 +45,17 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0020
-  network: tcp
+  name: 5|🇺🇸 美国5|@ripaojiedian
   password: TNDSJfNv
-  port: 4603
+  port: 4787
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
+  name: 5,8|CN_speednode_0020
+  network: tcp
   password: TNDSJfNv
-  port: 4787
+  port: 4603
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
@@ -54,7 +71,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '9|baipaovpn美国 #1'
+  name: 9|baipaovpn美国
   network: ws
   port: '80'
   server: 162.159.9.55
