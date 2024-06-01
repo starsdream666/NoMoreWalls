@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# pyright: reportConstantRedefinition = none
+# pyright: reportMissingTypeStubs = none
+# pyright: reportRedeclaration = none
+# pyright: reportMissingParameterType = none
+# pyright: reportUnnecessaryIsInstance = none
 import yaml
 import json
 import base64
@@ -13,7 +18,7 @@ import sys
 import os
 import copy
 from types import FunctionType as function
-from typing import Set, List, Dict, Union, Any, Optional, no_type_check
+from typing import Set, List, Dict, Tuple, Union, Callable, Any, Optional, no_type_check
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -21,20 +26,20 @@ else:
     if not PROXY: PROXY = None
     LOCAL = not PROXY
 
-def b64encodes(s):
+def b64encodes(s: str):
     return base64.b64encode(s.encode('utf-8')).decode('utf-8')
 
-def b64encodes_safe(s):
+def b64encodes_safe(s: str):
     return base64.urlsafe_b64encode(s.encode('utf-8')).decode('utf-8')
 
-def b64decodes(s):
+def b64decodes(s: str):
     ss = s + '=' * ((4-len(s)%4)%4)
     try:
         return base64.b64decode(ss.encode('utf-8')).decode('utf-8')
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
-def b64decodes_safe(s):
+def b64decodes_safe(s: str):
     ss = s + '=' * ((4-len(s)%4)%4)
     try:
         return base64.urlsafe_b64decode(ss.encode('utf-8')).decode('utf-8')
@@ -45,7 +50,7 @@ DEFAULT_UUID = '8'*8+'-8888'*3+'-'+'8'*12
 
 CLASH2VMESS = {'name': 'ps', 'server': 'add', 'port': 'port', 'uuid': 'id', 
               'alterId': 'aid', 'cipher': 'scy', 'network': 'net', 'servername': 'sni'}
-VMESS2CLASH = {}
+VMESS2CLASH: Dict[str, str] = {}
 for k,v in CLASH2VMESS.items(): VMESS2CLASH[v] = k
 
 VMESS_EXAMPLE = {
@@ -121,7 +126,7 @@ class Node:
             self.type = data['type']
         elif isinstance(data, str):
             self.load_url(data)
-        else: raise TypeError
+        else: raise TypeError(f"Got {type(data)}")
         if not self.data['name']:
             self.data['name'] = "未命名"
         if 'password' in self.data:
@@ -173,7 +178,7 @@ class Node:
             traceback.print_exc(file=sys.stderr)
             return hash('__ERROR__')
     
-    def __eq__(self, other):
+    def __eq__(self, other: Union['Node', Any]):
         if isinstance(other, self.__class__):
             return hash(self) == hash(other)
         else:
@@ -274,7 +279,7 @@ class Node:
                 for kv in parsed.query.split('&'):
                     k,v = kv.split('=')
                     if k == 'allowInsecure':
-                        self.data['skip-cert-verify'] = (v != 0)
+                        self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'sni': self.data['sni'] = v
                     elif k == 'alpn':
                         if '%2C' in v:
@@ -472,7 +477,7 @@ class Source():
             self.url: str = url
             self.url_source: None = None
         self.content: Union[str, List[str], int] = None
-        self.sub: list = None
+        self.sub: Union[List[str], List[Dict[str, str]]] = None
         self.cfg: Dict[str, Any] = {}
 
     def gen_url(self) -> None:
@@ -577,7 +582,7 @@ class Source():
                 if "proxies:" in text:
                     # Clash config
                     config = yaml.full_load(text.replace("!<str>","!!str"))
-                    sub: List[str] = config['proxies']
+                    sub = config['proxies']
                 elif '://' in text:
                     # V2Ray raw list
                     sub = text.strip().splitlines()
@@ -646,7 +651,7 @@ def extract(url: str) -> Union[Set[str], int]:
     global session
     res = session.get(url)
     if res.status_code != 200: return res.status_code
-    urls = set()
+    urls: Set[str] = set()
     for line in res.text:
         if line.startswith("http"):
             urls.add(line)
@@ -672,7 +677,7 @@ def merge(source_obj: Source, sourceId=-1) -> None:
         except UnsupportedType as e:
             if len(e.args) == 1:
                 print(f"不支持的类型：{e}")
-            unknown.add(p)
+            unknown.add(p) # type: ignore
         except: traceback.print_exc()
         else:
             n.format_name()
@@ -686,7 +691,6 @@ def merge(source_obj: Source, sourceId=-1) -> None:
                 used[hashn] = {}
             used[hashn][sourceId] = n.name
 
-@no_type_check
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
     # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
@@ -694,6 +698,7 @@ def raw2fastly(url: str) -> str:
     # 2023/10/01: ghproxy.net tcping 有大量丢包，且之前出现过证书未续期的问题，改掉
     # 2023/12/23: 全都废了
     if not LOCAL: return url
+    url: Union[str, List[str]]
     if url.startswith("https://raw.githubusercontent.com/"):
         url = url[34:].split('/')
         url[1] += '@'+url[2]
@@ -723,7 +728,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
             continue
         for line in res.text.strip().splitlines():
             line = line.strip()
-            if not line or line[0] == '!': continue
+            if not line or line[0] in '!#': continue
             elif line[:2] == '@@':
                 unblock.add(line.split('^')[0].strip('@|^'))
             elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
@@ -750,7 +755,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
             else: unblock.add(line.split('^')[0].strip('|^'))
 
     domain_root = DomainTree()
-    domain_keys = set()
+    domain_keys: Set[str] = set()
     for domain in blocked:
         if '/' in domain: continue
         if '*' in domain:
@@ -806,8 +811,8 @@ def main():
                 print("成功！")
             else: print("跳过！")
     print("正在整理链接...")
-    sources_final = set()
-    airports = set()
+    sources_final: Union[Set[str], List[str]] = set()
+    airports: Set[str] = set()
     for source in sources:
         if source == 'EOF': break
         if not source: continue
@@ -952,7 +957,7 @@ def main():
             ctg_nodes_meta[ctg] = []
         for node in merged.values():
             if node.supports_meta():
-                ctgs = []
+                ctgs: List[str] = []
                 for ctg, keys in categories.items():
                     for key in keys:
                         if key in node.name:
@@ -972,21 +977,38 @@ def main():
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
 
     print("正在写出 Clash & Meta 订阅...")
+    keywords: List[str] = []
+    suffixes: List[str] = []
     match_rule = None
     for rule in conf['rules']:
+        rule: str
         tmp = rule.strip().split(',')
         if len(tmp) == 2 and tmp[0] == 'MATCH':
             match_rule = rule
             break
         if len(tmp) == 3:
             rtype, rargument, rpolicy = tmp
+            if rtype == 'DOMAIN-KEYWORD':
+                keywords.append(rargument)
+            elif rtype == 'DOMAIN-SUFFIX':
+                suffixes.append(rargument)
         elif len(tmp) == 4:
             rtype, rargument, rpolicy, rresolve = tmp
             rpolicy += ','+rresolve
         else: print("规则 '"+rule+"' 无法被解析！"); continue
-        k = rtype+','+rargument
-        if k not in rules:
-            rules[k] = rpolicy
+        for kwd in keywords:
+            if kwd in rargument and kwd != rargument:
+                print(rargument, "已被 KEYWORD", kwd, "命中")
+                break
+        else:
+            for sfx in suffixes:
+                if ('.'+rargument).endswith('.'+sfx) and sfx != rargument:
+                    print(rargument, "已被 SUFFIX", sfx, "命中")
+                    break
+            else:
+                k = rtype+','+rargument
+                if k not in rules:
+                    rules[k] = rpolicy
     conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
 
     # Clash & Meta
@@ -1083,7 +1105,10 @@ def main():
     print("写出完成！")
 
 if __name__ == '__main__':
-    from dynamic import AUTOURLS, AUTOFETCH
+    from dynamic import AUTOURLS, AUTOFETCH # type: ignore
+    AUTOFUNTYPE = Callable[[], Union[str, List[str], Tuple[str], Set[str], None]]
+    AUTOURL: List[AUTOFUNTYPE]
+    AUTOFETCH: List[AUTOFUNTYPE]
     main()
 
 
