@@ -1,9 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  password: TaE3D3Yc9R2eCzl4OuCpgyCFy4OuCpgyCFy3SlRNY88SKanIejx37OAFZaXDx0anIejx3
-  port: 28332
-  server: sohtsa.taiwanesefood.link
-  skip-cert-verify: false
-  sni: sohtsa.taiwanesefood.link
-  type: trojan
+proxies: []

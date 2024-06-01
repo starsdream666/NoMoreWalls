@@ -1,5 +1,5 @@
 proxies:
-- name: 8|CN_speednode_0014
+- name: 8|CN_speednode_0013
   network: tcp
   password: TNDSJfNv
   port: 29529

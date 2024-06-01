@@ -31,7 +31,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: random
-  name: 8|JP_speednode_0066
+  name: 8|JP_speednode_0048
   network: ws
   port: 8443
   server: 103.232.214.11
@@ -47,23 +47,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 8|JP_speednode_0067
-  network: ws
-  port: 8443
-  server: 149.28.22.198
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 8|JP_speednode_0068
+  name: 8|JP_speednode_0049
   network: ws
   port: 443
   server: 43.153.181.217
@@ -78,35 +62,147 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 8|JP_speednode_0069
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0055
   network: ws
   port: 34237
   server: 150.66.24.104
-  servername: cfed.tgzdyz2.top
+  servername: vless.pagess.filegear-sg.me
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 8|JP_speednode_0070
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0059
   network: ws
   port: 34237
   server: 45.251.241.13
-  servername: cfed.tgzdyz2.top
+  servername: vless.pagess.filegear-sg.me
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0053
+  network: ws
+  port: 34237
+  server: 20.37.114.66
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0054
+  network: ws
+  port: 443
+  server: 172.207.125.150
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0056
+  network: ws
+  port: 443
+  server: 54.150.225.131
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0057
+  network: ws
+  port: 443
+  server: 54.249.135.43
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0058
+  network: ws
+  port: 443
+  server: 13.114.9.116
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0060
+  network: ws
+  port: 34237
+  server: 45.251.241.103
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|JP_speednode_0061
+  network: ws
+  port: 35557
+  server: 103.214.168.241
+  servername: vless.pagess.filegear-sg.me
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfd0935c-8dda-4243-9622-dc2fe8f868c8
+  ws-opts:
+    headers:
+      Host: vless.pagess.filegear-sg.me
+    path: /?ed=2048
