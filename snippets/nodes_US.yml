@@ -33,23 +33,13 @@ proxies:
     headers:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国3|@ripaojiedian
-  port: 34414
-  server: 120.238.122.250
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
-  password: TNDSJfNv
-  port: 4787
-  server: 36.151.195.48
-  skip-cert-verify: true
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  password: oj9Ibl
+  port: 443
+  server: tj71.37927.online
+  skip-cert-verify: false
+  sni: tj71.37927.online
   type: trojan
 - client-fingerprint: chrome
   name: 5,8|CN_speednode_0020
@@ -59,13 +49,10 @@ proxies:
   server: 36.151.195.48
   skip-cert-verify: true
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 6|美国3|@ripaojiedian
-  network: tcp
-  port: '34414'
-  server: 120.238.122.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国5|@ripaojiedian
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan

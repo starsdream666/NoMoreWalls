@@ -14,12 +14,20 @@ proxies:
   skip-cert-verify: false
   sni: nagoya.meijireform.com
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本3|@ripaojiedian
+  password: 9cQbCg
   port: 443
-  server: 18.143.93.163
+  server: tj285.37927.online
+  skip-cert-verify: false
+  sni: tj285.37927.online
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本4|@ripaojiedian
+  password: 07cf58cf-79bb-4371-925d-c2f57e5b1169
+  port: 61001
+  server: 4.forlive.live
   tfo: false
   type: ss
 - client-fingerprint: random

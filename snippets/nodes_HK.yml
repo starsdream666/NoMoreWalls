@@ -58,45 +58,33 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
+  name: 5|🇭🇰 香港5|@ripaojiedian
+  port: 15606
+  server: 183.232.170.47
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
   name: 5|🇭🇰 香港6|@ripaojiedian
-  password: 45b9ba11-5d0c-4154-ad92-bb0920bade75
-  port: 58494
-  server: hk2.gauss.life
-  tfo: false
-  type: ss
+  password: 4CCF9A9AB80E9889198B02ECE7FA08DD
+  port: 43002
+  server: j0078.ruixiangseo.xyz
+  skip-cert-verify: false
+  sni: j0078.ruixiangseo.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|香港7|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: yes.cnmjcn.net
-  servername: ''
+  name: 5|🇭🇰 香港7|@ripaojiedian
+  port: 35996
+  server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
   name: 6|香港|@ripaojiedian
@@ -127,3 +115,23 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 6|香港5|@ripaojiedian
+  network: tcp
+  port: '15606'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 6|香港7|@ripaojiedian
+  network: tcp
+  port: '35996'
+  server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
