@@ -1,46 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|美国|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: hk.wish.ml
-  servername: ''
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: 7J6952
+  port: 443
+  server: tj526.37927.online
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: us6_0.wish.ml
-    path: /
+  sni: tj526.37927.online
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 5,6|美国2|@ripaojiedian
   network: ws
-  port: '8880'
+  port: '2082'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f
+  uuid: bb1af7d3-9526-44f1-9155-788773cc629e
   ws-opts:
     headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国3|@ripaojiedian
-  password: oj9Ibl
-  port: 443
-  server: tj71.37927.online
-  skip-cert-verify: false
-  sni: tj71.37927.online
-  type: trojan
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - client-fingerprint: chrome
   name: 5,8|CN_speednode_0014
   network: tcp

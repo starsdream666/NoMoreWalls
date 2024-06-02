@@ -66,14 +66,23 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- client-fingerprint: chrome
-  name: 5|🇭🇰 香港6|@ripaojiedian
-  password: 4CCF9A9AB80E9889198B02ECE7FA08DD
-  port: 43002
-  server: j0078.ruixiangseo.xyz
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|香港6|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: yes.cnmjcn.net
+  servername: ''
   skip-cert-verify: false
-  sni: j0078.ruixiangseo.xyz
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -85,6 +94,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 33aefd89-3285-4347-9083-6249711f02e9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|香港8|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: m.cnmjin.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 6|香港|@ripaojiedian

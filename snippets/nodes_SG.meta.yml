@@ -4,24 +4,24 @@ proxies:
   client-fingerprint: chrome
   name: 5,6|新加坡|@ripaojiedian
   network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
+  port: '8880'
+  server: yx3.gyyun.top
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f
+  uuid: e82599ab-9583-48ea-a80f-bf42faf6c72d
   ws-opts:
     headers:
-      Host: rpmlybgzsg2.yofnhkfc.xyz
-    path: /video/3YKfzGw4
-- cipher: aes-128-gcm
+      Host: lxjp1.gyyun.top
+    path: /?ed
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡2|@ripaojiedian
-  password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee
-  port: 32652
-  server: xiaonangua.lwjyj.com
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.128.230.112
   tfo: false
   type: ss
 - client-fingerprint: random
