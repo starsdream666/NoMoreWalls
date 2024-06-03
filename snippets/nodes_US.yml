@@ -17,7 +17,7 @@ proxies:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
 - client-fingerprint: chrome
-  name: 5,8|CN_speednode_0014
+  name: 5,8|CN_speednode_0006
   network: tcp
   password: TNDSJfNv
   port: 4603

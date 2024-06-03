@@ -28,16 +28,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 33aefd89-3285-4347-9083-6249711f02e9
-- name: 8|SG_speednode_0106
-  network: ws
-  password: b84d16a244460e09
-  port: 3306
-  server: 5.44.249.44
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: TG.WangCai_1
-    path: /gateway/connect

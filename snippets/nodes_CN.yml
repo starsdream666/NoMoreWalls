@@ -1,8 +1,1 @@
-proxies:
-- name: 8|CN_speednode_0013
-  network: tcp
-  password: TNDSJfNv
-  port: 29529
-  server: 120.236.196.21
-  skip-cert-verify: true
-  type: trojan
+proxies: []
