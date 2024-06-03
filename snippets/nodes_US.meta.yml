@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: 7J6952
-  port: 443
-  server: tj526.37927.online
-  skip-cert-verify: false
-  sni: tj526.37927.online
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
