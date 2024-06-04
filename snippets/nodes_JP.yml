@@ -1,1 +1,83 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本|@ripaojiedian
+  password: gkviEOYc
+  port: 23051
+  server: 36.151.195.48
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本2|@ripaojiedian
+  password: DyF9KXR8gx5EclDF6pT2lS3BejSRDazY7C0aYwaOApn33ZquZyIOex4CS83NAC
+  port: 28333
+  server: nagoya.meijireform.com
+  skip-cert-verify: false
+  sni: nagoya.meijireform.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本3|@ripaojiedian
+  port: 61002
+  server: 183.232.170.47
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|日本4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: jp5g.forlive.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本5|@ripaojiedian
+  port: 38997
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.182.65.163
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|日本3|@ripaojiedian
+  network: tcp
+  port: '61002'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 6|日本5|@ripaojiedian
+  network: tcp
+  port: '38997'
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
