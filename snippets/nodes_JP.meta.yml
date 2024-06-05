@@ -2,18 +2,27 @@ proxies:
 - client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
   password: gkviEOYc
-  port: 23051
-  server: 36.151.195.48
+  port: 23621
+  server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: 5|🇯🇵 日本2|@ripaojiedian
-  password: DyF9KXR8gx5EclDF6pT2lS3BejSRDazY7C0aYwaOApn33ZquZyIOex4CS83NAC
-  port: 28333
-  server: nagoya.meijireform.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|日本2|@ripaojiedian
+  network: ws
+  port: '49232'
+  server: 167.88.184.129
+  servername: ''
   skip-cert-verify: false
-  sni: nagoya.meijireform.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1a331b20-4822-4c5f-b1ec-206a86d51b7c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -25,23 +34,14 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 5,6|日本4|@ripaojiedian
-  network: ws
-  port: '80'
-  server: jp5g.forlive.live
-  servername: ''
-  skip-cert-verify: false
+  name: 5|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
   tfo: false
-  tls: false
-  type: vmess
-  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -53,12 +53,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 33aefd89-3285-4347-9083-6249711f02e9
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本6|@ripaojiedian
+  password: 7FwCA6Z9SyIagBDz0OaY3ep88z0OaY3ep88lKn343pFjE3SyORcRlZqDxAuxXC3SyORcR
+  port: 28332
+  server: terture.meijireform.com
+  skip-cert-verify: false
+  sni: terture.meijireform.com
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.182.65.163
+  server: 43.202.43.179
   tfo: false
   type: ss
 - alterId: 0

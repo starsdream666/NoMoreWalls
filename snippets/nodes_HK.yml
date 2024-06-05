@@ -19,30 +19,32 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
-  port: 15607
-  server: 183.232.199.61
+  port: 15601
+  server: 183.232.199.28
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 5|🇭🇰 香港2|@ripaojiedian
-  port: 15604
-  server: 183.232.199.61
+  network: ws
+  password: moist
+  port: 2083
+  server: 47.243.67.28
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港3|@ripaojiedian
-  port: 15604
-  server: 183.232.170.47
+  port: 15603
+  server: 183.232.199.28
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -51,16 +53,16 @@ proxies:
 - client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: gkviEOYc
-  port: 443
-  server: 116.48.93.133
+  port: 4027
+  server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港5|@ripaojiedian
-  port: 15610
-  server: 183.232.199.28
+  port: 15601
+  server: 183.232.199.61
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -87,6 +89,17 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港7|@ripaojiedian
+  port: 15605
+  server: 183.232.199.28
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港8|@ripaojiedian
   port: 15610
   server: 183.232.170.47
   skip-cert-verify: false
@@ -106,18 +119,8 @@ proxies:
   cipher: auto
   name: 6|香港|@ripaojiedian
   network: tcp
-  port: '15607'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 6|香港2|@ripaojiedian
-  network: tcp
-  port: '15604'
-  server: 183.232.199.61
+  port: '15601'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
@@ -126,8 +129,8 @@ proxies:
   cipher: auto
   name: 6|香港3|@ripaojiedian
   network: tcp
-  port: '15604'
-  server: 183.232.170.47
+  port: '15603'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
@@ -136,8 +139,8 @@ proxies:
   cipher: auto
   name: 6|香港5|@ripaojiedian
   network: tcp
-  port: '15610'
-  server: 183.232.199.28
+  port: '15601'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
@@ -145,6 +148,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|香港7|@ripaojiedian
+  network: tcp
+  port: '15605'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 6|香港8|@ripaojiedian
   network: tcp
   port: '15610'
   server: 183.232.170.47
