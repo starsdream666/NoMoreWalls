@@ -1,4 +1,42 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|台湾|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 34.81.112.149
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 05a85ce3-0522-4a84-95c9-8bf79641ea80
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇹🇼 台湾 2|@ripaojiedian
+  port: 48821
+  server: dxcdn02.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2e315d3b-c76d-4f62-bed1-f08a140fa4c1
+- alterId: 0
+  cipher: auto
+  name: 6|台湾 2|@ripaojiedian
+  network: tcp
+  port: '48821'
+  server: dxcdn02.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e315d3b-c76d-4f62-bed1-f08a140fa4c1
 - client-fingerprint: chrome
   name: 8|TW_speednode_0111
   network: ws

@@ -2,14 +2,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  port: 40096
-  server: 183.232.170.47
+  name: 5,6|美国|@ripaojiedian
+  network: ws
+  port: '2053'
+  server: speed.renwox.xyz
+  servername: asxgek.renwox.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 918dbe24-9db1-4d34-8c0e-e1ba8d2e2b5c
+  ws-opts:
+    headers:
+      Host: asxgek.renwox.xyz
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -25,8 +31,25 @@ proxies:
   uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09
   ws-opts:
     headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-    path: /video/QXjZG5u4F2
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: hsj108k.mm-cc.top
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 912e72b1-91c9-42b1-b16f-c4a823171388
+  ws-opts:
+    headers:
+      Host: buylas.mmaccc.top
+    path: /Mboxx
 - client-fingerprint: chrome
   name: 5,8|CN_speednode_0013
   network: tcp
@@ -50,16 +73,6 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|美国|@ripaojiedian
-  network: tcp
-  port: '40096'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - client-fingerprint: chrome
   name: 8|US_speednode_0122
   network: ws

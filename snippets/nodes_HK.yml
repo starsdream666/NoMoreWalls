@@ -15,41 +15,36 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
-  port: 15601
-  server: 183.232.199.28
+  password: 0de41793-cd10-4e5f-93ac-0ca82fe4e8c9
+  port: 34000
+  server: 124.225.86.196
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- client-fingerprint: chrome
-  name: 5|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  password: moist
-  port: 2083
-  server: 47.243.67.28
-  skip-cert-verify: false
-  sni: trojan.freenods.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /?ed=2560
-- alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港3|@ripaojiedian
-  port: 15603
-  server: 183.232.199.28
+  port: 50004
+  server: 112.132.212.19
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 5|🇭🇰 香港4|@ripaojiedian
   password: gkviEOYc
@@ -57,17 +52,19 @@ proxies:
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 5|🇭🇰 香港5|@ripaojiedian
-  port: 15601
-  server: 183.232.199.61
+  network: ws
+  password: moist
+  port: 2087
+  server: 8.210.203.7
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -89,24 +86,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港7|@ripaojiedian
-  port: 15605
-  server: 183.232.199.28
+  port: 44805
+  server: hkscdn02.dorabbb.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇭🇰 香港8|@ripaojiedian
-  port: 15610
-  server: 183.232.170.47
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 2e315d3b-c76d-4f62-bed1-f08a140fa4c1
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇭🇰 香港R|@ripaojiedian
@@ -115,53 +101,33 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 6|香港|@ripaojiedian
+  name: 6|香港2|@ripaojiedian
   network: tcp
-  port: '15601'
-  server: 183.232.199.28
+  port: '51193'
+  server: 183.238.202.173
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
   cipher: auto
   name: 6|香港3|@ripaojiedian
   network: tcp
-  port: '15603'
-  server: 183.232.199.28
+  port: '50004'
+  server: 112.132.212.19
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 6|香港5|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 6|香港7|@ripaojiedian
   network: tcp
-  port: '15605'
-  server: 183.232.199.28
+  port: '44805'
+  server: hkscdn02.dorabbb.top
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 6|香港8|@ripaojiedian
-  network: tcp
-  port: '15610'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 2e315d3b-c76d-4f62-bed1-f08a140fa4c1
