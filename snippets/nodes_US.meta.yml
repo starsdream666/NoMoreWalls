@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: lWaGPVFjmnag
+  port: 443
+  server: 205.134.180.139
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 5,8|CN_speednode_0013
   network: tcp
