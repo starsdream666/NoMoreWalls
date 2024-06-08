@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.114.114.207
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: gkviEOYc
