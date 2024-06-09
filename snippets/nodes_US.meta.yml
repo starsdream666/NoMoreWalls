@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国|@ripaojiedian
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.114.114.207
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国2|@ripaojiedian
   password: b48b4d1b-9c5a-4c9d-8297-251bae2a23e6
@@ -7,6 +15,14 @@ proxies:
   skip-cert-verify: false
   sni: id-full.privateip.net
   type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 5|🇺🇸 美国3|@ripaojiedian
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: gkviEOYc
