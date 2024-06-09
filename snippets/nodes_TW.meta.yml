@@ -1,24 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|台湾|@ripaojiedian
-  network: ws
-  port: '43794'
-  server: 103.30.78.115
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ecfdd8d9-4597-4cc3-afae-45ac166aa47e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian 2
-  password: 187d7254-9574-4da1-9f53-0bbc02dbd027
+  name: 5|🇹🇼 台湾|@ripaojiedian
+  password: f28563da-8d5a-45d5-91da-1047a555b3c8
   port: 41003
   server: dc0.forlive.live
   skip-cert-verify: false
