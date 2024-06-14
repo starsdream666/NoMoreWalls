@@ -25,7 +25,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 8|SG_speednode_0086
+  name: 8|SG_speednode_0074
   network: ws
   port: 2053
   server: 47.236.125.62

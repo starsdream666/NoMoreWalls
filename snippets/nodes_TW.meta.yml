@@ -34,7 +34,7 @@ proxies:
   type: vmess
   uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0087
+  name: 8|TW_speednode_0075
   network: ws
   port: 443
   server: 103.137.63.3
@@ -48,7 +48,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|TW_speednode_0088
+  name: 8|TW_speednode_0076
   network: ws
   port: 34237
   server: 61.221.116.146
@@ -62,7 +62,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: random
-  name: 8|TW_speednode_0089
+  name: 8|TW_speednode_0077
   network: ws
   port: 36633
   server: 61.220.41.143
@@ -78,7 +78,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: /TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0090
+  name: 8|TW_speednode_0078
   network: ws
   port: 23555
   server: 211.72.156.10
@@ -94,7 +94,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: /TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0091
+  name: 8|TW_speednode_0079
   network: ws
   port: 23555
   server: 118.163.175.167
@@ -110,26 +110,10 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: /TG@ZDYZ2
 - client-fingerprint: random
-  name: 8|TW_speednode_0092
+  name: 8|TW_speednode_0080
   network: ws
   port: 23555
   server: 60.249.89.74
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /TG@ZDYZ2
-- client-fingerprint: random
-  name: 8|TW_speednode_0093
-  network: ws
-  port: 443
-  server: 104.199.233.220
   servername: cfed.tgzdyz2.top
   skip-cert-verify: true
   tfo: false

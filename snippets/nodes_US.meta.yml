@@ -53,7 +53,7 @@ proxies:
       Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
     path: /
 - client-fingerprint: chrome
-  name: 8|US_speednode_0094
+  name: 8|US_speednode_0081
   network: ws
   port: 8443
   server: 198.176.49.211
@@ -67,7 +67,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0095
+  name: 8|US_speednode_0082
   network: ws
   port: 60559
   server: 156.251.176.11
@@ -81,7 +81,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0096
+  name: 8|US_speednode_0083
   network: ws
   port: 38337
   server: 156.251.176.112
@@ -95,7 +95,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0097
+  name: 8|US_speednode_0084
   network: ws
   port: 43786
   server: 156.251.176.108
@@ -109,7 +109,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0098
+  name: 8|US_speednode_0085
   network: ws
   port: 46010
   server: 156.251.176.109
@@ -123,35 +123,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0099
-  network: ws
-  port: 2096
-  server: hdhome.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0100
-  network: ws
-  port: 564
-  server: 154.17.0.80
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0101
+  name: 8|US_speednode_0086
   network: ws
   port: 14547
   server: 154.21.83.15
@@ -165,35 +137,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0102
-  network: ws
-  port: 6667
-  server: 154.17.29.69
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0103
-  network: ws
-  port: 6619
-  server: 154.21.94.105
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0104
+  name: 8|US_speednode_0087
   network: ws
   port: 24584
   server: 154.21.82.30
@@ -207,7 +151,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0105
+  name: 8|US_speednode_0088
   network: ws
   port: 42742
   server: 154.21.95.113
@@ -221,7 +165,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0106
+  name: 8|US_speednode_0089
   network: ws
   port: 8081
   server: 154.17.12.26
@@ -235,21 +179,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0107
-  network: ws
-  port: 443
-  server: 199.19.108.169
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0108
+  name: 8|US_speednode_0090
   network: ws
   port: 443
   server: 80.251.210.37
@@ -263,7 +193,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0109
+  name: 8|US_speednode_0091
   network: ws
   port: 443
   server: 64.64.253.141
@@ -277,7 +207,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0110
+  name: 8|US_speednode_0092
   network: ws
   port: 443
   server: 67.230.161.189
@@ -291,7 +221,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 8|US_speednode_0111
+  name: 8|US_speednode_0093
   network: ws
   port: 443
   server: 216.24.184.128
@@ -305,7 +235,7 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: random
-  name: 8|US_speednode_0121
+  name: 8|US_speednode_0103
   network: ws
   port: 2053
   security: tls
@@ -321,7 +251,7 @@ proxies:
       host: juzibaipiao.5112233.xyz
     path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0113
+  name: 8|US_speednode_0095
   network: ws
   port: 443
   server: 167.68.11.48
@@ -337,7 +267,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 8|US_speednode_0114
+  name: 8|US_speednode_0096
   network: ws
   port: 443
   server: 45.159.216.65
@@ -352,7 +282,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- name: 8|US_speednode_0115
+- name: 8|US_speednode_0097
   network: ws
   port: 8443
   server: 209.46.30.217
@@ -364,7 +294,7 @@ proxies:
     headers:
       host: fq521.6789.cloudns.be
     path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
-- name: 8|US_speednode_0116
+- name: 8|US_speednode_0098
   network: ws
   port: 443
   server: 170.114.45.25
@@ -377,7 +307,7 @@ proxies:
       host: juzibaipiao.5112233.xyz
     path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0117
+  name: 8|US_speednode_0099
   network: ws
   port: 443
   server: 185.148.106.96
@@ -392,7 +322,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- name: 8|US_speednode_0118
+- name: 8|US_speednode_0100
   network: ws
   port: 2087
   server: 45.159.217.54
@@ -404,7 +334,7 @@ proxies:
     headers:
       host: fq521.6789.cloudns.be
     path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
-- name: 8|US_speednode_0119
+- name: 8|US_speednode_0101
   network: ws
   port: 2083
   server: 216.205.52.109
@@ -416,7 +346,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|US_speednode_0120
+- name: 8|US_speednode_0102
   network: ws
   port: 2096
   server: 14.102.228.210
@@ -428,7 +358,7 @@ proxies:
     headers:
       host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|US_speednode_0122
+- name: 8|US_speednode_0104
   network: ws
   port: 8443
   server: 159.112.235.14
@@ -441,7 +371,7 @@ proxies:
       host: juzibaipiao.5112233.xyz
     path: /
 - client-fingerprint: random
-  name: 8|US_speednode_0123
+  name: 8|US_speednode_0105
   network: ws
   port: 8443
   server: 89.116.161.250
