@@ -4,30 +4,30 @@ proxies:
   client-fingerprint: chrome
   name: 5,6|美国2|@ripaojiedian
   network: ws
-  port: '8080'
+  port: '8880'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a
+  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
   ws-opts:
     headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
-  password: gkviEOYc
-  port: 50611
-  server: 183.232.139.22
-  skip-cert-verify: true
-  type: trojan
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: gkviEOYc
   port: 23223
   server: 223.113.54.160
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国5|@ripaojiedian
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
@@ -38,17 +38,3 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|美国3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: www.udemy.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9ec8e28-691a-465a-8d08-9ec3206fdb83
-  ws-opts:
-    headers:
-      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
-    path: /
