@@ -18,20 +18,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|香港|@ripaojiedian
-  network: ws
-  port: '16627'
-  server: 120.232.240.46
-  servername: ''
+  name: 5|🇭🇰 香港|@ripaojiedian
+  port: 32006
+  server: alm1.the-galgo.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /niuniu
+  uuid: 4fbc3eea-9b2d-4296-bf65-d9bfa0802958
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -103,6 +97,16 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|香港|@ripaojiedian
+  network: tcp
+  port: '32006'
+  server: alm1.the-galgo.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4fbc3eea-9b2d-4296-bf65-d9bfa0802958
 - alterId: 64
   cipher: auto
   name: 6|香港2|@ripaojiedian

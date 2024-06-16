@@ -16,11 +16,28 @@ proxies:
     headers:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国3|@ripaojiedian
+  network: ws
+  port: '16928'
+  server: 120.232.240.56
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+    path: /v2ray
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: gkviEOYc
-  port: 23223
-  server: 223.113.54.160
+  port: 53981
+  server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
@@ -28,7 +45,7 @@ proxies:
   password: gkviEOYc
   port: 50611
   server: 183.232.139.22
-  skip-cert-verify: true
+  skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -36,7 +53,7 @@ proxies:
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
-  tfo: false
+  tfo: true
   type: ss
 - client-fingerprint: chrome
   name: 8|US_speednode_0081
