@@ -11,7 +11,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
+  uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a
   ws-opts:
     headers:
       Host: us6gzxQRrE4.fzbqfrse.xyz
@@ -45,7 +45,7 @@ proxies:
   password: gkviEOYc
   port: 50611
   server: 183.232.139.22
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -53,5 +53,5 @@ proxies:
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
-  tfo: true
+  tfo: false
   type: ss
