@@ -45,7 +45,7 @@ proxies:
   password: gkviEOYc
   port: 50611
   server: 183.232.139.22
-  skip-cert-verify: true
+  skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -53,5 +53,5 @@ proxies:
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
-  tfo: false
+  tfo: true
   type: ss
