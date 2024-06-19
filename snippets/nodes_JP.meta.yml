@@ -9,20 +9,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|日本2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
+  name: 5|🇯🇵 日本2|@ripaojiedian
+  port: 35594
+  server: 45.159.50.136
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a
-  ws-opts:
-    headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
+  uuid: 2b6651cd-922c-4c1b-8a0a-3386d6f4187f
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本R|@ripaojiedian
@@ -39,6 +33,16 @@ proxies:
   server: 43.203.126.152
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|日本2|@ripaojiedian
+  network: tcp
+  port: '35594'
+  server: 45.159.50.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2b6651cd-922c-4c1b-8a0a-3386d6f4187f
 - client-fingerprint: chrome
   name: 8|JP_speednode_0025
   network: ws

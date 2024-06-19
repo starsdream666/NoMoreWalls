@@ -1,21 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|新加坡|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
+- client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: ZjDFnKyD5Sxelz43Cay83upeC3Cay83upeCApEROYIxFlD3CcRg2a9Yq8TBOAZD3CcRg2
+  port: 28332
+  server: mention.protocolbuffer.com
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
+  sni: mention.protocolbuffer.com
+  type: trojan
 - client-fingerprint: chrome
   name: 8|SG_speednode_0074
   network: ws
