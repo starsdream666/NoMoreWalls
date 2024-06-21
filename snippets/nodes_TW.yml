@@ -12,14 +12,6 @@ proxies:
   uuid: db3c11d8-ae65-40ff-a256-babee94056f6
 - client-fingerprint: chrome
   name: 5|🇹🇼 台湾2|@ripaojiedian
-  password: 474fc263-23f8-44f6-b9d1-ebe3da9850d8
-  port: 41003
-  server: dc0.forlive.live
-  skip-cert-verify: false
-  sni: ssl.sbgfw.info
-  type: trojan
-- client-fingerprint: chrome
-  name: 5|🇹🇼 台湾2|@ripaojiedian 2
   network: ws
   password: moist
   port: 23555
@@ -31,6 +23,14 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: 5|🇹🇼 台湾3|@ripaojiedian
+  password: ee84695e-978f-40cf-8590-5c36a19de984
+  port: 21876
+  server: 103twai.aixunx168.top
+  skip-cert-verify: false
+  sni: aixunx168.top
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 6|台湾|@ripaojiedian

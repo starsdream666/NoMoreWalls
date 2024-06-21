@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 8|CN_speednode_0004
+  name: 8|CN_speednode_0001
   network: ws
   port: 443
   server: 103.44.255.27
@@ -15,3 +15,70 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0024
+  port: 33210
+  server: 81.70.55.129
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- alterId: -1
+  client-fingerprint: chrome
+  name: 8|CN_speednode_0020
+  port: 33210
+  server: 42.194.187.178
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0026
+  port: 5050
+  server: 221.216.40.40
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- alterId: -1
+  client-fingerprint: chrome
+  name: 8|CN_speednode_0031
+  port: 7192
+  server: 47.105.37.46
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0028
+  port: 7890
+  server: 153.34.223.188
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0033
+  port: 7890
+  server: 118.180.49.24
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 8|CN_speednode_0035
+  port: 7890
+  server: 113.123.18.251
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- alterId: -1
+  client-fingerprint: chrome
+  name: 8|CN_speednode_0037
+  port: 33210
+  server: 82.157.163.148
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true

@@ -18,9 +18,9 @@ proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
-  password: 5927ef13-7c5f-4b12-bdc8-7c295242a640
-  port: 58116
-  server: 03-neibuyong.gangbi.vip
+  password: d120b30e-af93-4bf9-b15f-9fdcf38d3126
+  port: 14658
+  server: video.111365.xyz
   tfo: false
   type: ss
 - alterId: 64
@@ -45,21 +45,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 5|🇭🇰 香港4|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,8|CN_speednode_0015
   password: gkviEOYc
   port: 4027
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 5|🇭🇰 香港5|@ripaojiedian
-  password: 93902842-fc34-40e9-901c-3b76299fd008
-  port: 1002
-  server: plie.5hihwoqjshdnxjahweqsda.shanghaiyige.cyou
-  tfo: false
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇭🇰 香港R|@ripaojiedian

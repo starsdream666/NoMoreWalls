@@ -7,17 +7,22 @@ proxies:
   skip-cert-verify: false
   sni: mention.protocolbuffer.com
   type: trojan
-- client-fingerprint: chrome
-  name: 8|SG_speednode_0074
-  network: ws
-  port: 2053
-  server: 47.236.125.62
-  skip-cert-verify: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡2|@ripaojiedian
+  port: 32015
+  server: alm1.the-galgo.top
+  skip-cert-verify: false
   tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
+  tls: false
+  type: vmess
+  uuid: db3c11d8-ae65-40ff-a256-babee94056f6
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.195.8.183
+  tfo: false
+  type: ss
