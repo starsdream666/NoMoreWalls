@@ -1,15 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  port: 32011
-  server: alm1.the-galgo.top
+- client-fingerprint: chrome
+  name: 5|🇹🇼 台湾3|@ripaojiedian
+  password: ee84695e-978f-40cf-8590-5c36a19de984
+  port: 21876
+  server: 103twai.aixunx168.top
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: db3c11d8-ae65-40ff-a256-babee94056f6
+  sni: aixunx168.top
+  type: trojan
 - client-fingerprint: chrome
   name: 5|🇹🇼 台湾2|@ripaojiedian
   network: ws
@@ -23,14 +20,6 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 5|🇹🇼 台湾3|@ripaojiedian
-  password: ee84695e-978f-40cf-8590-5c36a19de984
-  port: 21876
-  server: 103twai.aixunx168.top
-  skip-cert-verify: false
-  sni: aixunx168.top
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 6|台湾|@ripaojiedian
