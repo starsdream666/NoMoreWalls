@@ -57,6 +57,15 @@ proxies:
   tls: false
   type: http
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 8|CN_speednode_0038
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 8|CN_speednode_0033
   port: 7890
