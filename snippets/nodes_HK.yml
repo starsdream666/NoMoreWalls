@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a4.wagaga.online
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.114.125
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -21,17 +37,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 5|🇭🇰 香港3|@ripaojiedian
-  port: 45449
-  server: xctransfer1st.cokecloud.top
+  port: 50004
+  server: 112.132.212.19
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ac46df23-50be-41d9-8a09-c65d178e9153
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -70,13 +86,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: 6|香港3|@ripaojiedian
   network: tcp
-  port: '45449'
-  server: xctransfer1st.cokecloud.top
+  port: '50004'
+  server: 112.132.212.19
   servername: ''
   tls: false
   type: vmess
-  uuid: ac46df23-50be-41d9-8a09-c65d178e9153
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

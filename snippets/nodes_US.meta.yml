@@ -16,30 +16,14 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /v2ray
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: 56INZqMWGt0o8Rv4
+  port: 1026
+  server: 45.61.57.7
   tfo: false
-  tls: false
-  type: vmess
-  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
-  ws-opts:
-    headers:
-      Host: us1cPZiz8nb.fzbqfrse.xyz
-    path: /video/6VBhAkCtV4/
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国4|@ripaojiedian
-  password: RmdXQRXg
-  port: 45365
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
+  type: ss
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: RmdXQRXg
@@ -47,6 +31,30 @@ proxies:
   server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国4|@ripaojiedian
+  password: RmdXQRXg
+  port: 45365
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|美国6|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
   name: 8|US_speednode_0257
   network: ws
