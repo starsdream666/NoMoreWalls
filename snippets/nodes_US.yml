@@ -16,25 +16,10 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /v2ray
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国2|@ripaojiedian
-  password: 56INZqMWGt0o8Rv4
-  port: 1026
-  server: 45.61.57.7
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国5|@ripaojiedian
-  password: RmdXQRXg
-  port: 27119
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
-  port: 45365
+  port: 20344
   server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
