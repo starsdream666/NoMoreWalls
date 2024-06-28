@@ -23,6 +23,14 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本3|@ripaojiedian
+  password: f3a57086-06b5-498b-ae88-937c4f958ff4
+  port: 31997
+  server: 108jpai.aixunx168.top
+  skip-cert-verify: false
+  sni: aixunx168.top
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
