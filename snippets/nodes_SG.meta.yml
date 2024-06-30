@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: bfc552e8-2607-4386-9c90-81437ac5ba23
-  port: 2024
-  server: sg6.naizi.vip
-  skip-cert-verify: false
-  sni: sg6.naizi.vip
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 新加坡2|@ripaojiedian
