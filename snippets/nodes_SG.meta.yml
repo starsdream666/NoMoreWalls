@@ -32,7 +32,7 @@ proxies:
   server: 52.221.223.215
   tfo: false
   type: ss
-- name: 8|SG_speednode_0372
+- name: 8|SG_speednode_0195
   network: ws
   port: 2087
   server: 47.236.10.182
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: vt.ylkszy.eu.org
     path: /
-- name: 8|SG_speednode_0373
+- name: 8|SG_speednode_0196
   network: ws
   port: 2096
   server: 47.236.80.110
@@ -56,7 +56,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 8|SG_speednode_0374
+- name: 8|SG_speednode_0197
   network: ws
   port: 2053
   server: 47.236.180.51
@@ -68,7 +68,7 @@ proxies:
     headers:
       Host: kkt.ylks.link
     path: /freecodes
-- name: 8|SG_speednode_0375
+- name: 8|SG_speednode_0198
   network: ws
   port: 2053
   server: 47.236.10.182
@@ -80,7 +80,7 @@ proxies:
     headers:
       Host: jpt.ylks01.eu.org
     path: /freecodes
-- name: 8|SG_speednode_0381
+- name: 8|SG_speednode_0204
   network: ws
   port: 2083
   server: 47.236.165.25
@@ -92,7 +92,7 @@ proxies:
     headers:
       Host: vt.ylkszy.eu.org
     path: /
-- name: 8|SG_speednode_0380
+- name: 8|SG_speednode_0203
   network: ws
   port: 2087
   server: 47.236.202.91
@@ -104,7 +104,7 @@ proxies:
     headers:
       Host: vt.ylks.link
     path: /
-- name: 8|SG_speednode_0379
+- name: 8|SG_speednode_0202
   network: ws
   port: 2083
   server: 47.236.10.182
@@ -116,7 +116,7 @@ proxies:
     headers:
       Host: xint.ylks.link
     path: /freecodes
-- name: 8|SG_speednode_0382
+- name: 8|SG_speednode_0205
   network: ws
   port: 2083
   server: 47.236.232.148
@@ -130,7 +130,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0383
+- name: 8|SG_speednode_0206
   network: ws
   port: 8443
   server: 47.236.80.110
@@ -144,7 +144,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0384
+- name: 8|SG_speednode_0207
   network: ws
   port: 2096
   server: 47.236.10.182
@@ -158,7 +158,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0385
+- name: 8|SG_speednode_0208
   network: ws
   port: 2087
   server: 8.219.124.227
@@ -172,7 +172,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0386
+- name: 8|SG_speednode_0209
   network: ws
   port: 8443
   server: 47.236.232.148
@@ -186,7 +186,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0387
+- name: 8|SG_speednode_0210
   network: ws
   port: 8443
   server: 47.236.202.91
@@ -198,7 +198,7 @@ proxies:
     headers:
       Host: vt.ylks.link
     path: /
-- name: 8|SG_speednode_0388
+- name: 8|SG_speednode_0211
   network: ws
   port: 443
   server: 8.219.111.147
@@ -210,7 +210,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 8|SG_speednode_0389
+- name: 8|SG_speednode_0212
   network: ws
   port: 2083
   server: 8.219.111.147
@@ -224,7 +224,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0390
+- name: 8|SG_speednode_0213
   network: ws
   port: 2053
   server: 47.236.254.120
@@ -238,7 +238,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0391
+- name: 8|SG_speednode_0214
   network: ws
   port: 2087
   server: 8.219.237.250
@@ -252,7 +252,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0392
+- name: 8|SG_speednode_0215
   network: ws
   port: 2053
   server: 47.236.189.92
@@ -266,7 +266,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0393
+- name: 8|SG_speednode_0216
   network: ws
   port: 2087
   server: 47.236.145.85
@@ -280,7 +280,7 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0394
+- name: 8|SG_speednode_0217
   network: ws
   port: 443
   server: 8.222.204.128
@@ -292,7 +292,7 @@ proxies:
     headers:
       Host: dns68.putata.eu.org
     path: /
-- name: 8|SG_speednode_0395
+- name: 8|SG_speednode_0218
   network: ws
   port: 54774
   server: 129.150.62.252
@@ -304,7 +304,7 @@ proxies:
     headers:
       Host: xint.ylks.link
     path: /freecodes
-- name: 8|SG_speednode_0405
+- name: 8|SG_speednode_0228
   network: ws
   port: 443
   server: 27.50.49.13
@@ -318,7 +318,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
-- name: 8|SG_speednode_0397
+- name: 8|SG_speednode_0220
   network: ws
   port: 8443
   server: 27.50.49.232
@@ -332,7 +332,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 8|SG_speednode_0400
+- name: 8|SG_speednode_0223
   network: ws
   port: 36322
   server: 168.138.179.107
@@ -344,7 +344,7 @@ proxies:
     headers:
       Host: vt.ylkszy.eu.org
     path: /
-- name: 8|SG_speednode_0399
+- name: 8|SG_speednode_0222
   network: ws
   port: 443
   server: 27.50.48.222
@@ -358,7 +358,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 8|SG_speednode_0401
+- name: 8|SG_speednode_0224
   network: ws
   port: 41746
   server: 152.69.219.31
@@ -370,7 +370,7 @@ proxies:
     headers:
       Host: kkt.ylks.link
     path: /freecodes
-- name: 8|SG_speednode_0402
+- name: 8|SG_speednode_0225
   network: ws
   port: 19081
   server: 168.138.160.54
@@ -382,7 +382,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /
-- name: 8|SG_speednode_0403
+- name: 8|SG_speednode_0226
   network: ws
   port: 443
   server: 206.238.236.185
@@ -394,7 +394,7 @@ proxies:
     headers:
       Host: kkt.ylks.link
     path: /freecodes
-- name: 8|SG_speednode_0404
+- name: 8|SG_speednode_0227
   network: ws
   port: 443
   server: 27.50.48.108
@@ -406,7 +406,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|SG_speednode_0406
+- name: 8|SG_speednode_0229
   network: ws
   port: 443
   server: 206.238.237.150
@@ -418,7 +418,7 @@ proxies:
     headers:
       Host: vt.ylks.link
     path: /
-- name: 8|SG_speednode_0407
+- name: 8|SG_speednode_0230
   network: ws
   port: 443
   server: 206.238.237.151
@@ -430,7 +430,7 @@ proxies:
     headers:
       Host: hkt.ylks.link
     path: /
-- name: 8|SG_speednode_0408
+- name: 8|SG_speednode_0231
   network: ws
   port: 443
   server: 206.238.236.161
@@ -442,7 +442,7 @@ proxies:
     headers:
       Host: zdyt.kpcloud.eu.org
     path: /freecodes
-- name: 8|SG_speednode_0409
+- name: 8|SG_speednode_0232
   network: ws
   port: 443
   server: 206.238.237.49
@@ -454,7 +454,7 @@ proxies:
     headers:
       Host: kkt.ylks.link
     path: /freecodes
-- name: 8|SG_speednode_0410
+- name: 8|SG_speednode_0233
   network: ws
   port: 443
   server: 206.238.236.170

@@ -33,23 +33,21 @@ proxies:
     headers:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
-- alterId: 0
-  client-fingerprint: chrome
-  name: 5,8|CN_speednode_0173
+- client-fingerprint: chrome
+  name: 5|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
   port: 20344
   server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: 8|US_speednode_0420
+- name: 8|US_speednode_0243
   password: 468a7536-0967-43ff-8d93-ff83f7b4e731
   port: 8888
   server: vir.mjjloc.xyz
   sni: vir.mjjloc.xyz
   type: trojan
   udp: true
-- name: 8|US_speednode_0435
+- name: 8|US_speednode_0258
   network: ws
   password: NISHIKUITAN222
   port: 443

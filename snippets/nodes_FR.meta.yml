@@ -1,5 +1,5 @@
 proxies:
-- name: 8|FR_speednode_0243
+- name: 8|FR_speednode_0066
   network: ws
   port: 2053
   server: 46.105.170.124
