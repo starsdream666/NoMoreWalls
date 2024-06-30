@@ -1,9 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  password: ee84695e-978f-40cf-8590-5c36a19de984
-  port: 21876
-  server: 103twai.aixunx168.top
-  skip-cert-verify: false
-  sni: aixunx168.top
-  type: trojan
+proxies: []

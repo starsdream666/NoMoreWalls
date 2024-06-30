@@ -6,31 +6,25 @@ proxies:
   server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本2|@ripaojiedian
+  password: edf4caf7-6788-31a8-9893-93c053f7bbc2
+  port: 61001
+  server: 4.forlive.live
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|日本2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
+  name: 5|🇯🇵 日本3|@ripaojiedian
+  port: 55218
+  server: 103.85.25.134
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: afa7ee50-d214-4a54-a558-e5c96480916d
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
-- client-fingerprint: chrome
-  name: 5|🇯🇵 日本3|@ripaojiedian
-  password: f3a57086-06b5-498b-ae88-937c4f958ff4
-  port: 31997
-  server: 108jpai.aixunx168.top
-  skip-cert-verify: false
-  sni: aixunx168.top
-  type: trojan
+  uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -55,6 +49,23 @@ proxies:
   skip-cert-verify: false
   sni: aixunx168.top
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,6|日本6|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本R|@ripaojiedian
@@ -68,9 +79,19 @@ proxies:
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.219.151.61
+  server: 3.39.227.28
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|日本3|@ripaojiedian
+  network: tcp
+  port: '55218'
+  server: 103.85.25.134
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
 - alterId: 0
   cipher: auto
   name: 6|日本4|@ripaojiedian

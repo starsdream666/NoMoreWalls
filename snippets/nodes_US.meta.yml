@@ -16,68 +16,196 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /v2ray
-- client-fingerprint: chrome
-  name: 5|🇺🇸 美国4|@ripaojiedian
-  password: RmdXQRXg
-  port: 20344
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国5|@ripaojiedian
+  name: 5,6|美国2|@ripaojiedian
   network: ws
-  port: '8080'
+  port: '2082'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: afa7ee50-d214-4a54-a558-e5c96480916d
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
   ws-opts:
     headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
-- cipher: aes-256-gcm
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
+- alterId: 0
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国6|@ripaojiedian
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 67.220.85.74
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 8|US_speednode_0257
+  name: 5,8|CN_speednode_0173
+  password: RmdXQRXg
+  port: 20344
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 8|US_speednode_0420
+  password: 468a7536-0967-43ff-8d93-ff83f7b4e731
+  port: 8888
+  server: vir.mjjloc.xyz
+  sni: vir.mjjloc.xyz
+  type: trojan
+  udp: true
+- name: 8|US_speednode_0424
+  network: ws
+  port: 80
+  server: 66.81.247.161
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0425
+  network: ws
+  port: 80
+  server: 155.46.213.100
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0426
+  network: ws
+  port: 443
+  server: 199.181.197.39
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 8|US_speednode_0427
   network: ws
   port: 8443
-  server: 198.176.49.211
-  skip-cert-verify: true
-  tfo: false
+  server: 167.68.5.90
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0262
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 8|US_speednode_0428
   network: ws
-  port: 46010
-  server: 156.251.176.109
-  skip-cert-verify: true
-  tfo: false
-  tls: true
+  port: 80
+  server: 204.93.210.218
+  servername: a.ssll.gay
+  tls: false
   type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0429
+  network: ws
+  port: 2082
+  server: 130.250.137.164
+  servername: hkt.ylks.link
+  tls: false
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0430
+  network: ws
+  port: 80
+  server: 204.93.210.226
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0480
+  network: ws
+  port: 2096
+  server: 14.102.228.210
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|US_speednode_0432
+  network: ws
+  port: 80
+  server: 204.93.210.46
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0433
+  network: ws
+  port: 8443
+  server: 185.148.105.225
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 8|US_speednode_0494
+  network: ws
+  port: 2083
+  server: 216.205.52.109
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|US_speednode_0435
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.102.111.127
+  skip-cert-verify: true
+  sni: tt.ylks.link
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: tt.ylks.link
+    path: /
 - client-fingerprint: chrome
-  name: 8|US_speednode_0259
+  name: 8|US_speednode_0437
   network: ws
   port: 42742
   server: 154.21.95.113
@@ -90,281 +218,22 @@ proxies:
     headers:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
-- client-fingerprint: chrome
-  name: 8|US_speednode_0258
+- name: 8|US_speednode_0442
+  network: ws
+  port: 443
+  server: 104.254.140.155
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|US_speednode_0440
   network: ws
   port: 8081
-  server: 154.17.12.26
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7509f896-2115-4420-b487-501c9103bebd
-  ws-opts:
-    headers:
-      Host: ccs.443888.xyz
-    path: /vless?ed=2560
-- client-fingerprint: random
-  name: 8|US_speednode_0270
-  network: ws
-  port: 2053
-  security: tls
-  server: 216.116.134.43
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0243
-  network: ws
-  port: 443
-  server: 167.68.11.48
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 8|US_speednode_0245
-  network: ws
-  port: 8443
-  server: 209.46.30.217
-  servername: fq521.6789.cloudns.be
-  tls: true
-  type: vless
-  uuid: 775213ac-3976-439a-8977-3277c0e4735d
-  ws-opts:
-    headers:
-      Host: fq521.6789.cloudns.be
-    path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
-- name: 8|US_speednode_0264
-  network: ws
-  port: 443
-  server: 170.114.45.25
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 8|US_speednode_0248
-  network: ws
-  port: 2087
-  server: 45.159.217.54
-  servername: fq521.6789.cloudns.be
-  tls: true
-  type: vless
-  uuid: 775213ac-3976-439a-8977-3277c0e4735d
-  ws-opts:
-    headers:
-      Host: fq521.6789.cloudns.be
-    path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
-- name: 8|US_speednode_0268
-  network: ws
-  port: 2083
-  server: 216.205.52.109
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 8|US_speednode_0263
-  network: ws
-  port: 2096
-  server: 14.102.228.210
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 8|US_speednode_0265
-  network: ws
-  port: 8443
-  server: 159.112.235.14
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 8|US_speednode_0298
-  network: ws
-  port: 8443
-  server: 89.116.161.250
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0254
-  network: ws
-  port: 443
-  server: 147.185.161.192
-  servername: mAMaNe-FILTErChI.pAGES.deV
-  tls: true
-  type: vless
-  uuid: 10716279-b1ee-41d8-b63e-87782088305b
-  ws-opts:
-    headers:
-      Host: mAMaNe-FILTErChI.pAGES.deV
-    path: /
-- name: 8|US_speednode_0255
-  network: ws
-  port: 8443
-  server: 204.93.210.231
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitter苏小柠
-- name: 8|US_speednode_0256
-  network: ws
-  port: 443
-  server: 45.159.219.194
-  servername: MAMAnE-fILterchi.PAgeS.deV
-  tls: true
-  type: vless
-  uuid: 10716279-b1ee-41d8-b63e-87782088305b
-  ws-opts:
-    headers:
-      Host: MAMAnE-fILterchi.PAgeS.deV
-    path: /
-- name: 8|US_speednode_0260
-  network: ws
-  port: 2053
-  server: 216.205.52.180
-  servername: 78345.pages.dev
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 78345.pages.dev
-    path: /?ed
-- name: 8|US_speednode_0296
-  network: ws
-  port: 8443
-  server: 204.93.210.208
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0266
-  network: ws
-  port: 8443
-  server: 45.159.218.162
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 8|US_speednode_0269
-  network: ws
-  port: 443
-  server: 167.68.11.106
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0271
-  network: ws
-  port: 443
-  server: 170.114.46.18
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0272
-  network: ws
-  port: 80
-  server: 66.81.247.161
-  servername: a.ssll.gay
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0273
-  network: ws
-  port: 80
-  server: 155.46.213.100
-  servername: a.ssll.gay
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0274
-  network: ws
-  port: 2096
-  server: 204.93.210.24
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0275
-  network: ws
-  port: 443
-  server: 185.148.105.98
+  server: 173.242.117.79
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -373,271 +242,8 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 8|US_speednode_0276
-  network: ws
-  port: 443
-  server: 216.116.134.168
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 8|US_speednode_0306
-  network: ws
-  port: 2053
-  server: 130.250.137.196
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0278
-  network: ws
-  port: 2083
-  server: 185.148.106.44
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0279
-  network: ws
-  port: 443
-  server: 156.225.72.24
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0280
-  network: ws
-  port: 443
-  server: 167.68.11.95
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0281
-  network: ws
-  port: 443
-  server: 104.254.140.145
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0295
-  network: ws
-  port: 2096
-  server: 204.93.210.132
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /
-- name: 8|US_speednode_0283
-  network: ws
-  port: 80
-  server: 204.93.210.226
-  servername: a.ssll.gay
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0284
-  network: ws
-  port: 8443
-  server: 204.93.210.185
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0285
-  network: ws
-  port: 2096
-  server: 204.93.210.49
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0286
-  network: ws
-  port: 443
-  server: 43.153.103.203
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0287
-  network: ws
-  port: 443
-  server: 185.148.105.108
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0288
-  network: ws
-  port: 443
-  server: 168.100.6.1
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0289
-  network: ws
-  port: 2096
-  server: 204.93.210.116
-  servername: a.ssll.gay
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0290
-  network: ws
-  port: 443
-  server: 185.148.104.151
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0291
-  network: ws
-  port: 57757
-  server: 174.136.206.95
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0292
-  network: ws
-  port: 443
-  server: 104.254.140.46
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0293
-  network: ws
-  port: 443
-  server: 205.233.181.242
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0294
-  network: ws
-  port: 443
-  server: 45.159.217.195
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 8|US_speednode_0297
-  network: ws
-  port: 80
-  server: 204.93.210.218
-  servername: a.ssll.gay
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 8|US_speednode_0299
-  network: ws
-  port: 443
-  server: 159.112.235.90
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0300
-  network: ws
-  port: 2087
-  server: 14.102.229.66
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
-- name: 8|US_speednode_0301
+- client-fingerprint: chrome
+  name: 8|US_speednode_0472
   network: ws
   port: 8443
   server: 66.235.200.1
@@ -649,10 +255,60 @@ proxies:
     headers:
       Host: 698Aa4AA.Swz-UUz-316.PageS.Dev
     path: /
-- name: 8|US_speednode_0302
+- name: 8|US_speednode_0443
+  network: ws
+  port: 2053
+  server: 216.205.52.180
+  servername: 78345.pages.dev
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 78345.pages.dev
+    path: /?ed
+- client-fingerprint: chrome
+  name: 8|US_speednode_0469
+  network: ws
+  port: 46010
+  server: 156.251.176.109
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- name: 8|US_speednode_0445
   network: ws
   port: 443
-  server: 147.185.161.198
+  server: 198.62.62.15
+  servername: kkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0446
+  network: ws
+  port: 443
+  server: 205.233.181.90
+  servername: kkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0447
+  network: ws
+  port: 443
+  server: 167.68.11.106
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -661,22 +317,75 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|US_speednode_0303
+- name: 8|US_speednode_0448
+  network: ws
+  port: 443
+  server: 63.141.128.127
+  servername: zdyt.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: zdyt.kpcloud.eu.org
+    path: /freecodes
+- name: 8|US_speednode_0449
+  network: ws
+  port: 2087
+  server: 14.102.229.66
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
+- client-fingerprint: random
+  name: 8|US_speednode_0450
+  network: ws
+  port: 2053
+  security: tls
+  server: 216.116.134.43
+  servername: juzibaipiao.5112233.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 8|US_speednode_0458
   network: ws
   port: 8443
   server: 192.9.246.112
-  servername: hk.twittei.link
+  servername: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
   tls: true
   type: vless
-  uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c
+  uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
   ws-opts:
     headers:
-      Host: hk.twittei.link
-    path: Twitterfreecodes
-- name: 8|US_speednode_0304
+      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+    path: /fylink.pages.dev/proxyip
+- name: 8|US_speednode_0471
+  network: ws
+  port: 4333
+  server: 43.153.16.136
+  servername: jpt.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jpt.ylks01.eu.org
+    path: /freecodes
+- name: 8|US_speednode_0453
   network: ws
   port: 443
-  server: 185.148.105.209
+  server: 45.159.217.123
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -685,46 +394,156 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 8|US_speednode_0305
+- name: 8|US_speednode_0454
   network: ws
-  port: 443
-  server: 155.46.213.37
-  servername: cfed.tgzdyz2.top
+  port: 38747
+  server: 38.59.249.82
+  servername: go.jp980.cloudns.org
+  tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0307
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0455
   network: ws
-  port: 443
-  server: 45.159.216.241
-  servername: cfed.tgzdyz2.top
+  port: 32431
+  server: 38.59.240.180
+  servername: go.jp980.cloudns.org
+  tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0308
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0456
   network: ws
-  port: 443
-  server: 156.225.72.100
-  servername: cfed.tgzdyz2.top
+  port: 47403
+  server: 38.59.240.180
+  servername: go.jp980.cloudns.org
+  tfo: false
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 8|US_speednode_0309
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 8|US_speednode_0457
+  network: ws
+  port: 38337
+  server: 156.251.176.112
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- client-fingerprint: chrome
+  name: 8|US_speednode_0459
+  network: ws
+  port: 43786
+  server: 156.251.176.108
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- name: 8|US_speednode_0460
+  network: ws
+  port: 443
+  server: 69.84.182.32
+  servername: kkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0462
+  network: ws
+  port: 18618
+  server: 154.17.227.26
+  servername: go.jp980.cloudns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0463
+  network: ws
+  port: 43493
+  server: 185.218.7.123
+  servername: go.jp980.cloudns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0464
+  network: ws
+  port: 2087
+  server: 45.159.217.54
+  servername: fq521.6789.cloudns.be
+  tls: true
+  type: vless
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: Twitter%e8%8b%8f%e5%b0%8f%e6%9f%a0
+- name: 8|US_speednode_0465
+  network: ws
+  port: 443
+  server: 69.84.182.30
+  servername: hkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0466
+  network: ws
+  port: 443
+  server: 205.233.181.4
+  servername: kkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0487
   network: ws
   port: 2096
-  server: 204.93.210.80
+  server: 204.93.210.132
   servername: a.ssll.gay
   tls: true
   type: vless
@@ -733,10 +552,64 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodes
-- name: 8|US_speednode_0310
+- client-fingerprint: chrome
+  name: 8|US_speednode_0468
+  network: ws
+  port: 60559
+  server: 156.251.176.11
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- name: 8|US_speednode_0473
   network: ws
   port: 443
-  server: 155.46.213.166
+  server: 45.159.218.46
+  servername: xint.ylks.link
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xint.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0474
+  network: ws
+  port: 28555
+  server: 38.59.244.77
+  servername: go.jp980.cloudns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0475
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: go.jp980.cloudns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0476
+  network: ws
+  port: 443
+  server: 156.225.72.24
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -745,3 +618,185 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- name: 8|US_speednode_0477
+  network: ws
+  port: 443
+  server: 192.0.54.194
+  servername: vt.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    headers:
+      Host: vt.ylkszy.eu.org
+    path: /
+- name: 8|US_speednode_0478
+  network: ws
+  port: 443
+  server: 170.114.45.25
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|US_speednode_0479
+  network: ws
+  port: 2096
+  server: 204.93.210.24
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0481
+  network: ws
+  port: 443
+  server: 216.116.134.16
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 8|US_speednode_0482
+  network: ws
+  port: 443
+  server: 63.141.128.112
+  servername: kkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0483
+  network: ws
+  port: 443
+  server: 43.153.103.203
+  servername: go.jp980.cloudns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 8|US_speednode_0484
+  network: ws
+  port: 443
+  server: 170.114.46.46
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
+- name: 8|US_speednode_0485
+  network: ws
+  port: 443
+  server: 192.200.160.50
+  servername: kkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkt.ylks.link
+    path: /
+- name: 8|US_speednode_0486
+  network: ws
+  port: 443
+  server: 69.84.182.172
+  servername: zdyt.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: zdyt.kpcloud.eu.org
+    path: /
+- name: 8|US_speednode_0488
+  network: ws
+  port: 2096
+  server: 204.93.210.49
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0489
+  network: ws
+  port: 2096
+  server: 204.93.210.116
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0490
+  network: ws
+  port: 8443
+  server: 204.93.210.208
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0491
+  network: ws
+  port: 8443
+  server: 204.93.210.185
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 8|US_speednode_0492
+  network: ws
+  port: 443
+  server: 69.84.182.23
+  servername: hkt.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hkt.ylks.link
+    path: /freecodes
+- name: 8|US_speednode_0493
+  network: ws
+  port: 443
+  server: 216.24.57.117
+  servername: zdyt.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: zdyt.kpcloud.eu.org
+    path: /freecodes
