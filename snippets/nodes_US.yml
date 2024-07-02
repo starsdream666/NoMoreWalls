@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国2|@ripaojiedian
+  name: 10,11|美国2|@ripaojiedian
   network: ws
   port: '8080'
   server: cfcdn1.sanfencdn9.com
@@ -17,7 +17,7 @@ proxies:
       Host: us5PhAx6xsj.fzbqfrse.xyz
     path: /video/f8ZKTGaGoC/
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国3|@ripaojiedian
+  name: 10|🇺🇸 美国3|@ripaojiedian
   password: cf7d0dea-d2ac-4af2-b8ee-b42c6750503b
   port: 45251
   server: 183.240.235.184
@@ -25,7 +25,7 @@ proxies:
   sni: us-tj-6211.fn999.vip
   type: trojan
 - client-fingerprint: chrome
-  name: 5|🇺🇸 美国4|@ripaojiedian
+  name: 10|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
   port: 20344
   server: 223.113.54.154
