@@ -88,7 +88,7 @@ ABFWHITE = (
     "file:///abpwhite.txt",
 )
 
-FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
+FAKE_IPS = "8.8.8.8; 8.8.4.4; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
@@ -302,6 +302,55 @@ class Node:
                         if 'ws-opts' not in self.data:
                             self.data['ws-opts'] = {}
                         self.data['ws-opts']['path'] = v
+
+        elif self.type == 'vless':
+            parsed = urlparse(url)
+            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname, 
+                    'port': parsed.port, 'type': 'vless', 'uuid': unquote(parsed.username)} # type: ignore
+            self.data['tls'] = False
+            if parsed.query:
+                for kv in parsed.query.split('&'):
+                    k,v = kv.split('=')
+                    if k == 'allowInsecure':
+                        self.data['skip-cert-verify'] = (v != '0')
+                    elif k == 'sni': self.data['servername'] = v
+                    elif k == 'alpn':
+                        if '%2C' in v:
+                            self.data['alpn'] = ["h2", "http/1.1"]
+                        else:
+                            self.data['alpn'] = [v]
+                    elif k == 'type':
+                        self.data['network'] = v
+                    elif k == 'serviceName':
+                        if 'grpc-opts' not in self.data:
+                            self.data['grpc-opts'] = {}
+                        self.data['grpc-opts']['grpc-service-name'] = v
+                    elif k == 'host':
+                        if 'ws-opts' not in self.data:
+                            self.data['ws-opts'] = {}
+                        if 'headers' not in self.data['ws-opts']:
+                            self.data['ws-opts']['headers'] = {}
+                        self.data['ws-opts']['headers']['Host'] = v
+                    elif k == 'path':
+                        if 'ws-opts' not in self.data:
+                            self.data['ws-opts'] = {}
+                        self.data['ws-opts']['path'] = v
+                    elif k == 'flow':
+                        if v.endswith('-udp443'):
+                            self.data['flow'] = v
+                        else: self.data['flow'] = v+'!'
+                    elif k == 'fp': self.data['client-fingerprint'] = v
+                    elif k == 'security' and v == 'tls':
+                        self.data['tls'] = True
+                    elif k == 'pbk':
+                        if 'reality-opts' not in self.data:
+                            self.data['reality-opts'] = {}
+                        self.data['reality-opts']['public-key'] = v
+                    elif k == 'sid':
+                        if 'reality-opts' not in self.data:
+                            self.data['reality-opts'] = {}
+                        self.data['reality-opts']['short-id'] = v
+                    # TODO: Unused key encryption
         
         else: raise UnsupportedType(self.type)
 
@@ -406,6 +455,45 @@ class Node:
             ret = ret.rstrip('&')+'#'+name
             return ret
 
+        if self.type == 'vless':
+            passwd = quote(data['uuid'])
+            name = quote(data['name'])
+            ret = f"vless://{passwd}@{data['server']}:{data['port']}?"
+            if 'skip-cert-verify' in data:
+                ret += f"allowInsecure={int(data['skip-cert-verify'])}&"
+            if 'servername' in data:
+                ret += f"sni={data['servername']}&"
+            if 'alpn' in data:
+                if len(data['alpn']) >= 2:
+                    ret += "alpn=h2%2Chttp%2F1.1&"
+                else:
+                    ret += f"alpn={quote(data['alpn'][0])}&"
+            if 'network' in data:
+                if data['network'] == 'grpc':
+                    ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+                elif data['network'] == 'ws':
+                    ret += f"type=ws&"
+                    if 'ws-opts' in data:
+                        try:
+                            ret += f"host={data['ws-opts']['headers']['Host']}&"
+                        except KeyError: pass
+                        if 'path' in data['ws-opts']:
+                            ret += f"path={data['ws-opts']['path']}"
+            if 'flow' in data:
+                flow: str = data['flow']
+                if flow.endswith('!'):
+                    ret += f"flow={flow[:-1]}&"
+                else: ret += f"flow={flow}-udp443&"
+            if 'client-fingerprint' in data:
+                ret += f"fp={data['client-fingerprint']}&"
+            if 'tls' in data and data['tls']:
+                ret += f"security=tls&"
+            elif 'reality-opts' in data:
+                opts: Dict[str, str] = data['reality-opts']
+                ret += f"security=reality&pbk={opts.get('public-key','')}&sid={opts.get('short-id','')}&"
+            ret = ret.rstrip('&')+'#'+name
+            return ret
+
         raise UnsupportedType(self.type)
 
     @property
@@ -418,6 +506,11 @@ class Node:
         if 'group' in ret: del ret['group']
         if 'cipher' in ret and not ret['cipher']:
             ret['cipher'] = 'auto'
+        if self.type == 'vless' and 'flow' in ret:
+            if ret['flow'].endswith('-udp443'):
+                ret['flow'] = ret['flow'][:-7]
+            elif ret['flow'].endswith('!'):
+                ret['flow'] = ret['flow'][:-1]
         return ret
 
     def supports_meta(self, noMeta=False) -> bool:
