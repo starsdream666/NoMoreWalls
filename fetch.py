@@ -1049,6 +1049,12 @@ def main():
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+    try:
+        dns_mode: Optional[str] = conf['dns']['enhanced-mode']
+    except:
+        dns_mode: Optional[str] = None
+    else:
+        conf['dns']['enhanced-mode'] = 'fake-ip'
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
@@ -1073,6 +1079,8 @@ def main():
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+    if dns_mode:
+        conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))

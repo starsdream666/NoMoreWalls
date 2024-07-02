@@ -72,17 +72,10 @@ proxy-groups:
   - name: 🚀 选择代理
     type: select
     proxies:
-      - 🎯 负载均衡
       - ♻ 自动选择
       - 🔰 延迟最低
       - ✅ 手动选择
       - 🗺️ 选择地区
-
-  - name: 🎯 负载均衡
-    type: load-balance
-    url: https://www.google.com/
-    interval: 300
-    proxies: []
 
   - name: ♻ 自动选择
     type: fallback
