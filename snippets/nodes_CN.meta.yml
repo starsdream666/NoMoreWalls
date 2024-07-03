@@ -17,7 +17,7 @@ proxies:
     path: TG@ZDYZ2
 - alterId: -1
   client-fingerprint: chrome
-  name: 12|CN_speednode_0006
+  name: 12|CN_speednode_0003
   port: 7192
   server: 47.105.37.46
   skip-cert-verify: true
