@@ -34,7 +34,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: random
-  name: 12|JP_speednode_0113
+  name: 12|JP_speednode_0110
   network: ws
   port: 8443
   server: 107.191.60.177
@@ -49,7 +49,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /TG@ZDYZ2
-- name: 12|JP_speednode_0114
+- name: 12|JP_speednode_0111
   network: ws
   port: 34237
   server: 150.66.24.104
@@ -61,7 +61,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|JP_speednode_0115
+- name: 12|JP_speednode_0112
   network: ws
   port: 443
   server: 154.92.9.60
