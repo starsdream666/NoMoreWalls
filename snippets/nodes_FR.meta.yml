@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 12|FR_speednode_0053
+  name: 12|FR_speednode_0080
   network: ws
   port: 2053
   server: 51.195.208.150
@@ -15,7 +15,19 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- name: 12|FR_speednode_0054
+- name: 12|FR_speednode_0081
+  network: ws
+  port: 80
+  server: 152.228.191.232
+  servername: kkd.ylks.link
+  tls: false
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: kkd.ylks.link
+    path: /freecodes
+- name: 12|FR_speednode_0082
   network: ws
   port: 2053
   server: 46.105.170.124
@@ -28,7 +40,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - client-fingerprint: random
-  name: 12|FR_speednode_0055
+  name: 12|FR_speednode_0083
   network: ws
   port: 4090
   server: 194.24.161.146

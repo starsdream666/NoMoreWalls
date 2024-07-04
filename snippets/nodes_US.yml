@@ -17,12 +17,13 @@ proxies:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
-  name: 10|🇺🇸 美国3|@ripaojiedian
+  name: 10,12|CN_speednode_0037
   password: GsKYmYOE
   port: 1617
   server: 223.113.54.154
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: trojan
+  udp: false
 - client-fingerprint: chrome
   name: 10|🇺🇸 美国4|@ripaojiedian
   password: GsKYmYOE
