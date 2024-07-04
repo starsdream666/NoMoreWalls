@@ -180,7 +180,8 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- alpn: '[http/1.1]'
+- alpn:
+  - '[http/1.1]'
   client-fingerprint: random
   name: 12|HK_speednode_0103
   network: ws
