@@ -15,23 +15,19 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港
   network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
+  password: moist
+  port: 2096
+  server: 47.238.0.114
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d22e082c-3742-421f-aabd-2511eec9148c
+  sni: trojan.freenods.sbs
+  type: trojan
   ws-opts:
     headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
@@ -60,6 +56,14 @@ proxies:
   port: 4027
   server: 183.232.139.22
   skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  password: 14e3b30c-4ef9-49b3-a8b8-ea57590152d6
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome

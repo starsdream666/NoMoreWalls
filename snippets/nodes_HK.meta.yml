@@ -15,23 +15,19 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港
   network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
+  password: moist
+  port: 2096
+  server: 47.238.0.114
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d22e082c-3742-421f-aabd-2511eec9148c
+  sni: trojan.freenods.sbs
+  type: trojan
   ws-opts:
     headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
@@ -61,6 +57,14 @@ proxies:
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  password: 14e3b30c-4ef9-49b3-a8b8-ea57590152d6
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇭🇰 香港R|@ripaojiedian
@@ -80,7 +84,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: random
-  name: 12|HK_speednode_0226
+  name: 12|HK_speednode_0084
   network: ws
   port: 8443
   server: 47.76.98.98
@@ -96,7 +100,7 @@ proxies:
       Host: mositr.freenods.sbs
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|HK_speednode_0227
+  name: 12|HK_speednode_0085
   network: ws
   port: 8443
   server: 47.76.192.24
@@ -111,31 +115,7 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- name: 12|HK_speednode_0228
-  network: ws
-  port: 2053
-  server: 47.76.214.139
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 12|HK_speednode_0229
-  network: ws
-  port: 11443
-  server: 103.84.110.114
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|HK_speednode_0230
+- name: 12|HK_speednode_0086
   network: ws
   port: 2096
   server: 47.238.6.58
@@ -147,32 +127,8 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 12|HK_speednode_0231
-  network: ws
-  port: 443
-  server: 43.154.96.33
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|HK_speednode_0232
-  network: ws
-  port: 1443
-  server: 103.148.72.147
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
 - client-fingerprint: random
-  name: 12|HK_speednode_0233
+  name: 12|HK_speednode_0087
   network: ws
   port: 2096
   server: 47.76.203.101
@@ -187,7 +143,55 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- name: 12|HK_speednode_0234
+- name: 12|HK_speednode_0088
+  network: ws
+  port: 11443
+  server: 103.84.110.114
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|HK_speednode_0089
+  network: ws
+  port: 2053
+  server: 47.76.214.139
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|HK_speednode_0090
+  network: ws
+  port: 443
+  server: 43.154.96.33
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|HK_speednode_0091
+  network: ws
+  port: 1443
+  server: 103.148.72.147
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|HK_speednode_0092
   network: ws
   port: 2096
   server: 47.76.146.1
@@ -199,7 +203,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 12|HK_speednode_0235
+- name: 12|HK_speednode_0093
   network: ws
   port: 1520
   server: 203.184.132.238

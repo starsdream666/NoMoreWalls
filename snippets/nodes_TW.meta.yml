@@ -2,42 +2,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  port: 19821
-  server: xg-cm2.dx001.top
+  name: 10,11|台湾|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 457eb626-5cb6-3916-8158-1a3e76bb3754
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇹🇼 台湾2|@ripaojiedian
-  port: 32012
-  server: alm2.the-galgo.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 242c0dc5-f692-4f52-baa1-16add40c801e
-- alterId: 0
-  cipher: auto
-  name: 11|台湾|@ripaojiedian
-  network: tcp
-  port: '19821'
-  server: xg-cm2.dx001.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 457eb626-5cb6-3916-8158-1a3e76bb3754
-- alterId: 0
-  cipher: auto
-  name: 11|台湾2|@ripaojiedian
-  network: tcp
-  port: '32012'
-  server: alm2.the-galgo.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 242c0dc5-f692-4f52-baa1-16add40c801e
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g

@@ -17,43 +17,24 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  port: 23234
+  server: jp6.mmmmmmmmmm.cfd
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: d22e082c-3742-421f-aabd-2511eec9148c
-  ws-opts:
-    headers:
-      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
-    path: /video/X37qXHip
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: g76wex
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: aws-jp-tokyo-1.f1cflined.com
-  skip-cert-verify: false
-  sni: aws-jp-tokyo-1.f1cflined.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aws-jp-tokyo-1.f1cflined.com
-    path: /f1rocket
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本5|@ripaojiedian
-  password: 32e6cda8-b070-45b6-b7ae-4820c918bdfa
-  port: 30881
-  server: 107jpai.aixunx168.top
-  skip-cert-verify: false
-  sni: aixunx168.top
-  type: trojan
+  server: 52.221.223.215
+  tfo: false
+  type: ss
 - client-fingerprint: random
-  name: 12|JP_speednode_0236
+  name: 12|JP_speednode_0094
   network: ws
   port: 8443
   server: 107.191.60.177
@@ -68,19 +49,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /TG@ZDYZ2
-- name: 12|JP_speednode_0237
-  network: ws
-  port: 443
-  server: 154.92.9.15
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|JP_speednode_0238
+- name: 12|JP_speednode_0095
   network: ws
   port: 2053
   server: 176.97.73.82
