@@ -452,6 +452,14 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
+- name: 12|US_speednode_0250
+  password: 450524c4-86ee-4a97-ac7f-888942039bcd
+  port: 24444
+  server: 172.233.146.107
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+  udp: true
 - name: 12|US_speednode_0251
   network: ws
   port: 443
