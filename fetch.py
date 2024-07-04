@@ -511,7 +511,7 @@ class Node:
                 ret['flow'] = ret['flow'][:-7]
             elif ret['flow'].endswith('!'):
                 ret['flow'] = ret['flow'][:-1]
-        if isinstance(ret['alpn'], str):
+        if 'alpn' in ret and isinstance(ret['alpn'], str):
             # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
         return ret
