@@ -25,26 +25,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.221.223.215
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '23234'
-  server: jp6.mmmmmmmmmm.cfd
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
 - client-fingerprint: random
-  name: 12|JP_speednode_0094
+  name: 12|JP_speednode_0076
   network: ws
   port: 8443
   server: 107.191.60.177
@@ -59,7 +41,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /TG@ZDYZ2
-- name: 12|JP_speednode_0095
+- name: 12|JP_speednode_0077
   network: ws
   port: 2053
   server: 176.97.73.82
