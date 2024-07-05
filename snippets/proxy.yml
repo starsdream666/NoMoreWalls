@@ -6,7 +6,6 @@ payload:
 - DOMAIN-KEYWORD,v2fly
 - DOMAIN-KEYWORD,shadowsocks
 - DOMAIN-SUFFIX,ivonblog.com
-- DOMAIN-SUFFIX,googleapis.cn
 - DOMAIN-SUFFIX,gitlab.io
 - DOMAIN-SUFFIX,chinadigitaltimes.net
 - DOMAIN-SUFFIX,savefrom.net

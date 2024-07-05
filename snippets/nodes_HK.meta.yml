@@ -394,7 +394,7 @@ proxies:
       Host: mositr.freenods.sbs
     path: /?ed=2560
 - alpn:
-  - '[http/1.1]'
+  - http/1.1
   client-fingerprint: random
   name: 12|HK_speednode_0104
   network: ws
