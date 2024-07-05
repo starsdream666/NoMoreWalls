@@ -14,22 +14,26 @@
 
 为推动国产游戏(?)发展，本项目现已适配 mihomo 专用订阅，支持更多节点！详见下方 Clash 使用说明。
 
-## 关于 Google Play 等服务在国内无法使用的解决方法
+## 关于 Google Play 等服务在 *国行机* 无法使用的解决方法
 
 ~~由于 Google 调整了服务器安排，将原有的国外服务器的**域名**调整到了国内专版，但是**服务器**还没跟上，导致 Google Play 等服务在国内连上的是**空域名**，直接不能用了。~~
 
-根据一些来源，这可能是一个多年以前的历史遗留问题了，只不过以前高质量的节点可以避开这个问题，而现在节点质量的下降导致这个问题又出现了。当前的解决办法有：
+~~根据一些来源，这可能是一个多年以前的历史遗留问题了，只不过以前高质量的节点可以避开这个问题，而现在节点质量的下降导致这个问题又出现了。当前的解决办法有：~~
 
+请注意，本节内容仅针对所有预装 GMS 的**国行机**和小部分未装 GMS 但仍有锁区的新中高端国行机。
+
+现在 `googleapis.cn` 不会返回无效的 CN 服务器了~ 当前的解决办法有：
 
 1. **使用 Clash Meta**，使用本项目提供的**完整**订阅无需配置，自行配置的请看下一条。
 2. **如果您使用的是本项目提供的 Rule Providers**，请在 `rules` 开头加上：
 ```yaml
-  - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器
-  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器
+  - DOMAIN-SUFFIX,googleapis.cn,DIRECT
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，多数可直连，连不上 Google Play 会自动更换
+  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
 ```
+3.  **如果你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)，这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。这是一劳永逸的解决办法，同时还能解除其它服务如地图等的锁区限制。
 
-如果此问题有进展，我们会在此更新，请及时关注。
+如果此问题有变化，我们会在此更新，请及时关注。
 
 我们新增了 `snippets` 文件夹来存放从 `list.yml` 中拆分出的配置片段，用于将本项目提供的一些配置整合到你自己的配置中。
 
@@ -42,6 +46,7 @@
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+- [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 以下链接可能不是最新：
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.txt)
@@ -52,9 +57,10 @@
 以下加速链接可能无效：
 - [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.txt)
 
-或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，请将链接最后的 `.yml` 替换成 `.meta.yml`。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
+或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，请**将链接最后的 `.yml` 替换成 `.meta.yml`**。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
+- [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 
 以下链接可能不是最新：
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.yml)
