@@ -17,7 +17,7 @@ proxies:
       Host: us6gzxQRrE4.fzbqfrse.xyz
     path: /video/bYdJ7Vc2We
 - client-fingerprint: chrome
-  name: 10,12|CN_speednode_0036
+  name: 10,12|CN_speednode_0033
   password: GsKYmYOE
   port: 1617
   server: 223.113.54.154

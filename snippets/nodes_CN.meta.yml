@@ -1,16 +1,8 @@
 proxies:
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0018
-  port: 7890
-  server: 116.230.200.147
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
   name: 12|CN_speednode_0019
   port: 7890
-  server: 117.25.71.247
+  server: 116.230.200.147
   skip-cert-verify: true
   tls: false
   type: http
@@ -23,8 +15,56 @@ proxies:
   tls: false
   type: http
   udp: true
-- client-fingerprint: random
+- client-fingerprint: chrome
   name: 12|CN_speednode_0021
+  port: 7890
+  server: 117.25.71.247
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0022
+  port: 7890
+  server: 47.123.4.164
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0024
+  port: 7890
+  server: 36.251.43.232
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0026
+  port: 7890
+  server: 119.109.11.144
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0029
+  port: 25501
+  server: 101.132.113.116
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0030
+  port: 7890
+  server: 171.37.10.20
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: random
+  name: 12|CN_speednode_0032
   network: ws
   port: 443
   server: 103.44.255.27
@@ -39,43 +79,3 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0022
-  port: 7890
-  server: 47.123.4.164
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0024
-  port: 7890
-  server: 119.109.11.144
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0027
-  port: 7890
-  server: 36.251.43.232
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0028
-  port: 7890
-  server: 171.37.10.20
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0030
-  port: 25501
-  server: 101.132.113.116
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
