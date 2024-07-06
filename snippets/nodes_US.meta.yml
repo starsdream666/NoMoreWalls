@@ -51,6 +51,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10,11|美国6|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 104.19.38.18
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn2.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇺🇸 美国7|@ripaojiedian
   port: 21636
   server: 207.246.102.64
