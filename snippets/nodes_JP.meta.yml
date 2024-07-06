@@ -6,34 +6,17 @@ proxies:
   server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
-  network: ws
-  port: '48000'
-  server: 103.72.5.20
-  servername: www.17438016.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.17438016.xyz
-    path: /path/351212081517
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 23234
-  server: jp6.mmmmmmmmmm.cfd
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  port: 45521
+  server: 45.159.50.136
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  uuid: 74774f13-5257-4f65-accd-1c916def66db
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇯🇵 日本R|@ripaojiedian
@@ -47,19 +30,19 @@ proxies:
   name: 10|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.143.107.4
+  server: 54.179.87.28
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|日本3|@ripaojiedian
+  name: 11|日本2|@ripaojiedian
   network: tcp
-  port: '23234'
-  server: jp6.mmmmmmmmmm.cfd
+  port: '45521'
+  server: 45.159.50.136
   servername: ''
   tls: false
   type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  uuid: 74774f13-5257-4f65-accd-1c916def66db
 - client-fingerprint: random
   name: 12|JP_speednode_0113
   network: ws
