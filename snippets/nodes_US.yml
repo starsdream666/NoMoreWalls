@@ -59,3 +59,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1
+- alterId: 0
+  cipher: auto
+  name: 11|美国7|@ripaojiedian
+  network: tcp
+  port: '21636'
+  server: 207.246.102.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1
