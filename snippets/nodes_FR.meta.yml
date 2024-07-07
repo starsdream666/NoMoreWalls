@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 12|FR_speednode_0068
+  name: 12|FR_speednode_0061
   network: ws
   port: 2053
   server: 51.195.208.150
@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: mositr.freenods.sbs
     path: /?ed=2560
-- name: 12|FR_speednode_0069
+- name: 12|FR_speednode_0062
   network: ws
   port: 2053
   server: 46.105.170.124

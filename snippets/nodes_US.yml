@@ -11,13 +11,13 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  uuid: 8b03c864-31e3-4cfb-949a-2e7eb13f698d
   ws-opts:
     headers:
       Host: us2jdgv5GC7.fzbqfrse.xyz
     path: /video/DDC4btA8wc/
 - client-fingerprint: chrome
-  name: 10,12|CN_speednode_0033
+  name: 10,12|CN_speednode_0026
   password: GsKYmYOE
   port: 1617
   server: 223.113.54.154
@@ -65,24 +65,11 @@ proxies:
     headers:
       Host: cdn2.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇺🇸 美国7|@ripaojiedian
-  port: 21636
-  server: 207.246.102.64
-  skip-cert-verify: false
+  password: o_A7inN1yqeWtOTL
+  port: 1633
+  server: 104.207.155.64
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1
-- alterId: 0
-  cipher: auto
-  name: 11|美国7|@ripaojiedian
-  network: tcp
-  port: '21636'
-  server: 207.246.102.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1
+  type: ss
