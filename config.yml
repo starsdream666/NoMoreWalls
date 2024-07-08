@@ -144,7 +144,12 @@ rules:
   - DOMAIN-KEYWORD,clash,🚀 选择代理
   - DOMAIN-KEYWORD,v2ray,🚀 选择代理
   - DOMAIN-KEYWORD,v2fly,🚀 选择代理
+  - DOMAIN-KEYWORD,vmess,🚀 选择代理
+  - DOMAIN-KEYWORD,vless,🚀 选择代理
   - DOMAIN-KEYWORD,shadowsocks,🚀 选择代理
+  # - DOMAIN-KEYWORD,trojan,🚀 选择代理
+  - DOMAIN-KEYWORD,hysteria,🚀 选择代理
+  - DOMAIN-KEYWORD,gfw,🚀 选择代理
   - DOMAIN-SUFFIX,trafficmanager.net,DIRECT
   # - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
   - DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理 # 视情况而定
@@ -159,13 +164,13 @@ rules:
   - DOMAIN-SUFFIX,chinadigitaltimes.net,🚀 选择代理
   - DOMAIN-SUFFIX,savefrom.net,🚀 选择代理
   - DOMAIN-SUFFIX,yout.com,🚀 选择代理
-  - DOMAIN-SUFFIX,bulianglin.com,🚀 选择代理
-  - DOMAIN-SUFFIX,buliang0.cf,🚀 选择代理
+  # - DOMAIN-SUFFIX,bulianglin.com,🚀 选择代理
+  # - DOMAIN-SUFFIX,buliang0.cf,🚀 选择代理
   - DOMAIN-SUFFIX,hydro.ac,DIRECT
   - DOMAIN-SUFFIX,tuna.moe,DIRECT
   - DOMAIN-KEYWORD,qbittorrent,🐟 漏网之鱼
   - DOMAIN-SUFFIX,greatfire.org,🚀 选择代理
-  - DOMAIN,wiki.metacubex.one,🚀 选择代理
+  # - DOMAIN,wiki.metacubex.one,🚀 选择代理
   - DOMAIN-KEYWORD,dongtaiwang,REJECT
   - DOMAIN,safebrowsing.googleapis.com,DIRECT
   - DOMAIN,dl.google.com,🐟 漏网之鱼
