@@ -65,14 +65,6 @@ proxies:
     headers:
       Host: cdn2.freegradely.xyz
     path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国7|@ripaojiedian
-  password: o_A7inN1yqeWtOTL
-  port: 1633
-  server: 104.207.155.64
-  tfo: false
-  type: ss
 - name: 12|US_speednode_0166
   network: ws
   port: 47403
