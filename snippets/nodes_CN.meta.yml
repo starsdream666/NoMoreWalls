@@ -39,3 +39,11 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG@ZDYZ2
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0026
+  password: GsKYmYOE
+  port: 1617
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: false

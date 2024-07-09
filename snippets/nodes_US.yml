@@ -17,14 +17,6 @@ proxies:
       Host: us2jdgv5GC7.fzbqfrse.xyz
     path: /video/DDC4btA8wc/
 - client-fingerprint: chrome
-  name: 10,12|CN_speednode_0026
-  password: GsKYmYOE
-  port: 1617
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-  udp: false
-- client-fingerprint: chrome
   name: 10|🇺🇸 美国4|@ripaojiedian
   password: GsKYmYOE
   port: 40081

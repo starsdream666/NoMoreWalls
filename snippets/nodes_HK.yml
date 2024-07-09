@@ -15,39 +15,12 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 80
-  server: hk03.counsellor.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b7f8cc9d-d7d6-428c-bea4-420c37f76048
-  ws-opts:
-    headers:
-      Host: hk03.counsellor.buzz
-    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
   port: 31778
   server: 183.240.235.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 50004
-  server: 112.132.212.19
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -63,6 +36,17 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 50004
+  server: 112.132.212.19
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 45972
   server: 120.232.153.71
@@ -71,23 +55,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cdn.awscft.eu.org
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a14fd489-6bf4-40bb-fb74-efb137ac1d42
-  ws-opts:
-    headers:
-      Host: hk.insbot.filegear-sg.me
-    path: /aa
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇭🇰 香港R|@ripaojiedian
@@ -96,20 +63,6 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|香港|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hk03.counsellor.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b7f8cc9d-d7d6-428c-bea4-420c37f76048
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
