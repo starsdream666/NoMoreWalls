@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 703
-  server: sg1111.156786.xyz
-  skip-cert-verify: false
-  sni: sg1111.156786.xyz
-  type: trojan
 - name: 12|TW_speednode_0165
   network: ws
   port: 25775
