@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10|🇨🇦 加拿大|@ripaojiedian
+  network: ws
+  password: pumq91
+  port: 443
+  server: aws-ca-central-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-ca-central-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-ca-central-1.f1cflined.com
+    path: /f1rocket
 - name: 12|CA_speednode_0011
   network: ws
   port: 80

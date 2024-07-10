@@ -15,12 +15,40 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|香港|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: hk.rweek.top
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a14fd489-6bf4-40bb-fb74-efb137ac1d42
+  ws-opts:
+    headers:
+      Host: aa.insbot.filegear-sg.me
+    path: /aa
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
   port: 31778
   server: 183.240.235.166
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 50004
+  server: 112.132.212.19
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -36,17 +64,6 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 50004
-  server: 112.132.212.19
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 45972
   server: 120.232.153.71
@@ -55,6 +72,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|香港7|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: freehk2.sbjc.shop
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7cd8389b-3185-4515-86cb-6b70f53f2db6
+  ws-opts:
+    headers:
+      Host: aeza.baijia.cfd
+    path: /fdsffgfdgdfgdf
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇭🇰 香港R|@ripaojiedian
@@ -93,6 +127,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- alterId: 0
+  cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: kcp
+  port: '46959'
+  server: 5.253.16.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cc47370e-62e3-431b-97d1-7b520aa1122c
 - client-fingerprint: random
   name: 12|HK_speednode_0074
   network: ws
