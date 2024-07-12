@@ -5,24 +5,24 @@ proxies:
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: h2.wagaga.online
+    host: a1.wagaga.online
     mode: websocket
     mux: true
     path: ''
-    skip-cert-verify: true
+    skip-cert-verify: false
     tls: true
-  port: 443
-  server: 36.232.5.90
+  port: 8443
+  server: 118.170.93.63
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
-  password: c26306e1-7892-3f19-b2ea-9824cd1b6744
-  port: 13001
-  server: 36.141.40.27
-  skip-cert-verify: false
-  sni: i2.hdslb.com
-  type: trojan
+  password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d
+  port: 65045
+  server: 123.88.148.9
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -101,16 +101,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: 11|香港|@ripaojiedian
-  network: kcp
-  port: '46959'
-  server: 5.253.16.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cc47370e-62e3-431b-97d1-7b520aa1122c
 - client-fingerprint: random
   name: 12|HK_speednode_0074
   network: ws
