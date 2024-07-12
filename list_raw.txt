@@ -251,5 +251,5 @@ vless://89b3cbba-e6ac-485a-9481-976a0415eab9@66.235.200.1:8443?sni=698Aa4AA.Swz-
 vless://775213ac-3976-439a-8977-3277c0e4735d@45.159.217.54:2087?sni=fq521.6789.cloudns.be&type=ws&host=fq521.6789.cloudns.be&path=Twitter苏小柠security=tls#12%7CUS_speednode_0203
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@204.93.210.132:2096?sni=a.ssll.gay&type=ws&host=a.ssll.gay&path=/security=tls#12%7CUS_speednode_0204
 vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@167.68.11.106:443?sni=cfed.tgzdyz2.top&type=ws&host=cfed.tgzdyz2.top&path=tg@zdyz2security=tls#12%7CUS_speednode_0205
-https://ablnk.absslk.xyz/liEcJOt
-https://freemc.mcsslk.xyz/evtmxjd
+https://freemc.mcsslk.xyz/odBNjnv
+https://ablnk.absslk.xyz/Sa8rA0l
