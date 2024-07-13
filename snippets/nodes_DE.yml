@@ -1,0 +1,19 @@
+proxies:
+- alpn:
+  - http/1.1
+  name: 8|🇩🇪DE | 🟢 | trojan | @PrivateVP...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.158.88.38
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-3.122.9.94:...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.122.9.94
+  sni: trojan.burgerip.co.uk
+  type: trojan
