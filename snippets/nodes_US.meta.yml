@@ -1,4 +1,41 @@
 proxies:
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-159.223.207...
+  password: zIvR7ryOXv
+  port: 34428
+  server: 159.223.207.182
+  sni: drehitm.duckdns.org
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🇺🇸US | 🟢 | trojan | @DirectVPN...
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.141.81.123
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🇺🇸 美国 Amazon数据中心
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.142.72
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇺🇸 US-18.211.127....
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.211.127.227
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  sni: egcmi.phooeyunfold.com
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -28,7 +65,8 @@ proxies:
   type: vmess
   uuid: 7cd29891-fe78-4f8f-8844-abb31b9d9a75
 - client-fingerprint: chrome
-  name: 10|🇺🇸 美国4|@ripaojiedian
+  name: 10,11|美国4|@ripaojiedian
+  network: tcp
   password: GsKYmYOE
   port: 40081
   server: 183.232.139.22
@@ -267,20 +305,20 @@ proxies:
     headers:
       Host: go.jp980.cloudns.org
     path: /?ed=2560
-- name: 12|US_speednode_0199
+- name: 12|US_speednode_0181
   network: ws
   port: 8443
   server: 89.116.161.250
-  servername: cfed.tgzdyz2.top
+  servername: juzibaipiao.5112233.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
 - name: 12|US_speednode_0182
   network: ws
   port: 2083
@@ -412,18 +450,18 @@ proxies:
     headers:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
-- name: 12|US_speednode_0197
+- name: 12|US_speednode_0192
   network: ws
   port: 2053
   server: 130.250.137.196
-  servername: a.ssll.gay
+  servername: juzibaipiao.5112233.xyz
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
+      Host: juzibaipiao.5112233.xyz
+    path: /
 - name: 12|US_speednode_0193
   network: ws
   port: 2083
@@ -472,10 +510,34 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodes
+- name: 12|US_speednode_0197
+  network: ws
+  port: 2053
+  server: 130.250.137.196
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
 - name: 12|US_speednode_0198
   network: ws
   port: 443
   server: 155.46.213.37
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|US_speednode_0199
+  network: ws
+  port: 8443
+  server: 89.116.161.250
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless

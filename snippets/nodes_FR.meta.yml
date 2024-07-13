@@ -1,4 +1,40 @@
 proxies:
+- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 51.158.217.130
+  sni: toflf.phooeyunfold.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🇫🇷FR | 🟢 | trojan | @PrivateVP...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.178.185
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-15.236.189....
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.189.253
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-51.159.102....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 51.159.102.179
+  sni: tpzmg.phooeyunfold.com
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-62.210.83.5...
+  password: ypDt8RkT7J
+  port: 43118
+  server: 62.210.83.57
+  sni: ruvil.phooeyunfold.com
+  type: trojan
 - client-fingerprint: random
   name: 12|FR_speednode_0061
   network: ws

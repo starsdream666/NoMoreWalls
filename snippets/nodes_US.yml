@@ -1,4 +1,41 @@
 proxies:
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-159.223.207...
+  password: zIvR7ryOXv
+  port: 34428
+  server: 159.223.207.182
+  sni: drehitm.duckdns.org
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🇺🇸US | 🟢 | trojan | @DirectVPN...
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.141.81.123
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🇺🇸 美国 Amazon数据中心
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.142.72
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇺🇸 US-18.211.127....
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.211.127.227
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  sni: egcmi.phooeyunfold.com
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -28,7 +65,8 @@ proxies:
   type: vmess
   uuid: 7cd29891-fe78-4f8f-8844-abb31b9d9a75
 - client-fingerprint: chrome
-  name: 10|🇺🇸 美国4|@ripaojiedian
+  name: 10,11|美国4|@ripaojiedian
+  network: tcp
   password: GsKYmYOE
   port: 40081
   server: 183.232.139.22

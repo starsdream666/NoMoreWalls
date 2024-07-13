@@ -1,20 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: fe3038e9-5653-4ec1-be64-04532782d8b0
-  port: 50046
-  server: 123.88.148.9
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.95.211.49
-  tfo: false
-  type: ss
 - client-fingerprint: random
   name: 12|SG_speednode_0146
   network: ws
@@ -32,20 +16,20 @@ proxies:
       Host: mositr.freenods.sbs
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|SG_speednode_0154
+  name: 12|SG_speednode_0147
   network: ws
   port: 2053
   server: 47.236.189.92
-  servername: go.jp980.cloudns.org
+  servername: mositr.freenods.sbs
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
   ws-opts:
     headers:
-      Host: go.jp980.cloudns.org
+      Host: mositr.freenods.sbs
     path: /?ed=2560
 - name: 12|SG_speednode_0148
   network: ws
@@ -119,6 +103,19 @@ proxies:
   network: ws
   port: 2083
   server: 47.236.232.148
+  servername: go.jp980.cloudns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  ws-opts:
+    headers:
+      Host: go.jp980.cloudns.org
+    path: /?ed=2560
+- name: 12|SG_speednode_0154
+  network: ws
+  port: 2053
+  server: 47.236.189.92
   servername: go.jp980.cloudns.org
   tls: true
   type: vless

@@ -1,4 +1,10 @@
 proxies:
+- name: 8|🔒 TR-TCP-TLS 🇭🇰 HK-154.44.27.9...
+  password: 4CCF9A9AB80E9889198B02ECE7FA08DD
+  port: 43005
+  server: 154.44.27.99
+  sni: j0080.ruixiangseo.xyz
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 10|🇭🇰 香港KT|@ripaojiedian
@@ -15,14 +21,6 @@ proxies:
   server: 36.232.12.155
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港|@ripaojiedian
-  password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d
-  port: 65045
-  server: 123.88.148.9
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -34,29 +32,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  password: 48d20ad2-7416-49a8-b5d4-b4f1e0a29274
-  port: 35013
-  server: 02hz.rvxpwa.tech
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  name: 10|🇭🇰 香港4|@ripaojiedian
+  name: 10,11|香港4|@ripaojiedian
+  network: tcp
   password: RmdXQRXg
   port: 4027
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
