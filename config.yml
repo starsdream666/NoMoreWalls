@@ -58,9 +58,12 @@ dns:
     - 223.5.5.5
     - 114.114.114.114
   fallback:
-    - 8.8.8.8
-    - 4.2.2.2
+    - tls://8.8.4.4
+    - tls://1.1.1.1
     - https://dns.rubyfish.cn/dns-query
+  fallback-filter:
+    ipcidr:
+      - 61.160.148.90/32
 
 global-client-fingerprint: chrome
 tcp-concurrent: true
@@ -99,6 +102,13 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 选择代理
+
+  - name: ❓ 疑似国内
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 选择代理
+      - REJECT
 
   - name: 🐟 漏网之鱼
     type: select
@@ -158,6 +168,7 @@ rules:
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
   - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
+  - IP-CIDR,61.160.148.90/32,❓ 疑似国内 # 被上面污染了
   - DOMAIN-KEYWORD,wiki.arch,DIRECT
   - DOMAIN-KEYWORD,archlinuxcn,DIRECT
   - DOMAIN-SUFFIX,996.icu,DIRECT
@@ -1407,5 +1418,5 @@ rules:
   - IP-CIDR,149.154.172.0/22,🚀 选择代理,no-resolve
 
   # 最终规则
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN,❓ 疑似国内
   - MATCH,🐟 漏网之鱼

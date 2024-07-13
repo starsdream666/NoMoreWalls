@@ -171,6 +171,16 @@ class Node:
                     path += '/'+opts.get('path', '')
                 elif net == 'grpc':
                     path += data.get('grpc-opts', {}).get('grpc-service-name','')
+            elif self.type == 'vless':
+                path = data.get('sni', '')+':'
+                net: str = data.get('network', '')
+                if not net: pass
+                elif net == 'ws':
+                    opts: Dict[str, Any] = data.get('ws-opts', {})
+                    path += opts.get('headers', {}).get('Host', '')
+                    path += '/'+opts.get('path', '')
+                elif net == 'grpc':
+                    path += data.get('grpc-opts', {}).get('grpc-service-name','')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
         except Exception:
@@ -764,7 +774,7 @@ def merge(source_obj: Source, sourceId=-1) -> None:
         if isinstance(p, str):
             if not p.isascii() or '://' not in p: continue
             ok = True
-            for ch in '!|@#`~()[]{} ':
+            for ch in '!|`()[]{} ':
                 if ch in p:
                     ok = False; break
             if not ok: continue
@@ -887,7 +897,7 @@ def main():
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
-        AUTOURLS = AUTOFETCH = sources = []
+        sources = []
     elif DEBUG_NO_DYNAMIC:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已选择不抓取动态节点 !!!")
