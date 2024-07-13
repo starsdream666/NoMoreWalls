@@ -1,4 +1,13 @@
 proxies:
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-15.157.113....
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.157.113.116
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-143.244.43....
   network: tcp
   password: ypDt8RkT7J
@@ -6,22 +15,4 @@ proxies:
   server: 143.244.43.216
   skip-cert-verify: true
   sni: vkvd127.mycdn.me
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-15.157.35.1...
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.157.35.19
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-52.60.119.1...
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 52.60.119.16
-  sni: trojan.burgerip.co.uk
   type: trojan

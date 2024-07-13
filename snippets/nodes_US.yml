@@ -1,25 +1,23 @@
 proxies:
-- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-159.223.207...
-  password: zIvR7ryOXv
-  port: 34428
-  server: 159.223.207.182
-  sni: drehitm.duckdns.org
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  sni: egcmi.phooeyunfold.com
   type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🇺🇸US | 🟢 | trojan | @DirectVPN...
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-173.230.149...
   network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.141.81.123
-  sni: trojan.burgerip.co.uk
+  password: 361f238c-ed2a-418d-8c1d-45d6f0e8abe2
+  port: 443
+  server: 173.230.149.143
+  skip-cert-verify: true
+  sni: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
   type: trojan
-- name: 8|🇺🇸 美国 Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.142.72
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-185.180.13....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 185.180.13.70
+  sni: earya.phooeyunfold.com
   type: trojan
 - alpn:
   - http/1.1
@@ -29,12 +27,6 @@ proxies:
   port: 22222
   server: 18.211.127.227
   sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
-  sni: egcmi.phooeyunfold.com
   type: trojan
 - alterId: 0
   cipher: auto
