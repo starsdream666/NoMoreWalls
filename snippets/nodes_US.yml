@@ -1,15 +1,46 @@
 proxies:
-- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
-  sni: egcmi.phooeyunfold.com
+- alpn:
+  - http/1.1
+  name: 8|🇺🇸US | 🟢 | trojan | @DirectVPN...
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.132.149.105
+  sni: trojan.burgerip.co.uk
   type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇺🇸 US-159.223.207...
   password: zIvR7ryOXv
   port: 34428
   server: 159.223.207.182
   sni: drehitm.duckdns.org
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-185.180.13....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 185.180.13.70
+  sni: earya.phooeyunfold.com
+  type: trojan
+- name: 8|US_youtube@资源分享师_105
+  network: tcp
+  password: fg20mtCFHy
+  port: 5443
+  server: usjchf.motrix.xyz
+  skip-cert-verify: true
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇺🇸 US-3.131.175.4...
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.131.175.46
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  sni: egcmi.phooeyunfold.com
   type: trojan
 - client-fingerprint: chrome
   name: 10,11|美国4|@ripaojiedian

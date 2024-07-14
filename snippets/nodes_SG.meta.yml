@@ -1,4 +1,11 @@
 proxies:
+- name: 8|SG_youtube@资源分享师_106
+  network: tcp
+  password: b06d7f06-51ba-402d-991a-3fe1e432247c
+  port: 443
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: random
   name: 12|SG_speednode_0146
   network: ws

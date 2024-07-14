@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇸🇪 SE-13.60.149.1...
+  name: 8|🇸🇪SE | 🟢 | trojan | @PrivateVP...
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -10,7 +10,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: 8|🇸🇪SE | 🟢 | trojan | @PrivateVP...
+  name: '8|🇸🇪SE | 🟢 | trojan | @PrivateVP... #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222

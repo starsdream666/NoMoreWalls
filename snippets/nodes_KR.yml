@@ -1,7 +1,14 @@
 proxies:
-- name: 8|🇰🇷+韩国|@ripaojiedian
+- name: "8|韩国〖电报：@ccbaohe】免费节点定时更新\r"
   password: M3lOal9RPR
   port: 30056
   server: kkr100515a.go02.top
+  skip-cert-verify: false
+  sni: kkr100515a.go02.top
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇰🇷 KR-146.56.171....
+  password: M3lOal9RPR
+  port: 30056
+  server: 146.56.171.71
   sni: kkr100515a.go02.top
   type: trojan

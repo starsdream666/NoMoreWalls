@@ -5,7 +5,7 @@ proxies:
   network: tcp
   password: telegram-id-directvpn
   port: 22222
-  server: 18.185.247.2
+  server: 3.76.73.224
   sni: trojan.burgerip.co.uk
   type: trojan
 - alpn:
