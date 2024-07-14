@@ -1,9 +1,17 @@
 proxies:
-- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-172.105.220....
+- name: 8|JP_youtube@资源分享师_25
+  network: tcp
+  password: M3lOal9RPR
+  port: 30056
+  server: kkr100515a.go02.top
+  skip-cert-verify: true
+  sni: kkr100515a.go02.top
+  type: trojan
+- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-139.162.84.1...
   network: ws
-  password: 8a1ab0df6abea549
+  password: 7ac49a893e0bd10c
   port: 3306
-  server: 172.105.220.7
+  server: 139.162.84.183
   sni: n2.gladns.com
   type: trojan
   ws-opts:
@@ -15,6 +23,15 @@ proxies:
   server: 138.199.23.100
   sni: radtz.phooeyunfold.com
   type: trojan
+- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-172.105.220....
+  network: ws
+  password: 8a1ab0df6abea549
+  port: 3306
+  server: 172.105.220.7
+  sni: n2.gladns.com
+  type: trojan
+  ws-opts:
+    path: /gateway/connect
 - client-fingerprint: chrome
   name: 10,11|日本|@ripaojiedian
   network: tcp

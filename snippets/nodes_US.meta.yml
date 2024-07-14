@@ -1,12 +1,10 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 8|🇺🇸US | 🟢 | trojan | @DirectVPN...
+- name: 8|US_youtube@资源分享师_105
   network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.132.149.105
-  sni: trojan.burgerip.co.uk
+  password: fg20mtCFHy
+  port: 5443
+  server: usjchf.motrix.xyz
+  skip-cert-verify: true
   type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇺🇸 US-159.223.207...
   password: zIvR7ryOXv
@@ -14,18 +12,13 @@ proxies:
   server: 159.223.207.182
   sni: drehitm.duckdns.org
   type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-185.180.13....
-  password: ypDt8RkT7J
-  port: 43118
-  server: 185.180.13.70
-  sni: earya.phooeyunfold.com
-  type: trojan
-- name: 8|US_youtube@资源分享师_105
+- name: 8|US_youtube@资源分享师_110
   network: tcp
-  password: fg20mtCFHy
-  port: 5443
-  server: usjchf.motrix.xyz
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.188.179
   skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
 - alpn:
   - http/1.1
@@ -41,6 +34,14 @@ proxies:
   port: 43118
   server: 89.187.181.172
   sni: egcmi.phooeyunfold.com
+  type: trojan
+- name: 8|US_youtube@资源分享师_131
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.204.37
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
 - client-fingerprint: chrome
   name: 10,11|美国4|@ripaojiedian
