@@ -1,13 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-15.157.113....
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.157.113.116
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-143.244.43....
   network: tcp
   password: ypDt8RkT7J

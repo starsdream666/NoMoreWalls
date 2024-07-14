@@ -1,5 +1,15 @@
 proxies:
+- alpn:
+  - http/1.1
+  name: 8|🇬🇧GB | 🟢 | trojan | @PrivateVP...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.204.37
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.33.1...
+  network: tcp
   password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
   port: 443
   server: 23.106.33.161
@@ -14,19 +24,19 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-18.135.86.1...
+  name: 8|🇬🇧GB | 🟢 | trojan | @DirectVPN...
   network: tcp
-  password: telegram-id-privatevpns
+  password: telegram-id-directvpn
   port: 22222
-  server: 18.135.86.14
+  server: 18.132.57.184
   sni: trojan.burgerip.co.uk
   type: trojan
 - alpn:
   - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-18.169.97.1...
+  name: '8|🇬🇧GB | 🟢 | trojan | @DirectVPN... #1'
   network: tcp
-  password: telegram-id-privatevpns
+  password: telegram-id-directvpn
   port: 22222
-  server: 18.169.97.157
+  server: 18.135.224.31
   sni: trojan.burgerip.co.uk
   type: trojan

@@ -1,5 +1,35 @@
 proxies:
+- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-62.210.82.5...
+  password: ypDt8RkT7J
+  port: 43118
+  server: 62.210.82.54
+  sni: wuxgk.phooeyunfold.com
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-213.186.36....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 213.186.36.123
+  sni: wylbe.phooeyunfold.com
+  type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 51.158.217.130
+  sni: toflf.phooeyunfold.com
+  type: trojan
+- name: '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #1'
+  password: ypDt8RkT7J
+  port: 43118
+  server: 51.158.217.197
+  sni: riyyy.phooeyunfold.com
+  type: trojan
+- name: 8|🇫🇷+法国+巴黎Amazon数据中心
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.47.80.137
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #2'
   password: ypDt8RkT7J
   port: 43118
   server: 51.158.217.57
@@ -13,50 +43,12 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: 8|🇫🇷FR | 🟢 | trojan | @PrivateVP...
+  name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-13.39.31.29...
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.39.188.179
+  server: 13.39.31.29
   sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-15.236.243....
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.243.43
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '8|🇫🇷FR | 🟢 | trojan | @PrivateVP... #1'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.160.211
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-213.186.36....
-  password: ypDt8RkT7J
-  port: 43118
-  server: 213.186.36.123
-  sni: wylbe.phooeyunfold.com
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-52.47.80.13...
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 52.47.80.137
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #1'
-  password: ypDt8RkT7J
-  port: 43118
-  server: 51.158.217.197
-  sni: riyyy.phooeyunfold.com
   type: trojan
 - client-fingerprint: random
   name: 12|FR_speednode_0061
