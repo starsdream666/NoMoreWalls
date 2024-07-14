@@ -1,12 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 8,10|🇰🇷 韩国|@ripaojiedian
+- name: 8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....
   network: tcp
-  password: M3lOal9RPR
-  port: 30056
-  server: kkr100515a.go02.top
-  skip-cert-verify: false
-  sni: kkr100515a.go02.top
+  password: ypDt8RkT7J
+  port: 43118
+  server: 138.199.23.100
+  sni: radtz.phooeyunfold.com
   type: trojan
 - name: 8|🔒 TR-WS-TLS 🇯🇵 JP-139.162.84.1...
   network: ws
@@ -26,13 +24,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /gateway/connect
-- name: 8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....
-  network: tcp
-  password: ypDt8RkT7J
-  port: 43118
-  server: 138.199.23.100
-  sni: radtz.phooeyunfold.com
-  type: trojan
 - client-fingerprint: chrome
   name: 10,11|日本|@ripaojiedian
   network: tcp
@@ -44,41 +35,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
+  name: 10,11|日本4|@ripaojiedian
   network: ws
-  port: '80'
+  port: '2052'
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: c712c725-149f-414a-a684-1e17d137fe4f
+  uuid: a174de4b-6126-4b88-b21e-1388004a2e02
   ws-opts:
     headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  port: 46249
-  server: 45.159.51.6
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1fe35721-be3a-485c-a2aa-eeb785eb827e
-- alterId: 0
-  cipher: auto
-  name: 11|日本4|@ripaojiedian
-  network: tcp
-  port: '46249'
-  server: 45.159.51.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1fe35721-be3a-485c-a2aa-eeb785eb827e
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
 - client-fingerprint: random
   name: 12|JP_speednode_0088
   network: ws

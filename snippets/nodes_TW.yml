@@ -4,7 +4,7 @@ proxies:
   network: ws
   password: moist
   port: 23555
-  server: 60.249.89.74
+  server: 211.72.156.17
   skip-cert-verify: false
   sni: trojan.freenods.sbs
   type: trojan
@@ -16,7 +16,7 @@ proxies:
   network: ws
   password: moist
   port: 23555
-  server: 60.249.89.74
+  server: 211.72.156.17
   skip-cert-verify: true
   sni: trojan.freenods.sbs
   type: trojan

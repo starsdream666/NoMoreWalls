@@ -11,14 +11,14 @@ proxies:
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: h2.wagaga.online
+    host: a1.wagaga.online
     mode: websocket
     mux: true
     path: ''
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 36.232.12.155
+  port: 8443
+  server: 36.232.27.161
   tfo: false
   type: ss
 - alterId: 64
@@ -40,6 +40,28 @@ proxies:
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 29767
+  server: gvip.hongxingdl.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: db5022dd-0d7c-4ef4-8451-f7c7a558bba7
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 45449
+  server: xctransfer1st.cokecloud.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
@@ -50,6 +72,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '29767'
+  server: gvip.hongxingdl.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db5022dd-0d7c-4ef4-8451-f7c7a558bba7
+- alterId: 0
+  cipher: auto
+  name: 11|香港5|@ripaojiedian
+  network: tcp
+  port: '45449'
+  server: xctransfer1st.cokecloud.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
 - client-fingerprint: random
   name: 12|HK_speednode_0074
   network: ws
