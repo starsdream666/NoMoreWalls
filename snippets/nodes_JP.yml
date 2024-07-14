@@ -1,4 +1,17 @@
 proxies:
+- name: 8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....
+  network: tcp
+  password: ypDt8RkT7J
+  port: 43118
+  server: 138.199.23.100
+  sni: radtz.phooeyunfold.com
+  type: trojan
+- name: 8|-0274-JP【ccbaohe.com〗+永久免费节点机场
+  password: 92120e29-2ba5-32f5-9b9c-8c5aceb86988
+  port: 443
+  server: 35.73.226.191
+  skip-cert-verify: true
+  type: trojan
 - name: 8|JP_youtube@资源分享师_25
   network: tcp
   password: M3lOal9RPR
@@ -7,27 +20,20 @@ proxies:
   skip-cert-verify: true
   sni: kkr100515a.go02.top
   type: trojan
-- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-139.162.84.1...
-  network: ws
-  password: 7ac49a893e0bd10c
-  port: 3306
-  server: 139.162.84.183
-  sni: n2.gladns.com
-  type: trojan
-  ws-opts:
-    path: /gateway/connect
-- name: 8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....
-  network: tcp
-  password: ypDt8RkT7J
-  port: 43118
-  server: 138.199.23.100
-  sni: radtz.phooeyunfold.com
-  type: trojan
 - name: 8|🔒 TR-WS-TLS 🇯🇵 JP-172.105.220....
   network: ws
   password: 8a1ab0df6abea549
   port: 3306
   server: 172.105.220.7
+  sni: n2.gladns.com
+  type: trojan
+  ws-opts:
+    path: /gateway/connect
+- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-139.162.84.1...
+  network: ws
+  password: 7ac49a893e0bd10c
+  port: 3306
+  server: 139.162.84.183
   sni: n2.gladns.com
   type: trojan
   ws-opts:
