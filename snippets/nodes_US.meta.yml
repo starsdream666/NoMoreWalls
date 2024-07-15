@@ -1,40 +1,4 @@
 proxies:
-- name: 8,12|AU_speednode_0012
-  network: tcp
-  password: XjD7O1n1Ht
-  port: 5502
-  server: pau-1.motrix.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 8|🇺🇸 美国 Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.42.178.224
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 8|🇺🇸+美国+Amazon+EC2服务器
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.64.199.140
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
-  sni: egcmi.phooeyunfold.com
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🇺🇸US | 🟢 | trojan | @DirectVPN...
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.189.252.221
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -655,6 +619,14 @@ proxies:
     headers:
       Host: hkm.ylks.link
     path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- name: 12|US_speednode_0265
+  password: e261dc84-1b52-42db-859a-ed575e0876fa
+  port: 40021
+  server: hk-2-ddns.sudatech.store
+  skip-cert-verify: true
+  sni: vpn-4-1.sudatech.store
+  type: trojan
+  udp: true
 - name: 12|US_speednode_0266
   network: ws
   port: 443

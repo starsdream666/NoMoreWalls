@@ -1,4 +1,11 @@
 proxies:
+- name: 12|SG_speednode_0214
+  password: b06d7f06-51ba-402d-991a-3fe1e432247c
+  port: 443
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: false
 - name: 12|SG_speednode_0215
   network: ws
   password: 7b06d22a8a7c764f

@@ -1,17 +1,4 @@
 proxies:
-- name: 8|-0737-HK【ccbaohe.com〗+永久免费节点机场
-  password: b06d7f06-51ba-402d-991a-3fe1e432247c
-  port: 443
-  server: swejs.lydurlclub.top
-  skip-cert-verify: true
-  sni: swejs.lydurlclub.top
-  type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇭🇰 HK-154.44.27.9...
-  password: 4CCF9A9AB80E9889198B02ECE7FA08DD
-  port: 43005
-  server: 154.44.27.99
-  sni: j0080.ruixiangseo.xyz
-  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 10|🇭🇰 香港KT|@ripaojiedian

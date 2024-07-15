@@ -1,28 +1,4 @@
 proxies:
-- name: 8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....
-  password: ypDt8RkT7J
-  port: 43118
-  server: 138.199.23.100
-  sni: radtz.phooeyunfold.com
-  type: trojan
-- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-172.105.220....
-  network: ws
-  password: 8a1ab0df6abea549
-  port: 3306
-  server: 172.105.220.7
-  sni: n2.gladns.com
-  type: trojan
-  ws-opts:
-    path: /gateway/connect
-- name: 8|🔒 TR-WS-TLS 🇯🇵 JP-139.162.84.1...
-  network: ws
-  password: 7ac49a893e0bd10c
-  port: 3306
-  server: 139.162.84.183
-  sni: n2.gladns.com
-  type: trojan
-  ws-opts:
-    path: /gateway/connect
 - client-fingerprint: chrome
   name: 10,11|日本|@ripaojiedian
   network: tcp

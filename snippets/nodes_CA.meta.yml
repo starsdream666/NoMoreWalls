@@ -1,19 +1,4 @@
 proxies:
-- name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-138.199.57....
-  network: tcp
-  password: ypDt8RkT7J
-  port: 43118
-  server: 138.199.57.185
-  sni: eiety.phooeyunfold.com
-  type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-143.244.43....
-  network: tcp
-  password: ypDt8RkT7J
-  port: 43118
-  server: 143.244.43.216
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
-  type: trojan
 - name: 12|CA_speednode_0024
   network: ws
   port: 80
