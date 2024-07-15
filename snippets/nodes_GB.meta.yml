@@ -1,29 +1,4 @@
 proxies:
-- name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.33.1...
-  network: tcp
-  password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
-  port: 443
-  server: 23.106.33.161
-  sni: scarily.golfland.club
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🇬🇧GB | 🟢 | trojan | @PrivateVP...
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.42.178.224
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '8|🇬🇧GB | 🟢 | trojan | @PrivateVP... #1'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.41.27.113
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - alpn:
   - http/1.1
   name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-13.42.193.2...
@@ -33,14 +8,12 @@ proxies:
   server: 13.42.193.228
   sni: trojan.burgerip.co.uk
   type: trojan
-- alpn:
-  - http/1.1
-  name: '8|🇬🇧GB | 🟢 | trojan | @PrivateVP... #2'
+- name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.33.1...
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.133.176.97
-  sni: trojan.burgerip.co.uk
+  password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
+  port: 443
+  server: 23.106.33.161
+  sni: scarily.golfland.club
   type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.32.1...
   network: tcp
@@ -49,68 +22,11 @@ proxies:
   server: 23.106.32.171
   sni: scarily.golfland.club
   type: trojan
-- client-fingerprint: random
-  name: 12|GB_speednode_0063
-  network: ws
-  port: 2053
-  server: 51.38.69.149
-  servername: mositr.freenods.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: /?ed=2560
-- name: 12|GB_speednode_0064
-  network: ws
-  port: 443
-  server: 94.247.142.245
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 12|GB_speednode_0065
-  network: ws
-  port: 8443
-  server: 94.247.142.245
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 12|GB_speednode_0066
-  network: ws
-  port: 2096
-  server: 94.247.142.245
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
-- name: 12|GB_speednode_0067
+- name: 12|GB_speednode_0128
   network: ws
   port: 2096
   server: 31.22.116.134
   servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -119,12 +35,23 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|GB_speednode_0068
+- name: 12|GB_speednode_0129
   network: ws
-  port: 2053
-  server: 91.193.58.119
+  port: 2096
+  server: 94.247.142.245
   servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 12|GB_speednode_0130
+  network: ws
+  port: 8443
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
   tls: true
   type: vless
   udp: true
@@ -133,31 +60,20 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|GB_speednode_0069
+- name: 12|GB_speednode_0131
   network: ws
   port: 443
-  server: 217.163.76.75
-  servername: mositr.freenods.sbs
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
   tls: true
   type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  udp: true
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: mositr.freenods.sbs
-    path: Twitterfreecodes
-- name: 12|GB_speednode_0070
-  network: ws
-  port: 443
-  server: 164.38.155.75
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|GB_speednode_0071
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 12|GB_speednode_0132
   network: ws
   port: 443
   server: 31.22.116.159
@@ -169,22 +85,22 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|GB_speednode_0072
+- name: 12|GB_speednode_0133
   network: ws
-  port: 443
-  server: 217.163.76.59
-  servername: mositr.freenods.sbs
+  port: 8443
+  server: 194.36.55.198
+  servername: juzibaipiao.5112233.xyz
   tls: true
   type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: mositr.freenods.sbs
-    path: Twitterfreecodes
-- name: 12|GB_speednode_0073
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 12|GB_speednode_0134
   network: ws
   port: 443
-  server: 164.38.155.63
+  server: 31.22.116.155
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -193,3 +109,111 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- name: 12|GB_speednode_0135
+  network: ws
+  port: 443
+  server: 217.163.76.75
+  servername: mositr.freenods.sbs
+  tls: true
+  type: vless
+  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
+  ws-opts:
+    headers:
+      Host: mositr.freenods.sbs
+    path: Twitterfreecodes
+- name: 12|GB_speednode_0136
+  network: ws
+  port: 443
+  server: 31.22.116.238
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|GB_speednode_0137
+  network: ws
+  port: 443
+  server: 217.163.76.55
+  servername: hkm.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hkm.ylks.link
+    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
+- name: 12|GB_speednode_0139
+  network: ws
+  port: 443
+  server: 194.36.55.36
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|GB_speednode_0140
+  network: ws
+  port: 443
+  server: 217.163.76.245
+  servername: xinm.ylks.link
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xinm.ylks.link
+    path: /
+- name: 12|GB_speednode_0141
+  network: ws
+  port: 443
+  server: 31.22.116.148
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|GB_speednode_0142
+  network: ws
+  port: 443
+  server: 31.22.116.198
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|GB_speednode_0143
+  network: ws
+  port: 443
+  server: 31.22.116.208
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|GB_speednode_0144
+  network: ws
+  port: 443
+  server: 31.22.116.56
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2

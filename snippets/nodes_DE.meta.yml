@@ -1,6 +1,15 @@
 proxies:
 - alpn:
   - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-52.29.156.3...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.29.156.38
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
   name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155...
   network: tcp
   password: telegram-id-privatevpns
@@ -10,36 +19,18 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-18.157.126....
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.157.126.171
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-18.185.145....
+  name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-35.156.88.1...
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 18.185.145.187
+  server: 35.156.88.197
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇩🇪 DE-52.29.156.3...
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.29.156.38
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 12|DE_speednode_0027
+- name: 12|DE_speednode_0065
   network: ws
   port: 2087
   server: 140.99.233.156
   servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -48,19 +39,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|DE_speednode_0028
-  network: ws
-  port: 443
-  server: 45.80.111.8
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|DE_speednode_0029
+- name: 12|DE_speednode_0066
   network: ws
   port: 443
   server: 45.80.111.199
@@ -72,10 +51,72 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 12|DE_speednode_0030
+- name: 12|DE_speednode_0067
+  network: ws
+  port: 2087
+  server: 140.99.233.156
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|DE_speednode_0068
+  network: ws
+  port: 443
+  server: 45.80.111.27
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|DE_speednode_0069
   network: ws
   port: 443
   server: 188.244.122.210
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|DE_speednode_0070
+  network: ws
+  password: 62b9172d-cc3a-4001-8172-7804fbf1a09b
+  port: 443
+  server: 146.19.247.183
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: aka.ms
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|DE_speednode_0071
+  network: ws
+  password: 62b9172d-cc3a-4001-8172-7804fbf1a09b
+  port: 443
+  server: 146.19.247.183
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 12|DE_speednode_0072
+  network: ws
+  port: 443
+  server: 45.80.111.8
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless

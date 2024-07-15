@@ -1,7 +1,1 @@
-proxies:
-- name: 8|🔒 TR-TCP-TLS 🇰🇷 KR-146.56.171....
-  password: M3lOal9RPR
-  port: 30056
-  server: 146.56.171.71
-  sni: kkr100515a.go02.top
-  type: trojan
+proxies: []

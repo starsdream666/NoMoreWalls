@@ -1,9 +1,30 @@
 proxies:
+- name: 8,12|AU_speednode_0012
+  network: tcp
+  password: XjD7O1n1Ht
+  port: 5502
+  server: pau-1.motrix.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 8|🇺🇸 美国 Amazon数据中心
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.42.178.224
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 8|🇺🇸+美国+Amazon+EC2服务器
   password: telegram-id-directvpn
   port: 22222
   server: 3.64.199.140
   sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  sni: egcmi.phooeyunfold.com
   type: trojan
 - alpn:
   - http/1.1
@@ -11,22 +32,8 @@ proxies:
   network: tcp
   password: telegram-id-directvpn
   port: 22222
-  server: 54.84.137.25
+  server: 18.189.252.221
   sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 8|US_youtube@资源分享师_74
-  network: tcp
-  password: c50c6b8d-03b3-4b07-8106-fdf2d4a59e9d
-  port: 443
-  server: xjp11.150517.xyz
-  skip-cert-verify: true
-  type: trojan
-- name: 8|US_youtube@资源分享师_54
-  network: tcp
-  password: XjD7O1n1Ht
-  port: 5502
-  server: pau-1.motrix.xyz
-  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
@@ -45,14 +52,19 @@ proxies:
     headers:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
-- client-fingerprint: chrome
-  name: 10,11|美国4|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11,12|CN_speednode_0059
   network: tcp
   password: GsKYmYOE
   port: 40081
   server: 183.232.139.22
   skip-cert-verify: true
+  tfo: false
   type: trojan
+  udp: false
+  uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

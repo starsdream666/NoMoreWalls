@@ -1,5 +1,5 @@
 proxies:
-- name: 12|CH_speednode_0014
+- name: 12|CH_speednode_0028
   network: ws
   port: 80
   server: 185.18.250.138
@@ -11,7 +11,19 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodes
-- name: 12|CH_speednode_0015
+- name: 12|CH_speednode_0026
+  network: ws
+  port: 443
+  server: 185.18.250.107
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|CH_speednode_0027
   network: ws
   port: 443
   server: 185.18.250.131

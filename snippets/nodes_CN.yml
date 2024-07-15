@@ -1,9 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0026
+- name: 12|CN_speednode_0056
   password: GsKYmYOE
-  port: 1617
-  server: 223.113.54.154
+  port: 40081
+  server: 183.232.139.22
   skip-cert-verify: true
+  sni: sg1111.156786.xyz
   type: trojan
-  udp: false
+  udp: true
