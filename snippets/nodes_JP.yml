@@ -1,12 +1,4 @@
 proxies:
-- name: 8|JP_youtube@资源分享师_25
-  network: tcp
-  password: M3lOal9RPR
-  port: 30056
-  server: kkr100515a.go02.top
-  skip-cert-verify: true
-  sni: kkr100515a.go02.top
-  type: trojan
 - name: 8|🔒 TR-WS-TLS 🇯🇵 JP-172.105.220....
   network: ws
   password: 8a1ab0df6abea549
@@ -25,12 +17,13 @@ proxies:
   type: trojan
   ws-opts:
     path: /gateway/connect
-- name: 8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....
+- name: 8|JP_youtube@资源分享师_25
   network: tcp
-  password: ypDt8RkT7J
-  port: 43118
-  server: 138.199.23.100
-  sni: radtz.phooeyunfold.com
+  password: M3lOal9RPR
+  port: 30056
+  server: kkr100515a.go02.top
+  skip-cert-verify: true
+  sni: kkr100515a.go02.top
   type: trojan
 - client-fingerprint: chrome
   name: 10,11|日本|@ripaojiedian
@@ -40,6 +33,17 @@ proxies:
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  port: 13390
+  server: 45.159.50.225
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0b27b36a-15c0-4699-a25f-223650f23537
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,3 +61,13 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: 11|日本2|@ripaojiedian
+  network: tcp
+  port: '13390'
+  server: 45.159.50.225
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0b27b36a-15c0-4699-a25f-223650f23537

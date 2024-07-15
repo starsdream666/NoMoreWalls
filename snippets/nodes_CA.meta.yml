@@ -1,4 +1,11 @@
 proxies:
+- name: 8|🇨🇦CA | 🔴 | trojan | @oneclickv...
+  network: tcp
+  password: ypDt8RkT7J
+  port: 43118
+  server: 138.199.57.185
+  sni: eiety.phooeyunfold.com
+  type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-143.244.43....
   network: tcp
   password: ypDt8RkT7J
@@ -6,6 +13,15 @@ proxies:
   server: 143.244.43.216
   skip-cert-verify: true
   sni: vkvd127.mycdn.me
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 8|🔒 TR-TCP-TLS 🇨🇦 CA-35.182.223....
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.182.223.83
+  sni: trojan.burgerip.co.uk
   type: trojan
 - name: 12|CA_speednode_0011
   network: ws
