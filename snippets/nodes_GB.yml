@@ -1,9 +1,9 @@
 proxies:
-- name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.32.1...
+- name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.33.1...
   network: tcp
   password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
   port: 443
-  server: 23.106.32.171
+  server: 23.106.33.161
   sni: scarily.golfland.club
   type: trojan
 - alpn:
@@ -15,12 +15,14 @@ proxies:
   server: 13.42.178.224
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.33.1...
+- alpn:
+  - http/1.1
+  name: '8|🇬🇧GB | 🟢 | trojan | @PrivateVP... #1'
   network: tcp
-  password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
-  port: 443
-  server: 23.106.33.161
-  sni: scarily.golfland.club
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.41.27.113
+  sni: trojan.burgerip.co.uk
   type: trojan
 - alpn:
   - http/1.1
@@ -30,4 +32,20 @@ proxies:
   port: 22222
   server: 13.42.193.228
   sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '8|🇬🇧GB | 🟢 | trojan | @PrivateVP... #2'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.133.176.97
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.32.1...
+  network: tcp
+  password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
+  port: 443
+  server: 23.106.32.171
+  sni: scarily.golfland.club
   type: trojan

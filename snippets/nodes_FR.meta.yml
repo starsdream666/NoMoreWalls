@@ -1,36 +1,9 @@
 proxies:
-- name: 8|🇫🇷+法国+巴黎Amazon数据中心
-  password: telegram-id-directvpn
-  port: 22222
-  server: 52.47.80.137
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-13.36.17.19...
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.36.17.192
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-13.39.31.29...
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.31.29
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-15.236.140....
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.140.111
-  sni: trojan.burgerip.co.uk
+- name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-62.210.83.5...
+  password: ypDt8RkT7J
+  port: 43118
+  server: 62.210.83.57
+  sni: ruvil.phooeyunfold.com
   type: trojan
 - name: 8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217....
   password: ypDt8RkT7J
