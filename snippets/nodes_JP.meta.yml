@@ -57,15 +57,6 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- alterId: -1
-  name: 12|JP_speednode_0149
-  password: 7b1dc908-93f8-4111-8d80-e69a9a2d5476
-  port: 20230
-  server: jp005.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 12|JP_speednode_0150
   network: ws
