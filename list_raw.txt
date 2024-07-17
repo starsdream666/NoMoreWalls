@@ -382,7 +382,7 @@ vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@45.159.216.241:443?sni=cfed.tgzdyz2
 vless://f775978b-6e22-41a8-ae5e-5f9779e6745f@104.254.140.155:443?sni=juzibaipiao.5112233.xyz&type=ws&host=juzibaipiao.5112233.xyz&path=/security=tls#12%7CUS_speednode_0314
 vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@167.68.11.146:443?sni=cfed.tgzdyz2.top&type=ws&host=cfed.tgzdyz2.top&path=tg@zdyz2security=tls#12%7CUS_speednode_0315
 vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@43.153.103.203:443?sni=cfed.tgzdyz2.top&type=ws&host=cfed.tgzdyz2.top&path=tg@zdyz2security=tls#12%7CUS_speednode_0316
-ss://Y2hhY2hhMjAtaWV0ZjpIdVRhb0Nsb3Vk@cm1-tw.hutaonode3.top:12556?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D36a1a32505.microsoft.com#%E5%8F%B0%E6%B9%BE%7C%40ripaojiedian
 ss://YWVzLTEyOC1nY206YS13eW00b3ZZNFl3@172.67.141.111:8443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%3Bmux%3D8%3Bhost%3Dh1.fjdd.store%3Btls#%E9%A6%99%E6%B8%AFKT%7C%40ripaojiedian
 https://ablnk.absslk.xyz/8ZLPtjU
 https://freemc.mcsslk.xyz/8tvq1Q1
+ss://Y2hhY2hhMjAtaWV0ZjpIdVRhb0Nsb3Vk@cm1-tw.hutaonode3.top:12556?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D36a1a32505.microsoft.com#%E5%8F%B0%E6%B9%BE%7C%40ripaojiedian
