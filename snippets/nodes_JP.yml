@@ -7,44 +7,23 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- alterId: 1
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 28787
-  server: uwz9g-g05.jp07-1f28-vm0.entry.fr0307a.art
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d4b889ad-dd2e-39ee-ba1a-05821751bb3a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
+  name: 10,11|日本3|@ripaojiedian
   network: ws
-  port: '2052'
+  port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a174de4b-6126-4b88-b21e-1388004a2e02
+  uuid: d9e68c12-ae26-4c90-9608-0ad10c7509c1
   ws-opts:
     headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
-- alterId: 1
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '28787'
-  server: uwz9g-g05.jp07-1f28-vm0.entry.fr0307a.art
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4b889ad-dd2e-39ee-ba1a-05821751bb3a
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: -1
   name: 12|JP_speednode_0149
   password: 7b1dc908-93f8-4111-8d80-e69a9a2d5476
