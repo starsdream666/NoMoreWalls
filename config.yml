@@ -123,11 +123,22 @@ proxy-groups:
       - DIRECT
       - 🚀 选择代理
 
+  - name: 🚨 中毒网站应急隔离
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
   - name: 🗺️ 选择地区
     type: select
     proxies: []
 
 rules:
+  # 应急响应：BootCDN/Staticfile 被投毒！
+  - DOMAIN,cdn.bootcss.com,🚨 中毒网站应急隔离
+  - DOMAIN,cdn.bootcdn.net,🚨 中毒网站应急隔离
+  - DOMAIN,cdn.staticfile.net,🚨 中毒网站应急隔离
+  - DOMAIN,cdn.staticfile.org,🚨 中毒网站应急隔离
   # Adblock 补刀 (主程序解析白名单时会把要屏蔽的一起加白了)
   - DOMAIN,img-c.heytapimage.com,⛔ 广告拦截
   - DOMAIN,adsbdfs.heytapimage.com,⛔ 广告拦截
