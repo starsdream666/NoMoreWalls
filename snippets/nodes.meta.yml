@@ -3936,3 +3936,38 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- alterId: 0
+  cipher: auto
+  name: '13|d*********g.com_2 #4'
+  network: tcp
+  port: '443'
+  server: 42.236.73.72
+  servername: www.zitian.cn
+  tls: true
+  type: vmess
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+- alpn:
+  - http%2F1.1
+  name: '13|d*********g.com_6 #1'
+  network: tcp
+  port: 443
+  server: 42.236.73.72
+  servername: www.zitian.cn
+  tls: true
+  type: vless
+  uuid: 11916472-4e2c-49c6-b75d-71196b3a7ecf
+  ws-opts:
+    headers:
+      Host: www.zitian.cn
+- alpn:
+  - http%2F1.1
+  name: '13|d*********g.com_3 #4'
+  network: tcp
+  password: fuck
+  port: 443
+  server: 42.236.73.72
+  sni: www.zitian.cn
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.zitian.cn
