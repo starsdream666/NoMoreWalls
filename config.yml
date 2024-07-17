@@ -116,18 +116,18 @@ proxy-groups:
       - 🚀 选择代理
       - DIRECT
 
+  - name: 🚨 中毒网站应急隔离
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
   - name: ⛔ 广告拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
       - 🚀 选择代理
-
-  - name: 🚨 中毒网站应急隔离
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
 
   - name: 🗺️ 选择地区
     type: select
