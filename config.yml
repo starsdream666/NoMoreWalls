@@ -139,6 +139,7 @@ rules:
   - DOMAIN,cdn.bootcdn.net,🚨 中毒网站应急隔离
   - DOMAIN,cdn.staticfile.net,🚨 中毒网站应急隔离
   - DOMAIN,cdn.staticfile.org,🚨 中毒网站应急隔离
+  - DOMAIN-SUFFIX,polyfill.io,🚨 中毒网站应急隔离
   # Adblock 补刀 (主程序解析白名单时会把要屏蔽的一起加白了)
   - DOMAIN,img-c.heytapimage.com,⛔ 广告拦截
   - DOMAIN,adsbdfs.heytapimage.com,⛔ 广告拦截
