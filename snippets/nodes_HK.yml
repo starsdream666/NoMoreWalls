@@ -15,6 +15,15 @@ proxies:
   server: 172.67.141.111
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 10,11|香港|@ripaojiedian
+  network: tcp
+  password: 15bc9e79-5ba0-388a-8804-67f203ee4487
+  port: 13002
+  server: 36.141.40.27
+  skip-cert-verify: true
+  sni: ip2648428075.mobgslb.tbcache.com
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -27,11 +36,20 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
+  name: 10,11|香港3|@ripaojiedian
+  network: tcp
+  password: 9bd9f0da-cb8b-4bd3-9f80-efa1be67daa0
+  port: 13008
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: MfqALmAJ
   port: 20819
-  server: 223.113.54.146
+  server: 36.151.195.77
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
@@ -43,6 +61,17 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 3293
+  server: pro01.dns2024.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
@@ -53,3 +82,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: tcp
+  port: '3293'
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c

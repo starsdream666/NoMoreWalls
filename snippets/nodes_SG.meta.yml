@@ -16,15 +16,6 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
-- client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
-  network: tcp
-  password: 0667c315-3a42-3c09-9c26-8a9d81a31ee0
-  port: 14009
-  server: 36.141.40.27
-  skip-cert-verify: true
-  sni: ip2648428075.mobgslb.tbcache.com
-  type: trojan
 - name: 12|SG_speednode_0206
   network: ws
   port: 2083
