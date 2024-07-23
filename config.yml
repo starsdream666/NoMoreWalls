@@ -178,9 +178,13 @@ rules:
   - DOMAIN-SUFFIX,trafficmanager.net,DIRECT
   # - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
   - DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理 # 视情况而定
+  
   - DOMAIN-SUFFIX,googleapis.cn,DIRECT # 见 README
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，多数可直连，连不上 Google Play 会自动更换
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
+  - DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
+  - DOMAIN,redirector.gvt1.com,DIRECT # 会解析到你使用的运营商
+  
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
   - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
   - IP-CIDR,61.160.148.90/32,❓ 疑似国内 # 被上面污染了
@@ -200,6 +204,11 @@ rules:
   - DOMAIN-KEYWORD,dongtaiwang,REJECT
   - DOMAIN,safebrowsing.googleapis.com,DIRECT
   - DOMAIN,dl.google.com,🐟 漏网之鱼
+  - DOMAIN-SUFFIX,taptap.io,🚀 选择代理
+  - DOMAIN-SUFFIX,tap.io,🚀 选择代理
+  - DOMAIN-SUFFIX,tapapis.com,🌐 突破锁区
+  - DOMAIN-KEYWORD,tapsdk,🌐 突破锁区
+  - DOMAIN-KEYWORD,taptap,🌐 突破锁区
 
 
   # 国内网站（优先，避免 google.cn 走代理）
