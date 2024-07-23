@@ -59,17 +59,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 11|美国3|@ripaojiedian
-  network: ws
-  password: 401b8df2-10f3-4440-8b7f-9870474b2777
-  port: 443
-  server: ct.cfyun.top
-  sni: cfus4.trojanwss.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cfus4.trojanwss.xyz
-    path: '%2FCFJICHANG'
 - name: 12|US_speednode_0165
   password: epDl3yFT5CNCKazFSqAxDOAyau3IXjxl63YcZSE0248BnZ7gOa8C9pYR3weSDR
   port: 28342
