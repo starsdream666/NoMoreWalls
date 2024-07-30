@@ -37,27 +37,27 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- name: 12|JP_speednode_0100
+- name: 12|JP_speednode_0098
   network: ws
-  port: 80
-  server: 138.2.18.184
-  servername: hkx.ylks.xyz
-  tls: false
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hkx.ylks.xyz
-    path: /freecodes
-- name: 12|JP_speednode_0101
-  network: ws
-  port: 53780
-  server: 150.230.107.234
-  servername: vx.ylks.xyz
+  port: 443
+  server: 43.153.181.217
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: vx.ylks.xyz
-    path: /
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|JP_speednode_0099
+  network: ws
+  port: 443
+  server: 43.153.181.217
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: Twitterfreecodestg@zdyz2

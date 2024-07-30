@@ -58,11 +58,3 @@ proxies:
     headers:
       Host: us2jdgv5GC7.fzbqfrse.xyz
     path: /video/DDC4btA8wc/
-- name: 12|US_speednode_0165
-  password: epDl3yFT5CNCKazFSqAxDOAyau3IXjxl63YcZSE0248BnZ7gOa8C9pYR3weSDR
-  port: 28342
-  server: okelvv.superpokemon.com
-  skip-cert-verify: true
-  sni: okelvv.superpokemon.com
-  type: trojan
-  udp: true

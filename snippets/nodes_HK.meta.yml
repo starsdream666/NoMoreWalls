@@ -146,15 +146,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
-- name: 12|HK_speednode_0099
+- client-fingerprint: chrome
+  name: 12|HK_speednode_0097
   network: ws
-  port: 443
-  server: 16.162.37.167
-  servername: xinx.ylks.xyz
+  port: 34237
+  server: 8.210.109.11
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
   ws-opts:
     headers:
-      Host: xinx.ylks.xyz
-    path: /freecodes
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
