@@ -6,9 +6,9 @@
 
 ## 公告
 
-### 由于 [BootCDN/Staticfile 被投毒](https://www.52pojie.cn/thread-1944970-1-1.html)，我们紧急拦截了这些网站。
+### 由于 [BootCDN/Staticfile 已被病毒公司收购](https://www.52pojie.cn/thread-1944970-1-1.html)，我们拦截了这些网站。
 
-### 如果您访问部分网站时遇到问题，可以将 `中毒网站应急隔离` 分类切换为 `DIRECT`，但是您需要**自行承担一切安全风险，包括但不限于广告骚扰，账号被盗，设备中毒**等，请三思而后行！！！
+### 如果您访问部分网站时遇到问题，可以将 `病毒网站` 分类切换为 `DIRECT`，但是您需要**自行承担一切安全风险，包括但不限于广告骚扰，账号被盗，设备中毒**等，请三思而后行！！！
 
 为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
 
@@ -18,28 +18,9 @@
 
 为推动国产游戏(?)发展，本项目现已适配 mihomo 专用订阅，支持更多节点！详见下方 Clash 使用说明。
 
-## 上海移动可直连部分 Google Play 服务
+## Google Play 下载服务器已调整
 
-部分 Google Play 的服务域名被解析到了上海移动的服务器，由此上海移动及周边出口节点为上海的移动用户可以不过墙直连 Google Play 的部分服务，如应用下载、查看应用详情等。其余运营商及地区等消息.
-
-## 关于 Google Play 等服务在 *国行机* 无法使用的解决方法
-
-~~由于 Google 调整了服务器安排，将原有的国外服务器的**域名**调整到了国内专版，但是**服务器**还没跟上，导致 Google Play 等服务在国内连上的是**空域名**，直接不能用了。~~
-
-~~根据一些来源，这可能是一个多年以前的历史遗留问题了，只不过以前高质量的节点可以避开这个问题，而现在节点质量的下降导致这个问题又出现了。当前的解决办法有：~~
-
-请注意，本节内容仅针对所有预装 GMS 的**国行机**和小部分未装 GMS 但仍有锁区的新中高端国行机。
-
-现在 `googleapis.cn` 不会返回无效的 CN 服务器了~ 当前的解决办法有：
-
-1. **使用 Clash Meta**，使用本项目提供的**完整**订阅无需配置，自行配置的请看下一条。
-2. **如果您使用的是本项目提供的 Rule Providers**，请在 `rules` 开头加上：
-```yaml
-  - DOMAIN-SUFFIX,googleapis.cn,DIRECT
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，多数可直连，连不上 Google Play 会自动更换
-  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
-```
-3.  **如果你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)，这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。这是一劳永逸的解决办法，同时还能解除其它服务如地图等的锁区限制。
+Google Play 的**国内**下载服务器已完成部署，国行机下载软件时可以不过代理直连，非国行机仍然走国外服务器但也可直连。下载时将 `🐟 漏网之鱼` 切换成 `DIRECT` 即可享受**直连**的快感！
 
 如果此问题有变化，我们会在此更新，请及时关注。
 
@@ -65,7 +46,7 @@
 以下加速链接可能无效：
 - [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.txt)
 
-或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，请**将链接最后的 `.yml` 替换成 `.meta.yml`**。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
+或添加 Clash 订阅：（重磅：本项目同时提供 Meta 专用订阅，支持更多节点！要使用 Meta 专用订阅，**强烈建议将链接最后的 `.yml` 替换成 `.meta.yml`**。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [GhProxy.com](https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
@@ -96,6 +77,10 @@ git clone https://github.com/peasoft/NoMoreWalls.git --depth=1
 ## 一些题外话
 
 各位看一看：
+
+- **[油罐车事件是最好的照妖镜，上赶着带节奏都是谁请大家记下来。](https://www.bilibili.com/video/BV1p1421b7Ki)私有化愈发严重影响的是所有中国人的切身利益，必须用公有平衡私有我们才有发展的前途。**
+
+上方事件的严重性已经远超下面的事情了。
 
 - **[【独家恢复】我们的教育弄虚作假，到底是为了什么](https://peasoft.github.io/2023/08/26/cnedu.html)：如此视频，为何惨遭删除？我们恢复了这段视频，只为让更多人可以看清现实。**
 - **[最流氓的软件可以流氓到什么程度？](https://www.zhihu.com/question/29129310)我翻开其他网页一查，歪歪斜斜的每页上都写着“危险网页”几个字。我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“霸权”！**
