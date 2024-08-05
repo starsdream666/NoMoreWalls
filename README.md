@@ -6,6 +6,8 @@
 
 ## 公告
 
+[NoMoreWalls 的终极形态是肉身。](https://peasoft.github.io/2024/08/05/run.html)
+
 ### 由于 [BootCDN/Staticfile 已被病毒公司收购](https://www.52pojie.cn/thread-1944970-1-1.html)，我们拦截了这些网站。
 
 ### 如果您访问部分网站时遇到问题，可以将 `病毒网站` 分类切换为 `DIRECT`，但是您需要**自行承担一切安全风险，包括但不限于广告骚扰，账号被盗，设备中毒**等，请三思而后行！！！
