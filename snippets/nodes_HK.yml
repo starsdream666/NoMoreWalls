@@ -58,16 +58,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 7a9a3569-4178-4bf5-b89d-8555b82ff0ed
-- name: 12|HK_speednode_0061
-  network: ws
-  password: CMLiu
-  port: 2083
-  server: 47.76.33.40
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
