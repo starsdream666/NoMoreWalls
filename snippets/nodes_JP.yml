@@ -10,33 +10,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本2|@ripaojiedian
+  name: 10,11|日本5|@ripaojiedian
   network: ws
-  port: 46015
-  server: cc1mm2vip.yushen.buzz
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
+  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
   ws-opts:
     headers:
-      Host: cc1mm2vip.yushen.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|日本2|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: cc1mm2vip.yushen.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - name: 12|JP_speednode_0070
   network: ws
   password: CMLiu
