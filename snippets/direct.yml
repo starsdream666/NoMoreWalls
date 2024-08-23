@@ -149,7 +149,6 @@ payload:
 - DOMAIN-SUFFIX,udacity.com
 - DOMAIN-SUFFIX,xmcdn.com
 - DOMAIN-SUFFIX,yangkeduo.com
-- DOMAIN-SUFFIX,zhihu.com
 - DOMAIN-SUFFIX,zhimg.com
 - IP-CIDR,101.227.0.0/16
 - IP-CIDR,101.224.0.0/13
