@@ -150,6 +150,7 @@ rules:
   # 自定义规则
   ## 您可以在此处插入您补充的自定义规则（请注意保持缩进）
   # - DOMAIN-SUFFIX,gitcode.com,⛔ 广告拦截
+  - DOMAIN-SUFFIX,zhihu.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,signalr.net,DIRECT
   - DOMAIN-KEYWORD,onedrive,🚀 选择代理
   - DOMAIN-SUFFIX,live.com,DIRECT
