@@ -68,7 +68,7 @@ proxies:
       Host: us6rCQacjGq.inivtrak.xyz
     path: /video/bcxQresd
 - client-fingerprint: chrome
-  name: 12|US_speednode_0311
+  name: 12|US_speednode_0208
   network: ws
   password: CMLiu
   port: 443
@@ -81,7 +81,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0314
+- name: 12|US_speednode_0194
   network: ws
   password: CMLiu
   port: 443

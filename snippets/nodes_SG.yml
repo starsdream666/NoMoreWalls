@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: cscEqFeksg1.wzjwkqya.xyz
     path: /video/orbHPhkP
-- name: 12|SG_speednode_0259
+- name: 12|SG_speednode_0167
   network: ws
   password: b84d16a244460e09
   port: 3306

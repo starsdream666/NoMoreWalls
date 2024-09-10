@@ -16,16 +16,3 @@ proxies:
   server: 36.151.195.83
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: randomized
-  name: 12|HK_speednode_0102
-  network: ws
-  port: 443
-  server: 58.176.95.46
-  servername: dns68.putata.eu.org
-  tls: true
-  type: vless
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  ws-opts:
-    headers:
-      Host: dns68.putata.eu.org
-    path: /?ed=2048
