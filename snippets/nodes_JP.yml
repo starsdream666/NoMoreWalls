@@ -1,8 +1,16 @@
 proxies:
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本|@ripaojiedian
+  password: YCxWVzJ5291c
+  port: 6259
+  server: 154.205.139.44
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
+  name: 13,14|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -16,10 +24,18 @@ proxies:
     headers:
       Host: zqWukzdtjp1.wzjwkqya.xyz
     path: /video/RPKZwKFW
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本3|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11022
+  server: group-east-01.nutbit-node.lat
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
+  name: 13|🇯🇵 日本4|@ripaojiedian
   port: 16718
   server: relay.gz.flyidc.top
   skip-cert-verify: false
@@ -27,9 +43,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 103.161.255.195
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.108.128
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|日本4|@ripaojiedian
+  name: 14|日本4|@ripaojiedian
   network: tcp
   port: '16718'
   server: relay.gz.flyidc.top

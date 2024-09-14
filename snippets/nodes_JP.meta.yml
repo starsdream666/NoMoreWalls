@@ -1,8 +1,16 @@
 proxies:
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本|@ripaojiedian
+  password: YCxWVzJ5291c
+  port: 6259
+  server: 154.205.139.44
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
+  name: 13,14|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -16,10 +24,18 @@ proxies:
     headers:
       Host: zqWukzdtjp1.wzjwkqya.xyz
     path: /video/RPKZwKFW
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本3|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11022
+  server: group-east-01.nutbit-node.lat
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
+  name: 13|🇯🇵 日本4|@ripaojiedian
   port: 16718
   server: relay.gz.flyidc.top
   skip-cert-verify: false
@@ -27,9 +43,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 103.161.255.195
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.108.128
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|日本4|@ripaojiedian
+  name: 14|日本4|@ripaojiedian
   network: tcp
   port: '16718'
   server: relay.gz.flyidc.top
@@ -37,7 +69,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- name: 12|JP_speednode_0254
+- name: 15|JP_speednode_0254
   network: ws
   port: 40439
   server: 91.199.209.241
@@ -51,7 +83,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0255
+- name: 15|JP_speednode_0255
   network: ws
   port: 19125
   server: 85.113.70.29
@@ -65,7 +97,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0256
+- name: 15|JP_speednode_0256
   network: ws
   port: 19217
   server: 45.66.130.58
@@ -79,7 +111,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0257
+- name: 15|JP_speednode_0257
   network: ws
   port: 28865
   server: 45.66.129.123
@@ -93,7 +125,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0258
+- name: 15|JP_speednode_0258
   network: ws
   port: 21997
   server: 45.143.234.126
@@ -107,7 +139,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0259
+- name: 15|JP_speednode_0259
   network: ws
   port: 16091
   server: 45.143.233.253
@@ -121,7 +153,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0260
+- name: 15|JP_speednode_0260
   network: ws
   port: 11156
   server: 45.137.180.117
@@ -135,7 +167,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0261
+- name: 15|JP_speednode_0261
   network: ws
   port: 1904
   server: 38.47.124.94
@@ -149,7 +181,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0262
+- name: 15|JP_speednode_0262
   network: ws
   port: 20309
   server: 38.47.124.210
@@ -163,7 +195,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0263
+- name: 15|JP_speednode_0263
   network: ws
   port: 1233
   server: 45.66.217.162
@@ -177,7 +209,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0264
+- name: 15|JP_speednode_0264
   network: ws
   port: 58429
   server: 38.47.99.52
@@ -191,7 +223,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0265
+- name: 15|JP_speednode_0265
   network: ws
   port: 47000
   server: 38.47.96.148
@@ -205,7 +237,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0266
+- name: 15|JP_speednode_0266
   network: ws
   port: 36521
   server: 45.14.106.186
@@ -219,7 +251,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0267
+- name: 15|JP_speednode_0267
   network: ws
   port: 17232
   server: 195.245.241.30
@@ -233,7 +265,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0268
+- name: 15|JP_speednode_0268
   network: ws
   port: 19703
   server: 185.184.223.151
@@ -247,7 +279,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0269
+- name: 15|JP_speednode_0269
   network: ws
   port: 24686
   server: 195.245.242.237
@@ -261,7 +293,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0270
+- name: 15|JP_speednode_0270
   network: ws
   port: 26512
   server: 193.111.30.48
@@ -275,7 +307,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0271
+- name: 15|JP_speednode_0271
   network: ws
   port: 1112
   server: 176.119.150.174
@@ -289,7 +321,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0272
+- name: 15|JP_speednode_0272
   network: ws
   port: 13054
   server: 167.88.185.137
@@ -303,7 +335,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0273
+- name: 15|JP_speednode_0273
   network: ws
   port: 34237
   server: 167.88.182.86
@@ -317,7 +349,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0274
+- name: 15|JP_speednode_0274
   network: ws
   port: 443
   server: 154.64.226.138
@@ -331,7 +363,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0275
+- name: 15|JP_speednode_0275
   network: ws
   port: 56565
   server: 103.201.130.137
@@ -345,7 +377,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0276
+- name: 15|JP_speednode_0276
   network: ws
   port: 22363
   server: 103.201.130.137
@@ -359,7 +391,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0277
+- name: 15|JP_speednode_0277
   network: ws
   port: 57610
   server: 103.232.213.26
@@ -375,7 +407,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|JP_speednode_0278
+  name: 15|JP_speednode_0278
   network: tcp
   port: 56702
   reality-opts:
@@ -388,7 +420,7 @@ proxies:
   type: vless
   udp: true
   uuid: 54080d7d-5016-4b23-acfe-c0872844c55c
-- name: 12|JP_speednode_0279
+- name: 15|JP_speednode_0279
   network: ws
   port: 31262
   server: 103.151.40.23
@@ -402,7 +434,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0280
+- name: 15|JP_speednode_0280
   network: ws
   port: 34446
   server: 206.190.238.68
@@ -416,7 +448,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|JP_speednode_0281
+- name: 15|JP_speednode_0281
   network: ws
   port: 2086
   server: 3.112.254.49
@@ -430,7 +462,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|JP_speednode_0282
+- name: 15|JP_speednode_0282
   network: ws
   port: 54310
   server: 103.75.70.25
@@ -444,7 +476,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|JP_speednode_0283
+- name: 15|JP_speednode_0283
   network: ws
   port: 57610
   server: 103.232.213.26

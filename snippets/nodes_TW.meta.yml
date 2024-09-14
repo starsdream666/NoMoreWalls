@@ -1,8 +1,16 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇹🇼 台湾|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11011
+  server: group-south-01.nutbit-node.lat
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|台湾2|@ripaojiedian
+  name: 13,14|台湾2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -16,7 +24,7 @@ proxies:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
-- name: 12|TW_speednode_0375
+- name: 15|TW_speednode_0375
   network: ws
   port: 10004
   server: 114.34.202.224
@@ -30,7 +38,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|TW_speednode_0376
+- name: 15|TW_speednode_0376
   network: ws
   port: 54510
   server: 108.165.145.52
@@ -44,7 +52,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|TW_speednode_0377
+- name: 15|TW_speednode_0377
   network: ws
   port: 81
   server: 210.61.97.241
@@ -58,7 +66,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|TW_speednode_0378
+- name: 15|TW_speednode_0378
   network: ws
   port: 38858
   server: 103.137.63.5
@@ -72,7 +80,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|TW_speednode_0379
+- name: 15|TW_speednode_0379
   network: ws
   port: 30236
   server: 166.0.199.145
@@ -86,7 +94,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|TW_speednode_0380
+- name: 15|TW_speednode_0380
   network: ws
   port: 18890
   server: 141.11.87.85
@@ -100,7 +108,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|TW_speednode_0381
+- name: 15|TW_speednode_0381
   network: ws
   port: 12071
   server: 123.241.137.138

@@ -1,8 +1,72 @@
 proxies:
+- name: '7,12|🇭🇰16@oneclickvpnkeys #1'
+  password: f1f64dae6da66df5
+  port: 30002
+  server: 178.128.113.131
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '7,12|🇭🇰6@oneclickvpnkeys #1'
+  password: f206702e
+  port: 3341
+  server: 82.152.142.65
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '7,12|🇭🇰8@oneclickvpnkeys #1'
+  password: f206702e
+  port: 3341
+  server: 82.152.142.66
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '7,12|🇭🇰5@oneclickvpnkeys #1'
+  password: f206702e
+  port: 3341
+  server: 82.152.142.67
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '7,12|🇭🇰9@oneclickvpnkeys #1'
+  password: f206702e
+  port: 3341
+  server: 82.152.142.68
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '7,12|🇭🇰7@oneclickvpnkeys #1'
+  password: f206702e
+  port: 3341
+  server: 82.152.142.69
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11001
+  server: group-south-01.nutbit-node.lat
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港2|@ripaojiedian
+  password: 63b37069-ade8-4d4c-a6dc-1161df539069
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
+  name: 13|🇭🇰 香港3|@ripaojiedian
   port: 21971
   server: 38.147.189.150
   skip-cert-verify: false
@@ -11,16 +75,24 @@ proxies:
   type: vmess
   uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
 - client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
+  name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: lNOcIAxy
   port: 55314
   server: 36.151.195.83
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 103.161.255.195
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '21971'
   server: 38.147.189.150
@@ -29,7 +101,7 @@ proxies:
   type: vmess
   uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
 - client-fingerprint: randomized
-  name: 12|HK_speednode_0216
+  name: 15|HK_speednode_0216
   network: ws
   port: 11417
   server: 183.178.22.246
@@ -44,7 +116,7 @@ proxies:
       Host: dns68.putata.eu.org
     path: /?ed=2048
 - client-fingerprint: randomized
-  name: 12|HK_speednode_0217
+  name: 15|HK_speednode_0217
   network: ws
   port: 35002
   server: 58.176.229.127
@@ -59,7 +131,7 @@ proxies:
       Host: dns68.putata.eu.org
     path: /?ed=2048
 - client-fingerprint: randomized
-  name: 12|HK_speednode_0218
+  name: 15|HK_speednode_0218
   network: ws
   port: 35002
   server: 58.176.229.127
@@ -73,7 +145,7 @@ proxies:
     headers:
       Host: edgetunnel-free.pages.dev
     path: /?ed=2048
-- name: 12|HK_speednode_0219
+- name: 15|HK_speednode_0219
   network: ws
   port: 49758
   server: 46.3.110.219
@@ -87,7 +159,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0220
+- name: 15|HK_speednode_0220
   network: ws
   port: 2302
   server: 46.3.109.215
@@ -101,7 +173,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0221
+- name: 15|HK_speednode_0221
   network: ws
   port: 19515
   server: 46.3.110.219
@@ -115,7 +187,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0222
+- name: 15|HK_speednode_0222
   network: ws
   port: 22626
   server: 58.82.248.94
@@ -129,7 +201,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0223
+- name: 15|HK_speednode_0223
   network: ws
   port: 31583
   server: 58.82.217.248
@@ -143,7 +215,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0224
+- name: 15|HK_speednode_0224
   network: ws
   port: 25021
   server: 46.3.96.174
@@ -157,7 +229,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0225
+- name: 15|HK_speednode_0225
   network: ws
   port: 10070
   server: 46.3.103.212
@@ -171,7 +243,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0226
+- name: 15|HK_speednode_0226
   network: ws
   port: 15805
   server: 46.3.103.94
@@ -185,7 +257,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0227
+- name: 15|HK_speednode_0227
   network: ws
   port: 33033
   server: 46.3.109.77
@@ -199,7 +271,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0228
+- name: 15|HK_speednode_0228
   network: ws
   port: 9527
   server: 46.3.107.44
@@ -213,7 +285,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0229
+- name: 15|HK_speednode_0229
   network: ws
   port: 32633
   server: 223.122.233.66
@@ -227,7 +299,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0230
+- name: 15|HK_speednode_0230
   network: ws
   port: 8444
   server: 23.147.232.31
@@ -241,7 +313,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0231
+- name: 15|HK_speednode_0231
   network: ws
   port: 10116
   server: 38.55.98.102
@@ -255,7 +327,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0232
+- name: 15|HK_speednode_0232
   network: ws
   port: 8000
   server: 46.232.122.240
@@ -269,7 +341,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0233
+- name: 15|HK_speednode_0233
   network: ws
   port: 12345
   server: 42.98.167.229
@@ -283,7 +355,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0234
+- name: 15|HK_speednode_0234
   network: ws
   port: 32378
   server: 161.81.233.147
@@ -297,7 +369,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0235
+- name: 15|HK_speednode_0235
   network: ws
   port: 23278
   server: 161.81.234.137
@@ -311,7 +383,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0236
+- name: 15|HK_speednode_0236
   network: ws
   port: 23555
   server: 219.77.65.212
@@ -325,7 +397,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0237
+- name: 15|HK_speednode_0237
   network: ws
   port: 443
   server: 219.76.13.181
@@ -339,7 +411,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0238
+- name: 15|HK_speednode_0238
   network: ws
   port: 443
   server: 219.76.13.177
@@ -353,7 +425,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0239
+- name: 15|HK_speednode_0239
   network: ws
   port: 28158
   server: 149.104.29.246
@@ -367,7 +439,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0240
+- name: 15|HK_speednode_0240
   network: ws
   port: 443
   server: 219.76.13.183
@@ -381,7 +453,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0241
+- name: 15|HK_speednode_0241
   network: ws
   port: 35002
   server: 103.48.169.107
@@ -395,7 +467,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0242
+- name: 15|HK_speednode_0242
   network: ws
   port: 14132
   server: 103.48.169.107
@@ -409,7 +481,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0243
+- name: 15|HK_speednode_0243
   network: ws
   port: 25990
   server: 103.235.18.163
@@ -423,7 +495,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0244
+- name: 15|HK_speednode_0244
   network: ws
   port: 50153
   server: 103.234.53.199
@@ -437,7 +509,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0245
+- name: 15|HK_speednode_0245
   network: ws
   port: 2096
   server: 149.104.24.14
@@ -451,7 +523,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0246
+- name: 15|HK_speednode_0246
   network: ws
   port: 443
   server: 219.76.13.164
@@ -465,7 +537,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0247
+- name: 15|HK_speednode_0247
   network: ws
   port: 43303
   server: 103.229.54.97
@@ -479,7 +551,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0248
+- name: 15|HK_speednode_0248
   network: ws
   port: 45936
   server: 47.242.172.10
@@ -493,7 +565,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|HK_speednode_0249
+- name: 15|HK_speednode_0249
   network: ws
   port: 20443
   server: 103.148.72.194
@@ -507,7 +579,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0250
+- name: 15|HK_speednode_0250
   network: ws
   port: 50448
   server: 47.238.245.22
@@ -521,7 +593,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|HK_speednode_0251
+- name: 15|HK_speednode_0251
   network: ws
   port: 35181
   server: 165.154.43.92
@@ -535,7 +607,7 @@ proxies:
     headers:
       Host: pages.tcorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|HK_speednode_0252
+- name: 15|HK_speednode_0252
   network: ws
   port: 23555
   server: 112.119.49.206
@@ -549,7 +621,7 @@ proxies:
     headers:
       Host: global2.ccdd.site
     path: /?ed=2560
-- name: 12|HK_speednode_0253
+- name: 15|HK_speednode_0253
   network: ws
   port: 443
   server: 103.135.102.100

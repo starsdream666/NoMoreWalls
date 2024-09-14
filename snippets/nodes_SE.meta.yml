@@ -1,5 +1,5 @@
 proxies:
-- name: 12|SE_speednode_0358
+- name: 15|SE_speednode_0358
   network: ws
   port: 2096
   server: 70.34.199.167

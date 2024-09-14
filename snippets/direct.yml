@@ -9,6 +9,7 @@ payload:
 - DOMAIN-SUFFIX,jsdelivr.us
 - DOMAIN-SUFFIX,jsdelivr.net
 - DOMAIN-SUFFIX,trafficmanager.net
+- DOMAIN-SUFFIX,outlook.com
 - DOMAIN-SUFFIX,googleapis.cn
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
@@ -149,6 +150,7 @@ payload:
 - DOMAIN-SUFFIX,udacity.com
 - DOMAIN-SUFFIX,xmcdn.com
 - DOMAIN-SUFFIX,yangkeduo.com
+- DOMAIN-SUFFIX,zhihu.com
 - DOMAIN-SUFFIX,zhimg.com
 - IP-CIDR,101.227.0.0/16
 - IP-CIDR,101.224.0.0/13
