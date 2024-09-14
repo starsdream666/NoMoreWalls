@@ -12,8 +12,6 @@
 
 如果您访问部分网站时遇到问题，可以将 `病毒网站` 分类切换为 `DIRECT`，但是您需要**自行承担一切安全风险，包括但不限于广告骚扰，账号被盗，设备中毒**等，请三思而后行！！！
 
-知乎在中国大陆境内因未知原因只能获取乱码内容，无法正常浏览，因此我们将其加入了广告拦截列表以节省流量。何时移除取决于网站何时恢复正常，我们会密切关注这一情况。
-
 为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
 
 警报：Clash 死了！[最后的遗照](https://github.com/doreamon-design/clash)
@@ -63,6 +61,9 @@ Google Play 的**国内**下载服务器已完成部署，国行机下载软件�
 
 以下加速链接可能无效：
 - [KKGithub](https://raw.kkgithub.com/peasoft/NoMoreWalls/master/list.yml)
+
+或添加 Sing-Box 订阅：（第三方提供转换，不支持本项目的节点选择）
+- [转换链接（第三方）](https://subapi.fxxk.dedyn.io/sub?target=singbox&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist.meta.yml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&tls13=true&emoji=true&list=false&xudp=true&udp=true&tfo=false&expand=true&scv=false&fdn=false&singbox.ipv6=1)
 
 ## 免责声明
 
