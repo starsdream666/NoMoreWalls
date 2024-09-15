@@ -7,6 +7,14 @@ proxies:
   server: p232.panda004.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国2|@ripaojiedian
+  password: 5bad4b9f-8789-4a0f-ac48-dbbd8f9cc73f
+  port: 59687
+  server: zf01.yydz.one
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
