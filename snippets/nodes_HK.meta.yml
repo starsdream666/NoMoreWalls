@@ -1,20 +1,4 @@
 proxies:
-- name: 7,12|🧿e@oneclickvpnkeys
-  password: f1f64dae6da66df5
-  port: 30002
-  server: 178.128.113.131
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '7,12|🇭🇰6@oneclickvpnkeys #1'
-  password: f206702e
-  port: 3341
-  server: 82.152.142.65
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '7,12|🇭🇰8@oneclickvpnkeys #1'
   password: f206702e
   port: 3341
