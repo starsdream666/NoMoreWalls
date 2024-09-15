@@ -176,6 +176,7 @@ rules:
   # - DOMAIN-KEYWORD,trojan,🚀 选择代理
   - DOMAIN-KEYWORD,hysteria,🚀 选择代理
   - DOMAIN-KEYWORD,gfw,🚀 选择代理
+  - DOMAIN-KEYWORD,sagernet,🚀 选择代理
   - DOMAIN-SUFFIX,trafficmanager.net,DIRECT
   # - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
   - DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理 # 视情况而定
