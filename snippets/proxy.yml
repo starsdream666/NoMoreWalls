@@ -9,6 +9,7 @@ payload:
 - DOMAIN-KEYWORD,shadowsocks
 - DOMAIN-KEYWORD,hysteria
 - DOMAIN-KEYWORD,gfw
+- DOMAIN-KEYWORD,sagernet
 - DOMAIN-SUFFIX,ivonblog.com
 - DOMAIN-KEYWORD,telegram
 - DOMAIN-KEYWORD,discord
