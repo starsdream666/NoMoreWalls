@@ -7,3 +7,10 @@ proxies:
   server: 35.166.208.40
   tfo: false
   type: ss
+- name: 14|新加坡|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13027
+  server: naiu-sg.05vr9nyqg5.download
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
