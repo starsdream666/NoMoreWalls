@@ -105,7 +105,12 @@ BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8gb25ndGFpd2Fu'
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
 DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
+
 STOP = False
+STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFOFx1RDgzQ1x1RERGMyBcdTcwRURcdTcwQzhcdTVFODZcdTc5NURcdTRFMkRcdTUzNEVcdTRFQkFcdTZDMTFcdTUxNzFcdTU0OENcdTU2RkRcdTYyMTBcdTdBQ0IgNzUgXHU1NDY4XHU1RTc0IiwNCiAgImFkZCI6ICJ3ZWIuNTEubGEiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJodHRwIiwNCiAgImhvc3QiOiAid2ViLjUxLmxhIiwNCiAgInBhdGgiOiAiL2ltYWdlcy9pbmRleC9zZXJ2aWNlLXBpYy5wbmciLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAid2ViLjUxLmxhIiwNCiAgImFscG4iOiAiaHR0cC8xLjEiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NTZGRFx1NUU4Nlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImM2ZTg0MDcyLTJlNjktNDkyOC05MGFmLTQzNmIzZmNkMDY2MyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjI1M1x1NTAxMlx1OEQ0NFx1NjcyQ1x1NTc4NFx1NjVBRCBcdTVFRkFcdThCQkVcdTc5M0VcdTRGMUFcdTRFM0JcdTRFNDkiLA0KICAiYWRkIjogIndlYi41MS5sYSIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJlMGM2YjNiNy05ZjViLTRiZDYtOWFiZi0yNjA2NjNhYTRmMWIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogImh0dHAiLA0KICAiaG9zdCI6ICJ3ZWIuNTEubGEiLA0KICAicGF0aCI6ICIvaW1hZ2VzL2luZGV4L3NlcnZpY2UtcGljLnBuZyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJ3ZWIuNTEubGEiLA0KICAiYWxwbiI6ICJodHRwLzEuMSIsDQogICJmcCI6ICJjaHJvbWUiDQp9
+"""
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
@@ -119,7 +124,7 @@ session.mount('file://', FileAdapter())
 exc_queue: List[str] = []
 
 d = datetime.datetime.now()
-if (d.month, d.day) in ((6, 4), (7, 1), (10, 1)):
+if STOP or (d.month, d.day) in ((6, 4), (7, 1), (10, 1)):
     DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
 
 class Node:
@@ -192,7 +197,7 @@ class Node:
                 path += data.get('obfs-password', '')+':'
                 # print(self.url)
                 # return hash(self.url)
-            path += '@'+data.get('alpn', '')+'@'+data.get('password', '')+data.get('uuid', '')
+            path += '@'+','.join(data.get('alpn', []))+'@'+data.get('password', '')+data.get('uuid', '')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
         except Exception:
@@ -944,7 +949,7 @@ def main():
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
         sources = []
-    elif DEBUG_NO_DYNAMIC:
+    if DEBUG_NO_DYNAMIC:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已选择不抓取动态节点 !!!")
         AUTOURLS = AUTOFETCH = []
@@ -1050,10 +1055,9 @@ def main():
             print(exc_queue.pop(0), file=sys.stderr, flush=True)
 
     if STOP:
-        merged = {
-            1: Node("vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjEg5pWP5oSf5pe25pyf77yM5pu05paw5pqC5YGc77yM5aaC5pyJ6ZyA6KaB77yM6Ieq6KGM5pCt5bu6IiwNCiAgImFkZCI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNDQ0NDQ0NDQtNDQ0NC00NDQ0LTQ0NDQtNDQ0NDQ0NDQ0NDQ0NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogImNkMDAxLnd3dy5kdWJhLm5ldCIsDQogICJwYXRoIjogIi9kdWJhL2luc3RhbGwvcGFja2FnZXMvZXZlci9kdWJhXzEwMF8xMDAuZXhlIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogImNkMDAxLnd3dy5kdWJhLm5ldCIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogIjM2MCINCn0="),
-            2: Node("vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjIg5pWP5oSf5pe25pyf77yM5pu05paw5pqC5YGc77yM5aaC5pyJ6ZyA6KaB77yM6Ieq6KGM5pCt5bu6IiwNCiAgImFkZCI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNDQ0NDQ0NDQtNDQ0NC00NDQ0LTQ0NDQtNDQ0NDQ0NDQ0NDQ0NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAiYWxwbiI6ICJodHRwLzEuMSIsDQogICJmcCI6ICIzNjAiDQp9")
-        }
+        merged = {}
+        for nid, nd in enumerate(STOP_FAKE_NODES.splitlines()):
+            merged[nid] = Node(nd)
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
