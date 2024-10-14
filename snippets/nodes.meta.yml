@@ -1,38 +1,11 @@
 proxies:
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-17
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13229
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-21
+  name: 0|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-28
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13351
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: r97q.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-30
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13221
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 1
   cipher: auto
@@ -48,22 +21,6 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-47
-  network: ws
-  port: 443
-  server: 149.7.16.174
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: meroiy.icu
-    path: /linkvws
 - alterId: -1
   name: 0,15|HK_speednode_0061
   password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
@@ -72,12 +29,46 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 8|@Zede_filteri+🇹🇼
+- name: 8|@Zede_filteri+
   password: 5c397f7b-3d06-48cc-9147-218109e23a24
   port: 11402
   server: 83.147.13.176
   skip-cert-verify: true
   sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: false
+  type: hysteria2
+- name: 8|Irancell-@V2ray_Raha-5
+  password: c5110090-c3a2-429e-b9b8-072b6535be1b
+  port: 8080
+  server: 144.202.119.175
+  skip-cert-verify: false
+  sni: jp2.trojanws.xyz
+  tls: false
+  type: hysteria2
+- name: 8|Irancell-@V2ray_Raha-6
+  password: c5110090-c3a2-429e-b9b8-072b6535be1b
+  port: 8080
+  server: 149.28.71.141
+  skip-cert-verify: false
+  sni: jp1.trojanws.xyz
+  tls: false
+  type: hysteria2
+- name: 8|Irancell-@V2ray_Raha-7
+  password: c5110090-c3a2-429e-b9b8-072b6535be1b
+  port: 8080
+  server: jp2.trojanws.xyz
+  skip-cert-verify: false
+  sni: jp2.trojanws.xyz
+  tls: false
+  type: hysteria2
+- name: 8|MCI-@V2ray_Raha-2
+  obfs: salamander
+  obfs-password: f215b295e3c0bf6a
+  password: freeasfree.f215b295e3c0bf6a
+  port: 7443
+  server: twenty.dyndns.berlin
+  skip-cert-verify: true
+  sni: zara.com
   tls: false
   type: hysteria2
 - cipher: aes-128-gcm
