@@ -7,7 +7,7 @@ proxies:
   server: mmt.bjcu.donghui.tech
   tfo: false
   type: ss
-- name: 15|GB_speednode_0023
+- name: 15|GB_speednode_0016
   network: ws
   port: 443
   server: 94.247.142.241
@@ -21,8 +21,22 @@ proxies:
     headers:
       Host: fq521.6789.cloudns.be
     path: /Twitterfreecodes
+- name: 15|GB_speednode_0013
+  network: ws
+  port: 443
+  server: 94.247.142.241
+  servername: fq521.6789.cloudns.be
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: /twitterfreecodessecurity=tls
 - client-fingerprint: chrome
-  name: 15|GB_speednode_0022
+  name: 15|GB_speednode_0015
   network: ws
   port: 443
   server: 94.247.142.241
@@ -36,26 +50,12 @@ proxies:
     headers:
       Host: fq521.6789.cloudns.be
     path: /twitterfreecodessecurity
-- name: 15|GB_speednode_0018
-  network: ws
-  port: 443
-  server: 94.247.142.241
-  servername: fq521.6789.cloudns.be
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 775213ac-3976-439a-8977-3277c0e4735d
-  ws-opts:
-    headers:
-      Host: fq521.6789.cloudns.be
-    path: /twitterfreecodessecurityfp=chrome
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: edge
-  name: 15|GB_speednode_0019
+  name: 15|GB_speednode_0014
   network: ws
   port: 443
   server: 94.247.142.241
@@ -69,7 +69,7 @@ proxies:
     headers:
       Host: fq521.6789.cloudns.be
     path: /twitterfreecodessecurity=tls
-- name: 15|GB_speednode_0024
+- name: 15|GB_speednode_0017
   network: ws
   port: 443
   server: 94.247.142.241
@@ -82,4 +82,4 @@ proxies:
   ws-opts:
     headers:
       Host: fq521.6789.cloudns.be
-    path: /twitterfreecodessecurity=tls
+    path: /twitterfreecodessecurityfp=chrome
