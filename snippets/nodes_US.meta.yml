@@ -1,4 +1,12 @@
 proxies:
+- name: 8|🇺🇸ConfigV2RayNG
+  password: bc19ee74-433d-4c34-be4b-67f969a2bb57
+  port: 10002
+  server: 104.168.128.219
+  skip-cert-verify: true
+  sni: 104.168.128.219
+  tls: false
+  type: hysteria2
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 13|🇺🇸 美国|@ripaojiedian
