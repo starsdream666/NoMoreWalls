@@ -40,9 +40,3 @@ proxies:
   server: 52.192.66.69
   tfo: false
   type: ss
-- name: 14|日本3|@ripaojiedian
-  network: tcp
-  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
-  port: 443
-  server: plowman.meijireform.com
-  type: trojan
