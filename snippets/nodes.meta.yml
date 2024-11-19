@@ -1,15 +1,41 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-1
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
+  name: 0|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
   server: 13.229.182.85
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-2
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-3
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-4
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-5
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-6
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.178
   type: ss
 - cipher: aes-256-gcm
   name: 0,13|🇷🇺 俄罗斯|@ripaojiedian
@@ -18,76 +44,30 @@ proxies:
   server: 46.17.40.57
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-5
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-6
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-7
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-8
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-9
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.86.135.141
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-11
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-12
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-13
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
+  name: 0|-https://t.me/MrXbin-23
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-23
-  obfs: plain
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  server: 109.201.152.181
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-26
+  network: ws
+  port: 2095
+  server: 172.64.166.22
+  servername: ip20.6016725.xyz
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
 - name: 0,13,14,15|JP_speednode_0007
   network: tcp
   password: 8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3
@@ -168,6 +148,16 @@ proxies:
     path: github.com/Alvin9999
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
+- name: 8|🇺🇸+ConfigV2RayNG
+  obfs: salamander
+  obfs-password: 4b817757
+  password: 1f17cdf0578a2860
+  port: 443
+  server: 45.76.0.86
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  tls: false
+  type: hysteria2
 - name: 8|ConfigV2RayNG
   obfs: salamander
   obfs-password: 0pjlRGR3tjhXtMs
@@ -184,6 +174,22 @@ proxies:
   server: 46.17.40.42
   skip-cert-verify: true
   sni: du.wish.ml
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸ConfigV2RayNG
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: us12.wish.ml
+  skip-cert-verify: true
+  sni: us12.wish.ml
+  tls: false
+  type: hysteria2
+- name: '8|🇺🇸ConfigV2RayNG #1'
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: us13.wish.ml
+  skip-cert-verify: true
+  sni: us13.wish.ml
   tls: false
   type: hysteria2
 - name: '8|ConfigV2RayNG #2'
