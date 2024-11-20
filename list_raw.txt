@@ -1,17 +1,12 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.188:8080#0%7C-https%3A//t.me/MrXbin-2
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozTWdJaHF3cDRwak04U0t3aXhOa1la@193.124.22.253:33068#0%7C-https%3A//t.me/MrXbin-3
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.229.182.85:443#0%7C-https%3A//t.me/MrXbin-4
-ssr://us-am3.eqnode.net:8081:origin:aes-256-cfb:tls1.2_ticket_authZm91OE1CR2lqremarks=MHwtaHR0cHM6Ly90Lm1lL01yWGJpbi0xNQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiMHwtaHR0cHM6Ly90Lm1lL01yWGJpbi0yMCIsICJhZGQiOiAiMTcyLjY0LjE2Ni4yMiIsICJwb3J0IjogMjA5NSwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMThkOTYxOTAtYzEwZi00NDhmLWE4MmEtMmQzNmRmNWMzY2RlIiwgInNuaSI6ICJpcDIwLjYwMTY3MjUueHl6IiwgImhvc3QiOiAiaXAyMC42MDE2NzI1Lnh5eiIsICJwYXRoIjogIi9naXRodWIuY29tL0FsdmluOTk5OSJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozTWdJaHF3cDRwak04U0t3aXhOa1la@193.124.22.253:33068#0%7C-https%3A//t.me/MrXbin-2
+ssr://us-am3.eqnode.net:8081:origin:aes-256-cfb:tls1.2_ticket_authZm91OE1CR2lqremarks=MHwtaHR0cHM6Ly90Lm1lL01yWGJpbi01
+vmess://eyJ2IjogIjIiLCAicHMiOiAiMHwtaHR0cHM6Ly90Lm1lL01yWGJpbi0yMSIsICJhZGQiOiAiMTkyLjAuNTQuMTcyIiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjA1NjQxY2Y1LTU4ZDItNGJhNC1hOWYxLWIzY2RhMGIxZmIxZCIsICJzbmkiOiAiMjAyMjU4NWEtODZhNy00MjMxLWIzYTAtZWVkYTE0Zjc3ZjRkLjhmMTgyMzdjLThlNWYtNGZmYi1hNDM0LTFiMjk0OGM4N2JlMy5kZG5zZnJlZS5jb20iLCAiaG9zdCI6ICIyMDIyNTg1YS04NmE3LTQyMzEtYjNhMC1lZWRhMTRmNzdmNGQuOGYxODIzN2MtOGU1Zi00ZmZiLWE0MzQtMWIyOTQ4Yzg3YmUzLmRkbnNmcmVlLmNvbSIsICJwYXRoIjogIi9vYmRpaS5jZmQ6NDQzL2xpbmt3cyJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMyw0LDV8ZCoqKioqKioqKmcuY29tXzAgIzIiLCAiYWRkIjogIjEwNC4yMS4yMzguMjAwIiwgInBvcnQiOiA4NDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI5MjAxZmZhYS02Y2EzLTRmNTctOGIxZi0yNjZhMmYzOTBlNDMiLCAic25pIjogImh0dHAxLjkyOTAyNTQueHl6IiwgImhvc3QiOiAiaHR0cDEuOTI5MDI1NC54eXoiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMyw0LDV8ZCoqKioqKioqKmcuY29tXzEgIzIiLCAiYWRkIjogIjEwNC4yMS4yMzguMjAxIiwgInBvcnQiOiA4NDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI5MjAxZmZhYS02Y2EzLTRmNTctOGIxZi0yNjZhMmYzOTBlNDMiLCAic25pIjogImh0dHAxLjkyOTAyNTQueHl6IiwgImhvc3QiOiAiaHR0cDEuOTI5MDI1NC54eXoiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMyw0LDV8ZCoqKioqKioqKmcuY29tXzIgIzIiLCAiYWRkIjogIjEwNC4yMS4yMzguMjAyIiwgInBvcnQiOiA4NDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI5MjAxZmZhYS02Y2EzLTRmNTctOGIxZi0yNjZhMmYzOTBlNDMiLCAic25pIjogImh0dHAxLjkyOTAyNTQueHl6IiwgImhvc3QiOiAiaHR0cDEuOTI5MDI1NC54eXoiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMyw0LDV8ZCoqKioqKioqKmcuY29tXzMgIzIiLCAiYWRkIjogIjEwNC4yMS4yMzguMjAzIiwgInBvcnQiOiA4NDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI5MjAxZmZhYS02Y2EzLTRmNTctOGIxZi0yNjZhMmYzOTBlNDMiLCAic25pIjogImh0dHAxLjkyOTAyNTQueHl6IiwgImhvc3QiOiAiaHR0cDEuOTI5MDI1NC54eXoiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSJ9
-hysteria2://1f17cdf0578a2860@45.76.0.86:443?insecure=1&sni=vkvd127.mycdn.me&obfs=salamander&obfs-password=4b817757#8%7C%F0%9F%87%BA%F0%9F%87%B8%2BConfigV2RayNG
-hysteria2://7bcb0e26-eb0a-4658-abfc-b808c3744c9d@94.131.122.35:53040?insecure=1&sni=myket.ir&obfs=salamander&obfs-password=0pjlRGR3tjhXtMs#8%7CConfigV2RayNG
-hysteria2://7d417084-d308-4b35-96c8-99dfb2547ec2@us12.wish.ml:30102?insecure=1&sni=us12.wish.ml#8%7C%F0%9F%87%BA%F0%9F%87%B8ConfigV2RayNG
-hysteria2://7d417084-d308-4b35-96c8-99dfb2547ec2@us13.wish.ml:30102?insecure=1&sni=us13.wish.ml#8%7C%F0%9F%87%BA%F0%9F%87%B8ConfigV2RayNG%20%231
-hysteria2://a04705ec-afe0-47d7-99f9-856caaed6a96@45.8.147.250:53038?insecure=1&sni=mobile.ir&obfs=salamander&obfs-password=0pjlRGR3tjhXtMs#8%7CConfigV2RayNG%20%231
+hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?insecure=0&sni=quran.mci.ai#8%7C%F0%9F%87%B9%F0%9F%87%B7%2BConfigV2RayNG%2B%E2%9A%A1
+hysteria2://5454c787-fa89-4416-8d3f-0e56d8e0969c@128.204.223.42:28258?insecure=1&sni=www.bing.com#8%7C64%40ConfigV2RayNG
 hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@129.151.254.139:443?insecure=1&sni=www.bing.com#8%7CIR-%40V2ray_Raha-1
 hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@130.162.250.164:443?insecure=1&sni=www.bing.com#8%7CIR-%40V2ray_Raha-3
 hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@139.185.36.59:443?insecure=1&sni=www.bing.com#8%7CIR-%40V2ray_Raha-2
@@ -19,7 +14,6 @@ hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@207.211.166.131:443?insecure=1&
 hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@207.211.175.16:443?insecure=1&sni=www.bing.com#8%7CWiFi-%40V2ray_Raha-2
 hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@40.233.91.166:443?insecure=1&sni=www.bing.com#8%7CWiFi-%40V2ray_Raha-3
 hysteria2://e169856c-7c19-4908-9bdf-448dc846163a@64.181.236.144:443?insecure=1&sni=www.bing.com#8%7CMCI-%40V2ray_Raha-5
-hysteria2://f8b7a2af-7fae-4853-a91f-b430257648f0@85.209.154.74:53039?insecure=1&sni=alibaba.ir&obfs=salamander&obfs-password=0pjlRGR3tjhXtMs#8%7C%F0%9F%87%AAConfigV2RayNG
 hysteria2://18d4bcb1-dfab-4af2-b2cb-f8e61384da22@gpt.nai3.cc:10429?sni=gpt.nai3.cc#12%7Cakile
 hysteria2://f6e4b19a3110d19d@66.135.28.59:443?insecure=1&sni=ELiV2RAY.eliv2.top&obfs=salamander&obfs-password=8c3ce17b#12%7C%40ToYoTA_PRoXY
 trojan://QwwHvrnN@36.151.192.242:14505?allowInsecure=1#13%2C14%7C%E9%A6%99%E6%B8%AF%7C%40ripaojiedian
@@ -131,4 +125,4 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@152.32.255.24:587?sni=a.mifeng.us.k
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTZ8ZCoqKioqKioqKmcuY29tXzIgIzMiLCAiYWRkIjogIjQyLjIzNi43My43MiIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICIwNDRmMDE3Ny0wNjc1LTRkY2YtODlkNC04MDRiNjc4OGU1MTgiLCAic25pIjogInd3dy56aXRpYW4uY24ifQ==
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http/1.1&fp=chrome&security=tls#16%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http/1.1#16%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3%20%233
-https://fHRfwQ.mcsslk.xyz/d39fab8f86e0a0a0c8024937bc43818e
+https://WX85pO.mcsslk.xyz/b90af21234e2b5fc8775c75cafc936d2
