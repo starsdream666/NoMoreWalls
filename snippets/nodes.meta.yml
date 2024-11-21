@@ -1,35 +1,18 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-1
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-3
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-13
+  name: 0|-https://t.me/MrXbin-12
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-19
-  network: ws
-  port: 443
-  server: dkzbofzkop.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fa1897db-1925-4c86-a495-939a959af900
-  ws-opts:
-    headers:
-      Host: dkzbofzkop.com
-    path: /rbqqvws
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
@@ -102,22 +85,6 @@ proxies:
     path: github.com/Alvin9999
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: 8|🇹🇷+ConfigV2RayNG+⚡
-  password: 28c05d48e2f470d07a4c392c9bd43849
-  port: 443
-  server: quran.mci.ai
-  skip-cert-verify: false
-  sni: quran.mci.ai
-  tls: false
-  type: hysteria2
-- name: 8|64@ConfigV2RayNG
-  password: 5454c787-fa89-4416-8d3f-0e56d8e0969c
-  port: 28258
-  server: 128.204.223.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 8|IR-@V2ray_Raha-1
   password: e169856c-7c19-4908-9bdf-448dc846163a
   port: 443
