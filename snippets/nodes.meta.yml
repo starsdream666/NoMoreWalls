@@ -1,20 +1,38 @@
 proxies:
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-15
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13316
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
+  name: 0|-https://t.me/MrXbin-20
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- name: 0,15|JP_speednode_0019
-  password: dfe1ef9b-e590-3b93-816a-e58a908bce99
-  port: 443
-  server: 18.179.44.127
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-33
+  network: ws
+  port: 38003
+  server: 38.14.107.228
   skip-cert-verify: true
-  sni: upos-hz-mirrorakam.akamaized.net
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
@@ -87,7 +105,14 @@ proxies:
     path: github.com/Alvin9999
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: 8|Wifi-MCi-@V2ray_Alpha-10
+- name: 8|🫐58@ConfigV2RayNG
+  password: 28c05d48e2f470d07a4c392c9bd43849
+  port: 443
+  server: jostar-data.nl
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 8|Wifi-MCi-@V2ray_Raha-10
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: jostar-data.nl
@@ -95,7 +120,7 @@ proxies:
   sni: jostar-data.nl
   tls: false
   type: hysteria2
-- name: 8|vless_vmess
+- name: 8|10@ConfigV2RayNG
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: quran.mci.ai
@@ -143,7 +168,7 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
-- name: 8|Wifi-MCi-@V2ray_Alpha-7
+- name: 8|🍇46@ConfigV2RayNG
   password: 9d765687-536c-4626-a2e2-6a403219e381
   port: 30000
   server: 35afq4514.surfcat.store
@@ -151,7 +176,15 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
-- name: 8|️41@ConfigV2RayNG
+- name: 8|🍇47@ConfigV2RayNG
+  password: 9d765687-536c-4626-a2e2-6a403219e381
+  port: 30001
+  server: 35afq4514.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|🍇49@ConfigV2RayNG
   password: 9d765687-536c-4626-a2e2-6a403219e381
   port: 30002
   server: 35afq4514.surfcat.store
@@ -159,7 +192,7 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
-- name: 8|⚱️43@ConfigV2RayNG
+- name: 8|43@ConfigV2RayNG
   password: 9d765687-536c-4626-a2e2-6a403219e381
   port: 30004
   server: 35afq4514.surfcat.store
@@ -167,7 +200,7 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
-- name: 8|⚱️44@ConfigV2RayNG
+- name: 8|🍇48@ConfigV2RayNG
   password: 9d765687-536c-4626-a2e2-6a403219e381
   port: 30005
   server: 35afq4514.surfcat.store
@@ -178,6 +211,14 @@ proxies:
 - name: 8|⚱️40@ConfigV2RayNG
   password: 9d765687-536c-4626-a2e2-6a403219e381
   port: 30006
+  server: 35afq4514.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|🍇45@ConfigV2RayNG
+  password: 9d765687-536c-4626-a2e2-6a403219e381
+  port: 30212
   server: 35afq4514.surfcat.store
   skip-cert-verify: true
   sni: 35afq4514.surfcat.store
@@ -207,7 +248,27 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
-- name: 8|Wifi-MCi-@V2ray_Alpha-9
+- name: 8|Ir-@V2ray_Raha-07
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.90
+  skip-cert-verify: true
+  sni: 179.61.132.90
+  tls: false
+  type: hysteria2
+- name: 8|سرر+ایگان+پرسرعت+@vmess_ir
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.91
+  skip-cert-verify: true
+  sni: 179.61.132.91
+  tls: false
+  type: hysteria2
+- name: 8|Wifi-MCi-@V2ray_Raha-9
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -595,6 +656,14 @@ proxies:
   tls: false
   type: vless
   uuid: bf61aa2e-5b05-478e-8e1e-453d27c52107
+- name: 15|JP_speednode_0019
+  password: dfe1ef9b-e590-3b93-816a-e58a908bce99
+  port: 443
+  server: 18.179.44.127
+  skip-cert-verify: true
+  sni: upos-hz-mirrorakam.akamaized.net
+  type: trojan
+  udp: true
 - name: 15|US_speednode_0020
   password: dfe1ef9b-e590-3b93-816a-e58a908bce99
   port: 3516
