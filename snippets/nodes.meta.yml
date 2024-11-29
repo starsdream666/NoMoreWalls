@@ -1,35 +1,35 @@
 proxies:
-- cipher: rc4-md5
+- cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-1
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 23.157.40.113
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-2
+  password: vntxqHhPINXu5Ag6876fXO
+  port: 1080
+  server: 51.195.220.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-3
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-4
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 138.199.42.68
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
+  name: 0|-https://t.me/MrXbin-7
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-16
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13630
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-17
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13317
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: lld9k6.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -103,6 +103,14 @@ proxies:
     path: github.com/Alvin9999
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
+- name: 8|@v2rayCrow🇹🇷
+  password: 28c05d48e2f470d07a4c392c9bd43849
+  port: 443
+  server: 185.219.132.29
+  skip-cert-verify: false
+  sni: quran.mci.ai
+  tls: false
+  type: hysteria2
 - name: 8|Wifi-MCi-@V2ray_Raha-10
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
@@ -111,12 +119,20 @@ proxies:
   sni: jostar-data.nl
   tls: false
   type: hysteria2
-- name: 8|10@ConfigV2RayNG
+- name: 8|+@customv2ray+++++
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: quran.mci.ai
   skip-cert-verify: false
   sni: quran.mci.ai
+  tls: false
+  type: hysteria2
+- name: 8|49@ConfigV2RayNG
+  password: 3db2d115-1db9-457d-850f-818b73228f67
+  port: 443
+  server: 5.180.78.153
+  skip-cert-verify: true
+  sni: api.push.apple.com
   tls: false
   type: hysteria2
 - name: 8|MCI-@V2ray_Raha-7
@@ -159,7 +175,7 @@ proxies:
   sni: hk5.ddns-link-b5.uk
   tls: false
   type: hysteria2
-- name: 8|+@customv2ray+++++
+- name: 8|MCi-@V2ray_Raha-03
   password: 84854B66-8478-4B87-8C0D-CD1699426C41
   port: 1548
   server: sg1.ddns-link-b5.uk
@@ -293,7 +309,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|MCI-@V2ray_Raha-5 #1'
+- name: '8|MCI-@V2ray_Alpha-5 #1'
   password: e169856c-7c19-4908-9bdf-448dc846163a
   port: 443
   server: 64.181.236.144
