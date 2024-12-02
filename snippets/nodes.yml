@@ -1,6 +1,26 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-1
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.68.134.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-3
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 23.157.40.5
+  type: ss
+- cipher: aes-128-cfb
+  name: 0|-https://t.me/MrXbin-16
+  obfs: http_post
+  password: +asd6a5s5df+
+  port: 443
+  protocol: auth_aes128_md5
+  server: nsus3.irundns.net
+  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
+  name: 0|-https://t.me/MrXbin-18
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -11,7 +31,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-49
+  name: 0|-https://t.me/MrXbin-55
   network: ws
   port: 2082
   server: 190.93.245.103
@@ -25,16 +45,17 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-50
+  name: 0|-https://t.me/MrXbin-56
   network: ws
-  port: 2082
-  server: 190.93.245.174
+  port: 443
+  server: irvideo.cfd
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 5|d*********g.com_0
@@ -190,7 +211,7 @@ proxies:
   server: soontw.soon.guru
   tfo: false
   type: ss
-- name: 13,14|日本|@ripaojiedian
+- name: 13,14,15|CN_speednode_0003
   network: tcp
   password: QwwHvrnN
   port: 27381
@@ -204,7 +225,7 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
-- name: 13,14|韩国|@ripaojiedian
+- name: 13,14,15|CN_speednode_0006
   network: tcp
   password: 1f962f36-f751-40c3-91b3-cb6d2360b450
   port: 39593
