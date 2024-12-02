@@ -1,26 +1,6 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-1
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.68.134.202
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-3
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 23.157.40.5
-  type: ss
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-16
-  obfs: http_post
-  password: +asd6a5s5df+
-  port: 443
-  protocol: auth_aes128_md5
-  server: nsus3.irundns.net
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-15
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -31,21 +11,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-55
-  network: ws
-  port: 2082
-  server: 190.93.245.103
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-56
+  name: 0|-https://t.me/MrXbin-42
   network: ws
   port: 443
   server: irvideo.cfd
@@ -56,6 +22,20 @@ proxies:
     headers:
       Host: irvideo.cfd
     path: /linkws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-45
+  network: ws
+  port: 2082
+  server: 190.93.245.174
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 5|d*********g.com_0
@@ -143,14 +123,6 @@ proxies:
   server: 45.76.0.86
   skip-cert-verify: true
   sni: 45.76.0.86
-  tls: false
-  type: hysteria2
-- name: 8|@v2rayCrow
-  password: 28c05d48e2f470d07a4c392c9bd43849
-  port: 443
-  server: 185.219.132.29
-  skip-cert-verify: false
-  sni: quran.mci.ai
   tls: false
   type: hysteria2
 - name: 8|🍐7@ConfigV2RayNG
@@ -343,7 +315,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|MCI-@V2ray_Alpha-3
+- name: 8|WiFi-@V2ray_Alpha-1
   password: e169856c-7c19-4908-9bdf-448dc846163a
   port: 443
   server: 207.211.166.131
@@ -351,7 +323,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|MCI-@V2ray_Alpha-4
+- name: 8|WiFi-@V2ray_Alpha-2
   password: e169856c-7c19-4908-9bdf-448dc846163a
   port: 443
   server: 207.211.175.16
@@ -359,7 +331,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|MCI-@V2ray_Alpha-2
+- name: 8|WiFi-@V2ray_Alpha-3
   password: e169856c-7c19-4908-9bdf-448dc846163a
   port: 443
   server: 40.233.91.166
