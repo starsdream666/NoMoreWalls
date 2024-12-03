@@ -111,17 +111,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 15|HK_speednode_0021
-  password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
-  port: 44560
-  server: 16.162.89.173
-  skip-cert-verify: true
-  sni: jp12.bilibili.com
-  type: trojan
-- name: 15|HK_speednode_0023
-  password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
-  port: 45051
-  server: 43.198.105.43
-  skip-cert-verify: true
-  sni: us1.bilibili.com
-  type: trojan
