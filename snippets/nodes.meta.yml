@@ -1,94 +1,81 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 52.195.205.31
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
-  password: amazonskr05
-  port: 443
-  server: 13.212.36.13
-  type: ss
-- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
   password: amazonskr05
   port: 443
-  server: 3.1.195.116
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 18.141.184.102
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
-  password: amazonskr05
-  port: 443
-  server: 54.200.220.184
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: amazonskr05
-  port: 443
-  server: 47.128.246.130
+  server: 18.236.89.178
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-10
   password: amazonskr05
   port: 443
-  server: 54.203.119.192
+  server: 54.185.18.43
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 52.193.184.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-22
-  password: amazonskr05
-  port: 443
-  server: 54.199.12.31
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-26
+  name: 0|-https://t.me/MrXbin-11
   password: amazonskr05
   port: 443
   server: 54.169.5.182
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-40
+  name: 0|-https://t.me/MrXbin-12
+  password: amazonskr05
+  port: 443
+  server: 44.244.25.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-14
+  password: amazonskr05
+  port: 443
+  server: 47.128.246.130
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
+  password: amazonskr05
+  port: 443
+  server: 13.212.36.13
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
+  password: amazonskr05
+  port: 443
+  server: 54.200.220.184
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-19
+  password: amazonskr05
+  port: 443
+  server: 34.215.84.62
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-30
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-68
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-107
+  name: 0|-https://t.me/MrXbin-78
+  network: ws
+  port: 443
+  server: 149.7.16.194
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-80
   network: ws
   port: 443
   server: 23.158.56.39
@@ -101,14 +88,6 @@ proxies:
     headers:
       Host: 23.158.56.39
     path: /linkvws
-- name: 0,15|HK_speednode_0039
-  password: d75a2b07-34f4-454e-84ba-0de806c51b6d
-  port: 46509
-  server: dab1c8faaa893fecbc1e055db0894883.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: ca1.bilibili.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 5|d*********g.com_0
@@ -197,7 +176,7 @@ proxies:
   sni: jostar-data.nl
   tls: false
   type: hysteria2
-- name: 8|+@customv2ray+++++
+- name: 8|рЯЗрЯ+@customv2ray+ўМ+ўЎІМ+®МЎ...
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: quran.mci.ai
@@ -205,7 +184,7 @@ proxies:
   sni: quran.mci.ai
   tls: false
   type: hysteria2
-- name: 8|49@ConfigV2RayNG
+- name: 8|рЯ49@ConfigV2RayNG
   password: 4453aa95-c236-46a1-8066-8145ab8ebee6
   port: 30102
   server: us12.wish.ml
@@ -213,7 +192,7 @@ proxies:
   sni: us12.wish.ml
   tls: false
   type: hysteria2
-- name: 8|🌰48@ConfigV2RayNG
+- name: 8|рЯМ∞48@ConfigV2RayNG
   password: 4453aa95-c236-46a1-8066-8145ab8ebee6
   port: 30102
   server: us13.wish.ml
@@ -299,6 +278,14 @@ proxies:
   server: us3.xiaoliyu.us
   skip-cert-verify: true
   sni: us3.xiaoliyu.us
+  tls: false
+  type: hysteria2
+- name: 8|ЃрЯрЯЗ®рЯЗ¶+_+@freeconfig01
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 40.233.76.38
+  skip-cert-verify: true
+  sni: du.wish.ml
   tls: false
   type: hysteria2
 - name: 8|MCi-@V2ray_Raha-06
@@ -409,7 +396,7 @@ proxies:
   sni: 179.61.132.91
   tls: false
   type: hysteria2
-- name: 8|@proxy_shadosocks🚀
+- name: 8|рЯ@proxy_shadosocksрЯЪА
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -419,7 +406,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 8|🌰14@ConfigV2RayNG
+- name: 8|рЯМ∞14@ConfigV2RayNG
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -454,7 +441,7 @@ proxies:
   sni: anymath.ir
   tls: false
   type: hysteria2
-- name: 8|🚀@proxy_shadosocks🚀
+- name: 8|рЯЪА@proxy_shadosocksрЯЪА
   password: sysadmin.12345678
   port: 2025
   server: 192.227.247.92
@@ -482,7 +469,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|Ir-@@V2ray_Alpha-18
+- name: 8|Ir-@@V2ray_Raha-01
   password: sysadmin.sysadmin
   port: 443
   server: 129.153.85.205
@@ -542,7 +529,7 @@ proxies:
   sni: ss.wodeyumingliao.top
   tls: false
   type: hysteria2
-- name: 8|🌰51@ConfigV2RayNG
+- name: 8|рЯМ∞51@ConfigV2RayNG
   password: sysadmin.sysadmin
   port: 6813
   server: 154.23.175.126
@@ -599,7 +586,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|🌰50@ConfigV2RayNG
+- name: 8|рЯМ∞50@ConfigV2RayNG
   password: sysadmin.sysadmin
   port: 443
   server: 23.94.2.137
@@ -989,6 +976,14 @@ proxies:
   password: 285caaa4-dd31-4825-ab6a-3e4a6808dcc7
   port: 47580
   server: 26f3c1fb8b12d3dcbc594b4e5cad3f1a.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: ca1.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|HK_speednode_0039
+  password: d75a2b07-34f4-454e-84ba-0de806c51b6d
+  port: 46509
+  server: dab1c8faaa893fecbc1e055db0894883.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan
