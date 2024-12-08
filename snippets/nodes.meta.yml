@@ -1,74 +1,68 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-1
+  name: 0,13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.215.84.62
+  server: 54.199.12.31
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-2
-  password: cvII85TrW6n0OGyfpHVS1u
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.199
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-3
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.164
   type: ss
 - cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-4
+  password: amazonskr05
+  port: 443
+  server: 18.236.89.178
+  type: ss
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
-  password: amazonskr05
-  port: 443
-  server: 52.195.205.31
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-6
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 47.128.225.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
   password: amazonskr05
   port: 443
   server: 3.1.195.116
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
+  name: 0|-https://t.me/MrXbin-7
   password: amazonskr05
   port: 443
-  server: 47.128.246.130
+  server: 54.169.5.182
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-8
+  password: amazonskr05
+  port: 443
+  server: 52.193.184.18
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
+  name: 0|-https://t.me/MrXbin-9
+  password: amazonskr05
+  port: 443
+  server: 47.128.225.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-10
   password: amazonskr05
   port: 443
   server: 34.219.118.99
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
+  name: 0|-https://t.me/MrXbin-11
+  password: amazonskr05
+  port: 443
+  server: 34.215.84.62
+  type: ss
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-20
+  name: 0|-https://t.me/MrXbin-21
   obfs: http_post
   password: +asd6a5s5df+
   port: 443
@@ -79,10 +73,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-28
+  name: 0|-https://t.me/MrXbin-76
   network: ws
   port: 2095
-  server: 172.64.166.33
+  server: 172.64.166.8
   skip-cert-verify: true
   type: vmess
   udp: true
@@ -94,15 +88,20 @@ proxies:
 - alterId: 0
   cipher: auto
   h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-162
-  network: tcp
-  port: 64016
-  server: in06.my1188.org
-  servername: us01.wechat-cdn-us01.one
+  http-opts:
+    headers:
+      Host:
+      - Telewebion.com
+    method: GET
+    path:
+    - /
+  name: 0|-https://t.me/MrXbin-173
+  network: http
+  port: 40804
+  server: 188.121.122.89
   skip-cert-verify: true
   type: vmess
-  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+  uuid: 6e61b771-f2c2-40e1-9725-6cad0065a264
 - name: 8|MCi-@V2ray_Alpha-8
   password: 0d42717f
   port: 1995
@@ -111,7 +110,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|Wifi-MCi-@V2ray_Raha-10
+- name: 8|Ir-@V2ray_Alpha-06
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: jostar-data.nl
@@ -119,7 +118,7 @@ proxies:
   sni: jostar-data.nl
   tls: false
   type: hysteria2
-- name: 8|Wifi-MCi-@V2ray_Raha-11
+- name: 8|MCi-@V2ray_Raha-02
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: quran.mci.ai
@@ -143,15 +142,7 @@ proxies:
   sni: us12.wish.ml
   tls: false
   type: hysteria2
-- name: 8|49@ConfigV2RayNG
-  password: 4453aa95-c236-46a1-8066-8145ab8ebee6
-  port: 30102
-  server: us12.wish.ml
-  skip-cert-verify: true
-  sni: us12.wish.ml
-  tls: false
-  type: hysteria2
-- name: 8|🌰48@ConfigV2RayNG
+- name: 8|WiFi-@V2ray_Raha-7
   password: 4453aa95-c236-46a1-8066-8145ab8ebee6
   port: 30102
   server: us13.wish.ml
@@ -253,14 +244,6 @@ proxies:
   sni: us9.wish.ml
   tls: false
   type: hysteria2
-- name: '8|@meli_proxyy #8'
-  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
-  port: 30102
-  server: 193.123.76.141
-  skip-cert-verify: true
-  sni: joinBede.ELiV2ray.net
-  tls: false
-  type: hysteria2
 - name: 8|MCI-@V2ray_Raha-4
   password: 7d417084-d308-4b35-96c8-99dfb2547ec2
   port: 30102
@@ -291,14 +274,6 @@ proxies:
   server: 40.233.76.38
   skip-cert-verify: true
   sni: du.wish.ml
-  tls: false
-  type: hysteria2
-- name: '8|@meli_proxyy #13'
-  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
-  port: 30102
-  server: 46.17.40.42
-  skip-cert-verify: true
-  sni: elena.ru
   tls: false
   type: hysteria2
 - name: 8|MCi-@V2ray_Raha-06
@@ -373,15 +348,7 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: 8|Wifi-MCi-@V2ray_Raha-7
-  password: 9d765687-536c-4626-a2e2-6a403219e381
-  port: 30000
-  server: 35afq4514.surfcat.store
-  skip-cert-verify: true
-  sni: 35afq4514.surfcat.store
-  tls: false
-  type: hysteria2
-- name: 8|Wifi-MCi-@V2ray_Raha-8
+- name: 8|Ir-@V2ray_Alpha-09
   password: 9d765687-536c-4626-a2e2-6a403219e381
   port: 30103
   server: 35f235a.surfcat.store
@@ -389,7 +356,7 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
-- name: 8|Ir-@V2ray_Raha-07
+- name: 8|Ir-@V2ray_Alpha-07
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -399,7 +366,7 @@ proxies:
   sni: 179.61.132.90
   tls: false
   type: hysteria2
-- name: 8|Ir-@V2ray_Raha-08
+- name: 8|Ir-@V2ray_Alpha-08
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -407,16 +374,6 @@ proxies:
   server: 179.61.132.91
   skip-cert-verify: true
   sni: 179.61.132.91
-  tls: false
-  type: hysteria2
-- name: 8|@proxy_shadosocks🚀
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: KevinZakarian
-  port: 8443
-  server: 179.61.132.96
-  skip-cert-verify: true
-  sni: 179.61.132.96
   tls: false
   type: hysteria2
 - name: 8|MCI-@V2ray_Raha-1
@@ -427,15 +384,6 @@ proxies:
   server: 66.23.198.35
   skip-cert-verify: true
   sni: kevin.serverv.net
-  tls: false
-  type: hysteria2
-- name: 8|🌰14@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: KevinZakarian
-  port: 8443
-  server: kevin.serverv.net
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 8|IR-@V2ray_Raha-05
@@ -456,7 +404,7 @@ proxies:
   sni: anymath.ir
   tls: false
   type: hysteria2
-- name: 8|🚀@proxy_shadosocks🚀
+- name: 8|@proxy_shadosocks🚀
   password: sysadmin.12345678
   port: 2025
   server: 192.227.247.92
@@ -544,7 +492,7 @@ proxies:
   sni: ss.wodeyumingliao.top
   tls: false
   type: hysteria2
-- name: 8|🌰51@ConfigV2RayNG
+- name: 8|IR-@V2ray_Raha-02
   password: sysadmin.sysadmin
   port: 6813
   server: 154.23.175.126
@@ -827,13 +775,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 43.207.112.115
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.199.12.31
   tfo: false
   type: ss
 - cipher: aes-256-cfb
