@@ -1,14 +1,9 @@
 proxies:
-- name: 15|KR_speednode_0013
-  network: ws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 144.24.73.232
-  servername: vdb.bgm2024.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 531bf100-1477-487c-a979-6adebf8f105f
-  ws-opts:
-    headers:
-      Host: vdb.bgm2024.us.kg
-    path: /?ed=2560
+  server: 52.79.52.119
+  tfo: false
+  type: ss
