@@ -18,14 +18,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 869760fe-7f4f-320c-b223-697f8e870088
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.203.243.93
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|日本2|@ripaojiedian
@@ -36,3 +28,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 869760fe-7f4f-320c-b223-697f8e870088
+- name: 15|JP_speednode_0012
+  password: '!!str 3648425794742788096'
+  port: 443
+  server: fun-ostrich.treefrog761.one
+  skip-cert-verify: false
+  sni: fun-ostrich.treefrog761.one
+  type: trojan
