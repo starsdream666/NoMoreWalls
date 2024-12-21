@@ -33,3 +33,11 @@ proxies:
     headers:
       Host: df.htg8866.us.kg
     path: /r7ir567fu
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.36.65.244
+  tfo: false
+  type: ss
