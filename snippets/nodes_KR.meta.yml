@@ -1,10 +1,4 @@
 proxies:
-- name: 12|🇰🇷2@vpnAndroid2
-  password: 148097c2-cd69-4015-992f-5939c08b9ab8
-  port: 443
-  server: sanguayun-kr.legeth.xyz
-  tls: false
-  type: hysteria2
 - name: 13,14|韩国|@ripaojiedian
   network: tcp
   password: '!!str 3723507166611775488'
