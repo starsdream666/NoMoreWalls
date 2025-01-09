@@ -2,14 +2,14 @@ proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
   password: qwerREWQ@@
-  port: 2003
-  server: 121.170.203.147
+  port: 28304
+  server: 125.141.31.74
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-2
   password: qwerREWQ@@
-  port: 7544
-  server: 125.141.26.12
+  port: 7303
+  server: 222.112.15.142
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
@@ -19,106 +19,103 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
-  password: amazonskr05
-  port: 443
-  server: 54.178.84.59
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-5
-  password: u17T3BvpYaaiuW2c
-  port: 443
-  server: series-a2-mec.varzesh360.co
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-6
-  password: qwerREWQ@@
-  port: 58669
-  server: 168.126.234.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: qwerREWQ@@
-  port: 29535
-  server: 125.141.31.72
+  password: amazonskr05
+  port: 443
+  server: 52.79.73.137
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-8
   password: qwerREWQ@@
-  port: 28304
-  server: 125.141.31.74
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: qwerREWQ@@
-  port: 40047
-  server: 203.234.238.140
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 54.186.92.34
+  port: 34849
+  server: 210.217.18.68
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-11
   password: qwerREWQ@@
-  port: 51265
-  server: 221.150.109.89
+  port: 7303
+  server: p233.panda004.net
   type: ss
-- cipher: aes-256-cfb
+  udp: true
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-12
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-13
+  password: rNBfNuuANFCAk7KB
+  port: 9056
   server: 217.30.10.18
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-13
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
-  type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-14
-  password: amazonskr05
-  port: 443
-  server: 34.222.136.128
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
   password: EXN3S3eQpjE7EJu8
   port: 9027
   server: 217.30.10.18
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
+  name: 0|-https://t.me/MrXbin-15
   password: amazonskr05
   port: 443
-  server: 35.85.36.208
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
-  password: amazonskr05
-  port: 443
-  server: 57.180.61.213
+  server: 43.207.192.4
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-19
-  password: FG5ddLsMPbV5CutE
-  port: 9050
+  name: 0|-https://t.me/MrXbin-16
+  password: ZET59LF6DvCC8KVt
+  port: 9005
   server: 217.30.10.18
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-25
+  name: 0|-https://t.me/MrXbin-18
+  password: qwerREWQ@@
+  port: 40915
+  server: 168.126.234.233
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-20
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13302
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-26
   obfs: plain
   password: f8f7aCzcPKbsF8p3
   port: 989
   protocol: origin
   server: 62.100.205.48
   type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-27
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13303
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- name: 0,15|JP_speednode_0055
+  password: c4843eba-b070-403f-b43f-ef1ef7db571e
+  port: 443
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
 - name: '7,12|@vpnv2rayNGv #2'
   obfs: salamander
   obfs-password: KevinZakarian
@@ -143,6 +140,14 @@ proxies:
   server: 209.141.42.49
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|@meli_proxyy
+  password: 8ea05545-2dc7-4487-8005-b7d581169945
+  port: 55215
+  server: 132.226.208.232
+  skip-cert-verify: true
+  sni: shy35.zqjc.cloud
   tls: false
   type: hysteria2
 - name: 8|MCI-V2ray_Alpha-2
@@ -225,7 +230,15 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|MCI-@V2ray_Raha-1
+- name: 8|IR-@V2ray_Raha-4
+  password: a6fd721b-c544-4da2-a20f-c384bfdf1842
+  port: 20448
+  server: 119.236.19.51
+  skip-cert-verify: false
+  sni: xireiki.com
+  tls: false
+  type: hysteria2
+- name: 8|MCI-@V2ray_Alpha-1
   obfs: salamander
   obfs-password: 64da92df31fc63c1
   password: c76f08e20fb6368b
@@ -233,6 +246,13 @@ proxies:
   server: 150.241.77.182
   skip-cert-verify: true
   sni: www.google.com
+  tls: false
+  type: hysteria2
+- name: 8|IR-@V2ray_Raha-5
+  password: ddfa9dc7-9155-4c39-8f23-97371a707444
+  port: 443
+  server: yukuai-ca.jiumaojiu.org
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 8|MCI-V2ray_Alpha-4
@@ -259,7 +279,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '8|MCI-@V2ray_Alpha-6 #1'
+- name: '8|@meli_proxyy #3'
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
@@ -275,7 +295,7 @@ proxies:
   sni: br.1010520.xyz
   tls: false
   type: hysteria2
-- name: 8|MCI-@V2ray_Raha-2
+- name: 8|MCI-@V2ray_Alpha-2
   password: e442664a-ff50-4457-ab27-66a34055934a
   port: 443
   server: kaikaixinxin-us.legeth.xyz
@@ -283,12 +303,11 @@ proxies:
   sni: kaikaixinxin-us.legeth.xyz
   tls: false
   type: hysteria2
-- name: 8|IR-@V2ray_Alpha-8
-  password: f3182d97-8472-4433-8d75-7598d6978364
+- name: 8|IR-@V2ray_Raha-3
+  password: wbGUMK784bGyab0YTz23Ba
   port: 443
-  server: kaikaixinxin-ca.legeth.xyz
-  skip-cert-verify: false
-  sni: kaikaixinxin-ca.legeth.xyz
+  server: cone.tylone.world
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 12|@ToYoTA_PRoXY
@@ -938,12 +957,6 @@ proxies:
     headers:
       Host: ssvv.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 15|JP_speednode_0055
-  password: c4843eba-b070-403f-b43f-ef1ef7db571e
-  port: 443
-  server: usa.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
 - alpn:
   - h2
   - http/1.1
