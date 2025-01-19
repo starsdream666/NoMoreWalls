@@ -1,5 +1,7 @@
 payload:
-- DOMAIN-KEYWORD,onedrive
+- IP-CIDR,61.160.148.90/32
+- IP-CIDR,221.228.32.13/32
+- DOMAIN-SUFFIX,onedrive.live.com
 - DOMAIN,global.bing.com
 - DOMAIN-KEYWORD,clash
 - DOMAIN-KEYWORD,v2ray
@@ -140,7 +142,9 @@ payload:
 - DOMAIN-SUFFIX,line-apps.com
 - DOMAIN-SUFFIX,line-scdn.net
 - DOMAIN-SUFFIX,naver.jp
-- DOMAIN-KEYWORD,github
+- DOMAIN-SUFFIX,github.com
+- DOMAIN-SUFFIX,githubusercontent.com
+- DOMAIN-SUFFIX,github.blog
 - DOMAIN-KEYWORD,pinterest
 - DOMAIN-KEYWORD,wikileaks
 - DOMAIN-SUFFIX,4shared.com
@@ -542,6 +546,7 @@ payload:
 - DOMAIN-SUFFIX,nsstatic.net
 - DOMAIN-SUFFIX,nssurge.com
 - DOMAIN-SUFFIX,omnigroup.com
+- DOMAIN-SUFFIX,onedrive.com
 - DOMAIN-SUFFIX,ooyala.com
 - DOMAIN-SUFFIX,openvpn.net
 - DOMAIN-SUFFIX,orkut.com
@@ -560,6 +565,7 @@ payload:
 - DOMAIN-SUFFIX,servebom.com
 - DOMAIN-SUFFIX,sharethis.com
 - DOMAIN-SUFFIX,shazam.com
+- DOMAIN-SUFFIX,smartdnsproxy.com
 - DOMAIN-SUFFIX,smartmailcloud.com
 - DOMAIN-SUFFIX,sndcdn.com
 - DOMAIN-SUFFIX,sourceforge.net
