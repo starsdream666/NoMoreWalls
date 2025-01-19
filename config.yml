@@ -149,10 +149,13 @@ rules:
   - DOMAIN,adsfs.heytapimage.com,⛔ 广告拦截
   # 自定义规则
   ## 您可以在此处插入您补充的自定义规则（请注意保持缩进）
+  - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
+  - IP-CIDR,61.160.148.90/32,🚀 选择代理 # 被上面污染了
+  - IP-CIDR,221.228.32.13/32,🚀 选择代理
   # - DOMAIN-SUFFIX,gitcode.com,⛔ 广告拦截
   # - DOMAIN-SUFFIX,zhihu.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,signalr.net,DIRECT
-  - DOMAIN-KEYWORD,onedrive,🚀 选择代理
+  - DOMAIN-SUFFIX,onedrive.live.com,🚀 选择代理
   - DOMAIN-SUFFIX,live.com,DIRECT
   - DOMAIN,global.bing.com,🚀 选择代理
   - DOMAIN-SUFFIX,bing.com,🌐 突破锁区
@@ -193,8 +196,6 @@ rules:
   # gvt1.com 不加任何规则，根据 GEOIP 判断是否走代理
   
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
-  - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
-  - IP-CIDR,61.160.148.90/32,❓ 疑似国内 # 被上面污染了
   - DOMAIN-KEYWORD,wiki.arch,DIRECT
   - DOMAIN-KEYWORD,archlinuxcn,DIRECT
   - DOMAIN-SUFFIX,996.icu,DIRECT
@@ -619,7 +620,10 @@ rules:
   - DOMAIN-SUFFIX,line-scdn.net,🚀 选择代理
   - DOMAIN-SUFFIX,naver.jp,🚀 选择代理
   # > Other
-  - DOMAIN-KEYWORD,github,🚀 选择代理
+  - DOMAIN-SUFFIX,github.com,🚀 选择代理
+  - DOMAIN-SUFFIX,githubusercontent.com,🚀 选择代理
+  - DOMAIN-SUFFIX,github.blog,🚀 选择代理
+  - DOMAIN-SUFFIX,github.io,🐟 漏网之鱼
   # - DOMAIN-KEYWORD,jav,🚀 选择代理
   - DOMAIN-KEYWORD,pinterest,🚀 选择代理
   - DOMAIN-KEYWORD,porn,⛔ 广告拦截
@@ -1256,7 +1260,7 @@ rules:
   - DOMAIN-SUFFIX,ggpht.com,🚀 选择代理
   - DOMAIN-SUFFIX,ghostnoteapp.com,🚀 选择代理
   - DOMAIN-SUFFIX,git.io,🚀 选择代理
-  - DOMAIN-KEYWORD,github,🚀 选择代理
+  - DOMAIN-SUFFIX,github.com,🚀 选择代理
   - DOMAIN-SUFFIX,globalsign.com,🚀 选择代理
   - DOMAIN-SUFFIX,gmodules.com,🚀 选择代理
   - DOMAIN-SUFFIX,godaddy.com,🚀 选择代理
@@ -1355,7 +1359,7 @@ rules:
   - DOMAIN-SUFFIX,sharethis.com,🚀 选择代理
   - DOMAIN-SUFFIX,shazam.com,🚀 选择代理
   - DOMAIN-SUFFIX,skype.com,🌐 突破锁区
-  # - DOMAIN-SUFFIX,smartdns🚀 选择代理.com,🚀 选择代理
+  - DOMAIN-SUFFIX,smartdnsproxy.com,🚀 选择代理
   - DOMAIN-SUFFIX,smartmailcloud.com,🚀 选择代理
   - DOMAIN-SUFFIX,sndcdn.com,🚀 选择代理
   # - DOMAIN-SUFFIX,sony.com,🚀 选择代理
