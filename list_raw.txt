@@ -72,4 +72,4 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiMTZ8ZCoqKioqKioqKmcuY29tXzIiLCAiYWRkIjogIjQyLjIz
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http/1.1&fp=chrome&security=tls#16%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http/1.1#16%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3
 https://Y9R24Y.mcsslk.xyz/68f30741935afb49a2e8712832235137
-https://tCeo0O.absslk.xyz/61d43135a7230049d4323cd4140f98b5
+https://NYNHUn.absslk.xyz/5bcd737f941ef78c7b7132bb25e39d76
