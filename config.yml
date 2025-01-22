@@ -164,7 +164,7 @@ rules:
   - DOMAIN-KEYWORD,ghproxy,DIRECT
   - DOMAIN-KEYWORD,gh-proxy,DIRECT
   - DOMAIN-SUFFIX,zzko.cn,DIRECT
-  - DOMAIN-SUFFIX,jsdelivr.us,DIRECT
+  - DOMAIN-SUFFIX,jsdelivr.us,REJECT # 已经无了
   - DOMAIN-SUFFIX,jsdelivr.net,DIRECT
   # - DOMAIN-SUFFIX,statically.io,🚀 选择代理
   - DOMAIN-KEYWORD,clash,🚀 选择代理
@@ -195,14 +195,11 @@ rules:
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
   - DOMAIN-KEYWORD,wiki.arch,❓ 疑似国内
   - DOMAIN-KEYWORD,archlinuxcn,DIRECT
-  - DOMAIN-SUFFIX,996.icu,❓ 疑似国内
   - DOMAIN-SUFFIX,chinadigitaltimes.net,🚀 选择代理
   - DOMAIN-SUFFIX,savefrom.net,🚀 选择代理
   - DOMAIN-SUFFIX,yout.com,🚀 选择代理
   # - DOMAIN-SUFFIX,bulianglin.com,🚀 选择代理
   # - DOMAIN-SUFFIX,buliang0.cf,🚀 选择代理
-  - DOMAIN-SUFFIX,hydro.ac,❓ 疑似国内
-  - DOMAIN-SUFFIX,tuna.moe,❓ 疑似国内
   - DOMAIN-KEYWORD,qbittorrent,🐟 漏网之鱼
   - DOMAIN-SUFFIX,greatfire.org,🚀 选择代理
   - DOMAIN,wiki.metacubex.one,🚀 选择代理
@@ -217,6 +214,8 @@ rules:
   - DOMAIN-SUFFIX,netlify.app,🚀 选择代理
   - DOMAIN-SUFFIX,blog.google,❓ 疑似国内
   - DOMAIN-SUFFIX,blog.youtube,❓ 疑似国内
+  - DOMAIN-SUFFIX,huggingface.co,🚀 选择代理
+  - DOMAIN-SUFFIX,hf.co,🚀 选择代理
 
 
   # 国内网站（优先，避免 google.cn 走代理）
@@ -2004,5 +2003,8 @@ rules:
 
   # 最终规则
   - GEOIP,CN,❓ 疑似国内
+  - DOMAIN-SUFFIX,996.icu,❓ 疑似国内
+  - DOMAIN-SUFFIX,hydro.ac,❓ 疑似国内
+  - DOMAIN-SUFFIX,tuna.moe,❓ 疑似国内
   # - DOMAIN-SUFFIX,gvt1.com,🐟 漏网之鱼
   - MATCH,🐟 漏网之鱼
