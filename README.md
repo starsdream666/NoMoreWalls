@@ -8,7 +8,7 @@
 
 没有节点怎么办？Windows 设备推荐使用 [SpaceTimee/Sheas-Cealer](https://github.com/SpaceTimee/Sheas-Cealer)，一键直连各种网站！
 
-由于江苏电信、移动经常屏蔽未备案域名，如果你遇到跳转反诈中心，请将 `❓ 疑似国内` 切换为 `🚀 选择代理`。
+由于江苏电信、移动经常屏蔽未备案域名，本项目能自动识别屏蔽并分流，如果你仍然遇到跳转反诈中心，请将 `❓ 疑似国内` 切换为 `🚀 选择代理`。
 
 江苏移动在特定时段放行 `github.io` 和 `Cloudflare`，如不在特定时段请将 `🐟 漏网之鱼` 切换成 `🚀 选择代理`。
 
@@ -19,12 +19,6 @@
 如果您访问部分网站时遇到问题，可以将 `病毒网站` 分类切换为 `DIRECT`，但是您需要**自行承担一切安全风险，包括但不限于广告骚扰，账号被盗，设备中毒**等，请三思而后行！！！
 
 为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
-
-警报：Clash 死了！[最后的遗照](https://github.com/doreamon-design/clash)
-
-受此影响，MetaCubeX 团队宣布放弃 Clash.Meta，改入游戏行业并发布了第一款基于 YS 二开的游戏：[mihomo](https://github.com/MetaCubeX/mihomo)。我试过了，很好玩（
-
-为推动国产游戏(?)发展，本项目现已适配 mihomo 专用订阅，支持更多节点！详见下方 Clash 使用说明。
 
 ## Google Play 国内直连下载
 
@@ -42,9 +36,9 @@ Google Play 在**上海**有**可直连的**下载服务器，国行机下载软
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [GhFast.top](https://ghfast.top/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [GitHub.site](https://raw.github.site/peasoft/NoMoreWalls/master/list.txt)
 
 以下链接可能不是最新：
+- [GitHub.site](https://raw.github.site/peasoft/NoMoreWalls/master/list.txt)
 - [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
@@ -54,9 +48,9 @@ Google Play 在**上海**有**可直连的**下载服务器，国行机下载软
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
 - [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
 - [GhFast.top](https://ghfast.top/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
-- [GitHub.site](https://raw.github.site/peasoft/NoMoreWalls/master/list.meta.yml)
 
 以下链接可能不是最新：
+- [GitHub.site](https://raw.github.site/peasoft/NoMoreWalls/master/list.meta.yml)
 - [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
