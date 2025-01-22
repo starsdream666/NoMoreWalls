@@ -24,6 +24,8 @@ payload:
 - DOMAIN-SUFFIX,tap.io
 - DOMAIN-SUFFIX,vercel.app
 - DOMAIN-SUFFIX,netlify.app
+- DOMAIN-SUFFIX,huggingface.co
+- DOMAIN-SUFFIX,hf.co
 - DOMAIN-KEYWORD,google
 - DOMAIN-SUFFIX,fb.me
 - DOMAIN-SUFFIX,twimg.com
