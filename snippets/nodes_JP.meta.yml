@@ -27,7 +27,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 15|JP_speednode_0008
+  name: 15|JP_speednode_0051
   network: ws
   port: 443
   server: live.989bull.com
