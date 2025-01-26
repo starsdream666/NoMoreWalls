@@ -109,8 +109,8 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 选择代理
       - DIRECT
+      - 🚀 选择代理
 
   - name: 🚨 病毒网站
     type: select
@@ -220,7 +220,7 @@ rules:
 
   # 国内网站（优先，避免 google.cn 走代理）
   - DOMAIN-SUFFIX,cn,DIRECT
-  - DOMAIN-KEYWORD,-cn,DIRECT
+  - DOMAIN-KEYWORD,-cn,❓ 疑似国内
 
   
   # Local Area Network
