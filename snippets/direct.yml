@@ -17,7 +17,6 @@ payload:
 - DOMAIN-KEYWORD,archlinuxcn
 - DOMAIN,safebrowsing.googleapis.com
 - DOMAIN-SUFFIX,cn
-- DOMAIN-KEYWORD,-cn
 - DOMAIN-KEYWORD,announce
 - DOMAIN-KEYWORD,torrent
 - DOMAIN-KEYWORD,tracker
