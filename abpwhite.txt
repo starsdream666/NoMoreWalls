@@ -5,3 +5,11 @@
 ||af.alicdn.com^
 ||aeu.alicdn.com^
 ||click.email.microsoftemail.com^
+||www.iconfont.cn
+||mbdp01.bdstatic.com^$important
+||click.aliyun.com^$important
+||httpdns.push.heytapmobi.com^
+||douyincdn.com^
+||dun.163.com^
+||dun.163yun.com^
+||reg.163.com^
