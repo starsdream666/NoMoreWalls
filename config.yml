@@ -153,17 +153,16 @@ rules:
   # - DOMAIN-SUFFIX,zhihu.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,signalr.net,DIRECT
   - DOMAIN-SUFFIX,onedrive.live.com,🚀 选择代理
-  - DOMAIN-SUFFIX,live.com,DIRECT
   - DOMAIN,global.bing.com,🚀 选择代理
   - DOMAIN-SUFFIX,bing.com,🌐 突破锁区
   - DOMAIN-SUFFIX,bing.net,🌐 突破锁区
   - DOMAIN-KEYWORD,bingapi,🌐 突破锁区
-  # - DOMAIN-KEYWORD,kgithub,DIRECT
+  - DOMAIN-KEYWORD,kgithub,DIRECT
   - DOMAIN-KEYWORD,fastgit,DIRECT
   - DOMAIN-KEYWORD,fgit,DIRECT
   - DOMAIN-KEYWORD,ghproxy,DIRECT
   - DOMAIN-KEYWORD,gh-proxy,DIRECT
-  - DOMAIN-SUFFIX,zzko.cn,DIRECT
+  # - DOMAIN-SUFFIX,zzko.cn,DIRECT
   - DOMAIN-SUFFIX,jsdelivr.us,REJECT # 已经无了
   - DOMAIN-SUFFIX,jsdelivr.net,DIRECT
   # - DOMAIN-SUFFIX,statically.io,🚀 选择代理
@@ -185,7 +184,7 @@ rules:
   - DOMAIN-SUFFIX,v1.mk,🚀 选择代理
   - DOMAIN-SUFFIX,outlook.com,DIRECT
   
-  - DOMAIN-SUFFIX,googleapis.cn,DIRECT # 见 README
+  # - DOMAIN-SUFFIX,googleapis.cn,DIRECT
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，多数可直连，连不上 Google Play 会自动更换
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
   - DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
@@ -193,8 +192,8 @@ rules:
   # gvt1.com 不加任何规则，根据 GEOIP 判断是否走代理
   
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
-  - DOMAIN-KEYWORD,wiki.arch,❓ 疑似国内
-  - DOMAIN-KEYWORD,archlinuxcn,DIRECT
+  # - DOMAIN-KEYWORD,wiki.arch,❓ 疑似国内
+  # - DOMAIN-KEYWORD,archlinuxcn,DIRECT
   - DOMAIN-SUFFIX,chinadigitaltimes.net,🚀 选择代理
   - DOMAIN-SUFFIX,savefrom.net,🚀 选择代理
   - DOMAIN-SUFFIX,yout.com,🚀 选择代理
@@ -204,7 +203,7 @@ rules:
   - DOMAIN-SUFFIX,greatfire.org,🚀 选择代理
   - DOMAIN,wiki.metacubex.one,🚀 选择代理
   - DOMAIN,safebrowsing.googleapis.com,DIRECT
-  - DOMAIN,dl.google.com,🐟 漏网之鱼
+  - DOMAIN,dl.google.com,❓ 疑似国内
   - DOMAIN-SUFFIX,taptap.io,🚀 选择代理
   - DOMAIN-SUFFIX,tap.io,🚀 选择代理
   - DOMAIN-SUFFIX,tapapis.com,🌐 突破锁区
@@ -212,15 +211,14 @@ rules:
   - DOMAIN-KEYWORD,taptap,🌐 突破锁区
   - DOMAIN-SUFFIX,vercel.app,🚀 选择代理
   - DOMAIN-SUFFIX,netlify.app,🚀 选择代理
-  - DOMAIN-SUFFIX,blog.google,❓ 疑似国内
-  - DOMAIN-SUFFIX,blog.youtube,❓ 疑似国内
   - DOMAIN-SUFFIX,huggingface.co,🚀 选择代理
   - DOMAIN-SUFFIX,hf.co,🚀 选择代理
+  - DOMAIN,www.skype.com,🚀 选择代理
 
 
   # 国内网站（优先，避免 google.cn 走代理）
   - DOMAIN-SUFFIX,cn,DIRECT
-  - DOMAIN-KEYWORD,-cn,❓ 疑似国内
+  # - DOMAIN-KEYWORD,-cn,❓ 疑似国内
 
   
   # Local Area Network
@@ -238,7 +236,7 @@ rules:
 
   # 抗 DNS 污染
   # - DOMAIN-KEYWORD,amazon,🚀 选择代理
-  - DOMAIN-KEYWORD,google,🚀 选择代理
+  - DOMAIN-KEYWORD,google.,🚀 选择代理
   # - DOMAIN-KEYWORD,gmail,🚀 选择代理
   # - DOMAIN-KEYWORD,youtube,🚀 选择代理
   # - DOMAIN-KEYWORD,facebook,🚀 选择代理
@@ -373,7 +371,7 @@ rules:
   - DOMAIN-SUFFIX,viu.tv,🚀 选择代理
 
   # > Youtube
-  - DOMAIN-KEYWORD,youtube,🚀 选择代理
+  - DOMAIN-KEYWORD,youtube.,🚀 选择代理
   - DOMAIN-SUFFIX,googlevideo.com,🚀 选择代理
   # - DOMAIN-SUFFIX,gvt2.com,🚀 选择代理
   - DOMAIN-SUFFIX,youtu.be,🚀 选择代理
@@ -578,7 +576,7 @@ rules:
   # - DOMAIN-SUFFIX,gvt1.com,🚀 选择代理
   # - DOMAIN-SUFFIX,gvt3.com,🚀 选择代理
   # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 选择代理
-  - DOMAIN-KEYWORD,google,🚀 选择代理
+  # - DOMAIN-KEYWORD,google,🚀 选择代理
   - DOMAIN-KEYWORD,blogspot,🚀 选择代理
   # > Facebook
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 选择代理
@@ -934,7 +932,7 @@ rules:
   - DOMAIN-SUFFIX,4bluestones.biz,🚀 选择代理
   - DOMAIN-SUFFIX,9bis.net,🚀 选择代理
   - DOMAIN-SUFFIX,allconnected.co,🚀 选择代理
-  - DOMAIN-SUFFIX,amazonaws.com,🚀 选择代理
+  # - DOMAIN-SUFFIX,amazonaws.com,🚀 选择代理
   - DOMAIN-SUFFIX,aol.com,🚀 选择代理
   - DOMAIN-SUFFIX,bcc.com.tw,🚀 选择代理
   - DOMAIN-SUFFIX,bit.ly,🚀 选择代理
@@ -1000,17 +998,17 @@ rules:
   - DOMAIN,itunes.apple.com,🌐 突破锁区
   - DOMAIN-SUFFIX,blobstore.apple.com,🌐 突破锁区
   - DOMAIN,cvws.icloud-content.com,🌐 突破锁区
-  - DOMAIN-SUFFIX,music.apple.com,DIRECT
-  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
-  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-  - DOMAIN-SUFFIX,icloud.com,DIRECT
-  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,music.apple.com,🌐 突破锁区
+  - DOMAIN-SUFFIX,mzstatic.com,🌐 突破锁区
+  - DOMAIN-SUFFIX,itunes.apple.com,🌐 突破锁区
+  - DOMAIN-SUFFIX,icloud.com,🌐 突破锁区
+  - DOMAIN-SUFFIX,icloud-content.com,🌐 突破锁区
   # - DOMAIN-SUFFIX,me.com,DIRECT
   - DOMAIN-SUFFIX,mzstatic.com,DIRECT
   - DOMAIN-SUFFIX,akadns.net,DIRECT
   - DOMAIN-SUFFIX,aaplimg.com,DIRECT
   - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,apple.com,🌐 突破锁区
   - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
   # - DOMAIN,e.crashlytics.com,⛔ 广告拦截 //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
 
@@ -1177,9 +1175,6 @@ rules:
   - DOMAIN-SUFFIX,goo.gl,🚀 选择代理
   - DOMAIN-SUFFIX,gravatar.com,🚀 选择代理
   - DOMAIN-SUFFIX,imgur.com,🚀 选择代理
-  # - DOMAIN-SUFFIX,live.com,🚀 选择代理
-  # - DOMAIN-SUFFIX,live.net,🚀 选择代理
-  # - DOMAIN-SUFFIX,livefilestore.com,🚀 选择代理
   - DOMAIN-SUFFIX,medium.com,🚀 选择代理
   - DOMAIN-SUFFIX,mega.co.nz,🚀 选择代理
   - DOMAIN-SUFFIX,mega.nz,🚀 选择代理
@@ -1195,7 +1190,6 @@ rules:
   - DOMAIN-SUFFIX,pinterest.com,🚀 选择代理
   - DOMAIN-SUFFIX,pixiv.net,🚀 选择代理
   - DOMAIN-SUFFIX,shadowsocks.org,🚀 选择代理
-  - DOMAIN-SUFFIX,skype.com,🌐 突破锁区
   - DOMAIN-SUFFIX,smartdnsproxy.com,🚀 选择代理
   - DOMAIN-SUFFIX,soundcloud.com,🚀 选择代理
   - DOMAIN-SUFFIX,spotify.com,🚀 选择代理
@@ -2003,8 +1997,5 @@ rules:
 
   # 最终规则
   - GEOIP,CN,❓ 疑似国内
-  - DOMAIN-SUFFIX,996.icu,❓ 疑似国内
-  - DOMAIN-SUFFIX,hydro.ac,❓ 疑似国内
-  - DOMAIN-SUFFIX,tuna.moe,❓ 疑似国内
   # - DOMAIN-SUFFIX,gvt1.com,🐟 漏网之鱼
   - MATCH,🐟 漏网之鱼

@@ -212,7 +212,7 @@ class Node:
             return False
 
     def load_url(self, url: str) -> None:
-        try: self.type, dt = url.split("://")
+        try: self.type, dt = url.split("://", 1)
         except ValueError: raise NotANode(url)
         # === Fix begin ===
         if not self.type.isascii():
@@ -390,8 +390,12 @@ class Node:
                 self.data['port'] = 443
             self.data['tls'] = False
             if parsed.query:
+                k = v = ''
                 for kv in parsed.query.split('&'):
-                    k,v = kv.split('=')
+                    if '=' in kv:
+                        k,v = kv.split('=')
+                    else:
+                        v += '&' + kv
                     if k == 'insecure':
                         self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'alpn':
@@ -429,6 +433,9 @@ class Node:
             # TODO: Fake UUID
             # if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
             #     return True
+            if 'sni' in self.data and 'google.com' in self.data['sni'].lower():
+                # That's not designed for China
+                self.data['sni'] = 'www.bing.com'
         except Exception:
             print("无法验证的节点！", file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
@@ -826,13 +833,7 @@ def merge(source_obj: Source, sourceId=-1) -> None:
     sub = source_obj.sub
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
-        if isinstance(p, str):
-            if '://' not in p: continue
-            ok = True
-            for ch in '!|`()[]{} ':
-                if ch in p:
-                    ok = False; break
-            if not ok: continue
+        if isinstance(p, str) and '://' not in p: continue
         try: n = Node(p)
         except KeyboardInterrupt: raise
         except UnsupportedType as e:
