@@ -1,14 +1,16 @@
 proxies:
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  client-fingerprint: chrome
+  name: 1|🇨🇦1 |  2.3MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: br.bethebest.eu.org
+  skip-cert-verify: true
+  sni: br.bethebest.eu.org
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 98f35821-a028-465e-8969-e205ac9f4e9d
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
