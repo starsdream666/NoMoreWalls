@@ -1,20 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  client-fingerprint: chrome
-  name: 2|🇩🇪1 |  3.6MB/s
-  password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 24237
-  server: de2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
-  type: hysteria2
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
@@ -121,6 +112,14 @@ proxies:
   sni: bx1.su8.lol
   tls: false
   type: hysteria2
+- name: 10|Mtn-@V2ray_Raha-11
+  password: dongtaiwang.com
+  port: 13861
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '10|(@VmessProtocol)برای خرید و ات... #12'
   password: ee837f32-4f5c-4920-9980-b55982f69414
   port: 443
@@ -129,3 +128,24 @@ proxies:
   sni: sanyuandian-nl.sanguayun.com
   tls: false
   type: hysteria2
+- name: 14|DE_speednode_0015
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: composed-mustang.treefrog761.one
+  skip-cert-verify: true
+  sni: composed-mustang.treefrog761.one
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0016
+  port: 443
+  reality-opts:
+    public-key: 83nOCehIOZZFqH0TjezNRMlu_pu069x5ep9BhopvyWM
+  server: a6.softmeto.com
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33c1bd18-ca92-f544-8c7e-105bc9d8cb93
