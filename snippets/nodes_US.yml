@@ -1,21 +1,42 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇺🇸1 |  4.9MB/s
+  name: 2|🇺🇸1 |  4.9MB/s
   password: amazonskr05
   port: 443
   server: 52.194.186.197
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇺🇸4 |  6.1MB/s
+  name: 2|🇺🇸4 |  6.1MB/s
   password: amazonskr05
   port: 443
   server: 52.195.215.236
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🇺🇸7 |  1.5MB/s
+  name: 2|🇺🇸7 |  1.5MB/s
   obfs: plain
   password: amazonskr05
   port: 443
@@ -23,12 +44,12 @@ proxies:
   server: 35.94.23.23
   type: ssr
 - cipher: aes-256-cfb
-  name: 1|🇺🇸8 |  3.1MB/s
+  name: 2|🇺🇸8 |  3.1MB/s
   password: amazonskr05
   port: 443
   server: 54.245.222.80
   type: ss
-- name: 1|🇺🇸9 |  1.1MB/s
+- name: 2|🇺🇸9 |  1.1MB/s
   password: a6ef3559-133f-3073-a792-849c9de79426
   port: 20304
   server: gy.58n.net
@@ -36,7 +57,7 @@ proxies:
   sni: z304.hongkongnode.top
   type: trojan
   udp: true
-- name: 1|🇺🇸10 |  1.0MB/s
+- name: 2|🇺🇸10 |  1.0MB/s
   password: a6ef3559-133f-3073-a792-849c9de79426
   port: 20279
   server: gy.58n.net
@@ -45,7 +66,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🇺🇸11 |  5.6MB/s
+  name: 2|🇺🇸11 |  5.6MB/s
   obfs: plain
   password: amazonskr05
   port: 443
@@ -53,14 +74,14 @@ proxies:
   server: 52.12.191.72
   type: ssr
 - cipher: aes-256-cfb
-  name: 1|🇺🇸12 |  2.3MB/s
+  name: 2|🇺🇸12 |  2.3MB/s
   password: amazonskr05
   port: 443
   server: 3.39.248.156
   type: ss
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸13 |  1.2MB/s
+  name: 2|🇺🇸13 |  1.2MB/s
   network: ws
   port: 23615
   server: 15.mamamajd.site
@@ -73,7 +94,7 @@ proxies:
     headers:
       Host: 15.mamamajd.site
     path: /
-- name: 1|🇺🇸16 |  1.8MB/s
+- name: 2|🇺🇸16 |  1.8MB/s
   password: '!!str 3782591447421952000'
   port: 443
   server: composed-mustang.treefrog761.one
@@ -83,7 +104,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇺🇸17 |  3.4MB/s
+  name: 2|🇺🇸17 |  3.4MB/s
   port: 50023
   server: 50023.baidu-cdn.top
   skip-cert-verify: false
@@ -92,7 +113,7 @@ proxies:
   type: vmess
   uuid: fa2c4c94-b477-4809-9db8-3db03ef06202
 - client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: tcp
   password: '!!str 3747000103274291200'
   port: 443
@@ -101,7 +122,7 @@ proxies:
   sni: polished-ox.treefrog761.one
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|美国2|@ripaojiedian
+  name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: '!!str 3747000103274291200'
   port: 443
@@ -109,24 +130,3 @@ proxies:
   skip-cert-verify: false
   sni: fluent-bat.treefrog761.one
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 251da565-7087-491c-b314-293070fa43df
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 251da565-7087-491c-b314-293070fa43df
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 251da565-7087-491c-b314-293070fa43df
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
