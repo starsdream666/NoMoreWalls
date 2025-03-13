@@ -1,28 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 080f75b4-2f31-4b3f-b675-0f18e96305b7
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 080f75b4-2f31-4b3f-b675-0f18e96305b7
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 080f75b4-2f31-4b3f-b675-0f18e96305b7
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼1 |  5.4MB/s
+  password: 9b63f012-814f-44ac-90e6-fd225edfa7da
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: KM16ID6XDW3XRC7K
   port: 21006
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -30,46 +36,33 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
+  name: 12|🇹🇼 台湾2|@ripaojiedian
   password: ECOQAU8O56QGBV28
   port: 21002
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾3|@ripaojiedian
-  password: QF377GGQ00RATCMK
-  port: 21004
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  name: 12|🇹🇼 台湾3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8746
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾4|@ripaojiedian
-  password: F7XGGN9MP0DGPLII
-  port: 21007
-  server: w72tapyb.slashdevslashnetslashtun.net
+  name: 12|🇹🇼 台湾4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8745
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 01 | 1x TW
-  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 02 | 1x TW
-  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 03 | 1x TW
-  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
