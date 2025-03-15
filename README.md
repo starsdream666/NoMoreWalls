@@ -6,7 +6,7 @@
 
 ## 公告
 
-**本项目提供的订阅包含我们精心设计的分流规则，Google Play 软件秒下，自动识别被墙域名，只需将 `🐟 漏网之鱼` 维持在 `DIRECT` 即可！**
+**本项目提供的 Clash 订阅包含我们精心设计的分流规则，Google Play 软件秒下，自动识别被墙域名，只需将 `🐟 漏网之鱼` 维持在 `DIRECT` 即可！**
 
 由于江苏电信、移动经常屏蔽未备案域名，本项目能自动识别屏蔽并分流，如果你仍然遇到跳转反诈中心，请将 `❓ 疑似国内` 切换为 `🚀 选择代理`。
 
@@ -73,7 +73,10 @@
     ```bash
     git clone https://github.com/peasoft/NoMoreWalls.git --depth=1
     ```
-2. `pip install -r requirements.txt`
+2. 安装依赖库（此步骤需要 Git）
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. 如果你所在地区没有墙或你在使用 Tun 模式或透明代理，请跳到第 9 步
 4. 如果你已有代理，请跳到第 8 步。
 5. 创建空白文件 `local_proxy.conf`

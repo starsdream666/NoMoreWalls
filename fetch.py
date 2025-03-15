@@ -854,11 +854,6 @@ def merge(source_obj: Source, sourceId=-1) -> None:
             used[hashn][sourceId] = n.name
 
 def raw2fastly(url: str) -> str:
-    # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
-    # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
-    # 2023/06/28: ghproxy.com 似乎有速率或并发限制，改回原来的镜像
-    # 2023/10/01: ghproxy.net tcping 有大量丢包，且之前出现过证书未续期的问题，改掉
-    # 2023/12/23: 全都废了
     if not LOCAL: return url
     url: Union[str, List[str]]
     if url.startswith("https://raw.githubusercontent.com/"):
@@ -867,7 +862,7 @@ def raw2fastly(url: str) -> str:
         # del url[2]
         # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
         # return url
-        return "https://ghfast.top/"+url
+        return "https://ghproxy.cn/"+url
     return url
 
 def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
