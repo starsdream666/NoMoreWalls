@@ -214,6 +214,7 @@ rules:
   - DOMAIN-SUFFIX,huggingface.co,🚀 选择代理
   - DOMAIN-SUFFIX,hf.co,🚀 选择代理
   - DOMAIN,www.skype.com,🚀 选择代理
+  - DOMAIN-SUFFIX,googletagmanager.com,⛔ 广告拦截
 
 
   # 国内网站（优先，避免 google.cn 走代理）
@@ -236,7 +237,7 @@ rules:
 
   # 抗 DNS 污染
   # - DOMAIN-KEYWORD,amazon,🚀 选择代理
-  - DOMAIN-KEYWORD,google.,🚀 选择代理
+  - DOMAIN-KEYWORD,google,🚀 选择代理
   # - DOMAIN-KEYWORD,gmail,🚀 选择代理
   # - DOMAIN-KEYWORD,youtube,🚀 选择代理
   # - DOMAIN-KEYWORD,facebook,🚀 选择代理
