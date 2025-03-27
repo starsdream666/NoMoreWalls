@@ -27,7 +27,7 @@ payload:
 - DOMAIN-SUFFIX,huggingface.co
 - DOMAIN-SUFFIX,hf.co
 - DOMAIN,www.skype.com
-- DOMAIN-KEYWORD,google.
+- DOMAIN-KEYWORD,google
 - DOMAIN-SUFFIX,fb.me
 - DOMAIN-SUFFIX,twimg.com
 - DOMAIN-SUFFIX,youtu.be
@@ -108,7 +108,6 @@ payload:
 - DOMAIN-SUFFIX,spoti.fi
 - DOMAIN-SUFFIX,viu.tv
 - DOMAIN-KEYWORD,youtube.
-- DOMAIN-SUFFIX,googlevideo.com
 - DOMAIN-SUFFIX,steampowered.com
 - DOMAIN-SUFFIX,appspot.com
 - DOMAIN-SUFFIX,blogger.com

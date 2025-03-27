@@ -1,19 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 4cab3493-1d28-4ebc-a9b8-4fb3f1cba08a
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 4cab3493-1d28-4ebc-a9b8-4fb3f1cba08a
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 025149df-4c85-484e-9fd7-16e1c129e105
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 025149df-4c85-484e-9fd7-16e1c129e105
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇭🇰1 |  5.4MB/s
+- name: 2|🇭🇰1 |  5.4MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -24,7 +38,7 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰2 |  1.2MB/s
+  name: 2|🇭🇰2 |  1.2MB/s
   network: tcp
   port: 10860
   reality-opts:
@@ -36,7 +50,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰3 |  6.4MB/s
+  name: 2|🇭🇰3 |  6.4MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -48,7 +62,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰4 |  4.6MB/s
+  name: 2|🇭🇰4 |  4.6MB/s
   network: tcp
   port: 46716
   reality-opts:
@@ -60,7 +74,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰5 |  6.4MB/s
+  name: 2|🇭🇰5 |  6.4MB/s
   network: tcp
   port: 54220
   reality-opts:
@@ -72,7 +86,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰6 |  1.0MB/s
+  name: 2|🇭🇰6 |  1.0MB/s
   network: tcp
   port: 31800
   reality-opts:
@@ -82,20 +96,6 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
