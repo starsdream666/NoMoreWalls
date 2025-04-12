@@ -1,12 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 68641aa9-7956-45fa-a031-a5474616d351
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇨🇦1 |  1.4MB/s
+- name: 2|🇨🇦1 |  1.4MB/s
   network: ws
   port: 443
   server: www.wto.org
@@ -20,7 +27,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦2 |  4.7MB/s
+- name: 2|🇨🇦2 |  4.7MB/s
   network: ws
   port: 443
   server: rustam.ns.cloudflare.com
@@ -34,7 +41,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦3 |  3.9MB/s
+- name: 2|🇨🇦3 |  3.9MB/s
   network: ws
   port: 443
   server: 63.141.128.94
@@ -48,7 +55,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦4 |  3.7MB/s
+- name: 2|🇨🇦4 |  3.7MB/s
   network: ws
   port: 50000
   server: 203.228.38.219
@@ -62,7 +69,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦5 |  2.7MB/s
+- name: 2|🇨🇦5 |  2.7MB/s
   network: ws
   port: 443
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
@@ -76,7 +83,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦6 |  3.0MB/s
+- name: 2|🇨🇦6 |  3.0MB/s
   network: ws
   port: 443
   server: www.pcmag.com
@@ -90,7 +97,7 @@ proxies:
     headers:
       Host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦7 |  1.7MB/s
+- name: 2|🇨🇦7 |  1.7MB/s
   network: ws
   port: 443
   server: 212.183.88.132
@@ -104,7 +111,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 1|🇨🇦8 |  5.0MB/s
+- name: 2|🇨🇦8 |  5.0MB/s
   network: ws
   port: 443
   server: ip.sb
@@ -118,13 +125,6 @@ proxies:
     headers:
       Host: vn.dong2025.cfd
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: 6102c179-ccee-4b6c-b960-a99becc35d5d
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0003
