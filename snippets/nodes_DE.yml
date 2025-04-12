@@ -1,21 +1,14 @@
 proxies:
-- name: 0|🇩🇪8 |  3.1MB/s
-  password: 4732adfa16c6450bbef87264e41332db
-  port: 443
-  server: nextstepcareer.online
-  skip-cert-verify: true
-  sni: nextstepcareer.online
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: d83373df-aea1-4066-88bc-44a9a72c0105
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 68641aa9-7956-45fa-a031-a5474616d351
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: a8f1342c-7f6c-4679-b152-ac3c80470546
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 6102c179-ccee-4b6c-b960-a99becc35d5d
   port: 36471
   server: free.2weradf.xyz
   type: ss
