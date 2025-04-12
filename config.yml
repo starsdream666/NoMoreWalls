@@ -150,7 +150,11 @@ rules:
   - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
   # 江苏反诈 的 IP 规则在最底下，防止 DNS 泄露
   # - DOMAIN-SUFFIX,gitcode.com,
-  # - DOMAIN-SUFFIX,zhihu.com,⛔ 广告拦截
+  # 迁移至 zh.minecraft.wiki
+  - DOMAIN-SUFFIX,minecraftwiki.net,⛔ 广告拦截
+  - DOMAIN-SUFFIX,minecraft.gamepedia.com,⛔ 广告拦截
+  - DOMAIN-SUFFIX,minecraft-zh.gamepedia.com,⛔ 广告拦截
+  - DOMAIN-SUFFIX,minecraft.fandom.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,signalr.net,DIRECT
   - DOMAIN-SUFFIX,onedrive.live.com,🚀 选择代理
   - DOMAIN,global.bing.com,🚀 选择代理
