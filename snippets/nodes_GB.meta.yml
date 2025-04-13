@@ -1,51 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 44bef85f-986a-4647-b387-eedf36c6dd48
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 44bef85f-986a-4647-b387-eedf36c6dd48
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 5630e6d4-dc1f-46d9-a1b3-249500bde2bb
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 5630e6d4-dc1f-46d9-a1b3-249500bde2bb
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0045
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇬🇧2 |  1.8MB/s
+  name: 2|🇬🇧1 |  5.7MB/s
   network: ws
-  port: 80
-  server: 45.131.4.20
-  servername: redfree8.pooriashop.ir
-  tls: false
+  port: 8443
+  server: 104.17.147.22
+  servername: MdLoXlYg.rIcKtMoUsE.InFo
+  tls: true
   type: vless
   udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
   ws-opts:
     headers:
-      Host: redfree8.pooriashop.ir
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+      Host: MdLoXlYg.rIcKtMoUsE.InFo
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0035
+  name: 2,14|CN_speednode_0035
   network: tcp
   port: 32055
   reality-opts:
@@ -60,19 +60,34 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇬🇧4 |  1.5MB/s
+  name: 2|🇬🇧3 |  3.8MB/s
   network: tcp
-  port: 1152
+  port: 32785
   reality-opts:
-    public-key: EsdPQG7EdQ6yCid_OtlMfCDIRTnmFZ_ujpKbaqOiCT4
-    short-id: 4374d295a4f9dd83
-  server: 57.128.166.88
-  servername: www.stackoverflow.com
+    public-key: K-rJkQX4Aix-0zxXbhxaZx2YcZmftmsMwybwpdGcpBU
+    short-id: ''
+  server: 18.169.158.249
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: false
-  uuid: dfa25b43-edf2-99e4-c3b0-1aa7c9ccaa96
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+  uuid: 0feab3e5-b30a-47f6-b4ce-65a23fd33856
+- client-fingerprint: chrome
+  delay: 2307
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0029
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -80,17 +95,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
