@@ -1,27 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - allowInsecure: ''
-  name: 1|🇺🇸5 |  1.8MB/s
+  name: 2|🇺🇸5 |  1.8MB/s
   network: ws
   password: 2fec7227-9abe-46f2-af18-78302b836c45
   port: 443
@@ -37,7 +58,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 1,12,13|美国|@ripaojiedian
+  name: 2,12,13|美国|@ripaojiedian
   network: ws
   port: '30808'
   server: v8.heduian.link
@@ -52,7 +73,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - allowInsecure: ''
-  name: 1|🇺🇸12 |  2.4MB/s
+  name: 2|🇺🇸12 |  2.4MB/s
   network: ws
   password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
   port: 443
@@ -67,7 +88,7 @@ proxies:
     path: /T5yZBrY2Qkg2cThJQeJb
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸13 |  4.8MB/s
+  name: 2|🇺🇸13 |  4.8MB/s
   network: ws
   port: 7612
   server: 6d1c9bd9-surog0-sy0g8x-1cc8s.lza.plebai.net
@@ -80,7 +101,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸15 |  5.8MB/s
+  name: 2|🇺🇸15 |  5.8MB/s
   network: ws
   port: 8443
   server: 156.238.18.68
@@ -98,7 +119,7 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 2370
-  name: 1|🇺🇸16 |  2.0MB/s
+  name: 2|🇺🇸16 |  2.0MB/s
   network: ws
   port: 22643
   server: 119.188.66.248
@@ -114,7 +135,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸29 |  4.0MB/s
+  name: 2|🇺🇸29 |  4.0MB/s
   network: tcp
   port: 5228
   server: 6912162d-surog0-tb016b-1m7l4.cu.plebai.net
@@ -127,7 +148,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸36 |  3.2MB/s
+  name: 2|🇺🇸36 |  3.2MB/s
   network: tcp
   port: 5229
   server: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
@@ -140,7 +161,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸39 |  5.5MB/s
+  name: 2|🇺🇸39 |  5.5MB/s
   network: ws
   port: 7612
   server: ac9c2713-surog0-tb016b-1m7l4.lza.plebai.net
@@ -152,7 +173,7 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - allowInsecure: ''
-  name: 1|🇺🇸46 |  2.0MB/s
+  name: 2|🇺🇸46 |  2.0MB/s
   network: ws
   password: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
   port: 443
@@ -167,7 +188,7 @@ proxies:
     path: /Zseq8mE8wMzbGFtV
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸48 |  2.1MB/s
+  name: 2|🇺🇸48 |  2.1MB/s
   network: ws
   port: 7612
   raw:
@@ -197,7 +218,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸65 |  5.1MB/s
+  name: 2|🇺🇸65 |  5.1MB/s
   network: tcp
   port: 5229
   server: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
@@ -210,7 +231,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸67 |  4.3MB/s
+  name: 2|🇺🇸67 |  4.3MB/s
   network: tcp
   port: 5228
   server: 312b7317-surog0-svbm2l-1t8q3.cu.plebai.net
@@ -223,7 +244,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸73 |  2.4MB/s
+  name: 2|🇺🇸73 |  2.4MB/s
   network: ws
   port: 7612
   server: f05013d4-surog0-svbm2l-1t8q3.lza.plebai.net
@@ -234,27 +255,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian

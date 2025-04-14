@@ -1,29 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36245
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇹🇼1 |  1.7MB/s
+  name: 2|🇹🇼1 |  1.7MB/s
   network: ws
   port: 8832
   server: 47.76.212.242
@@ -38,7 +59,7 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼2 |  5.6MB/s
+  name: 2|🇹🇼2 |  5.6MB/s
   network: tcp
   port: 12477
   reality-opts:
@@ -49,7 +70,7 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - allowInsecure: ''
-  name: 1|🇹🇼3 |  1.5MB/s
+  name: 2|🇹🇼3 |  1.5MB/s
   network: ws
   password: Aimer
   port: 2083
@@ -65,7 +86,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇹🇼4 |  2.7MB/s
+  name: 2|🇹🇼4 |  2.7MB/s
   network: ws
   port: 10041
   server: 175.211.154.200
@@ -80,7 +101,7 @@ proxies:
     path: /?ed=2560flow=-udp443
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0018
+  name: 2,14|CN_speednode_0018
   network: tcp
   port: 13263
   reality-opts:
@@ -92,7 +113,7 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇹🇼6 |  5.9MB/s
+- name: 2|🇹🇼6 |  5.9MB/s
   network: ws
   port: 12567
   server: 221.145.181.124
@@ -108,7 +129,7 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼7 |  1.3MB/s
+  name: 2|🇹🇼7 |  1.3MB/s
   network: tcp
   port: 13391
   reality-opts:
@@ -120,7 +141,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼8 |  1.5MB/s
+  name: 2|🇹🇼8 |  1.5MB/s
   network: tcp
   port: 15823
   reality-opts:
@@ -133,7 +154,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇹🇼9 |  5.2MB/s
+  name: 2|🇹🇼9 |  5.2MB/s
   network: ws
   port: 12527
   server: 221.144.200.91
@@ -148,7 +169,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0007
+  name: 2,14|CN_speednode_0007
   network: tcp
   port: 47531
   reality-opts:
@@ -160,27 +181,6 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾2|@ripaojiedian

@@ -1,15 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
+  password: 35678427-8f3b-4cbb-85a4-2ecd36b94882
   port: 36441
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 58ab23e0-66b4-457c-b790-ff70d8255b6d
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇨🇦1 |  5.0MB/s
+  name: 2|🇨🇦1 |  5.0MB/s
   network: ws
   port: 8443
   server: 172.67.153.156
@@ -24,7 +31,7 @@ proxies:
     path: /57ba2ab1
 - alterId: 0
   cipher: auto
-  name: 1|🇨🇦2 |  6.1MB/s
+  name: 2|🇨🇦2 |  6.1MB/s
   network: ws
   port: 443
   raw:
@@ -54,7 +61,7 @@ proxies:
     path: /linkws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CA_speednode_0001
+  name: 2,14|CA_speednode_0001
   network: tcp
   port: 42557
   reality-opts:
@@ -69,7 +76,7 @@ proxies:
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
 - alterId: 0
   cipher: auto
-  name: 1|🇨🇦4 |  2.1MB/s
+  name: 2|🇨🇦4 |  2.1MB/s
   network: ws
   port: 443
   raw:
@@ -99,18 +106,11 @@ proxies:
     path: /linkws
 - country: 🇨🇦CA
   delay: 2119
-  name: 1|🇨🇦5 |  1.5MB/s
+  name: 2|🇨🇦5 |  1.5MB/s
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 155.248.219.28
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
   udp: true
