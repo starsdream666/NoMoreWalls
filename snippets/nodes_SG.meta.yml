@@ -1,28 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: ad1b1759-cc69-4b71-b368-8f1d5422ee42
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 0aa06723-48d2-4567-9b59-ea0b8b376274
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: ad1b1759-cc69-4b71-b368-8f1d5422ee42
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: ad1b1759-cc69-4b71-b368-8f1d5422ee42
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 0aa06723-48d2-4567-9b59-ea0b8b376274
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -30,7 +23,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1,13|JP_speednode_0119
+- name: 2,14|JP_speednode_0119
   network: ws
   port: 443
   server: 64.176.38.232
@@ -44,7 +37,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 1,13|SC_speednode_0148
+- name: 2,14|SC_speednode_0148
   network: ws
   port: 8880
   server: 154.197.108.20
@@ -60,11 +53,14 @@ proxies:
     path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: 12|新加坡|@ripaojiedian
+  client-fingerprint: chrome
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -72,3 +68,11 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: O363WP68J33COIEX
+  port: 16009
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss

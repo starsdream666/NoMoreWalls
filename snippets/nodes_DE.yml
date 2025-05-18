@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: ad1b1759-cc69-4b71-b368-8f1d5422ee42
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 0aa06723-48d2-4567-9b59-ea0b8b376274
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -19,7 +19,7 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- name: 13|DE_speednode_0036
+- name: 14|DE_speednode_0036
   password: telegram-id-directvpn
   port: 22223
   server: 3.120.242.252
@@ -27,7 +27,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 13|DE_speednode_0037
+- name: 14|DE_speednode_0037
   password: telegram-id-privatevpns
   port: 22222
   server: 3.120.242.252
