@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 101 | 1x KR
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 102 | 1x KR
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
-  port: 31313
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
@@ -20,8 +6,8 @@ proxies:
   server: 125.141.31.72
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 官网：qvgpa7.allbluess.c...
-  password: 0808e4e5-82c6-4122-a6a4-146564ea71c9
+  name: 2|🇰🇷 韩国 101 官网：https://8d9mxn.ab...
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
   port: 36311
   server: freea.glyphara.com
   type: ss
