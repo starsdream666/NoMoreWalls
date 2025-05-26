@@ -1,6 +1,48 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 101 官网：3uhdsm.a5b3cloud....
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36241
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 102 官网：8z49c3.abluecloud...
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36243
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 103 官网：6q1fa2.a5b3cloud....
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36245
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 101 官网：https://米卡莎.xyz
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
+  port: 31241
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 102 官网：https://a6o1rm.m5c...
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
+  port: 31243
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 103 官网：https://米卡莎.xyz
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
+  port: 31245
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 1|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -9,24 +51,3 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 101 官网：https://elyveu.ab...
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36241
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 102 官网：https://35itc4.a5...
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36243
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 103 官网：https://u4utlp.ab...
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36245
-  server: freea.glyphara.com
-  type: ss
-  udp: true
