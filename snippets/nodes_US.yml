@@ -37,7 +37,7 @@ proxies:
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -50,7 +50,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -66,7 +66,7 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
   port: 23340
   server: 120.233.147.197
@@ -75,7 +75,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   port: 41597
   server: 120.232.153.41
   skip-cert-verify: false
@@ -86,7 +86,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 11,12|美国5|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -102,7 +102,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 13|美国4|@ripaojiedian
+  name: 12|美国4|@ripaojiedian
   network: tcp
   port: '41597'
   server: 120.232.153.41
@@ -110,3 +110,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|22🇺🇸美国|官网：mikasacloud.site
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31211
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|23🇺🇸美国家宽|官网：mikasacloud.site
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31213
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|24🇺🇸美国|官网：mikasacloud.site
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31215
+  server: freem.vidalith.com
+  type: ss
+  udp: true

@@ -5,3 +5,17 @@ proxies:
   port: 15098
   server: 125.141.31.72
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|19🇰🇷韩国|官网：米卡莎.xyz
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|20🇰🇷韩国|官网：mikasacloud.site
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31313
+  server: freem.vidalith.com
+  type: ss
+  udp: true

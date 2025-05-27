@@ -1,5 +1,5 @@
 proxies:
-- name: '11|Channel id: @ShadowProxy66🇨🇦'
+- name: '10|Channel id: @ShadowProxy66🇨🇦'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 155.248.216.247
@@ -7,3 +7,10 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|32🇨🇦加拿大|官网：米卡莎.xyz
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31441
+  server: freem.vidalith.com
+  type: ss
+  udp: true
