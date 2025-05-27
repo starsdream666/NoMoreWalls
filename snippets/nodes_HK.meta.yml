@@ -1,46 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  name: 0|6🇭🇰香港|官网：abluecloud.xyz
+  password: 91b06fc2-dda9-4fe4-891d-00387fab1567
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
-  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 91b06fc2-dda9-4fe4-891d-00387fab1567
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|5🇭🇰香港02|官网：m5c3cloud.pro
-  port: 21142
+  name: 1|5🇭🇰香港02|官网：米卡莎.xyz
+  port: 21143
   reality-opts:
-    public-key: Vdc4OAxwzEOzblzPyMGB1kps9watMl7q8-xC3lALlWQ
-    short-id: 9f7f27b7
+    public-key: Aefu3IA6fk1vUQio476AwY4NSshxmjjEpeWrvaqAtWg
+    short-id: f9d7069c
   server: freem.vidalith.com
   servername: learn.microsoft.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f8830198-0633-42b1-9cd4-5a734799956f
+  uuid: d95fb470-d80c-46dd-83a4-f7ab2e6cc7bc
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 1|6🇭🇰香港03|官网：米卡莎.xyz
-  port: 21143
+  name: 1|6🇭🇰香港03|官网：mikasacloud.site
+  port: 21145
   reality-opts:
-    public-key: pY5FK170vjGtKx5yg-zafR4TUuZ734GGSnHZlTcznDA
-    short-id: 9f7f27b7
+    public-key: _5oMsSEfgBhN4ZMasEwrUqss5GQkKdAtgoH2MzEVRA0
+    short-id: 66c3d76e
   server: freem.vidalith.com
   servername: addons.mozilla.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f8830198-0633-42b1-9cd4-5a734799956f
+  uuid: d95fb470-d80c-46dd-83a4-f7ab2e6cc7bc
+- cipher: chacha20-ietf-poly1305
+  name: 1|7🇭🇰香港|官网：米卡莎.xyz
+  password: d95fb470-d80c-46dd-83a4-f7ab2e6cc7bc
+  port: 31141
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|8🇭🇰香港|官网：米卡莎.xyz
+  password: d95fb470-d80c-46dd-83a4-f7ab2e6cc7bc
+  port: 31143
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|9🇭🇰香港家宽|官网：米卡莎.xyz
+  password: d95fb470-d80c-46dd-83a4-f7ab2e6cc7bc
+  port: 31145
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
