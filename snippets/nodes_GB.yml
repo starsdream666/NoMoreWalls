@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 101 | 1x HK
+  password: e6526879-290d-4f6b-bb90-cebe331d7644
+  port: 31141
+  server: freem.vidalith.com
+  type: ss
+  udp: true
