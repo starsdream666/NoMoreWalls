@@ -782,14 +782,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '@Trick_mobil #2'
-  password: Telegram--&gt;@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '@Trick_mobil #3'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: 206.71.158.23
@@ -797,7 +789,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '@Trick_mobil #4'
+- name: '@Trick_mobil #3'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: gavazn.lnmarketplace.net
@@ -805,7 +797,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '@Trick_mobil #5'
+- name: '@Trick_mobil #4'
   password: Yet-Another-Public-Config-1
   port: 36400
   server: 206.71.158.37
@@ -831,6 +823,40 @@ proxies:
   server: 167.86.100.40
   skip-cert-verify: true
   sni: 167.86.100.40
+  tls: false
+  type: hysteria2
+- name: Telegram:@config_proxy 😍
+  password: 17b026f4-faba-4206-ba4f-8f83fd1c26ef
+  port: 48801
+  server: in-loc01.lada.mom
+  skip-cert-verify: false
+  sni: in-loc01.lada.mom
+  tls: false
+  type: hysteria2
+- name: '⚡Telegram = @SOSkeyNET #1'
+  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+  port: 47974
+  server: 75.127.13.83
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy 😍 #1'
+  password: 39002b0d-de73-48f6-b164-04d5784b0ecd
+  port: 443
+  server: nl-down1.lada.mom
+  skip-cert-verify: false
+  sni: nl-down1.lada.mom
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy 😍 #2'
+  obfs: salamander
+  obfs-password: GRxFC3OtWF8F8f7M
+  password: 50ada071-4309-47ba-b316-8882efe79ea1
+  port: 443
+  server: us-loc03.lada.mom
+  skip-cert-verify: false
+  sni: us-loc03.lada.mom
   tls: false
   type: hysteria2
 - name: 🧿19@oneclickvpnkeys
@@ -861,14 +887,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: Telegram:@config_proxy 😍
-  password: a48d9102-3eb4-4576-8de7-482e58bc1a39
-  port: 8080
-  server: hkmax02.352343.cc
-  skip-cert-verify: true
-  sni: hkmax02.352343.cc
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #1'
@@ -933,6 +951,31 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: '⚡Telegram = @SOSkeyNET #2'
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy 😍 #3'
+  password: f72fc7e7-f95c-4b67-9933-3d17af670102
+  port: 16666
+  server: los.zuomomo.top
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy 😍 #4'
+  obfs: salamander
+  obfs-password: EoX5pPxXQsxyYXJu
+  password: fa220328-e905-4b67-a4f0-7fec43eac048
+  port: 53251
+  server: in-loc02.lada.mom
+  skip-cert-verify: false
+  sni: in-loc02.lada.mom
+  tls: false
+  type: hysteria2
 - name: '@V2rayNG3 #4'
   password: linux.do
   port: 443
@@ -959,32 +1002,32 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 921
-  server: 54.249.53.157
+  port: 6196
+  server: 54.238.7.116
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 16.163.150.32
+  port: 50495
+  server: 18.163.114.142
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 52.194.190.150
+  port: 50495
+  server: 18.162.133.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 52.196.224.76
+  port: 21508
+  server: 54.238.7.116
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -992,39 +1035,39 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4937
-  server: 52.68.61.114
+  server: 3.112.213.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4937
-  server: 160.16.132.38
+  port: 34818
+  server: 57.181.29.108
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4674
-  server: 160.16.132.38
+  port: 3419
+  server: 3.112.213.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 3419
-  server: 160.16.132.38
+  port: 4674
+  server: 3.112.213.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 43.199.43.18
+  port: 25343
+  server: 54.238.89.170
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1032,23 +1075,23 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4019
-  server: 52.68.61.114
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4920
-  server: 18.181.152.121
+  port: 4019
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 95.40.28.8
+  port: 50446
+  server: 95.40.46.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
