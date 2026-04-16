@@ -105,16 +105,6 @@ proxies:
   sni: flkf.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '@electvpn0    تست شه'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: 🌻81@oneclickvpnkeys
   obfs: salamander
   obfs-password: cry_me_a_r1ver_2026
