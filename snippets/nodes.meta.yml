@@ -89,15 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: t.me/FREECONFIGSPLUS کانفیگ ها...
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 444
-  server: 18.194.238.82
-  sni: qus.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -106,6 +97,206 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #1'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #2'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #3'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #4'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #5'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #6'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 🇩🇪43990 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 2083
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #9'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #10'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 44044
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #11'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #12'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #13'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4784
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #14'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 48637
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 🇩🇪43992 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 48
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #16'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 52848
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #17'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #18'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 59826
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #19'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8443
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #20'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
 - name: ARGO_VPNN_mci_5
@@ -168,12 +359,92 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
+- name: '@internet_azad_2026 #21'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #22'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 🕊'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #23'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
 - name: Echo_Center
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 54040
   server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #24'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 ❤️‍🔥'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 📲'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 💗'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
@@ -188,7 +459,27 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪43365 | ⚡️Telegram = t.me/SO...
+- name: '@internet_azad_2026🥳'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 💜'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026🫥'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -198,7 +489,7 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪43366 | ⚡️Telegram = t.me/SO...
+- name: '@internet_azad_2026 🤯'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -208,7 +499,7 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪43362 | ⚡️Telegram = t.me/SO...
+- name: '@internet_azad_2026 🌃'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -218,7 +509,7 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪43363 | ⚡️Telegram = t.me/SO...
+- name: '@internet_azad_2026 ❤️'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -228,7 +519,7 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪43367 | ⚡️Telegram = t.me/SO...
+- name: '@internet_azad_2026 🥳'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -238,7 +529,7 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪43364 | ⚡️Telegram = t.me/SO...
+- name: '@internet_azad_2026 📲 #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -274,14 +565,6 @@ proxies:
   server: hy2.123266.xyz
   skip-cert-verify: true
   sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- name: 🇫🇷43496 | ⚡️Telegram = t.me/SO...
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
