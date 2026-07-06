@@ -857,7 +857,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: ♦️25@oneclickvpnkeys
+- name: ♦️25@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.175
@@ -889,7 +889,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 🕹️57@oneclickvpnkeys
+- name: 🕹️57@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.234
@@ -944,7 +944,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 🕹️58@oneclickvpnkeys
+- name: 🕹️58@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.237
@@ -1009,14 +1009,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 🕹️53@oneclickvpnkeys
+- name: 🕹️53@v2ray_configs_pools
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.229.60.114
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🕹️50@oneclickvpnkeys
+- name: 🕹️50@v2ray_configs_pools
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.229.94.221
@@ -1055,7 +1055,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🕹️54@oneclickvpnkeys
+- name: 🕹️54@v2ray_configs_pools
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-us-003.fastervpn.world
@@ -1113,7 +1113,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 🕹️56@oneclickvpnkeys
+- name: 🕹️56@v2ray_configs_pools
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 50581
   server: 172.96.141.4
@@ -1172,7 +1172,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 🕹️51@oneclickvpnkeys
+- name: 🕹️51@v2ray_configs_pools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.212.236.88
@@ -1180,7 +1180,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🕹️47@oneclickvpnkeys
+- name: 🕹️47@v2ray_configs_pools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.229.106.122
@@ -1212,7 +1212,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🕹️48@oneclickvpnkeys
+- name: 🕹️48@v2ray_configs_pools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 52.221.230.24
@@ -1220,7 +1220,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🕹️49@oneclickvpnkeys
+- name: 🕹️49@v2ray_configs_pools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.251.212.188
