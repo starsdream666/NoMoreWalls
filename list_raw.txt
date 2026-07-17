@@ -93,6 +93,8 @@ hysteria2://3uIVdQh2vc@140.233.177.48:33884?insecure=1&sni=www.oracle.com&obfs=s
 hysteria2://792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr@jongjmi.odnako.site:8449?sni=jongjmi.odnako.site#%F0%9F%AA%AD68%40oneclickvpnkeys
 hysteria2://87qety_hERGP8Y9_jqier3gw_nA8Q34_B2@45.155.103.217:8443?sni=kamil-power-machine.roxa.org#%F0%9F%AA%AD23%40oneclickvpnkeys
 hysteria2://91uokb9ud7raz0fk@qg.easyiran.org:56845?insecure=0&sni=qg.easyiran.org&obfs=salamander&obfs-password=ngljeqgna3hmfr2s#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
+hysteria2://9204bccb42c743799c6069feccb7832d@de1.jamezwin.org:443?sni=de1.jamezwin.org&obfs=salamander&obfs-password=u3do5j2gss7mfri9#%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%9A%80%40VPNine1
+hysteria2://9204bccb42c743799c6069feccb7832d@fl1.jamezwin.org:443?sni=fl1.jamezwin.org&obfs=salamander&obfs-password=rtm0hc7dpaqfd8d7#%F0%9F%87%AB%F0%9F%87%AEFI-%F0%9F%9A%80%40VPNine1
 hysteria2://92QgVKZjWa@91.107.152.188:40460?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#%40V2RayyNGvpn%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%F0%9F%87%A9%F0%9F%87%AA
 hysteria2://BADANGELLLL@169.40.32.218:53008?insecure=0&alpn=h3&sni=169.40.32.218&obfs=salamander&obfs-password=lwhvz2y1ntz8p5nf#%40Badangellll-JOIN%F0%9F%A4%9D%20%D9%88%D8%B5%D9%84%20%D8%B4%DB%8C%D9%86%20%D8%8C%D8%AD%D9%85...
 hysteria2://CakZRUUlundefinedS@91.107.152.188:40460?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#telegram%20%40mtmvpn%20%F0%9F%8C%9B
@@ -192,7 +194,7 @@ https://25b2699a-e18e-11ec-8e69-f23c91cfbbc9:25b2699a-e18e-11ec-8e69-f23c91cfbbc
 https://2b57ec48-0da4-11ef-8f35-f23c913c8d2b:2b57ec48-0da4-11ef-8f35-f23c913c8d2b@d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com:443
 trojan://Mitivpn@iranpoems.ir:443?allowInsecure=0&sni=www.gamingdll.ir&type=ws&host=www.gamingdll.ir&path=/usa=mitivpn#US_speednode_0063
 anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@us-sje.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#US1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
-anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@hkt-ddns.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#HK1%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
-anytls://ae74dd32-c336-4be4-9c15-f6108292b3e5@us1.anliangjifei.top:12053?security=none&type=tcp&allowInsecure=1&sni=us1.anliangjifei.top&insecure=1&udp=1#US10%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://be8cc8f6-0c6a-11f0-a5a3-f23c93141fad@ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com:8300?security=none&type=tcp&allowInsecure=1&sni=ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com&fp=chrome&udp=1&insecure=1#HK70%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
 anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@jp.iij.sakura.baipiao0721-dns78655.eu:8443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#JP1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+anytls://ae74dd32-c336-4be4-9c15-f6108292b3e5@us1.anliangjifei.top:12053?security=none&type=tcp&allowInsecure=1&sni=us1.anliangjifei.top&insecure=1&udp=1#US10%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@hkt-ddns.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#HK1%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
