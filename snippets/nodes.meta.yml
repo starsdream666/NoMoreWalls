@@ -875,6 +875,14 @@ proxies:
   sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
+- name: '@one_shop_official'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 103.115.109.49
+  skip-cert-verify: true
+  sni: https://t.me/oneclickvpnkeys
+  tls: false
+  type: hysteria2
 - name: ⭕T.Me=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -975,6 +983,26 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 未命名
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: ZkWtnfGK6h
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: 🇩🇪117063 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: ZkWtnfGK6h
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: '@AzarAndoozVPNbot #3'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -995,7 +1023,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇫🇮116809 | ⚡️Telegram = t.me/S...
+- name: '@filembad #1'
   obfs: salamander
   obfs-password: ielzukpwth087afx
   password: elknam6l7izf3z71
@@ -1011,16 +1039,6 @@ proxies:
   password: elknam6l7izf3z71
   port: 52021
   server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '🇫🇮116809 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: ielzukpwth087afx
-  password: elknam6l7izf3z71
-  port: 52002
-  server: soskeynets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
@@ -1045,7 +1063,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
+- name: '🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: lubtxOi8h8
