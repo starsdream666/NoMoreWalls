@@ -110,24 +110,21 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 日本|@ripaojiedian
-  network: tcp
+- name: 🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 4099
   server: 95.40.21.67
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
+- name: 🇯🇵 日本2|@ripaojiedian
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 16.162.122.228
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
+- name: 🇯🇵 日本3|@ripaojiedian
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 18.163.123.229
