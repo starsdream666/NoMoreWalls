@@ -350,7 +350,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: HK_speednode_0012
+- name: 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -358,7 +358,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -399,7 +398,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0013
+- name: HK_speednode_0005
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -424,7 +423,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: HK_speednode_0015
+- name: HK_speednode_0006
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -433,7 +432,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: HK_speednode_0014
+- name: HK_speednode_0007
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
