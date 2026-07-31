@@ -154,6 +154,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: Germany 🇩🇪
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: germany1.noesissite.ru
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪3
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
@@ -204,6 +212,16 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪6
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: mY0pSnWDFk
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
   obfs: salamander
   obfs-password: V2RayyNGvpn
@@ -214,3 +232,11 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- name: DE_speednode_0009
+  port: 49518
+  server: 49.12.130.109
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
