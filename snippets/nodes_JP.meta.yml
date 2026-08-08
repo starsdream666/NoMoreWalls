@@ -103,7 +103,7 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 🇷🇴137070 | ⚡️Telegram = t.me/S...
+- name: 🇯🇵JP
   password: STYyftThFn
   port: 12765
   server: freedom.chenlan.top
