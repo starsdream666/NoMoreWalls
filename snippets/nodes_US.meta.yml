@@ -59,15 +59,6 @@ proxies:
   sni: 144.225.187.153#美国4@wxgqlfx
   tls: false
   type: hysteria2
-- name: 🇺🇸US
-  obfs: salamander
-  obfs-password: XBvVbvzQCq6Ovbnh
-  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  port: 14101
-  server: usaw2.awo-link.com
-  sni: usaw2.awo-link.com
-  tls: false
-  type: hysteria2
 - name: '美国 #3'
   password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
   port: 8458
