@@ -926,7 +926,7 @@ class Source():
             if isinstance(text, str):
                 if "proxies:" in text:
                     # Clash config
-                    config = yaml.full_load(text.replace("!<str>","!!str"))
+                    config = yaml.safe_load(text.replace("!<str>","!!str"))
                     sub = config['proxies']
                 elif '://' in text:
                     # V2Ray raw list
@@ -1271,7 +1271,7 @@ def main():
     print("写出完成！")
 
     with open("config.yml", encoding="utf-8") as f:
-        conf: Dict[str, Any] = yaml.full_load(f)
+        conf: Dict[str, Any] = yaml.safe_load(f)
 
     rules: Dict[str, str] = {}
     if DEBUG_NO_ADBLOCK:
@@ -1442,7 +1442,7 @@ def main():
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
 
         with open("snippets/example.yml", encoding="utf-8") as f:
-            template: Dict[str, Any] = yaml.full_load(f)
+            template: Dict[str, Any] = yaml.safe_load(f)
         template = {
             k: v for k,v in template.items()
             if k in ('dns', 'proxy-groups', 'rule-providers', 'rules')
