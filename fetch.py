@@ -47,7 +47,6 @@ import requests
 from requests_file import FileAdapter
 import datetime
 import traceback
-import binascii
 import threading
 import sys
 import os
@@ -69,17 +68,11 @@ def b64encodes_safe(s: str):
 
 def b64decodes(s: str):
     ss = s + '=' * ((4-len(s)%4)%4)
-    try:
-        return base64.b64decode(ss.encode('utf-8')).decode('utf-8')
-    except UnicodeDecodeError: raise
-    except binascii.Error: raise
+    return base64.b64decode(ss.encode('utf-8')).decode('utf-8')
 
 def b64decodes_safe(s: str):
     ss = s + '=' * ((4-len(s)%4)%4)
-    try:
-        return base64.urlsafe_b64decode(ss.encode('utf-8')).decode('utf-8')
-    except UnicodeDecodeError: raise
-    except binascii.Error: raise
+    return base64.urlsafe_b64decode(ss.encode('utf-8')).decode('utf-8')
 
 def normpath(url: str):
     if url.startswith('file://'):
@@ -261,8 +254,8 @@ class Node:
     def _load_vmess(self, url: str, dt: str):
         v = VMESS_TEMPLATE.copy()
         try: v.update(json.loads(b64decodes(dt)))
-        except Exception:
-            raise UnsupportedType('vmess', 'SP')
+        except Exception as e:
+            raise UnsupportedType('vmess', 'SP') from e
         self.data = {}
         for key, val in v.items():
             if key in VMESS2CLASH:
@@ -299,8 +292,8 @@ class Node:
         server = ':'.join(segs[:-1])
         try:
             port = int(port)
-        except ValueError:
-            raise UnsupportedType('ss', 'SP')
+        except ValueError as e:
+            raise UnsupportedType('ss', 'SP') from e
         info = '@'.join(info)
         if not ':' in info:
             info = b64decodes_safe(info)
@@ -318,9 +311,7 @@ class Node:
             parts = dt.split(':')
         else:
             parts = b64decodes_safe(dt).split(':')
-        try:
-            passwd, info = parts[-1].split('/?')
-        except: raise
+        passwd, info = parts[-1].split('/?')
         passwd = b64decodes_safe(passwd)
         self.data = {'type': 'ssr', 'server': parts[0], 'port': parts[1],
                 'protocol': parts[2], 'cipher': parts[3], 'obfs': parts[4],
@@ -866,7 +857,7 @@ class Source():
             self.content = -1
             exc = "在抓取 '"+self.url+"' 时发生网络错误：\n"+str(e)
             self.exc_queue.append(exc)
-        except:
+        except Exception:
             self.content = -2
             exc = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
             self.exc_queue.append(exc)
@@ -917,7 +908,7 @@ class Source():
         except UnicodeDecodeError:
             exc = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
             self.exc_queue.append(exc)
-            ret = content.decode('ignore')
+            ret = content.decode(errors='ignore')
         return ret
 
     def parse(self):
@@ -949,7 +940,7 @@ class Source():
                 else: self.sub = sub
             else: self.sub = sub
         except KeyboardInterrupt: raise
-        except: self.exc_queue.append(
+        except Exception: self.exc_queue.append(
                 "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc())
 
 class DomainTree:
@@ -1021,7 +1012,9 @@ def merge(source_obj: Source, sourceId=-1):
             if len(e.args) == 1:
                 print(f"不支持的类型：{e}")
             unknown.add(p)
-        except: traceback.print_exc()
+        except Exception:
+            print(f"节点解析失败：{p!r}", file=sys.stderr)
+            traceback.print_exc()
         else:
             n.format_name()
             Node.gNames.add(n.data['name'])
@@ -1055,11 +1048,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
         try:
             res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
-            try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
-                traceback.print_exc()
+            print(f"{url} 下载失败：{e}")
             continue
         if res.status_code != 200:
             print(url, res.status_code)
@@ -1078,11 +1067,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
         try:
             res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
-            try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
-                traceback.print_exc()
+            print(f"{url} 下载失败：{e}")
             continue
         if res.status_code != 200:
             print(url, res.status_code)
@@ -1138,8 +1123,8 @@ def main():
     for auto_fun in AUTOURLS:
         print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
         try: url = auto_fun()
-        except requests.exceptions.RequestException: print("失败！")
-        except: print("错误：");traceback.print_exc()
+        except requests.exceptions.RequestException as e: print(f"失败！{e}")
+        except Exception: print("错误：");traceback.print_exc()
         else:
             if url:
                 if isinstance(url, str):
@@ -1181,9 +1166,9 @@ def main():
             except KeyboardInterrupt:
                 print("正在退出...")
                 break
-            except requests.exceptions.RequestException:
-                print("合并失败！")
-            except: traceback.print_exc()
+            except requests.exceptions.RequestException as e:
+                print(f"合并失败！{e}")
+            except Exception: traceback.print_exc()
             else:
                 if isinstance(res, int):
                     print(res)
@@ -1225,7 +1210,7 @@ def main():
                 except KeyboardInterrupt:
                     print("正在退出...")
                     break
-                except:
+                except Exception:
                     print("失败！")
                     traceback.print_exc()
                 else: print("完成！")
@@ -1258,7 +1243,7 @@ def main():
                 except UnsupportedType as e:
                     print(f"不支持的类型：{e}")
             else: unsupports += 1
-        except: traceback.print_exc()
+        except Exception: traceback.print_exc()
     for p in unknown:
         txt += p+'\n'
     print(f"共有 {len(merged)-unsupports} 个正常节点，{len(unknown)} 个无法解析的节点，共",
@@ -1392,7 +1377,7 @@ def main():
                 ctg_selects.append(disp['name'])
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
-    except:
+    except (KeyError, TypeError):
         dns_mode: Optional[str] = None
     else:
         conf['dns']['enhanced-mode'] = 'fake-ip'
@@ -1465,7 +1450,7 @@ def main():
     for i, source in enumerate(sources_obj):
         out += f"{i},{source.url},"
         try: out += f"{len(source.sub)}"
-        except: out += '0'
+        except TypeError: out += '0'
         out += '\n'
     out += f"\n总计,,{len(merged)}\n"
     open("list_result.csv",'w',errors='replace').write(out)
