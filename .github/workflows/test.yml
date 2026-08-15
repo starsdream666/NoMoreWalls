@@ -1,0 +1,30 @@
+name: Test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '**.py'
+      - 'requirements.txt'
+      - '.github/workflows/test.yml'
+  push:
+    paths:
+      - '**.py'
+      - 'requirements.txt'
+      - '.github/workflows/test.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 迁出代码
+      uses: actions/checkout@v4
+    - name: 安装 Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        cache: 'pip'
+    - name: 安装依赖
+      run: pip install -r requirements.txt
+    - name: 运行单元测试
+      run: python -m unittest discover -v
