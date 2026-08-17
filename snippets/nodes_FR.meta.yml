@@ -21,12 +21,12 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
-- name: 🌀37@oneclickvpnkeys
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: flkf3.mangshe.xyz
+- name: 🇫🇷145276 | ⚡️Telegram = t.me/S...
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
+  sni: 'off'
   tls: false
   type: hysteria2
 - name: FR_speednode_0002
