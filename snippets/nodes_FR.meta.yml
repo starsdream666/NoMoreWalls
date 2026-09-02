@@ -60,7 +60,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 'VCONFING #2'
+  name: 'VCONFING #3'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
