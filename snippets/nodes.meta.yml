@@ -132,56 +132,6 @@ proxies:
   sni: srv-0e5387.frd21.ru
   tls: false
   type: hysteria2
-- name: 🌍71@oneclickvpnkeys
-  password: 36cd82d2-50b1-0029-b520-2acc9a8a6b40
-  port: 443
-  server: 194.55.235.77
-  sni: api-l1-2.northvale.cloud
-  tls: false
-  type: hysteria2
-- name: 🌍37@oneclickvpnkeys
-  password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
-  port: 443
-  server: de.northvale.cloud
-  sni: de.northvale.cloud
-  tls: false
-  type: hysteria2
-- name: 🌍68@oneclickvpnkeys
-  password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
-  port: 443
-  server: fi.northvale.cloud
-  sni: fi.northvale.cloud
-  tls: false
-  type: hysteria2
-- name: 🌍69@oneclickvpnkeys
-  password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
-  port: 443
-  server: lv1.northvale.cloud
-  sni: lv.northvale.cloud
-  tls: false
-  type: hysteria2
-- name: 🌍42@oneclickvpnkeys
-  password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
-  port: 443
-  server: nl.northvale.cloud
-  sni: nl.northvale.cloud
-  tls: false
-  type: hysteria2
-- name: 🌍66@oneclickvpnkeys
-  password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
-  port: 443
-  server: sw.northvale.cloud
-  sni: sw.northvale.cloud
-  tls: false
-  type: hysteria2
-- name: 🍎98@oneclickvpnkeys
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: 129.213.91.185
-  tls: false
-  type: hysteria2
 - name: Tel-@ProxyMtAlpha👑 10
   obfs: salamander
   obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
@@ -270,25 +220,6 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 🍎92@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: 206.1.96.108
-  sni: me17.msjia8844.site
-  tls: false
-  type: hysteria2
-- name: 🍎97@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: me17.msjia8844.site
-  skip-cert-verify: true
-  sni: me17.msjia8844.site
-  tls: false
-  type: hysteria2
 - name: '@FarazV2ray'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
@@ -299,6 +230,16 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
+- name: 🇩🇪197534 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram
+  port: 443
+  server: 179.61.138.145
+  skip-cert-verify: false
+  sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
 - name: 🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -307,35 +248,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 🇷🇺197241 | ⚡️Telegram = t.me/S...
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: 144.31.49.47
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: 🌍12@oneclickvpnkeys
-  password: acc89593-8200-4701-817b-c4d9727ea5a7
-  port: 54183
-  server: 189.74.106.166
-  sni: outh.yandex-cloud.org
-  tls: false
-  type: hysteria2
-- name: 🌍9@oneclickvpnkeys
-  password: acc89593-8200-4701-817b-c4d9727ea5a7
-  port: 54183
-  server: 189.74.114.41
-  sni: outh.yandex-cloud.org
-  tls: false
-  type: hysteria2
-- name: 🌍7@oneclickvpnkeys
-  password: acc89593-8200-4701-817b-c4d9727ea5a7
-  port: 54183
-  server: 189.74.114.6
-  sni: outh.yandex-cloud.org
   tls: false
   type: hysteria2
 - name: '@KAFING_2 #2'
@@ -416,14 +328,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: '@meliproxyy'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.132
-  skip-cert-verify: true
-  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇳🇱
