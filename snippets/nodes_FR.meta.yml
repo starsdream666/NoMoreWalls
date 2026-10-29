@@ -1,12 +1,9 @@
 proxies:
 - name: 🇫🇷FR-🚀@VPNine1
-  obfs: salamander
-  obfs-password: a56415ff1be77383
-  password: de698ab0-709d-413f-b21f-a914e5e7c603
-  port: 20230
-  server: 51.75.118.79
-  skip-cert-verify: true
-  sni: www.bing.com
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  port: 443
+  server: 31.185.105.12
+  sni: fr.song69.fun
   tls: false
   type: hysteria2
 - name: FR_speednode_0008
