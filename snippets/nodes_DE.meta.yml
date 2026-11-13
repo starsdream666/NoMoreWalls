@@ -144,14 +144,6 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 🫆92@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.69.232.199
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 德国|@ripaojiedian
